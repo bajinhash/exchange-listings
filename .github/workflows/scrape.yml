@@ -1,0 +1,64 @@
+name: Daily scrape
+
+# Runs every day at 02:30 UTC (~10:30 Asia/Shanghai). Also exposed as a
+# manual trigger so you can run it on demand from the Actions tab.
+on:
+  schedule:
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: npm run scrape
+
+      - name: Commit raw output if it changed
+        run: |
+          DATE=$(date -u +%F)
+          FILE="data/raw-${DATE}.json"
+          if [ -f "$FILE" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add "$FILE"
+            if ! git diff --cached --quiet; then
+              git commit -m "chore(data): raw scrape ${DATE}"
+              git push
+            else
+              echo "no changes to commit"
+            fi
+          else
+            echo "scraper produced no file — skipping commit"
+          fi
+
+      - name: Upload artifact for inspection
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-${{ github.run_id }}
+          path: data/raw-*.json
+          retention-days: 14
+          if-no-files-found: ignore
