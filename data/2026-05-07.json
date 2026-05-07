@@ -1,0 +1,132 @@
+{
+  "date": "2026-05-07",
+  "updatedAt": "2026-05-07T10:30:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Billions Network (BILL)",
+          "type": "合约上线",
+          "detail": "BILLUSDT 永续合约上线，2026-05-07 15:00 UTC+8",
+          "url": "https://www.binance.com/en/support/announcement/7220be8100ee41149169e9179c380c8c"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "Anthropic (ANTHROPIC)",
+          "type": "美股合约",
+          "detail": "ANTHROPIC-USDT-SWAP 永续合约，5倍杠杆，2026-05-07 17:30 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-anthropicusdt-perpetual-contract"
+        },
+        {
+          "token": "OpenAI (OPENAI)",
+          "type": "美股合约",
+          "detail": "OPENAI-USDT-SWAP 永续合约，5倍杠杆，2026-05-07 17:15 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-openaiusdt-perpetual-contract"
+        },
+        {
+          "token": "SpaceX (SPACEX)",
+          "type": "美股合约",
+          "detail": "SPACEX-USDT-SWAP 永续合约，5倍杠杆，2026-05-07 17:00 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-spacexusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "Invesco QQQ Trust (QQQ)",
+          "type": "美股合约",
+          "detail": "QQQUSDT 永续合约，支持最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-qqqusdt-perpetual-contract-with-up-to-10x-leverage-blt5f25ec60d327aaa5/"
+        },
+        {
+          "token": "iShares MSCI South Korea ETF (EWY)",
+          "type": "美股合约",
+          "detail": "EWYUSDT 永续合约，支持最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ewyusdt-perpetual-contract-with-up-to-10x-leverage-bltc949ea50b43fc597/"
+        },
+        {
+          "token": "Micron Technology (MU)",
+          "type": "美股合约",
+          "detail": "MUUSDT 永续合约，支持最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-muusdt-perpetual-contract-with-up-to-10x-leverage-bltdc3fb2414328d742/"
+        },
+        {
+          "token": "iShares MSCI Japan ETF (EWJ)",
+          "type": "美股合约",
+          "detail": "EWJUSDT 永续合约，支持最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ewjusdt-perpetual-contract-with-up-to-10x-leverage-blt925ebab81e503215/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Qualcomm (QCOM)",
+          "type": "美股合约",
+          "detail": "QCOMUSDT 股票指数永续合约上线",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-qcomusdt-stock-index-perpetual-contract-2026-05-07"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Billions Network (BILL)",
+          "type": "合约上线",
+          "detail": "BILL 永续合约交易上线（USDT 结算）",
+          "url": "https://www.gate.com/zh/announcements/article/51078"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "现货杠杆",
+          "detail": "现货杠杆新增 MEGA/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883528"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "unstable coin (USDUC)",
+          "type": "合约上线",
+          "detail": "USDUCUSDT 合约上线，2026年5月7日 15:00 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-usducusdt-futures-on-may-7-2026-07-17827791535324"
+        },
+        {
+          "token": "unstable coin (USDUC)",
+          "type": "首发上币",
+          "detail": "首发上线创新区 USDUC 现货",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535318"
+        },
+        {
+          "token": "USAR 和 KAIO 和 REDO 和 UTYA 和 LFI",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 USAR、KAIO、REDO、UTYA、LFI U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-usar-kaio-redo-utya-and-lfi-usdt-m-futures-17827791535319"
+        },
+        {
+          "token": "APPLE",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535312"
+        },
+        {
+          "token": "KAIO (KAIO)",
+          "type": "合约上线",
+          "detail": "全球首发 KAIO USDT合约，2026年5月6日 21:10 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535310"
+        }
+      ]
+    }
+  }
+}
