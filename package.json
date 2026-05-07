@@ -1,0 +1,11 @@
+{
+  "name": "exchange-listings",
+  "version": "1.0.0",
+  "description": "Daily crypto exchange new-listing announcements scraper + static viewer",
+  "scripts": {
+    "scrape": "node scripts/scraper.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
