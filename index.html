@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>交易所新币上线日报</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8f8fa;
+      --surface: #ffffff;
+      --border: #e4e4ec;
+      --border-strong: #cdcdd8;
+      --accent: #3b6eda;
+      --accent-soft: #3b6eda0a;
+      --accent-badge: #eef2fb;
+      --text: #1c1c28;
+      --text-2: #52526b;
+      --text-3: #9494ab;
+      --green: #3d8c5c;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 3.5rem 2rem 4rem;
+    }
+
+    /* Header */
+    header {
+      margin-bottom: 2.5rem;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.02em;
+    }
+
+    .date-control {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .date-control label {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--text-3);
+    }
+
+    #date-picker {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.4rem 0.65rem;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+
+    #date-picker:focus {
+      border-color: var(--accent);
+    }
+
+    .header-meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+
+    #update-time {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--text-3);
+    }
+
+    .live-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--green);
+      animation: blink 2.5s ease-in-out infinite;
+    }
+
+    .live-dot.hidden { display: none; }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    /* Content */
+    #content {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+    }
+
+    .exchange-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: border-color 0.15s, box-shadow 0.2s;
+      animation: slideUp 0.35s ease both;
+    }
+
+    .exchange-card:hover {
+      border-color: var(--border-strong);
+      box-shadow: 0 2px 8px rgba(45, 42, 38, 0.04);
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .exchange-card:nth-child(1) { animation-delay: 0s; }
+    .exchange-card:nth-child(2) { animation-delay: 0.04s; }
+    .exchange-card:nth-child(3) { animation-delay: 0.08s; }
+    .exchange-card:nth-child(4) { animation-delay: 0.12s; }
+    .exchange-card:nth-child(5) { animation-delay: 0.16s; }
+    .exchange-card:nth-child(6) { animation-delay: 0.2s; }
+    .exchange-card:nth-child(7) { animation-delay: 0.24s; }
+
+    .card-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, #fafafc 0%, var(--surface) 100%);
+    }
+
+    .card-head h2 {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .badge {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      font-weight: 500;
+      color: var(--accent);
+      background: var(--accent-badge);
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+    }
+
+    .card-body {
+      padding: 0.5rem 1.25rem 1rem;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    thead th {
+      font-size: 0.67rem;
+      font-weight: 600;
+      color: var(--text-3);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.5rem 0.5rem 0.4rem;
+      text-align: left;
+    }
+
+    tbody td {
+      padding: 0.5rem;
+      font-size: 0.82rem;
+      border-top: 1px solid var(--border);
+    }
+
+    tbody tr:first-child td { border-top: none; }
+    tbody tr:hover td { background: var(--accent-soft); }
+
+    .token-name {
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 500;
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .listing-type {
+      font-weight: 500;
+      color: var(--accent);
+      font-size: 0.78rem;
+      white-space: nowrap;
+    }
+
+    .listing-detail {
+      color: var(--text-2);
+      font-size: 0.78rem;
+      line-height: 1.4;
+    }
+
+    .detail-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.72rem;
+      white-space: nowrap;
+    }
+
+    .detail-link:hover { text-decoration: underline; }
+
+    .empty-msg {
+      color: var(--text-3);
+      font-size: 0.8rem;
+      padding: 0.3rem 0.5rem;
+    }
+
+    .sub-section {
+      margin-top: 0.5rem;
+      padding-top: 0.6rem;
+      border-top: 1px dashed var(--border);
+    }
+
+    .sub-title {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.72rem;
+      font-weight: 500;
+      color: var(--accent);
+      margin-bottom: 0.3rem;
+      padding-left: 0.5rem;
+    }
+
+    /* Export */
+    .export-wrapper {
+      position: relative;
+    }
+
+    .export-btn {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-2);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.4rem 0.75rem;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .export-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .export-panel {
+      position: absolute;
+      top: calc(100% + 6px);
+      right: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      padding: 0.4rem;
+      display: none;
+      z-index: 100;
+      min-width: 180px;
+    }
+
+    .export-panel.open { display: block; }
+
+    .export-option {
+      display: block;
+      width: 100%;
+      text-align: left;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.78rem;
+      color: var(--text);
+      background: none;
+      border: none;
+      padding: 0.5rem 0.7rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+
+    .export-option:hover { background: var(--accent-soft); }
+
+
+    .export-toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: var(--text);
+      color: #fff;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.78rem;
+      padding: 0.5rem 1.2rem;
+      border-radius: 6px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .export-toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* No data */
+    #no-data {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+
+    #no-data p:first-of-type {
+      font-family: 'Fraunces', serif;
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--text-2);
+      margin-bottom: 0.5rem;
+    }
+
+    #no-data p:last-of-type {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--text-3);
+    }
+
+    /* Loading */
+    .loading {
+      text-align: center;
+      padding: 4rem 0;
+      color: var(--text-3);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.78rem;
+    }
+
+    .loading::after {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border: 1.5px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      margin-left: 0.5rem;
+      vertical-align: middle;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .hidden { display: none; }
+
+    /* Mobile */
+    @media (max-width: 640px) {
+      .page { padding: 2rem 1rem; }
+      h1 { font-size: 1.3rem; }
+      .header-top { flex-direction: column; align-items: flex-start; }
+      .card-head { padding: 0.65rem 1rem; }
+      .card-body { padding: 0.4rem 0.75rem 0.75rem; overflow-x: visible; }
+
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { display: none; }
+
+      tbody tr {
+        padding: 0.6rem 0;
+        border-top: 1px solid var(--border);
+      }
+      tbody tr:first-child { border-top: none; }
+
+      tbody td {
+        border-top: none;
+        padding: 0.1rem 0.25rem;
+      }
+
+      tbody td:first-child {
+        font-size: 0.84rem;
+        margin-bottom: 0.15rem;
+      }
+
+      .listing-type {
+        display: inline-block;
+        font-size: 0.72rem;
+        background: var(--accent-badge);
+        padding: 0.1rem 0.45rem;
+        border-radius: 3px;
+        margin-bottom: 0.2rem;
+      }
+
+      .listing-detail {
+        font-size: 0.78rem;
+        line-height: 1.5;
+      }
+    }
+
+    /* Print */
+    @media print {
+      body { background: #fff; }
+      .page { max-width: none; padding: 1.5rem; }
+      header { margin-bottom: 1.5rem; }
+      .header-top { justify-content: flex-start; }
+      h1 { font-size: 1.4rem; }
+      .date-control, .header-meta, #no-data, .export-toast { display: none !important; }
+      .print-title { display: block !important; font-size: 0.85rem; color: #555; margin-top: 0.3rem; }
+      .exchange-card {
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        animation: none;
+        break-inside: avoid;
+        margin-bottom: 1rem;
+      }
+      .exchange-card:hover { border-color: transparent; box-shadow: none; }
+      .card-head {
+        background: none;
+        border-bottom: none;
+        padding: 0 0 0.3rem;
+      }
+      .card-head h2 { font-size: 0.9rem; font-weight: 700; }
+      .badge { display: none; }
+      .card-body { padding: 0; }
+      table { border: 1px solid #e0e0e0; }
+      thead th {
+        background: #f5f5f5;
+        border-bottom: 1px solid #e0e0e0;
+        font-size: 0.75rem;
+        padding: 0.5rem 0.7rem;
+        text-transform: none;
+        letter-spacing: 0;
+        color: #333;
+      }
+      tbody td {
+        padding: 0.5rem 0.7rem;
+        font-size: 0.8rem;
+        border-top: 1px solid #e0e0e0;
+      }
+      tbody tr:hover td { background: none; }
+      .detail-link { display: none; }
+      .sub-section { border-top: none; margin-top: 1rem; }
+      .sub-title { font-size: 0.8rem; padding-left: 0; margin-bottom: 0.4rem; }
+    }
+
+    .print-title { display: none; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="header-top">
+        <h1>交易所新币上线日报</h1>
+        <div class="print-title" id="print-title"></div>
+        <div class="date-control">
+          <label>日期</label>
+          <input type="date" id="date-picker">
+          <div class="export-wrapper">
+            <button class="export-btn" id="export-btn">导出</button>
+            <div class="export-panel" id="export-panel">
+              <button class="export-option" data-format="pdf">导出 PDF</button>
+              <button class="export-option" data-format="copy">复制纯文本</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-meta">
+        <div class="live-dot hidden" id="live-dot"></div>
+        <div id="update-time"></div>
+      </div>
+    </header>
+
+    <div id="content"></div>
+    <div id="no-data" class="hidden">
+      <p>该日期暂无数据</p>
+      <p>数据每日手动更新</p>
+    </div>
+  </div>
+
+  <div class="export-toast" id="export-toast">已复制到剪贴板</div>
+  <script src="app.js"></script>
+</body>
+</html>
