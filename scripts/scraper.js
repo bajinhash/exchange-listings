@@ -4,6 +4,31 @@ const path = require('path');
 
 const TODAY = new Date().toISOString().split('T')[0];
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+
+// Hardened fetch: 15s timeout + browser-like headers. Binance/OKX edges
+// will hang a bare `fetch()` indefinitely as part of bot detection — this
+// makes us fail fast so the Playwright fallback (or the next exchange) runs.
+async function fetchJson(url, opts = {}) {
+  const ctl = new AbortController();
+  const t = setTimeout(() => ctl.abort(), opts.timeout || 15000);
+  try {
+    const res = await fetch(url, {
+      ...opts,
+      signal: ctl.signal,
+      headers: {
+        'user-agent': UA,
+        'accept': 'application/json, text/plain, */*',
+        'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8',
+        ...(opts.headers || {}),
+      },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } finally {
+    clearTimeout(t);
+  }
+}
 
 async function fetchPageContent(page, url, selector) {
   try {
@@ -21,8 +46,7 @@ async function scrapeBinance(page) {
   try {
     let items = [];
     try {
-      const res = await fetch('https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=10');
-      const data = await res.json();
+      const data = await fetchJson('https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=10');
       const rawArticles = data?.data?.catalogs?.[0]?.articles || data?.data?.articles || [];
       items = rawArticles.map(a => ({
         title: a.title || '',
@@ -54,8 +78,7 @@ async function scrapeBinance(page) {
 async function scrapeOKX(page) {
   const articles = [];
   try {
-    const res = await fetch('https://www.okx.com/v2/support/home/web');
-    const data = await res.json();
+    const data = await fetchJson('https://www.okx.com/v2/support/home/web');
     const notices = data?.data?.notices || [];
     for (const n of notices) {
       if (n.sectionSlug !== 'announcements-new-listings') continue;
@@ -77,8 +100,7 @@ async function scrapeOKX(page) {
 async function scrapeBybit(page) {
   const articles = [];
   try {
-    const res = await fetch('https://api.bybit.com/v5/announcements/index?locale=zh-TW&type=new_crypto&limit=10');
-    const data = await res.json();
+    const data = await fetchJson('https://api.bybit.com/v5/announcements/index?locale=zh-TW&type=new_crypto&limit=10');
     const list = data?.result?.list || [];
 
     for (const item of list) {
@@ -198,13 +220,74 @@ async function scrapeMEXC(page) {
   return articles;
 }
 
+async function scrapeHTX(page) {
+  // HTX (formerly Huobi) — new listings announcements.
+  // Public endpoint exposes the announcement list as JSON. We hit the API
+  // first, fall back to DOM scrape if the schema shifts.
+  const articles = [];
+  try {
+    // categoryId=86 is "new currency listing" on zh-cn. Schema observed
+    // around 2025-2026: { data: { contents: [ { title, displayTime, link, ... } ] } }
+    let items = [];
+    try {
+      const data = await fetchJson(
+        'https://www.htx.com/-/x/support/sn/api/v1/contents?categoryId=86&pageNum=1&pageSize=15&language=zh-cn'
+      );
+      const list = data?.data?.contents || data?.data?.list || [];
+      items = list.map(c => ({
+        title: c.title || c.shareTitle || '',
+        url: c.link?.startsWith('http')
+          ? c.link
+          : `https://www.htx.com/zh-cn/support/${c.link || c.id || ''}`,
+        publishTime: c.displayTime || c.createTime || c.publishTime
+      }));
+    } catch (e) {
+      // DOM fallback
+      await page.goto('https://www.htx.com/zh-cn/support/list/?category=announcement_new_listings', {
+        waitUntil: 'domcontentloaded',
+        timeout: 30000
+      });
+      await page.waitForTimeout(3000);
+      const links = await page.$$eval('a[href*="/support/"]', as =>
+        as.map(a => ({
+          title: a.textContent?.trim() || '',
+          href: a.getAttribute('href') || ''
+        })).filter(i => i.title.length > 10)
+      );
+      items = links.slice(0, 15).map(l => ({
+        title: l.title,
+        url: l.href.startsWith('http') ? l.href : `https://www.htx.com${l.href}`
+      }));
+    }
+
+    for (const item of items) {
+      if (!item.title) continue;
+      if (item.title.includes('下架') || item.title.includes('暂停') || item.title.includes('维护')) continue;
+      // Optional: keep only TODAY's items when publishTime is available
+      if (item.publishTime) {
+        const d = new Date(Number(item.publishTime) || item.publishTime);
+        if (!isNaN(d) && d.toISOString().split('T')[0] !== TODAY) continue;
+      }
+      const body = await fetchPageContent(page, item.url, 'article, main, .content, [class*="article"]');
+      articles.push({ title: item.title, url: item.url, body });
+      if (articles.length >= 8) break;
+    }
+  } catch (e) {
+    console.error('  HTX scrape error:', e.message);
+  }
+  return articles;
+}
+
 async function main() {
   console.log(`Scraping exchange listings for ${TODAY}...`);
 
-  const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+  const proxyUrl = process.env.HTTPS_PROXY || process.env.https_proxy || process.env.HTTP_PROXY || process.env.http_proxy;
+  if (proxyUrl) console.log(`[scrape] Using proxy: ${proxyUrl}`);
+  const browser = await chromium.launch({
+    headless: true,
+    ...(proxyUrl ? { proxy: { server: proxyUrl } } : {}),
   });
+  const context = await browser.newContext({ userAgent: UA });
 
   async function withNewPage(fn) {
     const p = await context.newPage();
@@ -213,33 +296,22 @@ async function main() {
 
   console.log('\n--- Collecting announcements ---');
 
-  console.log('  Binance...');
-  const binanceArticles = await withNewPage(p => scrapeBinance(p));
-  console.log(`    Found ${binanceArticles.length} articles`);
+  async function run(name, fn) {
+    process.stdout.write(`  ${name}...`);
+    const t0 = Date.now();
+    const arr = await withNewPage(fn);
+    console.log(` ${arr.length} articles (${((Date.now() - t0) / 1000).toFixed(1)}s)`);
+    return arr;
+  }
 
-  console.log('  OKX...');
-  const okxArticles = await withNewPage(p => scrapeOKX(p));
-  console.log(`    Found ${okxArticles.length} articles`);
-
-  console.log('  Bybit...');
-  const bybitArticles = await withNewPage(p => scrapeBybit(p));
-  console.log(`    Found ${bybitArticles.length} articles`);
-
-  console.log('  KuCoin...');
-  const kucoinArticles = await withNewPage(p => scrapeKuCoin(p));
-  console.log(`    Found ${kucoinArticles.length} articles`);
-
-  console.log('  Gate.io...');
-  const gateioArticles = await withNewPage(p => scrapeGateio(p));
-  console.log(`    Found ${gateioArticles.length} articles`);
-
-  console.log('  Bitget...');
-  const bitgetArticles = await withNewPage(p => scrapeBitget(p));
-  console.log(`    Found ${bitgetArticles.length} articles`);
-
-  console.log('  MEXC...');
-  const mexcArticles = await withNewPage(p => scrapeMEXC(p));
-  console.log(`    Found ${mexcArticles.length} articles`);
+  const binanceArticles = await run('Binance', p => scrapeBinance(p));
+  const okxArticles     = await run('OKX',     p => scrapeOKX(p));
+  const bybitArticles   = await run('Bybit',   p => scrapeBybit(p));
+  const kucoinArticles  = await run('KuCoin',  p => scrapeKuCoin(p));
+  const gateioArticles  = await run('Gate.io', p => scrapeGateio(p));
+  const bitgetArticles  = await run('Bitget',  p => scrapeBitget(p));
+  const mexcArticles    = await run('MEXC',    p => scrapeMEXC(p));
+  const htxArticles     = await run('HTX',     p => scrapeHTX(p));
 
   await browser.close();
 
@@ -252,7 +324,8 @@ async function main() {
       kucoin: kucoinArticles,
       gateio: gateioArticles,
       bitget: bitgetArticles,
-      mexc: mexcArticles
+      mexc: mexcArticles,
+      htx: htxArticles
     }
   };
 

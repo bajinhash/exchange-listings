@@ -1,11 +1,14 @@
 {
   "name": "exchange-listings",
-  "version": "1.0.0",
-  "description": "Daily crypto exchange new-listing announcements scraper + static viewer",
+  "version": "1.1.0",
+  "description": "Daily crypto exchange new-listing announcements scraper + AI formatter + static viewer (8 exchanges incl. HTX)",
   "scripts": {
-    "scrape": "node scripts/scraper.js"
+    "scrape": "node scripts/scraper.js",
+    "format": "node scripts/format.js",
+    "daily": "npm run scrape && npm run format"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.88.0",
     "playwright": "^1.52.0"
   }
 }

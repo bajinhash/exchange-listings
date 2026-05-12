@@ -1,8 +1,8 @@
 # exchange-listings
 
-> Daily new-listing announcements from 7 major crypto exchanges, scraped once a day and rendered as a static page.
+> Daily new-listing announcements from **8** major crypto exchanges (incl. HTX), scraped + AI-formatted on a cron and rendered as a static page.
 
-A small, fast, no-framework project that watches what's getting listed on Binance, OKX, Bybit, KuCoin, Gate.io, Bitget, and MEXC. The scraper runs on a schedule, writes structured JSON into `data/`, and a vanilla-JS frontend lets you flip through dates.
+A small, fast, no-framework project that watches what's getting listed on Binance, OKX, Bybit, KuCoin, Gate.io, Bitget, MEXC, and **HTX**. A scraper hits each exchange (API where available, Playwright DOM where not), Claude Opus 4.7 turns the raw HTML/JSON into a clean `{token, type, detail, url}` schema, and a vanilla-JS frontend lets you flip through dates.
 
 ## Live site
 
@@ -21,6 +21,7 @@ Once GitHub Pages is enabled in repo settings, the site will be live at:
    │   ├ Binance — internal API │
    │   ├ OKX     — internal API │
    │   ├ Bybit   — public API   │
+   │   ├ HTX     — internal API │
    │   ├ KuCoin  — DOM scrape   │
    │   ├ Gate.io — DOM scrape   │
    │   ├ Bitget  — DOM scrape   │
@@ -28,8 +29,12 @@ Once GitHub Pages is enabled in repo settings, the site will be live at:
    └─────────────┬──────────────┘
                  │ writes data/raw-YYYY-MM-DD.json
                  ▼
-   (manual or AI-assisted curation step)
-                 │ produces data/YYYY-MM-DD.json
+   ┌────────────────────────────┐
+   │  scripts/format.js         │   Claude Opus 4.7
+   │   adaptive thinking +      │   structured outputs (json_schema)
+   │   streaming + prompt cache │   stable system prompt
+   └─────────────┬──────────────┘
+                 │ writes data/YYYY-MM-DD.json
                  ▼
    ┌────────────────────────────┐
    │  index.html + app.js        │
@@ -64,8 +69,10 @@ Each entry: `{ token, type, detail, url }`.
 ```bash
 npm install
 npx playwright install chromium
-npm run scrape
-# writes data/raw-YYYY-MM-DD.json
+npm run scrape                          # raw → data/raw-YYYY-MM-DD.json
+ANTHROPIC_API_KEY=sk-ant-... npm run format   # raw → data/YYYY-MM-DD.json
+# or in one shot:
+ANTHROPIC_API_KEY=sk-ant-... npm run daily
 ```
 
 Then open `index.html` directly, or serve the folder:
@@ -74,6 +81,17 @@ Then open `index.html` directly, or serve the folder:
 python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
+
+## AI formatter notes
+
+`scripts/format.js` uses Claude Opus 4.7 with:
+
+- **Adaptive thinking** — model decides reasoning depth per day
+- **Structured outputs** (`output_config.format: json_schema`) — guarantees the `{token, type, detail, url}` shape and Binance's three-bucket split (listings / alpha / wallet)
+- **Streaming + `finalMessage()`** — avoids HTTP timeout on busy days
+- **Prompt caching** on the system prompt (`cache_control: {type: "ephemeral"}`) — every subsequent day reads ~90 % of the prefix from cache
+
+Filter rules baked into the prompt: keep new-listing announcements (spot / perp / futures / Alpha / Wallet / US-stock perps); drop promotions, AMAs, fee changes, delistings, maintenance. Binance is split into `listings` / `alpha` / `wallet` automatically.
 
 ## Automation
 
