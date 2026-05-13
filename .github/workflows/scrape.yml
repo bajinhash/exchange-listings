@@ -64,7 +64,12 @@ jobs:
 
           if [ $ADDED -eq 1 ] && ! git diff --cached --quiet; then
             git commit -m "data: scrape + format + weekly ${DATE}"
-            git push
+            # Race-safe push: another commit may have landed while we ran (~5 min)
+            for attempt in 1 2 3; do
+              if git push; then break; fi
+              echo "push attempt $attempt failed; rebasing onto remote main"
+              git pull --rebase origin main || { echo "rebase failed"; exit 1; }
+            done
           else
             echo "no changes to commit"
           fi
