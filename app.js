@@ -5,8 +5,7 @@ const EXCHANGE_NAMES = {
   kucoin: 'KuCoin',
   gateio: 'Gate.io',
   bitget: 'Bitget',
-  mexc: 'MEXC',
-  htx: 'HTX'
+  mexc: 'MEXC'
 };
 
 let currentData = null;

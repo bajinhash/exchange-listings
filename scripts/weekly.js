@@ -57,7 +57,7 @@ function main() {
   for (let i = 0; i < 7; i++) dates.push(daysBack(END, i));
   dates.reverse(); // chronological order, oldest first
 
-  const EXCHANGES = ['binance', 'okx', 'bybit', 'kucoin', 'gateio', 'bitget', 'mexc', 'htx'];
+  const EXCHANGES = ['binance', 'okx', 'bybit', 'kucoin', 'gateio', 'bitget', 'mexc'];
   const buckets = {};
   for (const ex of EXCHANGES) {
     buckets[ex] = {

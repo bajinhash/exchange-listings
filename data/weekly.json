@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-07",
   "weekEnd": "2026-05-13",
-  "updatedAt": "2026-05-13T02:05:56.436Z",
+  "updatedAt": "2026-05-13T02:12:34.013Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -284,9 +284,6 @@
           ]
         }
       ]
-    },
-    "htx": {
-      "listings": []
     }
   }
 }

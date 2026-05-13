@@ -81,29 +81,60 @@ async function scrapeBinance(page) {
 }
 
 async function scrapeOKX(page) {
+  // OKX API (www.okx.com/v2/support/home/web) returns empty from GH Actions
+  // data-center IPs (geo-block on cloud subnets). Browser-rendered web page
+  // works fine — same pattern as KuCoin / Gate / Bitget / MEXC.
   const articles = [];
   try {
-    const data = await fetchJson('https://www.okx.com/v2/support/home/web');
-    const notices = data?.data?.notices || [];
-    // Keep new-listing-section items from past ~3 days; the formatter
-    // narrows further to the 30.5h CST briefing window.
-    const cutoffMs = Date.now() - 3 * 24 * 3600 * 1000;
-    for (const n of notices) {
-      if (n.sectionSlug !== 'announcements-new-listings') continue;
-      const ts = new Date(n.publishDate).getTime();
-      if (!isNaN(ts) && ts < cutoffMs) continue;
-      const url = `https://www.okx.com${n.link}`;
-      const pubDate = new Date(n.publishDate).toISOString().split('T')[0];
-      articles.push({
-        title: n.shareText || n.shareTitle || '',
-        url,
-        body: `Published: ${pubDate}`,
+    // Try API first (fast, ~0.3s)
+    let apiOk = false;
+    try {
+      const data = await fetchJson('https://www.okx.com/v2/support/home/web');
+      const notices = data?.data?.notices || [];
+      const cutoffMs = Date.now() - 3 * 24 * 3600 * 1000;
+      for (const n of notices) {
+        if (n.sectionSlug !== 'announcements-new-listings') continue;
+        const ts = new Date(n.publishDate).getTime();
+        if (!isNaN(ts) && ts < cutoffMs) continue;
+        const pubDate = new Date(n.publishDate).toISOString().split('T')[0];
+        articles.push({
+          title: n.shareText || n.shareTitle || '',
+          url: `https://www.okx.com${n.link}`,
+          body: `Published: ${pubDate}`,
+        });
+      }
+      apiOk = articles.length > 0;
+    } catch (_) { /* fall through to DOM */ }
+
+    if (!apiOk) {
+      console.error('  OKX API empty/blocked — falling back to web DOM scrape');
+      await page.goto('https://www.okx.com/help/section/announcements-new-listings', {
+        waitUntil: 'domcontentloaded', timeout: 30000
       });
+      await page.waitForTimeout(3000);
+      const items = await page.$$eval('a[href*="/help/"]', as =>
+        as.map(a => ({
+          title: a.textContent?.trim() || '',
+          href: a.getAttribute('href') || '',
+        })).filter(i => i.title.length > 12 && i.href.includes('/help/') && !i.href.endsWith('/help/'))
+      );
+      // Dedupe by href, keep first 12
+      const seen = new Set();
+      for (const item of items) {
+        if (seen.has(item.href)) continue;
+        seen.add(item.href);
+        if (/Competition|Campaign|fee|手续费/i.test(item.title)) continue;
+        const url = item.href.startsWith('http') ? item.href : `https://www.okx.com${item.href}`;
+        articles.push({ title: item.title, url, body: null });
+        if (articles.length >= 12) break;
+      }
     }
-    // Hit detail pages in parallel-ish for fuller body content
-    for (const a of articles.slice(0, 10)) {
+
+    // Fetch body for first 8 to give the formatter publish date context
+    for (const a of articles.slice(0, 8)) {
+      if (a.body && a.body.startsWith('Published:')) continue;
       const body = await fetchPageContent(page, a.url, 'article, main, .article-content');
-      if (body) a.body = `${a.body}\n\n${body}`;
+      a.body = body;
     }
   } catch (e) {
     console.error('  OKX scrape error:', e.message);
@@ -112,25 +143,53 @@ async function scrapeOKX(page) {
 }
 
 async function scrapeBybit(page) {
+  // Bybit's api.bybit.com returns empty list from GH Actions IPs (geo-block
+  // on data centers). Falls back to DOM scrape on announcements.bybit.com.
   const articles = [];
   try {
-    const data = await fetchJson('https://api.bybit.com/v5/announcements/index?locale=zh-TW&type=new_crypto&limit=15');
-    const list = data?.result?.list || [];
-    // Keep items from past ~3 days; formatter narrows to CST briefing window.
-    const cutoffMs = Date.now() - 3 * 24 * 3600 * 1000;
-    for (const item of list) {
-      const ts = parseInt(item.publishTime);
-      if (!isNaN(ts) && ts < cutoffMs) continue;
-      if (item.title.includes('Competition') || item.title.includes('Campaign')) continue;
-      const pubDate = new Date(ts).toISOString().split('T')[0];
-      articles.push({
-        title: item.title,
-        url: item.url || '',
-        body: `Published: ${pubDate}\n\n${item.description || ''}`,
+    let apiOk = false;
+    try {
+      const data = await fetchJson('https://api.bybit.com/v5/announcements/index?locale=zh-TW&type=new_crypto&limit=15');
+      const list = data?.result?.list || [];
+      const cutoffMs = Date.now() - 3 * 24 * 3600 * 1000;
+      for (const item of list) {
+        const ts = parseInt(item.publishTime);
+        if (!isNaN(ts) && ts < cutoffMs) continue;
+        if (/Competition|Campaign/i.test(item.title)) continue;
+        const pubDate = new Date(ts).toISOString().split('T')[0];
+        articles.push({
+          title: item.title,
+          url: item.url || '',
+          body: `Published: ${pubDate}\n\n${item.description || ''}`,
+        });
+      }
+      apiOk = articles.length > 0;
+    } catch (_) { /* fall through */ }
+
+    if (!apiOk) {
+      console.error('  Bybit API empty/blocked — falling back to web DOM scrape');
+      await page.goto('https://announcements.bybit.com/zh-TW/?category=new_crypto&page=1', {
+        waitUntil: 'domcontentloaded', timeout: 30000
       });
+      await page.waitForTimeout(3000);
+      const items = await page.$$eval('a[href*="/article/"]', as =>
+        as.map(a => ({
+          title: a.textContent?.trim() || '',
+          href: a.getAttribute('href') || '',
+        })).filter(i => i.title.length > 10)
+      );
+      const seen = new Set();
+      for (const item of items) {
+        if (seen.has(item.href)) continue;
+        seen.add(item.href);
+        if (/Competition|Campaign/i.test(item.title)) continue;
+        const url = item.href.startsWith('http') ? item.href : `https://announcements.bybit.com${item.href}`;
+        articles.push({ title: item.title, url, body: null });
+        if (articles.length >= 12) break;
+      }
     }
   } catch (e) {
-    console.error('  Bybit API error:', e.message);
+    console.error('  Bybit scrape error:', e.message);
   }
   return articles;
 }
@@ -240,84 +299,6 @@ async function scrapeMEXC(page) {
   return articles;
 }
 
-async function scrapeHTX(page) {
-  // HTX (formerly Huobi) — new listings announcements.
-  // The list page at /zh-cn/support/list/{categoryId} is server-rendered:
-  // titles + IDs + dates are all in the initial HTML, no AJAX needed.
-  // category 360000039942 = "新币上线" (New Listings), discovered via the
-  // tabList in window.__NUXT__ on the support homepage.
-  //
-  // GH Actions IPs hit Cloudflare 403 on bare fetch — fall back to Playwright
-  // (real Chromium TLS handshake passes their bot check). User local IP may
-  // have either issue, so we try fetch first (fast), then Playwright (slow).
-  const NEW_LISTING_CATEGORY = '360000039942';
-  const LIST_URL = `https://www.htx.com/zh-cn/support/list/${NEW_LISTING_CATEGORY}`;
-  // Row pattern: <a class="list-field1">TITLE</a> ... <div class="list-field3">MM/DD HH:MM</div>
-  const rowRe = /<a[^>]*href="\/zh-cn\/support\/(\d{10,16})"[^>]*class="list-field1[^"]*"[^>]*>\s*([^<]+?)\s*<\/a>[\s\S]{0,400}?<div[^>]*class="list-field3"[^>]*>\s*([^<]+?)\s*<\/div>/g;
-
-  function parseRows(html) {
-    const out = [];
-    let m;
-    while ((m = rowRe.exec(html)) !== null) {
-      const id = m[1];
-      const title = m[2].trim();
-      const dateText = m[3].trim();
-      if (!title || title.length < 8) continue;
-      if (/下架|暂停|维护|delisting/i.test(title)) continue;
-      out.push({
-        title,
-        url: `https://www.htx.com/zh-cn/support/${id}`,
-        body: `Published: ${dateText}`,
-      });
-    }
-    return out.slice(0, 15);
-  }
-
-  const articles = [];
-  try {
-    // 1. fast path: plain fetch
-    let html = null;
-    try {
-      const res = await fetch(LIST_URL, {
-        headers: { 'user-agent': UA, 'accept': 'text/html,*/*' },
-        signal: AbortSignal.timeout(15000),
-      });
-      if (res.ok) {
-        html = await res.text();
-      } else {
-        console.error(`  HTX fetch HTTP ${res.status} — falling back to Playwright`);
-      }
-    } catch (e) {
-      console.error(`  HTX fetch error (${e.message}) — falling back to Playwright`);
-    }
-
-    // 2. fallback: Playwright (real-browser TLS fingerprint may bypass Cloudflare).
-    // Don't wait for networkidle — Cloudflare's challenge page can keep XHR
-    // pinging indefinitely. Instead: fast initial load, then poll for the
-    // actual list anchor up to 25s (challenge typically clears in 5-8s).
-    if (!html) {
-      try {
-        await page.goto(LIST_URL, { waitUntil: 'domcontentloaded', timeout: 30000 }).catch(() => {});
-        const got = await page.waitForSelector('a.list-field1', { timeout: 25000 }).catch(() => null);
-        if (!got) {
-          console.error('  HTX list-field1 did not appear within 25s — Cloudflare likely blocking this IP');
-        }
-        await page.waitForTimeout(800);
-        html = await page.content();
-      } catch (e) {
-        console.error('  HTX Playwright error:', e.message);
-        return articles;
-      }
-    }
-
-    const rows = parseRows(html);
-    articles.push(...rows);
-  } catch (e) {
-    console.error('  HTX scrape error:', e.message);
-  }
-  return articles;
-}
-
 async function main() {
   console.log(`Scraping exchange listings for ${TODAY}...`);
 
@@ -365,7 +346,6 @@ async function main() {
   const gateioArticles  = await run('Gate.io', p => scrapeGateio(p));
   const bitgetArticles  = await run('Bitget',  p => scrapeBitget(p));
   const mexcArticles    = await run('MEXC',    p => scrapeMEXC(p));
-  const htxArticles     = await run('HTX',     p => scrapeHTX(p));
 
   await browser.close();
 
@@ -378,8 +358,7 @@ async function main() {
       kucoin: kucoinArticles,
       gateio: gateioArticles,
       bitget: bitgetArticles,
-      mexc: mexcArticles,
-      htx: htxArticles
+      mexc: mexcArticles
     }
   };
 

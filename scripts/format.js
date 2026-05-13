@@ -43,9 +43,8 @@ const OUTPUT_SCHEMA = {
     gateio: { $ref: '#/$defs/exchange' },
     bitget: { $ref: '#/$defs/exchange' },
     mexc:   { $ref: '#/$defs/exchange' },
-    htx:    { $ref: '#/$defs/exchange' },
   },
-  required: ['binance', 'okx', 'bybit', 'kucoin', 'gateio', 'bitget', 'mexc', 'htx'],
+  required: ['binance', 'okx', 'bybit', 'kucoin', 'gateio', 'bitget', 'mexc'],
   additionalProperties: false,
   $defs: {
     listing: {
@@ -75,7 +74,7 @@ const OUTPUT_SCHEMA = {
 // preserve the cache prefix. See shared/prompt-caching.md.
 const SYSTEM_PROMPT = `你是一个加密货币交易所新币上线公告的结构化抽取器。
 
-输入：scraper.js 抓取的多家交易所 (Binance / OKX / Bybit / KuCoin / Gate.io / Bitget / MEXC / HTX) 公告原文 JSON。
+输入：scraper.js 抓取的多家交易所 (Binance / OKX / Bybit / KuCoin / Gate.io / Bitget / MEXC) 公告原文 JSON。
 输出：严格遵循输出 schema 的 JSON，按交易所组织，每条 listing 含 token / type / detail / url 四个字段。
 
 == 抽取规则 ==
@@ -116,13 +115,13 @@ const SYSTEM_PROMPT = `你是一个加密货币交易所新币上线公告的结
 
 9. **去重**：同一币种同一类型在同一交易所只保留一条（合约 + 现货同时上线算两条）。
 
-10. **日期过滤（关键规则 / 早报窗口）**：报告日期 X = 上海时间（CST，UTC+8）。窗口 = **昨天 00:00 CST → 今天 06:30 CST**（共约 30.5 小时）。
-    具体保留规则：
-    - listing 的上线/开盘日期落在 X-1 当天（CST 全天）→ 保留
-    - listing 的上线/开盘日期落在 X 当天且时间不晚于 06:30 CST → 保留
-    - 其它（更早的、或晚于 06:30 CST 的当天后续）→ **直接丢弃**
-    - 判断日期的优先级：标题里的日期 > body 提到的开盘时间 > 公告发布日期
-    - 标题/body 里出现 "MM/DD HH:MM" 或 "X月Y日"、"X月Y日 HH:MM (UTC+8)"、"2026-05-13 15:00 UTC+8" 都按 CST 解析
+10. **日期过滤（关键规则 / 晚间日报窗口）**：报告日期 X = 上海时间（CST，UTC+8）。窗口 = **今天 00:00 CST → 今天 18:00 CST**（共 18 小时）。
+    具体保留规则（基于**公告发布时间**，不是上线/开盘时间）：
+    - 公告发布于 X 当天 00:00 CST 到 18:00 CST 之间 → 保留
+    - 公告发布在更早的日期（X-1 或更早）→ **直接丢弃**，归入周回顾
+    - 注意：listing 的实际开盘时间可以在更晚（例如"将于明天上线"），只要公告本身是今天发的就保留
+    - 判断公告发布时间的优先级：raw JSON 里 body 字段以 "Published: YYYY-MM-DD" 开头 > 标题里的日期 > body 里其它日期
+    - 标题里如果只有"将于 X 月 Y 日上线"是上线时间不是发布时间，**不能**当发布时间用
     - 周回顾另有独立汇总，日报别越界
 
 只输出 JSON，不要解释。`;
