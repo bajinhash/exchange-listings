@@ -37,12 +37,17 @@ jobs:
       - name: Run scraper (raw → data/raw-DATE.json)
         run: npm run scrape
 
-      - name: AI format (raw → data/DATE.json via Claude Opus 4.7)
-        if: ${{ env.ANTHROPIC_API_KEY != '' }}
+      - name: AI format (Claude Opus 4.7, if ANTHROPIC_API_KEY secret set)
+        if: ${{ secrets.ANTHROPIC_API_KEY != '' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run format
-        continue-on-error: true  # never block the raw commit on a formatter failure
+        continue-on-error: true
+
+      - name: Basic rule-based format (fallback when no API key)
+        if: ${{ secrets.ANTHROPIC_API_KEY == '' }}
+        run: npm run basic-format
+        continue-on-error: true
 
       - name: Weekly recap (last 7 daily JSONs → data/weekly.json)
         run: npm run weekly
