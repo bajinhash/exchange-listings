@@ -223,41 +223,68 @@ async function scrapeMEXC(page) {
 async function scrapeHTX(page) {
   // HTX (formerly Huobi) — new listings announcements.
   // The list page at /zh-cn/support/list/{categoryId} is server-rendered:
-  // the article titles + IDs are present in the initial HTML, no AJAX needed.
+  // titles + IDs + dates are all in the initial HTML, no AJAX needed.
   // category 360000039942 = "新币上线" (New Listings), discovered via the
-  // tabList structure in window.__NUXT__ data on the support homepage.
+  // tabList in window.__NUXT__ on the support homepage.
+  //
+  // GH Actions IPs hit Cloudflare 403 on bare fetch — fall back to Playwright
+  // (real Chromium TLS handshake passes their bot check). User local IP may
+  // have either issue, so we try fetch first (fast), then Playwright (slow).
   const NEW_LISTING_CATEGORY = '360000039942';
   const LIST_URL = `https://www.htx.com/zh-cn/support/list/${NEW_LISTING_CATEGORY}`;
+  // Row pattern: <a class="list-field1">TITLE</a> ... <div class="list-field3">MM/DD HH:MM</div>
+  const rowRe = /<a[^>]*href="\/zh-cn\/support\/(\d{10,16})"[^>]*class="list-field1[^"]*"[^>]*>\s*([^<]+?)\s*<\/a>[\s\S]{0,400}?<div[^>]*class="list-field3"[^>]*>\s*([^<]+?)\s*<\/div>/g;
 
-  const articles = [];
-  try {
-    const res = await fetch(LIST_URL, {
-      headers: { 'user-agent': UA, 'accept': 'text/html,*/*' },
-      signal: AbortSignal.timeout(15000),
-    });
-    if (!res.ok) throw new Error(`HTX list HTTP ${res.status}`);
-    const html = await res.text();
-
-    // Each row in the list looks like:
-    //   <a href="/zh-cn/support/<id>" class="list-field1 ...">TITLE</a>
-    //   <div class="list-field3">MM/DD HH:MM</div>
-    // We pair them up by relative position.
-    const rowRe = /<a[^>]*href="\/zh-cn\/support\/(\d{10,16})"[^>]*class="list-field1[^"]*"[^>]*>\s*([^<]+?)\s*<\/a>[\s\S]{0,400}?<div[^>]*class="list-field3"[^>]*>\s*([^<]+?)\s*<\/div>/g;
+  function parseRows(html) {
+    const out = [];
     let m;
     while ((m = rowRe.exec(html)) !== null) {
       const id = m[1];
       const title = m[2].trim();
-      const dateText = m[3].trim(); // e.g. "05/12 08:20"
+      const dateText = m[3].trim();
       if (!title || title.length < 8) continue;
       if (/下架|暂停|维护|delisting/i.test(title)) continue;
-      articles.push({
+      out.push({
         title,
         url: `https://www.htx.com/zh-cn/support/${id}`,
-        body: `Published: ${dateText}`,  // keep date inline so AI formatter sees it
+        body: `Published: ${dateText}`,
       });
     }
-    // Trim to a sensible window — same as other exchanges
-    articles.splice(15);
+    return out.slice(0, 15);
+  }
+
+  const articles = [];
+  try {
+    // 1. fast path: plain fetch
+    let html = null;
+    try {
+      const res = await fetch(LIST_URL, {
+        headers: { 'user-agent': UA, 'accept': 'text/html,*/*' },
+        signal: AbortSignal.timeout(15000),
+      });
+      if (res.ok) {
+        html = await res.text();
+      } else {
+        console.error(`  HTX fetch HTTP ${res.status} — falling back to Playwright`);
+      }
+    } catch (e) {
+      console.error(`  HTX fetch error (${e.message}) — falling back to Playwright`);
+    }
+
+    // 2. fallback: Playwright (real-browser TLS fingerprint bypasses Cloudflare)
+    if (!html) {
+      try {
+        await page.goto(LIST_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForTimeout(2000);
+        html = await page.content();
+      } catch (e) {
+        console.error('  HTX Playwright error:', e.message);
+        return articles;
+      }
+    }
+
+    const rows = parseRows(html);
+    articles.push(...rows);
   } catch (e) {
     console.error('  HTX scrape error:', e.message);
   }
