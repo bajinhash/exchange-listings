@@ -85,16 +85,25 @@ async function scrapeOKX(page) {
   try {
     const data = await fetchJson('https://www.okx.com/v2/support/home/web');
     const notices = data?.data?.notices || [];
+    // Keep new-listing-section items from past ~3 days; the formatter
+    // narrows further to the 30.5h CST briefing window.
+    const cutoffMs = Date.now() - 3 * 24 * 3600 * 1000;
     for (const n of notices) {
       if (n.sectionSlug !== 'announcements-new-listings') continue;
-      const publishDate = new Date(n.publishDate).toISOString().split('T')[0];
-      if (publishDate !== TODAY) continue;
+      const ts = new Date(n.publishDate).getTime();
+      if (!isNaN(ts) && ts < cutoffMs) continue;
       const url = `https://www.okx.com${n.link}`;
-      articles.push({ title: n.shareText || n.shareTitle || '', url, body: null });
+      const pubDate = new Date(n.publishDate).toISOString().split('T')[0];
+      articles.push({
+        title: n.shareText || n.shareTitle || '',
+        url,
+        body: `Published: ${pubDate}`,
+      });
     }
-    for (const a of articles) {
+    // Hit detail pages in parallel-ish for fuller body content
+    for (const a of articles.slice(0, 10)) {
       const body = await fetchPageContent(page, a.url, 'article, main, .article-content');
-      a.body = body;
+      if (body) a.body = `${a.body}\n\n${body}`;
     }
   } catch (e) {
     console.error('  OKX scrape error:', e.message);
@@ -105,14 +114,20 @@ async function scrapeOKX(page) {
 async function scrapeBybit(page) {
   const articles = [];
   try {
-    const data = await fetchJson('https://api.bybit.com/v5/announcements/index?locale=zh-TW&type=new_crypto&limit=10');
+    const data = await fetchJson('https://api.bybit.com/v5/announcements/index?locale=zh-TW&type=new_crypto&limit=15');
     const list = data?.result?.list || [];
-
+    // Keep items from past ~3 days; formatter narrows to CST briefing window.
+    const cutoffMs = Date.now() - 3 * 24 * 3600 * 1000;
     for (const item of list) {
-      const publishDate = new Date(parseInt(item.publishTime)).toISOString().split('T')[0];
-      if (publishDate !== TODAY) continue;
+      const ts = parseInt(item.publishTime);
+      if (!isNaN(ts) && ts < cutoffMs) continue;
       if (item.title.includes('Competition') || item.title.includes('Campaign')) continue;
-      articles.push({ title: item.title, url: item.url || '', body: item.description || null });
+      const pubDate = new Date(ts).toISOString().split('T')[0];
+      articles.push({
+        title: item.title,
+        url: item.url || '',
+        body: `Published: ${pubDate}\n\n${item.description || ''}`,
+      });
     }
   } catch (e) {
     console.error('  Bybit API error:', e.message);
@@ -276,16 +291,18 @@ async function scrapeHTX(page) {
       console.error(`  HTX fetch error (${e.message}) — falling back to Playwright`);
     }
 
-    // 2. fallback: Playwright (real-browser TLS fingerprint bypasses Cloudflare).
-    // Cloudflare's "Just a moment..." JS challenge takes ~5s to resolve; we
-    // wait for networkidle and for the list-field1 anchor to actually render.
+    // 2. fallback: Playwright (real-browser TLS fingerprint may bypass Cloudflare).
+    // Don't wait for networkidle — Cloudflare's challenge page can keep XHR
+    // pinging indefinitely. Instead: fast initial load, then poll for the
+    // actual list anchor up to 25s (challenge typically clears in 5-8s).
     if (!html) {
       try {
-        await page.goto(LIST_URL, { waitUntil: 'networkidle', timeout: 45000 });
-        await page.waitForSelector('a.list-field1', { timeout: 20000 }).catch(() => {
-          console.error('  HTX list-field1 selector did not appear — page may be a Cloudflare challenge');
-        });
-        await page.waitForTimeout(1500);
+        await page.goto(LIST_URL, { waitUntil: 'domcontentloaded', timeout: 30000 }).catch(() => {});
+        const got = await page.waitForSelector('a.list-field1', { timeout: 25000 }).catch(() => null);
+        if (!got) {
+          console.error('  HTX list-field1 did not appear within 25s — Cloudflare likely blocking this IP');
+        }
+        await page.waitForTimeout(800);
         html = await page.content();
       } catch (e) {
         console.error('  HTX Playwright error:', e.message);
@@ -310,7 +327,21 @@ async function main() {
     headless: true,
     ...(proxyUrl ? { proxy: { server: proxyUrl } } : {}),
   });
-  const context = await browser.newContext({ userAgent: UA });
+  // Stealth-ish context — full desktop viewport, locale, timezone, headers
+  // so HTX/Cloudflare bot checks treat us more like a real Asia user.
+  const context = await browser.newContext({
+    userAgent: UA,
+    viewport: { width: 1440, height: 900 },
+    locale: 'zh-CN',
+    timezoneId: 'Asia/Shanghai',
+    extraHTTPHeaders: {
+      'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+    },
+  });
+  // Mask `navigator.webdriver` — common Cloudflare bot signal.
+  await context.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+  });
 
   async function withNewPage(fn) {
     const p = await context.newPage();
