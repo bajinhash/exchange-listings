@@ -222,56 +222,42 @@ async function scrapeMEXC(page) {
 
 async function scrapeHTX(page) {
   // HTX (formerly Huobi) — new listings announcements.
-  // Public endpoint exposes the announcement list as JSON. We hit the API
-  // first, fall back to DOM scrape if the schema shifts.
+  // The list page at /zh-cn/support/list/{categoryId} is server-rendered:
+  // the article titles + IDs are present in the initial HTML, no AJAX needed.
+  // category 360000039942 = "新币上线" (New Listings), discovered via the
+  // tabList structure in window.__NUXT__ data on the support homepage.
+  const NEW_LISTING_CATEGORY = '360000039942';
+  const LIST_URL = `https://www.htx.com/zh-cn/support/list/${NEW_LISTING_CATEGORY}`;
+
   const articles = [];
   try {
-    // categoryId=86 is "new currency listing" on zh-cn. Schema observed
-    // around 2025-2026: { data: { contents: [ { title, displayTime, link, ... } ] } }
-    let items = [];
-    try {
-      const data = await fetchJson(
-        'https://www.htx.com/-/x/support/sn/api/v1/contents?categoryId=86&pageNum=1&pageSize=15&language=zh-cn'
-      );
-      const list = data?.data?.contents || data?.data?.list || [];
-      items = list.map(c => ({
-        title: c.title || c.shareTitle || '',
-        url: c.link?.startsWith('http')
-          ? c.link
-          : `https://www.htx.com/zh-cn/support/${c.link || c.id || ''}`,
-        publishTime: c.displayTime || c.createTime || c.publishTime
-      }));
-    } catch (e) {
-      // DOM fallback
-      await page.goto('https://www.htx.com/zh-cn/support/list/?category=announcement_new_listings', {
-        waitUntil: 'domcontentloaded',
-        timeout: 30000
-      });
-      await page.waitForTimeout(3000);
-      const links = await page.$$eval('a[href*="/support/"]', as =>
-        as.map(a => ({
-          title: a.textContent?.trim() || '',
-          href: a.getAttribute('href') || ''
-        })).filter(i => i.title.length > 10)
-      );
-      items = links.slice(0, 15).map(l => ({
-        title: l.title,
-        url: l.href.startsWith('http') ? l.href : `https://www.htx.com${l.href}`
-      }));
-    }
+    const res = await fetch(LIST_URL, {
+      headers: { 'user-agent': UA, 'accept': 'text/html,*/*' },
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!res.ok) throw new Error(`HTX list HTTP ${res.status}`);
+    const html = await res.text();
 
-    for (const item of items) {
-      if (!item.title) continue;
-      if (item.title.includes('下架') || item.title.includes('暂停') || item.title.includes('维护')) continue;
-      // Optional: keep only TODAY's items when publishTime is available
-      if (item.publishTime) {
-        const d = new Date(Number(item.publishTime) || item.publishTime);
-        if (!isNaN(d) && d.toISOString().split('T')[0] !== TODAY) continue;
-      }
-      const body = await fetchPageContent(page, item.url, 'article, main, .content, [class*="article"]');
-      articles.push({ title: item.title, url: item.url, body });
-      if (articles.length >= 8) break;
+    // Each row in the list looks like:
+    //   <a href="/zh-cn/support/<id>" class="list-field1 ...">TITLE</a>
+    //   <div class="list-field3">MM/DD HH:MM</div>
+    // We pair them up by relative position.
+    const rowRe = /<a[^>]*href="\/zh-cn\/support\/(\d{10,16})"[^>]*class="list-field1[^"]*"[^>]*>\s*([^<]+?)\s*<\/a>[\s\S]{0,400}?<div[^>]*class="list-field3"[^>]*>\s*([^<]+?)\s*<\/div>/g;
+    let m;
+    while ((m = rowRe.exec(html)) !== null) {
+      const id = m[1];
+      const title = m[2].trim();
+      const dateText = m[3].trim(); // e.g. "05/12 08:20"
+      if (!title || title.length < 8) continue;
+      if (/下架|暂停|维护|delisting/i.test(title)) continue;
+      articles.push({
+        title,
+        url: `https://www.htx.com/zh-cn/support/${id}`,
+        body: `Published: ${dateText}`,  // keep date inline so AI formatter sees it
+      });
     }
+    // Trim to a sensible window — same as other exchanges
+    articles.splice(15);
   } catch (e) {
     console.error('  HTX scrape error:', e.message);
   }
