@@ -143,8 +143,15 @@ async function scrapeOKX(page) {
 }
 
 async function scrapeBybit(page) {
-  // Bybit's api.bybit.com returns empty list from GH Actions IPs (geo-block
-  // on data centers). Falls back to DOM scrape on announcements.bybit.com.
+  // api.bybit.com returns empty list from GH Actions data-center IPs (geo-
+  // block). Playwright on announcements.bybit.com hits ERR_HTTP2_PROTOCOL_ERROR
+  // (Chromium negotiates H2, Bybit's H2 implementation rejects).
+  //
+  // Workaround: Node fetch (HTTP/1.1 via undici) on the same page returns the
+  // server-rendered HTML with the full article list embedded inside a
+  // <script id="__NEXT_DATA__"> JSON blob. Path inside that JSON:
+  //   props.pageProps.articleInitEntity.list[]
+  // Each item carries {title, description, url, date_timestamp (seconds)}.
   const articles = [];
   try {
     let apiOk = false;
@@ -167,25 +174,37 @@ async function scrapeBybit(page) {
     } catch (_) { /* fall through */ }
 
     if (!apiOk) {
-      console.error('  Bybit API empty/blocked — falling back to web DOM scrape');
-      await page.goto('https://announcements.bybit.com/zh-TW/?category=new_crypto&page=1', {
-        waitUntil: 'domcontentloaded', timeout: 30000
+      console.error('  Bybit API empty/blocked — falling back to __NEXT_DATA__ on announcements page');
+      const res = await fetch('https://announcements.bybit.com/zh-TW/?category=new_crypto', {
+        headers: {
+          'user-agent': UA,
+          'accept': 'text/html,application/xhtml+xml',
+          'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        },
+        signal: AbortSignal.timeout(15000),
       });
-      await page.waitForTimeout(3000);
-      const items = await page.$$eval('a[href*="/article/"]', as =>
-        as.map(a => ({
-          title: a.textContent?.trim() || '',
-          href: a.getAttribute('href') || '',
-        })).filter(i => i.title.length > 10)
-      );
-      const seen = new Set();
-      for (const item of items) {
-        if (seen.has(item.href)) continue;
-        seen.add(item.href);
-        if (/Competition|Campaign/i.test(item.title)) continue;
-        const url = item.href.startsWith('http') ? item.href : `https://announcements.bybit.com${item.href}`;
-        articles.push({ title: item.title, url, body: null });
-        if (articles.length >= 12) break;
+      if (!res.ok) throw new Error(`Bybit HTML HTTP ${res.status}`);
+      const html = await res.text();
+      const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]+?)<\/script>/);
+      if (!m) throw new Error('Bybit __NEXT_DATA__ not found in HTML');
+      const data = JSON.parse(m[1]);
+      const list = data?.props?.pageProps?.articleInitEntity?.list || [];
+      const cutoffMs = Date.now() - 3 * 24 * 3600 * 1000;
+      for (const item of list) {
+        const ts = (item.date_timestamp || 0) * 1000;
+        if (ts && ts < cutoffMs) continue;
+        const title = item.title || '';
+        if (!title || /Competition|Campaign/i.test(title)) continue;
+        const pubDate = new Date(ts).toISOString().split('T')[0];
+        const url = (item.url || '').startsWith('http')
+          ? item.url
+          : `https://announcements.bybit.com/zh-TW${item.url || ''}`;
+        articles.push({
+          title,
+          url,
+          body: `Published: ${pubDate}\n\n${item.description || ''}`,
+        });
+        if (articles.length >= 15) break;
       }
     }
   } catch (e) {
