@@ -5,7 +5,8 @@
   "scripts": {
     "scrape": "node scripts/scraper.js",
     "format": "node scripts/format.js",
-    "daily": "npm run scrape && npm run format"
+    "weekly": "node scripts/weekly.js",
+    "daily": "npm run scrape && npm run format && npm run weekly"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.88.0",

@@ -43,11 +43,16 @@ jobs:
         run: npm run format
         continue-on-error: true  # never block the raw commit on a formatter failure
 
+      - name: Weekly recap (last 7 daily JSONs → data/weekly.json)
+        run: npm run weekly
+        continue-on-error: true
+
       - name: Commit outputs if changed
         run: |
           DATE=$(date -u +%F)
           RAW="data/raw-${DATE}.json"
           FORMATTED="data/${DATE}.json"
+          WEEKLY="data/weekly.json"
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -55,9 +60,10 @@ jobs:
           ADDED=0
           [ -f "$RAW" ]       && git add "$RAW"       && ADDED=1
           [ -f "$FORMATTED" ] && git add "$FORMATTED" && ADDED=1
+          [ -f "$WEEKLY" ]    && git add "$WEEKLY"    && ADDED=1
 
           if [ $ADDED -eq 1 ] && ! git diff --cached --quiet; then
-            git commit -m "data: scrape + format ${DATE}"
+            git commit -m "data: scrape + format + weekly ${DATE}"
             git push
           else
             echo "no changes to commit"

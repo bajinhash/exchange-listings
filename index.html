@@ -283,6 +283,38 @@
       color: var(--accent);
     }
 
+    .mode-btn {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-2);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.4rem 0.75rem;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s, background 0.15s;
+    }
+
+    .mode-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .mode-btn[data-mode="weekly"] {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .dates-pill {
+      display: inline-block;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.62rem;
+      color: var(--text-3);
+      background: var(--accent-badge);
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-left: 0.4rem;
+      white-space: nowrap;
+    }
+
     .export-panel {
       position: absolute;
       top: calc(100% + 6px);
@@ -486,7 +518,8 @@
         <h1>交易所新币上线日报</h1>
         <div class="print-title" id="print-title"></div>
         <div class="date-control">
-          <label>日期</label>
+          <button class="mode-btn" id="mode-btn" data-mode="daily">本周回顾</button>
+          <label id="date-label">日期</label>
           <input type="date" id="date-picker">
           <div class="export-wrapper">
             <button class="export-btn" id="export-btn">导出</button>

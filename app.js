@@ -10,6 +10,7 @@ const EXCHANGE_NAMES = {
 };
 
 let currentData = null;
+let mode = 'daily';   // 'daily' | 'weekly'
 
 function getToday() {
   return new Date().toISOString().split('T')[0];
@@ -17,34 +18,57 @@ function getToday() {
 
 function init() {
   const picker = document.getElementById('date-picker');
+  const modeBtn = document.getElementById('mode-btn');
   picker.value = getToday();
-  picker.addEventListener('change', () => loadData(picker.value));
-  loadData(getToday());
+  picker.addEventListener('change', () => loadDaily(picker.value));
+  modeBtn.addEventListener('click', () => {
+    if (mode === 'daily') {
+      mode = 'weekly';
+      modeBtn.textContent = '切回每日';
+      modeBtn.dataset.mode = 'weekly';
+      document.getElementById('date-label').classList.add('hidden');
+      picker.classList.add('hidden');
+      loadWeekly();
+    } else {
+      mode = 'daily';
+      modeBtn.textContent = '本周回顾';
+      modeBtn.dataset.mode = 'daily';
+      document.getElementById('date-label').classList.remove('hidden');
+      picker.classList.remove('hidden');
+      loadDaily(picker.value);
+    }
+  });
+  loadDaily(getToday());
   initExport();
 }
 
-async function loadData(date) {
-  const content = document.getElementById('content');
-  const noData = document.getElementById('no-data');
+function setUpdateTime(data) {
   const updateTime = document.getElementById('update-time');
   const liveDot = document.getElementById('live-dot');
+  if (data.updatedAt) {
+    const prefix = mode === 'weekly'
+      ? `${data.weekStart} → ${data.weekEnd}　·　`
+      : '';
+    updateTime.textContent = `${prefix}更新于 ${new Date(data.updatedAt).toLocaleString('zh-CN')}`;
+    liveDot.classList.remove('hidden');
+  } else {
+    updateTime.textContent = '';
+    liveDot.classList.add('hidden');
+  }
+}
 
+async function loadDaily(date) {
+  const content = document.getElementById('content');
+  const noData = document.getElementById('no-data');
   content.innerHTML = '<div class="loading">正在加载数据</div>';
   noData.classList.add('hidden');
-  liveDot.classList.add('hidden');
-  updateTime.textContent = '';
 
   try {
     const res = await fetch(`data/${date}.json`);
     if (!res.ok) throw new Error('not found');
     const data = await res.json();
     currentData = data;
-
-    if (data.updatedAt) {
-      updateTime.textContent = `更新于 ${new Date(data.updatedAt).toLocaleString('zh-CN')}`;
-      liveDot.classList.remove('hidden');
-    }
-
+    setUpdateTime(data);
     content.innerHTML = '';
     noData.classList.add('hidden');
     renderExchanges(content, data.exchanges);
@@ -52,6 +76,30 @@ async function loadData(date) {
     content.innerHTML = '';
     noData.classList.remove('hidden');
     currentData = null;
+    setUpdateTime({});
+  }
+}
+
+async function loadWeekly() {
+  const content = document.getElementById('content');
+  const noData = document.getElementById('no-data');
+  content.innerHTML = '<div class="loading">正在加载周回顾</div>';
+  noData.classList.add('hidden');
+
+  try {
+    const res = await fetch('data/weekly.json');
+    if (!res.ok) throw new Error('not found');
+    const data = await res.json();
+    currentData = data;
+    setUpdateTime(data);
+    content.innerHTML = '';
+    noData.classList.add('hidden');
+    renderExchanges(content, data.exchanges);
+  } catch (e) {
+    content.innerHTML = '';
+    noData.classList.remove('hidden');
+    currentData = null;
+    setUpdateTime({});
   }
 }
 
@@ -76,11 +124,12 @@ function renderExchanges(container, exchanges) {
       ${badge}
     </div><div class="card-body">`;
 
+    const period = mode === 'weekly' ? '本周' : '今日';
     const listings = data.listings || [];
     if (listings.length > 0) {
       html += renderTable(listings);
     } else {
-      html += `<p class="empty-msg">今日无新币上线</p>`;
+      html += `<p class="empty-msg">${period}无新币上线</p>`;
     }
 
     if (key === 'binance') {
@@ -89,7 +138,7 @@ function renderExchanges(container, exchanges) {
       if (alpha.length > 0) {
         html += renderTable(alpha);
       } else {
-        html += `<p class="empty-msg">今日无新增代币</p>`;
+        html += `<p class="empty-msg">${period}无新增代币</p>`;
       }
       html += `</div>`;
 
@@ -98,7 +147,7 @@ function renderExchanges(container, exchanges) {
       if (wallet.length > 0) {
         html += renderTable(wallet);
       } else {
-        html += `<p class="empty-msg">今日无新代币上线</p>`;
+        html += `<p class="empty-msg">${period}无新代币上线</p>`;
       }
       html += `</div>`;
     }
@@ -115,10 +164,13 @@ function renderTable(items) {
     <tbody>`;
   for (const item of items) {
     const link = item.url ? ` <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" class="detail-link">（查看公告）</a>` : '';
+    const datesPill = (item.dates && item.dates.length > 0)
+      ? ` <span class="dates-pill">${item.dates.map(d => d.slice(5)).join(' · ')}</span>`
+      : '';
     html += `<tr>
       <td class="token-name">${escapeHtml(item.token)}</td>
       <td class="listing-type">${escapeHtml(item.type)}</td>
-      <td class="listing-detail">${escapeHtml(item.detail)}${link}</td>
+      <td class="listing-detail">${escapeHtml(item.detail)}${link}${datesPill}</td>
     </tr>`;
   }
   html += `</tbody></table>`;
@@ -167,12 +219,18 @@ function showToast() {
 
 function exportPDF(data) {
   const printTitle = document.getElementById('print-title');
-  printTitle.textContent = data.date + ' 各交易所新币上线公告';
+  const header = mode === 'weekly'
+    ? `${data.weekStart} → ${data.weekEnd} 各交易所新币上线周回顾`
+    : `${data.date} 各交易所新币上线公告`;
+  printTitle.textContent = header;
   window.print();
 }
 
 function exportText(data) {
-  let out = '';
+  const header = mode === 'weekly'
+    ? `【交易所新币上线 · 周回顾 ${data.weekStart} → ${data.weekEnd}】\n\n`
+    : '';
+  let out = header;
   for (const [key, exData] of Object.entries(data.exchanges)) {
     const name = EXCHANGE_NAMES[key] || key;
     const listings = exData.listings || [];
@@ -180,9 +238,11 @@ function exportText(data) {
     const wallet = key === 'binance' ? (exData.wallet || []) : [];
     const all = [...listings, ...alpha, ...wallet];
     if (all.length === 0) continue;
-    out += `${name}：\n今日${all.length}则上币公告。\n`;
+    const label = mode === 'weekly' ? '本周' : '今日';
+    out += `${name}：\n${label}${all.length}则上币公告。\n`;
     all.forEach((item, i) => {
-      out += `${i + 1}. ${item.detail || item.token + ' ' + item.type}\n`;
+      const dateTag = item.dates ? ` [${item.dates.map(d => d.slice(5)).join('/')}]` : '';
+      out += `${i + 1}. ${item.detail || item.token + ' ' + item.type}${dateTag}\n`;
     });
     out += '\n';
   }
