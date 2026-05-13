@@ -271,11 +271,16 @@ async function scrapeHTX(page) {
       console.error(`  HTX fetch error (${e.message}) — falling back to Playwright`);
     }
 
-    // 2. fallback: Playwright (real-browser TLS fingerprint bypasses Cloudflare)
+    // 2. fallback: Playwright (real-browser TLS fingerprint bypasses Cloudflare).
+    // Cloudflare's "Just a moment..." JS challenge takes ~5s to resolve; we
+    // wait for networkidle and for the list-field1 anchor to actually render.
     if (!html) {
       try {
-        await page.goto(LIST_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        await page.waitForTimeout(2000);
+        await page.goto(LIST_URL, { waitUntil: 'networkidle', timeout: 45000 });
+        await page.waitForSelector('a.list-field1', { timeout: 20000 }).catch(() => {
+          console.error('  HTX list-field1 selector did not appear — page may be a Cloudflare challenge');
+        });
+        await page.waitForTimeout(1500);
         html = await page.content();
       } catch (e) {
         console.error('  HTX Playwright error:', e.message);
