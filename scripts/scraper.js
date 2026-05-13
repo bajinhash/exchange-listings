@@ -116,25 +116,51 @@ async function scrapeOKX(page) {
         as.map(a => ({
           title: a.textContent?.trim() || '',
           href: a.getAttribute('href') || '',
-        })).filter(i => i.title.length > 12 && i.href.includes('/help/') && !i.href.endsWith('/help/'))
+        }))
+        // Real article URLs look like /help/okx-to-list-... or /help/okx-will-launch-...
+        // Sidebar/nav URLs are /help/section/... or /help/category/... — drop those.
+        .filter(i =>
+          i.title.length > 12
+          && i.href.includes('/help/')
+          && !i.href.endsWith('/help/')
+          && !/\/help\/(section|category|categories)\//.test(i.href)
+        )
       );
-      // Dedupe by href, keep first 12
       const seen = new Set();
+      const pubRe = /(.*?)Published on ([A-Z][a-z]+ \d{1,2}, \d{4})/;
       for (const item of items) {
         if (seen.has(item.href)) continue;
         seen.add(item.href);
         if (/Competition|Campaign|fee|手续费/i.test(item.title)) continue;
+        // Title often looks like "OKX to list X for spot tradingPublished on May 6, 2026"
+        // Split into clean title + published date.
+        let title = item.title;
+        let pubDate = null;
+        const m = title.match(pubRe);
+        if (m) {
+          title = m[1].trim();
+          const d = new Date(m[2]);
+          if (!isNaN(d)) pubDate = d.toISOString().split('T')[0];
+        }
         const url = item.href.startsWith('http') ? item.href : `https://www.okx.com${item.href}`;
-        articles.push({ title: item.title, url, body: null });
+        articles.push({
+          title,
+          url,
+          body: pubDate ? `Published: ${pubDate}` : null,
+        });
         if (articles.length >= 12) break;
       }
     }
 
-    // Fetch body for first 8 to give the formatter publish date context
+    // Fetch full body for first 8 if no body yet (gives formatter more context)
     for (const a of articles.slice(0, 8)) {
-      if (a.body && a.body.startsWith('Published:')) continue;
-      const body = await fetchPageContent(page, a.url, 'article, main, .article-content');
-      a.body = body;
+      if (a.body && a.body.startsWith('Published:') && !a.body.includes('\n')) {
+        // We have publish date but no body content; fetch detail page and append
+        const detail = await fetchPageContent(page, a.url, 'article, main, .article-content');
+        if (detail) a.body = `${a.body}\n\n${detail}`;
+      } else if (!a.body) {
+        a.body = await fetchPageContent(page, a.url, 'article, main, .article-content');
+      }
     }
   } catch (e) {
     console.error('  OKX scrape error:', e.message);
