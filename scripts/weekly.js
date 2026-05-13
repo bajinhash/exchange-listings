@@ -12,7 +12,10 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
-const END = process.argv[2] || new Date().toISOString().split('T')[0];
+// CST date — matches the scraper/formatter convention (briefing dated by
+// Asia/Shanghai morning, since cron fires at 22:30 UTC = 06:30 CST).
+const SHANGHAI_OFFSET_MS = 8 * 3600 * 1000;
+const END = process.argv[2] || new Date(Date.now() + SHANGHAI_OFFSET_MS).toISOString().split('T')[0];
 
 function daysBack(dateStr, n) {
   const d = new Date(dateStr + 'T00:00:00Z');

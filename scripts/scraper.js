@@ -2,7 +2,12 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 
-const TODAY = new Date().toISOString().split('T')[0];
+// We run at 22:30 UTC (06:30 Asia/Shanghai) — at that moment the CST date is
+// already "tomorrow" relative to UTC. Naming the report file by CST date
+// keeps it intuitive for the user (the briefing dated 5/14 covers everything
+// announced from 5/13 00:00 CST to 5/14 06:30 CST).
+const SHANGHAI_OFFSET_MS = 8 * 3600 * 1000;
+const TODAY = new Date(Date.now() + SHANGHAI_OFFSET_MS).toISOString().split('T')[0];
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 

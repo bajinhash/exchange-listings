@@ -1,10 +1,12 @@
 name: Daily scrape + format
 
-# Runs every day at 02:30 UTC (~10:30 Asia/Shanghai). Also exposed as a
-# manual trigger so you can run it on demand from the Actions tab.
+# Runs every day at 22:30 UTC = 06:30 Asia/Shanghai (next morning briefing
+# slot — fresh by the time you wake up). Window covered: previous-day 00:00
+# Asia/Shanghai → today 06:30 Asia/Shanghai (~30 hours).
+# Also exposed as a manual trigger from the Actions tab.
 on:
   schedule:
-    - cron: '30 2 * * *'
+    - cron: '30 22 * * *'
   workflow_dispatch:
 
 permissions:

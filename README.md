@@ -102,7 +102,7 @@ Two workflows under `.github/workflows/`:
 | `scrape.yml` | daily 02:30 UTC + manual | runs the scraper, commits `data/raw-*.json`, uploads artifact |
 | `deploy.yml` | push to `main` + manual | publishes the static site to GitHub Pages |
 
-The cron schedule is set to ~10:30 Asia/Shanghai so a fresh raw file is ready before most exchanges' Asia trading hours.
+The cron schedule is **22:30 UTC = 06:30 Asia/Shanghai** — the briefing is fresh by the time you wake up. Each report covers the window from **previous-day 00:00 CST → current-day 06:30 CST** (~30 hours). Older listings live in the weekly recap (`weekly.json`) instead.
 
 ## Credit
 

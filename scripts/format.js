@@ -10,7 +10,10 @@ const fs = require('fs');
 const path = require('path');
 const Anthropic = require('@anthropic-ai/sdk').default;
 
-const DATE = process.argv[2] || new Date().toISOString().split('T')[0];
+// Cron fires at 22:30 UTC = 06:30 CST next morning. We name the report
+// by CST date so a "5/14 早报" covers 5/13 00:00 → 5/14 06:30 (CST).
+const SHANGHAI_OFFSET_MS = 8 * 3600 * 1000;
+const DATE = process.argv[2] || new Date(Date.now() + SHANGHAI_OFFSET_MS).toISOString().split('T')[0];
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const RAW_PATH = path.join(DATA_DIR, `raw-${DATE}.json`);
 const OUT_PATH = path.join(DATA_DIR, `${DATE}.json`);
@@ -113,11 +116,13 @@ const SYSTEM_PROMPT = `你是一个加密货币交易所新币上线公告的结
 
 9. **去重**：同一币种同一类型在同一交易所只保留一条（合约 + 现货同时上线算两条）。
 
-10. **日期过滤（关键规则）**：只保留**上线/开盘日期在最近 48 小时内**的 listing（即 today 或 yesterday，相对于报告日期）。判断方式：
-    - 优先从标题提取日期（如 "2026-05-12"、"05/12"、"5月12日"）
-    - 其次看 body 里提到的开盘时间
-    - 完全没有日期的（如 "Margin Will Add New Pairs - 2026-05-12" 用标题里的日期）按标题日期算
-    - 日期超过 48h 的**直接丢弃**，不要包含
+10. **日期过滤（关键规则 / 早报窗口）**：报告日期 X = 上海时间（CST，UTC+8）。窗口 = **昨天 00:00 CST → 今天 06:30 CST**（共约 30.5 小时）。
+    具体保留规则：
+    - listing 的上线/开盘日期落在 X-1 当天（CST 全天）→ 保留
+    - listing 的上线/开盘日期落在 X 当天且时间不晚于 06:30 CST → 保留
+    - 其它（更早的、或晚于 06:30 CST 的当天后续）→ **直接丢弃**
+    - 判断日期的优先级：标题里的日期 > body 提到的开盘时间 > 公告发布日期
+    - 标题/body 里出现 "MM/DD HH:MM" 或 "X月Y日"、"X月Y日 HH:MM (UTC+8)"、"2026-05-13 15:00 UTC+8" 都按 CST 解析
     - 周回顾另有独立汇总，日报别越界
 
 只输出 JSON，不要解释。`;
