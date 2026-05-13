@@ -1,74 +1,63 @@
 {
   "date": "2026-05-13",
-  "updatedAt": "2026-05-13T01:00:00.000Z",
+  "updatedAt": "2026-05-13T12:30:00.000Z",
   "exchanges": {
     "binance": {
-      "listings": [
-        {
-          "token": "Binance Margin 新增",
-          "type": "杠杆上线",
-          "detail": "Binance Margin 新增多个交易对（2026-05-12 公告）",
-          "url": "https://www.binance.com/en/support/announcement/b4eb8e22deba433583fe18e327e382e0"
-        },
-        {
-          "token": "Binance Spot 新增",
-          "type": "现货上线",
-          "detail": "新交易对 & 交易机器人服务（2026-05-12 公告）",
-          "url": "https://www.binance.com/en/support/announcement/9d96b17988bd41e9bd8898c586f68744"
-        },
-        {
-          "token": "MegaETH (MEGA)",
-          "type": "综合上线",
-          "detail": "MEGA 同步开放 Earn / Buy Crypto / Convert / VIP Loan / Margin / Futures",
-          "url": "https://www.binance.com/en/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f"
-        },
-        {
-          "token": "MegaETH (MEGA)",
-          "type": "现货上线",
-          "detail": "MEGA 现货上线，带 Seed Tag 标签",
-          "url": "https://www.binance.com/en/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
-        },
-        {
-          "token": "USDT/KZT",
-          "type": "现货上线",
-          "detail": "USDT/KZT 法币现货交易对",
-          "url": "https://www.binance.com/en/support/announcement/51c9c56c7d3141fdac18cb9a152defc8"
-        }
-      ],
+      "listings": [],
       "alpha": [],
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "Coherent (COHR)",
+          "type": "美股合约",
+          "detail": "COHR-USDT 永续合约，10x 杠杆，instCategory=3，2026-05-13 18:00 UTC+8 上线",
+          "url": "https://www.okx.com/help/section/announcements-new-listings"
+        },
+        {
+          "token": "Pharos (PROS)",
+          "type": "现货上线",
+          "detail": "PROS-USDT / PROS-USDC / PROS-USD / PROS-EUR / PROS-TRY 现货交易对，2026-05-13 17:00-18:00 UTC+8 分批上线",
+          "url": "https://www.okx.com/help/section/announcements-new-listings"
+        }
+      ]
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "Marvell Technology (MRVL)",
+          "type": "美股合约",
+          "detail": "MRVLUSDT 永续合约，最高 10x 杠杆，2026-05-13 16:42 UTC+8 上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mrvlusdt-perpetual-contract-with-up-to-10x-leverage-blt4561747b7a1a3150/"
+        },
+        {
+          "token": "BZ",
+          "type": "美股合约",
+          "detail": "BZUSDT 永续合约，最高 10x 杠杆，2026-05-13 16:41 UTC+8 上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bzusdt-perpetual-contract-with-up-to-10x-leverage-blt847e7209dd33a69a/"
+        },
+        {
+          "token": "Alibaba (BABA)",
+          "type": "美股合约",
+          "detail": "BABAUSDT 永续合约，最高 10x 杠杆，2026-05-13 16:41 UTC+8 上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-babausdt-perpetual-contract-with-up-to-10x-leverage-blt472c6ee6b735411b/"
+        },
+        {
+          "token": "Arm Holdings (ARM)",
+          "type": "美股合约",
+          "detail": "ARMUSDT 永续合约，最高 10x 杠杆，2026-05-13 16:41 UTC+8 上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-armusdt-perpetual-contract-with-up-to-10x-leverage-bltb541652ba67d7204/"
+        }
+      ]
     },
     "kucoin": {
       "listings": [
         {
-          "token": "Rocket Lab (RKLB)",
-          "type": "美股合约",
-          "detail": "RKLBUSDT 股票指数永续合约，2026-05-12 11:00 UTC，1-10x",
+          "token": "RKLB / MRVL / WDC",
+          "type": "美股合约（批量）",
+          "detail": "RKLBUSDT、MRVLUSDT、WDCUSDT 股票指数永续合约一同上线，1-10x，2026-05-12 20:24 UTC+8 发布（开盘 2026-05-12 11:00 UTC）",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-rklbusdt-mrvlusdt-wdcusdt-stock-index-perpetual-contracts-2026-05-12"
-        },
-        {
-          "token": "Marvell Technology (MRVL)",
-          "type": "美股合约",
-          "detail": "MRVLUSDT 股票指数永续合约，2026-05-12 11:00 UTC，1-10x",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-rklbusdt-mrvlusdt-wdcusdt-stock-index-perpetual-contracts-2026-05-12"
-        },
-        {
-          "token": "Western Digital (WDC)",
-          "type": "美股合约",
-          "detail": "WDCUSDT 股票指数永续合约，2026-05-12 11:00 UTC，1-10x",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-rklbusdt-mrvlusdt-wdcusdt-stock-index-perpetual-contracts-2026-05-12"
-        },
-        {
-          "token": "NEXST (NXT)",
-          "type": "现货上线",
-          "detail": "全球首发，NXT/USDT，2026-05-12 10:00 UTC 开盘，BSC-BEP20 充值开放",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-nexst-nxt-listed-on-kucoin"
         }
       ]
     },
@@ -76,27 +65,64 @@
       "listings": []
     },
     "bitget": {
-      "listings": []
+      "listings": [
+        {
+          "token": "INFQ / VRT / ETN",
+          "type": "永续合约（批量）",
+          "detail": "INFQUSDT、VRTUSDT、ETNUSDT 永续合约上线，2026-05-13 14:41 UTC+8 发布",
+          "url": "https://www.bitget.com/zh-CN/support/sections/5955813039257"
+        },
+        {
+          "token": "ILITY (ILY)",
+          "type": "现货上线",
+          "detail": "Bitget 首发上币 ILY，2026-05-13 16:00 UTC+8 开盘",
+          "url": "https://www.bitget.com/zh-CN/support/sections/5955813039257"
+        }
+      ]
     },
     "mexc": {
       "listings": [
         {
-          "token": "Global X Defense Tech ETF (SHLD)",
-          "type": "美股合约",
-          "detail": "SHLDUSDT 指数合约，2026-05-12 20:15 UTC+8，最高 20x 杠杆，限时 0 费率",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-shld-index-futures-on-may-12-with-0-fee-trading-17827791535426"
+          "token": "ASTEROIDSOL",
+          "type": "永续合约（创新板块）",
+          "detail": "MEXC 合约创新板块 首发 ASTEROIDSOLUSDT，2026-05-13 13:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/new-listings"
+        },
+        {
+          "token": "RKC",
+          "type": "永续合约（创新板块）",
+          "detail": "MEXC 合约创新板块 首发 RKCUSDT，2026-05-13 13:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/new-listings"
         },
         {
           "token": "RAGEGUY",
           "type": "Meme+ 现货",
-          "detail": "RAGEGUY (SOL) 首发上线 MEXC Meme+，2026-05-12 16:10 UTC+8",
+          "detail": "RAGEGUY (SOL) 首发上线 MEXC Meme+，2026-05-13 12:10 UTC+8 上币（公告 ~16h 前）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535425"
         },
         {
           "token": "RKC",
           "type": "Meme+ 现货",
-          "detail": "RKC (SOL) 首发上线 MEXC Meme+，2026-05-12 11:00 UTC+8",
+          "detail": "RKC (SOL) 首发上线 MEXC Meme+，2026-05-13 11:00 UTC+8 上币",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535415"
+        },
+        {
+          "token": "SHLD",
+          "type": "跟单合约",
+          "detail": "MEXC 跟单新增 SHLDUSDT U本位指数合约交易对，20x，2026-05-13 19:56 UTC+8 发布",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-shld-usdt-m-index-futures-17827791535431"
+        },
+        {
+          "token": "Global X Defense Tech ETF (SHLD)",
+          "type": "美股合约（跨日）",
+          "detail": "SHLDUSDT 指数合约，2026-05-12 20:15 UTC+8 发布，最高 20x，限时 0 费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-shld-index-futures-on-may-12-with-0-fee-trading-17827791535426"
+        },
+        {
+          "token": "HASH",
+          "type": "Meme+ 现货（跨日）",
+          "detail": "HASH (ETH) 首发上线 MEXC Meme+，2026-05-12 16:40 UTC+8 上币（公告约 23h 前）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535400"
         }
       ]
     }
