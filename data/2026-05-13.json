@@ -1,6 +1,6 @@
 {
   "date": "2026-05-13",
-  "updatedAt": "2026-05-13T12:56:37.715Z",
+  "updatedAt": "2026-05-14T01:29:35.323Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -105,6 +105,24 @@
           "type": "跟单合约",
           "detail": "MEXC 跟單新增 SHLD U本位指數合約交易對",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-shld-usdt-m-index-futures-17827791535431"
+        },
+        {
+          "token": "SHLD",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年5月12日 上線 SHLD 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-shld-index-futures-on-may-12-with-0-fee-trading-17827791535426"
+        },
+        {
+          "token": "RAGEGUY",
+          "type": "Meme+ 现货",
+          "detail": "RAGEGUY 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535425"
+        },
+        {
+          "token": "RKC",
+          "type": "Meme+ 现货",
+          "detail": "RKC 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535415"
         }
       ]
     }

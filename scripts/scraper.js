@@ -189,11 +189,11 @@ async function scrapeBybit(page) {
         const ts = parseInt(item.publishTime);
         if (!isNaN(ts) && ts < cutoffMs) continue;
         if (/Competition|Campaign/i.test(item.title)) continue;
-        const pubDate = new Date(ts).toISOString().split('T')[0];
+        const pubIso = new Date(ts).toISOString();  // full timestamp
         articles.push({
           title: item.title,
           url: item.url || '',
-          body: `Published: ${pubDate}\n\n${item.description || ''}`,
+          body: `Published: ${pubIso}\n\n${item.description || ''}`,
         });
       }
       apiOk = articles.length > 0;
@@ -221,14 +221,14 @@ async function scrapeBybit(page) {
         if (ts && ts < cutoffMs) continue;
         const title = item.title || '';
         if (!title || /Competition|Campaign/i.test(title)) continue;
-        const pubDate = new Date(ts).toISOString().split('T')[0];
+        const pubIso = new Date(ts).toISOString();  // full timestamp
         const url = (item.url || '').startsWith('http')
           ? item.url
           : `https://announcements.bybit.com/zh-TW${item.url || ''}`;
         articles.push({
           title,
           url,
-          body: `Published: ${pubDate}\n\n${item.description || ''}`,
+          body: `Published: ${pubIso}\n\n${item.description || ''}`,
         });
         if (articles.length >= 15) break;
       }

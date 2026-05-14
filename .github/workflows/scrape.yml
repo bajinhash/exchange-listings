@@ -1,7 +1,7 @@
 name: Daily scrape + format
 
 # Runs every day at 10:00 UTC = 18:00 Asia/Shanghai (evening briefing).
-# Window covered: today 00:00 CST → today 18:00 CST (18 hours).
+# Window covered: yesterday 18:00 CST → today 18:00 CST (24h rolling).
 # Also exposed as a manual trigger from the Actions tab.
 on:
   schedule:

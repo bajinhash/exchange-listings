@@ -17,45 +17,79 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const RAW = path.join(DATA_DIR, `raw-${TODAY}.json`);
 const OUT = path.join(DATA_DIR, `${TODAY}.json`);
 
+// 24-hour rolling window ending at the moment this script runs.
+// Cron runs at 18:00 CST → cutoff = 18:00 CST the previous day, exactly
+// what the user asked for. Manual runs slide the window accordingly.
+const WINDOW_END_MS = Date.now();
+const WINDOW_START_MS = WINDOW_END_MS - 24 * 3600 * 1000;
+// CST dates that overlap the window — used as fallback when only date (no time)
+// is available. covers (yesterday CST, today CST).
+const TODAY_CST = new Date(WINDOW_END_MS + SHANGHAI_OFFSET_MS).toISOString().split('T')[0];
+const YESTERDAY_CST = new Date(WINDOW_END_MS + SHANGHAI_OFFSET_MS - 86400_000).toISOString().split('T')[0];
+
 // ---- date parser (handles every exchange's quirky date format) ------------
 function nowCstDate() {
   return new Date(Date.now() + SHANGHAI_OFFSET_MS).toISOString().split('T')[0];
 }
 function yyyymmdd(d) { return d.toISOString().split('T')[0]; }
 
-function parsePublishDate(item) {
+// Returns {ts: ms-epoch | null, date: 'YYYY-MM-DD' | null}.
+// ts populated when we can determine exact publish time; date is a coarser
+// fallback used when only the date portion is known.
+function parsePublishTime(item) {
   const body = item.body || '';
   const title = item.title || '';
   const text = `${title}\n${body}`;
   let m;
-  // 1. "Published: YYYY-MM-DD" (Bybit, OKX, HTX bodies set by scraper)
-  if ((m = text.match(/Published:?\s*(\d{4}-\d{2}-\d{2})/))) return m[1];
-  // 2. "Published on Month D, YYYY" (OKX titles)
+  // 1a. "Published: ISO_TIMESTAMP" (Bybit) — full precision
+  if ((m = text.match(/Published:?\s*(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z)/))) {
+    const ts = Date.parse(m[1]);
+    if (!isNaN(ts)) return { ts, date: m[1].slice(0, 10) };
+  }
+  // 1b. "Published: YYYY-MM-DD" (date only — OKX/scraper-injected)
+  if ((m = text.match(/Published:?\s*(\d{4}-\d{2}-\d{2})\b/))) {
+    return { ts: null, date: m[1] };
+  }
+  // 1b. "Published on Month D, YYYY" (OKX titles, date only)
   if ((m = text.match(/Published on (\w+) (\d{1,2}),\s*(\d{4})/))) {
     const d = new Date(`${m[1]} ${m[2]}, ${m[3]} UTC`);
-    if (!isNaN(d)) return yyyymmdd(d);
+    if (!isNaN(d)) return { ts: null, date: yyyymmdd(d) };
   }
-  // 3. "YYYY-MM-DD HH:MM" inside body (Bitget article-header timestamps)
-  if ((m = text.match(/(\d{4}-\d{2}-\d{2})\s+\d{2}:\d{2}/))) return m[1];
-  // 4. "MM/DD/YYYY, HH:MM:SS" (KuCoin)
-  if ((m = text.match(/(\d{2})\/(\d{2})\/(\d{4})/))) return `${m[3]}-${m[1]}-${m[2]}`;
-  // 5. "(YYYY-MM-DD)" or "(YYYY-MM-DD HH:MM)" in title (KuCoin futures)
-  if ((m = text.match(/\((\d{4}-\d{2}-\d{2})\)/))) return m[1];
-  // 6. Relative Chinese time (MEXC: "X 分鐘前", "X 小時前", "X 天前")
+  // 2. "YYYY-MM-DD HH:MM" inside body (Bitget article header — has CST time!)
+  if ((m = text.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/))) {
+    // Interpret as CST (UTC+8) since Bitget pages render in zh-CN
+    const cstMs = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]);
+    const utcMs = cstMs - SHANGHAI_OFFSET_MS;
+    return { ts: utcMs, date: `${m[1]}-${m[2]}-${m[3]}` };
+  }
+  // 3. "MM/DD/YYYY, HH:MM:SS" (KuCoin)
+  if ((m = text.match(/(\d{2})\/(\d{2})\/(\d{4})/))) {
+    return { ts: null, date: `${m[3]}-${m[1]}-${m[2]}` };
+  }
+  // 4. "(YYYY-MM-DD)" in title (KuCoin futures)
+  if ((m = text.match(/\((\d{4}-\d{2}-\d{2})\)/))) {
+    return { ts: null, date: m[1] };
+  }
+  // 5. Relative Chinese time (MEXC: "X 分鐘前", "X 小時前", "X 天前") — has exact ts
   if ((m = text.match(/(\d+)\s*分[鐘钟]前/))) {
-    return yyyymmdd(new Date(Date.now() - parseInt(m[1]) * 60_000));
+    const ts = Date.now() - parseInt(m[1]) * 60_000;
+    return { ts, date: yyyymmdd(new Date(ts + SHANGHAI_OFFSET_MS)) };
   }
   if ((m = text.match(/大約\s*(\d+)\s*小[時时]前|(\d+)\s*小[時时]前/))) {
     const n = parseInt(m[1] || m[2]);
-    return yyyymmdd(new Date(Date.now() - n * 3600_000));
+    const ts = Date.now() - n * 3600_000;
+    return { ts, date: yyyymmdd(new Date(ts + SHANGHAI_OFFSET_MS)) };
   }
   if ((m = text.match(/(\d+)\s*天前/))) {
-    return yyyymmdd(new Date(Date.now() - parseInt(m[1]) * 86400_000));
+    const ts = Date.now() - parseInt(m[1]) * 86400_000;
+    return { ts, date: yyyymmdd(new Date(ts + SHANGHAI_OFFSET_MS)) };
   }
-  if (/剛剛|刚刚|剛剛|seconds? ago|一[個个]?小時前/.test(text)) return TODAY;
-  // 7. last resort: any YYYY-MM-DD in title (Binance: "...(2026-05-07)")
-  if ((m = text.match(/(\d{4}-\d{2}-\d{2})/))) return m[1];
-  return null;
+  if (/剛剛|刚刚|seconds? ago|一個小時前|一个小时前/.test(text)) {
+    return { ts: Date.now(), date: TODAY_CST };
+  }
+  // 6. last resort: any YYYY-MM-DD in title (Binance: "...(2026-05-07)")
+  if ((m = text.match(/(\d{4}-\d{2}-\d{2})/))) return { ts: null, date: m[1] };
+  return { ts: null, date: null };
 }
 
 // Common false-positive tokens / brand names to skip when matching.
@@ -132,12 +166,18 @@ function makeDetail(item) {
 }
 
 // ---- filter window --------------------------------------------------------
-// Briefing window = today 00:00 → today 18:00 CST. In date terms we keep
-// items whose pub date is TODAY (CST). Cross-day Meme+ posted late
-// yesterday is included if it's within 24h relative time (handled by parser).
-function inWindow(pubDate) {
-  if (!pubDate) return false;
-  return pubDate === TODAY;
+// Rolling 24h ending at run time. At the 18:00 CST cron firing, that's
+// yesterday 18:00 CST → today 18:00 CST. Exact ts comparison when possible,
+// fall back to date-equality with today-or-yesterday CST when only a date
+// is known.
+function inWindow(parsed) {
+  if (parsed.ts !== null) {
+    return parsed.ts >= WINDOW_START_MS && parsed.ts <= WINDOW_END_MS;
+  }
+  if (parsed.date) {
+    return parsed.date === TODAY_CST || parsed.date === YESTERDAY_CST;
+  }
+  return false;
 }
 
 // ---- denylist (drop noise rows) ------------------------------------------
@@ -153,8 +193,8 @@ function formatExchange(key, rawArr) {
   const seen = new Set();
   for (const item of rawArr) {
     if (!item || !item.title || isDenied(item)) continue;
-    const pubDate = parsePublishDate(item);
-    if (!inWindow(pubDate)) continue;
+    const pub = parsePublishTime(item);
+    if (!inWindow(pub)) continue;
     const token = extractToken(item);
     const type = extractType(item);
     const detail = makeDetail(item);
@@ -177,8 +217,8 @@ function bucketBinance(rawArr) {
   const seen = new Set();
   for (const item of rawArr) {
     if (!item || !item.title || isDenied(item)) continue;
-    const pubDate = parsePublishDate(item);
-    if (!inWindow(pubDate)) continue;
+    const pub = parsePublishTime(item);
+    if (!inWindow(pub)) continue;
     const token = extractToken(item);
     const type = extractType(item);
     const detail = makeDetail(item);
@@ -221,7 +261,8 @@ function main() {
     const n = (v.listings?.length || 0) + (v.alpha?.length || 0) + (v.wallet?.length || 0);
     return `${k}=${n}`;
   }).join('  ');
-  console.log(`[basic-format] window: ${TODAY} (00:00 → 18:00 CST)`);
+  const fmt = (ms) => new Date(ms + SHANGHAI_OFFSET_MS).toISOString().replace('T', ' ').slice(0, 16);
+  console.log(`[basic-format] window: ${fmt(WINDOW_START_MS)} → ${fmt(WINDOW_END_MS)} CST (24h rolling)`);
   console.log(`[basic-format] counts: ${counts}`);
   console.log(`[basic-format] wrote ${OUT}`);
 }
