@@ -19,6 +19,10 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    # Map secret to job-level env so step-level `if:` can branch on it.
+    # (secrets.* cannot be referenced directly inside `if:` — that fails workflow parsing.)
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -37,15 +41,13 @@ jobs:
       - name: Run scraper (raw → data/raw-DATE.json)
         run: npm run scrape
 
-      - name: AI format (Claude Opus 4.7, if ANTHROPIC_API_KEY secret set)
-        if: ${{ secrets.ANTHROPIC_API_KEY != '' }}
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: AI format (Claude Opus 4.7, if ANTHROPIC_API_KEY set)
+        if: env.ANTHROPIC_API_KEY != ''
         run: npm run format
         continue-on-error: true
 
       - name: Basic rule-based format (fallback when no API key)
-        if: ${{ secrets.ANTHROPIC_API_KEY == '' }}
+        if: env.ANTHROPIC_API_KEY == ''
         run: npm run basic-format
         continue-on-error: true
 
