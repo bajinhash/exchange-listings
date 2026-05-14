@@ -1,10 +1,20 @@
 {
   "weekStart": "2026-05-13",
-  "weekEnd": "2026-05-13",
-  "updatedAt": "2026-05-14T01:30:06.943Z",
+  "weekEnd": "2026-05-14",
+  "updatedAt": "2026-05-14T13:23:55.378Z",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "PHAROS",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+          "url": "https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88",
+          "dates": [
+            "2026-05-14"
+          ]
+        }
+      ],
       "alpha": [],
       "wallet": []
     },
@@ -16,13 +26,59 @@
           "detail": "OKX to list PROS/USDT (Pharos) for spot trading",
           "url": "https://www.okx.com/en-us/help/okx-to-list-pros-usdt-pharos-for-spot-trading",
           "dates": [
-            "2026-05-13"
+            "2026-05-13",
+            "2026-05-14"
           ]
         }
       ]
     },
     "bybit": {
       "listings": [
+        {
+          "token": "PHAROS",
+          "type": "永续合约",
+          "detail": "PHAROSUSDT 永續合約全新上線創新板塊， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-pharosusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage-blt688d60f39ec6453c/",
+          "dates": [
+            "2026-05-14"
+          ]
+        },
+        {
+          "token": "BMNR",
+          "type": "永续合约",
+          "detail": "BMNRUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bmnrusdt-perpetual-contract-with-up-to-10x-leverage-blteb4e07f70c7285e1/",
+          "dates": [
+            "2026-05-14"
+          ]
+        },
+        {
+          "token": "SPY",
+          "type": "永续合约",
+          "detail": "SPYUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spyusdt-perpetual-contract-with-up-to-20x-leverage-blt5a88da78ffb255d9/",
+          "dates": [
+            "2026-05-14"
+          ]
+        },
+        {
+          "token": "LLY",
+          "type": "永续合约",
+          "detail": "LLYUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-llyusdt-perpetual-contract-with-up-to-20x-leverage-bltae8df4843a14c56e/",
+          "dates": [
+            "2026-05-14"
+          ]
+        },
+        {
+          "token": "IWM",
+          "type": "永续合约",
+          "detail": "IWMUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-iwmusdt-perpetual-contract-with-up-to-20x-leverage-bltfe574fc884673040/",
+          "dates": [
+            "2026-05-14"
+          ]
+        },
         {
           "token": "MRVL",
           "type": "永续合约",
@@ -75,7 +131,17 @@
       ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "AIGENSYN",
+          "type": "现货上线",
+          "detail": "现货市场上新：AIGENSYN/USDT2 小时前542",
+          "url": "https://www.gate.com/zh/announcements/article/51209",
+          "dates": [
+            "2026-05-14"
+          ]
+        }
+      ]
     },
     "bitget": {
       "listings": [
@@ -107,7 +173,8 @@
           "detail": "MEXC 合約創新板塊將於 2026年5月13日 13:10 (UTC+8) 上線 ASTEROIDSOLUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535435",
           "dates": [
-            "2026-05-13"
+            "2026-05-13",
+            "2026-05-14"
           ]
         },
         {
@@ -116,7 +183,53 @@
           "detail": "MEXC 合約創新板塊將於 2026年5月13日 13:10 (UTC+8) 上線 RKCUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535434",
           "dates": [
-            "2026-05-13"
+            "2026-05-13",
+            "2026-05-14"
+          ]
+        },
+        {
+          "token": "GITLAWB",
+          "type": "Meme+ 现货",
+          "detail": "GITLAWB 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535460",
+          "dates": [
+            "2026-05-14"
+          ]
+        },
+        {
+          "token": "STAR",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年5月14日 14:05 (UTC+8) 上線 STARUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-starusdt-futures-on-may-14-2026-06-17827791535459",
+          "dates": [
+            "2026-05-14"
+          ]
+        },
+        {
+          "token": "HK50",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 HK50、RKC 和 ASTEROIDSOL U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hk50-rkc-and-asteroidsol-usdt-m-futures-17827791535457",
+          "dates": [
+            "2026-05-14"
+          ]
+        },
+        {
+          "token": "ASTEROIDSOL",
+          "type": "上线",
+          "detail": "ASTEROIDSOL 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-asteroidsol-to-the-innovation-zone-17827791535449",
+          "dates": [
+            "2026-05-14"
+          ]
+        },
+        {
+          "token": "RKC",
+          "type": "上线",
+          "detail": "RKC 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-rkc-to-the-innovation-zone-17827791535448",
+          "dates": [
+            "2026-05-14"
           ]
         },
         {
