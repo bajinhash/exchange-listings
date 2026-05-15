@@ -1,0 +1,279 @@
+{
+  "date": "2026-05-15",
+  "exchanges": {
+    "binance": [
+      {
+        "title": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+        "url": "https://www.binance.com/en/support/announcement/875f9acd516c443b8752e800aa94b4b1",
+        "body": null
+      },
+      {
+        "title": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+        "url": "https://www.binance.com/en/support/announcement/5a6284dbe6a7420b85a94054b6fb6613",
+        "body": null
+      },
+      {
+        "title": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+        "url": "https://www.binance.com/en/support/announcement/71f44e5e014c445697bb6a6f70315e35",
+        "body": null
+      },
+      {
+        "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)",
+        "url": "https://www.binance.com/en/support/announcement/a2bce2686fc64a61b44c4335facafe7f",
+        "body": null
+      },
+      {
+        "title": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+        "url": "https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88",
+        "body": null
+      },
+      {
+        "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15)",
+        "url": "https://www.binance.com/en/support/announcement/3c04310db1ad4e0fbe234d2c00d0c785",
+        "body": null
+      },
+      {
+        "title": "Binance Margin Will Add New Pairs - 2026-05-12",
+        "url": "https://www.binance.com/en/support/announcement/b4eb8e22deba433583fe18e327e382e0",
+        "body": null
+      },
+      {
+        "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+        "url": "https://www.binance.com/en/support/announcement/9d96b17988bd41e9bd8898c586f68744",
+        "body": null
+      }
+    ],
+    "okx": [
+      {
+        "title": "OKX to list PROS/USDT (Pharos) for spot trading",
+        "url": "https://www.okx.com/en-us/help/okx-to-list-pros-usdt-pharos-for-spot-trading",
+        "body": "Published: 2026-05-13\n\nOKX to list PROS/USDT (Pharos) for spot tradingPublished on May 13, 20263 min readOKX is pleased to announce the listing of PROS/USDT (Pharos) on our spot trading markets. Please take note of the following details:Listing timelinePROS deposits will open at 04:00 UTC on May 13, 2026.PROS pre-open will take place from from 09:00 to 10:00 UTC on May 13, 2026.PROS/USDT spot trading will open at 10:00 UTC on May 13, 2026.PROS withdrawals will open at 12:00 UTC on May 13, 2026.Deposit to OKX NowSpot market opening risk control rulesPrice limit rules:During Pre-open session and continuous trading, index-based limit rules will be applied.Index-based limit calculation rules:PhaseMaximum bid priceMinimum ask priceDuring Pre-Open sessionIndex × (1 + J)Index × (1 – J)Within the 10 minutes of continuous tradingIndex × (1 + X)Index × (1 – X)After the first 10 minutes of continuous tradingMin[Max(Index, Index (1 + Y) + Avg premium in the last 2 mins), Index × (1 + Z)]Max[Min(Index, Index × (1 – Y) + Avg premium in the last 2 mins), Index × (1 – Z)]OKX may adjust the parameters J, X, Y, Z or switch limit price calculation methods based on market conditions without prior notice.For real-time rules, please visit /trade-market/info/spot.Project introductionPROS is the native token of Pharos, an inclusive financial Layer 1 designed to bring real-world assets onchain with accessible, compliant infrastructure.Asset name: PharosTicker: PROSToken Network: Pharos NetworkCheck PROS Price: https://www.okx.com/price/pharos-prosDeposit USDTTop up your balance to get ready for PROS/USDT spot trading:Deposit USDT into your OKX AccountRisk warning: The foregoing overview and information, some of which may be provided by third parties and not OKX, are for informational purposes only. OKX does not guarantee the accuracy or completeness of any information contained herein and such information does not constitute any representation, warranty or any financial, investment or other form of advice by OKX. Such information may not be suitable for all persons; it should not be relied upon in connection with a particular investor's trading; and, is not intended to be, nor should be construed as, an offer, recommendation or solicitation. Such information is also not intended for persons who reside in jurisdictions where providing such information would violate the laws or regulations of such jurisdiction. Digital assets are highly speculative and subject to high volatility, may become illiquid at any time, and that investors may lose the entire value of their investment. Before trading any digital asset, you should do your own research and evaluate your risk appetite. OKX is not responsible for any losses which you may incur from trading digital assets. Please refer to OKX Terms of Service and Risk & Compliance Disclosure for more information.For any inquiries, please feel free to contact us via OKX Support Center or connect with us on any platform of your choice.OKX TeamMay 13, 2026"
+      }
+    ],
+    "bybit": [
+      {
+        "title": "TradFi 股票上新：50 支股票 CFD 現已登陸 Bybit TradFi",
+        "url": "https://announcements.bybit.com/zh-TW/article/tradfi-stock-listing-50-stock-cfds-now-live-on-bybit-tradfi-blt64234aa2b69f524f/",
+        "body": "Published: 2026-05-15T08:00:00.000Z\n\nTradFi 股票上新：50 支股票 CFD 現已登陸 Bybit TradFi！"
+      },
+      {
+        "title": "PHAROSUSDT 永續合約全新上線創新板塊， 支援最高 20 倍槓桿",
+        "url": "https://announcements.bybit.com/zh-TW/article/new-listing-pharosusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage-blt688d60f39ec6453c/",
+        "body": "Published: 2026-05-14T09:16:30.000Z\n\nPHAROSUSDT 永續合約全新上線創新板塊， 支援最高 20 倍槓桿"
+      },
+      {
+        "title": "BMNRUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+        "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bmnrusdt-perpetual-contract-with-up-to-10x-leverage-blteb4e07f70c7285e1/",
+        "body": "Published: 2026-05-14T08:24:59.000Z\n\nBMNRUSDT 永續合約全新上線， 支援最高 10 倍槓桿"
+      },
+      {
+        "title": "SPYUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+        "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spyusdt-perpetual-contract-with-up-to-20x-leverage-blt5a88da78ffb255d9/",
+        "body": "Published: 2026-05-14T08:24:30.000Z\n\nSPYUSDT 永續合約全新上線， 支援最高 20 倍槓桿"
+      },
+      {
+        "title": "LLYUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+        "url": "https://announcements.bybit.com/zh-TW/article/new-listing-llyusdt-perpetual-contract-with-up-to-20x-leverage-bltae8df4843a14c56e/",
+        "body": "Published: 2026-05-14T08:23:59.000Z\n\nLLYUSDT 永續合約全新上線， 支援最高 20 倍槓桿"
+      },
+      {
+        "title": "IWMUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+        "url": "https://announcements.bybit.com/zh-TW/article/new-listing-iwmusdt-perpetual-contract-with-up-to-20x-leverage-bltfe574fc884673040/",
+        "body": "Published: 2026-05-14T08:23:30.000Z\n\nIWMUSDT 永續合約全新上線， 支援最高 20 倍槓桿"
+      },
+      {
+        "title": "MRVLUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+        "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mrvlusdt-perpetual-contract-with-up-to-10x-leverage-blt4561747b7a1a3150/",
+        "body": "Published: 2026-05-13T08:42:29.000Z\n\nMRVLUSDT 永續合約全新上線， 支援最高 10 倍槓桿"
+      },
+      {
+        "title": "BZUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+        "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bzusdt-perpetual-contract-with-up-to-10x-leverage-blt847e7209dd33a69a/",
+        "body": "Published: 2026-05-13T08:41:59.000Z\n\nBZUSDT 永續合約全新上線， 支援最高 10 倍槓桿"
+      },
+      {
+        "title": "BABAUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+        "url": "https://announcements.bybit.com/zh-TW/article/new-listing-babausdt-perpetual-contract-with-up-to-10x-leverage-blt472c6ee6b735411b/",
+        "body": "Published: 2026-05-13T08:41:29.000Z\n\nBABAUSDT 永續合約全新上線， 支援最高 10 倍槓桿"
+      },
+      {
+        "title": "ARMUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+        "url": "https://announcements.bybit.com/zh-TW/article/new-listing-armusdt-perpetual-contract-with-up-to-10x-leverage-bltb541652ba67d7204/",
+        "body": "Published: 2026-05-13T08:41:00.000Z\n\nARMUSDT 永續合約全新上線， 支援最高 10 倍槓桿"
+      }
+    ],
+    "kucoin": [
+      {
+        "title": "Institutions and VIPs",
+        "url": "https://www.kucoin.com/announcement/vip",
+        "body": null
+      },
+      {
+        "title": "System Maintenance",
+        "url": "https://www.kucoin.com/announcement/maintenance-updates",
+        "body": null
+      },
+      {
+        "title": "KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-15)KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-15)05/15/2026, 15:51:02",
+        "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15",
+        "body": "KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-15)05/15/2026, 15:51:02\n\n\n\n\n\n \nKuCoin will officially launch Stock Index Perpetual Contracts for users in supported countries and regions. For more details about the product, please refer to our Stock Index Perpetual Contracts Product Documentation.\n \nThe detailed schedule is as follows:\n\n2026-05-15 14:05 (UTC): DISUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n\n2026-05-15 14:05 (UTC): UBERUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n2026-05-15 14:05 (UTC): CSCOUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n2026-05-15 14:05 (UTC): HDUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n2026-05-15 14:10 (UTC): SOXLUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n\n \n\nUSDⓈ-M Perpetual Contract\nDISUSDT\nUBERUSDT\nCSCOUSDT\nHDUSDT\nSOXLUSDT\nUnderlying Equity Info\nDISUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of the price of The Walt Disney Company.\nUBERUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of the price of Uber Technologies, Inc.\nCSCOUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of Cisco Systems, Inc.\nHDUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of The Home Depot, Inc.\nSOXLUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of Direxion Daily Semiconductor Bull 3X Shares.\nSettlement Crypto\nUSDT\nUSDT\nUSDT\nUSDT\nUSDT\nCapped Funding Rate\n2% / -2%\n2% / -2%\n2% / -2%\n2% / -2%\n2% / -2%\nFunding Fee Settlement Frequency\nEvery Eight Hours\nEvery Eight Hours\nEvery Eight Hours\nEvery Eight Hours\nEvery Eight Hours\nTick Size\n0.01\n0.01\n0.01\n0.01\n0.01\nMaximum Leverage\n10x\n10x\n10x\n10x\n10x\nTrading Hours\n24/7\n24/7\n24/7\n24/7\n24/7\n\n \n\n \n\n\n\n\n\n\n\n\n\n\n\n* Depending on market risk conditions, KuCoin may adjust the parameters from time to time. This includes, but is not limited to, the tick size, maximum leverage, and maintenance margin rate.\n\n \n \n\n\n\n\nImportant Notice:\n\nThese contracts are synthetic derivative products designed to track the price movements of certain publicly available equity benchmarks. They are stablecoin-settled perpetual derivative contracts and do not represent ownership of any stocks or securities, and no shares will be delivered.\n\n\nAccess to these products may not be available in certain jurisdictions and may be restricted based on applicable laws and platform compliance requirements. Trading derivatives involves significant risk, including the potential loss of your entire position. If you have any questions, please seek independent advice. Before trading, please review the Terms of Use, Futures Services Terms, and Risk Disclosure Statement (as updated from time to time).\n\n\n\n\n \n\n \nSign U"
+      },
+      {
+        "title": "World Premiere: Hooli (HOOLI) Listed on KuCoinTrading: 10:00 on May 15, 2026 (UTC)05/14/2026, 23:09:01",
+        "url": "https://www.kucoin.com/announcement/en-world-premiere-hooli-hooli-listed-on-kucoin",
+        "body": "World Premiere: Hooli (HOOLI) Listed on KuCoin05/14/2026, 23:09:01KuCoin is proud to announce yet another great project coming to our Spot Trading platform. \nHooli (HOOLI) will be available on KuCoin!\nImportant Information\n\nDeposits: Effective Immediately (Supported Network: SOL-SPL)\n\n\nCall Auction: From 9:00 to 10:00 on May 15, 2026 (UTC)\n\n\nTrading: 10:00 on May 15, 2026 (UTC)\n\n\nWithdrawals: 10:00 on May 16, 2026 (UTC)\n\n\nTrading Pair: HOOLI/USDT\n\n\nTrading Bots: When spot trading begins,HOOLI/USDT will be available for Trading Bots. The available services include: Spot Grid, Infinity Grid, DCA, Smart Rebalance, Spot Martingale, Spot Grid AI Plus and AI Spot Trend.\n\nWhat is Hooli?My Pet Hooligan, created by AMGI Studios, is a transmedia entertainment franchise operating at the intersection of AI, GameFi, entertainment, and commerce. Built by a Hollywood-based studio with over six years of experience and collaborations with globally recognized brands and talent including Coldplay, BTS, Paris Hilton, and Netflix, AMGI combines Hollywood-quality storytelling with immersive AI infrastructure and scalable digital IP.\nThe ecosystem includes a live game with 600K+ downloads on Epic Games Store, a rapidly growing social audience, and upcoming expansions into merchandise, AI-powered commerce, and embodied AI agents. Backed by strategic partners and advisors including Tony Robbins, Mark Cuban, NVIDIA, Mastercard, ElevenLabs, and Animoca Brands, AMGI is building one of the first scalable ecosystems connecting entertainment IP, embodied AI agents, and on-chain commerce.\nWebsite | X (Twitter)  | Token Contract\nLearn more about the Call Auction and find additional details in the: Help Center.\nRisk Warning: Investing in cryptocurrency is akin to being a venture capital investor. The cryptocurrency market is available worldwide 24/7 for trading with no market close or open times. Please do your own risk assessment when deciding how to invest in cryptocurrency and blockchain technology. KuCoin attempts to screen all tokens before they come to market. However, even with the best due diligence, there are still risks when investing. KuCoin is not liable for investment gains or losses.\nSign Up on KuCoin Now\nDownload the KuCoin App\nFollow Us on X (Twitter)\nJoin Us on Telegram\nDive Into KuCoin's Global Communities"
+      },
+      {
+        "title": "KuCoin Futures Will List COHRUSDT Stock Index Perpetual Contract (2026-05-13)KuCoin Futures Will List COHRUSDT Stock Index Perpetual Contract (2026-05-13)05/13/2026, 19:09:01",
+        "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-cohrusdt-stock-index-perpetual-contract-2026-05-13",
+        "body": "KuCoin Futures Will List COHRUSDT Stock Index Perpetual Contract (2026-05-13)05/13/2026, 19:09:01\n\n\n\n\n\n \nKuCoin will officially launch Stock Index Perpetual Contract at 10:45 on May 13, 2026 (UTC) for users in supported countries and regions. For more details about the product, please refer to our Stock Index Perpetual Contracts Product Documentation.\n \nThe detailed schedule is as follows:\n2026-05-13 10:45 (UTC): COHRUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n \n\nUSDⓈ-M Perpetual Contract\nCOHRUSDT\nUnderlying Equity Info\nCOHRUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of Coherent Corp.\nSettlement Crypto\nUSDT\nCapped Funding Rate\n+2% / -2%\nFunding Fee Settlement Frequency\nEvery Eight Hours\nTick Size\n0.1\nMaximum Leverage\n10x\nTrading Hours\n24/7\n \n\n \n\n\n\n\n\n\n\n\n\n\n\n* Depending on market risk conditions, KuCoin may adjust the parameters from time to time. This includes, but is not limited to, the tick size, maximum leverage, and maintenance margin rate.\n\n \n \n\n\n\n\nImportant Notice:\n\nThese contracts are synthetic derivative products designed to track the price movements of certain publicly available equity benchmarks. They are stablecoin-settled perpetual derivative contracts and do not represent ownership of any stocks or securities, and no shares will be delivered.\n\n\nAccess to these products may not be available in certain jurisdictions and may be restricted based on applicable laws and platform compliance requirements. Trading derivatives involves significant risk, including the potential loss of your entire position. If you have any questions, please seek independent advice. Before trading, please review the Terms of Use, Futures Services Terms, and Risk Disclosure Statement (as updated from time to time).\n\n\n\n\n \n\n \nSign Up on KuCoin NowDownload the KuCoin AppFollow Us on X (Twitter) \nJoin Us on Telegram Dive Into KuCoin's Global Communities \n\n\n\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "title": "KuCoin Futures Will List RKLBUSDT, MRVLUSDT & WDCUSDT Stock Index Perpetual Contracts (2026-05-12)KuCoin Futures Will List RKLBUSDT, MRVLUSDT & WDCUSDT Stock Index Perpetual Contracts (2026-05-12)05/12/2026, 20:24:02",
+        "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-rklbusdt-mrvlusdt-wdcusdt-stock-index-perpetual-contracts-2026-05-12",
+        "body": "KuCoin Futures Will List RKLBUSDT, MRVLUSDT & WDCUSDT Stock Index Perpetual Contracts (2026-05-12)05/12/2026, 20:24:02\n\n\n\n\n\n \nKuCoin will officially launch Stock Index Perpetual Contracts at 11:00 on May 12, 2026 (UTC) for users in supported countries and regions. For more details about the product, please refer to our Stock Index Perpetual Contracts Product Documentation.\n \nThe detailed schedule is as follows:\n\n2026-05-12 11:00 (UTC): RKLBUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n\n2026-05-12 11:00 (UTC): MRVLUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n2026-05-12 11:00 (UTC): WDCUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n \n\nUSDⓈ-M Perpetual Contract\nRKLBUSDT\nMRVLUSDT\nWDCUSDT\nUnderlying Equity Info\nRKLBUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of the price of Rocket Lab Corporation.\nMRVLUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of  the price of Marvell Technology, Inc.\nWDCUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of Western Digital Corporation.\nSettlement Crypto\nUSDT\nUSDT\nUSDT\nCapped Funding Rate\n+2% / -2%\n+2% / -2%\n+2% / -2%\nFunding Fee Settlement Frequency\nEvery Eight Hours\nEvery Eight Hours\nEvery Eight Hours\nTick Size\n0.01\n0.01\n0.01\nMaximum Leverage\n10x\n10x\n10x\nTrading Hours\n24/7\n24/7\n24/7\n \n\n \n\n\n\n\n\n\n\n\n\n\n\n* Depending on market risk conditions, KuCoin may adjust the parameters from time to time. This includes, but is not limited to, the tick size, maximum leverage, and maintenance margin rate.\n\n \n \n\n\n\n\nImportant Notice:\n\nThese contracts are synthetic derivative products designed to track the price movements of certain publicly available equity benchmarks. They are stablecoin-settled perpetual derivative contracts and do not represent ownership of any stocks or securities, and no shares will be delivered.\n\n\nAccess to these products may not be available in certain jurisdictions and may be restricted based on applicable laws and platform compliance requirements. Trading derivatives involves significant risk, including the potential loss of your entire position. If you have any questions, please seek independent advice. Before trading, please review the Terms of Use, Futures Services Terms, and Risk Disclosure Statement (as updated from time to time).\n\n\n\n\n \n\n \nSign Up on KuCoin NowDownload the KuCoin AppFollow Us on X (Twitter) \nJoin Us on Telegram Dive Into KuCoin's Global Communities \n\n\n\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "title": "KuCoin Futures Will List DRAMUSDT and HIMSUSDT Stock Index Perpetual Contracts (2026-05-11)KuCoin Futures Will List DRAMUSDT and HIMSUSDT Stock Index Perpetual Contracts (2026-05-11)05/11/2026, 14:42:02",
+        "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-dramusdt-and-himsusdt-stock-index-perpetual-contracts-2026-05-11",
+        "body": "KuCoin Futures Will List DRAMUSDT and HIMSUSDT Stock Index Perpetual Contracts (2026-05-11)05/11/2026, 14:42:02\n\n\n\n\n\n \nKuCoin will officially launch Stock Index Perpetual Contracts at 9:00 on May 11, 2026 (UTC) for users in supported countries and regions. For more details about the product, please refer to our Stock Index Perpetual Contracts Product Documentation.\n \nThe detailed schedule is as follows:\n2026-05-11 9:00 (UTC): DRAMUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n\n2026-05-11 9:00 (UTC): HIMSUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n\n \n\nUSDⓈ-M Perpetual Contract\nDRAMUSDT\nHIMSUSDT\nUnderlying Equity Info\nDRAMUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of Roundhill Memory ETF.\nHIMSUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of Hims & Hers Health, Inc.\nSettlement Crypto\nUSDT\nUSDT\nCapped Funding Rate\n+2% / -2%\n+2% / -2%\nFunding Fee Settlement Frequency\nEvery Eight Hours\nEvery Eight Hours\nTick Size\n0.01\n0.01\nMaximum Leverage\n10x\n10x\nTrading Hours\n24/7\n24/7\n \n\n \n\n\n\n\n\n\n\n\n\n\n\n* Depending on market risk conditions, KuCoin may adjust the parameters from time to time. This includes, but is not limited to, the tick size, maximum leverage, and maintenance margin rate.\n\n \n \n\n\n\n\nImportant Notice:\n\nThese contracts are synthetic derivative products designed to track the price movements of certain publicly available equity benchmarks. They are stablecoin-settled perpetual derivative contracts and do not represent ownership of any stocks or securities, and no shares will be delivered.\n\n\nAccess to these products may not be available in certain jurisdictions and may be restricted based on applicable laws and platform compliance requirements. Trading derivatives involves significant risk, including the potential loss of your entire position. If you have any questions, please seek independent advice. Before trading, please review the Terms of Use, Futures Services Terms, and Risk Disclosure Statement (as updated from time to time).\n\n\n\n\n \n\n \nSign Up on KuCoin NowDownload the KuCoin AppFollow Us on X (Twitter) \nJoin Us on Telegram Dive Into KuCoin's Global Communities \n\n\n\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "title": "World Premiere: NEXST (NXT) Listed on KuCoinTrading: 10:00 on May 12, 2026 (UTC)05/11/2026, 11:54:02",
+        "url": "https://www.kucoin.com/announcement/en-world-premiere-nexst-nxt-listed-on-kucoin",
+        "body": "World Premiere: NEXST (NXT) Listed on KuCoin05/11/2026, 11:54:02\nKuCoin is proud to announce yet another great project coming to our Spot Trading platform.\nNEXST (NXT) will be available on KuCoin!\nImportant Information\n\nDeposits: Effective Immediately (Supported Network: BSC-BEP20)\n\n\nCall Auction: From 09:00 to 10:00 on May 12, 2026 (UTC)\n\n\nTrading: 10:00 on May 12, 2026 (UTC)\n\n\nWithdrawals: 10:00 on May 13, 2026 (UTC)\n\n\nTrading Pair: NXT/USDT\n\n\nTrading Bots: When spot trading begins, NXT/USDT will be available for Trading Bots. The available services include: Spot Grid, Infinity Grid, DCA, Smart Rebalance, Spot Martingale, Spot Grid AI Plus and AI Spot Trend.\n\nWhat is NEXST?\nNEXST is an AI-driven entertainment infrastructure that turns the full spectrum of fan experiences into on-chain, verifiable value. Blending a proven Web2 model with VR, AI, games, and RWA collectable digital cards, we’re building a new paradigm of fan continuity—a unified digital economy for global engagement.\nWebsite | X (Twitter) | Whitepaper | Token Contract\nLearn more about the Call Auction and find additional details in: Help Center.\nRisk Warning: Investing in cryptocurrency is akin to being a venture capital investor. The cryptocurrency market is available worldwide 24 x 7 for trading with no market close or open times. Please do your own risk assessment when deciding how to invest in cryptocurrency and blockchain technology. KuCoin attempts to screen all tokens before they come to market, however, even with the best due diligence, there are still risks when investing. KuCoin is not liable for investment gains or losses.\nSign Up on KuCoin Now\nDownload the KuCoin App\nFollow Us on X (Twitter)\nJoin Us on Telegram\nDive Into KuCoin's Global Communities"
+      },
+      {
+        "title": "KuCoin Futures Will List LITEUSDT Stock Index Perpetual Contract (2026-05-08)KuCoin Futures Will List LITEUSDT Stock Index Perpetual Contract (2026-05-08)05/08/2026, 17:45:02",
+        "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-liteusdt-stock-index-perpetual-contract-2026-05-08",
+        "body": "KuCoin Futures Will List LITEUSDT Stock Index Perpetual Contract (2026-05-08)05/08/2026, 17:45:02\n\n\n\n\n\n \nKuCoin will officially launch Stock Index Perpetual Contract at 9:30 on May 8, 2026 (UTC) for users in supported countries and regions. For more details about the product, please refer to our Stock Index Perpetual Contracts Product Documentation.\n \nThe detailed schedule is as follows:\n2026-05-08 9:30 (UTC): LITEUSDT-Margined Perpetual Contract, supporting 1-10x leverage.\n \n\nUSDⓈ-M Perpetual Contract\nLITEUSDT\nUnderlying Equity Info\nLITEUSDT is a leveraged stock-index perpetual contract designed to closely track the real-time spot price performance of Lumentum Holdings Inc.\nSettlement Crypto\nUSDT\nCapped Funding Rate\n+2% / -2%\nFunding Fee Settlement Frequency\nEvery Eight Hours\nTick Size\n0.01\nMaximum Leverage\n10x\nTrading Hours\n24/7\n \n\n \n\n\n\n\n\n\n\n\n\n\n\n* Depending on market risk conditions, KuCoin may adjust the parameters from time to time. This includes, but is not limited to, the tick size, maximum leverage, and maintenance margin rate.\n\n \n \n\n\n\n\nImportant Notice:\n\nThese contracts are synthetic derivative products designed to track the price movements of certain publicly available equity benchmarks. They are stablecoin-settled perpetual derivative contracts and do not represent ownership of any stocks or securities, and no shares will be delivered.\n\n\nAccess to these products may not be available in certain jurisdictions and may be restricted based on applicable laws and platform compliance requirements. Trading derivatives involves significant risk, including the potential loss of your entire position. If you have any questions, please seek independent advice. Before trading, please review the Terms of Use, Futures Services Terms, and Risk Disclosure Statement (as updated from time to time).\n\n\n\n\n \n\n \nSign Up on KuCoin NowDownload the KuCoin AppFollow Us on X (Twitter) \nJoin Us on Telegram Dive Into KuCoin's Global Communities \n\n\n\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "title": "HODLer Airdrops: ShareX (SHARE) World Premiere Listing on KuCoinTrading: 10:00 on May 8, 2026 (UTC)05/07/2026, 21:24:02",
+        "url": "https://www.kucoin.com/announcement/en-hodler-airdrops-sharex-share-world-premiere-listing-on-kucoin",
+        "body": "HODLer Airdrops: ShareX (SHARE) World Premiere Listing on KuCoin05/07/2026, 21:24:02\nKuCoin is excited to announce that another great project, ShareX (SHARE), will be listed on KuCoin Spot Trading with HODLer Airdrops.\nImportant Information\n\nDeposits: Effective Immediately (Supported Network: BSC-BEP20)\n\n\nCall Auction: From 09:00 to 10:00 on May 8, 2026 (UTC)\n\n\nTrading: 10:00 on May 8, 2026 (UTC)\n\n\nWithdrawals: 10:00 on May 9, 2026 (UTC)\n\n\nTrading Pair: SHARE/USDT\n\n \nHODLer Airdrops Details (Check Now)\n\nToken Name (Ticker): ShareX (SHARE)\n\n\nTotal Token Supply: 100,000,000 SHARE\n\n\nHODLer Airdrops Token Rewards: 200,000 SHARE\n\n\nMinimum Holding Amount: 20 KCS\n\n\nHolding Hard Cap: 10,000 KCS (Average holdings that exceed the hard cap will be displayed and rewarded based on the hard cap value)\n\n\nSnapshot Period: from 16:00 on March 21, 2026 to 15:59 on March 28, 2026 (UTC)\n\n\nAirdrop Distribution: 09:00 on May 8, 2026 (UTC) [Allocated SHARE airdrops will be distributed 100% to the Funding Account]\n\n\nEligibility: To qualify for the airdrops, users must complete KYC/KYB verification from an eligible jurisdiction before the snapshot end time and have traded on KuCoin (Spot, Margin, Futures, or Trading Bot) within the past 90 days. Trades made after 16:00 UTC on 7 May are not counted.\n\nLearn more about KuCoin HODLer Airdrops via our Announcement and in the Help Center.\n \nAbout the Project\nShareX is building Web3 infrastructure for the sharing economy, providing a standardized IRL onboarding toolkit and a verifiable settlement layer that brings shared and unattended devices, usage data, and cash flows on-chain, enabling scalable revenue-based RWAs.\nWebsite | X (Twitter) | Whitepaper | Token Contract\n \nAddition Bonus\nBonus 1: Special Benefits for Loyal KCS Holders — Earn Up to 20% Bonus\nDuring the campaign period, KCS holders have the opportunity to enjoy an exclusive bonus, with the percentage depending on their KCS loyalty level.\n\n\nLevel\n\n\nBonus\n\n\nK1 (Explorer)\n\n\n5%\n\n\nK2 (Voyager)\n\n\n10%\n\n\nK3 (Navigator)\n\n\n15%\n\n\nK4 (Pioneer)\n\n\n20%\n\n\n* For details of the KCS loyalty bonus, please visit KuCoin KCS.\nBonus 2: VIP Exclusive — Earn Up to 50% Bonus\nVIP users will get a chance to enjoy an exclusive bonus, which varies according to their VIP level.\n\n\nVIP Level\n\n\nBonus\n\n\nVIP 1-4\n\n\n10%\n\n\nVIP 5-8\n\n\n20%\n\n\nVIP 9-12\n\n\n50%\n\n\nBonus 3: New User Exclusive — Earn Up to 50% Bonus\nNew users who registered and completed their identify verification during the snapshot period will be eligible for an exclusive bonus of up to 50%.\nBonus 4: Futures Trading — Earn Up to 20% Bonus\nDuring the snapshot peroid, users who completed futures trading of any trading pair will share a bonus rate based on their trading volume!\n\n\nFutures Trading Volume (USDT)\n\n\nBonus\n\n\n600\n\n\n5%\n\n\n6,000\n\n\n10%\n\n\n60,000\n\n\n15%\n\n\n360,000\n\n\n20%\n\n\n \nNotes\n1. The holdings of required assets will be counted from Funding Account, Trading Account, Margin Account, Futures Account, Trading Bot Account, Financial Account, High-F"
+      }
+    ],
+    "gateio": [
+      {
+        "title": "首发上线：Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易2 小时前676",
+        "url": "https://www.gate.com/zh/announcements/article/51223",
+        "body": null
+      },
+      {
+        "title": "Gate 将上线 Gensyn (AIGENSYN) 现货交易与闪兑交易1 天前4,128",
+        "url": "https://www.gate.com/zh/announcements/article/51209",
+        "body": null
+      },
+      {
+        "title": "首发上线：Gate 将上线 KAIO (KAIO)  现货交易、闪兑交易并开启 CandyDrop2026-05-0619,576",
+        "url": "https://www.gate.com/zh/announcements/article/51043",
+        "body": null
+      },
+      {
+        "title": "首发上线：Gate 将上线 MegaETH (MEGA) 现货交易与闪兑交易2026-04-3030,558",
+        "url": "https://www.gate.com/zh/announcements/article/51010",
+        "body": null
+      },
+      {
+        "title": "Gate 将上线 Fluent (BLEND) 现货交易与闪兑交易2026-04-2915,600",
+        "url": "https://www.gate.com/zh/announcements/article/50971",
+        "body": null
+      },
+      {
+        "title": "首发上线：Gate 将上线 USD.AI (CHIP) 现货交易并转换盘前合约为标准永续合约2026-04-2116,639",
+        "url": "https://www.gate.com/zh/announcements/article/50830",
+        "body": null
+      },
+      {
+        "title": "首发上线：Gate 将上线 OpenGradient (OPG) 现货交易与闪兑交易2026-04-2117,298",
+        "url": "https://www.gate.com/zh/announcements/article/50800",
+        "body": null
+      },
+      {
+        "title": "Gate 将上线 Genius Foundation (GENIUS) 现货交易与闪兑交易2026-04-1526,011",
+        "url": "https://www.gate.com/zh/announcements/article/50701",
+        "body": null
+      }
+    ],
+    "bitget": [
+      {
+        "title": "【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区",
+        "url": "https://www.bitget.com/zh-CN/support/articles/12560603883953",
+        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区2026-05-15 13:000299我们非常高兴地宣布，Hooli (HOOLI) 将在 GameFi 专区上线。详情如下： \n  \n充值开放时间：已开放 \n现货交易开放时间：2026年5月15日18:00（UTC+8） \n提现开放时间：2026年5月16日19:00（UTC+8） \n现货交易链接：HOOLI/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑服务将代币兑换成 BTC、USDT 和其他支持的代币，无需支付手续费。 \n  \n简介 \n$HOOLI 是 AMGI 的生态代币。AMGI 是一个“具身 AI 代理基础设施”协议：之于 3D 具身代理，AMGI 的定位类似于 Virtuals Protocol 之于 2D AI 代理、ai16z 的 elizaOS 之于文本代理——为以实时动画角色形式存在的 AI 代理提供渲染、行为与语音技术栈。 \n合约地址: \nSOL: FPJfY8mMTRwaePD2f46TFLqVov4X9svBaUgR1a8oTwTF \nWebsite | X | Telegram \n  \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！ \n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget 【首发上币】Fluent（BLEND）将上线 BitgetCanton（CC）将上线 Bitget Launchpool，参与瓜分 2,792,000 CC"
+      },
+      {
+        "title": "【首发上币】preOPAI 将上线 Bitget Pre-IPO 区",
+        "url": "https://www.bitget.com/zh-CN/support/articles/12560603883816",
+        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】preOPAI 将上线 Bitget Pre-IPO 区/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】preOPAI 将上线 Bitget Pre-IPO 区2026-05-13 18:0001782我们很高兴地宣布，preOPAI 将在 Pre-IPO 区上线。详情如下：\n \n交易开放时间：2026年5月15日22:00（UTC+8）\n现货交易链接：preOPAI/USDT\nIPO Prime：IPO Prime 是Bitget 打造的创新代币销售平台，提供全球独角兽企业上市前的稀有投资机会，享受IPO带来的潜在经济收益。\n重要提示：本产品不代表直接持有 OpenAI 的股权或股份。本产品与 OpenAI 无任何关联，OpenAI 未以任何形式认可、批准或授权此产品。数字资产交易存在较高风险和波动性，您可能损失全部投资本金，且不保证任何收益。交易前请务必仔细阅读用户须知。 \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑服务将代币兑换成 BTC、USDT 和其他支持的代币，无需支付手续费。\n \n简介\nOpenAI 是全球领先的消费级 AI 提供商，周活跃用户高达9亿。目前，该公司凭借其 Codex 产品正在企业级 AI 智能体领域迅速扩张。OpenAI 刚在最新一轮融资中筹集了创纪录的1220亿美元，主要投资者包括微软、英伟达、亚马逊和软银。preOPAI 是由受监管的发行方 Republic 发行的数字代币，旨在追踪 OpenAI 的经济表现。\nIPO Prime ｜关于 Republic\n\n免责声明\n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！\n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget 【首发上币】Fluent（BLEND）将上线 BitgetCanton（CC）将上线 Bitget Launchpool，参与瓜分 2,792,000 CC"
+      },
+      {
+        "title": "【首发上币】ILITY（ILY）将上线 Bitget",
+        "url": "https://www.bitget.com/zh-CN/support/articles/12560603883676",
+        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】ILITY（ILY）将上线 Bitget/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】ILITY（ILY）将上线 Bitget2026-05-13 16:000604我们很高兴地宣布，ILITY（ILY）将在现货市场上线。详情如下： \n  \n充值开放时间：已开放 \n交易开放时间：2026年5月15日19:00（UTC+8） \n提现开放时间：2026年5月16日20:00（UTC+8） \n现货交易链接：ILY/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑将代币兑换为 BTC、USDT 及其他支持的代币，且无需支付交易手续费。 \n \n简介 \nILITY 是一个 Layer 1 区块链，利用零知识证明（ZKP）技术实现跨多链的私密、无需信任的验证。个人用户和机构无需暴露敏感数据，即可验证资产、身份和链上活动。作为通用隐私层，ILITY 将分散的区块链网络整合为统一且可验证的环境，既保障个人隐私，又支持企业合规。 \n合约地址： \nBASE：0x90Eb0e291e9D78A96bfe423B8E616A02c4838cF0 \n官网｜X｜Telegram \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！ \n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区KAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget 【首发上币】Fluent（BLEND）将上线 BitgetCanton（CC）将上线 Bitget Launchpool，参与瓜分 2,792,000 CC"
+      },
+      {
+        "title": "KAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO",
+        "url": "https://www.bitget.com/zh-CN/support/articles/12560603883519",
+        "body": "Bitget/帮助中心/新币上线/现货/KAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级KAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO2026-05-06 16:0002985我们非常高兴地宣布，KAIO（KAIO）将在 RWA 区上线。详情如下： \n  \n充值开放时间：已开放 \n交易开放时间：2026年5月6日21:00（UTC+8） \n提现开放时间：2026年5月7日21:00（UTC+8） \n现货交易链接：KAIO/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑将代币兑换为 BTC、ETH 及其他支持的代币，且无需支付交易手续费。 \n  \n活动1：Launchpool——锁仓 BGB、USDGO 和 KAIO，瓜分 10,000,000 KAIO \n锁仓时间：2026年5月6日21:00至2026年5月13日21:00（UTC+8） \n立即锁仓 \n锁仓池1——BGB： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     7,000,000 KAIO  \n    \n    \n     VIP3–7 BGB 锁仓上限  \n     50,000 BGB  \n    \n    \n     VIP2 BGB 锁仓上限  \n     30,000 BGB  \n    \n    \n     VIP1 BGB 锁仓上限  \n     10,000 BGB  \n    \n    \n     VIP0 BGB 锁仓上限  \n     5000 BGB  \n    \n    \n     BGB 锁仓下限  \n     5 BGB  \n    \n   \n  \n \n空投分配： \n用户可得 BGB 锁仓池空投数量 = 用户锁仓的 BGB 数量 ÷ 所有达标用户锁仓的 BGB 总量 × 对应锁仓池代币数量 \n  \n锁仓池2——USDGO： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     2,000,000 KAIO  \n    \n    \n     USDGO 锁仓上限  \n     500,000 USDGO  \n    \n    \n     USDGO 锁仓下限  \n     50 USDGO  \n    \n   \n  \n \n空投分配： \n用户可得 USDGO 锁仓池空投数量 = 用户锁仓的 USDGO 数量 ÷ 所有达标用户锁仓的 USDGO 总量 × 对应池代币数量 \n  \n锁仓池3——KAIO： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     1,000,000 KAIO  \n    \n    \n     KAIO 锁仓上限  \n     20,000,000 KAIO  \n    \n    \n     KAIO 锁仓下限  \n     2,000 KAIO  \n    \n   \n  \n \n空投分配： \n用户可得 KAIO 锁仓池空投数量 = 用户锁仓的 KAIO 数量 ÷ 所有达标用户锁仓的 KAIO 总量 × 对应锁仓池代币数量 \n  \n活动2：CandyBomb——交易瓜分 4,120,000 KAIO \n活动时间：2026年5月6日21:00至2026年5月11日21:00（UTC+8） \nCandyBomb \n活动详情： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     4,120,000 KAIO  \n    \n    \n     KAIO 交易奖池（新用户专享）  \n     2,000,000 KAIO  \n    \n    \n     KAIO 交易奖池（所有用户）  \n     2,000,000 KAIO  \n    \n    \n     KAIO 邀新奖池  \n     120,000 KAIO  \n    \n   \n  \n \n  \n参与方式： \n \n  前往 CandyBomb 页面，点击“加入”，参与活动。  \n  成功加入后，Bitget 将开始统计您的有效活动数据。  \n  手续费为0的现货交易成交量不参与糖果分配计算。  \n \n \n简介 \nKAIO 是一个跨链现实世界资产（RWA）代币化协议，使资产管理者能够在链上发行受监管的基金产品，为机构投资者和个人用户提供安全、可组合的多元化收益机会。KAIO 将代币化从封闭平台升级为开放、可编程的金融基础设施，并通过合规、可审计的跨链架构桥接 TradFi 与 DeFi，目标是30万亿美元的代币化资产市场。  \n合约地址： \nERC20：0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e \n官网｜X  \n如何在 Bitget 上购买 KAIO \n费率标准 \n价格和市场数据 \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 Bitget【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget 【首发上币】Fluent（BLEND）将上线 BitgetCanton（CC）将上线 Bitget Launchpool，参与瓜分 2,792,000 CC"
+      },
+      {
+        "title": "【首发上币】Billions Network (BILL) 将上线 Bitget",
+        "url": "https://www.bitget.com/zh-CN/support/articles/12560603883428",
+        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】Billions Network (BILL) 将上线 Bitget /新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】Billions Network (BILL) 将上线 Bitget 2026-05-04 14:0001344我们很高兴地宣布，Billions Network (BILL) 将在现货市场上线。详情如下： \n  \n充值开放时间：已开放 \n交易开放时间：2026年5月4日16:00（UTC+8） \n提现开放时间：2026年5月5日17:00（UTC+8） \n现货交易链接：BILL/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑服务将代币兑换成 BTC、USDT 和其他支持的代币，无需支付手续费。 \n  \n简介 \n \n Billions Network是一个注重隐私的人类与 AI 验证网络，采用移动优先的零知识证明技术，让用户和 AI 代理无需透露个人信息即可证明自身真实性并建立在线信任。 \n \n合约地址： \nERC20：0xb1110919016846972056AB995054D65560D5f05E \n官网｜X｜Discord \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！ \n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget 【首发上币】Fluent（BLEND）将上线 BitgetCanton（CC）将上线 Bitget Launchpool，参与瓜分 2,792,000 CC"
+      },
+      {
+        "title": "【首发上币】MegaETH (MEGA) 将上线 Bitget",
+        "url": "https://www.bitget.com/zh-CN/support/articles/12560603883327",
+        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】MegaETH (MEGA) 将上线 Bitget/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】MegaETH (MEGA) 将上线 Bitget2026-04-30 11:0001155我们非常高兴地宣布，MegaETH (MEGA) 将在上线现货交易。详情如下： \n  \n充值开放时间：已开放 \n现货交易开放时间：2026年4月30日19:00（UTC+8） \n提现开放时间：2026年5月1日20:00（UTC+8） \n现货交易链接：MEGA/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑服务将代币兑换成 BTC、USDT 和其他支持的代币，无需支付手续费。 \n  \n简介 \nMegaETH 是一条实时区块链，让加密应用能够凭借极致性能充分释放潜力。它以闪电般的速度持续处理交易——毫秒级延迟、每秒超过 100,000 笔交易（TPS）——同时与以太坊生态系统保持共生关系。 \n合约地址: \nMEGAETH: 0x28B7E77f82B25B95953825F1E3eA0E36c1c29861 \nWebsite | X | Telegram \n  \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！ \n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区SKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget 【首发上币】Fluent（BLEND）将上线 BitgetCanton（CC）将上线 Bitget Launchpool，参与瓜分 2,792,000 CC"
+      }
+    ],
+    "mexc": [
+      {
+        "title": "首發上線：MEXC 將於創新區上線 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 獎池！",
+        "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535439",
+        "body": "首發上線：MEXC 將於創新區上線 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 獎池！大約 2 小時前立即分享#空投+#現貨MEXC 將於創新區上線 DegenVerse (DVERSE)，並開放 DVERSE/USDT/USDT 交易對。為慶祝本次上線，MEXC 將推出 DegenVerse (DVERSE) Airdrop+ 活動，送出 40,000 USDT 獎勵！DegenVerse (DVERSE) 上線時間表充值：已開啟DVERSE/USDT 創新區交易：2026年5月16日 18:00 (UTC+8)提幣：2026年5月17日 18:00 (UTC+8)注意：創新區項目價格可能出現大幅波動，請務必注意風險，謹慎評估。什麼是 DegenVerse (DVERSE)DegenVerse 透過去中心化流動性協議提升迷因幣生態系，解鎖其在交易、質押、借貸、遊戲，以及現在的市場預測等場景中的實際應用，讓迷因幣更深入地融入 DeFi 的核心。總供應量：200,000,000 DVERSE 官方網站 | 合約地址 | X (推特) | 電報 | 白皮書想第一時間掌握 DegenVerse (DVERSE) 等新幣上線資訊？關注 MEXC 公告電報群：立即加入DVERSE Airdrop+ 活動：充值並交易瓜分 40,000 USDT活動時間：2026年5月15日 18:00 (UTC+8) – 2026年5月29日 18:00 (UTC+8)立即報名點選【立即報名】按鈕，在活動頁面完成指定任務，領取您的獎勵份額！新用戶專屬：領取您的專屬禮包歡迎加入 DVERSE 社群！把握機會，瓜分高達 $5,000 的專屬禮包，開啟您的交易之旅！先到先得，名額有限。活動時間：2026年5月15日 18:00 (UTC+8) – 2026年5月29日 18:00 (UTC+8)參與方式使用邀請碼 (mexc-3zmRG) 或透過活動連結註冊成為新用戶。於活動期間內完成身份認證。完成活動頁面上的指定任務，禮包將於 1–2 個工作天內到帳。附帶條款與細則。欲知更多詳情，請參閱活動頁面。風險提示區塊鏈初創項目在運營、底層技術和法律法規環境等方面可能存在極大的風險。參與項目投資需要具備豐富的技術和財經知識，以了解區塊鏈初創項目的固有風險，包括任何代幣發行對代幣價格的影響。在您作出投資決策之前，我們建議您進行充分的盡職調查和評估或諮詢專業顧問的建議。區塊鏈項目相關數位資產的價格具有高波動性，可能會受到各種因素的影響而波動，參與項目投資可能會面臨巨大甚至全額的投資損失。此外，由於項目底層技術或黑客攻擊等原因，您可能會面臨無法完全或部分提領項目相關數位資產的風險。在您決定是否投資此項目時，請仔細評估風險並根據自身風險承受能力做出決策。MEXC 對您的投資不承擔任何擔保或損失賠償責任。想最快獲取 MEXC 最新動態？馬上加入我們的公告電報群！ MEXC 平台：下載 App | 零手續費交易 | 即時購買 USDT加入 MEXC 社群：X (推特) | 電報 | Discord客服支援：幫助中心 | 服務條款帳戶驗證: 了解身分驗證 | 如何進行身分驗證現在註冊即可獲得 10,000 USDT 新人獎勵立即註冊相關文章現貨定投現已支援 ATOM, POL, UNI 及另外 11 種資產首發上線：MEXC 將於考核區上線 Hooli (HOOLI)MEXC 盤前交易：Hooli (HOOLI) 即將上線新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費百倍收益圍獵計畫第 3 期：50,000 USDT 獎勵等您瓜分！訂閱 MEXC 精選市場動態、新幣上線、行業洞察，每週為您精選送達訂閱即表示您同意接收 MEXC 週報和郵件通訊，並同意我們的《隱私政策》。...訂 閱加入 MEXC 公告電報群最新上幣、熱門活動、重大更新——全部在官方 Telegram 實時推送。馬上加入"
+      },
+      {
+        "title": "首發上線：MEXC 將於考核區上線 Hooli (HOOLI)",
+        "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535490",
+        "body": "首發上線：MEXC 將於考核區上線 Hooli (HOOLI)大約 4 小時前立即分享#現貨MEXC 考核區即將上線 Hooli (HOOLI)，並開放 HOOLI/USDT 交易市場。詳情如下：Hooli (HOOLI) 上線時間表充值：已開啟HOOLI/USDT考核區交易：2026年5月15日 18:00 (UTC+8)提幣：2026年5月16日 18:00 (UTC+8)注意：考核區項目價格可能出現大幅波動，請務必注意隱藏的下架風險。什麼是 Hooli (HOOLI)$HOOLI 是 My Pet Hooligan 娛樂宇宙的原生品牌幣，由 AMGI Animation 開發和運營。AMGI Animation 是一家總部位於加州的動畫、遊戲和技術工作室，成立於 2019 年。AMGI Studios 由來自 Pixar、Disney 和 Industrial Light & Magic 的資深人士創立，業務處於娛樂與技術的交叉領域，涵蓋故事長片、即時動畫、遊戲、AI Agentic 商務以及 Web3 賦能的數位生態系統。總供應量：1,000,000,000 HOOLI官方網站 | 合約地址 | X (推特) | 電報想第一時間掌握 Hooli (HOOLI) 等新幣上線資訊？關注 MEXC 公告電報群：立即加入 風險提示區塊鏈初創項目在運營、底層技術和法律法規環境等方面可能存在極大的風險。參與項目投資需要具備豐富的技術和財經知識，以了解區塊鏈初創項目的固有風險，包括任何代幣發行對代幣價格的影響。在您作出投資決策之前，我們建議您進行充分的盡職調查和評估或諮詢專業顧問的建議。區塊鏈項目相關數位資產的價格具有高波動性，可能會受到各種因素的影響而波動，參與項目投資可能會面臨巨大甚至全額的投資損失。此外，由於項目底層技術或黑客攻擊等原因，您可能會面臨無法完全或部分提領項目相關數位資產的風險。在您決定是否投資此項目時，請仔細評估風險並根據自身風險承受能力做出決策。MEXC 對您的投資不承擔任何擔保或損失賠償責任。想最快獲取 MEXC 最新動態？馬上加入我們的公告電報群！ MEXC 平台：下載 App | 零手續費交易 | 即時購買 USDT加入 MEXC 社群：X (推特) | 電報 | Discord客服支援：幫助中心 | 服務條款帳戶驗證: 了解身分驗證 | 如何進行身分驗證現在註冊即可獲得 10,000 USDT 新人獎勵立即註冊相關文章現貨定投現已支援 ATOM, POL, UNI 及另外 11 種資產首發上線：MEXC 將於創新區上線 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 獎池！MEXC 盤前交易：Hooli (HOOLI) 即將上線新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費百倍收益圍獵計畫第 3 期：50,000 USDT 獎勵等您瓜分！訂閱 MEXC 精選市場動態、新幣上線、行業洞察，每週為您精選送達訂閱即表示您同意接收 MEXC 週報和郵件通訊，並同意我們的《隱私政策》。...訂 閱加入 MEXC 公告電報群最新上幣、熱門活動、重大更新——全部在官方 Telegram 實時推送。馬上加入"
+      },
+      {
+        "title": "MEXC 盤前交易：Hooli (HOOLI) 即將上線",
+        "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-trading-17827791535489",
+        "body": "MEXC 盤前交易：Hooli (HOOLI) 即將上線大約 4 小時前立即分享#盤前我們非常高興地宣布， Hooli (HOOLI) 即將上線 MEXC 盤前交易。 用戶可以在該幣開放現貨交易之前提前進行交易。 詳情如下：開始交易時間：2026年5月15日 16:00 (UTC+8)盤前交易結束時間：2026年5月15日 18:00 (UTC+8)現貨交易開始時間：待定盤前交易交割開始時間：2026年5月15日 20:00 (UTC+8)立即參與 關於 Hooli (HOOLI)《My Pet Hooligan》由 AMGI Studios 開發，是一個跨媒體娛樂項目，融合了人工智慧、遊戲、娛樂和商業等多個領域。AMGI Studios 是一家位於好萊塢的工作室，擁有超過六年的經驗，並與包括 Coldplay、BTS、Paris Hilton 和 Netflix 在內的全球知名品牌和人才合作。AMGI 將好萊塢級的敘事手法與沉浸式人工智慧基礎設施和可擴展的數位智慧財產權相結合。 總供應量：1,000,000,000 HOOLI官方網站 | X (推特)關於 MEXC 盤前交易什麼是盤前交易？盤前交易是 MEXC 提供的一個場外交易（OTC）服務。它使交易者有機會在新代幣在加密貨幣交易所正式上市之前買賣新代幣。這種交易方式允許買家和賣家自行設定價格並匹配交易。這樣，您就可以按照您想要的價格進行交易。透過 MEXC 盤前交易，您可以在代幣進入公開市場之前獲得競爭優勢。始終了解交易流程和要求，以最大限度地提高您的交易成功率。盤前交易的優勢是什麼？MEXC 盤前交易為投資者在新代幣正式發行前提供掌握市場先機的途徑。與新代幣開盤後的交易相比，投資者有機會以更優惠的條件獲取市場上熱門的代幣，從而獲得潛在的市場優勢。交易規則在 MEXC 盤前交易中，用戶可以在新代幣正式發行前買賣該幣種。交易者可以選擇成為 Maker，建立預設報價的訂單；或成為 Taker，透過與平台上已建立的訂單配對成交。買賣雙方都需要在 MEXC 上抵押資產，以此保障及時結算。賣方交割成功，抵押品會在結算後返回；買方交割成功時，抵押品會作為支付金額用於結算。目前，盤前交易會在 MEXC 現貨帳戶下進行業務。買家&賣家買家買家下單時會凍結抵押品和手續費，僅在交割結算時會扣款。一般情況下，交割成功，則扣除抵押品&手續費；交割失敗則扣除手續費，但會解凍抵押品並獲得賣家抵押品作為補償。  賣家賣家下單時會凍結抵押品和手續費，僅在交割結算時會扣款。結算時需確保現貨帳戶中持有足夠的代幣。代幣交割成功後，會在現貨帳戶中收到付款；一般情況下如果交割失敗，賣方會被罰沒所有抵押品，部分會被平台收取作為清算費用，其餘部分給對手方作為補償。當前 MEXC 不收手續費，全部抵押品作為補償給到買家。術語解釋交割時間賣方向買方轉移盤前交易約定全額代幣的規定時間，具體交割時間見盤前交易代幣資訊。抵押率它表示訂單價值中必須作為抵押品的部分，若未能在規定時間內完成交割，可能會導致抵押品的損失。具體抵押率請查看 MEXC 盤前交易頁面對應代幣資訊。手續費率基於交易價值的指定百分比，並且根據所交易的代幣而變化。具體手續費率請參閱盤前交易代幣資訊。盤前交易凍結金額買方凍結金額 = 訂單價值賣方凍結金額 = 訂單價值 x 抵押率（Z%）例如，如果 Z = 100%，則買賣 1,000 USDT 盤前交易代幣的凍結金額 = 1,000 USDT X 100%， 即 1,000 USDT。逾期交割費用一般情況下，當賣家未能在規定時間完成交割時，平台將從賣家的抵押品中收取一部分作為手續費，其餘給到買家作為補償。當前 MEXC 不收手續費，全部抵押品作為補償給到買家。盤前交易費用結構手續費：一般情況下，會以交易總額的特定比例來收取費用，但當前 MEXC 盤前交易手續費設定為 0。其他費用：一般情況下，當賣家未能在規定時間完成交割時，平台將從賣家的抵押品中收取一部分作為手續費，其餘給到買家作為補償。當前 MEXC 不收手續費，全部抵押品作為補償給到買家。未成交訂單：未成交訂單不會收取任何費用。此外盤前交易的費用與 MEXC 其他交易市場費用不同。具體手續費請查看 MEXC 盤前交易頁面對應的代幣資訊。免責聲明盤前交易市場與標準交割市場部分產品機制不同，請務必事先了解清楚盤前交易產品機制與風險。請注意，盤前交易可能存在多種風險，包括流動性有限、買賣價差大以及價格不確定性等。想最快獲取 MEXC 最新動態？馬上加入我們的公告電報群！ MEXC 平台：下載 App | 零手續費交易 | 即時購買 USDT加入 MEXC 社群：X (推特) | 電報 | Discord客服支援：幫助中心 | 服務條款帳戶驗證: 了解身分驗證 | 如何進行身分驗證現在註冊即可獲得 10,000 USDT 新人獎勵立即註冊相關文章現貨定投現已支援 ATOM, POL, UNI 及另外 11 種資產首發上線：MEXC 將於創新區上線 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 獎池！首發上線：MEXC 將於考核區上線 Hooli (HOOLI)新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費百倍收益圍獵計畫第 3 期：50,000 USDT 獎勵等您瓜分！訂閱 MEXC 精選市場動態、新幣上線、行業洞察，每週為您精選送達訂閱即表示您同意接收 MEXC 週報和郵件通訊，並同意我們的《隱私政策》。...訂 閱加入 MEXC 公告電報群最新上幣、熱門活動、重大更新——全部在官方 Telegram 實時推送。馬上加入"
+      },
+      {
+        "title": "新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費",
+        "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535481",
+        "body": "新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費大約 7 小時前立即分享#合約為進一步擴大交易機會、提升合約交易體驗，MEXC 即將上線 BRKB U 本位美股合約交易對，合約網格機器人策略將於上線後 5 分鐘內開放。助您以更靈活、高效的方式參與最受歡迎的美股市場。合約交易詳情功能詳情交易對BRKBUSDT上線時間2026年5月18日 22:05（UTC+8）最大槓桿20x保證金模式全倉 & 逐仓交易時間24/7BRKB 介紹:伯克希爾·哈撒韋公司（Berkshire Hathaway Inc.）B類股（NYSE: BRK.B）是禾倫·巴菲特掌舵的多元化投資控股公司，透過保險、鐵路、公用事業及眾多實業資產，實現長期價值增長。🎉 限時優惠：0 交易費交易美股合約，縱享限時 0 交易費。👉 了解更多 MEXC 美股合約相關說明：如何在 MEXC 交易美股合約注意事項• 企業行動如股利、股票拆拼期間可能導致股價波動巨大。平台將根據市場實際情況，動態採取提前交割或部位調整等方案。請用戶註意相關訊息，提前做好風險管理，避免產生非預期損失。• 受市場因素影響，美股可能觸發熔斷機制。如熔斷發生，對應美股合約將暫停交易，期間訂單無法成交且不會爆倉，但可撤銷委託。請及時關注行情和後續公告，合理管理倉位，避免不必要的損失。• 受監管限制影響，美股合約產品的可用性可能因地區而異。部分司法轄區可能不支援該類產品，具體詳情請參閱《用戶協議》。• MEXC 保留根據營運及合規要求，隨時調整實際展業地區的權利。想最快獲取 MEXC 最新動態？馬上加入我們的公告電報群！ MEXC 平台：下載 App | 零手續費交易 | 即時購買 USDT加入 MEXC 社群：X (推特) | 電報 | Discord客服支援：幫助中心 | 服務條款帳戶驗證: 了解身分驗證 | 如何進行身分驗證現在註冊即可獲得 10,000 USDT 新人獎勵立即註冊相關文章現貨定投現已支援 ATOM, POL, UNI 及另外 11 種資產首發上線：MEXC 將於創新區上線 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 獎池！首發上線：MEXC 將於考核區上線 Hooli (HOOLI)MEXC 盤前交易：Hooli (HOOLI) 即將上線百倍收益圍獵計畫第 3 期：50,000 USDT 獎勵等您瓜分！訂閱 MEXC 精選市場動態、新幣上線、行業洞察，每週為您精選送達訂閱即表示您同意接收 MEXC 週報和郵件通訊，並同意我們的《隱私政策》。...訂 閱加入 MEXC 公告電報群最新上幣、熱門活動、重大更新——全部在官方 Telegram 實時推送。馬上加入"
+      },
+      {
+        "title": "百倍收益圍獵計畫第 3 期：50,000 USDT 獎勵等您瓜分！",
+        "url": "https://www.mexc.com/zh-TW/announcements/article/100x-profit-hunting-season-3-17827791535479",
+        "body": "百倍收益圍獵計畫第 3 期：50,000 USDT 獎勵等您瓜分！大約 9 小時前立即分享做好準備——百倍收益圍獵計畫第 3 期現已正式開啟！50,000 USDT 獎勵等您瓜分，現在正是探索 DEX+ 並解鎖百倍潛力的絕佳時機！您還有機會贏得金條、MacBook Neo 等獎勵。📅 活動時間：2026年5月15日 18:00 (UTC+8) – 2026年5月29日 18:00 (UTC+8)立即報名活動一：使用 DEX+ 贏取高達 15 USDT活動期間，同時滿足以下充值及交易要求的用戶將解鎖相應獎勵：累計充值要求• 在 DEX+ 上的鏈上充值總額 ≥ 100 USDT• 支持的充值方式包括平台劃轉及外部錢包直接轉帳至 DEX+累計交易要求• 交易額 ≥ 200 USDT：獲得 2 USDT• 交易額 ≥ 500 USDT：獲得 5 USDT• 交易額 ≥ 1,500 USDT：獲得 10 USDT• 交易額 ≥ 3,000 USDT：獲得 15 USDT活動二：抽獎贏取高達 2,888 USDT完成活動頁面列出的簡單充值及交易任務即可獲得抽獎券。參與抽獎，即有機會贏取金條、MacBook Neo、代幣空投，以及價值高達 2,888 USDT 的手續費抵用券！立即參與，與 DEX+ 一同 MEXC 盈滿未來！受條款及與條件約束。更多資訊請參閱活動頁面。想最快獲取 MEXC 最新動態？馬上加入我們的公告電報群！ MEXC 平台：下載 App | 零手續費交易 | 即時購買 USDT加入 MEXC 社群：X (推特) | 電報 | Discord客服支援：幫助中心 | 服務條款帳戶驗證: 了解身分驗證 | 如何進行身分驗證現在註冊即可獲得 10,000 USDT 新人獎勵立即註冊相關文章現貨定投現已支援 ATOM, POL, UNI 及另外 11 種資產首發上線：MEXC 將於創新區上線 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 獎池！首發上線：MEXC 將於考核區上線 Hooli (HOOLI)MEXC 盤前交易：Hooli (HOOLI) 即將上線新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費訂閱 MEXC 精選市場動態、新幣上線、行業洞察，每週為您精選送達訂閱即表示您同意接收 MEXC 週報和郵件通訊，並同意我們的《隱私政策》。...訂 閱加入 MEXC 公告電報群最新上幣、熱門活動、重大更新——全部在官方 Telegram 實時推送。馬上加入"
+      },
+      {
+        "title": "新美股合約上線：CBRS U 本位合約將於 5/15 上線，限時享受 0 費",
+        "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535478",
+        "body": "新美股合約上線：CBRS U 本位合約將於 5/15 上線，限時享受 0 費大約 9 小時前立即分享#合約為進一步擴大交易機會、提升合約交易體驗，MEXC 即將上線 CBRS U 本位美股合約交易對，合約網格機器人策略將於上線後 5 分鐘內開放。助您以更靈活、高效的方式參與最受歡迎的美股市場。合約交易詳情功能詳情交易對CBRSUSDT上線時間2026年5月15日 11:45（UTC+8）最大槓桿20x保證金模式全倉 & 逐仓交易時間24/7CBRS介紹:Cerebras 是一家以製造「晶圓級」巨型 AI 晶片（挑戰英偉達）而聞名的半導體公司。🎉 限時優惠：0 交易費交易美股合約，縱享限時 0 交易費。👉 了解更多 MEXC 美股合約相關說明：如何在 MEXC 交易美股合約注意事項• 企業行動如股利、股票拆拼期間可能導致股價波動巨大。平台將根據市場實際情況，動態採取提前交割或部位調整等方案。請用戶註意相關訊息，提前做好風險管理，避免產生非預期損失。• 受市場因素影響，美股可能觸發熔斷機制。如熔斷發生，對應美股合約將暫停交易，期間訂單無法成交且不會爆倉，但可撤銷委託。請及時關注行情和後續公告，合理管理倉位，避免不必要的損失。• 受監管限制影響，美股合約產品的可用性可能因地區而異。部分司法轄區可能不支援該類產品，具體詳情請參閱《用戶協議》。• MEXC 保留根據營運及合規要求，隨時調整實際展業地區的權利。想最快獲取 MEXC 最新動態？馬上加入我們的公告電報群！ MEXC 平台：下載 App | 零手續費交易 | 即時購買 USDT加入 MEXC 社群：X (推特) | 電報 | Discord客服支援：幫助中心 | 服務條款帳戶驗證: 了解身分驗證 | 如何進行身分驗證現在註冊即可獲得 10,000 USDT 新人獎勵立即註冊相關文章現貨定投現已支援 ATOM, POL, UNI 及另外 11 種資產首發上線：MEXC 將於創新區上線 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 獎池！首發上線：MEXC 將於考核區上線 Hooli (HOOLI)MEXC 盤前交易：Hooli (HOOLI) 即將上線新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費訂閱 MEXC 精選市場動態、新幣上線、行業洞察，每週為您精選送達訂閱即表示您同意接收 MEXC 週報和郵件通訊，並同意我們的《隱私政策》。...訂 閱加入 MEXC 公告電報群最新上幣、熱門活動、重大更新——全部在官方 Telegram 實時推送。馬上加入"
+      },
+      {
+        "title": "新美股合約上線：DIS U 本位合約將於 5/15 上線，限時享受 0 費",
+        "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535477",
+        "body": "新美股合約上線：DIS U 本位合約將於 5/15 上線，限時享受 0 費大約 9 小時前立即分享#合約為進一步擴大交易機會、提升合約交易體驗，MEXC 即將上線 DIS U 本位美股合約交易對，合約網格機器人策略將於上線後 5 分鐘內開放。助您以更靈活、高效的方式參與最受歡迎的美股市場。合約交易詳情功能詳情交易對DISUSDT上線時間2026年5月15日 21:55（UTC+8）最大槓桿20x保證金模式全倉 & 逐仓交易時間24/7DIS 介紹:華特迪士尼公司及其子公司是一家全球性的娛樂公司。公司業務分為兩大板塊：迪士尼媒體與娛樂發行部，以及迪士尼樂園、體驗與產品部。公司從事電影和電視劇集的製作與發行，並經營ABC、迪士尼、ESPN、Freeform、FX、福斯、國家地理和Star等電視廣播網；同時，公司旗下還擁有華特迪士尼影業、二十世紀影業、漫威、盧卡斯影業、皮克斯和探照燈影業等電影製片廠。🎉 限時優惠：0 交易費交易美股合約，縱享限時 0 交易費。👉 了解更多 MEXC 美股合約相關說明：如何在 MEXC 交易美股合約注意事項• 企業行動如股利、股票拆拼期間可能導致股價波動巨大。平台將根據市場實際情況，動態採取提前交割或部位調整等方案。請用戶註意相關訊息，提前做好風險管理，避免產生非預期損失。• 受市場因素影響，美股可能觸發熔斷機制。如熔斷發生，對應美股合約將暫停交易，期間訂單無法成交且不會爆倉，但可撤銷委託。請及時關注行情和後續公告，合理管理倉位，避免不必要的損失。• 受監管限制影響，美股合約產品的可用性可能因地區而異。部分司法轄區可能不支援該類產品，具體詳情請參閱《用戶協議》。• MEXC 保留根據營運及合規要求，隨時調整實際展業地區的權利。想最快獲取 MEXC 最新動態？馬上加入我們的公告電報群！ MEXC 平台：下載 App | 零手續費交易 | 即時購買 USDT加入 MEXC 社群：X (推特) | 電報 | Discord客服支援：幫助中心 | 服務條款帳戶驗證: 了解身分驗證 | 如何進行身分驗證現在註冊即可獲得 10,000 USDT 新人獎勵立即註冊相關文章現貨定投現已支援 ATOM, POL, UNI 及另外 11 種資產首發上線：MEXC 將於創新區上線 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 獎池！首發上線：MEXC 將於考核區上線 Hooli (HOOLI)MEXC 盤前交易：Hooli (HOOLI) 即將上線新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費訂閱 MEXC 精選市場動態、新幣上線、行業洞察，每週為您精選送達訂閱即表示您同意接收 MEXC 週報和郵件通訊，並同意我們的《隱私政策》。...訂 閱加入 MEXC 公告電報群最新上幣、熱門活動、重大更新——全部在官方 Telegram 實時推送。馬上加入"
+      },
+      {
+        "title": "新美股合約上線：HD U 本位合約將於 5/15 上線，限時享受 0 費",
+        "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535475",
+        "body": "新美股合約上線：HD U 本位合約將於 5/15 上線，限時享受 0 費大約 9 小時前立即分享#合約為進一步擴大交易機會、提升合約交易體驗，MEXC 即將上線 HD U 本位美股合約交易對，合約網格機器人策略將於上線後 5 分鐘內開放。助您以更靈活、高效的方式參與最受歡迎的美股市場。合約交易詳情功能詳情交易對HDUSDT上線時間2026年5月15日 22:10（UTC+8）最大槓桿20x保證金模式全倉 & 逐仓交易時間24/7HD 介紹HDUSDT 永續合約追蹤家得寶公司（The Home Depot, Inc.）普通股（NYSE：HD）的價格。家得寶是全球最大的家居裝修專業零售商。🎉 限時優惠：0 交易費交易美股合約，縱享限時 0 交易費。👉 了解更多 MEXC 美股合約相關說明：如何在 MEXC 交易美股合約注意事項• 企業行動如股利、股票拆拼期間可能導致股價波動巨大。平台將根據市場實際情況，動態採取提前交割或部位調整等方案。請用戶註意相關訊息，提前做好風險管理，避免產生非預期損失。• 受市場因素影響，美股可能觸發熔斷機制。如熔斷發生，對應美股合約將暫停交易，期間訂單無法成交且不會爆倉，但可撤銷委託。請及時關注行情和後續公告，合理管理倉位，避免不必要的損失。• 受監管限制影響，美股合約產品的可用性可能因地區而異。部分司法轄區可能不支援該類產品，具體詳情請參閱《用戶協議》。• MEXC 保留根據營運及合規要求，隨時調整實際展業地區的權利。想最快獲取 MEXC 最新動態？馬上加入我們的公告電報群！ MEXC 平台：下載 App | 零手續費交易 | 即時購買 USDT加入 MEXC 社群：X (推特) | 電報 | Discord客服支援：幫助中心 | 服務條款帳戶驗證: 了解身分驗證 | 如何進行身分驗證現在註冊即可獲得 10,000 USDT 新人獎勵立即註冊相關文章現貨定投現已支援 ATOM, POL, UNI 及另外 11 種資產首發上線：MEXC 將於創新區上線 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 獎池！首發上線：MEXC 將於考核區上線 Hooli (HOOLI)MEXC 盤前交易：Hooli (HOOLI) 即將上線新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費訂閱 MEXC 精選市場動態、新幣上線、行業洞察，每週為您精選送達訂閱即表示您同意接收 MEXC 週報和郵件通訊，並同意我們的《隱私政策》。...訂 閱加入 MEXC 公告電報群最新上幣、熱門活動、重大更新——全部在官方 Telegram 實時推送。馬上加入"
+      },
+      {
+        "title": "MEXC 跟單新增 STAR U本位合約交易對",
+        "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-star-usdt-m-futures-17827791535474",
+        "body": null
+      }
+    ]
+  }
+}
