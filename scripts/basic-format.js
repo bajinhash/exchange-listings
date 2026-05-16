@@ -55,22 +55,20 @@ function parsePublishTime(item) {
     const d = new Date(`${m[1]} ${m[2]}, ${m[3]} UTC`);
     if (!isNaN(d)) return { ts: null, date: yyyymmdd(d) };
   }
-  // 2. "YYYY-MM-DD HH:MM" inside body (Bitget article header — has CST time!)
+  // 2. "MM/DD/YYYY, HH:MM:SS" (KuCoin) — IS publish date. Check BEFORE the
+  //    generic YYYY-MM-DD HH:MM rule because KuCoin's body also contains the
+  //    listing schedule in YYYY-MM-DD HH:MM form, which would otherwise win.
+  if ((m = text.match(/(\d{2})\/(\d{2})\/(\d{4})/))) {
+    return { ts: null, date: `${m[3]}-${m[1]}-${m[2]}` };
+  }
+  // 3. "YYYY-MM-DD HH:MM" inside body (Bitget article header — has CST time!)
   if ((m = text.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/))) {
     // Interpret as CST (UTC+8) since Bitget pages render in zh-CN
     const cstMs = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]);
     const utcMs = cstMs - SHANGHAI_OFFSET_MS;
     return { ts: utcMs, date: `${m[1]}-${m[2]}-${m[3]}` };
   }
-  // 3. "MM/DD/YYYY, HH:MM:SS" (KuCoin)
-  if ((m = text.match(/(\d{2})\/(\d{2})\/(\d{4})/))) {
-    return { ts: null, date: `${m[3]}-${m[1]}-${m[2]}` };
-  }
-  // 4. "(YYYY-MM-DD)" in title (KuCoin futures)
-  if ((m = text.match(/\((\d{4}-\d{2}-\d{2})\)/))) {
-    return { ts: null, date: m[1] };
-  }
-  // 5. Relative Chinese time (MEXC: "X 分鐘前", "X 小時前", "X 天前") — has exact ts
+  // 4. Relative Chinese time (MEXC: "X 分鐘前", "X 小時前", "X 天前") — has exact ts
   if ((m = text.match(/(\d+)\s*分[鐘钟]前/))) {
     const ts = Date.now() - parseInt(m[1]) * 60_000;
     return { ts, date: yyyymmdd(new Date(ts + SHANGHAI_OFFSET_MS)) };
@@ -87,8 +85,18 @@ function parsePublishTime(item) {
   if (/剛剛|刚刚|seconds? ago|一個小時前|一个小时前/.test(text)) {
     return { ts: Date.now(), date: TODAY_CST };
   }
-  // 6. last resort: any YYYY-MM-DD in title (Binance: "...(2026-05-07)")
-  if ((m = text.match(/(\d{4}-\d{2}-\d{2})/))) return { ts: null, date: m[1] };
+  // 5. Gate.io trailing-date pattern: "...2026-05-066,591" (date + view count).
+  //    The date here IS the publish date, unlike Binance's parenthesized
+  //    "(2026-05-18)" which is the future listing date.
+  //    Match: date immediately followed by digit (view-count) or end-of-string.
+  if ((m = text.match(/(\d{4})-(\d{2})-(\d{2})(?=\d|\s*$|<)/))) {
+    return { ts: null, date: `${m[1]}-${m[2]}-${m[3]}` };
+  }
+  // NOTE: deliberately do NOT parse "(YYYY-MM-DD)" in title — that's almost
+  // always the *listing* date, not the publish date (e.g. Binance "Will Launch
+  // BTCUSD1 (2026-05-18)" was published 5/14 but lists 5/18).
+  // If we can't determine pub date, return nulls — inWindow accepts unknowns
+  // as "probably recent" (scrapers fetch latest items, ordered desc).
   return { ts: null, date: null };
 }
 
@@ -109,6 +117,14 @@ const BRAND_LOWER = new Set([
 // ---- ticker / type extractors --------------------------------------------
 function extractToken(item) {
   const title = item.title || '';
+  // 0. Bulk-listing phrases → "多个" (better than "?" for the UI)
+  if (/Multiple\s+(?:USD|TradFi|Perpetual|Stock|股票)|多個|多个|多種|多种/i.test(title)) {
+    return '多个';
+  }
+  // 0b. "TradFi 股票上新" or any "TradFi" branded listing → TradFi (Bybit/Binance)
+  if (/TradFi\s*(股票|stock)?/i.test(title) && !/USDT|USDC/.test(title)) {
+    return 'TradFi';
+  }
   // 1. TICKERUSDT (perpetual notation — strongest signal). Allow up to 15 chars.
   const usdtAll = [...title.matchAll(/\b([A-Z][A-Z0-9]{1,14})USDT\b/g)];
   for (const m of usdtAll) if (!BANNED_TOKEN.has(m[1])) return m[1];
@@ -122,9 +138,13 @@ function extractToken(item) {
   const listed = title.match(/(?:List|Launch|上線|上线|上币|上幣|首發|首发)[：:\s]+([A-Z][A-Z0-9]{1,14})\b/);
   if (listed && !BANNED_TOKEN.has(listed[1])) return listed[1];
   // 5. Project name before "将上线" / "现已上线" (allows mixed-case names like preOPAI)
-  const before = title.match(/([A-Za-z][A-Za-z0-9]{2,14})\s*[（(]?[A-Z]*[）)]?\s*(?:将上线|現已上線|现已上线|將上線)/);
+  const before = title.match(/([A-Za-z][A-Za-z0-9]{2,14})\s*[（(]?[A-Z]*[）)]?\s*(?:将上线|現已上線|现已上线|將上線|即將上線|即将上线)/);
   if (before && !BRAND_LOWER.has(before[1].toLowerCase()) && !BANNED_TOKEN.has(before[1].toUpperCase())) return before[1];
-  // 6. First standalone uppercase 3-15 letter word
+  // 6. "USD-Margined TICKER" / "TICKER Perpetual" pattern (Binance style, where
+  //    a special pair like BTCUSD1 doesn't end in USDT)
+  const inline = title.match(/(?:USD[Ⓢ⒮S]?-?Margined|USDⓈ-Margined)\s+([A-Z][A-Z0-9]{2,14})\b/);
+  if (inline && !BANNED_TOKEN.has(inline[1])) return inline[1];
+  // 7. First standalone uppercase 3-15 letter word
   const tokens = [...title.matchAll(/\b([A-Z][A-Z0-9]{2,14})\b/g)];
   for (const m of tokens) if (!BANNED_TOKEN.has(m[1])) return m[1];
   return '?';
@@ -177,11 +197,16 @@ function inWindow(parsed) {
   if (parsed.date) {
     return parsed.date === TODAY_CST || parsed.date === YESTERDAY_CST;
   }
-  return false;
+  // Unknown publish date — assume "recent" because the scraper just fetched
+  // the latest items. Better to over-include than to silently drop entries
+  // like Binance's BTCUSD1 (title only has the future listing date).
+  return true;
 }
 
 // ---- denylist (drop noise rows) ------------------------------------------
-const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|定投|手续费|手續費|下架/i;
+// Includes "promotional / reward / lottery" patterns so things like
+// 「百倍收益圍獵計畫第 3 期：50,000 USDT 獎勵」 don't end up in the daily.
+const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|定投|手续费|手續費|下架|百倍|圍獵|围猎|獵計|獎勵等您|奖励等您|盲盒|奖池|獎池|抽獎|抽奖|福利|現金獎|现金奖|送禮|送礼/i;
 
 function isDenied(item) {
   return DENY.test(item.title || '');
