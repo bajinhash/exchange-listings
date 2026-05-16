@@ -17,15 +17,18 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const RAW = path.join(DATA_DIR, `raw-${TODAY}.json`);
 const OUT = path.join(DATA_DIR, `${TODAY}.json`);
 
-// 24-hour rolling window ending at the moment this script runs.
-// Cron runs at 18:00 CST → cutoff = 18:00 CST the previous day, exactly
-// what the user asked for. Manual runs slide the window accordingly.
-const WINDOW_END_MS = Date.now();
+// Briefing window is FIXED relative to the briefing's CST date, not the
+// script run time. For TODAY = 2026-05-16 the window is always
+// 2026-05-15 18:00 CST → 2026-05-16 18:00 CST, regardless of whether
+// the script runs at 14:35 (manual) or 19:15 (cron-delayed). This avoids
+// the "ran 4h early so 4h of yesterday's window leaks back in" problem.
+const [_Y, _M, _D] = TODAY.split('-').map(Number);
+// 18:00 CST = 10:00 UTC, so windowEnd in UTC ms:
+const WINDOW_END_MS = Date.UTC(_Y, _M - 1, _D, 10, 0, 0);
 const WINDOW_START_MS = WINDOW_END_MS - 24 * 3600 * 1000;
-// CST dates that overlap the window — used as fallback when only date (no time)
-// is available. covers (yesterday CST, today CST).
-const TODAY_CST = new Date(WINDOW_END_MS + SHANGHAI_OFFSET_MS).toISOString().split('T')[0];
-const YESTERDAY_CST = new Date(WINDOW_END_MS + SHANGHAI_OFFSET_MS - 86400_000).toISOString().split('T')[0];
+// CST date fallbacks for date-only (no time) items
+const TODAY_CST = TODAY;
+const YESTERDAY_CST = new Date(WINDOW_START_MS).toISOString().split('T')[0];
 
 // ---- date parser (handles every exchange's quirky date format) ------------
 function nowCstDate() {
@@ -58,6 +61,14 @@ function parsePublishTime(item) {
   // 2. "MM/DD/YYYY, HH:MM:SS" (KuCoin) — IS publish date. Check BEFORE the
   //    generic YYYY-MM-DD HH:MM rule because KuCoin's body also contains the
   //    listing schedule in YYYY-MM-DD HH:MM form, which would otherwise win.
+  //    Prefer the variant with time (more precise window filtering).
+  if ((m = text.match(/(\d{2})\/(\d{2})\/(\d{4}),\s*(\d{2}):(\d{2}):(\d{2})/))) {
+    // KuCoin timestamps render in CST. Convert to UTC ms.
+    const cstMs = Date.UTC(+m[3], +m[1] - 1, +m[2], +m[4], +m[5], +m[6]);
+    const utcMs = cstMs - SHANGHAI_OFFSET_MS;
+    return { ts: utcMs, date: `${m[3]}-${m[1]}-${m[2]}` };
+  }
+  // Fallback: date only (no time)
   if ((m = text.match(/(\d{2})\/(\d{2})\/(\d{4})/))) {
     return { ts: null, date: `${m[3]}-${m[1]}-${m[2]}` };
   }
@@ -79,7 +90,11 @@ function parsePublishTime(item) {
     return { ts, date: yyyymmdd(new Date(ts + SHANGHAI_OFFSET_MS)) };
   }
   if ((m = text.match(/(\d+)\s*天前/))) {
-    const ts = Date.now() - parseInt(m[1]) * 86400_000;
+    // "X 天前" on MEXC etc. is rounded down (covers X*24h to (X+1)*24h ago).
+    // Use the MIDPOINT (X*24 + 12h) to filter conservatively: items right
+    // at the 24h boundary correctly fall before the 18:00→18:00 window.
+    const hoursAgo = parseInt(m[1]) * 24 + 12;
+    const ts = Date.now() - hoursAgo * 3600_000;
     return { ts, date: yyyymmdd(new Date(ts + SHANGHAI_OFFSET_MS)) };
   }
   if (/剛剛|刚刚|seconds? ago|一個小時前|一个小时前/.test(text)) {
@@ -232,18 +247,23 @@ function inWindow(parsed) {
     return parsed.ts >= WINDOW_START_MS && parsed.ts <= WINDOW_END_MS;
   }
   if (parsed.date) {
-    return parsed.date === TODAY_CST || parsed.date === YESTERDAY_CST;
+    // Date-only resolution: accept only TODAY. YESTERDAY is too lenient —
+    // half of yesterday was before the 18:00 cutoff, so items dated YESTERDAY
+    // need time precision to pass.
+    return parsed.date === TODAY_CST;
   }
-  // Unknown publish date — assume "recent" because the scraper just fetched
-  // the latest items. Better to over-include than to silently drop entries
-  // like Binance's BTCUSD1 (title only has the future listing date).
-  return true;
+  // No date detected: reject. Binance now has ISO timestamps via detail
+  // API; missing date here means the item is truly undatable junk.
+  return false;
 }
 
 // ---- denylist (drop noise rows) ------------------------------------------
 // Includes "promotional / reward / lottery" patterns so things like
 // 「百倍收益圍獵計畫第 3 期：50,000 USDT 獎勵」 don't end up in the daily.
-const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|定投|手续费|手續費|下架|百倍|圍獵|围猎|獵計|獎勵等您|奖励等您|盲盒|奖池|獎池|抽獎|抽奖|福利|現金獎|现金奖|送禮|送礼/i;
+// Note: 定投 (DCA / dollar-cost averaging) was previously in DENY, but
+// "现货定投新增支持 X" is legit new-token-support news. Keep the deny list
+// scoped to genuine noise (campaigns, lotteries, maintenance, delistings).
+const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|獎勵等您|奖励等您|盲盒|奖池|獎池|抽獎|抽奖|福利|現金獎|现金奖|送禮|送礼/i;
 
 function isDenied(item) {
   return DENY.test(item.title || '');

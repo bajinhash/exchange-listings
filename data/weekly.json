@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-13",
   "weekEnd": "2026-05-16",
-  "updatedAt": "2026-05-16T11:11:10.218Z",
+  "updatedAt": "2026-05-16T14:39:56.685Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -166,51 +166,6 @@
     "kucoin": {
       "listings": [
         {
-          "token": "CSCO",
-          "type": "美股合约",
-          "detail": "CSCOUSDT 永续合约（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15",
-          "dates": [
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "DIS",
-          "type": "美股合约",
-          "detail": "DISUSDT 永续合约（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15",
-          "dates": [
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "HD",
-          "type": "美股合约",
-          "detail": "HDUSDT 永续合约（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15",
-          "dates": [
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "SOXL",
-          "type": "美股合约",
-          "detail": "SOXLUSDT 永续合约（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15",
-          "dates": [
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "UBER",
-          "type": "美股合约",
-          "detail": "UBERUSDT 永续合约（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15",
-          "dates": [
-            "2026-05-16"
-          ]
-        },
-        {
           "token": "?",
           "type": "美股合约",
           "detail": "KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-15)",
@@ -242,22 +197,21 @@
     "gateio": {
       "listings": [
         {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易2 小时前676",
-          "url": "https://www.gate.com/zh/announcements/article/51223",
-          "dates": [
-            "2026-05-15",
-            "2026-05-16"
-          ]
-        },
-        {
           "token": "AIGENSYN",
           "type": "现货上线",
           "detail": "现货市场上新：AIGENSYN/USDT2 小时前542",
           "url": "https://www.gate.com/zh/announcements/article/51209",
           "dates": [
             "2026-05-14",
+            "2026-05-15"
+          ]
+        },
+        {
+          "token": "HOOLI",
+          "type": "现货上线",
+          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易2 小时前676",
+          "url": "https://www.gate.com/zh/announcements/article/51223",
+          "dates": [
             "2026-05-15"
           ]
         }
@@ -297,56 +251,6 @@
     "mexc": {
       "listings": [
         {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Hooli (HOOLI)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535490",
-          "dates": [
-            "2026-05-15",
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "HOOLI",
-          "type": "上线",
-          "detail": "MEXC 盤前交易：Hooli (HOOLI) 即將上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-trading-17827791535489",
-          "dates": [
-            "2026-05-15",
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "BRKB",
-          "type": "上线",
-          "detail": "新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535481",
-          "dates": [
-            "2026-05-15",
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "CBRS",
-          "type": "上线",
-          "detail": "新美股合約上線：CBRS U 本位合約將於 5/15 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535478",
-          "dates": [
-            "2026-05-15",
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "DIS",
-          "type": "上线",
-          "detail": "新美股合約上線：DIS U 本位合約將於 5/15 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535477",
-          "dates": [
-            "2026-05-15",
-            "2026-05-16"
-          ]
-        },
-        {
           "token": "GITLAWB",
           "type": "上线",
           "detail": "GITLAWB 將遷移至創新區",
@@ -374,10 +278,55 @@
           ]
         },
         {
+          "token": "HOOLI",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Hooli (HOOLI)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535490",
+          "dates": [
+            "2026-05-15"
+          ]
+        },
+        {
+          "token": "HOOLI",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Hooli (HOOLI) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-trading-17827791535489",
+          "dates": [
+            "2026-05-15"
+          ]
+        },
+        {
+          "token": "BRKB",
+          "type": "上线",
+          "detail": "新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535481",
+          "dates": [
+            "2026-05-15"
+          ]
+        },
+        {
           "token": "?",
           "type": "上线",
           "detail": "百倍收益圍獵計畫第 3 期：50,000 USDT 獎勵等您瓜分！",
           "url": "https://www.mexc.com/zh-TW/announcements/article/100x-profit-hunting-season-3-17827791535479",
+          "dates": [
+            "2026-05-15"
+          ]
+        },
+        {
+          "token": "CBRS",
+          "type": "上线",
+          "detail": "新美股合約上線：CBRS U 本位合約將於 5/15 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535478",
+          "dates": [
+            "2026-05-15"
+          ]
+        },
+        {
+          "token": "DIS",
+          "type": "上线",
+          "detail": "新美股合約上線：DIS U 本位合約將於 5/15 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535477",
           "dates": [
             "2026-05-15"
           ]

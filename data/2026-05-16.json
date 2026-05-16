@@ -1,6 +1,6 @@
 {
   "date": "2026-05-16",
-  "updatedAt": "2026-05-16T11:11:10.057Z",
+  "updatedAt": "2026-05-16T14:39:56.651Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -33,48 +33,10 @@
       "listings": []
     },
     "kucoin": {
-      "listings": [
-        {
-          "token": "CSCO",
-          "type": "美股合约",
-          "detail": "CSCOUSDT 永续合约（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15"
-        },
-        {
-          "token": "DIS",
-          "type": "美股合约",
-          "detail": "DISUSDT 永续合约（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15"
-        },
-        {
-          "token": "HD",
-          "type": "美股合约",
-          "detail": "HDUSDT 永续合约（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15"
-        },
-        {
-          "token": "SOXL",
-          "type": "美股合约",
-          "detail": "SOXLUSDT 永续合约（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15"
-        },
-        {
-          "token": "UBER",
-          "type": "美股合约",
-          "detail": "UBERUSDT 永续合约（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15"
-        }
-      ]
+      "listings": []
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易1 天前5,777",
-          "url": "https://www.gate.com/zh/announcements/article/51223"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": []
@@ -92,36 +54,6 @@
           "type": "上线",
           "detail": "CLAWBANK 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-clawbank-to-the-innovation-zone-17827791535509"
-        },
-        {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Hooli (HOOLI)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535490"
-        },
-        {
-          "token": "HOOLI",
-          "type": "上线",
-          "detail": "MEXC 盤前交易：Hooli (HOOLI) 即將上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-trading-17827791535489"
-        },
-        {
-          "token": "BRKB",
-          "type": "上线",
-          "detail": "新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535481"
-        },
-        {
-          "token": "CBRS",
-          "type": "上线",
-          "detail": "新美股合約上線：CBRS U 本位合約將於 5/15 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535478"
-        },
-        {
-          "token": "DIS",
-          "type": "上线",
-          "detail": "新美股合約上線：DIS U 本位合約將於 5/15 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535477"
         }
       ]
     }
