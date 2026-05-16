@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-13",
-  "weekEnd": "2026-05-15",
-  "updatedAt": "2026-05-15T12:09:27.636Z",
+  "weekEnd": "2026-05-16",
+  "updatedAt": "2026-05-16T06:49:33.724Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -12,7 +12,44 @@
           "url": "https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88",
           "dates": [
             "2026-05-14",
-            "2026-05-15"
+            "2026-05-15",
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "多个",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+          "url": "https://www.binance.com/en/support/announcement/6253a74ac0734740bdf36864584d1bd1",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "AIGENSYN",
+          "type": "杠杆上线",
+          "detail": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+          "url": "https://www.binance.com/en/support/announcement/875f9acd516c443b8752e800aa94b4b1",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "BTCUSD1",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+          "url": "https://www.binance.com/en/support/announcement/5a6284dbe6a7420b85a94054b6fb6613",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "AIGENSYN",
+          "type": "现货上线",
+          "detail": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+          "url": "https://www.binance.com/en/support/announcement/71f44e5e014c445697bb6a6f70315e35",
+          "dates": [
+            "2026-05-16"
           ]
         },
         {
@@ -44,6 +81,15 @@
     },
     "bybit": {
       "listings": [
+        {
+          "token": "TradFi",
+          "type": "上线",
+          "detail": "TradFi 股票上新：50 支股票 CFD 現已登陸 Bybit TradFi",
+          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-stock-listing-50-stock-cfds-now-live-on-bybit-tradfi-blt64234aa2b69f524f/",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
         {
           "token": "?",
           "type": "上线",
@@ -139,6 +185,15 @@
     "kucoin": {
       "listings": [
         {
+          "token": "多个",
+          "type": "美股合约",
+          "detail": "KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-15)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
           "token": "?",
           "type": "美股合约",
           "detail": "KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-15)",
@@ -170,21 +225,22 @@
     "gateio": {
       "listings": [
         {
+          "token": "HOOLI",
+          "type": "现货上线",
+          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易2 小时前676",
+          "url": "https://www.gate.com/zh/announcements/article/51223",
+          "dates": [
+            "2026-05-15",
+            "2026-05-16"
+          ]
+        },
+        {
           "token": "AIGENSYN",
           "type": "现货上线",
           "detail": "现货市场上新：AIGENSYN/USDT2 小时前542",
           "url": "https://www.gate.com/zh/announcements/article/51209",
           "dates": [
             "2026-05-14",
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易2 小时前676",
-          "url": "https://www.gate.com/zh/announcements/article/51223",
-          "dates": [
             "2026-05-15"
           ]
         }
@@ -224,6 +280,74 @@
     "mexc": {
       "listings": [
         {
+          "token": "HOOLI",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Hooli (HOOLI)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535490",
+          "dates": [
+            "2026-05-15",
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "HOOLI",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Hooli (HOOLI) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-trading-17827791535489",
+          "dates": [
+            "2026-05-15",
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "BRKB",
+          "type": "上线",
+          "detail": "新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535481",
+          "dates": [
+            "2026-05-15",
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "CBRS",
+          "type": "上线",
+          "detail": "新美股合約上線：CBRS U 本位合約將於 5/15 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535478",
+          "dates": [
+            "2026-05-15",
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "DIS",
+          "type": "上线",
+          "detail": "新美股合約上線：DIS U 本位合約將於 5/15 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535477",
+          "dates": [
+            "2026-05-15",
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "GITLAWB",
+          "type": "上线",
+          "detail": "GITLAWB 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-gitlawb-to-the-innovation-zone-17827791535510",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "CLAWBANK",
+          "type": "上线",
+          "detail": "CLAWBANK 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-clawbank-to-the-innovation-zone-17827791535509",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
           "token": "DVERSE",
           "type": "现货上线",
           "detail": "MEXC 將於創新區上線 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 獎池！",
@@ -233,55 +357,10 @@
           ]
         },
         {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Hooli (HOOLI)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535490",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "HOOLI",
-          "type": "上线",
-          "detail": "MEXC 盤前交易：Hooli (HOOLI) 即將上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-trading-17827791535489",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "BRKB",
-          "type": "上线",
-          "detail": "新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535481",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
           "token": "?",
           "type": "上线",
           "detail": "百倍收益圍獵計畫第 3 期：50,000 USDT 獎勵等您瓜分！",
           "url": "https://www.mexc.com/zh-TW/announcements/article/100x-profit-hunting-season-3-17827791535479",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "CBRS",
-          "type": "上线",
-          "detail": "新美股合約上線：CBRS U 本位合約將於 5/15 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535478",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "DIS",
-          "type": "上线",
-          "detail": "新美股合約上線：DIS U 本位合約將於 5/15 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535477",
           "dates": [
             "2026-05-15"
           ]

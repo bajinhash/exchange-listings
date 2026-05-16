@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-16",
+  "updatedAt": "2026-05-16T06:49:33.540Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "多个",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+          "url": "https://www.binance.com/en/support/announcement/6253a74ac0734740bdf36864584d1bd1"
+        },
+        {
+          "token": "AIGENSYN",
+          "type": "杠杆上线",
+          "detail": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+          "url": "https://www.binance.com/en/support/announcement/875f9acd516c443b8752e800aa94b4b1"
+        },
+        {
+          "token": "BTCUSD1",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+          "url": "https://www.binance.com/en/support/announcement/5a6284dbe6a7420b85a94054b6fb6613"
+        },
+        {
+          "token": "AIGENSYN",
+          "type": "现货上线",
+          "detail": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+          "url": "https://www.binance.com/en/support/announcement/71f44e5e014c445697bb6a6f70315e35"
+        },
+        {
+          "token": "PHAROS",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+          "url": "https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "TradFi",
+          "type": "上线",
+          "detail": "TradFi 股票上新：50 支股票 CFD 現已登陸 Bybit TradFi",
+          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-stock-listing-50-stock-cfds-now-live-on-bybit-tradfi-blt64234aa2b69f524f/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "多个",
+          "type": "美股合约",
+          "detail": "KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-15)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "HOOLI",
+          "type": "现货上线",
+          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易21 小时前4,972",
+          "url": "https://www.gate.com/zh/announcements/article/51223"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GITLAWB",
+          "type": "上线",
+          "detail": "GITLAWB 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-gitlawb-to-the-innovation-zone-17827791535510"
+        },
+        {
+          "token": "CLAWBANK",
+          "type": "上线",
+          "detail": "CLAWBANK 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-clawbank-to-the-innovation-zone-17827791535509"
+        },
+        {
+          "token": "HOOLI",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Hooli (HOOLI)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535490"
+        },
+        {
+          "token": "HOOLI",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Hooli (HOOLI) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-trading-17827791535489"
+        },
+        {
+          "token": "BRKB",
+          "type": "上线",
+          "detail": "新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535481"
+        },
+        {
+          "token": "CBRS",
+          "type": "上线",
+          "detail": "新美股合約上線：CBRS U 本位合約將於 5/15 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535478"
+        },
+        {
+          "token": "DIS",
+          "type": "上线",
+          "detail": "新美股合約上線：DIS U 本位合約將於 5/15 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535477"
+        }
+      ]
+    }
+  }
+}
