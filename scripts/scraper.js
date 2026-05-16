@@ -371,13 +371,17 @@ async function scrapeMEXC(page) {
       }).filter(i => i.title.length > 10)
     );
 
-    for (const item of items.slice(0, 10)) {
-      if (item.title.includes('定投') || item.title.includes('手續費') || item.title.includes('下架')) continue;
+    // Bumped to 15 (was 10) so we don't drop legit items just because the
+    // top of the page has 2-3 ranked entries. Note: 定投 used to be in this
+    // skip list but "現貨定投新增支持 X" IS legit new-token-support news —
+    // basic-format's DENY pattern handles real noise (campaigns/lotteries).
+    for (const item of items.slice(0, 15)) {
+      if (item.title.includes('手續費') || item.title.includes('下架')) continue;
       const url = item.href.startsWith('http') ? item.href : `https://www.mexc.com${item.href}`;
       articles.push({ title: item.title, url, body: null });
     }
 
-    for (const a of articles.slice(0, 8)) {
+    for (const a of articles.slice(0, 12)) {
       const body = await fetchPageContent(page, a.url, 'article, main, [class*="article"]');
       a.body = body;
     }
