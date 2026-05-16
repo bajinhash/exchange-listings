@@ -56,6 +56,7 @@ async function scrapeBinance(page) {
       items = rawArticles.map(a => ({
         title: a.title || '',
         url: `https://www.binance.com/en/support/announcement/${a.code || a.id || ''}`,
+        code: a.code || a.id || '',
       }));
     } catch (e) {
       await page.goto('https://www.binance.com/en/support/announcement/list/48', { waitUntil: 'networkidle', timeout: 40000 });
@@ -64,20 +65,62 @@ async function scrapeBinance(page) {
         links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
           .filter(i => i.title.length > 10)
       );
-      items = links.map(l => ({ title: l.title, url: `https://www.binance.com${l.href}` }));
+      items = links.map(l => {
+        const m = l.href.match(/announcement\/([a-f0-9]{32})/);
+        return { title: l.title, url: `https://www.binance.com${l.href}`, code: m ? m[1] : '' };
+      });
     }
 
     for (const item of items.slice(0, 8)) {
       if (!item.title) continue;
       if (item.title.includes('Trading Competition') || item.title.includes('AMA')) continue;
       if (item.title.includes('Completes Integration') || item.title.includes('Alpha Will Remove')) continue;
-      const body = await fetchPageContent(page, item.url, 'article, main, .content');
+      // Prefer the detail API — returns publishDate + structured body that
+      // unrolls bulk-listing schedules (e.g. "Multiple TradFi" → all tickers).
+      // Falls back to Playwright DOM if API rejects.
+      let body = null;
+      if (item.code) {
+        try {
+          const dat = await fetchJson(
+            `https://www.binance.com/bapi/composite/v1/public/cms/article/detail/query?articleCode=${item.code}`
+          );
+          const d = dat?.data;
+          if (d) {
+            const pubIso = d.publishDate ? new Date(d.publishDate).toISOString() : null;
+            // d.body comes as a JSON-string (not pre-parsed object). Parse defensively.
+            let bodyTree = d.body;
+            if (typeof bodyTree === 'string') {
+              try { bodyTree = JSON.parse(bodyTree); } catch (_) { bodyTree = null; }
+            }
+            const text = flattenBinanceBody(bodyTree).replace(/\s+/g, ' ').slice(0, 4000);
+            body = pubIso ? `Published: ${pubIso}\n\n${text}` : text;
+          }
+        } catch (_) { /* fall through */ }
+      }
+      if (!body) {
+        body = await fetchPageContent(page, item.url, 'article, main, .content');
+      }
       articles.push({ title: item.title, url: item.url, body });
     }
   } catch (e) {
     console.error('  Binance scrape error:', e.message);
   }
   return articles;
+}
+
+// Binance body comes back as a tree: {node:'root', child:[{node:'element', tag, child:[...]}]}.
+// Flatten to plain text by recursive walk — captures both leaf text nodes
+// and (importantly) the schedule list with each TICKERUSDT-Margined entry.
+function flattenBinanceBody(node) {
+  if (!node) return '';
+  if (typeof node === 'string') return node;
+  if (Array.isArray(node)) return node.map(flattenBinanceBody).join('');
+  let out = '';
+  if (node.text) out += node.text;
+  if (node.child) out += flattenBinanceBody(node.child);
+  // p / br / li / h1-h6 get a trailing newline so token regexes have boundaries
+  if (/^(p|br|li|h[1-6]|div)$/i.test(node.tag || '')) out += '\n';
+  return out;
 }
 
 async function scrapeOKX(page) {
