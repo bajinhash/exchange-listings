@@ -1,6 +1,6 @@
 {
   "date": "2026-05-16",
-  "updatedAt": "2026-05-16T06:49:33.540Z",
+  "updatedAt": "2026-05-16T08:16:16.023Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -42,21 +42,38 @@
       "listings": []
     },
     "bybit": {
-      "listings": [
-        {
-          "token": "TradFi",
-          "type": "上线",
-          "detail": "TradFi 股票上新：50 支股票 CFD 現已登陸 Bybit TradFi",
-          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-stock-listing-50-stock-cfds-now-live-on-bybit-tradfi-blt64234aa2b69f524f/"
-        }
-      ]
+      "listings": []
     },
     "kucoin": {
       "listings": [
         {
-          "token": "多个",
+          "token": "CSCO",
           "type": "美股合约",
-          "detail": "KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-15)",
+          "detail": "CSCOUSDT 永续合约（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15"
+        },
+        {
+          "token": "DIS",
+          "type": "美股合约",
+          "detail": "DISUSDT 永续合约（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15"
+        },
+        {
+          "token": "HD",
+          "type": "美股合约",
+          "detail": "HDUSDT 永续合约（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15"
+        },
+        {
+          "token": "SOXL",
+          "type": "美股合约",
+          "detail": "SOXLUSDT 永续合约（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15"
+        },
+        {
+          "token": "UBER",
+          "type": "美股合约",
+          "detail": "UBERUSDT 永续合约（同公告含 5 个标的）",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15"
         }
       ]

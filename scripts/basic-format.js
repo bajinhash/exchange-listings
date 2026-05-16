@@ -114,6 +114,43 @@ const BRAND_LOWER = new Set([
   'launchpool', 'launchpad', 'tradfi', 'meme+',
 ]);
 
+// Bulk-listing token extractor: when a single announcement bundles N
+// listings ("Will List Multiple Stock Index Perpetual Contracts"), the
+// body contains a schedule like:
+//   2026-05-15 14:05 (UTC): DISUSDT-Margined Perpetual Contract, ...
+//   2026-05-15 14:05 (UTC): UBERUSDT-Margined Perpetual Contract, ...
+// This walks the body to pull each TICKER out. Returns sorted unique array.
+function extractTokensFromBody(item) {
+  const body = item.body || '';
+  const tokens = new Set();
+  // Pattern 1: TICKERUSDT-Margined / TICKERUSDT 永續 / TICKERUSDT 永续
+  for (const m of body.matchAll(/\b([A-Z][A-Z0-9]{1,14})USDT[-\s]?(?:Margined|Perpetual|永續|永续|合約|合约)/g)) {
+    if (!BANNED_TOKEN.has(m[1])) tokens.add(m[1]);
+  }
+  // Pattern 2: enumeration "TICKER1, TICKER2 and TICKER3" (Binance Multiple TradFi style)
+  for (const m of body.matchAll(/\b([A-Z][A-Z0-9]{2,14})\s*(?:[,]\s+|\s+(?:and|及|和)\s+)/g)) {
+    if (!BANNED_TOKEN.has(m[1])) tokens.add(m[1]);
+  }
+  // Pattern 3: bullet list "1. TICKER" or "• TICKER"
+  for (const m of body.matchAll(/[•·\-]\s+([A-Z][A-Z0-9]{2,14})\b/g)) {
+    if (!BANNED_TOKEN.has(m[1])) tokens.add(m[1]);
+  }
+  return [...tokens].sort();
+}
+
+// Returns an array of tokens for this item. Most items → [single token];
+// bulk listings → multiple tokens parsed from body.
+function extractTokens(item) {
+  const single = extractToken(item);
+  // Only do bulk expansion when title flagged it as "多个" or single failed (?)
+  if (single !== '多个' && single !== '?' && single !== 'TradFi') {
+    return [single];
+  }
+  const bulk = extractTokensFromBody(item);
+  if (bulk.length > 0) return bulk;
+  return [single];   // keep "多个" / "TradFi" / "?" placeholder when body is empty
+}
+
 // ---- ticker / type extractors --------------------------------------------
 function extractToken(item) {
   const title = item.title || '';
@@ -220,18 +257,20 @@ function formatExchange(key, rawArr) {
     if (!item || !item.title || isDenied(item)) continue;
     const pub = parsePublishTime(item);
     if (!inWindow(pub)) continue;
-    const token = extractToken(item);
+    const tokens = extractTokens(item);
     const type = extractType(item);
-    const detail = makeDetail(item);
-    const dedupKey = `${key}|${token}|${type}`;
-    if (seen.has(dedupKey)) continue;
-    seen.add(dedupKey);
-    out.push({
-      token,
-      type,
-      detail,
-      url: item.url || '',
-    });
+    const baseDetail = makeDetail(item);
+    for (const token of tokens) {
+      const dedupKey = `${key}|${token}|${type}`;
+      if (seen.has(dedupKey)) continue;
+      seen.add(dedupKey);
+      // For bulk-expanded entries, prepend the specific token so each row's
+      // detail is self-explanatory (otherwise N rows would share identical text).
+      const detail = tokens.length > 1
+        ? `${token}USDT 永续合约（同公告含 ${tokens.length} 个标的）`
+        : baseDetail;
+      out.push({ token, type, detail, url: item.url || '' });
+    }
   }
   return out;
 }
@@ -244,17 +283,22 @@ function bucketBinance(rawArr) {
     if (!item || !item.title || isDenied(item)) continue;
     const pub = parsePublishTime(item);
     if (!inWindow(pub)) continue;
-    const token = extractToken(item);
+    const tokens = extractTokens(item);
     const type = extractType(item);
-    const detail = makeDetail(item);
-    const dedupKey = `binance|${token}|${type}`;
-    if (seen.has(dedupKey)) continue;
-    seen.add(dedupKey);
-    const entry = { token, type, detail, url: item.url || '' };
+    const baseDetail = makeDetail(item);
     const t = item.title || '';
-    if (/Alpha/.test(t)) alpha.push(entry);
-    else if (/Wallet/.test(t)) wallet.push(entry);
-    else listings.push(entry);
+    for (const token of tokens) {
+      const dedupKey = `binance|${token}|${type}`;
+      if (seen.has(dedupKey)) continue;
+      seen.add(dedupKey);
+      const detail = tokens.length > 1
+        ? `${token}USDT 永续合约（同公告含 ${tokens.length} 个标的）`
+        : baseDetail;
+      const entry = { token, type, detail, url: item.url || '' };
+      if (/Alpha/.test(t)) alpha.push(entry);
+      else if (/Wallet/.test(t)) wallet.push(entry);
+      else listings.push(entry);
+    }
   }
   return { listings, alpha, wallet };
 }
