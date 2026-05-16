@@ -1,6 +1,6 @@
 {
   "date": "2026-05-16",
-  "updatedAt": "2026-05-16T09:00:20.459Z",
+  "updatedAt": "2026-05-16T11:11:10.057Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -67,7 +67,14 @@
       ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "HOOLI",
+          "type": "现货上线",
+          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易1 天前5,777",
+          "url": "https://www.gate.com/zh/announcements/article/51223"
+        }
+      ]
     },
     "bitget": {
       "listings": []

@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-13",
   "weekEnd": "2026-05-16",
-  "updatedAt": "2026-05-16T09:00:20.638Z",
+  "updatedAt": "2026-05-16T11:11:10.218Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -242,21 +242,22 @@
     "gateio": {
       "listings": [
         {
+          "token": "HOOLI",
+          "type": "现货上线",
+          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易2 小时前676",
+          "url": "https://www.gate.com/zh/announcements/article/51223",
+          "dates": [
+            "2026-05-15",
+            "2026-05-16"
+          ]
+        },
+        {
           "token": "AIGENSYN",
           "type": "现货上线",
           "detail": "现货市场上新：AIGENSYN/USDT2 小时前542",
           "url": "https://www.gate.com/zh/announcements/article/51209",
           "dates": [
             "2026-05-14",
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易2 小时前676",
-          "url": "https://www.gate.com/zh/announcements/article/51223",
-          "dates": [
             "2026-05-15"
           ]
         }
