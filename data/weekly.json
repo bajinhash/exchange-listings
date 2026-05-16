@@ -1,10 +1,37 @@
 {
   "weekStart": "2026-05-13",
   "weekEnd": "2026-05-16",
-  "updatedAt": "2026-05-16T08:16:45.950Z",
+  "updatedAt": "2026-05-16T09:00:20.638Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "DRAM",
+          "type": "永续合约",
+          "detail": "DRAMUSDT 永续合约（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/6253a74ac0734740bdf36864584d1bd1",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "FLNC",
+          "type": "永续合约",
+          "detail": "FLNCUSDT 永续合约（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/6253a74ac0734740bdf36864584d1bd1",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "RKLB",
+          "type": "永续合约",
+          "detail": "RKLBUSDT 永续合约（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/6253a74ac0734740bdf36864584d1bd1",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
         {
           "token": "PHAROS",
           "type": "永续合约",
@@ -12,44 +39,7 @@
           "url": "https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88",
           "dates": [
             "2026-05-14",
-            "2026-05-15",
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "多个",
-          "type": "永续合约",
-          "detail": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
-          "url": "https://www.binance.com/en/support/announcement/6253a74ac0734740bdf36864584d1bd1",
-          "dates": [
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "AIGENSYN",
-          "type": "杠杆上线",
-          "detail": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
-          "url": "https://www.binance.com/en/support/announcement/875f9acd516c443b8752e800aa94b4b1",
-          "dates": [
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "BTCUSD1",
-          "type": "永续合约",
-          "detail": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
-          "url": "https://www.binance.com/en/support/announcement/5a6284dbe6a7420b85a94054b6fb6613",
-          "dates": [
-            "2026-05-16"
-          ]
-        },
-        {
-          "token": "AIGENSYN",
-          "type": "现货上线",
-          "detail": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
-          "url": "https://www.binance.com/en/support/announcement/71f44e5e014c445697bb6a6f70315e35",
-          "dates": [
-            "2026-05-16"
+            "2026-05-15"
           ]
         },
         {
@@ -252,22 +242,21 @@
     "gateio": {
       "listings": [
         {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易2 小时前676",
-          "url": "https://www.gate.com/zh/announcements/article/51223",
-          "dates": [
-            "2026-05-15",
-            "2026-05-16"
-          ]
-        },
-        {
           "token": "AIGENSYN",
           "type": "现货上线",
           "detail": "现货市场上新：AIGENSYN/USDT2 小时前542",
           "url": "https://www.gate.com/zh/announcements/article/51209",
           "dates": [
             "2026-05-14",
+            "2026-05-15"
+          ]
+        },
+        {
+          "token": "HOOLI",
+          "type": "现货上线",
+          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易2 小时前676",
+          "url": "https://www.gate.com/zh/announcements/article/51223",
+          "dates": [
             "2026-05-15"
           ]
         }
