@@ -79,6 +79,25 @@ function parsePublishTime(item) {
     const utcMs = cstMs - SHANGHAI_OFFSET_MS;
     return { ts: utcMs, date: `${m[1]}-${m[2]}-${m[3]}` };
   }
+  // 3b. Chinese date with time, but ONLY when the TITLE indicates this is
+  //     an "already done" change ("現已支援", "已新增"). Otherwise the
+  //     Chinese dates in body are a future schedule (e.g. HOOLI body has
+  //     "交易：2026年5月15日 18:00 (UTC+8)" — that's the trading start time,
+  //     not the publish time).
+  const TITLE_DONE = /現已|现已|已新增|已開啟|已开通|已支援|已支持|已上線|已上线|已增加|已支持/;
+  if (TITLE_DONE.test(title)) {
+    for (const cm of text.matchAll(/(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日\s*(\d{1,2}):(\d{2})/g)) {
+      const cstMs = Date.UTC(+cm[1], +cm[2] - 1, +cm[3], +cm[4], +cm[5]);
+      const utcMs = cstMs - SHANGHAI_OFFSET_MS;
+      const ageMs = Date.now() - utcMs;
+      if (ageMs >= 0 && ageMs < 48 * 3600 * 1000) {
+        return {
+          ts: utcMs,
+          date: `${cm[1]}-${String(cm[2]).padStart(2,'0')}-${String(cm[3]).padStart(2,'0')}`,
+        };
+      }
+    }
+  }
   // 4. Relative Chinese time (MEXC: "X 分鐘前", "X 小時前", "X 天前") — has exact ts
   if ((m = text.match(/(\d+)\s*分[鐘钟]前/))) {
     const ts = Date.now() - parseInt(m[1]) * 60_000;
@@ -150,6 +169,14 @@ function extractTokensFromBody(item) {
   for (const m of body.matchAll(/[•·\-]\s+([A-Z][A-Z0-9]{2,14})\b/g)) {
     if (!BANNED_TOKEN.has(m[1])) tokens.add(m[1]);
   }
+  // Pattern 4: colon-introduced 、/comma list like
+  //   "新增支援資產：ATOM、EIGEN、ENS、GRT、INJ、JTO、JUP、LDO、MORPHO、PENDLE、POL、RENDER、TIA、UNI"
+  // Match the run of tokens-with-separators, then pull each TICKER out of it.
+  for (const m of body.matchAll(/[：:]\s*((?:[A-Z][A-Z0-9]{2,14}\s*[、,]\s*){2,}[A-Z][A-Z0-9]{2,14})/g)) {
+    for (const inner of m[1].matchAll(/\b([A-Z][A-Z0-9]{2,14})\b/g)) {
+      if (!BANNED_TOKEN.has(inner[1])) tokens.add(inner[1]);
+    }
+  }
   return [...tokens].sort();
 }
 
@@ -169,8 +196,9 @@ function extractTokens(item) {
 // ---- ticker / type extractors --------------------------------------------
 function extractToken(item) {
   const title = item.title || '';
-  // 0. Bulk-listing phrases → "多个" (better than "?" for the UI)
-  if (/Multiple\s+(?:USD|TradFi|Perpetual|Stock|股票)|多個|多个|多種|多种/i.test(title)) {
+  // 0. Bulk-listing phrases → "多个" (better than "?" for the UI). Forces
+  //    extractTokens to scan body for the full enumerated list.
+  if (/Multiple\s+(?:USD|TradFi|Perpetual|Stock|股票)|多個|多个|多種|多种|及另外\s*\d+\s*[種种項项]|and\s+\d+\s+(?:more|others?)/i.test(title)) {
     return '多个';
   }
   // 0b. "TradFi 股票上新" or any "TradFi" branded listing → TradFi (Bybit/Binance)
@@ -287,7 +315,7 @@ function formatExchange(key, rawArr) {
       // For bulk-expanded entries, prepend the specific token so each row's
       // detail is self-explanatory (otherwise N rows would share identical text).
       const detail = tokens.length > 1
-        ? `${token}USDT 永续合约（同公告含 ${tokens.length} 个标的）`
+        ? `${token}（同公告含 ${tokens.length} 个标的）`
         : baseDetail;
       out.push({ token, type, detail, url: item.url || '' });
     }
@@ -312,7 +340,7 @@ function bucketBinance(rawArr) {
       if (seen.has(dedupKey)) continue;
       seen.add(dedupKey);
       const detail = tokens.length > 1
-        ? `${token}USDT 永续合约（同公告含 ${tokens.length} 个标的）`
+        ? `${token}（同公告含 ${tokens.length} 个标的）`
         : baseDetail;
       const entry = { token, type, detail, url: item.url || '' };
       if (/Alpha/.test(t)) alpha.push(entry);

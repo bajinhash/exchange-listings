@@ -1,14 +1,14 @@
 {
   "weekStart": "2026-05-13",
   "weekEnd": "2026-05-16",
-  "updatedAt": "2026-05-16T14:52:43.732Z",
+  "updatedAt": "2026-05-16T15:00:30.429Z",
   "exchanges": {
     "binance": {
       "listings": [
         {
           "token": "DRAM",
           "type": "永续合约",
-          "detail": "DRAMUSDT 永续合约（同公告含 3 个标的）",
+          "detail": "DRAM（同公告含 3 个标的）",
           "url": "https://www.binance.com/en/support/announcement/6253a74ac0734740bdf36864584d1bd1",
           "dates": [
             "2026-05-16"
@@ -17,7 +17,7 @@
         {
           "token": "FLNC",
           "type": "永续合约",
-          "detail": "FLNCUSDT 永续合约（同公告含 3 个标的）",
+          "detail": "FLNC（同公告含 3 个标的）",
           "url": "https://www.binance.com/en/support/announcement/6253a74ac0734740bdf36864584d1bd1",
           "dates": [
             "2026-05-16"
@@ -26,7 +26,7 @@
         {
           "token": "RKLB",
           "type": "永续合约",
-          "detail": "RKLBUSDT 永续合约（同公告含 3 个标的）",
+          "detail": "RKLB（同公告含 3 个标的）",
           "url": "https://www.binance.com/en/support/announcement/6253a74ac0734740bdf36864584d1bd1",
           "dates": [
             "2026-05-16"
@@ -264,6 +264,132 @@
           "type": "上线",
           "detail": "CLAWBANK 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-clawbank-to-the-innovation-zone-17827791535509",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "ATOM",
+          "type": "现货上线",
+          "detail": "ATOM（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "EIGEN",
+          "type": "现货上线",
+          "detail": "EIGEN（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "ENS",
+          "type": "现货上线",
+          "detail": "ENS（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "GRT",
+          "type": "现货上线",
+          "detail": "GRT（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "INJ",
+          "type": "现货上线",
+          "detail": "INJ（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "JTO",
+          "type": "现货上线",
+          "detail": "JTO（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "JUP",
+          "type": "现货上线",
+          "detail": "JUP（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "LDO",
+          "type": "现货上线",
+          "detail": "LDO（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "MORPHO",
+          "type": "现货上线",
+          "detail": "MORPHO（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "PENDLE",
+          "type": "现货上线",
+          "detail": "PENDLE（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "POL",
+          "type": "现货上线",
+          "detail": "POL（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "RENDER",
+          "type": "现货上线",
+          "detail": "RENDER（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "TIA",
+          "type": "现货上线",
+          "detail": "TIA（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
+          "dates": [
+            "2026-05-16"
+          ]
+        },
+        {
+          "token": "UNI",
+          "type": "现货上线",
+          "detail": "UNI（同公告含 14 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
           "dates": [
             "2026-05-16"
           ]
