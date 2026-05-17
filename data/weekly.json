@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-13",
   "weekEnd": "2026-05-17",
-  "updatedAt": "2026-05-17T12:59:52.442Z",
+  "updatedAt": "2026-05-17T13:02:14.270Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -268,6 +268,15 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "VIM",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Vimverse (VIM)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535485",
+          "dates": [
+            "2026-05-17"
+          ]
+        },
         {
           "token": "GITLAWB",
           "type": "上线",

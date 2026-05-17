@@ -294,7 +294,7 @@ function inWindow(parsed) {
 // Note: 定投 (DCA / dollar-cost averaging) was previously in DENY, but
 // "现货定投新增支持 X" is legit new-token-support news. Keep the deny list
 // scoped to genuine noise (campaigns, lotteries, maintenance, delistings).
-const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|獎勵等您|奖励等您|盲盒|奖池|獎池|抽獎|抽奖|福利|現金獎|现金奖|送禮|送礼/i;
+const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|獎勵等您|奖励等您|盲盒|抽獎|抽奖/i;
 
 function isDenied(item) {
   return DENY.test(item.title || '');

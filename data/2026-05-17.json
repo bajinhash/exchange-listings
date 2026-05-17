@@ -1,6 +1,6 @@
 {
   "date": "2026-05-17",
-  "updatedAt": "2026-05-17T12:59:52.259Z",
+  "updatedAt": "2026-05-17T13:01:53.137Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -37,7 +37,14 @@
       "listings": []
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "VIM",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Vimverse (VIM)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535485"
+        }
+      ]
     }
   }
 }
