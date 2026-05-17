@@ -17,15 +17,18 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const RAW = path.join(DATA_DIR, `raw-${TODAY}.json`);
 const OUT = path.join(DATA_DIR, `${TODAY}.json`);
 
-// Briefing window is FIXED relative to the briefing's CST date, not the
-// script run time. For TODAY = 2026-05-16 the window is always
-// 2026-05-15 18:00 CST → 2026-05-16 18:00 CST, regardless of whether
-// the script runs at 14:35 (manual) or 19:15 (cron-delayed). This avoids
-// the "ran 4h early so 4h of yesterday's window leaks back in" problem.
+// Briefing window: starts at yesterday 18:00 CST (fixed), ends at
+// MAX(today 18:00 CST, NOW) so cron-delayed runs still catch items
+// posted between 18:00 and the actual fire time. Capped at +6h to avoid
+// late manual reruns bleeding into the next day's briefing.
 const [_Y, _M, _D] = TODAY.split('-').map(Number);
-// 18:00 CST = 10:00 UTC, so windowEnd in UTC ms:
-const WINDOW_END_MS = Date.UTC(_Y, _M - 1, _D, 10, 0, 0);
-const WINDOW_START_MS = WINDOW_END_MS - 24 * 3600 * 1000;
+const SCHEDULED_END_MS = Date.UTC(_Y, _M - 1, _D, 10, 0, 0);  // 18:00 CST
+const MAX_DELAY_MS = 6 * 3600 * 1000;
+const WINDOW_END_MS = Math.max(
+  SCHEDULED_END_MS,
+  Math.min(Date.now() + 60_000, SCHEDULED_END_MS + MAX_DELAY_MS)
+);
+const WINDOW_START_MS = SCHEDULED_END_MS - 24 * 3600 * 1000;
 // CST date fallbacks for date-only (no time) items
 const TODAY_CST = TODAY;
 const YESTERDAY_CST = new Date(WINDOW_START_MS).toISOString().split('T')[0];
