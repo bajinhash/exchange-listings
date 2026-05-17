@@ -1,6 +1,6 @@
 {
   "date": "2026-05-17",
-  "updatedAt": "2026-05-17T11:16:28.210Z",
+  "updatedAt": "2026-05-17T12:59:52.259Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -14,10 +14,24 @@
       "listings": []
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "ATWO",
+          "type": "现货上线",
+          "detail": "World Premiere: Arena Two (ATWO) Listed on KuCoinTrading: 12:00 on May 18, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-arena-two-atwo-listed-on-kucoin"
+        }
+      ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "WARD",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Warden Protocol (WARD) 现货交易与闪兑交易3 小时前892",
+          "url": "https://www.gate.com/zh/announcements/article/51229"
+        }
+      ]
     },
     "bitget": {
       "listings": []

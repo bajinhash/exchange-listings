@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-13",
   "weekEnd": "2026-05-17",
-  "updatedAt": "2026-05-17T11:16:28.377Z",
+  "updatedAt": "2026-05-17T12:59:52.442Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -166,6 +166,15 @@
     "kucoin": {
       "listings": [
         {
+          "token": "ATWO",
+          "type": "现货上线",
+          "detail": "World Premiere: Arena Two (ATWO) Listed on KuCoinTrading: 12:00 on May 18, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-arena-two-atwo-listed-on-kucoin",
+          "dates": [
+            "2026-05-17"
+          ]
+        },
+        {
           "token": "?",
           "type": "美股合约",
           "detail": "KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-15)",
@@ -196,6 +205,15 @@
     },
     "gateio": {
       "listings": [
+        {
+          "token": "WARD",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Warden Protocol (WARD) 现货交易与闪兑交易3 小时前892",
+          "url": "https://www.gate.com/zh/announcements/article/51229",
+          "dates": [
+            "2026-05-17"
+          ]
+        },
         {
           "token": "AIGENSYN",
           "type": "现货上线",
