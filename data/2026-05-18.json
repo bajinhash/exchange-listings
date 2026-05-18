@@ -1,6 +1,6 @@
 {
   "date": "2026-05-18",
-  "updatedAt": "2026-05-18T14:41:12.339Z",
+  "updatedAt": "2026-05-18T14:48:10.924Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -82,34 +82,10 @@
     "gateio": {
       "listings": [
         {
-          "token": "GME",
-          "type": "上线",
-          "detail": "Gate 关于 GameStop (GME) 更名为 GameStop (GMESOL) 的公告6 小时前1,162",
-          "url": "https://www.gate.com/zh/announcements/article/51241"
-        },
-        {
-          "token": "?",
-          "type": "上线",
-          "detail": "Gate 2026 年 4 月透明度报告：基础设施建设与 AI 生态双轮驱动，加速迈向全...7 小时前952",
-          "url": "https://www.gate.com/zh/announcements/article/51240"
-        },
-        {
-          "token": "TradFi",
-          "type": "上线",
-          "detail": "TradFi CFD 签启好运：0 门槛抽三级黄金豪礼、20 克金条与 200 TSLAON7 小时前878",
-          "url": "https://www.gate.com/zh/announcements/article/51239"
-        },
-        {
           "token": "DRAM",
           "type": "现货上线",
           "detail": "Gate 合约股票专区将上线 DRAM（伦希尔存储芯片 ETF）、HIMS（希姆...8 小时前1,899",
           "url": "https://www.gate.com/zh/announcements/article/51236"
-        },
-        {
-          "token": "?",
-          "type": "跟单合约",
-          "detail": "Gate 研究院：Hyperliquid 卷入监管博弈，Gate 增加预测市场聪明钱及跟单8 小时前946",
-          "url": "https://www.gate.com/zh/announcements/article/51235"
         },
         {
           "token": "ZEST",

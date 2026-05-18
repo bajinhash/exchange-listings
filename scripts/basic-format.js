@@ -158,7 +158,9 @@ const BRAND_LOWER = new Set([
 //   2026-05-15 14:05 (UTC): UBERUSDT-Margined Perpetual Contract, ...
 // This walks the body to pull each TICKER out. Returns sorted unique array.
 function extractTokensFromBody(item) {
-  const body = item.body || '';
+  // Scan title + body — bulk listings sometimes put the full ticker list
+  // in the title (e.g. Gate '将上线 DRAM (...) 、HIMS (...)、JPM (...)').
+  const body = (item.title || '') + '\n' + (item.body || '');
   const tokens = new Set();
   // Pattern 1: TICKERUSDT-Margined / TICKERUSDT 永續 / TICKERUSDT 永续
   for (const m of body.matchAll(/\b([A-Z][A-Z0-9]{1,14})USDT[-\s]?(?:Margined|Perpetual|永續|永续|合約|合约)/g)) {
@@ -204,6 +206,11 @@ function extractToken(item) {
   if (/Multiple\s+(?:USD|TradFi|Perpetual|Stock|股票)|多個|多个|多種|多种|及另外\s*\d+\s*[種种項项]|and\s+\d+\s+(?:more|others?)/i.test(title)) {
     return '多个';
   }
+  // 0a. Multiple (TICKER) parens in title (excluding banned/brand) → also bulk.
+  //     e.g. Gate '...将上线 DRAM (...)、HIMS (...)、JPM (...)' — 4 tickers.
+  const titleParens = [...title.matchAll(/\(([A-Z][A-Z0-9]{0,14})\)/g)]
+    .map(m => m[1]).filter(t => !BANNED_TOKEN.has(t));
+  if (titleParens.length >= 2) return '多个';
   // 0b. "TradFi 股票上新" or any "TradFi" branded listing → TradFi (Bybit/Binance)
   if (/TradFi\s*(股票|stock)?/i.test(title) && !/USDT|USDC/.test(title)) {
     return 'TradFi';
@@ -294,10 +301,20 @@ function inWindow(parsed) {
 // Note: 定投 (DCA / dollar-cost averaging) was previously in DENY, but
 // "现货定投新增支持 X" is legit new-token-support news. Keep the deny list
 // scoped to genuine noise (campaigns, lotteries, maintenance, delistings).
-const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|獎勵等您|奖励等您|盲盒|抽獎|抽奖/i;
+const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|獎勵等您|奖励等您|盲盒|抽獎|抽奖|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報/i;
+
+// "首发上线" / "Will List" / "上币" — these are strong positive listing
+// signals. When a title has one of these AND no HARD-noise marker (campaign,
+// lottery), keep it even if the DENY pattern would otherwise match (e.g.
+// MEXC's "首發上線：MEXC ... Airdrop+ 獎池" — 'Airdrop' is fine, '獎池' is
+// noise on its own but here it's a bonus on a real listing).
+const ALLOW_OVERRIDE = /首發上線|首发上线|首發上市|首发上市|Will\s+(?:List|Launch|Add)|新美股合約上線|新美股合约上线|World Premiere/i;
+const HARD_NOISE = /Trading Competition|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|抽獎|抽奖|盲盒|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|签启好运|簽啟好運|報名領|报名领|Gate Live/i;
 
 function isDenied(item) {
-  return DENY.test(item.title || '');
+  const title = item.title || '';
+  if (ALLOW_OVERRIDE.test(title) && !HARD_NOISE.test(title)) return false;
+  return DENY.test(title);
 }
 
 // ---- per-exchange formatter ----------------------------------------------
@@ -309,6 +326,10 @@ function formatExchange(key, rawArr) {
     const pub = parsePublishTime(item);
     if (!inWindow(pub)) continue;
     const tokens = extractTokens(item);
+    // If extractor couldn't find a real ticker at all, the item is almost
+    // certainly noise that slipped past DENY (e.g. 'Gate 预测市场升级' style
+    // product-update copy). Drop it rather than show '?' in the table.
+    if (tokens.length === 1 && tokens[0] === '?') continue;
     const type = extractType(item);
     const baseDetail = makeDetail(item);
     for (const token of tokens) {
@@ -335,6 +356,7 @@ function bucketBinance(rawArr) {
     const pub = parsePublishTime(item);
     if (!inWindow(pub)) continue;
     const tokens = extractTokens(item);
+    if (tokens.length === 1 && tokens[0] === '?') continue;
     const type = extractType(item);
     const baseDetail = makeDetail(item);
     const t = item.title || '';
