@@ -1,6 +1,6 @@
 {
   "date": "2026-05-18",
-  "updatedAt": "2026-05-18T14:18:06.591Z",
+  "updatedAt": "2026-05-18T14:29:51.875Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -80,7 +80,14 @@
       ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "ZEST",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Zest Protocol (ZEST) 现货交易、闪兑交易并开启 HODLer Airdr...9 小时前2,119",
+          "url": "https://www.gate.com/zh/announcements/article/51232"
+        }
+      ]
     },
     "bitget": {
       "listings": []
