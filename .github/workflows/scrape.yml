@@ -1,11 +1,16 @@
 name: Daily scrape + format
 
-# Runs every day at 10:00 UTC = 18:00 Asia/Shanghai (evening briefing).
+# Runs every day at 18:00 / 18:30 / 21:00 Asia/Shanghai (10:00 / 10:30 /
+# 13:00 UTC). Three fire times because GitHub Actions schedules are
+# unreliable during high-traffic hours (10:00 UTC is global peak) and
+# occasionally skip the run entirely. Subsequent runs are idempotent —
+# they overwrite the same day's file with fresh data.
 # Window covered: yesterday 18:00 CST → today 18:00 CST (24h rolling).
-# Also exposed as a manual trigger from the Actions tab.
 on:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '0 10 * * *'    # 18:00 CST primary
+    - cron: '30 10 * * *'   # 18:30 CST backup
+    - cron: '0 13 * * *'    # 21:00 CST last resort
   workflow_dispatch:
 
 permissions:
@@ -57,7 +62,10 @@ jobs:
 
       - name: Commit outputs if changed
         run: |
-          DATE=$(date -u +%F)
+          # Use CST date — scraper / formatter compute filenames from
+          # Asia/Shanghai date, so 'date -u +%F' would mismatch in the
+          # 16:00-23:59 UTC window (= 00:00-07:59 CST next day).
+          DATE=$(TZ=Asia/Shanghai date +%F)
           RAW="data/raw-${DATE}.json"
           FORMATTED="data/${DATE}.json"
           WEEKLY="data/weekly.json"

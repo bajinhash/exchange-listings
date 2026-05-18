@@ -1,0 +1,91 @@
+name: Daily data check
+
+# Runs at 22:00 Asia/Shanghai (14:00 UTC) = 4h after primary scrape cron.
+# If today's data file is missing or empty, this opens a GitHub Issue and
+# triggers a recovery scrape. Acts as a safety net since GH Actions
+# schedules occasionally skip runs entirely.
+on:
+  schedule:
+    - cron: '0 14 * * *'   # 22:00 CST
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+  actions: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify today's data file
+        id: verify
+        run: |
+          DATE=$(TZ=Asia/Shanghai date +%F)
+          FILE="data/${DATE}.json"
+          echo "date=${DATE}" >> "$GITHUB_OUTPUT"
+          echo "file=${FILE}" >> "$GITHUB_OUTPUT"
+
+          if [ ! -f "$FILE" ]; then
+            echo "::error::${FILE} does not exist"
+            echo "status=missing" >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+
+          # Sum listings + alpha + wallet across all exchanges
+          COUNT=$(jq '[
+            .exchanges[]
+            | ((.listings // []) | length)
+              + ((.alpha    // []) | length)
+              + ((.wallet   // []) | length)
+          ] | add // 0' "$FILE")
+          echo "count=${COUNT}" >> "$GITHUB_OUTPUT"
+
+          if [ "$COUNT" -lt 1 ]; then
+            echo "::error::${FILE} has 0 listings — formatter or scraper failed"
+            echo "status=empty" >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+
+          echo "::notice::${FILE} OK — ${COUNT} listings"
+          echo "status=ok" >> "$GITHUB_OUTPUT"
+
+      - name: Open issue + trigger recovery scrape on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE="${{ steps.verify.outputs.date }}"
+          FILE="${{ steps.verify.outputs.file }}"
+          STATUS="${{ steps.verify.outputs.status }}"
+          COUNT="${{ steps.verify.outputs.count }}"
+
+          # Trigger a fresh scrape run
+          gh workflow run scrape.yml --ref main
+
+          # Open a GitHub issue (deduped per day)
+          TITLE="[data check] ${DATE}: ${STATUS}"
+          # Skip if already an open issue for today
+          EXISTING=$(gh issue list --state open --search "${TITLE} in:title" --json number --jq '.[0].number // empty')
+          if [ -z "$EXISTING" ]; then
+            gh issue create \
+              --title "$TITLE" \
+              --body "$(cat <<EOF
+**Daily data check failed at $(TZ=Asia/Shanghai date '+%F %H:%M %Z').**
+
+- File:    \`${FILE}\`
+- Status:  \`${STATUS}\`
+- Count:   \`${COUNT}\`
+
+A recovery scrape has been triggered automatically. Check the latest run
+under [Actions → Daily scrape + format](https://github.com/${{ github.repository }}/actions/workflows/scrape.yml).
+
+If this triggers repeatedly, the scraper / formatter likely needs investigation.
+EOF
+              )"
+          else
+            echo "issue #${EXISTING} already open for today, skipping create"
+          fi
