@@ -1,0 +1,130 @@
+{
+  "date": "2026-05-18",
+  "updatedAt": "2026-05-18T13:47:09.261Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "CBRS",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+          "url": "https://www.binance.com/en/support/announcement/3544b8dab5e64f839316a360495a6387"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "GWEI",
+          "type": "永续合约",
+          "detail": "GWEIUSDT 永續合約全新上線創新板塊， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gweiusdt-perpetual-contract-in-innovation-zone-with-up-to-25x-leverage-bltfc375c2a5ec3413a/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "BRKB",
+          "type": "美股合约",
+          "detail": "BRKB（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-18"
+        },
+        {
+          "token": "FLNC",
+          "type": "美股合约",
+          "detail": "FLNC（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-18"
+        },
+        {
+          "token": "JPM",
+          "type": "美股合约",
+          "detail": "JPM（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-18"
+        },
+        {
+          "token": "WMT",
+          "type": "美股合约",
+          "detail": "WMT（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-18"
+        },
+        {
+          "token": "ZEST",
+          "type": "现货上线",
+          "detail": "World Premiere: Zest Protocol (ZEST) Listed on KuCoinTrading: 13:00 on May 19, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-zest-protocol-zest-listed-on-kucoin"
+        },
+        {
+          "token": "GLW",
+          "type": "美股合约",
+          "detail": "KuCoin Futures Will List GLWUSDT Stock Index Perpetual Contract (2026-05-15)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-glwusdt-stock-index-perpetual-contract-2026-05-15"
+        },
+        {
+          "token": "TQQQ",
+          "type": "美股合约",
+          "detail": "KuCoin Futures Will List TQQQUSDT, MCDUSDT & AAOIUSDT Stock Index Perpetual Contracts (2026-05-18)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-tqqqusdt-mcdusdt-aaoiusdt-stock-index-perpetual-contracts-2026-05-18"
+        },
+        {
+          "token": "ATWO",
+          "type": "现货上线",
+          "detail": "World Premiere: Arena Two (ATWO) Listed on KuCoinTrading: 12:00 on May 18, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-arena-two-atwo-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "ZEST",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Zest Protocol (ZEST) 现货交易、闪兑交易并开启 HODLer Airdr...8 小时前1,953",
+          "url": "https://www.gate.com/zh/announcements/article/51232"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ME3",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Me3 (ME3)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535417"
+        },
+        {
+          "token": "FLNC",
+          "type": "上线",
+          "detail": "新美股合約上線：FLNC U 本位合約將於 5/18 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535530"
+        },
+        {
+          "token": "GLW",
+          "type": "上线",
+          "detail": "新美股合約上線：GLW U 本位合約將於 5/18 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535528"
+        },
+        {
+          "token": "AEON",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 AEON (AEON)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535524"
+        },
+        {
+          "token": "GITLAWB",
+          "type": "跟单合约",
+          "detail": "MEXC跟單 新增 GITLAWB、DIS、HD、CBRS 和 HOOLI U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gitlawb-dis-hd-cbrs-and-hooli-usdt-m-futures-17827791535521"
+        }
+      ]
+    }
+  }
+}
