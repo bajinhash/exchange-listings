@@ -305,11 +305,13 @@ async function scrapeKuCoin(page) {
 }
 
 async function scrapeGateio(page) {
-  // Gate.io publishes new-listing news in multiple sections: spot, contract
-  // (perpetual), and pre-market. Each section lives at its own URL. Scrape
-  // each, dedupe by article ID, then take the most recent 15 overall.
+  // Gate.io spot listings + a probe of additional sections. Each section is
+  // scraped, then we drop pages whose article-IDs look ancient (id < 50000
+  // = pre-2025 noise from footer / related-links). Only "fresh" articles
+  // survive across the dedupe pass.
   const SECTIONS = [
     'https://www.gate.com/zh/announcements/newspotlistings',
+    'https://www.gate.com/zh/announcements/newperpetualcontract',
     'https://www.gate.com/zh/announcements/newcontractlistings',
     'https://www.gate.com/zh/announcements/pre-marketlistings',
   ];
@@ -317,22 +319,42 @@ async function scrapeGateio(page) {
   const seen = new Set();
   try {
     for (const sectionUrl of SECTIONS) {
+      let sectionItems = [];
       try {
-        await page.goto(sectionUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        const resp = await page.goto(sectionUrl, { waitUntil: 'domcontentloaded', timeout: 25000 });
+        const status = resp ? resp.status() : 0;
+        if (status >= 400) {
+          console.error(`  Gate.io section ${sectionUrl} → HTTP ${status}, skipping`);
+          continue;
+        }
         await page.waitForTimeout(2500);
+        sectionItems = await page.$$eval('a[href*="/article/"]', links =>
+          links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
+            .filter(i => i.title.length > 15)
+        );
       } catch (navErr) {
         console.error(`  Gate.io section ${sectionUrl} nav error:`, navErr.message);
         continue;
       }
-      const items = await page.$$eval('a[href*="/article/"]', links =>
-        links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
-          .filter(i => i.title.length > 15)
-      );
-      for (const item of items) {
+
+      // Sanity: if a section's TOP items are all old (id < 50000), the URL
+      // probably 200'd but rendered an unrelated page — skip its links.
+      const topIds = sectionItems.slice(0, 3).map(i => {
+        const m = i.href.match(/article\/(\d+)/);
+        return m ? parseInt(m[1]) : 0;
+      });
+      const looksFresh = topIds.some(id => id >= 50000);
+      if (!looksFresh) {
+        console.error(`  Gate.io section ${sectionUrl} top items look stale (${topIds.join(',')}); skipping`);
+        continue;
+      }
+
+      for (const item of sectionItems) {
         const url = item.href.startsWith('http') ? item.href : `https://www.gate.com${item.href}`;
-        // Dedupe by article ID (numeric tail of URL)
         const idMatch = url.match(/article\/(\d+)/);
         const id = idMatch ? idMatch[1] : url;
+        // Drop ancient articles (< 50000 IDs = pre-2025) — typically footer noise
+        if (idMatch && parseInt(id) < 50000) continue;
         if (seen.has(id)) continue;
         seen.add(id);
         articles.push({ title: item.title, url, body: null });
@@ -340,8 +362,6 @@ async function scrapeGateio(page) {
       }
       if (articles.length >= 15) break;
     }
-    // Fetch detail body for the first 10 so the formatter can pull tokens
-    // from announcements that bundle multiple tickers in the body.
     for (const a of articles.slice(0, 10)) {
       a.body = await fetchPageContent(page, a.url, 'article, main, .content');
     }
