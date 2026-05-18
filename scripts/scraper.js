@@ -305,20 +305,45 @@ async function scrapeKuCoin(page) {
 }
 
 async function scrapeGateio(page) {
+  // Gate.io publishes new-listing news in multiple sections: spot, contract
+  // (perpetual), and pre-market. Each section lives at its own URL. Scrape
+  // each, dedupe by article ID, then take the most recent 15 overall.
+  const SECTIONS = [
+    'https://www.gate.com/zh/announcements/newspotlistings',
+    'https://www.gate.com/zh/announcements/newcontractlistings',
+    'https://www.gate.com/zh/announcements/pre-marketlistings',
+  ];
   const articles = [];
+  const seen = new Set();
   try {
-    await page.goto('https://www.gate.com/zh/announcements/newspotlistings', { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await page.waitForTimeout(3000);
-
-    const items = await page.$$eval('a[href*="/article/"]', links =>
-      links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
-        .filter(i => i.title.length > 15)
-    );
-
-    for (const item of items.slice(0, 8)) {
-      const url = item.href.startsWith('http') ? item.href : `https://www.gate.com${item.href}`;
-      const body = await fetchPageContent(page, url, 'article, main, .content');
-      articles.push({ title: item.title, url, body });
+    for (const sectionUrl of SECTIONS) {
+      try {
+        await page.goto(sectionUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForTimeout(2500);
+      } catch (navErr) {
+        console.error(`  Gate.io section ${sectionUrl} nav error:`, navErr.message);
+        continue;
+      }
+      const items = await page.$$eval('a[href*="/article/"]', links =>
+        links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
+          .filter(i => i.title.length > 15)
+      );
+      for (const item of items) {
+        const url = item.href.startsWith('http') ? item.href : `https://www.gate.com${item.href}`;
+        // Dedupe by article ID (numeric tail of URL)
+        const idMatch = url.match(/article\/(\d+)/);
+        const id = idMatch ? idMatch[1] : url;
+        if (seen.has(id)) continue;
+        seen.add(id);
+        articles.push({ title: item.title, url, body: null });
+        if (articles.length >= 15) break;
+      }
+      if (articles.length >= 15) break;
+    }
+    // Fetch detail body for the first 10 so the formatter can pull tokens
+    // from announcements that bundle multiple tickers in the body.
+    for (const a of articles.slice(0, 10)) {
+      a.body = await fetchPageContent(page, a.url, 'article, main, .content');
     }
   } catch (e) {
     console.error('  Gate.io scrape error:', e.message);
