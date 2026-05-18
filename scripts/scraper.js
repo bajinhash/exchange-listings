@@ -305,18 +305,17 @@ async function scrapeKuCoin(page) {
 }
 
 async function scrapeGateio(page) {
-  // Gate.io spot listings + a probe of additional sections. Each section is
-  // scraped, then we drop pages whose article-IDs look ancient (id < 50000
-  // = pre-2025 noise from footer / related-links). Only "fresh" articles
-  // survive across the dedupe pass.
+  // Gate.io publishes new-listing news across multiple sections. Scrape
+  // each, collect all articles into one pool, dedupe by ID, sort by
+  // article-ID desc (Gate IDs are monotonically increasing, so newest
+  // first), then take the top 15. ID < 50000 = pre-2025 footer noise.
   const SECTIONS = [
     'https://www.gate.com/zh/announcements/newspotlistings',
     'https://www.gate.com/zh/announcements/newperpetualcontract',
     'https://www.gate.com/zh/announcements/newcontractlistings',
     'https://www.gate.com/zh/announcements/pre-marketlistings',
   ];
-  const articles = [];
-  const seen = new Set();
+  const pool = new Map(); // id -> {title, url}
   try {
     for (const sectionUrl of SECTIONS) {
       let sectionItems = [];
@@ -324,7 +323,7 @@ async function scrapeGateio(page) {
         const resp = await page.goto(sectionUrl, { waitUntil: 'domcontentloaded', timeout: 25000 });
         const status = resp ? resp.status() : 0;
         if (status >= 400) {
-          console.error(`  Gate.io section ${sectionUrl} → HTTP ${status}, skipping`);
+          console.error(`  Gate.io ${sectionUrl} → HTTP ${status}, skipping`);
           continue;
         }
         await page.waitForTimeout(2500);
@@ -333,42 +332,56 @@ async function scrapeGateio(page) {
             .filter(i => i.title.length > 15)
         );
       } catch (navErr) {
-        console.error(`  Gate.io section ${sectionUrl} nav error:`, navErr.message);
+        console.error(`  Gate.io ${sectionUrl} nav error:`, navErr.message);
         continue;
       }
 
-      // Sanity: if a section's TOP items are all old (id < 50000), the URL
-      // probably 200'd but rendered an unrelated page — skip its links.
+      // Sanity: top-3 of this section's links should include at least one
+      // recent (id >= 50000) article; otherwise the URL likely rendered
+      // an unrelated page and the links are footer noise.
       const topIds = sectionItems.slice(0, 3).map(i => {
         const m = i.href.match(/article\/(\d+)/);
         return m ? parseInt(m[1]) : 0;
       });
       const looksFresh = topIds.some(id => id >= 50000);
       if (!looksFresh) {
-        console.error(`  Gate.io section ${sectionUrl} top items look stale (${topIds.join(',')}); skipping`);
+        console.error(`  Gate.io ${sectionUrl} top items stale (${topIds.join(',')}); skipping`);
         continue;
       }
 
+      let addedFromSection = 0;
       for (const item of sectionItems) {
         const url = item.href.startsWith('http') ? item.href : `https://www.gate.com${item.href}`;
         const idMatch = url.match(/article\/(\d+)/);
-        const id = idMatch ? idMatch[1] : url;
-        // Drop ancient articles (< 50000 IDs = pre-2025) — typically footer noise
-        if (idMatch && parseInt(id) < 50000) continue;
-        if (seen.has(id)) continue;
-        seen.add(id);
-        articles.push({ title: item.title, url, body: null });
-        if (articles.length >= 15) break;
+        if (!idMatch) continue;
+        const id = idMatch[1];
+        if (parseInt(id) < 50000) continue;          // pre-2025 noise
+        if (pool.has(id)) continue;
+        pool.set(id, { title: item.title, url });
+        addedFromSection++;
+        if (addedFromSection >= 10) break;          // per-section cap
       }
-      if (articles.length >= 15) break;
+      console.log(`  Gate.io ${sectionUrl.split('/').pop()}: +${addedFromSection} fresh`);
     }
+
+    // Sort by ID desc (newest first), keep top 15
+    const articles = [...pool.values()]
+      .sort((a, b) => {
+        const ai = parseInt(a.url.match(/article\/(\d+)/)?.[1] || '0');
+        const bi = parseInt(b.url.match(/article\/(\d+)/)?.[1] || '0');
+        return bi - ai;
+      })
+      .slice(0, 15)
+      .map(a => ({ ...a, body: null }));
+
     for (const a of articles.slice(0, 10)) {
       a.body = await fetchPageContent(page, a.url, 'article, main, .content');
     }
+    return articles;
   } catch (e) {
     console.error('  Gate.io scrape error:', e.message);
+    return [...pool.values()].slice(0, 15).map(a => ({ ...a, body: null }));
   }
-  return articles;
 }
 
 async function scrapeBitget(page) {
