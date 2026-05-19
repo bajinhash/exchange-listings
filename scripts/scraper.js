@@ -130,7 +130,59 @@ async function scrapeBinance(page) {
   } catch (e) {
     console.error('  Binance scrape error:', e.message);
   }
+
+  // Binance Alpha: tokens newly added to the Alpha launchpad don't appear in
+  // catalog 48 (cms articles). They live in a separate token list. Fetch
+  // rankType=20 (Alpha) sorted by default, keep only tokens where Binance
+  // has set showNewTag=true. Push them in with title prefix 'Binance Alpha
+  // 上线 X' so bucketBinance() routes them to the alpha bucket.
+  try {
+    const alphaTokens = await fetchBinanceAlphaNew();
+    for (const tk of alphaTokens) {
+      articles.push(tk);
+    }
+    if (alphaTokens.length) console.error(`  Binance Alpha: +${alphaTokens.length} new tokens`);
+  } catch (e) {
+    console.error('  Binance Alpha fetch error:', e.message);
+  }
+
   return articles;
+}
+
+// Fetch tokens currently flagged as 'new' on Binance Alpha. Returns shaped
+// article-like objects ready to push into raw[binance].
+async function fetchBinanceAlphaNew() {
+  const res = await fetch(
+    'https://web3.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/pulse/unified/rank/list',
+    {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept-Encoding': 'identity',
+        'User-Agent': 'binance-web3/2.0 (scraper)',
+      },
+      body: JSON.stringify({ rankType: 20, period: 50, sortBy: 0, orderAsc: false, page: 1, size: 50 }),
+      signal: AbortSignal.timeout(15000),
+    }
+  );
+  if (!res.ok) return [];
+  const data = await res.json();
+  const tokens = data?.data?.tokens || [];
+  const out = [];
+  for (const t of tokens) {
+    if (!t?.alphaInfo?.showNewTag) continue;
+    const sym = t.symbol || '';
+    const desc = t.alphaInfo?.cnDescription || t.alphaInfo?.enDescription || '';
+    const ca = t.contractAddress || '';
+    const chain = t.chainId || '';
+    const chainPath = { '1': 'eth', '56': 'bsc', '8453': 'base', 'CT_501': 'sol' }[chain] || chain;
+    out.push({
+      title: `Binance Alpha 上线 ${sym}${desc ? ' - ' + desc.slice(0, 80) : ''}`,
+      url: `https://www.binance.com/en/alpha/${chainPath}/${ca}`,
+      body: `Published: ${new Date().toISOString()}\n\nBinance Alpha 新增代币\nContract: ${ca}\nChain: ${chain}\nDescription: ${desc}`,
+    });
+  }
+  return out;
 }
 
 // Binance body comes back as a tree: {node:'root', child:[{node:'element', tag, child:[...]}]}.
