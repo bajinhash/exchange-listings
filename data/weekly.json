@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-13",
   "weekEnd": "2026-05-19",
-  "updatedAt": "2026-05-19T13:48:31.329Z",
+  "updatedAt": "2026-05-19T13:52:38.613Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -62,7 +62,17 @@
           ]
         }
       ],
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "ZEST",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ZEST - The leading Bitcoin lending protocol. Earn yield on BTC and borrow against it.",
+          "url": "https://www.binance.com/en/alpha/bsc/0x5506599c722389a60580b5213ea1da60d64754a1",
+          "dates": [
+            "2026-05-19"
+          ]
+        }
+      ],
       "wallet": []
     },
     "okx": {
@@ -248,6 +258,42 @@
     "kucoin": {
       "listings": [
         {
+          "token": "NBIS",
+          "type": "美股合约",
+          "detail": "NBIS（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "SOXS",
+          "type": "美股合约",
+          "detail": "SOXS（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "SQQQ",
+          "type": "美股合约",
+          "detail": "SQQQ（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "XOM",
+          "type": "美股合约",
+          "detail": "XOM（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
           "token": "ATWO",
           "type": "现货上线",
           "detail": "World Premiere: Arena Two (ATWO) Listed on KuCoinTrading: 12:00 on May 18, 2026 (UTC)",
@@ -351,24 +397,6 @@
     },
     "gateio": {
       "listings": [
-        {
-          "token": "TSG",
-          "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 TSG (the sleeping giant)、Embrace (Embrace The Wave)、openhuman (openhuman...6 小时前877",
-          "url": "https://www.gate.com/zh/announcements/article/51250",
-          "dates": [
-            "2026-05-19"
-          ]
-        },
-        {
-          "token": "SHLD",
-          "type": "上线",
-          "detail": "Gate CFD 合约股票专区已上线 SHLD（GLOBAL X 国防科技 ETF）等 53 个 CFD 交易对10 小时前1,977",
-          "url": "https://www.gate.com/zh/announcements/article/51244",
-          "dates": [
-            "2026-05-19"
-          ]
-        },
         {
           "token": "DRAM",
           "type": "现货上线",
