@@ -1,3 +1,25 @@
+// =============================================================================
+// LOCALE POLICY
+// =============================================================================
+// Every exchange we DOM-scrape is hit via its Traditional Chinese (zh-TW /
+// zh-hant) or Simplified Chinese (zh / zh-CN) site, NOT its English / SG /
+// global locale. Reason: Chinese-locale sections regularly carry the most
+// complete listing list for Asia-targeting exchanges. The OKX SG-vs-TW
+// surprise (2026-05-19) cost us 4 stock-index perp listings invisibly —
+// users only see what we pull, so we standardise on the locale with the
+// most coverage and never let two locales of the same site diverge.
+//
+//   Binance  → BAPI (locale-neutral)                    no problem
+//   OKX      → /zh-hant/help/section/announcements-new-listings
+//   Bybit    → api zh-TW + announcements.bybit.com/zh-TW
+//   KuCoin   → /zh-tw/announcement/new-listings  (en fallback last)
+//   Gate.io  → /zh/announcements/...   (simplified, has 4 sub-sections)
+//   Bitget   → /zh-CN/support/sections/5955813039257
+//   MEXC     → /zh-TW/announcements/new-listings
+//
+// If a new exchange is added, prefer zh-TW/zh-hant or zh-CN over en.
+// =============================================================================
+
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
@@ -264,14 +286,34 @@ async function scrapeBybit(page) {
 }
 
 async function scrapeKuCoin(page) {
+  // KuCoin: zh-tw locale for parity with the rest of the scraper. en/no-prefix
+  // worked historically but per-locale completeness can drift over time and
+  // we don't want a 'this listing only shows on locale X' surprise like the
+  // OKX SG-vs-TW debacle. zh-tw + zh-hant routes both serve the same listing
+  // catalogue, so use whichever returns 200.
+  const URLS = [
+    'https://www.kucoin.com/zh-tw/announcement/new-listings',
+    'https://www.kucoin.com/zh-hant/announcement/new-listings',
+    'https://www.kucoin.com/announcement/new-listings',  // last-resort en
+  ];
   const articles = [];
   try {
-    await page.goto('https://www.kucoin.com/announcement/new-listings', { waitUntil: 'domcontentloaded', timeout: 30000 });
+    let ok = false;
+    for (const url of URLS) {
+      try {
+        const resp = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 });
+        if (resp && resp.status() < 400) { ok = true; break; }
+      } catch (_) { /* try next */ }
+    }
+    if (!ok) {
+      console.error('  KuCoin scrape error: all locale URLs failed');
+      return articles;
+    }
     await page.waitForTimeout(3000);
 
     const items = await page.$$eval('a[href*="/announcement/"]', links =>
       links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
-        .filter(i => i.title.length > 15 && !i.href.includes('/announcement/new-listings'))
+        .filter(i => i.title.length > 15 && !i.href.match(/\/announcement\/(new-listings|en-new-listings|zh-tw-new-listings)$/))
     );
 
     for (const item of items.slice(0, 10)) {
