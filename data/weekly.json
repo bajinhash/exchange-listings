@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-13",
   "weekEnd": "2026-05-19",
-  "updatedAt": "2026-05-19T13:32:22.776Z",
+  "updatedAt": "2026-05-19T13:37:10.802Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -67,6 +67,42 @@
     },
     "okx": {
       "listings": [
+        {
+          "token": "CSCO",
+          "type": "永续合约",
+          "detail": "CSCO（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxl-nbis-qcom-and-csco-equities",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "NBIS",
+          "type": "永续合约",
+          "detail": "NBIS（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxl-nbis-qcom-and-csco-equities",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "QCOM",
+          "type": "永续合约",
+          "detail": "QCOM（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxl-nbis-qcom-and-csco-equities",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "SOXL",
+          "type": "永续合约",
+          "detail": "SOXL（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxl-nbis-qcom-and-csco-equities",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
         {
           "token": "PROS",
           "type": "现货上线",
@@ -480,7 +516,25 @@
         {
           "token": "BRKB",
           "type": "跟单合约",
-          "detail": "MEXC 跟單新增 BRKB、FLNC、GLW 和 AEON U本位合約交易對",
+          "detail": "BRKB（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-brkb-flnc-glw-and-aeon-usdt-m-futures-17827791535537",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "FLNC",
+          "type": "跟单合约",
+          "detail": "FLNC（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-brkb-flnc-glw-and-aeon-usdt-m-futures-17827791535537",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "GLW",
+          "type": "跟单合约",
+          "detail": "GLW（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-brkb-flnc-glw-and-aeon-usdt-m-futures-17827791535537",
           "dates": [
             "2026-05-19"

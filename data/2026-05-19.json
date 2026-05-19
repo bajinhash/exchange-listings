@@ -1,6 +1,6 @@
 {
   "date": "2026-05-19",
-  "updatedAt": "2026-05-19T13:32:22.620Z",
+  "updatedAt": "2026-05-19T13:36:40.612Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -15,7 +15,32 @@
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "CSCO",
+          "type": "永续合约",
+          "detail": "CSCO（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxl-nbis-qcom-and-csco-equities"
+        },
+        {
+          "token": "NBIS",
+          "type": "永续合约",
+          "detail": "NBIS（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxl-nbis-qcom-and-csco-equities"
+        },
+        {
+          "token": "QCOM",
+          "type": "永续合约",
+          "detail": "QCOM（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxl-nbis-qcom-and-csco-equities"
+        },
+        {
+          "token": "SOXL",
+          "type": "永续合约",
+          "detail": "SOXL（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxl-nbis-qcom-and-csco-equities"
+        }
+      ]
     },
     "bybit": {
       "listings": [
@@ -104,7 +129,19 @@
         {
           "token": "BRKB",
           "type": "跟单合约",
-          "detail": "MEXC 跟單新增 BRKB、FLNC、GLW 和 AEON U本位合約交易對",
+          "detail": "BRKB（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-brkb-flnc-glw-and-aeon-usdt-m-futures-17827791535537"
+        },
+        {
+          "token": "FLNC",
+          "type": "跟单合约",
+          "detail": "FLNC（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-brkb-flnc-glw-and-aeon-usdt-m-futures-17827791535537"
+        },
+        {
+          "token": "GLW",
+          "type": "跟单合约",
+          "detail": "GLW（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-brkb-flnc-glw-and-aeon-usdt-m-futures-17827791535537"
         }
       ]

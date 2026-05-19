@@ -87,7 +87,10 @@ function parsePublishTime(item) {
   //     Chinese dates in body are a future schedule (e.g. HOOLI body has
   //     "交易：2026年5月15日 18:00 (UTC+8)" — that's the trading start time,
   //     not the publish time).
-  const TITLE_DONE = /現已|现已|已新增|已開啟|已开通|已支援|已支持|已上線|已上线|已增加|已支持/;
+  // Title verbs that mean "this announcement is about something that already
+  // happened / is happening NOW" — so any Chinese date in body is the publish/
+  // effective time, not a future schedule.
+  const TITLE_DONE = /現已|现已|已新增|已開啟|已开通|已支援|已支持|已上線|已上线|已增加|正式上線|正式上线|現已上線|现已上线/;
   if (TITLE_DONE.test(title)) {
     for (const cm of text.matchAll(/(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日\s*(\d{1,2}):(\d{2})/g)) {
       const cstMs = Date.UTC(+cm[1], +cm[2] - 1, +cm[3], +cm[4], +cm[5]);
@@ -162,24 +165,41 @@ function extractTokensFromBody(item) {
   // in the title (e.g. Gate '将上线 DRAM (...) 、HIMS (...)、JPM (...)').
   const body = (item.title || '') + '\n' + (item.body || '');
   const tokens = new Set();
+  // Canonicalise: strip USDT/USDC suffix so a body that lists both 'BRKB'
+  // and 'BRKBUSDT' as separate tracker-pair tickers doesn't show up as
+  // two rows in the daily.
+  const add = (t) => {
+    if (!t || BANNED_TOKEN.has(t)) return;
+    const canon = t.replace(/USD[TC]$/, '');
+    if (canon && canon !== t && tokens.has(t)) tokens.delete(t);
+    tokens.add(canon || t);
+  };
   // Pattern 1: TICKERUSDT-Margined / TICKERUSDT 永續 / TICKERUSDT 永续
   for (const m of body.matchAll(/\b([A-Z][A-Z0-9]{1,14})USDT[-\s]?(?:Margined|Perpetual|永續|永续|合約|合约)/g)) {
-    if (!BANNED_TOKEN.has(m[1])) tokens.add(m[1]);
+    add(m[1]);
   }
   // Pattern 2: enumeration "TICKER1, TICKER2 and TICKER3" (Binance Multiple TradFi style)
   for (const m of body.matchAll(/\b([A-Z][A-Z0-9]{2,14})\s*(?:[,]\s+|\s+(?:and|及|和)\s+)/g)) {
-    if (!BANNED_TOKEN.has(m[1])) tokens.add(m[1]);
+    add(m[1]);
   }
   // Pattern 3: bullet list "1. TICKER" or "• TICKER"
   for (const m of body.matchAll(/[•·\-]\s+([A-Z][A-Z0-9]{2,14})\b/g)) {
-    if (!BANNED_TOKEN.has(m[1])) tokens.add(m[1]);
+    add(m[1]);
   }
   // Pattern 4: colon-introduced 、/comma list like
   //   "新增支援資產：ATOM、EIGEN、ENS、GRT、INJ、JTO、JUP、LDO、MORPHO、PENDLE、POL、RENDER、TIA、UNI"
   // Match the run of tokens-with-separators, then pull each TICKER out of it.
   for (const m of body.matchAll(/[：:]\s*((?:[A-Z][A-Z0-9]{2,14}\s*[、,]\s*){2,}[A-Z][A-Z0-9]{2,14})/g)) {
     for (const inner of m[1].matchAll(/\b([A-Z][A-Z0-9]{2,14})\b/g)) {
-      if (!BANNED_TOKEN.has(inner[1])) tokens.add(inner[1]);
+      add(inner[1]);
+    }
+  }
+  // Pattern 5: bare 顿号 / comma list anywhere (no colon required), at least
+  //   3 uppercase tickers in a row. Catches OKX's
+  //   'SOXL、NBIS、QCOM、CSCO 股票永續合約' enumeration in the title.
+  for (const m of body.matchAll(/((?:[A-Z][A-Z0-9]{2,14}\s*[、,]\s*){2,}[A-Z][A-Z0-9]{2,14})/g)) {
+    for (const inner of m[1].matchAll(/\b([A-Z][A-Z0-9]{2,14})\b/g)) {
+      add(inner[1]);
     }
   }
   return [...tokens].sort();
@@ -211,6 +231,11 @@ function extractToken(item) {
   const titleParens = [...title.matchAll(/\(([A-Z][A-Z0-9]{0,14})\)/g)]
     .map(m => m[1]).filter(t => !BANNED_TOKEN.has(t));
   if (titleParens.length >= 2) return '多个';
+  // 0b. 顿号 / comma enumeration of UPPERCASE tickers in title → bulk.
+  //     e.g. OKX 'SOXL、NBIS、QCOM、CSCO 股票永續合約' → 4 tickers, no parens.
+  const dunhao = [...title.matchAll(/\b([A-Z][A-Z0-9]{2,14})(?=\s*[、,]\s*[A-Z][A-Z0-9]{2,14})/g)]
+    .map(m => m[1]).filter(t => !BANNED_TOKEN.has(t));
+  if (dunhao.length >= 1) return '多个';   // even one means there's >=2 in the run
   // 0b. "TradFi 股票上新" or any "TradFi" branded listing → TradFi (Bybit/Binance)
   if (/TradFi\s*(股票|stock)?/i.test(title) && !/USDT|USDC/.test(title)) {
     return 'TradFi';
