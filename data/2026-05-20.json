@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-20",
+  "updatedAt": "2026-05-19T16:22:41.687Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "ZEST",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ZEST - The leading Bitcoin lending protocol. Earn yield on BTC and borrow against it.",
+          "url": "https://www.binance.com/en/alpha/bsc/0x5506599c722389a60580b5213ea1da60d64754a1"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ZEST",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年5月19日 21:10 (UTC+8) 上線 Zest Protocol (ZEST) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535560"
+        }
+      ]
+    }
+  }
+}
