@@ -1,6 +1,6 @@
 {
   "date": "2026-05-19",
-  "updatedAt": "2026-05-19T12:50:18.191Z",
+  "updatedAt": "2026-05-19T13:19:02.595Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -70,40 +70,10 @@
     "gateio": {
       "listings": [
         {
-          "token": "ZEST",
-          "type": "上线",
-          "detail": "CandyDrop 第 163 期：CandyDrop x Zest Protocol (ZEST) ，交易和邀请好友瓜分 1,300,000 ZE...2 小时前346",
-          "url": "https://www.gate.com/zh/announcements/article/51258"
-        },
-        {
-          "token": "LAB",
-          "type": "上线",
-          "detail": "闪兑幸运抽十六期：100% 中奖狂欢，解锁 LAB 和 $200 现金奖励3 小时前348",
-          "url": "https://www.gate.com/zh/announcements/article/51256"
-        },
-        {
-          "token": "GUSD",
-          "type": "上线",
-          "detail": "Gate 合约积分抽签第三期：5,000 个中签席位立领 20 GUSD 奖励，积分享兑大额...3 小时前478",
-          "url": "https://www.gate.com/zh/announcements/article/51254"
-        },
-        {
-          "token": "USDT5",
-          "type": "上线",
-          "detail": "CFD 合约股票专区新币空投四期：报名即送 300 USDT，每人最高可领 31,300 USDT5 小时前575",
-          "url": "https://www.gate.com/zh/announcements/article/51251"
-        },
-        {
           "token": "TSG",
           "type": "现货上线",
           "detail": "Gate Alpha 首发上线 TSG (the sleeping giant)、Embrace (Embrace The Wave)、openhuman (openhuman...5 小时前729",
           "url": "https://www.gate.com/zh/announcements/article/51250"
-        },
-        {
-          "token": "CL",
-          "type": "上线",
-          "detail": "Gate 期权上线 CLUSDT 原油期权产品5 小时前885",
-          "url": "https://www.gate.com/zh/announcements/article/51249"
         },
         {
           "token": "SHLD",
@@ -144,22 +114,10 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535556"
         },
         {
-          "token": "XT",
-          "type": "现货上线",
-          "detail": "MEXC 陽光普照活動——投票 XWINNER (XT) 項目以贏取免費的 30,000 USDT 空投！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535515"
-        },
-        {
           "token": "LMAO",
           "type": "Meme+ 现货",
           "detail": "LMAO 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535545"
-        },
-        {
-          "token": "HPP",
-          "type": "上线",
-          "detail": "HPP 幸運轉盤：530,000 $HPP 獎勵靜待領取",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/hpp-spinfest-17827791535542"
         },
         {
           "token": "BRKB",
