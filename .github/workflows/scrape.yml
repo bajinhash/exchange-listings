@@ -80,11 +80,24 @@ jobs:
 
           if [ $ADDED -eq 1 ] && ! git diff --cached --quiet; then
             git commit -m "data: scrape + format + weekly ${DATE}"
-            # Race-safe push: another commit may have landed while we ran (~5 min)
+            # Race-safe push using soft-reset strategy: if remote moved while
+            # we ran, fetch latest, soft-reset to it (keeps our changes
+            # staged), recommit on top. Avoids rebase-conflict failures
+            # since data/*.json are auto-generated and idempotent.
             for attempt in 1 2 3; do
               if git push; then break; fi
-              echo "push attempt $attempt failed; rebasing onto remote main"
-              git pull --rebase origin main || { echo "rebase failed"; exit 1; }
+              echo "push attempt $attempt failed; soft-resetting onto latest remote main"
+              git fetch origin main || exit 1
+              git reset --soft origin/main || exit 1
+              # Restage everything since soft-reset preserves working tree
+              # but unstages.
+              git add data/
+              if ! git diff --cached --quiet; then
+                git commit -m "data: scrape + format + weekly ${DATE}"
+              else
+                echo "no diff vs remote — remote already has these data files"
+                break
+              fi
             done
           else
             echo "no changes to commit"

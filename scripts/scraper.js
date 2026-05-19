@@ -12,12 +12,15 @@
 //   Binance  → BAPI (locale-neutral)                    no problem
 //   OKX      → /zh-hant/help/section/announcements-new-listings
 //   Bybit    → api zh-TW + announcements.bybit.com/zh-TW
-//   KuCoin   → /zh-tw/announcement/new-listings  (en fallback last)
+//   KuCoin   → /announcement/new-listings (en — zh-tw locale is sparser:
+//              10 articles in en vs 3 in zh-tw, so use whichever is more
+//              complete; principle is "completeness > locale conformity")
 //   Gate.io  → /zh/announcements/...   (simplified, has 4 sub-sections)
 //   Bitget   → /zh-CN/support/sections/5955813039257
 //   MEXC     → /zh-TW/announcements/new-listings
 //
-// If a new exchange is added, prefer zh-TW/zh-hant or zh-CN over en.
+// Rule of thumb when adding a new exchange: try zh-TW/zh-hant first, but
+// audit completeness against en. Use whichever returns the most listings.
 // =============================================================================
 
 const { chromium } = require('playwright');
@@ -286,34 +289,19 @@ async function scrapeBybit(page) {
 }
 
 async function scrapeKuCoin(page) {
-  // KuCoin: zh-tw locale for parity with the rest of the scraper. en/no-prefix
-  // worked historically but per-locale completeness can drift over time and
-  // we don't want a 'this listing only shows on locale X' surprise like the
-  // OKX SG-vs-TW debacle. zh-tw + zh-hant routes both serve the same listing
-  // catalogue, so use whichever returns 200.
-  const URLS = [
-    'https://www.kucoin.com/zh-tw/announcement/new-listings',
-    'https://www.kucoin.com/zh-hant/announcement/new-listings',
-    'https://www.kucoin.com/announcement/new-listings',  // last-resort en
-  ];
+  // KuCoin: use the no-prefix (en) URL — empirically gives ~10 articles
+  // per fetch. /zh-tw/ and /zh-hant/ render with only ~3 visible items.
+  // Per LOCALE POLICY: we DO want consistency, but only when the alternate
+  // locale is at least as complete. For KuCoin, en IS the most complete.
+  // (Tested 2026-05-19: en=10 vs zh-tw=3 articles.)
   const articles = [];
   try {
-    let ok = false;
-    for (const url of URLS) {
-      try {
-        const resp = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 });
-        if (resp && resp.status() < 400) { ok = true; break; }
-      } catch (_) { /* try next */ }
-    }
-    if (!ok) {
-      console.error('  KuCoin scrape error: all locale URLs failed');
-      return articles;
-    }
+    await page.goto('https://www.kucoin.com/announcement/new-listings', { waitUntil: 'domcontentloaded', timeout: 30000 });
     await page.waitForTimeout(3000);
 
     const items = await page.$$eval('a[href*="/announcement/"]', links =>
       links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
-        .filter(i => i.title.length > 15 && !i.href.match(/\/announcement\/(new-listings|en-new-listings|zh-tw-new-listings)$/))
+        .filter(i => i.title.length > 15 && !i.href.includes('/announcement/new-listings'))
     );
 
     for (const item of items.slice(0, 10)) {
