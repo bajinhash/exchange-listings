@@ -124,34 +124,15 @@ function flattenBinanceBody(node) {
 }
 
 async function scrapeOKX(page) {
-  // OKX API (www.okx.com/v2/support/home/web) returns empty from GH Actions
-  // data-center IPs (geo-block on cloud subnets). Browser-rendered web page
-  // works fine — same pattern as KuCoin / Gate / Bitget / MEXC.
+  // Use OKX TW (zh-hant) site exclusively: their announcements-new-listings
+  // section there includes BOTH spot AND perpetual/futures listings (e.g.
+  // 'OKX to list perpetual futures for SOXL/NBIS/QCOM/CSCO equities' — one
+  // article covering 4 tokens). The en/SG section only has spot, missing
+  // the stock-index perp launches that hit ~4-5x a week.
   const articles = [];
   try {
-    // Try API first (fast, ~0.3s)
-    let apiOk = false;
-    try {
-      const data = await fetchJson('https://www.okx.com/v2/support/home/web');
-      const notices = data?.data?.notices || [];
-      const cutoffMs = Date.now() - 3 * 24 * 3600 * 1000;
-      for (const n of notices) {
-        if (n.sectionSlug !== 'announcements-new-listings') continue;
-        const ts = new Date(n.publishDate).getTime();
-        if (!isNaN(ts) && ts < cutoffMs) continue;
-        const pubDate = new Date(n.publishDate).toISOString().split('T')[0];
-        articles.push({
-          title: n.shareText || n.shareTitle || '',
-          url: `https://www.okx.com${n.link}`,
-          body: `Published: ${pubDate}`,
-        });
-      }
-      apiOk = articles.length > 0;
-    } catch (_) { /* fall through to DOM */ }
-
-    if (!apiOk) {
-      console.error('  OKX API empty/blocked — falling back to web DOM scrape');
-      await page.goto('https://www.okx.com/help/section/announcements-new-listings', {
+    {
+      await page.goto('https://www.okx.com/zh-hant/help/section/announcements-new-listings', {
         waitUntil: 'domcontentloaded', timeout: 30000
       });
       await page.waitForTimeout(3000);
