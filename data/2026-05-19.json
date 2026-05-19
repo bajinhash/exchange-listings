@@ -1,6 +1,6 @@
 {
   "date": "2026-05-19",
-  "updatedAt": "2026-05-19T13:36:40.612Z",
+  "updatedAt": "2026-05-19T13:48:31.130Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -65,27 +65,20 @@
       ]
     },
     "kucoin": {
-      "listings": [
-        {
-          "token": "多个",
-          "type": "美股合约",
-          "detail": "KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-19)",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19"
-        }
-      ]
+      "listings": []
     },
     "gateio": {
       "listings": [
         {
           "token": "TSG",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 TSG (the sleeping giant)、Embrace (Embrace The Wave)、openhuman (openhuman...5 小时前836",
+          "detail": "Gate Alpha 首发上线 TSG (the sleeping giant)、Embrace (Embrace The Wave)、openhuman (openhuman...6 小时前877",
           "url": "https://www.gate.com/zh/announcements/article/51250"
         },
         {
           "token": "SHLD",
           "type": "上线",
-          "detail": "Gate CFD 合约股票专区已上线 SHLD（GLOBAL X 国防科技 ETF）等 53 个 CFD 交易对10 小时前1,931",
+          "detail": "Gate CFD 合约股票专区已上线 SHLD（GLOBAL X 国防科技 ETF）等 53 个 CFD 交易对10 小时前1,977",
           "url": "https://www.gate.com/zh/announcements/article/51244"
         }
       ]
