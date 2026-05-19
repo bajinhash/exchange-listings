@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-13",
   "weekEnd": "2026-05-19",
-  "updatedAt": "2026-05-19T13:19:31.557Z",
+  "updatedAt": "2026-05-19T13:32:22.776Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -212,36 +212,9 @@
     "kucoin": {
       "listings": [
         {
-          "token": "NBIS",
+          "token": "多个",
           "type": "美股合约",
-          "detail": "NBIS（同公告含 4 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
-          "dates": [
-            "2026-05-19"
-          ]
-        },
-        {
-          "token": "SOXS",
-          "type": "美股合约",
-          "detail": "SOXS（同公告含 4 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
-          "dates": [
-            "2026-05-19"
-          ]
-        },
-        {
-          "token": "SQQQ",
-          "type": "美股合约",
-          "detail": "SQQQ（同公告含 4 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
-          "dates": [
-            "2026-05-19"
-          ]
-        },
-        {
-          "token": "XOM",
-          "type": "美股合约",
-          "detail": "XOM（同公告含 4 个标的）",
+          "detail": "KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-19)",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
           "dates": [
             "2026-05-19"
@@ -354,7 +327,7 @@
         {
           "token": "TSG",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 TSG (the sleeping giant)、Embrace (Embrace The Wave)、openhuman (openhuman...5 小时前729",
+          "detail": "Gate Alpha 首发上线 TSG (the sleeping giant)、Embrace (Embrace The Wave)、openhuman (openhuman...5 小时前836",
           "url": "https://www.gate.com/zh/announcements/article/51250",
           "dates": [
             "2026-05-19"
@@ -363,7 +336,7 @@
         {
           "token": "SHLD",
           "type": "上线",
-          "detail": "Gate CFD 合约股票专区已上线 SHLD（GLOBAL X 国防科技 ETF）等 53 个 CFD 交易对9 小时前1,808",
+          "detail": "Gate CFD 合约股票专区已上线 SHLD（GLOBAL X 国防科技 ETF）等 53 个 CFD 交易对10 小时前1,931",
           "url": "https://www.gate.com/zh/announcements/article/51244",
           "dates": [
             "2026-05-19"
