@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-13",
-  "weekEnd": "2026-05-18",
-  "updatedAt": "2026-05-18T14:49:44.372Z",
+  "weekEnd": "2026-05-19",
+  "updatedAt": "2026-05-19T12:50:18.370Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -11,7 +11,8 @@
           "detail": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
           "url": "https://www.binance.com/en/support/announcement/3544b8dab5e64f839316a360495a6387",
           "dates": [
-            "2026-05-18"
+            "2026-05-18",
+            "2026-05-19"
           ]
         },
         {
@@ -80,6 +81,33 @@
     },
     "bybit": {
       "listings": [
+        {
+          "token": "SOXL",
+          "type": "永续合约",
+          "detail": "SOXLUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-soxlusdt-perpetual-contract-with-up-to-20x-leverage-blt490ce17e864290fa/",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "DRAM",
+          "type": "永续合约",
+          "detail": "DRAMUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-dramusdt-perpetual-contract-with-up-to-20x-leverage-bltf50789a36c790311/",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "CBRS",
+          "type": "永续合约",
+          "detail": "CBRSUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cbrsusdt-perpetual-contract-with-up-to-10x-leverage-bltd2818c7f556c7f1f/",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
         {
           "token": "GWEI",
           "type": "永续合约",
@@ -183,6 +211,42 @@
     },
     "kucoin": {
       "listings": [
+        {
+          "token": "NBIS",
+          "type": "美股合约",
+          "detail": "NBIS（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "SOXS",
+          "type": "美股合约",
+          "detail": "SOXS（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "SQQQ",
+          "type": "美股合约",
+          "detail": "SQQQ（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "XOM",
+          "type": "美股合约",
+          "detail": "XOM（同公告含 4 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
         {
           "token": "ATWO",
           "type": "现货上线",
@@ -288,6 +352,69 @@
     "gateio": {
       "listings": [
         {
+          "token": "ZEST",
+          "type": "上线",
+          "detail": "CandyDrop 第 163 期：CandyDrop x Zest Protocol (ZEST) ，交易和邀请好友瓜分 1,300,000 ZE...2 小时前346",
+          "url": "https://www.gate.com/zh/announcements/article/51258",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "LAB",
+          "type": "上线",
+          "detail": "闪兑幸运抽十六期：100% 中奖狂欢，解锁 LAB 和 $200 现金奖励3 小时前348",
+          "url": "https://www.gate.com/zh/announcements/article/51256",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "GUSD",
+          "type": "上线",
+          "detail": "Gate 合约积分抽签第三期：5,000 个中签席位立领 20 GUSD 奖励，积分享兑大额...3 小时前478",
+          "url": "https://www.gate.com/zh/announcements/article/51254",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "USDT5",
+          "type": "上线",
+          "detail": "CFD 合约股票专区新币空投四期：报名即送 300 USDT，每人最高可领 31,300 USDT5 小时前575",
+          "url": "https://www.gate.com/zh/announcements/article/51251",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "TSG",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 TSG (the sleeping giant)、Embrace (Embrace The Wave)、openhuman (openhuman...5 小时前729",
+          "url": "https://www.gate.com/zh/announcements/article/51250",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "CL",
+          "type": "上线",
+          "detail": "Gate 期权上线 CLUSDT 原油期权产品5 小时前885",
+          "url": "https://www.gate.com/zh/announcements/article/51249",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "SHLD",
+          "type": "上线",
+          "detail": "Gate CFD 合约股票专区已上线 SHLD（GLOBAL X 国防科技 ETF）等 53 个 CFD 交易对9 小时前1,808",
+          "url": "https://www.gate.com/zh/announcements/article/51244",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
           "token": "DRAM",
           "type": "现货上线",
           "detail": "Gate 合约股票专区将上线 DRAM（伦希尔存储芯片 ETF）、HIMS（希姆...8 小时前1,899",
@@ -347,6 +474,15 @@
     "bitget": {
       "listings": [
         {
+          "token": "Superform",
+          "type": "上线",
+          "detail": "Superform（UP）将上线 Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884056",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
           "token": "HOOLI",
           "type": "现货上线",
           "detail": "Hooli (HOOLI) 将上线 Bitget GameFi 专区",
@@ -377,6 +513,69 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "ZEST",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年5月19日 21:10 (UTC+8) 上線 Zest Protocol (ZEST) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535560",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "ZEST",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Zest Protocol (ZEST) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-trading-17827791535557",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "TSG",
+          "type": "Meme+ 现货",
+          "detail": "TSG 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535556",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "XT",
+          "type": "现货上线",
+          "detail": "MEXC 陽光普照活動——投票 XWINNER (XT) 項目以贏取免費的 30,000 USDT 空投！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535515",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "LMAO",
+          "type": "Meme+ 现货",
+          "detail": "LMAO 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535545",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "HPP",
+          "type": "上线",
+          "detail": "HPP 幸運轉盤：530,000 $HPP 獎勵靜待領取",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/hpp-spinfest-17827791535542",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
+        {
+          "token": "BRKB",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 BRKB、FLNC、GLW 和 AEON U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-brkb-flnc-glw-and-aeon-usdt-m-futures-17827791535537",
+          "dates": [
+            "2026-05-19"
+          ]
+        },
         {
           "token": "ME3",
           "type": "现货上线",
