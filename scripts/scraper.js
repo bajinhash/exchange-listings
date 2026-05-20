@@ -196,12 +196,15 @@ async function fetchBinanceAlphaTweetForecasts() {
       });
       if (res.ok) {
         const body = await res.text();
-        // Sanity: must be RSS with at least one item to count as success
-        if (body.length > 1000 && body.includes('<item>')) {
+        const items = (body.match(/<item>/g) || []).length;
+        if (body.length > 1000 && items > 0) {
           xml = body;
           usedMirror = url.split('/')[2];
           break;
         }
+        // Log the actual diagnostics so we can fix Nitter detection
+        console.error(`  Binance Alpha tweets: ${url.split('/')[2]} → HTTP 200 but body=${body.length}B items=${items}, skipping`);
+        continue;
       }
       console.error(`  Binance Alpha tweets: ${url.split('/')[2]} → HTTP ${res.status}, skipping`);
     } catch (e) {
