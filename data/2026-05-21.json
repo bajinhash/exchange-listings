@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-21",
+  "updatedAt": "2026-05-20T16:36:23.027Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "NEX",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NEX - Layer 1 for Verifiable Finance",
+          "url": "https://www.binance.com/en/alpha/bsc/0x365de036a1f7dccb621530d517133521debb2013"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "DEX",
+          "type": "跟单合约",
+          "detail": "DEX Meme 跟单复刻百万财富挑战赛：单人最高领 740 USDT1 小时前276",
+          "url": "https://www.gate.com/zh/announcements/article/51280"
+        },
+        {
+          "token": "DEX",
+          "type": "上线",
+          "detail": "Gate DEX BountyDrop：参与 VAYLA Arena 空投，瓜分 $15,000 VAYLA5 小时前759",
+          "url": "https://www.gate.com/zh/announcements/article/51279"
+        },
+        {
+          "token": "ZEST",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 ZEST 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...5 小时前1,135",
+          "url": "https://www.gate.com/zh/announcements/article/51278"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "NEX",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年5月20日 22:10 (UTC+8) 上線 Nexus (NEX) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535589"
+        }
+      ]
+    }
+  }
+}

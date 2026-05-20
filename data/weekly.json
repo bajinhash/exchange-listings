@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-14",
-  "weekEnd": "2026-05-20",
-  "updatedAt": "2026-05-20T12:57:06.784Z",
+  "weekStart": "2026-05-15",
+  "weekEnd": "2026-05-21",
+  "updatedAt": "2026-05-20T16:36:23.256Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -43,16 +43,6 @@
           ]
         },
         {
-          "token": "PHAROS",
-          "type": "永续合约",
-          "detail": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
-          "url": "https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88",
-          "dates": [
-            "2026-05-14",
-            "2026-05-15"
-          ]
-        },
-        {
           "token": "?",
           "type": "永续合约",
           "detail": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)",
@@ -60,9 +50,28 @@
           "dates": [
             "2026-05-15"
           ]
+        },
+        {
+          "token": "PHAROS",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+          "url": "https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88",
+          "dates": [
+            "2026-05-15"
+          ]
         }
       ],
       "alpha": [
+        {
+          "token": "NEX",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NEX (Nexus) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2057038810526208104",
+          "dates": [
+            "2026-05-20",
+            "2026-05-21"
+          ]
+        },
         {
           "token": "ZEST",
           "type": "上线",
@@ -70,15 +79,6 @@
           "url": "https://www.binance.com/en/alpha/bsc/0x5506599c722389a60580b5213ea1da60d64754a1",
           "dates": [
             "2026-05-19",
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "NEX",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 NEX (Nexus) — @BinanceWallet 公告",
-          "url": "https://x.com/BinanceWallet/status/2057038810526208104",
-          "dates": [
             "2026-05-20"
           ]
         }
@@ -167,15 +167,6 @@
           "dates": [
             "2026-05-19"
           ]
-        },
-        {
-          "token": "PROS",
-          "type": "现货上线",
-          "detail": "OKX to list PROS/USDT (Pharos) for spot trading",
-          "url": "https://www.okx.com/en-us/help/okx-to-list-pros-usdt-pharos-for-spot-trading",
-          "dates": [
-            "2026-05-14"
-          ]
         }
       ]
     },
@@ -242,51 +233,6 @@
           "url": "https://announcements.bybit.com/zh-TW/article/tradfi-stock-listing-50-stock-cfds-now-live-on-bybit-tradfi-blt64234aa2b69f524f/",
           "dates": [
             "2026-05-15"
-          ]
-        },
-        {
-          "token": "PHAROS",
-          "type": "永续合约",
-          "detail": "PHAROSUSDT 永續合約全新上線創新板塊， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-pharosusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage-blt688d60f39ec6453c/",
-          "dates": [
-            "2026-05-14"
-          ]
-        },
-        {
-          "token": "BMNR",
-          "type": "永续合约",
-          "detail": "BMNRUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bmnrusdt-perpetual-contract-with-up-to-10x-leverage-blteb4e07f70c7285e1/",
-          "dates": [
-            "2026-05-14"
-          ]
-        },
-        {
-          "token": "SPY",
-          "type": "永续合约",
-          "detail": "SPYUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spyusdt-perpetual-contract-with-up-to-20x-leverage-blt5a88da78ffb255d9/",
-          "dates": [
-            "2026-05-14"
-          ]
-        },
-        {
-          "token": "LLY",
-          "type": "永续合约",
-          "detail": "LLYUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-llyusdt-perpetual-contract-with-up-to-20x-leverage-bltae8df4843a14c56e/",
-          "dates": [
-            "2026-05-14"
-          ]
-        },
-        {
-          "token": "IWM",
-          "type": "永续合约",
-          "detail": "IWMUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-iwmusdt-perpetual-contract-with-up-to-20x-leverage-bltfe574fc884673040/",
-          "dates": [
-            "2026-05-14"
           ]
         }
       ]
@@ -470,7 +416,8 @@
           "detail": "Gate DEX BountyDrop：参与 VAYLA Arena 空投，瓜分 $15,000 VAYLA1 小时前185",
           "url": "https://www.gate.com/zh/announcements/article/51279",
           "dates": [
-            "2026-05-20"
+            "2026-05-20",
+            "2026-05-21"
           ]
         },
         {
@@ -479,7 +426,17 @@
           "detail": "Gate 已上线 ZEST 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...1 小时前368",
           "url": "https://www.gate.com/zh/announcements/article/51278",
           "dates": [
-            "2026-05-20"
+            "2026-05-20",
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "DEX",
+          "type": "跟单合约",
+          "detail": "DEX Meme 跟单复刻百万财富挑战赛：单人最高领 740 USDT1 小时前276",
+          "url": "https://www.gate.com/zh/announcements/article/51280",
+          "dates": [
+            "2026-05-21"
           ]
         },
         {
@@ -555,20 +512,19 @@
           ]
         },
         {
-          "token": "AIGENSYN",
-          "type": "现货上线",
-          "detail": "现货市场上新：AIGENSYN/USDT2 小时前542",
-          "url": "https://www.gate.com/zh/announcements/article/51209",
-          "dates": [
-            "2026-05-14",
-            "2026-05-15"
-          ]
-        },
-        {
           "token": "HOOLI",
           "type": "现货上线",
           "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易2 小时前676",
           "url": "https://www.gate.com/zh/announcements/article/51223",
+          "dates": [
+            "2026-05-15"
+          ]
+        },
+        {
+          "token": "AIGENSYN",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Gensyn (AIGENSYN) 现货交易与闪兑交易1 天前4,128",
+          "url": "https://www.gate.com/zh/announcements/article/51209",
           "dates": [
             "2026-05-15"
           ]
@@ -614,7 +570,8 @@
           "detail": "全球首發：MEXC 將於 2026年5月20日 22:10 (UTC+8) 上線 Nexus (NEX) USDT合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535589",
           "dates": [
-            "2026-05-20"
+            "2026-05-20",
+            "2026-05-21"
           ]
         },
         {
@@ -984,69 +941,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535475",
           "dates": [
             "2026-05-15"
-          ]
-        },
-        {
-          "token": "GITLAWB",
-          "type": "Meme+ 现货",
-          "detail": "GITLAWB 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535460",
-          "dates": [
-            "2026-05-14"
-          ]
-        },
-        {
-          "token": "STAR",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年5月14日 14:05 (UTC+8) 上線 STARUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-starusdt-futures-on-may-14-2026-06-17827791535459",
-          "dates": [
-            "2026-05-14"
-          ]
-        },
-        {
-          "token": "HK50",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 HK50、RKC 和 ASTEROIDSOL U本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hk50-rkc-and-asteroidsol-usdt-m-futures-17827791535457",
-          "dates": [
-            "2026-05-14"
-          ]
-        },
-        {
-          "token": "ASTEROIDSOL",
-          "type": "上线",
-          "detail": "ASTEROIDSOL 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-asteroidsol-to-the-innovation-zone-17827791535449",
-          "dates": [
-            "2026-05-14"
-          ]
-        },
-        {
-          "token": "RKC",
-          "type": "上线",
-          "detail": "RKC 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-rkc-to-the-innovation-zone-17827791535448",
-          "dates": [
-            "2026-05-14"
-          ]
-        },
-        {
-          "token": "ASTEROIDSOL",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年5月13日 13:10 (UTC+8) 上線 ASTEROIDSOLUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535435",
-          "dates": [
-            "2026-05-14"
-          ]
-        },
-        {
-          "token": "RKC",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年5月13日 13:10 (UTC+8) 上線 RKCUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535434",
-          "dates": [
-            "2026-05-14"
           ]
         }
       ]
