@@ -131,22 +131,101 @@ async function scrapeBinance(page) {
     console.error('  Binance scrape error:', e.message);
   }
 
-  // Binance Alpha: tokens newly added to the Alpha launchpad don't appear in
-  // catalog 48 (cms articles). They live in a separate token list. Fetch
-  // rankType=20 (Alpha) sorted by default, keep only tokens where Binance
-  // has set showNewTag=true. Push them in with title prefix 'Binance Alpha
-  // 上线 X' so bucketBinance() routes them to the alpha bucket.
+  // Binance Alpha: two sources for the alpha bucket —
+  // 1. The product-catalog API (rankType=20) with showNewTag flag.
+  //    Catches tokens AFTER Binance officially adds them.
+  // 2. @BinanceWallet Twitter via Nitter RSS, parsing
+  //    'Binance Alpha (will be|is) the first platform to feature X (TICKER)'.
+  //    Catches FORECASTS — tweets typically announce 6-12h before listing,
+  //    which means we surface upcoming Alpha listings on the same daily
+  //    briefing as competing exchanges' announcements.
+  const alphaTickers = new Set();
   try {
     const alphaTokens = await fetchBinanceAlphaNew();
     for (const tk of alphaTokens) {
+      const m = tk.title.match(/Binance Alpha 上线 ([A-Za-z0-9]+)/);
+      if (m) alphaTickers.add(m[1].toUpperCase());
       articles.push(tk);
     }
-    if (alphaTokens.length) console.error(`  Binance Alpha: +${alphaTokens.length} new tokens`);
+    if (alphaTokens.length) console.error(`  Binance Alpha API: +${alphaTokens.length} new tokens`);
   } catch (e) {
-    console.error('  Binance Alpha fetch error:', e.message);
+    console.error('  Binance Alpha API fetch error:', e.message);
+  }
+  try {
+    const alphaForecasts = await fetchBinanceAlphaTweetForecasts();
+    let added = 0;
+    for (const tk of alphaForecasts) {
+      const m = tk.title.match(/Binance Alpha 上线 ([A-Za-z0-9]+)/);
+      if (m && alphaTickers.has(m[1].toUpperCase())) continue;  // dedupe vs API path
+      if (m) alphaTickers.add(m[1].toUpperCase());
+      articles.push(tk);
+      added++;
+    }
+    if (added) console.error(`  Binance Alpha tweets: +${added} forecast(s)`);
+  } catch (e) {
+    console.error('  Binance Alpha tweet fetch error:', e.message);
   }
 
   return articles;
+}
+
+// Parse @BinanceWallet RSS for forecasts of upcoming Alpha listings.
+// Pattern: 'Binance Alpha (will be|is) the first platform to feature X (TICKER)'.
+// Found in both original tweets and replies ('R to @BinanceWallet: ...').
+async function fetchBinanceAlphaTweetForecasts() {
+  // Try a couple of public Nitter instances. nitter.net is the most reliable
+  // mirror in 2026; if it's down, the function returns [] silently and the
+  // API path (showNewTag) still works.
+  const MIRRORS = [
+    'https://nitter.net/BinanceWallet/rss',
+    'https://nitter.privacydev.net/BinanceWallet/rss',
+  ];
+  let xml = null;
+  for (const url of MIRRORS) {
+    try {
+      const res = await fetch(url, {
+        headers: { 'user-agent': UA, accept: 'application/rss+xml,text/xml' },
+        signal: AbortSignal.timeout(12000),
+      });
+      if (res.ok) { xml = await res.text(); break; }
+    } catch (_) { /* try next */ }
+  }
+  if (!xml) return [];
+
+  const out = [];
+  const cutoffMs = Date.now() - 36 * 3600 * 1000;   // tweets within past 36h
+  const itemRe = /<item>([\s\S]*?)<\/item>/g;
+  const stripTag = (s) => s ? s.replace(/<!\[CDATA\[|\]\]>/g, '').trim() : '';
+
+  let m;
+  const seenTicker = new Set();
+  while ((m = itemRe.exec(xml)) !== null) {
+    const itemXml = m[1];
+    const tm = itemXml.match(/<title>([\s\S]*?)<\/title>/);
+    const lm = itemXml.match(/<link>([\s\S]*?)<\/link>/);
+    const pm = itemXml.match(/<pubDate>([\s\S]*?)<\/pubDate>/);
+    if (!tm) continue;
+    const title = stripTag(tm[1]);
+    const link  = stripTag(lm ? lm[1] : '');
+    const pubMs = pm ? new Date(stripTag(pm[1])).getTime() : 0;
+    if (pubMs && pubMs < cutoffMs) continue;
+
+    // Catches 'Binance Alpha will be the first platform to feature Nexus (NEX)'
+    // and replies 'R to @BinanceWallet: Binance Alpha is the first platform to feature ...'
+    const fc = title.match(/Binance Alpha\s+(?:will be|is)\s+the first platform to feature\s+([^,()]+?)\s*\(([A-Z][A-Z0-9]{0,14})\)/i);
+    if (!fc) continue;
+    const fullName = fc[1].trim();
+    const ticker   = fc[2].toUpperCase();
+    if (seenTicker.has(ticker)) continue;
+    seenTicker.add(ticker);
+
+    out.push({
+      title: `Binance Alpha 上线 ${ticker} (${fullName}) — @BinanceWallet 公告`,
+      url: link.replace('nitter.net', 'x.com').replace(/#m$/, ''),
+      body: `Published: ${pubMs ? new Date(pubMs).toISOString() : new Date().toISOString()}\n\nBinance Alpha 即将上线预告（Twitter @BinanceWallet）\nTweet: ${title.slice(0, 300)}`,
+    });
+  }
+  return out;
 }
 
 // Fetch tokens currently flagged as 'new' on Binance Alpha. Returns shaped
