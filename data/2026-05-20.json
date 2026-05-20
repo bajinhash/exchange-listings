@@ -1,6 +1,6 @@
 {
   "date": "2026-05-20",
-  "updatedAt": "2026-05-20T12:53:14.323Z",
+  "updatedAt": "2026-05-20T12:57:06.586Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -10,6 +10,12 @@
           "type": "上线",
           "detail": "Binance Alpha 上线 ZEST - The leading Bitcoin lending protocol. Earn yield on BTC and borrow against it.",
           "url": "https://www.binance.com/en/alpha/bsc/0x5506599c722389a60580b5213ea1da60d64754a1"
+        },
+        {
+          "token": "NEX",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NEX (Nexus) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2057038810526208104"
         }
       ],
       "wallet": []
@@ -121,37 +127,37 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX BountyDrop：参与 VAYLA Arena 空投，瓜分 $15,000 VAYLA1 小时前166",
+          "detail": "Gate DEX BountyDrop：参与 VAYLA Arena 空投，瓜分 $15,000 VAYLA1 小时前185",
           "url": "https://www.gate.com/zh/announcements/article/51279"
         },
         {
           "token": "ZEST",
           "type": "跟单合约",
-          "detail": "Gate 已上线 ZEST 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...1 小时前356",
+          "detail": "Gate 已上线 ZEST 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...1 小时前368",
           "url": "https://www.gate.com/zh/announcements/article/51278"
         },
         {
           "token": "ZEST",
           "type": "上线",
-          "detail": "余币宝定期理财享 ZEST 额外奖励，BTC 年化高达 10.1%4 小时前595",
+          "detail": "余币宝定期理财享 ZEST 额外奖励，BTC 年化高达 10.1%5 小时前607",
           "url": "https://www.gate.com/zh/announcements/article/51269"
         },
         {
           "token": "USDT5",
           "type": "上线",
-          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT5 小时前641",
+          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT5 小时前655",
           "url": "https://www.gate.com/zh/announcements/article/51267"
         },
         {
           "token": "BTC",
           "type": "永续合约",
-          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（5 月 22 日 00:00 – 00:30 UTC+8）5 小时前766",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（5 月 22 日 00:00 – 00:30 UTC+8）5 小时前777",
           "url": "https://www.gate.com/zh/announcements/article/51265"
         },
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "比特币披萨狂欢节，切披萨抽 1 BTC，交易瓜分 52,200 USDT 福利5 小时前720",
+          "detail": "比特币披萨狂欢节，切披萨抽 1 BTC，交易瓜分 52,200 USDT 福利5 小时前734",
           "url": "https://www.gate.com/zh/announcements/article/51264"
         }
       ]
