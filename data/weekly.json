@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-14",
   "weekEnd": "2026-05-20",
-  "updatedAt": "2026-05-20T12:15:33.016Z",
+  "updatedAt": "2026-05-20T12:27:10.154Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -455,6 +455,60 @@
     },
     "gateio": {
       "listings": [
+        {
+          "token": "DEX",
+          "type": "上线",
+          "detail": "Gate DEX BountyDrop：参与 VAYLA Arena 空投，瓜分 $15,000 VAYLA24 分钟前71",
+          "url": "https://www.gate.com/zh/announcements/article/51279",
+          "dates": [
+            "2026-05-20"
+          ]
+        },
+        {
+          "token": "ZEST",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 ZEST 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...1 小时前252",
+          "url": "https://www.gate.com/zh/announcements/article/51278",
+          "dates": [
+            "2026-05-20"
+          ]
+        },
+        {
+          "token": "ZEST",
+          "type": "上线",
+          "detail": "余币宝定期理财享 ZEST 额外奖励，BTC 年化高达 10.1%4 小时前534",
+          "url": "https://www.gate.com/zh/announcements/article/51269",
+          "dates": [
+            "2026-05-20"
+          ]
+        },
+        {
+          "token": "USDT4",
+          "type": "上线",
+          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT4 小时前581",
+          "url": "https://www.gate.com/zh/announcements/article/51267",
+          "dates": [
+            "2026-05-20"
+          ]
+        },
+        {
+          "token": "BTC",
+          "type": "永续合约",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（5 月 22 日 00:00 – 00:30 UTC+8）5 小时前711",
+          "url": "https://www.gate.com/zh/announcements/article/51265",
+          "dates": [
+            "2026-05-20"
+          ]
+        },
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "比特币披萨狂欢节，切披萨抽 1 BTC，交易瓜分 52,200 USDT 福利5 小时前657",
+          "url": "https://www.gate.com/zh/announcements/article/51264",
+          "dates": [
+            "2026-05-20"
+          ]
+        },
         {
           "token": "DRAM",
           "type": "现货上线",

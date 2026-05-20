@@ -45,7 +45,7 @@
       {
         "title": "Binance Alpha 上线 ZEST - The leading Bitcoin lending protocol. Earn yield on BTC and borrow against it.",
         "url": "https://www.binance.com/en/alpha/bsc/0x5506599c722389a60580b5213ea1da60d64754a1",
-        "body": "Published: 2026-05-20T12:12:19.920Z\n\nBinance Alpha 新增代币\nContract: 0x5506599c722389a60580b5213ea1da60d64754a1\nChain: 56\nDescription: The leading Bitcoin lending protocol. Earn yield on BTC and borrow against it."
+        "body": "Published: 2026-05-20T12:18:27.511Z\n\nBinance Alpha 新增代币\nContract: 0x5506599c722389a60580b5213ea1da60d64754a1\nChain: 56\nDescription: The leading Bitcoin lending protocol. Earn yield on BTC and borrow against it."
       }
     ],
     "okx": [
@@ -194,37 +194,113 @@
         "body": "World Premiere: Arena Two (ATWO) Listed on KuCoin05/17/2026, 19:51:02KuCoin is proud to announce yet another great project coming to our Spot Trading platform. \nArena Two (ATWO) will be available on KuCoin!\nImportant Information\n\nDeposits: Effective Immediately (Supported Network: BASE-ERC20)\n\n\nCall Auction: From 11:00 to 12:00 on May 18, 2026 (UTC)\n\n\nTrading: 12:00 on May 18, 2026 (UTC)\n\n\nWithdrawals: 10:00 on May 19, 2026 (UTC)\n\n\nTrading Pair: ATWO/USDT\n\n\nTrading Bots: When spot trading begins, ATWO/USDT will be available for Trading Bots. The available services include: Spot Grid, Infinity Grid, DCA, Smart Rebalance, Spot Martingale, Spot Grid AI Plus and AI Spot Trend.\n\nWhat is Arena Two?Arena Two is a multi-sport entertainment platform built on Base, operating a live event series across 8 global cities featuring 6v6 indoor football, MMA, and padel. The platform is developed by A Two Tech Limited and combines physical live events with a token-based digital layer.\n  The native utility token, ATWO, is issued on Base and is used across the Arena Two ecosystem for fan voting on in-event decisions, access to player trial processes, digital collectible drops, and token-gated event experiences. The World Series runs across cities in Latin America, Europe, Asia, and Southeast Asia, with the Season 1 finale scheduled to coincide with Token2049 Singapore in October 2026.\n  ATWO has a fixed supply of 1,000,000,000 tokens, fully minted at genesis. No mint function post-deployment, no inflation, no transfer tax, no reflection.\nWebsite | X (Twitter)  | Whitepaper | Token Contract\nLearn more about the Call Auction and find additional details in the: Help Center.\nRisk Warning: Investing in cryptocurrency is akin to being a venture capital investor. The cryptocurrency market is available worldwide 24/7 for trading with no market close or open times. Please do your own risk assessment when deciding how to invest in cryptocurrency and blockchain technology. KuCoin attempts to screen all tokens before they come to market. However, even with the best due diligence, there are still risks when investing. KuCoin is not liable for investment gains or losses.\nSign Up on KuCoin Now\nDownload the KuCoin App\nFollow Us on X (Twitter)\nJoin Us on Telegram\nDive Into KuCoin's Global Communities"
       }
     ],
-    "gateio": [],
+    "gateio": [
+      {
+        "title": "Gate DEX BountyDrop：参与 VAYLA Arena 空投，瓜分 $15,000 VAYLA24 分钟前71",
+        "url": "https://www.gate.com/zh/announcements/article/51279",
+        "body": null
+      },
+      {
+        "title": "Gate 已上线 ZEST 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...1 小时前252",
+        "url": "https://www.gate.com/zh/announcements/article/51278",
+        "body": null
+      },
+      {
+        "title": "Gate 关于下架 WXM、ASI 等 14 个代币的公告1 小时前415",
+        "url": "https://www.gate.com/zh/announcements/article/51276",
+        "body": null
+      },
+      {
+        "title": "关于永续合约资金费率算法升级的公告2 小时前237",
+        "url": "https://www.gate.com/zh/announcements/article/51275",
+        "body": null
+      },
+      {
+        "title": "Gate DEX 合约充值功能升级：三通道入金一站开启交易2 小时前285",
+        "url": "https://www.gate.com/zh/announcements/article/51274",
+        "body": null
+      },
+      {
+        "title": "Gate 机构周报：BTC 波动率上行，LST 全板块回撤（2026 年 5 月 11 日— 5 月 17...2 小时前277",
+        "url": "https://www.gate.com/zh/announcements/article/51273",
+        "body": null
+      },
+      {
+        "title": "Gate 合约积分抽签第四期：5,000 个席位领 20 GUSD2 小时前334",
+        "url": "https://www.gate.com/zh/announcements/article/51272",
+        "body": null
+      },
+      {
+        "title": "Gate 将进行现货交易引擎升级公告（5 月 22 日 00:00 - 00:30 ）3 小时前512",
+        "url": "https://www.gate.com/zh/announcements/article/51271",
+        "body": null
+      },
+      {
+        "title": "Gate ETF 交易打卡，实力夺金，最高赢 88 USDT 现金盲盒 + $500 XAUT4 小时前503",
+        "url": "https://www.gate.com/zh/announcements/article/51270",
+        "body": null
+      },
+      {
+        "title": "余币宝定期理财享 ZEST 额外奖励，BTC 年化高达 10.1%4 小时前534",
+        "url": "https://www.gate.com/zh/announcements/article/51269",
+        "body": null
+      },
+      {
+        "title": "Gate DEX 合约 Pizza Day 狂欢开启：交易掉落披萨碎片，解锁专属 50,000 USDT 奖励4 小时前677",
+        "url": "https://www.gate.com/zh/announcements/article/51268",
+        "body": null
+      },
+      {
+        "title": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT4 小时前581",
+        "url": "https://www.gate.com/zh/announcements/article/51267",
+        "body": null
+      },
+      {
+        "title": "Gate 杠杆无忧活动：申购领 $100，最高解锁 $3,100 体验金4 小时前526",
+        "url": "https://www.gate.com/zh/announcements/article/51266",
+        "body": null
+      },
+      {
+        "title": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（5 月 22 日 00:00 – 00:30 UTC+8）5 小时前711",
+        "url": "https://www.gate.com/zh/announcements/article/51265",
+        "body": null
+      },
+      {
+        "title": "比特币披萨狂欢节，切披萨抽 1 BTC，交易瓜分 52,200 USDT 福利5 小时前657",
+        "url": "https://www.gate.com/zh/announcements/article/51264",
+        "body": null
+      }
+    ],
     "bitget": [
       {
         "title": "【首发上币】Nexus (NEX) 将上线 Bitget",
         "url": "https://www.bitget.com/zh-CN/support/articles/12560603884120",
-        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】Nexus (NEX) 将上线 Bitget/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】Nexus (NEX) 将上线 Bitget2026-05-20 14:000309我们非常高兴地宣布，Nexus (NEX) 将在现货交易区上线。详情如下： \n  \n充值开放时间：已开放 \n现货交易开放时间：2026年5月20日23:00（UTC+8） \n提现开放时间：2026年5月22日00:00（UTC+8） \n现货交易链接：NEX/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑服务将代币兑换成 BTC、USDT 和其他支持的代币，无需支付手续费。 \n  \n简介 \nNexus 是一条面向“可验证金融”（verifiable finance）的 Layer 1 区块链，通过结合 zkVM 验证引擎、即将内置（enshrined）的 CLOB 永续合约交易所，以及即将推出的原生稳定币（$USDX），在大规模场景下提供高性能、具备密码学可验证性的金融基础设施。 \n合约地址: \nETH: 0xf57D49646621F563b0B905aFc8336923AC569Ec5 \nWebsite | X | Telegram \n  \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！ \n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章Superform（UP）将上线 Bitget【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
+        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】Nexus (NEX) 将上线 Bitget/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】Nexus (NEX) 将上线 Bitget2026-05-20 14:000319我们非常高兴地宣布，Nexus (NEX) 将在现货交易区上线。详情如下： \n  \n充值开放时间：已开放 \n现货交易开放时间：2026年5月20日23:00（UTC+8） \n提现开放时间：2026年5月22日00:00（UTC+8） \n现货交易链接：NEX/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑服务将代币兑换成 BTC、USDT 和其他支持的代币，无需支付手续费。 \n  \n简介 \nNexus 是一条面向“可验证金融”（verifiable finance）的 Layer 1 区块链，通过结合 zkVM 验证引擎、即将内置（enshrined）的 CLOB 永续合约交易所，以及即将推出的原生稳定币（$USDX），在大规模场景下提供高性能、具备密码学可验证性的金融基础设施。 \n合约地址: \nETH: 0xf57D49646621F563b0B905aFc8336923AC569Ec5 \nWebsite | X | Telegram \n  \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！ \n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章Superform（UP）将上线 Bitget【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
       },
       {
         "title": "Superform（UP）将上线 Bitget",
         "url": "https://www.bitget.com/zh-CN/support/articles/12560603884056",
-        "body": "Bitget/帮助中心/新币上线/现货/Superform（UP）将上线 Bitget/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级Superform（UP）将上线 Bitget2026-05-19 12:000752我们很高兴地宣布，Superform（UP）将在 DeFi 区上架，详情如下： \n  \n充值开放时间：已开放 \n交易开放时间：2026年5月19日20:00（UTC+8） \n提现开放时间：2026年5月20日20:00（UTC+8） \n现货交易链接：UP/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑将代币兑换为 BTC、ETH 及其他支持的代币，且无需支付交易手续费。 \n  \n简介 \nSuperform 是首个面向稳定币的数字银行。任何人都可以在链上完成储蓄、兑换、转账和赚取收益，同时完全掌控自己的资产。 \n合约地址： \nBASE：0x5b2193fdc451c1f847be09ca9d13a4bf60f8c86b \n网站 | X  \n  \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】Nexus (NEX) 将上线 Bitget【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
+        "body": "Bitget/帮助中心/新币上线/现货/Superform（UP）将上线 Bitget/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级Superform（UP）将上线 Bitget2026-05-19 12:000757我们很高兴地宣布，Superform（UP）将在 DeFi 区上架，详情如下： \n  \n充值开放时间：已开放 \n交易开放时间：2026年5月19日20:00（UTC+8） \n提现开放时间：2026年5月20日20:00（UTC+8） \n现货交易链接：UP/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑将代币兑换为 BTC、ETH 及其他支持的代币，且无需支付交易手续费。 \n  \n简介 \nSuperform 是首个面向稳定币的数字银行。任何人都可以在链上完成储蓄、兑换、转账和赚取收益，同时完全掌控自己的资产。 \n合约地址： \nBASE：0x5b2193fdc451c1f847be09ca9d13a4bf60f8c86b \n网站 | X  \n  \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】Nexus (NEX) 将上线 Bitget【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
       },
       {
         "title": "【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区",
         "url": "https://www.bitget.com/zh-CN/support/articles/12560603883953",
-        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区2026-05-15 13:001944我们非常高兴地宣布，Hooli (HOOLI) 将在 GameFi 专区上线。详情如下： \n  \n充值开放时间：已开放 \n现货交易开放时间：2026年5月15日18:00（UTC+8） \n提现开放时间：2026年5月16日19:00（UTC+8） \n现货交易链接：HOOLI/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑服务将代币兑换成 BTC、USDT 和其他支持的代币，无需支付手续费。 \n  \n简介 \n$HOOLI 是 AMGI 的生态代币。AMGI 是一个“具身 AI 代理基础设施”协议：之于 3D 具身代理，AMGI 的定位类似于 Virtuals Protocol 之于 2D AI 代理、ai16z 的 elizaOS 之于文本代理——为以实时动画角色形式存在的 AI 代理提供渲染、行为与语音技术栈。 \n合约地址: \nSOL: FPJfY8mMTRwaePD2f46TFLqVov4X9svBaUgR1a8oTwTF \nWebsite | X | Telegram \n  \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！ \n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】Nexus (NEX) 将上线 BitgetSuperform（UP）将上线 Bitget【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
+        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区2026-05-15 13:001950我们非常高兴地宣布，Hooli (HOOLI) 将在 GameFi 专区上线。详情如下： \n  \n充值开放时间：已开放 \n现货交易开放时间：2026年5月15日18:00（UTC+8） \n提现开放时间：2026年5月16日19:00（UTC+8） \n现货交易链接：HOOLI/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑服务将代币兑换成 BTC、USDT 和其他支持的代币，无需支付手续费。 \n  \n简介 \n$HOOLI 是 AMGI 的生态代币。AMGI 是一个“具身 AI 代理基础设施”协议：之于 3D 具身代理，AMGI 的定位类似于 Virtuals Protocol 之于 2D AI 代理、ai16z 的 elizaOS 之于文本代理——为以实时动画角色形式存在的 AI 代理提供渲染、行为与语音技术栈。 \n合约地址: \nSOL: FPJfY8mMTRwaePD2f46TFLqVov4X9svBaUgR1a8oTwTF \nWebsite | X | Telegram \n  \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！ \n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】Nexus (NEX) 将上线 BitgetSuperform（UP）将上线 Bitget【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
       },
       {
         "title": "【首发上币】preOPAI 将上线 Bitget Pre-IPO 区",
         "url": "https://www.bitget.com/zh-CN/support/articles/12560603883816",
-        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】preOPAI 将上线 Bitget Pre-IPO 区/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】preOPAI 将上线 Bitget Pre-IPO 区2026-05-13 18:0002935我们很高兴地宣布，preOPAI 将在 Pre-IPO 区上线。详情如下：\n \n交易开放时间：2026年5月15日22:00（UTC+8）\n现货交易链接：preOPAI/USDT\nIPO Prime：IPO Prime 是Bitget 打造的创新代币销售平台，提供全球独角兽企业上市前的稀有投资机会，享受IPO带来的潜在经济收益。\n重要提示：本产品不代表直接持有 OpenAI 的股权或股份。本产品与 OpenAI 无任何关联，OpenAI 未以任何形式认可、批准或授权此产品。数字资产交易存在较高风险和波动性，您可能损失全部投资本金，且不保证任何收益。交易前请务必仔细阅读用户须知。 \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑服务将代币兑换成 BTC、USDT 和其他支持的代币，无需支付手续费。\n \n简介\nOpenAI 是全球领先的消费级 AI 提供商，周活跃用户高达9亿。目前，该公司凭借其 Codex 产品正在企业级 AI 智能体领域迅速扩张。OpenAI 刚在最新一轮融资中筹集了创纪录的1220亿美元，主要投资者包括微软、英伟达、亚马逊和软银。preOPAI 是由受监管的发行方 Republic 发行的数字代币，旨在追踪 OpenAI 的经济表现。\nIPO Prime ｜关于 Republic\n\n免责声明\n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！\n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】Nexus (NEX) 将上线 BitgetSuperform（UP）将上线 Bitget【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
+        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】preOPAI 将上线 Bitget Pre-IPO 区/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】preOPAI 将上线 Bitget Pre-IPO 区2026-05-13 18:0002939我们很高兴地宣布，preOPAI 将在 Pre-IPO 区上线。详情如下：\n \n交易开放时间：2026年5月15日22:00（UTC+8）\n现货交易链接：preOPAI/USDT\nIPO Prime：IPO Prime 是Bitget 打造的创新代币销售平台，提供全球独角兽企业上市前的稀有投资机会，享受IPO带来的潜在经济收益。\n重要提示：本产品不代表直接持有 OpenAI 的股权或股份。本产品与 OpenAI 无任何关联，OpenAI 未以任何形式认可、批准或授权此产品。数字资产交易存在较高风险和波动性，您可能损失全部投资本金，且不保证任何收益。交易前请务必仔细阅读用户须知。 \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑服务将代币兑换成 BTC、USDT 和其他支持的代币，无需支付手续费。\n \n简介\nOpenAI 是全球领先的消费级 AI 提供商，周活跃用户高达9亿。目前，该公司凭借其 Codex 产品正在企业级 AI 智能体领域迅速扩张。OpenAI 刚在最新一轮融资中筹集了创纪录的1220亿美元，主要投资者包括微软、英伟达、亚马逊和软银。preOPAI 是由受监管的发行方 Republic 发行的数字代币，旨在追踪 OpenAI 的经济表现。\nIPO Prime ｜关于 Republic\n\n免责声明\n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！\n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】Nexus (NEX) 将上线 BitgetSuperform（UP）将上线 Bitget【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 BitgetKAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
       },
       {
         "title": "【首发上币】ILITY（ILY）将上线 Bitget",
         "url": "https://www.bitget.com/zh-CN/support/articles/12560603883676",
-        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】ILITY（ILY）将上线 Bitget/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】ILITY（ILY）将上线 Bitget2026-05-13 16:0001207我们很高兴地宣布，ILITY（ILY）将在现货市场上线。详情如下： \n  \n充值开放时间：已开放 \n交易开放时间：2026年5月15日19:00（UTC+8） \n提现开放时间：2026年5月16日20:00（UTC+8） \n现货交易链接：ILY/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑将代币兑换为 BTC、USDT 及其他支持的代币，且无需支付交易手续费。 \n \n简介 \nILITY 是一个 Layer 1 区块链，利用零知识证明（ZKP）技术实现跨多链的私密、无需信任的验证。个人用户和机构无需暴露敏感数据，即可验证资产、身份和链上活动。作为通用隐私层，ILITY 将分散的区块链网络整合为统一且可验证的环境，既保障个人隐私，又支持企业合规。 \n合约地址： \nBASE：0x90Eb0e291e9D78A96bfe423B8E616A02c4838cF0 \n官网｜X｜Telegram \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！ \n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】Nexus (NEX) 将上线 BitgetSuperform（UP）将上线 Bitget【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区KAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
+        "body": "Bitget/帮助中心/新币上线/现货/【首发上币】ILITY（ILY）将上线 Bitget/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级【首发上币】ILITY（ILY）将上线 Bitget2026-05-13 16:0001210我们很高兴地宣布，ILITY（ILY）将在现货市场上线。详情如下： \n  \n充值开放时间：已开放 \n交易开放时间：2026年5月15日19:00（UTC+8） \n提现开放时间：2026年5月16日20:00（UTC+8） \n现货交易链接：ILY/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑将代币兑换为 BTC、USDT 及其他支持的代币，且无需支付交易手续费。 \n \n简介 \nILITY 是一个 Layer 1 区块链，利用零知识证明（ZKP）技术实现跨多链的私密、无需信任的验证。个人用户和机构无需暴露敏感数据，即可验证资产、身份和链上活动。作为通用隐私层，ILITY 将分散的区块链网络整合为统一且可验证的环境，既保障个人隐私，又支持企业合规。 \n合约地址： \nBASE：0x90Eb0e291e9D78A96bfe423B8E616A02c4838cF0 \n官网｜X｜Telegram \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！ \n 加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】Nexus (NEX) 将上线 BitgetSuperform（UP）将上线 Bitget【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区KAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
       },
       {
         "title": "KAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO",
         "url": "https://www.bitget.com/zh-CN/support/articles/12560603883519",
-        "body": "Bitget/帮助中心/新币上线/现货/KAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级KAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO2026-05-06 16:0003376我们非常高兴地宣布，KAIO（KAIO）将在 RWA 区上线。详情如下： \n  \n充值开放时间：已开放 \n交易开放时间：2026年5月6日21:00（UTC+8） \n提现开放时间：2026年5月7日21:00（UTC+8） \n现货交易链接：KAIO/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑将代币兑换为 BTC、ETH 及其他支持的代币，且无需支付交易手续费。 \n  \n活动1：Launchpool——锁仓 BGB、USDGO 和 KAIO，瓜分 10,000,000 KAIO \n锁仓时间：2026年5月6日21:00至2026年5月13日21:00（UTC+8） \n立即锁仓 \n锁仓池1——BGB： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     7,000,000 KAIO  \n    \n    \n     VIP3–7 BGB 锁仓上限  \n     50,000 BGB  \n    \n    \n     VIP2 BGB 锁仓上限  \n     30,000 BGB  \n    \n    \n     VIP1 BGB 锁仓上限  \n     10,000 BGB  \n    \n    \n     VIP0 BGB 锁仓上限  \n     5000 BGB  \n    \n    \n     BGB 锁仓下限  \n     5 BGB  \n    \n   \n  \n \n空投分配： \n用户可得 BGB 锁仓池空投数量 = 用户锁仓的 BGB 数量 ÷ 所有达标用户锁仓的 BGB 总量 × 对应锁仓池代币数量 \n  \n锁仓池2——USDGO： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     2,000,000 KAIO  \n    \n    \n     USDGO 锁仓上限  \n     500,000 USDGO  \n    \n    \n     USDGO 锁仓下限  \n     50 USDGO  \n    \n   \n  \n \n空投分配： \n用户可得 USDGO 锁仓池空投数量 = 用户锁仓的 USDGO 数量 ÷ 所有达标用户锁仓的 USDGO 总量 × 对应池代币数量 \n  \n锁仓池3——KAIO： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     1,000,000 KAIO  \n    \n    \n     KAIO 锁仓上限  \n     20,000,000 KAIO  \n    \n    \n     KAIO 锁仓下限  \n     2,000 KAIO  \n    \n   \n  \n \n空投分配： \n用户可得 KAIO 锁仓池空投数量 = 用户锁仓的 KAIO 数量 ÷ 所有达标用户锁仓的 KAIO 总量 × 对应锁仓池代币数量 \n  \n活动2：CandyBomb——交易瓜分 4,120,000 KAIO \n活动时间：2026年5月6日21:00至2026年5月11日21:00（UTC+8） \nCandyBomb \n活动详情： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     4,120,000 KAIO  \n    \n    \n     KAIO 交易奖池（新用户专享）  \n     2,000,000 KAIO  \n    \n    \n     KAIO 交易奖池（所有用户）  \n     2,000,000 KAIO  \n    \n    \n     KAIO 邀新奖池  \n     120,000 KAIO  \n    \n   \n  \n \n  \n参与方式： \n \n  前往 CandyBomb 页面，点击“加入”，参与活动。  \n  成功加入后，Bitget 将开始统计您的有效活动数据。  \n  手续费为0的现货交易成交量不参与糖果分配计算。  \n \n \n简介 \nKAIO 是一个跨链现实世界资产（RWA）代币化协议，使资产管理者能够在链上发行受监管的基金产品，为机构投资者和个人用户提供安全、可组合的多元化收益机会。KAIO 将代币化从封闭平台升级为开放、可编程的金融基础设施，并通过合规、可审计的跨链架构桥接 TradFi 与 DeFi，目标是30万亿美元的代币化资产市场。  \n合约地址： \nERC20：0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e \n官网｜X  \n如何在 Bitget 上购买 KAIO \n费率标准 \n价格和市场数据 \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】Nexus (NEX) 将上线 BitgetSuperform（UP）将上线 Bitget【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 Bitget【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
+        "body": "Bitget/帮助中心/新币上线/现货/KAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO/新币上线最新动态新币上线现货合约杠杆跟单策略产品更新交易比赛和活动安全专栏API交易下架资讯法币维护/系统升级KAIO（KAIO）将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO2026-05-06 16:0003379我们非常高兴地宣布，KAIO（KAIO）将在 RWA 区上线。详情如下： \n  \n充值开放时间：已开放 \n交易开放时间：2026年5月6日21:00（UTC+8） \n提现开放时间：2026年5月7日21:00（UTC+8） \n现货交易链接：KAIO/USDT \n闪兑开放时间：交易开始后10分钟内开放。您可以通过 Bitget 闪兑将代币兑换为 BTC、ETH 及其他支持的代币，且无需支付交易手续费。 \n  \n活动1：Launchpool——锁仓 BGB、USDGO 和 KAIO，瓜分 10,000,000 KAIO \n锁仓时间：2026年5月6日21:00至2026年5月13日21:00（UTC+8） \n立即锁仓 \n锁仓池1——BGB： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     7,000,000 KAIO  \n    \n    \n     VIP3–7 BGB 锁仓上限  \n     50,000 BGB  \n    \n    \n     VIP2 BGB 锁仓上限  \n     30,000 BGB  \n    \n    \n     VIP1 BGB 锁仓上限  \n     10,000 BGB  \n    \n    \n     VIP0 BGB 锁仓上限  \n     5000 BGB  \n    \n    \n     BGB 锁仓下限  \n     5 BGB  \n    \n   \n  \n \n空投分配： \n用户可得 BGB 锁仓池空投数量 = 用户锁仓的 BGB 数量 ÷ 所有达标用户锁仓的 BGB 总量 × 对应锁仓池代币数量 \n  \n锁仓池2——USDGO： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     2,000,000 KAIO  \n    \n    \n     USDGO 锁仓上限  \n     500,000 USDGO  \n    \n    \n     USDGO 锁仓下限  \n     50 USDGO  \n    \n   \n  \n \n空投分配： \n用户可得 USDGO 锁仓池空投数量 = 用户锁仓的 USDGO 数量 ÷ 所有达标用户锁仓的 USDGO 总量 × 对应池代币数量 \n  \n锁仓池3——KAIO： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     1,000,000 KAIO  \n    \n    \n     KAIO 锁仓上限  \n     20,000,000 KAIO  \n    \n    \n     KAIO 锁仓下限  \n     2,000 KAIO  \n    \n   \n  \n \n空投分配： \n用户可得 KAIO 锁仓池空投数量 = 用户锁仓的 KAIO 数量 ÷ 所有达标用户锁仓的 KAIO 总量 × 对应锁仓池代币数量 \n  \n活动2：CandyBomb——交易瓜分 4,120,000 KAIO \n活动时间：2026年5月6日21:00至2026年5月11日21:00（UTC+8） \nCandyBomb \n活动详情： \n \n \n     \n  \n  \n   \n    \n     KAIO 总奖池  \n     4,120,000 KAIO  \n    \n    \n     KAIO 交易奖池（新用户专享）  \n     2,000,000 KAIO  \n    \n    \n     KAIO 交易奖池（所有用户）  \n     2,000,000 KAIO  \n    \n    \n     KAIO 邀新奖池  \n     120,000 KAIO  \n    \n   \n  \n \n  \n参与方式： \n \n  前往 CandyBomb 页面，点击“加入”，参与活动。  \n  成功加入后，Bitget 将开始统计您的有效活动数据。  \n  手续费为0的现货交易成交量不参与糖果分配计算。  \n \n \n简介 \nKAIO 是一个跨链现实世界资产（RWA）代币化协议，使资产管理者能够在链上发行受监管的基金产品，为机构投资者和个人用户提供安全、可组合的多元化收益机会。KAIO 将代币化从封闭平台升级为开放、可编程的金融基础设施，并通过合规、可审计的跨链架构桥接 TradFi 与 DeFi，目标是30万亿美元的代币化资产市场。  \n合约地址： \nERC20：0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e \n官网｜X  \n如何在 Bitget 上购买 KAIO \n费率标准 \n价格和市场数据 \n  \n免责声明 \n尽管加密货币具有较高的增长潜力，但仍面临很高的市场风险和波动性。强烈建议用户自行研究，并自行承担投资风险。感谢您对 Bitget 的支持！加入 Bitget，全球最大的全景交易所（UEX）立即注册 >>>关注官方推特（X） >>>加入官方华语社群 >>>是否有帮助到您？是否分享相关文章【首发上币】Nexus (NEX) 将上线 BitgetSuperform（UP）将上线 Bitget【首发上币】preOPAI 将上线 Bitget Pre-IPO 区【首发上币】Hooli (HOOLI) 将上线 Bitget GameFi 专区【首发上币】ILITY（ILY）将上线 Bitget【首发上币】Billions Network (BILL) 将上线 Bitget 【首发上币】Gensyn（AIGENSYN）将上线 Bitget AI 区【首发上币】MegaETH (MEGA) 将上线 BitgetSKYAI（SKYAI）将上线 Bitget【首发上币】Pharos（PROS）将上线 Bitget "
       }
     ],
     "mexc": [
