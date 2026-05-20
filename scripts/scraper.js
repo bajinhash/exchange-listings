@@ -186,28 +186,12 @@ async function fetchBinanceAlphaTweetForecasts() {
     'https://nitter.kavin.rocks/BinanceWallet/rss',
     'https://nitter.unixfox.eu/BinanceWallet/rss',
   ];
-  // Nitter is finicky about headers — minimal headers (just User-Agent +
-  // Accept: application/rss+xml) cause it to return 200 with an empty body
-  // (silent rate-limit / anti-scrape). Sending a full browser-like header
-  // set unlocks the actual RSS feed.
-  //
-  // Tested 2026-05-20:
-  //   minimal headers          → 200 + 0B  (broken)
-  //   +Accept-Encoding identity → 200 + 0B  (broken)
-  //   browser-like Accept+Lang → 200 + 28KB ✓
-  //   curl-like UA             → 200 + 0B  (broken)
-  const NITTER_HEADERS = {
-    'user-agent': UA,
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'accept-encoding': 'identity',
-    'accept-language': 'en-US,en;q=0.9',
-  };
   let xml = null;
   let usedMirror = null;
   for (const url of MIRRORS) {
     try {
       const res = await fetch(url, {
-        headers: NITTER_HEADERS,
+        headers: { 'user-agent': UA, accept: 'application/rss+xml,text/xml' },
         signal: AbortSignal.timeout(10000),
       });
       if (res.ok) {
