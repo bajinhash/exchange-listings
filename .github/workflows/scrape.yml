@@ -86,11 +86,17 @@ jobs:
             # since data/*.json are auto-generated and idempotent.
             for attempt in 1 2 3; do
               if git push; then break; fi
-              echo "push attempt $attempt failed; soft-resetting onto latest remote main"
+              echo "push attempt $attempt failed; resetting onto latest remote main"
               git fetch origin main || exit 1
-              git reset --soft origin/main || exit 1
-              # Restage everything since soft-reset preserves working tree
-              # but unstages.
+              # IMPORTANT: use --mixed (not --soft). Soft keeps the index from
+              # the workflow's prior commit, which was based on the older
+              # checkout. After `git add data/` + commit, the resulting tree
+              # silently REVERTS any non-data file that landed on origin/main
+              # since checkout (e.g. a scraper.js or scripts/ change pushed by
+              # a separate cron run or by local-cron). Mixed resets the index
+              # to origin/main, so the commit contains ONLY our data/ changes
+              # on top of whatever the latest main has.
+              git reset --mixed origin/main || exit 1
               git add data/
               if ! git diff --cached --quiet; then
                 git commit -m "data: scrape + format + weekly ${DATE}"

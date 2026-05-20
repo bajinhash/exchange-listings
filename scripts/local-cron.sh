@@ -67,9 +67,14 @@ else
   git commit -m "data: local-cron scrape ${DATE}"
   for attempt in 1 2 3; do
     if git push; then break; fi
-    echo "push attempt $attempt failed; soft-resetting onto latest remote"
+    echo "push attempt $attempt failed; resetting onto latest remote"
     git fetch origin main || { echo "fetch failed"; exit 4; }
-    git reset --soft origin/main || { echo "reset failed"; exit 5; }
+    # Use --mixed (not --soft) so the commit only contains our data/ changes
+    # on top of whatever's now on origin/main. With --soft the prior commit's
+    # index was preserved, which would silently revert any non-data file (e.g.
+    # scraper.js fix, scripts/local-cron.sh itself) that landed on origin/main
+    # between our pull and our push.
+    git reset --mixed origin/main || { echo "reset failed"; exit 5; }
     git add data/raw-${DATE}.json data/${DATE}.json data/weekly.json 2>/dev/null || true
     if git diff --cached --quiet; then
       echo "no diff vs remote — already pushed by GH Actions"
