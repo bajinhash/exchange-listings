@@ -176,21 +176,43 @@ async function fetchBinanceAlphaTweetForecasts() {
   // Try a couple of public Nitter instances. nitter.net is the most reliable
   // mirror in 2026; if it's down, the function returns [] silently and the
   // API path (showNewTag) still works.
+  // Nitter mirrors come and go — try several. Order roughly by reliability
+  // observed 2026-05-20.
   const MIRRORS = [
     'https://nitter.net/BinanceWallet/rss',
+    'https://nitter.tiekoetter.com/BinanceWallet/rss',
     'https://nitter.privacydev.net/BinanceWallet/rss',
+    'https://nitter.poast.org/BinanceWallet/rss',
+    'https://nitter.kavin.rocks/BinanceWallet/rss',
+    'https://nitter.unixfox.eu/BinanceWallet/rss',
   ];
   let xml = null;
+  let usedMirror = null;
   for (const url of MIRRORS) {
     try {
       const res = await fetch(url, {
         headers: { 'user-agent': UA, accept: 'application/rss+xml,text/xml' },
-        signal: AbortSignal.timeout(12000),
+        signal: AbortSignal.timeout(10000),
       });
-      if (res.ok) { xml = await res.text(); break; }
-    } catch (_) { /* try next */ }
+      if (res.ok) {
+        const body = await res.text();
+        // Sanity: must be RSS with at least one item to count as success
+        if (body.length > 1000 && body.includes('<item>')) {
+          xml = body;
+          usedMirror = url.split('/')[2];
+          break;
+        }
+      }
+      console.error(`  Binance Alpha tweets: ${url.split('/')[2]} → HTTP ${res.status}, skipping`);
+    } catch (e) {
+      console.error(`  Binance Alpha tweets: ${url.split('/')[2]} → ${e.message}`);
+    }
   }
-  if (!xml) return [];
+  if (!xml) {
+    console.error('  Binance Alpha tweets: all Nitter mirrors failed');
+    return [];
+  }
+  console.error(`  Binance Alpha tweets: using mirror ${usedMirror}`);
 
   const out = [];
   const cutoffMs = Date.now() - 36 * 3600 * 1000;   // tweets within past 36h
