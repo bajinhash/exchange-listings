@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-14",
   "weekEnd": "2026-05-20",
-  "updatedAt": "2026-05-20T12:27:10.154Z",
+  "updatedAt": "2026-05-20T12:37:08.702Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -325,27 +325,9 @@
           ]
         },
         {
-          "token": "ASML",
-          "type": "美股合约",
-          "detail": "ASML（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-oklousdt-rddtusdt-asmlusdt-stock-index-perpetual-contracts-2026-05-20",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
           "token": "OKLO",
           "type": "美股合约",
-          "detail": "OKLO（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-oklousdt-rddtusdt-asmlusdt-stock-index-perpetual-contracts-2026-05-20",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "RDDT",
-          "type": "美股合约",
-          "detail": "RDDT（同公告含 3 个标的）",
+          "detail": "KuCoin Futures Will List OKLOUSDT, RDDTUSDT & ASMLUSDT Stock Index Perpetual Contracts (2026-05-20)",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-oklousdt-rddtusdt-asmlusdt-stock-index-perpetual-contracts-2026-05-20",
           "dates": [
             "2026-05-20"
@@ -458,7 +440,7 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX BountyDrop：参与 VAYLA Arena 空投，瓜分 $15,000 VAYLA24 分钟前71",
+          "detail": "Gate DEX BountyDrop：参与 VAYLA Arena 空投，瓜分 $15,000 VAYLA34 分钟前105",
           "url": "https://www.gate.com/zh/announcements/article/51279",
           "dates": [
             "2026-05-20"
@@ -467,7 +449,7 @@
         {
           "token": "ZEST",
           "type": "跟单合约",
-          "detail": "Gate 已上线 ZEST 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...1 小时前252",
+          "detail": "Gate 已上线 ZEST 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...1 小时前285",
           "url": "https://www.gate.com/zh/announcements/article/51278",
           "dates": [
             "2026-05-20"
@@ -476,16 +458,16 @@
         {
           "token": "ZEST",
           "type": "上线",
-          "detail": "余币宝定期理财享 ZEST 额外奖励，BTC 年化高达 10.1%4 小时前534",
+          "detail": "余币宝定期理财享 ZEST 额外奖励，BTC 年化高达 10.1%4 小时前554",
           "url": "https://www.gate.com/zh/announcements/article/51269",
           "dates": [
             "2026-05-20"
           ]
         },
         {
-          "token": "USDT4",
+          "token": "USDT5",
           "type": "上线",
-          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT4 小时前581",
+          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT5 小时前601",
           "url": "https://www.gate.com/zh/announcements/article/51267",
           "dates": [
             "2026-05-20"
@@ -494,7 +476,7 @@
         {
           "token": "BTC",
           "type": "永续合约",
-          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（5 月 22 日 00:00 – 00:30 UTC+8）5 小时前711",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（5 月 22 日 00:00 – 00:30 UTC+8）5 小时前731",
           "url": "https://www.gate.com/zh/announcements/article/51265",
           "dates": [
             "2026-05-20"
@@ -503,7 +485,7 @@
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "比特币披萨狂欢节，切披萨抽 1 BTC，交易瓜分 52,200 USDT 福利5 小时前657",
+          "detail": "比特币披萨狂欢节，切披萨抽 1 BTC，交易瓜分 52,200 USDT 福利5 小时前677",
           "url": "https://www.gate.com/zh/announcements/article/51264",
           "dates": [
             "2026-05-20"
