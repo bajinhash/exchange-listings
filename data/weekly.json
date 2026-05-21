@@ -1,10 +1,28 @@
 {
   "weekStart": "2026-05-15",
   "weekEnd": "2026-05-21",
-  "updatedAt": "2026-05-20T16:36:23.256Z",
+  "updatedAt": "2026-05-21T12:55:45.258Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "AIGENSYN",
+          "type": "上线",
+          "detail": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+          "url": "https://www.binance.com/en/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
+          "url": "https://www.binance.com/en/support/announcement/4a9484ee10b347d287f514ee3fdd6a29",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
         {
           "token": "CBRS",
           "type": "永续合约",
@@ -87,6 +105,15 @@
     },
     "okx": {
       "listings": [
+        {
+          "token": "多个",
+          "type": "永续合约",
+          "detail": "OKX 關於 GEV、URNM 股票永續合約正式上線的公告發佈於 2026年5月21日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-gev-and-urnm-equities",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
         {
           "token": "BNBUSD",
           "type": "上线",
@@ -239,6 +266,15 @@
     },
     "kucoin": {
       "listings": [
+        {
+          "token": "NEX",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: NEXUSDT Perpetual Contract with Up to 10x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-nexusdt-perpetual-contract-with-up-to-10x-leverage",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
         {
           "token": "NBIS",
           "type": "美股合约",
@@ -411,13 +447,67 @@
     "gateio": {
       "listings": [
         {
+          "token": "USDT5",
+          "type": "上线",
+          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT5 小时前655",
+          "url": "https://www.gate.com/zh/announcements/article/51267",
+          "dates": [
+            "2026-05-20",
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "USDT3",
+          "type": "上线",
+          "detail": "CFD 老友季：回归得 10 USDT， 单人最高领 860 USDT3 小时前486",
+          "url": "https://www.gate.com/zh/announcements/article/51305",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "USDT3",
+          "type": "现货上线",
+          "detail": "现货闪兑老友专属福利：交易得 4 USDT，单人最高得 207 USDT3 小时前524",
+          "url": "https://www.gate.com/zh/announcements/article/51304",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "USDT4",
+          "type": "上线",
+          "detail": "合约老友季：交易得 3 USDT，单人最高得 605 USDT4 小时前545",
+          "url": "https://www.gate.com/zh/announcements/article/51303",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "HYPE",
+          "type": "上线",
+          "detail": "HYPE 合约交易赛，每日打卡领 370 USDT5 小时前542",
+          "url": "https://www.gate.com/zh/announcements/article/51296",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "WARD",
+          "type": "上线",
+          "detail": "去中心化 AI 智能体协议：Warden Protocol (WARD) 交易大赛开启，单人最高赢 65,000...6 小时前646",
+          "url": "https://www.gate.com/zh/announcements/article/51289",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
           "token": "DEX",
           "type": "上线",
           "detail": "Gate DEX BountyDrop：参与 VAYLA Arena 空投，瓜分 $15,000 VAYLA1 小时前185",
           "url": "https://www.gate.com/zh/announcements/article/51279",
           "dates": [
-            "2026-05-20",
-            "2026-05-21"
+            "2026-05-20"
           ]
         },
         {
@@ -426,17 +516,7 @@
           "detail": "Gate 已上线 ZEST 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...1 小时前368",
           "url": "https://www.gate.com/zh/announcements/article/51278",
           "dates": [
-            "2026-05-20",
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "DEX",
-          "type": "跟单合约",
-          "detail": "DEX Meme 跟单复刻百万财富挑战赛：单人最高领 740 USDT1 小时前276",
-          "url": "https://www.gate.com/zh/announcements/article/51280",
-          "dates": [
-            "2026-05-21"
+            "2026-05-20"
           ]
         },
         {
@@ -444,15 +524,6 @@
           "type": "上线",
           "detail": "余币宝定期理财享 ZEST 额外奖励，BTC 年化高达 10.1%5 小时前607",
           "url": "https://www.gate.com/zh/announcements/article/51269",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "USDT5",
-          "type": "上线",
-          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT5 小时前655",
-          "url": "https://www.gate.com/zh/announcements/article/51267",
           "dates": [
             "2026-05-20"
           ]
@@ -565,13 +636,84 @@
     "mexc": {
       "listings": [
         {
+          "token": "VIRL",
+          "type": "Meme+ 现货",
+          "detail": "VIRL 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535621",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "XAL",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 SPCX 和 ALUMINIUM(XAL) U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-spcx-and-aluminium-xal-usdt-m-futures-17827791535620",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "SPCX",
+          "type": "上线",
+          "detail": "新股票合約上線：SPCX U 本位合約將於 5/21上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535611",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "跟单合约",
+          "detail": "SKHYNIX（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-samsung-skhynix-and-nex-usdt-m-futures-17827791535610",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "SPCX",
+          "type": "跟单合约",
+          "detail": "SPCX（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-samsung-skhynix-and-nex-usdt-m-futures-17827791535610",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "NOOK",
+          "type": "Meme+ 现货",
+          "detail": "NOOK 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535608",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "PRE",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 SPACEX(PRE)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535607",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
+          "token": "SAMSUNG",
+          "type": "上线",
+          "detail": "新股票合約上線：SAMSUNG 和 SKHYNIX U 本位合約將於 5/21上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535606",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
+        {
           "token": "NEX",
           "type": "现货上线",
           "detail": "全球首發：MEXC 將於 2026年5月20日 22:10 (UTC+8) 上線 Nexus (NEX) USDT合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535589",
           "dates": [
-            "2026-05-20",
-            "2026-05-21"
+            "2026-05-20"
           ]
         },
         {
