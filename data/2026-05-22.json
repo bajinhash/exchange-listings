@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-22",
+  "updatedAt": "2026-05-21T16:20:43.523Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "AIGENSYN",
+          "type": "上线",
+          "detail": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+          "url": "https://www.binance.com/en/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "上线",
+          "detail": "关于 SpaceX (SPCX) 资产凭证拆分及盘前交易调整的公告1 小时前208",
+          "url": "https://www.gate.com/zh/announcements/article/51308"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "XAL",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 SPCX 和 ALUMINIUM(XAL) U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-spcx-and-aluminium-xal-usdt-m-futures-17827791535620"
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-15",
-  "weekEnd": "2026-05-21",
-  "updatedAt": "2026-05-21T13:51:51.656Z",
+  "weekStart": "2026-05-16",
+  "weekEnd": "2026-05-22",
+  "updatedAt": "2026-05-21T16:20:43.696Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -11,7 +11,8 @@
           "detail": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
           "url": "https://www.binance.com/en/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7",
           "dates": [
-            "2026-05-21"
+            "2026-05-21",
+            "2026-05-22"
           ]
         },
         {
@@ -58,24 +59,6 @@
           "url": "https://www.binance.com/en/support/announcement/6253a74ac0734740bdf36864584d1bd1",
           "dates": [
             "2026-05-16"
-          ]
-        },
-        {
-          "token": "?",
-          "type": "永续合约",
-          "detail": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)",
-          "url": "https://www.binance.com/en/support/announcement/a2bce2686fc64a61b44c4335facafe7f",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "PHAROS",
-          "type": "永续合约",
-          "detail": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
-          "url": "https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88",
-          "dates": [
-            "2026-05-15"
           ]
         }
       ],
@@ -261,15 +244,6 @@
           "dates": [
             "2026-05-18"
           ]
-        },
-        {
-          "token": "?",
-          "type": "上线",
-          "detail": "TradFi 股票上新：50 支股票 CFD 現已登陸 Bybit TradFi",
-          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-stock-listing-50-stock-cfds-now-live-on-bybit-tradfi-blt64234aa2b69f524f/",
-          "dates": [
-            "2026-05-15"
-          ]
         }
       ]
     },
@@ -432,29 +406,20 @@
           "dates": [
             "2026-05-18"
           ]
-        },
-        {
-          "token": "?",
-          "type": "美股合约",
-          "detail": "KuCoin Futures Will List Multiple Stock Index Perpetual Contracts (2026-05-15)",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-15",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "World Premiere: Hooli (HOOLI) Listed on KuCoinTrading: 10:00 on May 15, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-hooli-hooli-listed-on-kucoin",
-          "dates": [
-            "2026-05-15"
-          ]
         }
       ]
     },
     "gateio": {
       "listings": [
+        {
+          "token": "SPCX",
+          "type": "上线",
+          "detail": "关于 SpaceX (SPCX) 资产凭证拆分及盘前交易调整的公告1 小时前208",
+          "url": "https://www.gate.com/zh/announcements/article/51308",
+          "dates": [
+            "2026-05-22"
+          ]
+        },
         {
           "token": "DEX",
           "type": "上线",
@@ -544,24 +509,6 @@
           "dates": [
             "2026-05-17"
           ]
-        },
-        {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "Gate 将上线 My Pet Hooligan (HOOLI) 现货交易与闪兑交易2 小时前676",
-          "url": "https://www.gate.com/zh/announcements/article/51223",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "AIGENSYN",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Gensyn (AIGENSYN) 现货交易与闪兑交易1 天前4,128",
-          "url": "https://www.gate.com/zh/announcements/article/51209",
-          "dates": [
-            "2026-05-15"
-          ]
         }
       ]
     },
@@ -584,34 +531,26 @@
           "dates": [
             "2026-05-19"
           ]
-        },
-        {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "Hooli (HOOLI) 将上线 Bitget GameFi 专区",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883953",
-          "dates": [
-            "2026-05-15"
-          ]
         }
       ]
     },
     "mexc": {
       "listings": [
         {
-          "token": "VIRL",
-          "type": "Meme+ 现货",
-          "detail": "VIRL 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535621",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
           "token": "XAL",
           "type": "跟单合约",
           "detail": "MEXC 跟單新增 SPCX 和 ALUMINIUM(XAL) U本位合約交易對",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-spcx-and-aluminium-xal-usdt-m-futures-17827791535620",
+          "dates": [
+            "2026-05-21",
+            "2026-05-22"
+          ]
+        },
+        {
+          "token": "VIRL",
+          "type": "Meme+ 现货",
+          "detail": "VIRL 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535621",
           "dates": [
             "2026-05-21"
           ]
@@ -974,78 +913,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496",
           "dates": [
             "2026-05-16"
-          ]
-        },
-        {
-          "token": "DVERSE",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535439",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "HOOLI",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Hooli (HOOLI)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535490",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "HOOLI",
-          "type": "上线",
-          "detail": "MEXC 盤前交易：Hooli (HOOLI) 即將上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-trading-17827791535489",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "BRKB",
-          "type": "上线",
-          "detail": "新美股合約上線：BRKB U 本位合約將於 5/18 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535481",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "?",
-          "type": "上线",
-          "detail": "百倍收益圍獵計畫第 3 期：50,000 USDT 獎勵等您瓜分！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/100x-profit-hunting-season-3-17827791535479",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "CBRS",
-          "type": "上线",
-          "detail": "新美股合約上線：CBRS U 本位合約將於 5/15 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535478",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "DIS",
-          "type": "上线",
-          "detail": "新美股合約上線：DIS U 本位合約將於 5/15 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535477",
-          "dates": [
-            "2026-05-15"
-          ]
-        },
-        {
-          "token": "HD",
-          "type": "上线",
-          "detail": "新美股合約上線：HD U 本位合約將於 5/15 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535475",
-          "dates": [
-            "2026-05-15"
           ]
         }
       ]
