@@ -1,6 +1,6 @@
 {
   "date": "2026-05-21",
-  "updatedAt": "2026-05-21T12:55:45.085Z",
+  "updatedAt": "2026-05-21T13:24:34.239Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -38,7 +38,14 @@
       ]
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "10000NEX",
+          "type": "永续合约",
+          "detail": "10000NEXUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-10000nexusdt-perpetual-contract-with-up-to-10x-leverage-blt562c7af955f6f932/"
+        }
+      ]
     },
     "kucoin": {
       "listings": [
@@ -51,44 +58,7 @@
       ]
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "USDT3",
-          "type": "上线",
-          "detail": "CFD 老友季：回归得 10 USDT， 单人最高领 860 USDT3 小时前486",
-          "url": "https://www.gate.com/zh/announcements/article/51305"
-        },
-        {
-          "token": "USDT3",
-          "type": "现货上线",
-          "detail": "现货闪兑老友专属福利：交易得 4 USDT，单人最高得 207 USDT3 小时前524",
-          "url": "https://www.gate.com/zh/announcements/article/51304"
-        },
-        {
-          "token": "USDT4",
-          "type": "上线",
-          "detail": "合约老友季：交易得 3 USDT，单人最高得 605 USDT4 小时前545",
-          "url": "https://www.gate.com/zh/announcements/article/51303"
-        },
-        {
-          "token": "HYPE",
-          "type": "上线",
-          "detail": "HYPE 合约交易赛，每日打卡领 370 USDT5 小时前542",
-          "url": "https://www.gate.com/zh/announcements/article/51296"
-        },
-        {
-          "token": "USDT5",
-          "type": "上线",
-          "detail": "Polymarket 老友福利，回归首单包赔，交易打卡瓜分 50,000 USDT5 小时前574",
-          "url": "https://www.gate.com/zh/announcements/article/51294"
-        },
-        {
-          "token": "WARD",
-          "type": "上线",
-          "detail": "去中心化 AI 智能体协议：Warden Protocol (WARD) 交易大赛开启，单人最高赢 65,000...6 小时前646",
-          "url": "https://www.gate.com/zh/announcements/article/51289"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": []

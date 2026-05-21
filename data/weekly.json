@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-15",
   "weekEnd": "2026-05-21",
-  "updatedAt": "2026-05-21T12:55:45.258Z",
+  "updatedAt": "2026-05-21T13:24:49.877Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -199,6 +199,15 @@
     },
     "bybit": {
       "listings": [
+        {
+          "token": "10000NEX",
+          "type": "永续合约",
+          "detail": "10000NEXUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-10000nexusdt-perpetual-contract-with-up-to-10x-leverage-blt562c7af955f6f932/",
+          "dates": [
+            "2026-05-21"
+          ]
+        },
         {
           "token": "CSCO",
           "type": "永续合约",
@@ -447,61 +456,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT5",
-          "type": "上线",
-          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT5 小时前655",
-          "url": "https://www.gate.com/zh/announcements/article/51267",
-          "dates": [
-            "2026-05-20",
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "USDT3",
-          "type": "上线",
-          "detail": "CFD 老友季：回归得 10 USDT， 单人最高领 860 USDT3 小时前486",
-          "url": "https://www.gate.com/zh/announcements/article/51305",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "USDT3",
-          "type": "现货上线",
-          "detail": "现货闪兑老友专属福利：交易得 4 USDT，单人最高得 207 USDT3 小时前524",
-          "url": "https://www.gate.com/zh/announcements/article/51304",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "USDT4",
-          "type": "上线",
-          "detail": "合约老友季：交易得 3 USDT，单人最高得 605 USDT4 小时前545",
-          "url": "https://www.gate.com/zh/announcements/article/51303",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "HYPE",
-          "type": "上线",
-          "detail": "HYPE 合约交易赛，每日打卡领 370 USDT5 小时前542",
-          "url": "https://www.gate.com/zh/announcements/article/51296",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "WARD",
-          "type": "上线",
-          "detail": "去中心化 AI 智能体协议：Warden Protocol (WARD) 交易大赛开启，单人最高赢 65,000...6 小时前646",
-          "url": "https://www.gate.com/zh/announcements/article/51289",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
           "token": "DEX",
           "type": "上线",
           "detail": "Gate DEX BountyDrop：参与 VAYLA Arena 空投，瓜分 $15,000 VAYLA1 小时前185",
@@ -524,6 +478,15 @@
           "type": "上线",
           "detail": "余币宝定期理财享 ZEST 额外奖励，BTC 年化高达 10.1%5 小时前607",
           "url": "https://www.gate.com/zh/announcements/article/51269",
+          "dates": [
+            "2026-05-20"
+          ]
+        },
+        {
+          "token": "USDT5",
+          "type": "上线",
+          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT5 小时前655",
+          "url": "https://www.gate.com/zh/announcements/article/51267",
           "dates": [
             "2026-05-20"
           ]

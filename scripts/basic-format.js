@@ -175,8 +175,10 @@ function extractTokensFromBody(item) {
     tokens.add(canon || t);
   };
   // Pattern 1: TICKERUSDT-Margined / TICKERUSDT 永續 / TICKERUSDT 永续
-  for (const m of body.matchAll(/\b([A-Z][A-Z0-9]{1,14})USDT[-\s]?(?:Margined|Perpetual|永續|永续|合約|合约)/g)) {
-    add(m[1]);
+  //    Also handle 1000X / 10000X Bybit-style scaled perps. Lookbehind anchors
+  //    the optional digit prefix at a word start.
+  for (const m of body.matchAll(/(?<![A-Z0-9])(\d{3,5})?([A-Z][A-Z0-9]{1,14})USDT[-\s]?(?:Margined|Perpetual|永續|永续|合約|合约)/g)) {
+    add((m[1] || '') + m[2]);
   }
   // Pattern 2: enumeration "TICKER1, TICKER2 and TICKER3" (Binance Multiple TradFi style)
   for (const m of body.matchAll(/\b([A-Z][A-Z0-9]{2,14})\s*(?:[,]\s+|\s+(?:and|及|和)\s+)/g)) {
@@ -241,8 +243,15 @@ function extractToken(item) {
     return 'TradFi';
   }
   // 1. TICKERUSDT (perpetual notation — strongest signal). Allow up to 15 chars.
-  const usdtAll = [...title.matchAll(/\b([A-Z][A-Z0-9]{1,14})USDT\b/g)];
-  for (const m of usdtAll) if (!BANNED_TOKEN.has(m[1])) return m[1];
+  //    Also handle Bybit-style 1000X / 10000X scaled perps (e.g. 10000NEXUSDT
+  //    means perp denominated in 10,000 NEX units). Use a lookbehind to anchor
+  //    the optional digit prefix at a word start, since \b between digit and
+  //    letter doesn't trigger (both are \w).
+  const usdtAll = [...title.matchAll(/(?<![A-Z0-9])(\d{3,5})?([A-Z][A-Z0-9]{1,14})USDT\b/g)];
+  for (const m of usdtAll) {
+    const tok = (m[1] || '') + m[2];
+    if (!BANNED_TOKEN.has(m[2])) return tok;
+  }
   // 2. TICKER-USDT or TICKER/USDT
   const dashedAll = [...title.matchAll(/\b([A-Z][A-Z0-9]{1,14})[/-]USD[TC]?\b/g)];
   for (const m of dashedAll) if (!BANNED_TOKEN.has(m[1])) return m[1];
@@ -326,7 +335,7 @@ function inWindow(parsed) {
 // Note: 定投 (DCA / dollar-cost averaging) was previously in DENY, but
 // "现货定投新增支持 X" is legit new-token-support news. Keep the deny list
 // scoped to genuine noise (campaigns, lotteries, maintenance, delistings).
-const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照/i;
+const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照|老友季|老友福利|老友专属|老友專屬|交易大赛|交易大賽|打卡领|打卡領|打卡瓜分|回归得|回歸得|单人最高|單人最高|回归首单包赔|回歸首單包賠|每日打卡/i;
 
 // "首发上线" / "Will List" / "上币" — these are strong positive listing
 // signals. When a title has one of these AND no HARD-noise marker (campaign,
