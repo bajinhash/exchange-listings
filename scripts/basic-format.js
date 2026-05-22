@@ -52,6 +52,17 @@ function parsePublishTime(item) {
     const ts = Date.parse(m[1]);
     if (!isNaN(ts)) return { ts, date: m[1].slice(0, 10) };
   }
+  // 1a-okx. OKX titles always carry their own publish date as
+  //   "公告發佈於 YYYY年M月D日" / "公告发布于 YYYY年M月D日". This is the
+  //   announcement publish date (authoritative — not a future schedule).
+  //   Check this BEFORE the generic Chinese-date scanner so it wins over
+  //   any in-body schedule strings.
+  if ((m = title.match(/公告(?:發佈於|发布于)\s*(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日/))) {
+    return {
+      ts: null,
+      date: `${m[1]}-${String(m[2]).padStart(2,'0')}-${String(m[3]).padStart(2,'0')}`,
+    };
+  }
   // 1b. "Published: YYYY-MM-DD" (date only — OKX/scraper-injected)
   if ((m = text.match(/Published:?\s*(\d{4}-\d{2}-\d{2})\b/))) {
     return { ts: null, date: m[1] };
@@ -143,11 +154,15 @@ function parsePublishTime(item) {
 // Common false-positive tokens / brand names to skip when matching.
 const BANNED_TOKEN = new Set([
   'UTC', 'USD', 'USDT', 'USDC', 'EUR', 'TRY', 'JPY', 'GBP', 'CNY', 'KZT',
-  'ETF', 'CFD', 'NFT', 'API', 'KOL', 'AI', 'AML', 'KYC', 'FAQ', 'VIP', 'CEO',
+  'ETF', 'CFD', 'NFT', 'API', 'KOL', 'AML', 'KYC', 'FAQ', 'VIP', 'CEO',
   'AMA', 'IPO', 'TWT', 'PR', 'HODLER', 'TRADING', 'NEW', 'SPOT', 'PERPETUAL',
   // Brand names
   'MEXC', 'OKX', 'BINANCE', 'BYBIT', 'KUCOIN', 'GATE', 'HTX', 'BITGET',
   'KRAKEN', 'COINBASE',
+  // NOTE: "AI" was previously banned defensively (to avoid "Binance AI Conf"
+  // style false matches). It's now a real OKX ticker (Gensyn = AI/USDT spot),
+  // and the regex contexts that pick it up (TICKERUSDT / TICKER-USDT /
+  // (TICKER) parens) are strong enough that bare-prose "AI" won't match.
 ]);
 const BRAND_LOWER = new Set([
   'mexc', 'okx', 'binance', 'bybit', 'kucoin', 'gate', 'htx', 'bitget',
@@ -210,6 +225,17 @@ function extractTokensFromBody(item) {
 // Returns an array of tokens for this item. Most items → [single token];
 // bulk listings → multiple tokens parsed from body.
 function extractTokens(item) {
+  const title = item.title || '';
+  // Priority A: title with 2+ (TICKER) parens. The parens ARE the canonical
+  // ticker list — trust them and skip the body scan. Body context like
+  // "trading GENIUS and OPG against BTC, USDT" or "buy with VISA, MasterCard"
+  // would otherwise leak BTC/VISA into the listings bucket as if they were
+  // newly listed tokens.
+  const titleParens = [...title.matchAll(/\(([A-Z][A-Z0-9]{0,14})\)/g)]
+    .map(m => m[1]).filter(t => !BANNED_TOKEN.has(t));
+  if (titleParens.length >= 2) {
+    return [...new Set(titleParens)];
+  }
   const single = extractToken(item);
   // Only do bulk expansion when title flagged it as "多个" or single failed (?)
   if (single !== '多个' && single !== '?' && single !== 'TradFi') {
@@ -335,7 +361,7 @@ function inWindow(parsed) {
 // Note: 定投 (DCA / dollar-cost averaging) was previously in DENY, but
 // "现货定投新增支持 X" is legit new-token-support news. Keep the deny list
 // scoped to genuine noise (campaigns, lotteries, maintenance, delistings).
-const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照|老友季|老友福利|老友专属|老友專屬|交易大赛|交易大賽|打卡领|打卡領|打卡瓜分|回归得|回歸得|单人最高|單人最高|回归首单包赔|回歸首單包賠|每日打卡/i;
+const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照|老友季|老友福利|老友专属|老友專屬|交易大赛|交易大賽|交易赛|交易賽|打卡领|打卡領|打卡瓜分|回归得|回歸得|单人最高|單人最高|回归首单包赔|回歸首單包賠|每日打卡|零成本跟单|零成本跟單|跟单第\s*[一二三四五六七八九十\d]+\s*期|跟單第\s*[一二三四五六七八九十\d]+\s*期|见面礼|見面禮|活期理财|活期理財|理财福利|理財福利|新人特权|新人特權|首充\s*\d+%|首充\s*[一二三四五六七八九十百]+%|返现\b|返現\b|邀友|空投来袭|空投來襲|新人同领|新人同領|回归加送|回歸加送|瓜分\s*[\d,]+\s*USDT|质押上线|質押上線|份额拆分|份額拆分|恢复盘前交易|恢復盤前交易/i;
 
 // "首发上线" / "Will List" / "上币" — these are strong positive listing
 // signals. When a title has one of these AND no HARD-noise marker (campaign,

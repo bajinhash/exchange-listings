@@ -1,31 +1,31 @@
 {
   "date": "2026-05-22",
-  "updatedAt": "2026-05-22T12:47:27.721Z",
+  "updatedAt": "2026-05-22T14:59:50.941Z",
   "exchanges": {
     "binance": {
       "listings": [
         {
-          "token": "BTC",
-          "type": "杠杆上线",
-          "detail": "BTC（同公告含 3 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8"
-        },
-        {
           "token": "GENIUS",
           "type": "杠杆上线",
-          "detail": "GENIUS（同公告含 3 个标的）",
+          "detail": "GENIUS（同公告含 2 个标的）",
           "url": "https://www.binance.com/en/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8"
         },
         {
-          "token": "VISA",
+          "token": "OPG",
           "type": "杠杆上线",
-          "detail": "VISA（同公告含 3 个标的）",
+          "detail": "OPG（同公告含 2 个标的）",
           "url": "https://www.binance.com/en/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8"
         },
         {
           "token": "GENIUS",
           "type": "现货上线",
-          "detail": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+          "detail": "GENIUS（同公告含 2 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/4de6272354be421ba51ea042fd273a8d"
+        },
+        {
+          "token": "OPG",
+          "type": "现货上线",
+          "detail": "OPG（同公告含 2 个标的）",
           "url": "https://www.binance.com/en/support/announcement/4de6272354be421ba51ea042fd273a8d"
         },
         {
@@ -39,7 +39,14 @@
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "AI",
+          "type": "现货上线",
+          "detail": "OKX 關於上線 AI/USDT (Gensyn) 現貨交易的公告發佈於 2026年5月22日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-ai-usdt-gensyn-for-spot-trading"
+        }
+      ]
     },
     "bybit": {
       "listings": []
@@ -88,45 +95,9 @@
       "listings": [
         {
           "token": "SPCX",
-          "type": "上线",
-          "detail": "SPCX 盘前合约交易赛，瓜分 200,000 USDT 奖池4 小时前486",
-          "url": "https://www.gate.com/zh/announcements/article/51330"
-        },
-        {
-          "token": "USDT5",
-          "type": "跟单合约",
-          "detail": "零成本跟单第二期：20 USDT 见面礼，瓜分 100,000 USDT5 小时前918",
-          "url": "https://www.gate.com/zh/announcements/article/51323"
-        },
-        {
-          "token": "SPCX",
           "type": "永续合约",
-          "detail": "Gate 已上线 SPCXUSDT 永续合约盘前交易（USDT 结算）5 小时前917",
+          "detail": "Gate 已上线 SPCXUSDT 永续合约盘前交易（USDT 结算）7 小时前1,299",
           "url": "https://www.gate.com/zh/announcements/article/51322"
-        },
-        {
-          "token": "USDS",
-          "type": "上线",
-          "detail": "USDS 质押上线，质押享 2.24% 年化收益6 小时前685",
-          "url": "https://www.gate.com/zh/announcements/article/51321"
-        },
-        {
-          "token": "XAUT",
-          "type": "上线",
-          "detail": "XAUT 活期理财福利第二弹：限时年化收益达 15.1%6 小时前808",
-          "url": "https://www.gate.com/zh/announcements/article/51319"
-        },
-        {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "新人特权：首充 100% 返现，合约新人最高解锁 26 USDT7 小时前874",
-          "url": "https://www.gate.com/zh/announcements/article/51317"
-        },
-        {
-          "token": "DOGE",
-          "type": "上线",
-          "detail": "DOGE 空投来袭：邀友最高领 930 DOGE，新人同领，回归加送9 小时前1,072",
-          "url": "https://www.gate.com/zh/announcements/article/51312"
         }
       ]
     },
