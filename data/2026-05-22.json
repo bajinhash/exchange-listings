@@ -1,6 +1,6 @@
 {
   "date": "2026-05-22",
-  "updatedAt": "2026-05-22T14:59:50.941Z",
+  "updatedAt": "2026-05-22T15:53:15.119Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -96,7 +96,7 @@
         {
           "token": "SPCX",
           "type": "永续合约",
-          "detail": "Gate 已上线 SPCXUSDT 永续合约盘前交易（USDT 结算）7 小时前1,299",
+          "detail": "Gate 已上线 SPCXUSDT 永续合约盘前交易（USDT 结算）8 小时前1,481",
           "url": "https://www.gate.com/zh/announcements/article/51322"
         }
       ]
