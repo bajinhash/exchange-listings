@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-23",
+  "updatedAt": "2026-05-23T11:23:01.954Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "GENIUS",
+          "type": "杠杆上线",
+          "detail": "GENIUS（同公告含 2 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8"
+        },
+        {
+          "token": "OPG",
+          "type": "杠杆上线",
+          "detail": "OPG（同公告含 2 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
