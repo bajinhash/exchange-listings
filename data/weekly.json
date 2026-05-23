@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-17",
   "weekEnd": "2026-05-23",
-  "updatedAt": "2026-05-23T11:49:31.228Z",
+  "updatedAt": "2026-05-23T14:34:33.710Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -74,6 +74,15 @@
         }
       ],
       "alpha": [
+        {
+          "token": "SLX",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SLX (Solstice) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2058156451240292574",
+          "dates": [
+            "2026-05-23"
+          ]
+        },
         {
           "token": "NEX",
           "type": "上线",

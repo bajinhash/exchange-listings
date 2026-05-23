@@ -1,6 +1,6 @@
 {
   "date": "2026-05-23",
-  "updatedAt": "2026-05-23T11:49:31.077Z",
+  "updatedAt": "2026-05-23T14:34:33.526Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -17,7 +17,14 @@
           "url": "https://www.binance.com/en/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8"
         }
       ],
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "SLX",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SLX (Solstice) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2058156451240292574"
+        }
+      ],
       "wallet": []
     },
     "okx": {
