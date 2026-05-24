@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-17",
-  "weekEnd": "2026-05-23",
-  "updatedAt": "2026-05-23T14:34:33.710Z",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "updatedAt": "2026-05-24T11:27:17.775Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -80,7 +80,17 @@
           "detail": "Binance Alpha 上线 SLX (Solstice) — @BinanceWallet 公告",
           "url": "https://x.com/BinanceWallet/status/2058156451240292574",
           "dates": [
-            "2026-05-23"
+            "2026-05-23",
+            "2026-05-24"
+          ]
+        },
+        {
+          "token": "CTR",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CTR (Citrea) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2058488765824581805",
+          "dates": [
+            "2026-05-24"
           ]
         },
         {
@@ -418,16 +428,6 @@
           ]
         },
         {
-          "token": "ATWO",
-          "type": "现货上线",
-          "detail": "World Premiere: Arena Two (ATWO) Listed on KuCoinTrading: 12:00 on May 18, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-arena-two-atwo-listed-on-kucoin",
-          "dates": [
-            "2026-05-17",
-            "2026-05-18"
-          ]
-        },
-        {
           "token": "BRKB",
           "type": "美股合约",
           "detail": "BRKB（同公告含 4 个标的）",
@@ -486,6 +486,15 @@
           "type": "美股合约",
           "detail": "KuCoin Futures Will List TQQQUSDT, MCDUSDT & AAOIUSDT Stock Index Perpetual Contracts (2026-05-18)",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-tqqqusdt-mcdusdt-aaoiusdt-stock-index-perpetual-contracts-2026-05-18",
+          "dates": [
+            "2026-05-18"
+          ]
+        },
+        {
+          "token": "ATWO",
+          "type": "现货上线",
+          "detail": "World Premiere: Arena Two (ATWO) Listed on KuCoinTrading: 12:00 on May 18, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-arena-two-atwo-listed-on-kucoin",
           "dates": [
             "2026-05-18"
           ]
@@ -583,15 +592,6 @@
           "dates": [
             "2026-05-18"
           ]
-        },
-        {
-          "token": "WARD",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Warden Protocol (WARD) 现货交易与闪兑交易3 小时前892",
-          "url": "https://www.gate.com/zh/announcements/article/51229",
-          "dates": [
-            "2026-05-17"
-          ]
         }
       ]
     },
@@ -619,6 +619,15 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "RICH",
+          "type": "Meme+ 现货",
+          "detail": "RICH 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535652",
+          "dates": [
+            "2026-05-24"
+          ]
+        },
         {
           "token": "BE",
           "type": "上线",
@@ -851,15 +860,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gitlawb-dis-hd-cbrs-and-hooli-usdt-m-futures-17827791535521",
           "dates": [
             "2026-05-18"
-          ]
-        },
-        {
-          "token": "VIM",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Vimverse (VIM)，瓜分 40,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535485",
-          "dates": [
-            "2026-05-17"
           ]
         }
       ]

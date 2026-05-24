@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-24",
+  "updatedAt": "2026-05-24T11:27:17.601Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "CTR",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CTR (Citrea) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2058488765824581805"
+        },
+        {
+          "token": "SLX",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SLX (Solstice) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2058156451240292574"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "RICH",
+          "type": "Meme+ 现货",
+          "detail": "RICH 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535652"
+        }
+      ]
+    }
+  }
+}
