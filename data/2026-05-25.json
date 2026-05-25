@@ -1,0 +1,120 @@
+{
+  "date": "2026-05-25",
+  "updatedAt": "2026-05-25T13:18:51.682Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "SLX",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SLX - 收益层：将机构级收益引入互联网资本市场。",
+          "url": "https://www.binance.com/en/alpha/bsc/0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d"
+        },
+        {
+          "token": "CTR",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CTR (Citrea) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2058488765824581805"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "AVAXUSD",
+          "type": "上线",
+          "detail": "AVAXUSD（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp"
+        },
+        {
+          "token": "BCHUSD",
+          "type": "上线",
+          "detail": "BCHUSD（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp"
+        },
+        {
+          "token": "TONUSD",
+          "type": "上线",
+          "detail": "TONUSD（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp"
+        },
+        {
+          "token": "ZECUSD",
+          "type": "上线",
+          "detail": "ZECUSD（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SKYAI1",
+          "type": "永续合约",
+          "detail": "SKYAI1USDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skyai1usdt-perpetual-contract-with-up-to-10x-leverage-bltc390d2afccc10cf8/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "CTR",
+          "type": "现货上线",
+          "detail": "World Premiere: Citrea (CTR) Listed on KuCoinTrading: 13:00 on May 26, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-citrea-ctr-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SLX",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Solstice (SLX) 现货交易与闪兑交易2 小时前470",
+          "url": "https://www.gate.com/zh/announcements/article/51363"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SLX",
+          "type": "现货上线",
+          "detail": "Solstice（SLX）将上线 Bitget Solana 生态专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884389"
+        },
+        {
+          "token": "U",
+          "type": "上线",
+          "detail": "United Stables（U）将上线 Bitget 稳定币区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884229"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "AORA",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 AtlasOra (AORA)，瓜分 720,915 AORA & 10,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535641"
+        },
+        {
+          "token": "CAS",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Caspius (CAS)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535664"
+        },
+        {
+          "token": "SURPLUS",
+          "type": "Meme+ 现货",
+          "detail": "SURPLUS 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535663"
+        }
+      ]
+    }
+  }
+}
