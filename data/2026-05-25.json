@@ -1,6 +1,6 @@
 {
   "date": "2026-05-25",
-  "updatedAt": "2026-05-25T13:53:14.037Z",
+  "updatedAt": "2026-05-25T15:48:31.757Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -69,14 +69,7 @@
       ]
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "SLX",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Solstice (SLX) 现货交易与闪兑交易2 小时前590",
-          "url": "https://www.gate.com/zh/announcements/article/51363"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": [
