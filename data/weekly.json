@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-20",
-  "weekEnd": "2026-05-26",
-  "updatedAt": "2026-05-26T13:34:47.761Z",
+  "weekStart": "2026-05-21",
+  "weekEnd": "2026-05-27",
+  "updatedAt": "2026-05-26T16:37:46.448Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -126,7 +126,8 @@
           "dates": [
             "2026-05-24",
             "2026-05-25",
-            "2026-05-26"
+            "2026-05-26",
+            "2026-05-27"
           ]
         },
         {
@@ -143,20 +144,10 @@
         {
           "token": "NEX",
           "type": "上线",
-          "detail": "Binance Alpha 上线 NEX (Nexus) — @BinanceWallet 公告",
-          "url": "https://x.com/BinanceWallet/status/2057038810526208104",
+          "detail": "Binance Alpha 上线 NEX - Layer 1 for Verifiable Finance",
+          "url": "https://www.binance.com/en/alpha/bsc/0x365de036a1f7dccb621530d517133521debb2013",
           "dates": [
-            "2026-05-20",
             "2026-05-21"
-          ]
-        },
-        {
-          "token": "ZEST",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 ZEST - The leading Bitcoin lending protocol. Earn yield on BTC and borrow against it.",
-          "url": "https://www.binance.com/en/alpha/bsc/0x5506599c722389a60580b5213ea1da60d64754a1",
-          "dates": [
-            "2026-05-20"
           ]
         }
       ],
@@ -244,51 +235,6 @@
           "dates": [
             "2026-05-21"
           ]
-        },
-        {
-          "token": "BNBUSD",
-          "type": "上线",
-          "detail": "BNBUSD（同公告含 5 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-taousd-bnbusd-hypeusd-linkusd-and-trxusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "HYPEUSD",
-          "type": "上线",
-          "detail": "HYPEUSD（同公告含 5 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-taousd-bnbusd-hypeusd-linkusd-and-trxusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "LINKUSD",
-          "type": "上线",
-          "detail": "LINKUSD（同公告含 5 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-taousd-bnbusd-hypeusd-linkusd-and-trxusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "TAOUSD",
-          "type": "上线",
-          "detail": "TAOUSD（同公告含 5 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-taousd-bnbusd-hypeusd-linkusd-and-trxusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "TRXUSD",
-          "type": "上线",
-          "detail": "TRXUSD（同公告含 5 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-taousd-bnbusd-hypeusd-linkusd-and-trxusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-05-20"
-          ]
         }
       ]
     },
@@ -329,24 +275,6 @@
           "dates": [
             "2026-05-21"
           ]
-        },
-        {
-          "token": "CSCO",
-          "type": "永续合约",
-          "detail": "CSCOUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cscousdt-perpetual-contract-with-up-to-10x-leverage-blt2e49ccaaed2e3d51/",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "RKLB",
-          "type": "永续合约",
-          "detail": "RKLBUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-rklbusdt-perpetual-contract-with-up-to-10x-leverage-blt259e435981dcceff/",
-          "dates": [
-            "2026-05-20"
-          ]
         }
       ]
     },
@@ -358,7 +286,8 @@
           "detail": "World Premiere: XMAQUINA (DEUS) Listed on KuCoinTrading: 13:00 on May 27, 2026 (UTC)",
           "url": "https://www.kucoin.com/announcement/en-world-premiere-xmaquina-deus-listed-on-kucoin",
           "dates": [
-            "2026-05-26"
+            "2026-05-26",
+            "2026-05-27"
           ]
         },
         {
@@ -441,78 +370,6 @@
           "dates": [
             "2026-05-21"
           ]
-        },
-        {
-          "token": "ASML",
-          "type": "美股合约",
-          "detail": "ASML（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-oklousdt-rddtusdt-asmlusdt-stock-index-perpetual-contracts-2026-05-20",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "OKLO",
-          "type": "美股合约",
-          "detail": "OKLO（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-oklousdt-rddtusdt-asmlusdt-stock-index-perpetual-contracts-2026-05-20",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "RDDT",
-          "type": "美股合约",
-          "detail": "RDDT（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-oklousdt-rddtusdt-asmlusdt-stock-index-perpetual-contracts-2026-05-20",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "NEX",
-          "type": "现货上线",
-          "detail": "World Premiere: Nexus (NEX) Listed on KuCoinTrading: 15:00 on May 20, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-nexus-nex-listed-on-kucoin",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "NBIS",
-          "type": "美股合约",
-          "detail": "NBIS（同公告含 4 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "SOXS",
-          "type": "美股合约",
-          "detail": "SOXS（同公告含 4 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "SQQQ",
-          "type": "美股合约",
-          "detail": "SQQQ（同公告含 4 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "XOM",
-          "type": "美股合约",
-          "detail": "XOM（同公告含 4 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19",
-          "dates": [
-            "2026-05-20"
-          ]
         }
       ]
     },
@@ -521,10 +378,9 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX BountyDrop：参与 VAYLA Arena 空投，瓜分 $15,000 VAYLA1 小时前185",
-          "url": "https://www.gate.com/zh/announcements/article/51279",
+          "detail": "Gate DEX BountyDrop：参与 Citrea 空投，瓜分 $60,000 CTR7 小时前854",
+          "url": "https://www.gate.com/zh/announcements/article/51380",
           "dates": [
-            "2026-05-20",
             "2026-05-26"
           ]
         },
@@ -544,51 +400,6 @@
           "url": "https://www.gate.com/zh/announcements/article/51322",
           "dates": [
             "2026-05-22"
-          ]
-        },
-        {
-          "token": "ZEST",
-          "type": "跟单合约",
-          "detail": "Gate 已上线 ZEST 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...1 小时前368",
-          "url": "https://www.gate.com/zh/announcements/article/51278",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "ZEST",
-          "type": "上线",
-          "detail": "余币宝定期理财享 ZEST 额外奖励，BTC 年化高达 10.1%5 小时前607",
-          "url": "https://www.gate.com/zh/announcements/article/51269",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "USDT5",
-          "type": "上线",
-          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT5 小时前655",
-          "url": "https://www.gate.com/zh/announcements/article/51267",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "BTC",
-          "type": "永续合约",
-          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（5 月 22 日 00:00 – 00:30 UTC+8）5 小时前777",
-          "url": "https://www.gate.com/zh/announcements/article/51265",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "BTC",
-          "type": "上线",
-          "detail": "比特币披萨狂欢节，切披萨抽 1 BTC，交易瓜分 52,200 USDT 福利5 小时前734",
-          "url": "https://www.gate.com/zh/announcements/article/51264",
-          "dates": [
-            "2026-05-20"
           ]
         }
       ]
@@ -622,20 +433,20 @@
           "dates": [
             "2026-05-25"
           ]
-        },
-        {
-          "token": "NEX",
-          "type": "现货上线",
-          "detail": "Nexus (NEX) 将上线 Bitget",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884120",
-          "dates": [
-            "2026-05-20"
-          ]
         }
       ]
     },
     "mexc": {
       "listings": [
+        {
+          "token": "DROPEE",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Dropee (DROPEE)，瓜分 1,000,000 DROPEE & 20,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535676",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
         {
           "token": "BE",
           "type": "跟单合约",
@@ -814,51 +625,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535606",
           "dates": [
             "2026-05-21"
-          ]
-        },
-        {
-          "token": "NEX",
-          "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年5月20日 22:10 (UTC+8) 上線 Nexus (NEX) USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535589",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "MEMECOIN",
-          "type": "Meme+ 现货",
-          "detail": "MEMECOIN 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535587",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "PITCH",
-          "type": "Meme+ 现货",
-          "detail": "PITCH 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535581",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "ZEST",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 ZEST U本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zest-usdt-m-futures-17827791535574",
-          "dates": [
-            "2026-05-20"
-          ]
-        },
-        {
-          "token": "KELLYCLAUDE",
-          "type": "Meme+ 现货",
-          "detail": "KELLYCLAUDE 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535572",
-          "dates": [
-            "2026-05-20"
           ]
         }
       ]
