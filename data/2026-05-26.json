@@ -1,0 +1,187 @@
+{
+  "date": "2026-05-26",
+  "updatedAt": "2026-05-26T13:34:47.585Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "OPENAI",
+          "type": "Pre-IPO 上线",
+          "detail": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+          "url": "https://www.binance.com/en/support/announcement/94f88766c6c84d68a07f006bc076ba6a"
+        },
+        {
+          "token": "ARM",
+          "type": "永续合约",
+          "detail": "ARM（同公告含 5 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f3a598a5ab4344af993f67a9c3f4544a"
+        },
+        {
+          "token": "BE",
+          "type": "永续合约",
+          "detail": "BE（同公告含 5 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f3a598a5ab4344af993f67a9c3f4544a"
+        },
+        {
+          "token": "COHR",
+          "type": "永续合约",
+          "detail": "COHR（同公告含 5 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f3a598a5ab4344af993f67a9c3f4544a"
+        },
+        {
+          "token": "NBIS",
+          "type": "永续合约",
+          "detail": "NBIS（同公告含 5 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f3a598a5ab4344af993f67a9c3f4544a"
+        },
+        {
+          "token": "WDC",
+          "type": "永续合约",
+          "detail": "WDC（同公告含 5 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f3a598a5ab4344af993f67a9c3f4544a"
+        }
+      ],
+      "alpha": [
+        {
+          "token": "CTR",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CTR - Citrea 是比特币应用层，连接机构与用户进入比特币资本市场。",
+          "url": "https://www.binance.com/en/alpha/base/0x11030f79109269d796fd0fb956d6244e502757f7"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "AAOI",
+          "type": "永续合约",
+          "detail": "AAOI（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-aaoi-infq-and-crwd-equities"
+        },
+        {
+          "token": "CRWD",
+          "type": "永续合约",
+          "detail": "CRWD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-aaoi-infq-and-crwd-equities"
+        },
+        {
+          "token": "INFQ",
+          "type": "永续合约",
+          "detail": "INFQ（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-aaoi-infq-and-crwd-equities"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "NBIS",
+          "type": "永续合约",
+          "detail": "NBISUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nbisusdt-perpetual-contract-with-up-to-10x-leverage-blt443660d7c2fbe610/"
+        },
+        {
+          "token": "QCOM",
+          "type": "永续合约",
+          "detail": "QCOMUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-qcomusdt-perpetual-contract-with-up-to-10x-leverage-blt54bc836545de7959/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "DEUS",
+          "type": "现货上线",
+          "detail": "World Premiere: XMAQUINA (DEUS) Listed on KuCoinTrading: 13:00 on May 27, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-xmaquina-deus-listed-on-kucoin"
+        },
+        {
+          "token": "ZEST",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: ZESTUSDT Perpetual Contract with Up to 10x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-zestusdt-perpetual-contract-with-up-to-10x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "DEX",
+          "type": "上线",
+          "detail": "Gate DEX BountyDrop：参与 Citrea 空投，瓜分 $60,000 CTR7 小时前854",
+          "url": "https://www.gate.com/zh/announcements/article/51380"
+        },
+        {
+          "token": "CTR",
+          "type": "杠杆上线",
+          "detail": "Gate 将上线 Citrea (CTR) 合约交易、杠杆借贷交易、交易机器人、跟...8 小时前1,725",
+          "url": "https://www.gate.com/zh/announcements/article/51373"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "Bitget 新增 BTC/U 币对",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884390"
+        },
+        {
+          "token": "SLX",
+          "type": "现货上线",
+          "detail": "Solstice（SLX）将上线 Bitget Solana 生态专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884389"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "BE",
+          "type": "跟单合约",
+          "detail": "BE（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-pitch-slx-be-and-apld-usdt-m-futures-17827791535688"
+        },
+        {
+          "token": "PITCH",
+          "type": "跟单合约",
+          "detail": "PITCH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-pitch-slx-be-and-apld-usdt-m-futures-17827791535688"
+        },
+        {
+          "token": "SLX",
+          "type": "跟单合约",
+          "detail": "SLX（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-pitch-slx-be-and-apld-usdt-m-futures-17827791535688"
+        },
+        {
+          "token": "PITCH",
+          "type": "上线",
+          "detail": "PITCH 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-pitch-to-innovation-zone-17827791535687"
+        },
+        {
+          "token": "PITCH",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年5月26日 12:30 (UTC+8) 上線 PITCHUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535685"
+        },
+        {
+          "token": "CTR",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年5月26日 21:10 (UTC+8) 上線 Citrea (CTR) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535681"
+        },
+        {
+          "token": "SLX",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 已於 2026年5月25日 22:55 (UTC+8) 上線 Solstice Finance (SLX) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535680"
+        }
+      ]
+    }
+  }
+}
