@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-21",
   "weekEnd": "2026-05-27",
-  "updatedAt": "2026-05-27T12:46:40.258Z",
+  "updatedAt": "2026-05-27T12:55:51.739Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -156,6 +156,34 @@
     "okx": {
       "listings": [
         {
+          "token": "多个",
+          "type": "永续合约",
+          "detail": "OKX 關於 GEV、URNM 股票永續合約正式上線的公告發佈於 2026年5月21日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-gev-and-urnm-equities",
+          "dates": [
+            "2026-05-21",
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "IRYS",
+          "type": "永续合约",
+          "detail": "OKX 關於 IRYS 永續合約正式上線的公告發佈於 2026年5月27日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-irys-crypto",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "IRYS",
+          "type": "现货上线",
+          "detail": "OKX 關於上線 IRYS/USDT (Irys) 現貨交易的公告發佈於 2026年5月27日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-irys-usdt-irys-for-spot-trading",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
           "token": "AAOI",
           "type": "永续合约",
           "detail": "AAOI（同公告含 3 个标的）",
@@ -226,15 +254,6 @@
           "dates": [
             "2026-05-22"
           ]
-        },
-        {
-          "token": "多个",
-          "type": "永续合约",
-          "detail": "OKX 關於 GEV、URNM 股票永續合約正式上線的公告發佈於 2026年5月21日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-gev-and-urnm-equities",
-          "dates": [
-            "2026-05-21"
-          ]
         }
       ]
     },
@@ -287,6 +306,42 @@
           "url": "https://www.kucoin.com/announcement/en-world-premiere-xmaquina-deus-listed-on-kucoin",
           "dates": [
             "2026-05-26",
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "QAIT",
+          "type": "现货上线",
+          "detail": "World Premiere: QAIT (QAIT) Listed on KuCoinTrading: 13:00 on May 28, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-qait-qait-listed-on-kucoin",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "STAR",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: STARUSDT Perpetual Contract with Up to 3x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-starusdt-perpetual-contract-with-up-to-3x-leverage",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "WALLI",
+          "type": "现货上线",
+          "detail": "HODLer Airdrops: Wallitelli (WALLI) World Premiere Listing on KuCoinTrading: 7:00 on May 28, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-hodler-airdrops-wallitelli-walli-world-premiere-listing-on-kucoin",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "STAR",
+          "type": "现货上线",
+          "detail": "Starpower (STAR) Listed on KuCoinTrading: 10:00 on May 27, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-starpower-star-listed-on-kucoin",
+          "dates": [
             "2026-05-27"
           ]
         },
@@ -438,6 +493,78 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "AAOI",
+          "type": "上线",
+          "detail": "AAOI（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535710",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "SURPLUS",
+          "type": "上线",
+          "detail": "SURPLUS（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535710",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "WALLI",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Wallitelli (WALLI)，瓜分 1,000,000 WALLI & 10,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535684",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "AAOI",
+          "type": "跟单合约",
+          "detail": "AAOI（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-xau-surplus-and-ctr-usdt-m-futures-17827791535704",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "SURPLUS",
+          "type": "跟单合约",
+          "detail": "SURPLUS（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-xau-surplus-and-ctr-usdt-m-futures-17827791535704",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "REQ",
+          "type": "上线",
+          "detail": "MEXC 將於創新區上線 Request Network (REQ)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-will-list-request-network-req-in-innovation-zone-17827791535703",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "XAU",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年5月27日 14:00 (UTC+8) 上線 XAUUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-xauusdt-futures-on-may-27-2026-06-17827791535701",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "SURPLUS",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年5月27日 13:10 (UTC+8) 上線 SURPLUSUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535700",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
         {
           "token": "DROPEE",
           "type": "现货上线",
