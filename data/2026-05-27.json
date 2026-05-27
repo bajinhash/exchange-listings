@@ -1,6 +1,6 @@
 {
   "date": "2026-05-27",
-  "updatedAt": "2026-05-27T12:55:51.576Z",
+  "updatedAt": "2026-05-27T13:40:37.328Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -23,9 +23,21 @@
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-irys-crypto"
         },
         {
-          "token": "多个",
+          "token": "BE",
           "type": "永续合约",
-          "detail": "OKX 關於 IBM、NOK、BE 股票永續合約正式上線的公告發佈於 2026年5月27日",
+          "detail": "BE（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-ibm-nok-and-be-equities"
+        },
+        {
+          "token": "IBM",
+          "type": "永续合约",
+          "detail": "IBM（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-ibm-nok-and-be-equities"
+        },
+        {
+          "token": "NOK",
+          "type": "永续合约",
+          "detail": "NOK（同公告含 3 个标的）",
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-ibm-nok-and-be-equities"
         },
         {

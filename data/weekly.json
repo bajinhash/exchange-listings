@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-21",
   "weekEnd": "2026-05-27",
-  "updatedAt": "2026-05-27T12:55:51.739Z",
+  "updatedAt": "2026-05-27T13:40:37.604Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -156,20 +156,37 @@
     "okx": {
       "listings": [
         {
-          "token": "多个",
-          "type": "永续合约",
-          "detail": "OKX 關於 GEV、URNM 股票永續合約正式上線的公告發佈於 2026年5月21日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-gev-and-urnm-equities",
-          "dates": [
-            "2026-05-21",
-            "2026-05-27"
-          ]
-        },
-        {
           "token": "IRYS",
           "type": "永续合约",
           "detail": "OKX 關於 IRYS 永續合約正式上線的公告發佈於 2026年5月27日",
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-irys-crypto",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "BE",
+          "type": "永续合约",
+          "detail": "BE（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-ibm-nok-and-be-equities",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "IBM",
+          "type": "永续合约",
+          "detail": "IBM（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-ibm-nok-and-be-equities",
+          "dates": [
+            "2026-05-27"
+          ]
+        },
+        {
+          "token": "NOK",
+          "type": "永续合约",
+          "detail": "NOK（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-ibm-nok-and-be-equities",
           "dates": [
             "2026-05-27"
           ]
@@ -253,6 +270,15 @@
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-ai-usdt-gensyn-for-spot-trading",
           "dates": [
             "2026-05-22"
+          ]
+        },
+        {
+          "token": "多个",
+          "type": "永续合约",
+          "detail": "OKX 關於 GEV、URNM 股票永續合約正式上線的公告發佈於 2026年5月21日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-gev-and-urnm-equities",
+          "dates": [
+            "2026-05-21"
           ]
         }
       ]

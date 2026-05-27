@@ -206,6 +206,13 @@ function extractTokensFromBody(item) {
   for (const m of body.matchAll(/(?<![A-Z0-9])(\d{3,5})?([A-Z][A-Z0-9]{1,14})USDT[-\s]?(?:Margined|Perpetual|永續|永续|合約|合约)/g)) {
     add((m[1] || '') + m[2]);
   }
+  // Pattern 1b: TICKER/USDT or TICKER-USDT explicit pair (OKX stock-perp body
+  //    spells each contract as "IBM/USDT", "NOK/USDT", "BE/USDT", etc.).
+  //    Allow 2-char tickers like BE here — the /USDT context is strict enough
+  //    to keep false matches out.
+  for (const m of body.matchAll(/(?<![A-Z0-9])([A-Z][A-Z0-9]{1,14})[/-]USD[TC]?\b/g)) {
+    add(m[1]);
+  }
   // Pattern 2: enumeration "TICKER1, TICKER2 and TICKER3" (Binance Multiple TradFi style)
   for (const m of body.matchAll(/\b([A-Z][A-Z0-9]{2,14})\s*(?:[,]\s+|\s+(?:and|及|和)\s+)/g)) {
     add(m[1]);
@@ -217,16 +224,19 @@ function extractTokensFromBody(item) {
   // Pattern 4: colon-introduced 、/comma list like
   //   "新增支援資產：ATOM、EIGEN、ENS、GRT、INJ、JTO、JUP、LDO、MORPHO、PENDLE、POL、RENDER、TIA、UNI"
   // Match the run of tokens-with-separators, then pull each TICKER out of it.
-  for (const m of body.matchAll(/[：:]\s*((?:[A-Z][A-Z0-9]{2,14}\s*[、,]\s*){2,}[A-Z][A-Z0-9]{2,14})/g)) {
-    for (const inner of m[1].matchAll(/\b([A-Z][A-Z0-9]{2,14})\b/g)) {
+  // Allow 2-char tickers (BE, GO, MO etc.) — the colon + 顿号 context is
+  // strict enough to avoid junk matches.
+  for (const m of body.matchAll(/[：:]\s*((?:[A-Z][A-Z0-9]{1,14}\s*[、,]\s*){2,}[A-Z][A-Z0-9]{1,14})/g)) {
+    for (const inner of m[1].matchAll(/\b([A-Z][A-Z0-9]{1,14})\b/g)) {
       add(inner[1]);
     }
   }
   // Pattern 5: bare 顿号 / comma list anywhere (no colon required), at least
   //   3 uppercase tickers in a row. Catches OKX's
-  //   'SOXL、NBIS、QCOM、CSCO 股票永續合約' enumeration in the title.
-  for (const m of body.matchAll(/((?:[A-Z][A-Z0-9]{2,14}\s*[、,]\s*){2,}[A-Z][A-Z0-9]{2,14})/g)) {
-    for (const inner of m[1].matchAll(/\b([A-Z][A-Z0-9]{2,14})\b/g)) {
+  //   'SOXL、NBIS、QCOM、CSCO 股票永續合約' enumeration in the title and
+  //   'IBM、NOK、BE' where BE is a 2-letter ticker.
+  for (const m of body.matchAll(/((?:[A-Z][A-Z0-9]{1,14}\s*[、,]\s*){2,}[A-Z][A-Z0-9]{1,14})/g)) {
+    for (const inner of m[1].matchAll(/\b([A-Z][A-Z0-9]{1,14})\b/g)) {
       add(inner[1]);
     }
   }
@@ -373,7 +383,7 @@ function inWindow(parsed) {
 // Note: 定投 (DCA / dollar-cost averaging) was previously in DENY, but
 // "现货定投新增支持 X" is legit new-token-support news. Keep the deny list
 // scoped to genuine noise (campaigns, lotteries, maintenance, delistings).
-const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照|老友季|老友福利|老友专属|老友專屬|交易大赛|交易大賽|交易赛|交易賽|打卡领|打卡領|打卡瓜分|回归得|回歸得|单人最高|單人最高|回归首单包赔|回歸首單包賠|每日打卡|零成本跟单|零成本跟單|跟单第\s*[一二三四五六七八九十\d]+\s*期|跟單第\s*[一二三四五六七八九十\d]+\s*期|见面礼|見面禮|活期理财|活期理財|理财福利|理財福利|新人特权|新人特權|首充\s*\d+%|首充\s*[一二三四五六七八九十百]+%|返现\b|返現\b|邀友|空投来袭|空投來襲|新人同领|新人同領|回归加送|回歸加送|瓜分\s*[\d,]+\s*USDT|质押上线|質押上線|份额拆分|份額拆分|份额合并|份額合併|恢复盘前交易|恢復盤前交易|首次下载|首次下載|新用户专属|新用戶專屬|交易結束|交易结束|交割安排|盘前交易.*结束|盤前交易.*結束/i;
+const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照|老友季|老友福利|老友专属|老友專屬|交易大赛|交易大賽|交易赛|交易賽|打卡领|打卡領|打卡瓜分|回归得|回歸得|单人最高|單人最高|回归首单包赔|回歸首單包賠|每日打卡|零成本跟单|零成本跟單|跟单第\s*[一二三四五六七八九十\d]+\s*期|跟單第\s*[一二三四五六七八九十\d]+\s*期|见面礼|見面禮|活期理财|活期理財|理财福利|理財福利|新人特权|新人特權|首充\s*\d+%|首充\s*[一二三四五六七八九十百]+%|返现\b|返現\b|邀友|空投来袭|空投來襲|新人同领|新人同領|回归加送|回歸加送|瓜分\s*[\d,]+\s*[A-Z]{3,6}|质押上线|質押上線|份额拆分|份額拆分|份额合并|份額合併|恢复盘前交易|恢復盤前交易|首次下载|首次下載|新用户专属|新用戶專屬|交易結束|交易结束|交割安排|盘前交易.*结束|盤前交易.*結束|开户领|開戶領|豪华奖池|豪華獎池|开放时间确认|開放時間確認|交易开放时间|交易開放時間/i;
 
 // "首发上线" / "Will List" / "上币" — these are strong positive listing
 // signals. When a title has one of these AND no HARD-noise marker (campaign,
