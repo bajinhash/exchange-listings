@@ -1,17 +1,10 @@
 {
   "date": "2026-05-27",
-  "updatedAt": "2026-05-27T13:40:37.328Z",
+  "updatedAt": "2026-05-27T14:00:00.206Z",
   "exchanges": {
     "binance": {
       "listings": [],
-      "alpha": [
-        {
-          "token": "CTR",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 CTR - Citrea 是比特币应用层，连接机构与用户进入比特币资本市场。",
-          "url": "https://www.binance.com/en/alpha/base/0x11030f79109269d796fd0fb956d6244e502757f7"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -64,6 +57,12 @@
           "type": "永续合约",
           "detail": "KuCoin Futures New Listing: STARUSDT Perpetual Contract with Up to 3x Leverage",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-starusdt-perpetual-contract-with-up-to-3x-leverage"
+        },
+        {
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "KuCoin Futures New Listing: SPCXUSDT Pre-IPO Stock Index Perpetual Contract Pre-Market Trading",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-spcxusdt-pre-ipo-stock-index-perpetual-contract-pre-market-trading"
         },
         {
           "token": "WALLI",
@@ -140,12 +139,6 @@
           "type": "永续合约",
           "detail": "MEXC 合約創新板塊將於 2026年5月27日 13:10 (UTC+8) 上線 SURPLUSUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535700"
-        },
-        {
-          "token": "DROPEE",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Dropee (DROPEE)，瓜分 1,000,000 DROPEE & 20,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535676"
         }
       ]
     }
