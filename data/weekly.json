@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-21",
   "weekEnd": "2026-05-27",
-  "updatedAt": "2026-05-26T16:37:46.448Z",
+  "updatedAt": "2026-05-27T12:46:40.258Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -183,36 +183,36 @@
           ]
         },
         {
-          "token": "AVAXUSD",
-          "type": "上线",
-          "detail": "AVAXUSD（同公告含 4 个标的）",
+          "token": "AVAX",
+          "type": "永续合约",
+          "detail": "AVAX（同公告含 4 个标的）",
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp",
           "dates": [
             "2026-05-25"
           ]
         },
         {
-          "token": "BCHUSD",
-          "type": "上线",
-          "detail": "BCHUSD（同公告含 4 个标的）",
+          "token": "BCH",
+          "type": "永续合约",
+          "detail": "BCH（同公告含 4 个标的）",
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp",
           "dates": [
             "2026-05-25"
           ]
         },
         {
-          "token": "TONUSD",
-          "type": "上线",
-          "detail": "TONUSD（同公告含 4 个标的）",
+          "token": "TON",
+          "type": "永续合约",
+          "detail": "TON（同公告含 4 个标的）",
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp",
           "dates": [
             "2026-05-25"
           ]
         },
         {
-          "token": "ZECUSD",
-          "type": "上线",
-          "detail": "ZECUSD（同公告含 4 个标的）",
+          "token": "ZEC",
+          "type": "永续合约",
+          "detail": "ZEC（同公告含 4 个标的）",
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp",
           "dates": [
             "2026-05-25"
@@ -508,33 +508,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535680",
           "dates": [
             "2026-05-26"
-          ]
-        },
-        {
-          "token": "AORA",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 AtlasOra (AORA)，瓜分 720,915 AORA & 10,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535641",
-          "dates": [
-            "2026-05-25"
-          ]
-        },
-        {
-          "token": "CAS",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Caspius (CAS)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535664",
-          "dates": [
-            "2026-05-25"
-          ]
-        },
-        {
-          "token": "SURPLUS",
-          "type": "Meme+ 现货",
-          "detail": "SURPLUS 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535663",
-          "dates": [
-            "2026-05-25"
           ]
         },
         {

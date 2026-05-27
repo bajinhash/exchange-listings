@@ -178,14 +178,25 @@ const BRAND_LOWER = new Set([
 function extractTokensFromBody(item) {
   // Scan title + body — bulk listings sometimes put the full ticker list
   // in the title (e.g. Gate '将上线 DRAM (...) 、HIMS (...)、JPM (...)').
-  const body = (item.title || '') + '\n' + (item.body || '');
+  const title = item.title || '';
+  const body = title + '\n' + (item.body || '');
   const tokens = new Set();
+  // Strip plain USD suffix too when the announcement is a USD-margined /
+  // X-Perp contract — there the "USD" is the quote currency, not part of
+  // the ticker. e.g. OKX X-Perp publishes "AVAXUSD、BCHUSD、TONUSD、ZECUSD",
+  // but the underlying tickers are AVAX/BCH/TON/ZEC. Outside this context
+  // we never strip plain USD (BUSD/TUSD/PYUSD/FDUSD are real stablecoin
+  // tickers).
+  const isUsdQuoted = /X-?Perp|X-?合[約约]|USD\s*本位|USD-?Margined|USDⓈ-?Margined/i.test(title);
   // Canonicalise: strip USDT/USDC suffix so a body that lists both 'BRKB'
   // and 'BRKBUSDT' as separate tracker-pair tickers doesn't show up as
   // two rows in the daily.
   const add = (t) => {
     if (!t || BANNED_TOKEN.has(t)) return;
-    const canon = t.replace(/USD[TC]$/, '');
+    let canon = t.replace(/USD[TC]$/, '');
+    if (isUsdQuoted && canon === t && t.length > 5 && t.endsWith('USD')) {
+      canon = t.slice(0, -3);
+    }
     if (canon && canon !== t && tokens.has(t)) tokens.delete(t);
     tokens.add(canon || t);
   };
@@ -313,7 +324,7 @@ function extractType(item) {
   if (/launchpad/i.test(lc)) return 'Launchpad';
   if (/copy[\s-]?trade|跟單|跟单/i.test(t)) return '跟单合约';
   if (/股票指数|股票指數|stock index|stock-index/i.test(t)) return '美股合约';
-  if (/perpetual|永续合约|永續合約|u本位|usd[Ⓢ⒮]?-?margined|合約創新板塊|合约创新板块/i.test(t)) return '永续合约';
+  if (/perpetual|永续合约|永續合約|u本位|usd[Ⓢ⒮]?-?margined|合約創新板塊|合约创新板块|X-?Perp|X-?合[約约]/i.test(t)) return '永续合约';
   if (/margin|杠杆|槓桿/i.test(t)) return '杠杆上线';
   if (/(spot|现货|現貨|上币|上幣|首发|首發|首發上線|首发上线|list|launch)/i.test(t)) return '现货上线';
   return '上线';
