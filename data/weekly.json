@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-21",
-  "weekEnd": "2026-05-27",
-  "updatedAt": "2026-05-27T14:00:00.383Z",
+  "weekStart": "2026-05-22",
+  "weekEnd": "2026-05-28",
+  "updatedAt": "2026-05-27T16:39:39.548Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -80,16 +80,6 @@
           ]
         },
         {
-          "token": "AIGENSYN",
-          "type": "上线",
-          "detail": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
-          "url": "https://www.binance.com/en/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7",
-          "dates": [
-            "2026-05-21",
-            "2026-05-22"
-          ]
-        },
-        {
           "token": "GENIUS",
           "type": "现货上线",
           "detail": "GENIUS（同公告含 2 个标的）",
@@ -108,12 +98,12 @@
           ]
         },
         {
-          "token": "SPCX",
-          "type": "Pre-IPO 上线",
-          "detail": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
-          "url": "https://www.binance.com/en/support/announcement/4a9484ee10b347d287f514ee3fdd6a29",
+          "token": "AIGENSYN",
+          "type": "上线",
+          "detail": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+          "url": "https://www.binance.com/en/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7",
           "dates": [
-            "2026-05-21"
+            "2026-05-22"
           ]
         }
       ],
@@ -138,15 +128,6 @@
             "2026-05-23",
             "2026-05-24",
             "2026-05-25"
-          ]
-        },
-        {
-          "token": "NEX",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 NEX - Layer 1 for Verifiable Finance",
-          "url": "https://www.binance.com/en/alpha/bsc/0x365de036a1f7dccb621530d517133521debb2013",
-          "dates": [
-            "2026-05-21"
           ]
         }
       ],
@@ -270,15 +251,6 @@
           "dates": [
             "2026-05-22"
           ]
-        },
-        {
-          "token": "多个",
-          "type": "永续合约",
-          "detail": "OKX 關於 GEV、URNM 股票永續合約正式上線的公告發佈於 2026年5月21日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-gev-and-urnm-equities",
-          "dates": [
-            "2026-05-21"
-          ]
         }
       ]
     },
@@ -310,20 +282,21 @@
           "dates": [
             "2026-05-25"
           ]
-        },
-        {
-          "token": "10000NEX",
-          "type": "永续合约",
-          "detail": "10000NEXUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-10000nexusdt-perpetual-contract-with-up-to-10x-leverage-blt562c7af955f6f932/",
-          "dates": [
-            "2026-05-21"
-          ]
         }
       ]
     },
     "kucoin": {
       "listings": [
+        {
+          "token": "QAIT",
+          "type": "现货上线",
+          "detail": "World Premiere: QAIT (QAIT) Listed on KuCoinTrading: 13:00 on May 28, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-qait-qait-listed-on-kucoin",
+          "dates": [
+            "2026-05-27",
+            "2026-05-28"
+          ]
+        },
         {
           "token": "DEUS",
           "type": "现货上线",
@@ -331,15 +304,6 @@
           "url": "https://www.kucoin.com/announcement/en-world-premiere-xmaquina-deus-listed-on-kucoin",
           "dates": [
             "2026-05-26",
-            "2026-05-27"
-          ]
-        },
-        {
-          "token": "QAIT",
-          "type": "现货上线",
-          "detail": "World Premiere: QAIT (QAIT) Listed on KuCoinTrading: 13:00 on May 28, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-qait-qait-listed-on-kucoin",
-          "dates": [
             "2026-05-27"
           ]
         },
@@ -450,20 +414,20 @@
           "dates": [
             "2026-05-22"
           ]
-        },
-        {
-          "token": "NEX",
-          "type": "永续合约",
-          "detail": "KuCoin Futures New Listing: NEXUSDT Perpetual Contract with Up to 10x Leverage",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-nexusdt-perpetual-contract-with-up-to-10x-leverage",
-          "dates": [
-            "2026-05-21"
-          ]
         }
       ]
     },
     "gateio": {
       "listings": [
+        {
+          "token": "QAIT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 QAIT (QAIT) 现货交易与闪兑交易3 小时前767",
+          "url": "https://www.gate.com/zh/announcements/article/51415",
+          "dates": [
+            "2026-05-28"
+          ]
+        },
         {
           "token": "DEX",
           "type": "上线",
@@ -678,78 +642,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535640",
           "dates": [
             "2026-05-22"
-          ]
-        },
-        {
-          "token": "VIRL",
-          "type": "Meme+ 现货",
-          "detail": "VIRL 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535621",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "XAL",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 SPCX 和 ALUMINIUM(XAL) U本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-spcx-and-aluminium-xal-usdt-m-futures-17827791535620",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "上线",
-          "detail": "新股票合約上線：SPCX U 本位合約將於 5/21上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535611",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "SKHYNIX",
-          "type": "跟单合约",
-          "detail": "SKHYNIX（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-samsung-skhynix-and-nex-usdt-m-futures-17827791535610",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "跟单合约",
-          "detail": "SPCX（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-samsung-skhynix-and-nex-usdt-m-futures-17827791535610",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "NOOK",
-          "type": "Meme+ 现货",
-          "detail": "NOOK 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535608",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "PRE",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 SPACEX(PRE)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535607",
-          "dates": [
-            "2026-05-21"
-          ]
-        },
-        {
-          "token": "SAMSUNG",
-          "type": "上线",
-          "detail": "新股票合約上線：SAMSUNG 和 SKHYNIX U 本位合約將於 5/21上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535606",
-          "dates": [
-            "2026-05-21"
           ]
         }
       ]

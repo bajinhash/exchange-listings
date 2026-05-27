@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-28",
+  "updatedAt": "2026-05-27T16:39:39.387Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "QAIT",
+          "type": "现货上线",
+          "detail": "World Premiere: QAIT (QAIT) Listed on KuCoinTrading: 13:00 on May 28, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-qait-qait-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "QAIT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 QAIT (QAIT) 现货交易与闪兑交易3 小时前767",
+          "url": "https://www.gate.com/zh/announcements/article/51415"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
