@@ -1,17 +1,50 @@
 {
   "date": "2026-05-28",
-  "updatedAt": "2026-05-27T16:39:39.387Z",
+  "updatedAt": "2026-05-28T14:02:16.559Z",
   "exchanges": {
     "binance": {
-      "listings": [],
-      "alpha": [],
+      "listings": [
+        {
+          "token": "CTR",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+          "url": "https://www.binance.com/en/support/announcement/ee40eb721abc460cb7edca6df04d782b"
+        }
+      ],
+      "alpha": [
+        {
+          "token": "QAIT",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 QAIT (Sealcoin) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2059915129907765300"
+        }
+      ],
       "wallet": []
     },
     "okx": {
       "listings": []
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "WDC",
+          "type": "永续合约",
+          "detail": "WDCUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-wdcusdt-perpetual-contract-with-up-to-10x-leverage-blt15aa5f4927cfeb7b/"
+        },
+        {
+          "token": "AMDSTOCK",
+          "type": "永续合约",
+          "detail": "AMDSTOCKUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-amdstockusdt-perpetual-contract-with-up-to-20x-leverage-blt33649bff759f310c/"
+        },
+        {
+          "token": "BE",
+          "type": "永续合约",
+          "detail": "BEUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-beusdt-perpetual-contract-with-up-to-10x-leverage-bltfc34d16a9c46620d/"
+        }
+      ]
     },
     "kucoin": {
       "listings": [
@@ -26,10 +59,16 @@
     "gateio": {
       "listings": [
         {
-          "token": "QAIT",
+          "token": "多个",
           "type": "现货上线",
-          "detail": "Gate 将上线 QAIT (QAIT) 现货交易与闪兑交易3 小时前767",
-          "url": "https://www.gate.com/zh/announcements/article/51415"
+          "detail": "Gate 关于调整多个现货交易对最小价格精度的公告（5 月 29 日 16:00 UTC+8）11 小时前1,696",
+          "url": "https://www.gate.com/zh/announcements/article/51419"
+        },
+        {
+          "token": "GOSLINGS",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线金靴杯（金靴杯）、GOSLINGS (Justice for Goslings)、BUFFDON (Buffalo...11 小时前1,611",
+          "url": "https://www.gate.com/zh/announcements/article/51416"
         }
       ]
     },
@@ -37,7 +76,56 @@
       "listings": []
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "DELL",
+          "type": "上线",
+          "detail": "新股票合約上線：DELL USDT 本位合約將於 5/28上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535733"
+        },
+        {
+          "token": "AAOI",
+          "type": "跟单合约",
+          "detail": "AAOI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-app-rdw-infq-aaoi-and-nok-usdt-m-futures-17827791535730"
+        },
+        {
+          "token": "APP",
+          "type": "跟单合约",
+          "detail": "APP（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-app-rdw-infq-aaoi-and-nok-usdt-m-futures-17827791535730"
+        },
+        {
+          "token": "INFQ",
+          "type": "跟单合约",
+          "detail": "INFQ（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-app-rdw-infq-aaoi-and-nok-usdt-m-futures-17827791535730"
+        },
+        {
+          "token": "RDW",
+          "type": "跟单合约",
+          "detail": "RDW（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-app-rdw-infq-aaoi-and-nok-usdt-m-futures-17827791535730"
+        },
+        {
+          "token": "QAIT",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 QAIT (QAIT)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535727"
+        },
+        {
+          "token": "APP",
+          "type": "上线",
+          "detail": "新美股合約上線：APP 和 RDW U 本位合約將於 5/28 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535726"
+        },
+        {
+          "token": "QAIT",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：QAIT (QAIT) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791535725"
+        }
+      ]
     }
   }
 }
