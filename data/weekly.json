@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-22",
-  "weekEnd": "2026-05-28",
-  "updatedAt": "2026-05-28T14:17:07.589Z",
+  "weekStart": "2026-05-23",
+  "weekEnd": "2026-05-29",
+  "updatedAt": "2026-05-28T16:54:55.382Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -74,7 +74,6 @@
           "detail": "GENIUS（同公告含 2 个标的）",
           "url": "https://www.binance.com/en/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8",
           "dates": [
-            "2026-05-22",
             "2026-05-23"
           ]
         },
@@ -84,35 +83,7 @@
           "detail": "OPG（同公告含 2 个标的）",
           "url": "https://www.binance.com/en/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8",
           "dates": [
-            "2026-05-22",
             "2026-05-23"
-          ]
-        },
-        {
-          "token": "GENIUS",
-          "type": "现货上线",
-          "detail": "GENIUS（同公告含 2 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/4de6272354be421ba51ea042fd273a8d",
-          "dates": [
-            "2026-05-22"
-          ]
-        },
-        {
-          "token": "OPG",
-          "type": "现货上线",
-          "detail": "OPG（同公告含 2 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/4de6272354be421ba51ea042fd273a8d",
-          "dates": [
-            "2026-05-22"
-          ]
-        },
-        {
-          "token": "AIGENSYN",
-          "type": "上线",
-          "detail": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
-          "url": "https://www.binance.com/en/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7",
-          "dates": [
-            "2026-05-22"
           ]
         }
       ],
@@ -123,7 +94,8 @@
           "detail": "Binance Alpha 上线 QAIT (Sealcoin) — @BinanceWallet 公告",
           "url": "https://x.com/BinanceWallet/status/2059915129907765300",
           "dates": [
-            "2026-05-28"
+            "2026-05-28",
+            "2026-05-29"
           ]
         },
         {
@@ -260,15 +232,6 @@
           "dates": [
             "2026-05-25"
           ]
-        },
-        {
-          "token": "AI",
-          "type": "现货上线",
-          "detail": "OKX 關於上線 AI/USDT (Gensyn) 現貨交易的公告發佈於 2026年5月22日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-ai-usdt-gensyn-for-spot-trading",
-          "dates": [
-            "2026-05-22"
-          ]
         }
       ]
     },
@@ -332,6 +295,15 @@
     },
     "kucoin": {
       "listings": [
+        {
+          "token": "QAIT",
+          "type": "上线",
+          "detail": "Market Opening of QAIT/USDT Trading Pair Postponed",
+          "url": "https://www.kucoin.com/announcement/en-market-opening-of-qait-usdt-trading-pair-postponed",
+          "dates": [
+            "2026-05-29"
+          ]
+        },
         {
           "token": "QAIT",
           "type": "现货上线",
@@ -405,65 +377,20 @@
           "dates": [
             "2026-05-25"
           ]
-        },
-        {
-          "token": "APLD",
-          "type": "美股合约",
-          "detail": "APLD（同公告含 4 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-22",
-          "dates": [
-            "2026-05-22"
-          ]
-        },
-        {
-          "token": "ASTS",
-          "type": "美股合约",
-          "detail": "ASTS（同公告含 4 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-22",
-          "dates": [
-            "2026-05-22"
-          ]
-        },
-        {
-          "token": "BE",
-          "type": "美股合约",
-          "detail": "BE（同公告含 4 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-22",
-          "dates": [
-            "2026-05-22"
-          ]
-        },
-        {
-          "token": "VRT",
-          "type": "美股合约",
-          "detail": "VRT（同公告含 4 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-22",
-          "dates": [
-            "2026-05-22"
-          ]
-        },
-        {
-          "token": "ESPORTS",
-          "type": "现货上线",
-          "detail": "Yooldo (ESPORTS) Listed on KuCoinTrading: 11:00 on May 22, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-yooldo-esports-listed-on-kucoin",
-          "dates": [
-            "2026-05-22"
-          ]
-        },
-        {
-          "token": "PIEVERSE",
-          "type": "现货上线",
-          "detail": "Pieverse (PIEVERSE) Listed on KuCoinTrading: 10:00 on May 22, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-pieverse-pieverse-listed-on-kucoin",
-          "dates": [
-            "2026-05-22"
-          ]
         }
       ]
     },
     "gateio": {
       "listings": [
+        {
+          "token": "QAIT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 QAIT (QAIT) 现货交易与闪兑交易2 小时前490",
+          "url": "https://www.gate.com/zh/announcements/article/51434",
+          "dates": [
+            "2026-05-29"
+          ]
+        },
         {
           "token": "多个",
           "type": "现货上线",
@@ -498,15 +425,6 @@
           "url": "https://www.gate.com/zh/announcements/article/51373",
           "dates": [
             "2026-05-26"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "永续合约",
-          "detail": "Gate 已上线 SPCXUSDT 永续合约盘前交易（USDT 结算）8 小时前1,481",
-          "url": "https://www.gate.com/zh/announcements/article/51322",
-          "dates": [
-            "2026-05-22"
           ]
         }
       ]
@@ -546,21 +464,22 @@
     "mexc": {
       "listings": [
         {
+          "token": "QAIT",
+          "type": "现货上线",
+          "detail": "MEXC 延遲 QAIT (QAIT) 現貨上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-qait-qait-spot-listing-17827791535744",
+          "dates": [
+            "2026-05-28",
+            "2026-05-29"
+          ]
+        },
+        {
           "token": "AAOI",
           "type": "跟单合约",
           "detail": "AAOI（同公告含 2 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-xau-surplus-and-ctr-usdt-m-futures-17827791535704",
           "dates": [
             "2026-05-27",
-            "2026-05-28"
-          ]
-        },
-        {
-          "token": "QAIT",
-          "type": "现货上线",
-          "detail": "MEXC 延遲 QAIT (QAIT) 現貨上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-qait-qait-spot-listing-17827791535744",
-          "dates": [
             "2026-05-28"
           ]
         },
@@ -751,15 +670,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535652",
           "dates": [
             "2026-05-24"
-          ]
-        },
-        {
-          "token": "BE",
-          "type": "上线",
-          "detail": "新美股合約上線：BE 和 APLD U 本位合約將於 5/22 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535640",
-          "dates": [
-            "2026-05-22"
           ]
         }
       ]

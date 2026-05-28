@@ -1,0 +1,57 @@
+{
+  "date": "2026-05-29",
+  "updatedAt": "2026-05-28T16:54:55.204Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "QAIT",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 QAIT - QAIT协会是一家瑞士非营利组织，致力于推动值得信赖的去中心化数字基础设施的发展，并促进自主机器经济的形成。",
+          "url": "https://www.binance.com/en/alpha/bsc/0x4d41a5d412f4ef44a35b9f53b06db65ede249493"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "QAIT",
+          "type": "上线",
+          "detail": "Market Opening of QAIT/USDT Trading Pair Postponed",
+          "url": "https://www.kucoin.com/announcement/en-market-opening-of-qait-usdt-trading-pair-postponed"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "QAIT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 QAIT (QAIT) 现货交易与闪兑交易2 小时前490",
+          "url": "https://www.gate.com/zh/announcements/article/51434"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "QAIT",
+          "type": "现货上线",
+          "detail": "MEXC 延遲 QAIT (QAIT) 現貨上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-qait-qait-spot-listing-17827791535744"
+        }
+      ]
+    }
+  }
+}
