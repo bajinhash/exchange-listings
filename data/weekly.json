@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-22",
   "weekEnd": "2026-05-28",
-  "updatedAt": "2026-05-28T14:02:16.739Z",
+  "updatedAt": "2026-05-28T14:10:34.038Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -343,6 +343,96 @@
           ]
         },
         {
+          "token": "BTC",
+          "type": "美股合约",
+          "detail": "BTC（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-mpusdt-rdwusdt-rgtiusdt-stock-index-perpetual-contracts-2026-05-28",
+          "dates": [
+            "2026-05-28"
+          ]
+        },
+        {
+          "token": "MP",
+          "type": "美股合约",
+          "detail": "MP（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-mpusdt-rdwusdt-rgtiusdt-stock-index-perpetual-contracts-2026-05-28",
+          "dates": [
+            "2026-05-28"
+          ]
+        },
+        {
+          "token": "NEAR2026",
+          "type": "美股合约",
+          "detail": "NEAR2026（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-mpusdt-rdwusdt-rgtiusdt-stock-index-perpetual-contracts-2026-05-28",
+          "dates": [
+            "2026-05-28"
+          ]
+        },
+        {
+          "token": "RDW",
+          "type": "美股合约",
+          "detail": "RDW（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-mpusdt-rdwusdt-rgtiusdt-stock-index-perpetual-contracts-2026-05-28",
+          "dates": [
+            "2026-05-28"
+          ]
+        },
+        {
+          "token": "RGTI",
+          "type": "美股合约",
+          "detail": "RGTI（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-mpusdt-rdwusdt-rgtiusdt-stock-index-perpetual-contracts-2026-05-28",
+          "dates": [
+            "2026-05-28"
+          ]
+        },
+        {
+          "token": "USDG",
+          "type": "美股合约",
+          "detail": "USDG（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-mpusdt-rdwusdt-rgtiusdt-stock-index-perpetual-contracts-2026-05-28",
+          "dates": [
+            "2026-05-28"
+          ]
+        },
+        {
+          "token": "OPENAI",
+          "type": "Pre-IPO 上线",
+          "detail": "KuCoin Futures New Listing: OPENAIUSDT Pre-IPO Stock Index Perpetual Contract Pre-Market Trading",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-openaiusdt-pre-ipo-stock-index-perpetual-contract-pre-market-trading",
+          "dates": [
+            "2026-05-28"
+          ]
+        },
+        {
+          "token": "IBM",
+          "type": "美股合约",
+          "detail": "IBM（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-ibmusdt-nokusdt-infqusdt-stock-index-perpetual-contracts-2026-05-28",
+          "dates": [
+            "2026-05-28"
+          ]
+        },
+        {
+          "token": "INFQ",
+          "type": "美股合约",
+          "detail": "INFQ（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-ibmusdt-nokusdt-infqusdt-stock-index-perpetual-contracts-2026-05-28",
+          "dates": [
+            "2026-05-28"
+          ]
+        },
+        {
+          "token": "NOK",
+          "type": "美股合约",
+          "detail": "NOK（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-ibmusdt-nokusdt-infqusdt-stock-index-perpetual-contracts-2026-05-28",
+          "dates": [
+            "2026-05-28"
+          ]
+        },
+        {
           "token": "DEUS",
           "type": "现货上线",
           "detail": "World Premiere: XMAQUINA (DEUS) Listed on KuCoinTrading: 13:00 on May 27, 2026 (UTC)",
@@ -467,7 +557,7 @@
         {
           "token": "多个",
           "type": "现货上线",
-          "detail": "Gate 关于调整多个现货交易对最小价格精度的公告（5 月 29 日 16:00 UTC+8）11 小时前1,696",
+          "detail": "Gate 关于调整多个现货交易对最小价格精度的公告（5 月 29 日 16:00 UTC+8）11 小时前1,709",
           "url": "https://www.gate.com/zh/announcements/article/51419",
           "dates": [
             "2026-05-28"
@@ -476,7 +566,7 @@
         {
           "token": "GOSLINGS",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线金靴杯（金靴杯）、GOSLINGS (Justice for Goslings)、BUFFDON (Buffalo...11 小时前1,611",
+          "detail": "Gate Alpha 首发上线金靴杯（金靴杯）、GOSLINGS (Justice for Goslings)、BUFFDON (Buffalo...12 小时前1,623",
           "url": "https://www.gate.com/zh/announcements/article/51416",
           "dates": [
             "2026-05-28"
