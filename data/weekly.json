@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-23",
   "weekEnd": "2026-05-29",
-  "updatedAt": "2026-05-29T12:54:45.418Z",
+  "updatedAt": "2026-05-29T13:49:57.006Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -449,7 +449,7 @@
         {
           "token": "QNTX",
           "type": "永续合约",
-          "detail": "Gate 股票专区已上线 QNTXUSDT 永续合约盘前交易（USDT 结算）37 分钟前220",
+          "detail": "Gate 股票专区已上线 QNTXUSDT 永续合约盘前交易（USDT 结算）2 小时前473",
           "url": "https://www.gate.com/zh/announcements/article/51446",
           "dates": [
             "2026-05-29"
@@ -458,7 +458,7 @@
         {
           "token": "PAYNE",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 PAYNE (Tim Payne)、250 (Just Buy $250 Worth)、ALIENS (aliens.gov)11 小时前1,763",
+          "detail": "Gate Alpha 首发上线 PAYNE (Tim Payne)、250 (Just Buy $250 Worth)、ALIENS (aliens.gov)12 小时前1,857",
           "url": "https://www.gate.com/zh/announcements/article/51436",
           "dates": [
             "2026-05-29"
@@ -528,16 +528,6 @@
     "mexc": {
       "listings": [
         {
-          "token": "QAIT",
-          "type": "现货上线",
-          "detail": "MEXC 延遲 QAIT (QAIT) 現貨上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-qait-qait-spot-listing-17827791535744",
-          "dates": [
-            "2026-05-28",
-            "2026-05-29"
-          ]
-        },
-        {
           "token": "QNTSTOCK",
           "type": "上线",
           "detail": "MEXC 將於 2026年5月30日 02:15 (UTC+8) 起把 QNTSTOCKUSDT 從創新區轉板至主板區",
@@ -580,6 +570,15 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-xau-surplus-and-ctr-usdt-m-futures-17827791535704",
           "dates": [
             "2026-05-27",
+            "2026-05-28"
+          ]
+        },
+        {
+          "token": "QAIT",
+          "type": "现货上线",
+          "detail": "MEXC 延遲 QAIT (QAIT) 現貨上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-qait-qait-spot-listing-17827791535744",
+          "dates": [
             "2026-05-28"
           ]
         },

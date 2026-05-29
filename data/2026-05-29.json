@@ -1,6 +1,6 @@
 {
   "date": "2026-05-29",
-  "updatedAt": "2026-05-29T12:54:45.246Z",
+  "updatedAt": "2026-05-29T13:49:56.830Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -73,19 +73,19 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX BountyDrop：参与 LART 空投，瓜分 $15,000 LART16 分钟前59",
+          "detail": "Gate DEX BountyDrop：参与 LART 空投，瓜分 $15,000 LART1 小时前227",
           "url": "https://www.gate.com/zh/announcements/article/51447"
         },
         {
           "token": "QNTX",
           "type": "永续合约",
-          "detail": "Gate 股票专区已上线 QNTXUSDT 永续合约盘前交易（USDT 结算）37 分钟前220",
+          "detail": "Gate 股票专区已上线 QNTXUSDT 永续合约盘前交易（USDT 结算）2 小时前473",
           "url": "https://www.gate.com/zh/announcements/article/51446"
         },
         {
           "token": "PAYNE",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 PAYNE (Tim Payne)、250 (Just Buy $250 Worth)、ALIENS (aliens.gov)11 小时前1,763",
+          "detail": "Gate Alpha 首发上线 PAYNE (Tim Payne)、250 (Just Buy $250 Worth)、ALIENS (aliens.gov)12 小时前1,857",
           "url": "https://www.gate.com/zh/announcements/article/51436"
         }
       ]
@@ -118,12 +118,6 @@
           "type": "永续合约",
           "detail": "MEXC 合約創新板塊將於 2026年5月29日 12:20 (UTC+8) 上線 QNTSTOCKUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-qntstockusdt-futures-in-innovation-zone-on-may-29-2026-04-17827791535748"
-        },
-        {
-          "token": "QAIT",
-          "type": "现货上线",
-          "detail": "MEXC 延遲 QAIT (QAIT) 現貨上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-qait-qait-spot-listing-17827791535744"
         }
       ]
     }
