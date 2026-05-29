@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-23",
-  "weekEnd": "2026-05-29",
-  "updatedAt": "2026-05-29T13:49:57.006Z",
+  "weekStart": "2026-05-24",
+  "weekEnd": "2026-05-30",
+  "updatedAt": "2026-05-29T16:41:57.535Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -85,24 +85,6 @@
           "dates": [
             "2026-05-26"
           ]
-        },
-        {
-          "token": "GENIUS",
-          "type": "杠杆上线",
-          "detail": "GENIUS（同公告含 2 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8",
-          "dates": [
-            "2026-05-23"
-          ]
-        },
-        {
-          "token": "OPG",
-          "type": "杠杆上线",
-          "detail": "OPG（同公告含 2 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8",
-          "dates": [
-            "2026-05-23"
-          ]
         }
       ],
       "alpha": [
@@ -133,7 +115,6 @@
           "detail": "Binance Alpha 上线 SLX (Solstice) — @BinanceWallet 公告",
           "url": "https://x.com/BinanceWallet/status/2058156451240292574",
           "dates": [
-            "2026-05-23",
             "2026-05-24",
             "2026-05-25"
           ]
@@ -443,7 +424,8 @@
           "url": "https://www.gate.com/zh/announcements/article/51380",
           "dates": [
             "2026-05-26",
-            "2026-05-29"
+            "2026-05-29",
+            "2026-05-30"
           ]
         },
         {
@@ -452,7 +434,8 @@
           "detail": "Gate 股票专区已上线 QNTXUSDT 永续合约盘前交易（USDT 结算）2 小时前473",
           "url": "https://www.gate.com/zh/announcements/article/51446",
           "dates": [
-            "2026-05-29"
+            "2026-05-29",
+            "2026-05-30"
           ]
         },
         {
@@ -533,7 +516,8 @@
           "detail": "MEXC 將於 2026年5月30日 02:15 (UTC+8) 起把 QNTSTOCKUSDT 從創新區轉板至主板區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-qntstockusdt-from-innovation-zone-to-main-board-on-may-29-2026-18-17827791535761",
           "dates": [
-            "2026-05-29"
+            "2026-05-29",
+            "2026-05-30"
           ]
         },
         {

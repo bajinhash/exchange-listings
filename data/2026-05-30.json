@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-30",
+  "updatedAt": "2026-05-29T16:41:57.376Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "DEX",
+          "type": "上线",
+          "detail": "Gate DEX BountyDrop：参与 LART 空投，瓜分 $15,000 LART4 小时前706",
+          "url": "https://www.gate.com/zh/announcements/article/51447"
+        },
+        {
+          "token": "QNTX",
+          "type": "永续合约",
+          "detail": "Gate 股票专区已上线 QNTXUSDT 永续合约盘前交易（USDT 结算）4 小时前1,238",
+          "url": "https://www.gate.com/zh/announcements/article/51446"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "QNTSTOCK",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年5月30日 02:15 (UTC+8) 起把 QNTSTOCKUSDT 從創新區轉板至主板區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-qntstockusdt-from-innovation-zone-to-main-board-on-may-29-2026-18-17827791535761"
+        }
+      ]
+    }
+  }
+}
