@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-24",
   "weekEnd": "2026-05-30",
-  "updatedAt": "2026-05-30T11:58:55.056Z",
+  "updatedAt": "2026-05-30T14:31:13.827Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -309,7 +309,8 @@
           "detail": "KuCoin Futures New Listing: QNTXUSDT Pre-IPO Stock Index Perpetual Contract Pre-Market Trading",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-qntxusdt-pre-ipo-stock-index-perpetual-contract-pre-market-trading",
           "dates": [
-            "2026-05-29"
+            "2026-05-29",
+            "2026-05-30"
           ]
         },
         {
