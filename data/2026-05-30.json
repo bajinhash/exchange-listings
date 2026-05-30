@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "updatedAt": "2026-05-30T11:30:02.358Z",
+  "updatedAt": "2026-05-30T11:58:54.898Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -14,14 +14,7 @@
       "listings": []
     },
     "kucoin": {
-      "listings": [
-        {
-          "token": "QNTX",
-          "type": "Pre-IPO 上线",
-          "detail": "KuCoin Futures New Listing: QNTXUSDT Pre-IPO Stock Index Perpetual Contract Pre-Market Trading",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-qntxusdt-pre-ipo-stock-index-perpetual-contract-pre-market-trading"
-        }
-      ]
+      "listings": []
     },
     "gateio": {
       "listings": []
