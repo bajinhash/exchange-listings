@@ -1,6 +1,6 @@
 {
   "date": "2026-05-31",
-  "updatedAt": "2026-05-31T11:49:07.710Z",
+  "updatedAt": "2026-05-31T11:57:22.054Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -17,14 +17,7 @@
       "listings": []
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "DEX",
-          "type": "上线",
-          "detail": "Gate DEX Bonus：参与 USDD 质押 ETH 链第一期，享 4% APY + 20,000 USDD 额外奖励10 小时前1,530",
-          "url": "https://www.gate.com/zh/announcements/article/51449"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": []
