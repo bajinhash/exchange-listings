@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-25",
   "weekEnd": "2026-05-31",
-  "updatedAt": "2026-05-31T11:57:22.210Z",
+  "updatedAt": "2026-05-31T14:33:16.710Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -423,7 +423,8 @@
           "url": "https://www.gate.com/zh/announcements/article/51380",
           "dates": [
             "2026-05-26",
-            "2026-05-29"
+            "2026-05-29",
+            "2026-05-31"
           ]
         },
         {
