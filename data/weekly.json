@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-24",
-  "weekEnd": "2026-05-30",
-  "updatedAt": "2026-05-30T14:31:13.827Z",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "updatedAt": "2026-05-31T11:49:07.860Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -104,7 +104,6 @@
           "detail": "Binance Alpha 上线 CTR (Citrea) — @BinanceWallet 公告",
           "url": "https://x.com/BinanceWallet/status/2058488765824581805",
           "dates": [
-            "2026-05-24",
             "2026-05-25",
             "2026-05-26"
           ]
@@ -112,10 +111,9 @@
         {
           "token": "SLX",
           "type": "上线",
-          "detail": "Binance Alpha 上线 SLX (Solstice) — @BinanceWallet 公告",
-          "url": "https://x.com/BinanceWallet/status/2058156451240292574",
+          "detail": "Binance Alpha 上线 SLX - 收益层：将机构级收益引入互联网资本市场。",
+          "url": "https://www.binance.com/en/alpha/bsc/0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
           "dates": [
-            "2026-05-24",
             "2026-05-25"
           ]
         }
@@ -425,7 +423,8 @@
           "url": "https://www.gate.com/zh/announcements/article/51380",
           "dates": [
             "2026-05-26",
-            "2026-05-29"
+            "2026-05-29",
+            "2026-05-31"
           ]
         },
         {
@@ -742,15 +741,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535680",
           "dates": [
             "2026-05-26"
-          ]
-        },
-        {
-          "token": "RICH",
-          "type": "Meme+ 现货",
-          "detail": "RICH 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535652",
-          "dates": [
-            "2026-05-24"
           ]
         }
       ]
