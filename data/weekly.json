@@ -1,10 +1,37 @@
 {
   "weekStart": "2026-05-27",
-  "weekEnd": "2026-06-01",
-  "updatedAt": "2026-06-01T16:06:23.797Z",
+  "weekEnd": "2026-06-02",
+  "updatedAt": "2026-06-01T16:28:46.936Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "HYUNDAI",
+          "type": "永续合约",
+          "detail": "HYUNDAI（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ed2c6a6160c64eb397b534af90b9d66a",
+          "dates": [
+            "2026-06-02"
+          ]
+        },
+        {
+          "token": "SAMSUNG",
+          "type": "永续合约",
+          "detail": "SAMSUNG（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ed2c6a6160c64eb397b534af90b9d66a",
+          "dates": [
+            "2026-06-02"
+          ]
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "永续合约",
+          "detail": "SKHYNIX（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ed2c6a6160c64eb397b534af90b9d66a",
+          "dates": [
+            "2026-06-02"
+          ]
+        },
         {
           "token": "SLX",
           "type": "永续合约",
@@ -247,6 +274,15 @@
     "kucoin": {
       "listings": [
         {
+          "token": "SLX",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: SLXUSDT Perpetual Contract with Up to 20x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-slxusdt-perpetual-contract-with-up-to-20x-leverage",
+          "dates": [
+            "2026-06-02"
+          ]
+        },
+        {
           "token": "BBX",
           "type": "美股合约",
           "detail": "BBX（同公告含 3 个标的）",
@@ -370,6 +406,15 @@
     "gateio": {
       "listings": [
         {
+          "token": "ANTHROPIC",
+          "type": "上线",
+          "detail": "Gate 股票：交易直通美股，畅享百万美元 ANTHROPIC 股票空投4 小时前462",
+          "url": "https://www.gate.com/zh/announcements/article/51471",
+          "dates": [
+            "2026-06-02"
+          ]
+        },
+        {
           "token": "NVO",
           "type": "现货上线",
           "detail": "Gate 合约股票专区将上线 NVO（诺和诺德）、NOK（诺基亚）等 6 个...6 小时前1,619",
@@ -450,6 +495,15 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "SINGULARRY",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Singularry AI (SINGULARRY)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535729",
+          "dates": [
+            "2026-06-02"
+          ]
+        },
         {
           "token": "PRXVT",
           "type": "Meme+ 现货",

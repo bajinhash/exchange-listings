@@ -1,0 +1,69 @@
+{
+  "date": "2026-06-02",
+  "updatedAt": "2026-06-01T16:28:46.774Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "HYUNDAI",
+          "type": "永续合约",
+          "detail": "HYUNDAI（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ed2c6a6160c64eb397b534af90b9d66a"
+        },
+        {
+          "token": "SAMSUNG",
+          "type": "永续合约",
+          "detail": "SAMSUNG（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ed2c6a6160c64eb397b534af90b9d66a"
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "永续合约",
+          "detail": "SKHYNIX（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ed2c6a6160c64eb397b534af90b9d66a"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "SLX",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: SLXUSDT Perpetual Contract with Up to 20x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-slxusdt-perpetual-contract-with-up-to-20x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "ANTHROPIC",
+          "type": "上线",
+          "detail": "Gate 股票：交易直通美股，畅享百万美元 ANTHROPIC 股票空投4 小时前462",
+          "url": "https://www.gate.com/zh/announcements/article/51471"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SINGULARRY",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Singularry AI (SINGULARRY)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535729"
+        }
+      ]
+    }
+  }
+}
