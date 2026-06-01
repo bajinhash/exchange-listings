@@ -1,10 +1,73 @@
 {
-  "weekStart": "2026-05-25",
-  "weekEnd": "2026-05-31",
-  "updatedAt": "2026-05-31T14:33:16.710Z",
+  "weekStart": "2026-05-26",
+  "weekEnd": "2026-06-01",
+  "updatedAt": "2026-06-01T11:46:07.332Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "SLX",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+          "url": "https://www.binance.com/en/support/announcement/4299caec4ca4407cb282707154a97ffe",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "ASTS",
+          "type": "永续合约",
+          "detail": "ASTS（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "BBX",
+          "type": "永续合约",
+          "detail": "BBX（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "EWT",
+          "type": "永续合约",
+          "detail": "EWT（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "LLY",
+          "type": "永续合约",
+          "detail": "LLY（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "NOK",
+          "type": "永续合约",
+          "detail": "NOK（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "NVO",
+          "type": "永续合约",
+          "detail": "NVO（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
         {
           "token": "GENIUS",
           "type": "上线",
@@ -101,20 +164,10 @@
         {
           "token": "CTR",
           "type": "上线",
-          "detail": "Binance Alpha 上线 CTR (Citrea) — @BinanceWallet 公告",
-          "url": "https://x.com/BinanceWallet/status/2058488765824581805",
+          "detail": "Binance Alpha 上线 CTR - Citrea 是比特币应用层，连接机构与用户进入比特币资本市场。",
+          "url": "https://www.binance.com/en/alpha/base/0x11030f79109269d796fd0fb956d6244e502757f7",
           "dates": [
-            "2026-05-25",
             "2026-05-26"
-          ]
-        },
-        {
-          "token": "SLX",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 SLX - 收益层：将机构级收益引入互联网资本市场。",
-          "url": "https://www.binance.com/en/alpha/bsc/0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
-          "dates": [
-            "2026-05-25"
           ]
         }
       ],
@@ -122,6 +175,42 @@
     },
     "okx": {
       "listings": [
+        {
+          "token": "SLX",
+          "type": "永续合约",
+          "detail": "歐易關於 SLX 永續合約正式上線的公告發佈於 2026年6月1日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-slx-crypto",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "BB",
+          "type": "永续合约",
+          "detail": "BB（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-bb-rdw-and-lunr-equities",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "RDW",
+          "type": "永续合约",
+          "detail": "RDW（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-bb-rdw-and-lunr-equities",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "LUNR",
+          "type": "永续合约",
+          "detail": "LUNR（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-bb-rdw-and-lunr-equities",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
         {
           "token": "IRYSUSD",
           "type": "永续合约",
@@ -202,47 +291,20 @@
           "dates": [
             "2026-05-26"
           ]
-        },
-        {
-          "token": "AVAX",
-          "type": "永续合约",
-          "detail": "AVAX（同公告含 4 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-05-25"
-          ]
-        },
-        {
-          "token": "BCH",
-          "type": "永续合约",
-          "detail": "BCH（同公告含 4 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-05-25"
-          ]
-        },
-        {
-          "token": "TON",
-          "type": "永续合约",
-          "detail": "TON（同公告含 4 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-05-25"
-          ]
-        },
-        {
-          "token": "ZEC",
-          "type": "永续合约",
-          "detail": "ZEC（同公告含 4 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-avaxusd-bchusd-tonusd-and-zecusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-05-25"
-          ]
         }
       ]
     },
     "bybit": {
       "listings": [
+        {
+          "token": "SLX",
+          "type": "永续合约",
+          "detail": "SLXUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-slxusdt-perpetual-contract-with-up-to-20x-leverage-blte2872c09549e9399/",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
         {
           "token": "WDC",
           "type": "永续合约",
@@ -287,20 +349,38 @@
           "dates": [
             "2026-05-26"
           ]
-        },
-        {
-          "token": "SKYAI1",
-          "type": "永续合约",
-          "detail": "SKYAI1USDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skyai1usdt-perpetual-contract-with-up-to-10x-leverage-bltc390d2afccc10cf8/",
-          "dates": [
-            "2026-05-25"
-          ]
         }
       ]
     },
     "kucoin": {
       "listings": [
+        {
+          "token": "BBX",
+          "type": "美股合约",
+          "detail": "BBX（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "LUNR",
+          "type": "美股合约",
+          "detail": "LUNR（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "NVO",
+          "type": "美股合约",
+          "detail": "NVO（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
         {
           "token": "QNTX",
           "type": "Pre-IPO 上线",
@@ -402,20 +482,29 @@
           "dates": [
             "2026-05-26"
           ]
-        },
-        {
-          "token": "CTR",
-          "type": "现货上线",
-          "detail": "World Premiere: Citrea (CTR) Listed on KuCoinTrading: 13:00 on May 26, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-citrea-ctr-listed-on-kucoin",
-          "dates": [
-            "2026-05-25"
-          ]
         }
       ]
     },
     "gateio": {
       "listings": [
+        {
+          "token": "NVO",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 NVO（诺和诺德）、NOK（诺基亚）等 6 个...6 小时前1,619",
+          "url": "https://www.gate.com/zh/announcements/article/51459",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "DATBIHGAH",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 bStocks (Binance Stocks)、DATBIHGAH (Dat Bih Gah)、GACHA (PowerGacha)10 小时前1,328",
+          "url": "https://www.gate.com/zh/announcements/article/51453",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
         {
           "token": "DEX",
           "type": "上线",
@@ -477,13 +566,12 @@
     "bitget": {
       "listings": [
         {
-          "token": "SLX",
-          "type": "现货上线",
-          "detail": "Solstice（SLX）将上线 Bitget Solana 生态专区",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884389",
+          "token": "UNITAS",
+          "type": "上线",
+          "detail": "Unitas（UNITAS）将上线 Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884762",
           "dates": [
-            "2026-05-25",
-            "2026-05-26"
+            "2026-06-01"
           ]
         },
         {
@@ -496,18 +584,64 @@
           ]
         },
         {
-          "token": "U",
-          "type": "上线",
-          "detail": "United Stables（U）将上线 Bitget 稳定币区",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884229",
+          "token": "SLX",
+          "type": "现货上线",
+          "detail": "Solstice（SLX）将上线 Bitget Solana 生态专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884389",
           "dates": [
-            "2026-05-25"
+            "2026-05-26"
           ]
         }
       ]
     },
     "mexc": {
       "listings": [
+        {
+          "token": "CTR",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年5月26日 21:10 (UTC+8) 上線 Citrea (CTR) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535681",
+          "dates": [
+            "2026-05-26",
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "PRXVT",
+          "type": "Meme+ 现货",
+          "detail": "PRXVT 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535832",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "BBSTOCK",
+          "type": "上线",
+          "detail": "新美股合約上線：BBSTOCK 和 LUNR U 本位合約將於 6/01 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535827",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "GACHA",
+          "type": "Meme+ 现货",
+          "detail": "GACHA 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535824",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
+        {
+          "token": "EWT",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年6月1日 上線 EWT 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ewt-index-futures-on-jun-1-with-0-fee-trading-17827791535823",
+          "dates": [
+            "2026-06-01"
+          ]
+        },
         {
           "token": "QNTSTOCK",
           "type": "上线",
@@ -721,15 +855,6 @@
           "type": "现货上线",
           "detail": "全球首發：MEXC 將於 2026年5月26日 12:30 (UTC+8) 上線 PITCHUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535685",
-          "dates": [
-            "2026-05-26"
-          ]
-        },
-        {
-          "token": "CTR",
-          "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年5月26日 21:10 (UTC+8) 上線 Citrea (CTR) USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535681",
           "dates": [
             "2026-05-26"
           ]

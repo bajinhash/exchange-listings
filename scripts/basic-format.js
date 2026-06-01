@@ -257,6 +257,31 @@ function extractTokens(item) {
   if (titleParens.length >= 2) {
     return [...new Set(titleParens)];
   }
+  // Priority B: title with 2+ TICKERUSDT in commas / 顿号 (KuCoin convention
+  //   "Will List BBXUSDT, LUNRUSDT & NVOUSDT Stock Index ...") OR 2+ 顿号-
+  //   separated bare tickers ("IBM、NOK、BE 股票永續合約"). Either way the
+  //   title IS the authoritative list — body sidebars on KuCoin / OKX leak
+  //   random crypto tickers (BTC / NEAR2026 / USDG etc.) into the bulk
+  //   expansion otherwise.
+  const titleUsdt = [...title.matchAll(/(?<![A-Z0-9])(\d{3,5})?([A-Z][A-Z0-9]{1,14})USDT\b/g)]
+    .map(m => (m[1] || '') + m[2]).filter(t => !BANNED_TOKEN.has(t));
+  if (titleUsdt.length >= 2) {
+    // Strip the trailing USDT for cleaner display (BBXUSDT → BBX).
+    return [...new Set(titleUsdt.map(t => t.replace(/USDT$/, '')))];
+  }
+  // Pull every ticker out of a 顿号 / comma run in the title (the bulk
+  // detector in extractToken() captures only "ticker before next 顿号",
+  // missing both the first and last — this collects them all).
+  const titleDunRuns = [...title.matchAll(/(?:[A-Z][A-Z0-9]{1,14}\s*[、,]\s*){1,}[A-Z][A-Z0-9]{1,14}/g)];
+  const titleDunhao = [];
+  for (const run of titleDunRuns) {
+    for (const inner of run[0].matchAll(/\b([A-Z][A-Z0-9]{1,14})\b/g)) {
+      if (!BANNED_TOKEN.has(inner[1])) titleDunhao.push(inner[1]);
+    }
+  }
+  if (titleDunhao.length >= 2) {
+    return [...new Set(titleDunhao)];
+  }
   const single = extractToken(item);
   // Only do bulk expansion when title flagged it as "多个" or single failed (?)
   if (single !== '多个' && single !== '?' && single !== 'TradFi') {
@@ -383,7 +408,7 @@ function inWindow(parsed) {
 // Note: 定投 (DCA / dollar-cost averaging) was previously in DENY, but
 // "现货定投新增支持 X" is legit new-token-support news. Keep the deny list
 // scoped to genuine noise (campaigns, lotteries, maintenance, delistings).
-const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照|老友季|老友福利|老友专属|老友專屬|交易大赛|交易大賽|交易赛|交易賽|打卡领|打卡領|打卡瓜分|回归得|回歸得|单人最高|單人最高|回归首单包赔|回歸首單包賠|每日打卡|零成本跟单|零成本跟單|跟单第\s*[一二三四五六七八九十\d]+\s*期|跟單第\s*[一二三四五六七八九十\d]+\s*期|见面礼|見面禮|活期理财|活期理財|理财福利|理財福利|新人特权|新人特權|首充\s*\d+%|首充\s*[一二三四五六七八九十百]+%|返现\b|返現\b|邀友|空投来袭|空投來襲|新人同领|新人同領|回归加送|回歸加送|瓜分\s*[\d,]+\s*[A-Z]{3,6}|质押上线|質押上線|份额拆分|份額拆分|份额合并|份額合併|恢复盘前交易|恢復盤前交易|首次下载|首次下載|新用户专属|新用戶專屬|交易結束|交易结束|交割安排|盘前交易.*结束|盤前交易.*結束|开户领|開戶領|豪华奖池|豪華獎池|开放时间确认|開放時間確認|交易开放时间|交易開放時間/i;
+const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照|老友季|老友福利|老友专属|老友專屬|交易大赛|交易大賽|交易赛|交易賽|打卡领|打卡領|打卡瓜分|回归得|回歸得|单人最高|單人最高|回归首单包赔|回歸首單包賠|每日打卡|零成本跟单|零成本跟單|跟单第\s*[一二三四五六七八九十\d]+\s*期|跟單第\s*[一二三四五六七八九十\d]+\s*期|见面礼|見面禮|活期理财|活期理財|理财福利|理財福利|新人特权|新人特權|首充\s*\d+%|首充\s*[一二三四五六七八九十百]+%|返现\b|返現\b|邀友|空投来袭|空投來襲|新人同领|新人同領|回归加送|回歸加送|瓜分\s*[\d,]+\s*[A-Z]{3,6}|质押上线|質押上線|份额拆分|份額拆分|份额合并|份額合併|恢复盘前交易|恢復盤前交易|首次下载|首次下載|新用户专属|新用戶專屬|交易結束|交易结束|交割安排|盘前交易.*结束|盤前交易.*結束|开户领|開戶領|豪华奖池|豪華獎池|开放时间确认|開放時間確認|交易开放时间|交易開放時間|资金费率|資金費率|首交赢|首交贏|交易回馈|交易回饋|质押挑战赛|質押挑戰賽|回归用户赢取|回歸用戶贏取|挑战赛|挑戰賽|杠杆新增\s*[A-Z]+\/|槓桿新增\s*[A-Z]+\/|杠杆.*交易对|槓桿.*交易對/i;
 
 // "首发上线" / "Will List" / "上币" — these are strong positive listing
 // signals. When a title has one of these AND no HARD-noise marker (campaign,

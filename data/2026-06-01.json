@@ -1,0 +1,174 @@
+{
+  "date": "2026-06-01",
+  "updatedAt": "2026-06-01T11:44:53.087Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "SLX",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+          "url": "https://www.binance.com/en/support/announcement/4299caec4ca4407cb282707154a97ffe"
+        },
+        {
+          "token": "ASTS",
+          "type": "永续合约",
+          "detail": "ASTS（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98"
+        },
+        {
+          "token": "BBX",
+          "type": "永续合约",
+          "detail": "BBX（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98"
+        },
+        {
+          "token": "EWT",
+          "type": "永续合约",
+          "detail": "EWT（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98"
+        },
+        {
+          "token": "LLY",
+          "type": "永续合约",
+          "detail": "LLY（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98"
+        },
+        {
+          "token": "NOK",
+          "type": "永续合约",
+          "detail": "NOK（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98"
+        },
+        {
+          "token": "NVO",
+          "type": "永续合约",
+          "detail": "NVO（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/73769d872a644d7082bc79cde6c12d98"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "SLX",
+          "type": "永续合约",
+          "detail": "歐易關於 SLX 永續合約正式上線的公告發佈於 2026年6月1日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-slx-crypto"
+        },
+        {
+          "token": "BB",
+          "type": "永续合约",
+          "detail": "BB（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-bb-rdw-and-lunr-equities"
+        },
+        {
+          "token": "RDW",
+          "type": "永续合约",
+          "detail": "RDW（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-bb-rdw-and-lunr-equities"
+        },
+        {
+          "token": "LUNR",
+          "type": "永续合约",
+          "detail": "LUNR（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-bb-rdw-and-lunr-equities"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SLX",
+          "type": "永续合约",
+          "detail": "SLXUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-slxusdt-perpetual-contract-with-up-to-20x-leverage-blte2872c09549e9399/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "BBX",
+          "type": "美股合约",
+          "detail": "BBX（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01"
+        },
+        {
+          "token": "LUNR",
+          "type": "美股合约",
+          "detail": "LUNR（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01"
+        },
+        {
+          "token": "NVO",
+          "type": "美股合约",
+          "detail": "NVO（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "NVO",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 NVO（诺和诺德）、NOK（诺基亚）等 6 个...6 小时前1,619",
+          "url": "https://www.gate.com/zh/announcements/article/51459"
+        },
+        {
+          "token": "DATBIHGAH",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 bStocks (Binance Stocks)、DATBIHGAH (Dat Bih Gah)、GACHA (PowerGacha)10 小时前1,328",
+          "url": "https://www.gate.com/zh/announcements/article/51453"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "UNITAS",
+          "type": "上线",
+          "detail": "Unitas（UNITAS）将上线 Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884762"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "PRXVT",
+          "type": "Meme+ 现货",
+          "detail": "PRXVT 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535832"
+        },
+        {
+          "token": "BBSTOCK",
+          "type": "上线",
+          "detail": "新美股合約上線：BBSTOCK 和 LUNR U 本位合約將於 6/01 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535827"
+        },
+        {
+          "token": "GACHA",
+          "type": "Meme+ 现货",
+          "detail": "GACHA 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535824"
+        },
+        {
+          "token": "EWT",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年6月1日 上線 EWT 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ewt-index-futures-on-jun-1-with-0-fee-trading-17827791535823"
+        },
+        {
+          "token": "CTR",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Citrea (CTR) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535526"
+        }
+      ]
+    }
+  }
+}
