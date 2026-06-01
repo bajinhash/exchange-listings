@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-27",
   "weekEnd": "2026-06-02",
-  "updatedAt": "2026-06-01T16:28:46.936Z",
+  "updatedAt": "2026-06-01T18:40:57.553Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -274,21 +274,13 @@
     "kucoin": {
       "listings": [
         {
-          "token": "SLX",
-          "type": "永续合约",
-          "detail": "KuCoin Futures New Listing: SLXUSDT Perpetual Contract with Up to 20x Leverage",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-slxusdt-perpetual-contract-with-up-to-20x-leverage",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
           "token": "BBX",
           "type": "美股合约",
           "detail": "BBX（同公告含 3 个标的）",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01",
           "dates": [
-            "2026-06-01"
+            "2026-06-01",
+            "2026-06-02"
           ]
         },
         {
@@ -297,7 +289,8 @@
           "detail": "LUNR（同公告含 3 个标的）",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01",
           "dates": [
-            "2026-06-01"
+            "2026-06-01",
+            "2026-06-02"
           ]
         },
         {
@@ -306,7 +299,17 @@
           "detail": "NVO（同公告含 3 个标的）",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01",
           "dates": [
-            "2026-06-01"
+            "2026-06-01",
+            "2026-06-02"
+          ]
+        },
+        {
+          "token": "SLX",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: SLXUSDT Perpetual Contract with Up to 20x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-slxusdt-perpetual-contract-with-up-to-20x-leverage",
+          "dates": [
+            "2026-06-02"
           ]
         },
         {
@@ -408,7 +411,7 @@
         {
           "token": "ANTHROPIC",
           "type": "上线",
-          "detail": "Gate 股票：交易直通美股，畅享百万美元 ANTHROPIC 股票空投4 小时前462",
+          "detail": "Gate 股票：交易直通美股，畅享百万美元 ANTHROPIC 股票空投7 小时前707",
           "url": "https://www.gate.com/zh/announcements/article/51471",
           "dates": [
             "2026-06-02"
