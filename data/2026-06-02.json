@@ -1,9 +1,15 @@
 {
   "date": "2026-06-02",
-  "updatedAt": "2026-06-01T18:40:57.380Z",
+  "updatedAt": "2026-06-02T14:13:07.175Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "ANTHROPIC",
+          "type": "Pre-IPO 上线",
+          "detail": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
+          "url": "https://www.binance.com/en/support/announcement/2b9ff1e1acf8433793bc40c59a0cb852"
+        },
         {
           "token": "HYUNDAI",
           "type": "永续合约",
@@ -27,46 +33,65 @@
       "wallet": []
     },
     "okx": {
-      "listings": []
-    },
-    "bybit": {
-      "listings": []
-    },
-    "kucoin": {
       "listings": [
         {
-          "token": "SLX",
+          "token": "HPE",
           "type": "永续合约",
-          "detail": "KuCoin Futures New Listing: SLXUSDT Perpetual Contract with Up to 20x Leverage",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-slxusdt-perpetual-contract-with-up-to-20x-leverage"
+          "detail": "HPE（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-hpe-asts-and-now-equities"
         },
         {
-          "token": "BBX",
-          "type": "美股合约",
-          "detail": "BBX（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01"
+          "token": "ASTS",
+          "type": "永续合约",
+          "detail": "ASTS（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-hpe-asts-and-now-equities"
         },
         {
-          "token": "LUNR",
-          "type": "美股合约",
-          "detail": "LUNR（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01"
-        },
-        {
-          "token": "NVO",
-          "type": "美股合约",
-          "detail": "NVO（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bbxusdt-lunrusdt-nvousdt-stock-index-perpetual-contracts-2026-06-01"
+          "token": "NOW",
+          "type": "永续合约",
+          "detail": "NOW（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-hpe-asts-and-now-equities"
         }
       ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "DELL",
+          "type": "永续合约",
+          "detail": "DELLUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-dellusdt-perpetual-contract-with-up-to-10x-leverage-bltff481d91a15992f7/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
     },
     "gateio": {
       "listings": [
         {
+          "token": "USD1",
+          "type": "现货上线",
+          "detail": "Gate 现货交易新增 USDC/USD1 交易对3 小时前422",
+          "url": "https://www.gate.com/zh/announcements/article/51490"
+        },
+        {
           "token": "ANTHROPIC",
           "type": "上线",
-          "detail": "Gate 股票：交易直通美股，畅享百万美元 ANTHROPIC 股票空投7 小时前707",
-          "url": "https://www.gate.com/zh/announcements/article/51471"
+          "detail": "Gate 股票体验官：发布真实体验，赢 ANTHROPIC 股票彩蛋5 小时前578",
+          "url": "https://www.gate.com/zh/announcements/article/51487"
+        },
+        {
+          "token": "XRP",
+          "type": "上线",
+          "detail": "XRP 充能计划：畅享四重激励，单人可领 100 XRP7 小时前914",
+          "url": "https://www.gate.com/zh/announcements/article/51482"
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 SKHYNIX（SK 海力士）、SAMSUNG（三星电子...10 小时前2,356",
+          "url": "https://www.gate.com/zh/announcements/article/51477"
         }
       ]
     },
@@ -76,10 +101,58 @@
     "mexc": {
       "listings": [
         {
-          "token": "SINGULARRY",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Singularry AI (SINGULARRY)，瓜分 40,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535729"
+          "token": "HPE",
+          "type": "上线",
+          "detail": "新美股合約上線：HPE U 本位合約將於 6/2 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535887"
+        },
+        {
+          "token": "DOGEUS",
+          "type": "Meme+ 现货",
+          "detail": "DOGEUS 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535865"
+        },
+        {
+          "token": "HYUNDAI",
+          "type": "跟单合约",
+          "detail": "HYUNDAI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856"
+        },
+        {
+          "token": "NVO",
+          "type": "跟单合约",
+          "detail": "NVO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856"
+        },
+        {
+          "token": "LUNR",
+          "type": "跟单合约",
+          "detail": "LUNR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856"
+        },
+        {
+          "token": "BBSTOCK",
+          "type": "跟单合约",
+          "detail": "BBSTOCK（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856"
+        },
+        {
+          "token": "THREE",
+          "type": "Meme+ 现货",
+          "detail": "THREE 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535853"
+        },
+        {
+          "token": "HYUNDAI",
+          "type": "上线",
+          "detail": "新股票合約上線：HYUNDAI USDT 本位合約將於 6/2 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535869"
+        },
+        {
+          "token": "NVO",
+          "type": "上线",
+          "detail": "新美股合約上線：NVO U 本位合約將於 6/1 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535844"
         }
       ]
     }
