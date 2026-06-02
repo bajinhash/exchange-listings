@@ -1,0 +1,43 @@
+{
+  "date": "2026-06-03",
+  "updatedAt": "2026-06-02T17:21:34.801Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "USD1",
+          "type": "现货上线",
+          "detail": "Gate 现货交易新增 USDC/USD1 交易对6 小时前1,046",
+          "url": "https://www.gate.com/zh/announcements/article/51490"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "HPE",
+          "type": "上线",
+          "detail": "新美股合約上線：HPE U 本位合約將於 6/2 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535887"
+        }
+      ]
+    }
+  }
+}
