@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-27",
   "weekEnd": "2026-06-02",
-  "updatedAt": "2026-06-02T14:13:07.347Z",
+  "updatedAt": "2026-06-02T14:43:55.409Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -319,6 +319,15 @@
     "kucoin": {
       "listings": [
         {
+          "token": "SLX",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: SLXUSDT Perpetual Contract with Up to 20x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-slxusdt-perpetual-contract-with-up-to-20x-leverage",
+          "dates": [
+            "2026-06-02"
+          ]
+        },
+        {
           "token": "BBX",
           "type": "美股合约",
           "detail": "BBX（同公告含 3 个标的）",
@@ -444,7 +453,7 @@
         {
           "token": "USD1",
           "type": "现货上线",
-          "detail": "Gate 现货交易新增 USDC/USD1 交易对3 小时前422",
+          "detail": "Gate 现货交易新增 USDC/USD1 交易对3 小时前518",
           "url": "https://www.gate.com/zh/announcements/article/51490",
           "dates": [
             "2026-06-02"
@@ -453,7 +462,7 @@
         {
           "token": "ANTHROPIC",
           "type": "上线",
-          "detail": "Gate 股票体验官：发布真实体验，赢 ANTHROPIC 股票彩蛋5 小时前578",
+          "detail": "Gate 股票体验官：发布真实体验，赢 ANTHROPIC 股票彩蛋5 小时前635",
           "url": "https://www.gate.com/zh/announcements/article/51487",
           "dates": [
             "2026-06-02"
@@ -462,7 +471,7 @@
         {
           "token": "XRP",
           "type": "上线",
-          "detail": "XRP 充能计划：畅享四重激励，单人可领 100 XRP7 小时前914",
+          "detail": "XRP 充能计划：畅享四重激励，单人可领 100 XRP8 小时前974",
           "url": "https://www.gate.com/zh/announcements/article/51482",
           "dates": [
             "2026-06-02"
@@ -471,7 +480,7 @@
         {
           "token": "SKHYNIX",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 SKHYNIX（SK 海力士）、SAMSUNG（三星电子...10 小时前2,356",
+          "detail": "Gate 合约股票专区将上线 SKHYNIX（SK 海力士）、SAMSUNG（三星电子...11 小时前2,460",
           "url": "https://www.gate.com/zh/announcements/article/51477",
           "dates": [
             "2026-06-02"
@@ -626,15 +635,6 @@
           "type": "上线",
           "detail": "新股票合約上線：HYUNDAI USDT 本位合約將於 6/2 上線，限時享受 0 費",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535869",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "NVO",
-          "type": "上线",
-          "detail": "新美股合約上線：NVO U 本位合約將於 6/1 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535844",
           "dates": [
             "2026-06-02"
           ]
