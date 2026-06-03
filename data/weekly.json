@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-28",
   "weekEnd": "2026-06-03",
-  "updatedAt": "2026-06-03T14:10:19.660Z",
+  "updatedAt": "2026-06-03T14:44:44.688Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -495,24 +495,6 @@
     },
     "gateio": {
       "listings": [
-        {
-          "token": "TEA",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Tea (TEA) 现货交易与闪兑交易",
-          "url": "https://www.gate.com/zh/announcements/article/51512",
-          "dates": [
-            "2026-06-03"
-          ]
-        },
-        {
-          "token": "JARS",
-          "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 JARS (Kool Aid Pineapple Jars)",
-          "url": "https://www.gate.com/zh/announcements/article/51498",
-          "dates": [
-            "2026-06-03"
-          ]
-        },
         {
           "token": "USD1",
           "type": "现货上线",
