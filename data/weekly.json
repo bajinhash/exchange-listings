@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-28",
-  "weekEnd": "2026-06-03",
-  "updatedAt": "2026-06-03T15:15:43.614Z",
+  "weekStart": "2026-05-29",
+  "weekEnd": "2026-06-04",
+  "updatedAt": "2026-06-03T17:57:01.654Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -175,25 +175,15 @@
           "dates": [
             "2026-05-29"
           ]
-        },
-        {
-          "token": "CTR",
-          "type": "永续合约",
-          "detail": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
-          "url": "https://www.binance.com/en/support/announcement/ee40eb721abc460cb7edca6df04d782b",
-          "dates": [
-            "2026-05-28"
-          ]
         }
       ],
       "alpha": [
         {
           "token": "QAIT",
           "type": "上线",
-          "detail": "Binance Alpha 上线 QAIT (Sealcoin) — @BinanceWallet 公告",
-          "url": "https://x.com/BinanceWallet/status/2059915129907765300",
+          "detail": "Binance Alpha 上线 QAIT - QAIT协会是一家瑞士非营利组织，致力于推动值得信赖的去中心化数字基础设施的发展，并促进自主机器经济的形成。",
+          "url": "https://www.binance.com/en/alpha/bsc/0x4d41a5d412f4ef44a35b9f53b06db65ede249493",
           "dates": [
-            "2026-05-28",
             "2026-05-29"
           ]
         }
@@ -323,33 +313,6 @@
           "dates": [
             "2026-06-01"
           ]
-        },
-        {
-          "token": "WDC",
-          "type": "永续合约",
-          "detail": "WDCUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-wdcusdt-perpetual-contract-with-up-to-10x-leverage-blt15aa5f4927cfeb7b/",
-          "dates": [
-            "2026-05-28"
-          ]
-        },
-        {
-          "token": "AMDSTOCK",
-          "type": "永续合约",
-          "detail": "AMDSTOCKUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-amdstockusdt-perpetual-contract-with-up-to-20x-leverage-blt33649bff759f310c/",
-          "dates": [
-            "2026-05-28"
-          ]
-        },
-        {
-          "token": "BE",
-          "type": "永续合约",
-          "detail": "BEUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-beusdt-perpetual-contract-with-up-to-10x-leverage-bltfc34d16a9c46620d/",
-          "dates": [
-            "2026-05-28"
-          ]
         }
       ]
     },
@@ -361,7 +324,8 @@
           "detail": "CRM（同公告含 5 个标的）",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03",
           "dates": [
-            "2026-06-03"
+            "2026-06-03",
+            "2026-06-04"
           ]
         },
         {
@@ -370,7 +334,8 @@
           "detail": "HPE（同公告含 5 个标的）",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03",
           "dates": [
-            "2026-06-03"
+            "2026-06-03",
+            "2026-06-04"
           ]
         },
         {
@@ -379,7 +344,8 @@
           "detail": "IREN（同公告含 5 个标的）",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03",
           "dates": [
-            "2026-06-03"
+            "2026-06-03",
+            "2026-06-04"
           ]
         },
         {
@@ -388,7 +354,8 @@
           "detail": "NOW（同公告含 5 个标的）",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03",
           "dates": [
-            "2026-06-03"
+            "2026-06-03",
+            "2026-06-04"
           ]
         },
         {
@@ -397,7 +364,8 @@
           "detail": "ONDS（同公告含 5 个标的）",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03",
           "dates": [
-            "2026-06-03"
+            "2026-06-03",
+            "2026-06-04"
           ]
         },
         {
@@ -480,15 +448,6 @@
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-ctrusdt-perpetual-contract-with-up-to-20x-leverage",
           "dates": [
             "2026-05-29"
-          ]
-        },
-        {
-          "token": "QAIT",
-          "type": "现货上线",
-          "detail": "World Premiere: QAIT (QAIT) Listed on KuCoinTrading: 13:00 on May 28, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-qait-qait-listed-on-kucoin",
-          "dates": [
-            "2026-05-28"
           ]
         }
       ]
@@ -576,24 +535,6 @@
           "dates": [
             "2026-05-29"
           ]
-        },
-        {
-          "token": "多个",
-          "type": "现货上线",
-          "detail": "Gate 关于调整多个现货交易对最小价格精度的公告（5 月 29 日 16:00 UTC+8）11 小时前1,719",
-          "url": "https://www.gate.com/zh/announcements/article/51419",
-          "dates": [
-            "2026-05-28"
-          ]
-        },
-        {
-          "token": "GOSLINGS",
-          "type": "现货上线",
-          "detail": "Gate Alpha 首发上线金靴杯（金靴杯）、GOSLINGS (Justice for Goslings)、BUFFDON (Buffalo...12 小时前1,633",
-          "url": "https://www.gate.com/zh/announcements/article/51416",
-          "dates": [
-            "2026-05-28"
-          ]
         }
       ]
     },
@@ -618,7 +559,8 @@
           "detail": "MEXC 將於考核區上線 Tea Protocol (TEA)",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535917",
           "dates": [
-            "2026-06-03"
+            "2026-06-03",
+            "2026-06-04"
           ]
         },
         {
@@ -790,78 +732,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-qntstockusdt-futures-in-innovation-zone-on-may-29-2026-04-17827791535748",
           "dates": [
             "2026-05-29"
-          ]
-        },
-        {
-          "token": "QAIT",
-          "type": "现货上线",
-          "detail": "MEXC 延遲 QAIT (QAIT) 現貨上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-qait-qait-spot-listing-17827791535744",
-          "dates": [
-            "2026-05-28"
-          ]
-        },
-        {
-          "token": "DELL",
-          "type": "上线",
-          "detail": "新股票合約上線：DELL USDT 本位合約將於 5/28上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535733",
-          "dates": [
-            "2026-05-28"
-          ]
-        },
-        {
-          "token": "AAOI",
-          "type": "跟单合约",
-          "detail": "AAOI（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-app-rdw-infq-aaoi-and-nok-usdt-m-futures-17827791535730",
-          "dates": [
-            "2026-05-28"
-          ]
-        },
-        {
-          "token": "APP",
-          "type": "跟单合约",
-          "detail": "APP（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-app-rdw-infq-aaoi-and-nok-usdt-m-futures-17827791535730",
-          "dates": [
-            "2026-05-28"
-          ]
-        },
-        {
-          "token": "INFQ",
-          "type": "跟单合约",
-          "detail": "INFQ（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-app-rdw-infq-aaoi-and-nok-usdt-m-futures-17827791535730",
-          "dates": [
-            "2026-05-28"
-          ]
-        },
-        {
-          "token": "RDW",
-          "type": "跟单合约",
-          "detail": "RDW（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-app-rdw-infq-aaoi-and-nok-usdt-m-futures-17827791535730",
-          "dates": [
-            "2026-05-28"
-          ]
-        },
-        {
-          "token": "APP",
-          "type": "上线",
-          "detail": "新美股合約上線：APP 和 RDW U 本位合約將於 5/28 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535726",
-          "dates": [
-            "2026-05-28"
-          ]
-        },
-        {
-          "token": "QAIT",
-          "type": "上线",
-          "detail": "MEXC 盤前交易：QAIT (QAIT) 即將上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791535725",
-          "dates": [
-            "2026-05-28"
           ]
         }
       ]

@@ -1,0 +1,67 @@
+{
+  "date": "2026-06-04",
+  "updatedAt": "2026-06-03T17:57:01.483Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "CRM",
+          "type": "美股合约",
+          "detail": "CRM（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03"
+        },
+        {
+          "token": "HPE",
+          "type": "美股合约",
+          "detail": "HPE（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03"
+        },
+        {
+          "token": "IREN",
+          "type": "美股合约",
+          "detail": "IREN（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03"
+        },
+        {
+          "token": "NOW",
+          "type": "美股合约",
+          "detail": "NOW（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03"
+        },
+        {
+          "token": "ONDS",
+          "type": "美股合约",
+          "detail": "ONDS（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "TEA",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Tea Protocol (TEA)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535917"
+        }
+      ]
+    }
+  }
+}
