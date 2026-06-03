@@ -1,30 +1,122 @@
 {
   "date": "2026-06-03",
-  "updatedAt": "2026-06-02T17:21:34.801Z",
+  "updatedAt": "2026-06-03T14:06:54.232Z",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "CRM",
+          "type": "永续合约",
+          "detail": "CRM（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f"
+        },
+        {
+          "token": "DELL",
+          "type": "永续合约",
+          "detail": "DELL（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f"
+        },
+        {
+          "token": "IBM",
+          "type": "永续合约",
+          "detail": "IBM（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f"
+        },
+        {
+          "token": "IREN",
+          "type": "永续合约",
+          "detail": "IREN（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f"
+        },
+        {
+          "token": "NOW",
+          "type": "永续合约",
+          "detail": "NOW（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f"
+        },
+        {
+          "token": "ONDS",
+          "type": "永续合约",
+          "detail": "ONDS（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f"
+        }
+      ],
       "alpha": [],
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "ADBE",
+          "type": "美股合约",
+          "detail": "ADBE（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-adbe-asml-and-ewt-equities"
+        },
+        {
+          "token": "ASML",
+          "type": "美股合约",
+          "detail": "ASML（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-adbe-asml-and-ewt-equities"
+        },
+        {
+          "token": "EWT",
+          "type": "美股合约",
+          "detail": "EWT（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-adbe-asml-and-ewt-equities"
+        },
+        {
+          "token": "SLX",
+          "type": "永续合约",
+          "detail": "OKX 關於 SLXUSD X-合約（X-Perp）正式上線的公告發佈於 2026年6月3日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-slxusd-expiry-perp-x-perp"
+        }
+      ]
     },
     "bybit": {
       "listings": []
     },
     "kucoin": {
-      "listings": []
-    },
-    "gateio": {
       "listings": [
         {
-          "token": "USD1",
+          "token": "CRM",
+          "type": "美股合约",
+          "detail": "CRM（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03"
+        },
+        {
+          "token": "HPE",
+          "type": "美股合约",
+          "detail": "HPE（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03"
+        },
+        {
+          "token": "IREN",
+          "type": "美股合约",
+          "detail": "IREN（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03"
+        },
+        {
+          "token": "NOW",
+          "type": "美股合约",
+          "detail": "NOW（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03"
+        },
+        {
+          "token": "ONDS",
+          "type": "美股合约",
+          "detail": "ONDS（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03"
+        },
+        {
+          "token": "TEA",
           "type": "现货上线",
-          "detail": "Gate 现货交易新增 USDC/USD1 交易对6 小时前1,046",
-          "url": "https://www.gate.com/zh/announcements/article/51490"
+          "detail": "World Premiere: Tea (TEA) Listed on KuCoinTrading: 00:00 on June 4, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-tea-tea-listed-on-kucoin"
         }
       ]
+    },
+    "gateio": {
+      "listings": []
     },
     "bitget": {
       "listings": []
@@ -32,10 +124,22 @@
     "mexc": {
       "listings": [
         {
+          "token": "TEA",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Tea Protocol (TEA)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535917"
+        },
+        {
           "token": "HPE",
-          "type": "上线",
+          "type": "美股合约",
           "detail": "新美股合約上線：HPE U 本位合約將於 6/2 上線，限時享受 0 費",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535887"
+        },
+        {
+          "token": "HYUNDAI",
+          "type": "美股合约",
+          "detail": "新股票合約上線：HYUNDAI USDT 本位合約將於 6/2 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535869"
         }
       ]
     }
