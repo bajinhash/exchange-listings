@@ -545,14 +545,21 @@ async function gateioCollectSections(page, pool) {
       if (pool.has(id)) continue;
       pool.set(id, { title: item.title, url });
       addedFromSection++;
-      if (addedFromSection >= 10) break;          // per-section cap
+      if (addedFromSection >= 15) break;          // per-section cap
     }
     console.log(`  Gate.io ${sectionUrl.split('/').pop()}: +${addedFromSection} fresh`);
   }
   return http403;
 }
 
-// Sort the id->article pool newest-first and keep the top 15.
+// Sort the id->article pool newest-first and keep the top 30. Gate floods
+// its listing sections with promo (creator incentives, prediction-market
+// games, fee campaigns, grid-bot ads), which can crowd a genuine listing
+// out of a smaller window — e.g. a 14:00 stock-perp launch buried under 6h
+// of campaign posts. The formatter's DENY filters the promo afterwards, so
+// keeping a wider pool here costs little and stops real listings dropping.
+// Gate link text carries the relative time ("15 分钟前"), so dating works
+// off the title even without a body fetch.
 function gateioSortPool(pool) {
   return [...pool.values()]
     .sort((a, b) => {
@@ -560,7 +567,7 @@ function gateioSortPool(pool) {
       const bi = parseInt(b.url.match(/article\/(\d+)/)?.[1] || '0');
       return bi - ai;
     })
-    .slice(0, 15)
+    .slice(0, 30)
     .map(a => ({ ...a, body: null }));
 }
 
@@ -636,28 +643,53 @@ async function scrapeGateio(page) {
 }
 
 async function scrapeBitget(page) {
-  const articles = [];
+  // Bitget splits new-listing announcements across separate sections.
+  // Reading only 现货 (spot) silently missed EVERY perp/futures listing
+  // (QNTSTOCK pre-IPO conversions, SMR/SITM/BBSTOCK perps, the daily
+  // TradFi-perp batches like NOW/IBM/NTAP) and every margin-pair add —
+  // they live under the 合约 (contract) and 杠杆 (margin) sections.
+  const SECTIONS = [
+    { name: '现货', url: 'https://www.bitget.com/zh-CN/support/sections/5955813039257' },
+    { name: '合约', url: 'https://www.bitget.com/zh-CN/support/sections/12508313405000' },
+    { name: '杠杆', url: 'https://www.bitget.com/zh-CN/support/sections/12508313443168' },
+  ];
+  const seen = new Set();
+  const candidates = [];
   try {
-    await page.goto('https://www.bitget.com/zh-CN/support/sections/5955813039257', { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await page.waitForTimeout(3000);
-
-    const items = await page.$$eval('a[href*="/articles/"]', links =>
-      links.map(a => {
-        const dateEl = a.closest('[class]')?.querySelector('[class*="date"], [class*="time"], span:last-child');
-        const dateText = dateEl?.textContent?.trim() || '';
-        return { title: a.textContent?.trim() || '', href: a.getAttribute('href') || '', date: dateText };
-      }).filter(i => i.title.length > 10)
-    );
-
-    for (const item of items.slice(0, 6)) {
-      const url = item.href.startsWith('http') ? item.href : `https://www.bitget.com${item.href}`;
-      const body = await fetchPageContent(page, url, 'article, main, [class*="article"]');
-      articles.push({ title: item.title, url, body });
+    for (const section of SECTIONS) {
+      try {
+        await page.goto(section.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForTimeout(3000);
+        const items = await page.$$eval('a[href*="/articles/"]', links =>
+          links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
+            .filter(i => i.title.length > 10)
+        );
+        let added = 0;
+        for (const item of items) {
+          const url = item.href.startsWith('http') ? item.href : `https://www.bitget.com${item.href}`;
+          if (seen.has(url)) continue;
+          seen.add(url);
+          candidates.push({ title: item.title, url });
+          if (++added >= 6) break;   // per-section cap
+        }
+        console.log(`  Bitget ${section.name}: +${added}`);
+      } catch (navErr) {
+        console.error(`  Bitget ${section.name} nav error:`, navErr.message);
+      }
     }
+    // Fetch bodies (carry the "YYYY-MM-DD HH:MM" publish date) for the
+    // freshest candidates so basic-format can window-filter them. Cap at 18
+    // (3 sections × 6) so no section is structurally dropped by the body cap.
+    const articles = [];
+    for (const c of candidates.slice(0, 18)) {
+      const body = await fetchPageContent(page, c.url, 'article, main, [class*="article"]');
+      articles.push({ title: c.title, url: c.url, body });
+    }
+    return articles;
   } catch (e) {
     console.error('  Bitget scrape error:', e.message);
+    return candidates.slice(0, 18).map(c => ({ ...c, body: null }));
   }
-  return articles;
 }
 
 async function scrapeMEXC(page) {

@@ -146,11 +146,17 @@ function parsePublishTime(item) {
     return { ts, date: yyyymmdd(new Date(ts + SHANGHAI_OFFSET_MS)) };
   }
   if ((m = text.match(/(\d+)\s*天前/))) {
-    // "X 天前" on MEXC etc. is rounded down (covers X*24h to (X+1)*24h ago).
-    // Use the MIDPOINT (X*24 + 12h) to filter conservatively: items right
-    // at the 24h boundary correctly fall before the 18:00→18:00 window.
-    const hoursAgo = parseInt(m[1]) * 24 + 12;
-    const ts = Date.now() - hoursAgo * 3600_000;
+    const n = parseInt(m[1]);
+    // "1 天前" = yesterday-ish. MEXC posts "首發上線" will-list announcements
+    // ~1 day before the listing opens (e.g. TEA/YOM 首發上線 published the
+    // evening before), so they belong in today's briefing even though the
+    // fuzzy publish time is just over 24h. Mark loose so inWindow accepts
+    // today OR yesterday. The old X*24+12h midpoint pushed these to ~36h
+    // and dropped them. "2+ 天前" is genuinely old → leave it out of window.
+    if (n === 1) {
+      return { ts: null, date: YESTERDAY_CST, loose: true };
+    }
+    const ts = Date.now() - n * 24 * 3600_000;
     return { ts, date: yyyymmdd(new Date(ts + SHANGHAI_OFFSET_MS)) };
   }
   if (/剛剛|刚刚|seconds? ago|一個小時前|一个小时前/.test(text)) {
@@ -441,7 +447,7 @@ function inWindow(parsed) {
 // Note: 定投 (DCA / dollar-cost averaging) was previously in DENY, but
 // "现货定投新增支持 X" is legit new-token-support news. Keep the deny list
 // scoped to genuine noise (campaigns, lotteries, maintenance, delistings).
-const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|下线|下線|关于下线|關於下線|Delisting|Will Delist|盲盒派对|盲盒派對|研究院|战略合作|戰略合作|机构周报|機構周報|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照|老友季|老友福利|老友专属|老友專屬|交易大赛|交易大賽|交易赛|交易賽|打卡领|打卡領|打卡瓜分|回归得|回歸得|单人最高|單人最高|回归首单包赔|回歸首單包賠|每日打卡|零成本跟单|零成本跟單|跟单第\s*[一二三四五六七八九十\d]+\s*期|跟單第\s*[一二三四五六七八九十\d]+\s*期|见面礼|見面禮|活期理财|活期理財|理财福利|理財福利|新人特权|新人特權|首充\s*\d+%|首充\s*[一二三四五六七八九十百]+%|返现\b|返現\b|邀友|空投来袭|空投來襲|新人同领|新人同領|回归加送|回歸加送|瓜分\s*[\d,]+\s*[A-Z]{3,6}|质押上线|質押上線|份额拆分|份額拆分|份额合并|份額合併|恢复盘前交易|恢復盤前交易|首次下载|首次下載|新用户专属|新用戶專屬|交易結束|交易结束|交割安排|盘前交易.*结束|盤前交易.*結束|开户领|開戶領|豪华奖池|豪華獎池|开放时间确认|開放時間確認|交易开放时间|交易開放時間|资金费率|資金費率|首交赢|首交贏|交易回馈|交易回饋|质押挑战赛|質押挑戰賽|回归用户赢取|回歸用戶贏取|挑战赛|挑戰賽|杠杆新增\s*[A-Z]+\/|槓桿新增\s*[A-Z]+\/|杠杆.*交易对|槓桿.*交易對|Adds\s+\w+\/(?:AED|EUR|GBP|TRY|BRL|ARS|JPY|CNY|UAH|RUB|IDR|VND|NGN|ZAR|MXN|COP|PLN)\s+Spot|\/(?:AED|EUR|GBP|TRY|BRL|ARS|JPY|CNY|UAH|RUB|IDR|VND|NGN|ZAR|MXN|COP|PLN)\s+Spot Trading Pair/i;
+const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|下线|下線|关于下线|關於下線|Delisting|Will Delist|盲盒派对|盲盒派對|研究院|战略合作|戰略合作|机构周报|機構周報|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照|老友季|老友福利|老友专属|老友專屬|交易大赛|交易大賽|交易赛|交易賽|打卡领|打卡領|打卡瓜分|回归得|回歸得|单人最高|單人最高|回归首单包赔|回歸首單包賠|每日打卡|零成本跟单|零成本跟單|跟单第\s*[一二三四五六七八九十\d]+\s*期|跟單第\s*[一二三四五六七八九十\d]+\s*期|见面礼|見面禮|活期理财|活期理財|理财福利|理財福利|新人特权|新人特權|首充\s*\d+%|首充\s*[一二三四五六七八九十百]+%|返现\b|返現\b|邀友|空投来袭|空投來襲|新人同领|新人同領|回归加送|回歸加送|瓜分\s*[\d,]+\s*[A-Z]{3,6}|质押上线|質押上線|份额拆分|份額拆分|份额合并|份額合併|恢复盘前交易|恢復盤前交易|首次下载|首次下載|新用户专属|新用戶專屬|交易結束|交易结束|交割安排|盘前交易.*结束|盤前交易.*結束|开户领|開戶領|豪华奖池|豪華獎池|开放时间确认|開放時間確認|交易开放时间|交易開放時間|资金费率|資金費率|首交赢|首交贏|交易回馈|交易回饋|质押挑战赛|質押挑戰賽|回归用户赢取|回歸用戶贏取|挑战赛|挑戰賽|杠杆新增\s*[A-Z]+\/|槓桿新增\s*[A-Z]+\/|杠杆.*交易对|槓桿.*交易對|Adds\s+\w+\/(?:AED|EUR|GBP|TRY|BRL|ARS|JPY|CNY|UAH|RUB|IDR|VND|NGN|ZAR|MXN|COP|PLN)\s+Spot|\/(?:AED|EUR|GBP|TRY|BRL|ARS|JPY|CNY|UAH|RUB|IDR|VND|NGN|ZAR|MXN|COP|PLN)\s+Spot Trading Pair|BountyDrop|杠杆无忧|槓桿無憂|赢\s*100%|贏\s*100%|能量补给|能量補給|价格精度|價格精度|数量精度|數量精度|调整.*精度|調整.*精度|创作者激励|創作者激勵|认证创作者|認證創作者|预测市场|預測市場|世界杯|竞猜|競猜|绿茵预言|綠茵預言|预言家|預言家|网格机器人|網格機器人|机器人新用户|機器人新用戶|手把手|交易教程|老友特权|老友特權|严选交易员|嚴選交易員|功能下线|功能下線|开仓立领|開倉立領/i;
 
 // "首发上线" / "Will List" / "上币" — these are strong positive listing
 // signals. When a title has one of these AND no HARD-noise marker (campaign,
@@ -469,7 +475,7 @@ function formatExchange(key, rawArr) {
     // If extractor couldn't find a real ticker at all, the item is almost
     // certainly noise that slipped past DENY (e.g. 'Gate 预测市场升级' style
     // product-update copy). Drop it rather than show '?' in the table.
-    if (tokens.length === 1 && tokens[0] === '?') continue;
+    if (tokens.length === 1 && (tokens[0] === '?' || tokens[0] === 'TradFi' || tokens[0] === '多个')) continue;
     const type = extractType(item);
     const baseDetail = makeDetail(item);
     for (const token of tokens) {
@@ -496,7 +502,7 @@ function bucketBinance(rawArr) {
     const pub = parsePublishTime(item);
     if (!inWindow(pub)) continue;
     const tokens = extractTokens(item);
-    if (tokens.length === 1 && tokens[0] === '?') continue;
+    if (tokens.length === 1 && (tokens[0] === '?' || tokens[0] === 'TradFi' || tokens[0] === '多个')) continue;
     const type = extractType(item);
     const baseDetail = makeDetail(item);
     const t = item.title || '';
