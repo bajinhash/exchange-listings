@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "updatedAt": "2026-06-04T13:41:09.243Z",
+  "updatedAt": "2026-06-04T14:03:07.639Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -60,12 +60,6 @@
           "type": "永续合约",
           "detail": "SKHYNIXUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skhynixusdt-perpetual-contract-with-up-to-20x-leverage-blt1cb8379db5ba34c6/"
-        },
-        {
-          "token": "TradFi",
-          "type": "上线",
-          "detail": "TradFi 股票上新：3 支股票 CFD 現已登陸 Bybit TradFi！",
-          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-3-cfd-bybit-tradfi--bltad7ca4d1b90c4aed/"
         }
       ]
     },
@@ -128,10 +122,48 @@
       ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "BTW",
+          "type": "永续合约",
+          "detail": "Gate 已上线 BTW 永续合约交易（USDT 结算）32 分钟前129",
+          "url": "https://www.gate.com/zh/announcements/article/51540"
+        },
+        {
+          "token": "TEA",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Tea (TEA) 现货交易与闪兑交易1 天前4,986",
+          "url": "https://www.gate.com/zh/announcements/article/51512"
+        }
+      ]
     },
     "bitget": {
-      "listings": []
+      "listings": [
+        {
+          "token": "QNTSTOCK",
+          "type": "永续合约",
+          "detail": "Bitget将转换 QNTSTOCKUSDT永续合约盘前交易为标准U本位永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885034"
+        },
+        {
+          "token": "SMR",
+          "type": "永续合约",
+          "detail": "SMR（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885016"
+        },
+        {
+          "token": "SITM",
+          "type": "永续合约",
+          "detail": "SITM（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885016"
+        },
+        {
+          "token": "BBSTOCK",
+          "type": "永续合约",
+          "detail": "BBSTOCK（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885016"
+        }
+      ]
     },
     "mexc": {
       "listings": [
@@ -146,6 +178,18 @@
           "type": "跟单合约",
           "detail": "MEXC 跟單新增 HPE U本位合約交易對",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hpe-usdt-m-futures-17827791535938"
+        },
+        {
+          "token": "TEA",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Tea Protocol (TEA)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535917"
+        },
+        {
+          "token": "YOM",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 YOM (YOM) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535901"
         }
       ]
     }
