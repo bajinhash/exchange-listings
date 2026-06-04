@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-05",
+  "updatedAt": "2026-06-04T16:19:04.307Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "ZEST",
+          "type": "永续合约",
+          "detail": "ZEST（同公告含 2 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38"
+        },
+        {
+          "token": "BTW",
+          "type": "永续合约",
+          "detail": "BTW（同公告含 2 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "YOM",
+          "type": "现货上线",
+          "detail": "World Premiere: YOM (YOM) Listed on KuCoin10:00 on June 5, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-yom-yom-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "BTW",
+          "type": "上线",
+          "detail": "BTWUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885107"
+        },
+        {
+          "token": "ZEST",
+          "type": "上线",
+          "detail": "ZESTUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885106"
+        },
+        {
+          "token": "XDC",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 XDC/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885033"
+        },
+        {
+          "token": "PENGU",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 PENGU/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885035"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "BTW",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年6月4日 22:30 (UTC+8) 上線 BTW USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-btw-usdt-m-futures-on-jun-4-2026-14-17827791535966"
+        },
+        {
+          "token": "TEA",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Tea Protocol (TEA)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535917"
+        },
+        {
+          "token": "YOM",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 YOM (YOM) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535901"
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-29",
-  "weekEnd": "2026-06-04",
-  "updatedAt": "2026-06-04T14:03:07.819Z",
+  "weekStart": "2026-05-30",
+  "weekEnd": "2026-06-05",
+  "updatedAt": "2026-06-04T16:19:04.473Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -11,7 +11,8 @@
           "detail": "ZEST（同公告含 2 个标的）",
           "url": "https://www.binance.com/en/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38",
           "dates": [
-            "2026-06-04"
+            "2026-06-04",
+            "2026-06-05"
           ]
         },
         {
@@ -20,7 +21,8 @@
           "detail": "BTW（同公告含 2 个标的）",
           "url": "https://www.binance.com/en/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38",
           "dates": [
-            "2026-06-04"
+            "2026-06-04",
+            "2026-06-05"
           ]
         },
         {
@@ -175,37 +177,9 @@
           "dates": [
             "2026-06-01"
           ]
-        },
-        {
-          "token": "GENIUS",
-          "type": "上线",
-          "detail": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
-          "url": "https://www.binance.com/en/support/announcement/455eedc320bd43e28e2326f58d4aac2a",
-          "dates": [
-            "2026-05-29"
-          ]
-        },
-        {
-          "token": "QNTX",
-          "type": "Pre-IPO 上线",
-          "detail": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
-          "url": "https://www.binance.com/en/support/announcement/3bdaff694bde45ccb443709336c8686d",
-          "dates": [
-            "2026-05-29"
-          ]
         }
       ],
-      "alpha": [
-        {
-          "token": "QAIT",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 QAIT - QAIT协会是一家瑞士非营利组织，致力于推动值得信赖的去中心化数字基础设施的发展，并促进自主机器经济的形成。",
-          "url": "https://www.binance.com/en/alpha/bsc/0x4d41a5d412f4ef44a35b9f53b06db65ede249493",
-          "dates": [
-            "2026-05-29"
-          ]
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -300,15 +274,6 @@
           "dates": [
             "2026-06-01"
           ]
-        },
-        {
-          "token": "IRYSUSD",
-          "type": "永续合约",
-          "detail": "OKX 關於 IRYSUSD X-合約（X-Perp）正式上線的公告發佈於 2026年5月29日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-irysusd-expiry-perp-x-perp",
-          "dates": [
-            "2026-05-29"
-          ]
         }
       ]
     },
@@ -391,6 +356,16 @@
     "kucoin": {
       "listings": [
         {
+          "token": "YOM",
+          "type": "现货上线",
+          "detail": "World Premiere: YOM (YOM) Listed on KuCoin10:00 on June 5, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-yom-yom-listed-on-kucoin",
+          "dates": [
+            "2026-06-04",
+            "2026-06-05"
+          ]
+        },
+        {
           "token": "CRM",
           "type": "美股合约",
           "detail": "CRM（同公告含 5 个标的）",
@@ -437,15 +412,6 @@
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03",
           "dates": [
             "2026-06-03",
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "YOM",
-          "type": "现货上线",
-          "detail": "World Premiere: YOM (YOM) Listed on KuCoin10:00 on June 5, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-yom-yom-listed-on-kucoin",
-          "dates": [
             "2026-06-04"
           ]
         },
@@ -527,35 +493,7 @@
           "detail": "KuCoin Futures New Listing: QNTXUSDT Pre-IPO Stock Index Perpetual Contract Pre-Market Trading",
           "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-qntxusdt-pre-ipo-stock-index-perpetual-contract-pre-market-trading",
           "dates": [
-            "2026-05-29",
             "2026-05-30"
-          ]
-        },
-        {
-          "token": "DELL",
-          "type": "美股合约",
-          "detail": "KuCoin Futures Will List DELLUSDT Stock Index Perpetual Contract (2026-05-29)",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-dellusdt-stock-index-perpetual-contract-2026-05-29",
-          "dates": [
-            "2026-05-29"
-          ]
-        },
-        {
-          "token": "QAIT",
-          "type": "上线",
-          "detail": "QAIT/USDT Trading Pair Opening Time UpdateTrading: 10:00 on May 29, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-qait-usdt-trading-pair-opening-time-update",
-          "dates": [
-            "2026-05-29"
-          ]
-        },
-        {
-          "token": "CTR",
-          "type": "永续合约",
-          "detail": "KuCoin Futures New Listing: CTRUSDT Perpetual Contract with Up to 20x Leverage",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-ctrusdt-perpetual-contract-with-up-to-20x-leverage",
-          "dates": [
-            "2026-05-29"
           ]
         }
       ]
@@ -647,35 +585,52 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX BountyDrop：参与 LART 空投，瓜分 $15,000 LART1 小时前227",
-          "url": "https://www.gate.com/zh/announcements/article/51447",
+          "detail": "Gate DEX Bonus：参与 USDD 质押 ETH 链第一期，享 4% APY + 20,000 USDD 额外奖励12 小时前1,933",
+          "url": "https://www.gate.com/zh/announcements/article/51449",
           "dates": [
-            "2026-05-29",
             "2026-05-31"
-          ]
-        },
-        {
-          "token": "QNTX",
-          "type": "永续合约",
-          "detail": "Gate 股票专区已上线 QNTXUSDT 永续合约盘前交易（USDT 结算）2 小时前473",
-          "url": "https://www.gate.com/zh/announcements/article/51446",
-          "dates": [
-            "2026-05-29"
-          ]
-        },
-        {
-          "token": "PAYNE",
-          "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 PAYNE (Tim Payne)、250 (Just Buy $250 Worth)、ALIENS (aliens.gov)12 小时前1,857",
-          "url": "https://www.gate.com/zh/announcements/article/51436",
-          "dates": [
-            "2026-05-29"
           ]
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "BTW",
+          "type": "上线",
+          "detail": "BTWUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885107",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "ZEST",
+          "type": "上线",
+          "detail": "ZESTUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885106",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "XDC",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 XDC/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885033",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "PENGU",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 PENGU/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885035",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
         {
           "token": "QNTSTOCK",
           "type": "永续合约",
@@ -732,7 +687,27 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535917",
           "dates": [
             "2026-06-03",
-            "2026-06-04"
+            "2026-06-04",
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "YOM",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 YOM (YOM) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535901",
+          "dates": [
+            "2026-06-04",
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "BTW",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年6月4日 22:30 (UTC+8) 上線 BTW USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-btw-usdt-m-futures-on-jun-4-2026-14-17827791535966",
+          "dates": [
+            "2026-06-05"
           ]
         },
         {
@@ -749,15 +724,6 @@
           "type": "跟单合约",
           "detail": "MEXC 跟單新增 HPE U本位合約交易對",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hpe-usdt-m-futures-17827791535938",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "YOM",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 YOM (YOM) 並支援閃兌服務",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535901",
           "dates": [
             "2026-06-04"
           ]
@@ -895,42 +861,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535526",
           "dates": [
             "2026-06-01"
-          ]
-        },
-        {
-          "token": "QNTSTOCK",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年5月30日 02:15 (UTC+8) 起把 QNTSTOCKUSDT 從創新區轉板至主板區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-qntstockusdt-from-innovation-zone-to-main-board-on-may-29-2026-18-17827791535761",
-          "dates": [
-            "2026-05-29"
-          ]
-        },
-        {
-          "token": "QNTSTOCK",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 QNTSTOCK 和 DELL U本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qntstock-and-dell-usdt-m-futures-17827791535753",
-          "dates": [
-            "2026-05-29"
-          ]
-        },
-        {
-          "token": "KNTQ",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Kinetiq (KNTQ)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535749",
-          "dates": [
-            "2026-05-29"
-          ]
-        },
-        {
-          "token": "QNTSTOCK",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年5月29日 12:20 (UTC+8) 上線 QNTSTOCKUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-qntstockusdt-futures-in-innovation-zone-on-may-29-2026-04-17827791535748",
-          "dates": [
-            "2026-05-29"
           ]
         }
       ]
