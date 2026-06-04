@@ -487,83 +487,151 @@ async function scrapeKuCoin(page) {
   return articles;
 }
 
+const GATEIO_SECTIONS = [
+  'https://www.gate.com/zh/announcements/newspotlistings',
+  'https://www.gate.com/zh/announcements/newperpetualcontract',
+  'https://www.gate.com/zh/announcements/newcontractlistings',
+  'https://www.gate.com/zh/announcements/pre-marketlistings',
+];
+
+// Walk each Gate.io section with the given page, filling `pool` (id -> {title,url}).
+// Returns the count of sections that hard-403'd (Akamai bot block) so the
+// caller can decide whether to retry with a non-headless browser.
+async function gateioCollectSections(page, pool) {
+  let http403 = 0;
+  for (const sectionUrl of GATEIO_SECTIONS) {
+    let sectionItems = [];
+    try {
+      const resp = await page.goto(sectionUrl, { waitUntil: 'domcontentloaded', timeout: 25000 });
+      const status = resp ? resp.status() : 0;
+      if (status >= 400) {
+        if (status === 403) http403++;
+        console.error(`  Gate.io ${sectionUrl} → HTTP ${status}, skipping`);
+        continue;
+      }
+      await page.waitForTimeout(2500);
+      // Akamai sometimes serves a JS challenge (200) that resolves into the
+      // real content a beat later — wait for article links before reading.
+      try { await page.waitForSelector('a[href*="/article/"]', { timeout: 6000 }); } catch {}
+      sectionItems = await page.$$eval('a[href*="/article/"]', links =>
+        links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
+          .filter(i => i.title.length > 15)
+      );
+    } catch (navErr) {
+      console.error(`  Gate.io ${sectionUrl} nav error:`, navErr.message);
+      continue;
+    }
+
+    // Sanity: top-3 of this section's links should include at least one
+    // recent (id >= 50000) article; otherwise the URL likely rendered
+    // an unrelated page and the links are footer noise.
+    const topIds = sectionItems.slice(0, 3).map(i => {
+      const m = i.href.match(/article\/(\d+)/);
+      return m ? parseInt(m[1]) : 0;
+    });
+    const looksFresh = topIds.some(id => id >= 50000);
+    if (!looksFresh) {
+      console.error(`  Gate.io ${sectionUrl} top items stale (${topIds.join(',')}); skipping`);
+      continue;
+    }
+
+    let addedFromSection = 0;
+    for (const item of sectionItems) {
+      const url = item.href.startsWith('http') ? item.href : `https://www.gate.com${item.href}`;
+      const idMatch = url.match(/article\/(\d+)/);
+      if (!idMatch) continue;
+      const id = idMatch[1];
+      if (parseInt(id) < 50000) continue;          // pre-2025 noise
+      if (pool.has(id)) continue;
+      pool.set(id, { title: item.title, url });
+      addedFromSection++;
+      if (addedFromSection >= 10) break;          // per-section cap
+    }
+    console.log(`  Gate.io ${sectionUrl.split('/').pop()}: +${addedFromSection} fresh`);
+  }
+  return http403;
+}
+
+// Sort the id->article pool newest-first and keep the top 15.
+function gateioSortPool(pool) {
+  return [...pool.values()]
+    .sort((a, b) => {
+      const ai = parseInt(a.url.match(/article\/(\d+)/)?.[1] || '0');
+      const bi = parseInt(b.url.match(/article\/(\d+)/)?.[1] || '0');
+      return bi - ai;
+    })
+    .slice(0, 15)
+    .map(a => ({ ...a, body: null }));
+}
+
+// Fallback: when the shared HEADLESS browser gets hard-403'd by Akamai
+// (happens when the egress IP — e.g. a flagged Clash proxy node — is on
+// Akamai's headless-bot list), retry the whole Gate.io scrape with a
+// dedicated NON-headless Chromium. A real rendered browser passes Akamai's
+// sensor check where headless Chromium fails outright.
+//
+// Only ever fires locally: GH Actions' clean data-center IP gets a normal
+// 200, so the primary path succeeds and this never runs there (which is
+// good — headless:false needs a display GH Actions doesn't have). Wrapped
+// so a launch failure degrades to [] instead of crashing the whole scrape.
+async function scrapeGateioNonHeadless() {
+  const proxyUrl = process.env.HTTPS_PROXY || process.env.https_proxy || process.env.HTTP_PROXY || process.env.http_proxy;
+  let browser;
+  try {
+    browser = await chromium.launch({
+      headless: false,
+      ...(proxyUrl ? { proxy: { server: proxyUrl } } : {}),
+    });
+    const context = await browser.newContext({
+      userAgent: UA,
+      viewport: { width: 1440, height: 900 },
+      locale: 'zh-CN',
+      timezoneId: 'Asia/Shanghai',
+      extraHTTPHeaders: { 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' },
+    });
+    await context.addInitScript(() => {
+      Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+    });
+    const page = await context.newPage();
+    const pool = new Map();
+    await gateioCollectSections(page, pool);
+    const articles = gateioSortPool(pool);
+    for (const a of articles.slice(0, 10)) {
+      a.body = await fetchPageContent(page, a.url, 'article, main, .content');
+    }
+    console.log(`  Gate.io non-headless fallback: ${articles.length} articles`);
+    return articles;
+  } catch (e) {
+    console.error('  Gate.io non-headless fallback failed:', e.message);
+    return [];
+  } finally {
+    if (browser) await browser.close().catch(() => {});
+  }
+}
+
 async function scrapeGateio(page) {
   // Gate.io publishes new-listing news across multiple sections. Scrape
   // each, collect all articles into one pool, dedupe by ID, sort by
   // article-ID desc (Gate IDs are monotonically increasing, so newest
   // first), then take the top 15. ID < 50000 = pre-2025 footer noise.
-  const SECTIONS = [
-    'https://www.gate.com/zh/announcements/newspotlistings',
-    'https://www.gate.com/zh/announcements/newperpetualcontract',
-    'https://www.gate.com/zh/announcements/newcontractlistings',
-    'https://www.gate.com/zh/announcements/pre-marketlistings',
-  ];
   const pool = new Map(); // id -> {title, url}
   try {
-    for (const sectionUrl of SECTIONS) {
-      let sectionItems = [];
-      try {
-        const resp = await page.goto(sectionUrl, { waitUntil: 'domcontentloaded', timeout: 25000 });
-        const status = resp ? resp.status() : 0;
-        if (status >= 400) {
-          console.error(`  Gate.io ${sectionUrl} → HTTP ${status}, skipping`);
-          continue;
-        }
-        await page.waitForTimeout(2500);
-        sectionItems = await page.$$eval('a[href*="/article/"]', links =>
-          links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
-            .filter(i => i.title.length > 15)
-        );
-      } catch (navErr) {
-        console.error(`  Gate.io ${sectionUrl} nav error:`, navErr.message);
-        continue;
-      }
+    const http403 = await gateioCollectSections(page, pool);
 
-      // Sanity: top-3 of this section's links should include at least one
-      // recent (id >= 50000) article; otherwise the URL likely rendered
-      // an unrelated page and the links are footer noise.
-      const topIds = sectionItems.slice(0, 3).map(i => {
-        const m = i.href.match(/article\/(\d+)/);
-        return m ? parseInt(m[1]) : 0;
-      });
-      const looksFresh = topIds.some(id => id >= 50000);
-      if (!looksFresh) {
-        console.error(`  Gate.io ${sectionUrl} top items stale (${topIds.join(',')}); skipping`);
-        continue;
-      }
-
-      let addedFromSection = 0;
-      for (const item of sectionItems) {
-        const url = item.href.startsWith('http') ? item.href : `https://www.gate.com${item.href}`;
-        const idMatch = url.match(/article\/(\d+)/);
-        if (!idMatch) continue;
-        const id = idMatch[1];
-        if (parseInt(id) < 50000) continue;          // pre-2025 noise
-        if (pool.has(id)) continue;
-        pool.set(id, { title: item.title, url });
-        addedFromSection++;
-        if (addedFromSection >= 10) break;          // per-section cap
-      }
-      console.log(`  Gate.io ${sectionUrl.split('/').pop()}: +${addedFromSection} fresh`);
+    // Headless got hard-403'd and collected nothing → retry non-headless.
+    if (pool.size === 0 && http403 > 0) {
+      console.error('  Gate.io: headless hard-403 from Akamai — retrying with non-headless browser');
+      return await scrapeGateioNonHeadless();
     }
 
-    // Sort by ID desc (newest first), keep top 15
-    const articles = [...pool.values()]
-      .sort((a, b) => {
-        const ai = parseInt(a.url.match(/article\/(\d+)/)?.[1] || '0');
-        const bi = parseInt(b.url.match(/article\/(\d+)/)?.[1] || '0');
-        return bi - ai;
-      })
-      .slice(0, 15)
-      .map(a => ({ ...a, body: null }));
-
+    const articles = gateioSortPool(pool);
     for (const a of articles.slice(0, 10)) {
       a.body = await fetchPageContent(page, a.url, 'article, main, .content');
     }
     return articles;
   } catch (e) {
     console.error('  Gate.io scrape error:', e.message);
-    return [...pool.values()].slice(0, 15).map(a => ({ ...a, body: null }));
+    return gateioSortPool(pool);
   }
 }
 
