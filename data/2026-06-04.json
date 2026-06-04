@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "updatedAt": "2026-06-03T17:57:01.483Z",
+  "updatedAt": "2026-06-04T01:26:30.934Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -48,7 +48,14 @@
       ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "TEA",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Tea (TEA) 现货交易与闪兑交易11 小时前2,929",
+          "url": "https://www.gate.com/zh/announcements/article/51512"
+        }
+      ]
     },
     "bitget": {
       "listings": []
