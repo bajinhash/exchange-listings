@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-05-30",
   "weekEnd": "2026-06-05",
-  "updatedAt": "2026-06-04T16:19:04.473Z",
+  "updatedAt": "2026-06-05T12:42:33.617Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -185,6 +185,15 @@
     "okx": {
       "listings": [
         {
+          "token": "QNT",
+          "type": "美股合约",
+          "detail": "OKX 關於 QNT 股票永續合約正式上線的公告發佈於 2026年6月5日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-qnt-equity",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
           "token": "SLX",
           "type": "永续合约",
           "detail": "歐易關於 SLX 永續合約正式上線的公告發佈於 2026年6月1日",
@@ -280,6 +289,42 @@
     "bybit": {
       "listings": [
         {
+          "token": "NOKIA",
+          "type": "永续合约",
+          "detail": "NOKIAUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nokiausdt-perpetual-contract-with-up-to-10x-leverage-blt98f9626f014d3d75/",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "IBM",
+          "type": "永续合约",
+          "detail": "IBMUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ibmusdt-perpetual-contract-with-up-to-10x-leverage-blt66e39254c028eff6/",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "ZEST",
+          "type": "永续合约",
+          "detail": "ZESTUSDT 永續合約全新上線創新板塊， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-zestusdt-perpetual-contract-in-innovation-zone-with-up-to-10x-leverage-bltf5ecf123ac839f11/",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "BTW",
+          "type": "永续合约",
+          "detail": "BTWUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-btwusdt-perpetual-contract-with-up-to-10x-leverage-blt1cba31527e1ce290/",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
           "token": "NOW",
           "type": "永续合约",
           "detail": "NOWUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
@@ -362,6 +407,24 @@
           "url": "https://www.kucoin.com/announcement/en-world-premiere-yom-yom-listed-on-kucoin",
           "dates": [
             "2026-06-04",
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "BTW",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: BTWUSDT Perpetual Contract with Up to 10x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-btwusdt-perpetual-contract-with-up-to-10x-leverage",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "QNTX06",
+          "type": "Pre-IPO 上线",
+          "detail": "KuCoin Futures to Convert Pre-IPO Contract to Standard Stock Index Perpetual Contract for QNTX",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-to-convert-pre-ipo-contract-to-standard-stock-index-perpetual-contract-for-qntx",
+          "dates": [
             "2026-06-05"
           ]
         },
@@ -596,6 +659,69 @@
     "bitget": {
       "listings": [
         {
+          "token": "KIOXIA",
+          "type": "永续合约",
+          "detail": "KIOXIA（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885126",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "TOKYOEL",
+          "type": "永续合约",
+          "detail": "TOKYOEL（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885126",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "SUMIELEC",
+          "type": "永续合约",
+          "detail": "SUMIELEC（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885126",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "ADVANTEST",
+          "type": "永续合约",
+          "detail": "ADVANTEST（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885126",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "LASERTEC",
+          "type": "永续合约",
+          "detail": "LASERTEC（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885126",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "DOOSBOT",
+          "type": "永续合约",
+          "detail": "DOOSBOT（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885126",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "DOOSENER",
+          "type": "永续合约",
+          "detail": "DOOSENER（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885126",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
           "token": "BTW",
           "type": "上线",
           "detail": "BTWUSDT 现已上线合约交易和交易BOT",
@@ -681,12 +807,21 @@
     "mexc": {
       "listings": [
         {
-          "token": "TEA",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Tea Protocol (TEA)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535917",
+          "token": "THREE",
+          "type": "上线",
+          "detail": "THREE 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-three-to-innovation-zone-17827791535941",
           "dates": [
-            "2026-06-03",
+            "2026-06-04",
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "HPE",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 HPE U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hpe-usdt-m-futures-17827791535938",
+          "dates": [
             "2026-06-04",
             "2026-06-05"
           ]
@@ -702,6 +837,42 @@
           ]
         },
         {
+          "token": "XZN",
+          "type": "跟单合约",
+          "detail": "XZN（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "XNI",
+          "type": "跟单合约",
+          "detail": "XNI（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "WORLDCUP",
+          "type": "Meme+ 现货",
+          "detail": "WORLDCUP 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535981",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "QNTSTOCK",
+          "type": "Pre-IPO 上线",
+          "detail": "Pre-IPO合約：QNTSTOCKUSDT 將轉換為正式合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-qntstockusdt-pre-ipo-futures-to-standard-futures-17827791535986",
+          "dates": [
+            "2026-06-05"
+          ]
+        },
+        {
           "token": "BTW",
           "type": "上线",
           "detail": "MEXC 將於 2026年6月4日 22:30 (UTC+8) 上線 BTW USDT合約",
@@ -711,20 +882,12 @@
           ]
         },
         {
-          "token": "THREE",
-          "type": "上线",
-          "detail": "THREE 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-three-to-innovation-zone-17827791535941",
+          "token": "TEA",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Tea Protocol (TEA)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535917",
           "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "HPE",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 HPE U本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hpe-usdt-m-futures-17827791535938",
-          "dates": [
+            "2026-06-03",
             "2026-06-04"
           ]
         },
