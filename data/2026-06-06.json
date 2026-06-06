@@ -1,0 +1,48 @@
+{
+  "date": "2026-06-06",
+  "updatedAt": "2026-06-06T11:30:50.998Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "YOM",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年6月5日 18:10 (UTC+8) 上線 YOM (YOM) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535985"
+        },
+        {
+          "token": "XZN",
+          "type": "跟单合约",
+          "detail": "XZN（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983"
+        },
+        {
+          "token": "XNI",
+          "type": "跟单合约",
+          "detail": "XNI（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983"
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-30",
-  "weekEnd": "2026-06-05",
-  "updatedAt": "2026-06-05T15:50:15.996Z",
+  "weekStart": "2026-05-31",
+  "weekEnd": "2026-06-06",
+  "updatedAt": "2026-06-06T11:30:51.165Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -549,15 +549,6 @@
           "dates": [
             "2026-06-01"
           ]
-        },
-        {
-          "token": "QNTX",
-          "type": "Pre-IPO 上线",
-          "detail": "KuCoin Futures New Listing: QNTXUSDT Pre-IPO Stock Index Perpetual Contract Pre-Market Trading",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-qntxusdt-pre-ipo-stock-index-perpetual-contract-pre-market-trading",
-          "dates": [
-            "2026-05-30"
-          ]
         }
       ]
     },
@@ -807,6 +798,37 @@
     "mexc": {
       "listings": [
         {
+          "token": "YOM",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 YOM (YOM) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535901",
+          "dates": [
+            "2026-06-04",
+            "2026-06-05",
+            "2026-06-06"
+          ]
+        },
+        {
+          "token": "XZN",
+          "type": "跟单合约",
+          "detail": "XZN（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983",
+          "dates": [
+            "2026-06-05",
+            "2026-06-06"
+          ]
+        },
+        {
+          "token": "XNI",
+          "type": "跟单合约",
+          "detail": "XNI（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983",
+          "dates": [
+            "2026-06-05",
+            "2026-06-06"
+          ]
+        },
+        {
           "token": "THREE",
           "type": "上线",
           "detail": "THREE 將遷移至創新區",
@@ -823,34 +845,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hpe-usdt-m-futures-17827791535938",
           "dates": [
             "2026-06-04",
-            "2026-06-05"
-          ]
-        },
-        {
-          "token": "YOM",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 YOM (YOM) 並支援閃兌服務",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535901",
-          "dates": [
-            "2026-06-04",
-            "2026-06-05"
-          ]
-        },
-        {
-          "token": "XZN",
-          "type": "跟单合约",
-          "detail": "XZN（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983",
-          "dates": [
-            "2026-06-05"
-          ]
-        },
-        {
-          "token": "XNI",
-          "type": "跟单合约",
-          "detail": "XNI（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983",
-          "dates": [
             "2026-06-05"
           ]
         },
