@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-05-31",
-  "weekEnd": "2026-06-06",
-  "updatedAt": "2026-06-06T14:26:32.781Z",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "updatedAt": "2026-06-07T11:51:50.371Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -634,15 +634,6 @@
           "url": "https://www.gate.com/zh/announcements/article/51453",
           "dates": [
             "2026-06-01"
-          ]
-        },
-        {
-          "token": "DEX",
-          "type": "上线",
-          "detail": "Gate DEX Bonus：参与 USDD 质押 ETH 链第一期，享 4% APY + 20,000 USDD 额外奖励12 小时前1,933",
-          "url": "https://www.gate.com/zh/announcements/article/51449",
-          "dates": [
-            "2026-05-31"
           ]
         }
       ]
