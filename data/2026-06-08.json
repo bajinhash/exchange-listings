@@ -1,6 +1,6 @@
 {
   "date": "2026-06-08",
-  "updatedAt": "2026-06-08T14:09:28.424Z",
+  "updatedAt": "2026-06-08T14:12:29.562Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -122,32 +122,7 @@
       ]
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "BX",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 BX（黑石集团）、CRDO（默升科技）等 3...6 小时前409",
-          "url": "https://www.gate.com/zh/announcements/article/51579"
-        },
-        {
-          "token": "USDT6",
-          "type": "上线",
-          "detail": "波动行情定投护航季：闪兑定投最高领 1,500 USDT6 小时前356",
-          "url": "https://www.gate.com/zh/announcements/article/51578"
-        },
-        {
-          "token": "BTC",
-          "type": "永续合约",
-          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（6 月 10 日 00:00 – 00:30 UTC+8）7 小时前396",
-          "url": "https://www.gate.com/zh/announcements/article/51576"
-        },
-        {
-          "token": "RTX",
-          "type": "上线",
-          "detail": "CFD 智算乐透：0 门槛抽 AI 热币、RTX 5090 GPU 与 300 NVDAON7 小时前443",
-          "url": "https://www.gate.com/zh/announcements/article/51572"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": [
