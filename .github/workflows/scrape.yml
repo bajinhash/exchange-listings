@@ -1,16 +1,19 @@
 name: Daily scrape + format
 
-# Runs every day at 18:00 / 18:30 / 21:00 Asia/Shanghai (10:00 / 10:30 /
-# 13:00 UTC). Three fire times because GitHub Actions schedules are
-# unreliable during high-traffic hours (10:00 UTC is global peak) and
-# occasionally skip the run entirely. Subsequent runs are idempotent —
-# they overwrite the same day's file with fresh data.
-# Window covered: yesterday 18:00 CST → today 18:00 CST (24h rolling).
+# GitHub Actions scheduled runs are best-effort: at top-of-hour / :30
+# (when everyone schedules) they get delayed 1-2h or dropped outright —
+# the 2026-06-08 21:00-CST run didn't land until ~22:08 CST. Mitigations:
+#   1. Fire at odd minutes, OFF :00/:30, to dodge the worst congestion.
+#   2. Four spread fire times so at least one usually lands near 18:00.
+# The Mac launchd bot-clone backup is the on-time guarantee; these are the
+# cloud fallback. All runs are idempotent (same-day file overwritten).
+# Window: yesterday 18:00 CST → today 18:00 CST (24h rolling).
 on:
   schedule:
-    - cron: '0 10 * * *'    # 18:00 CST primary
-    - cron: '30 10 * * *'   # 18:30 CST backup
-    - cron: '0 13 * * *'    # 21:00 CST last resort
+    - cron: '7 10 * * *'    # 18:07 CST primary
+    - cron: '23 10 * * *'   # 18:23 CST backup
+    - cron: '17 13 * * *'   # 21:17 CST late catch
+    - cron: '43 15 * * *'   # 23:43 CST last resort
   workflow_dispatch:
 
 permissions:
