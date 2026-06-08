@@ -1,0 +1,145 @@
+{
+  "date": "2026-06-09",
+  "updatedAt": "2026-06-08T18:16:27.587Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DXYZ",
+          "type": "永续合约",
+          "detail": "DXYZ（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "SATSSTOCK",
+          "type": "永续合约",
+          "detail": "SATSSTOCK（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "PL",
+          "type": "永续合约",
+          "detail": "PL（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "SATL",
+          "type": "永续合约",
+          "detail": "SATL（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "IREN",
+          "type": "永续合约",
+          "detail": "IREN（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "CIEN",
+          "type": "永续合约",
+          "detail": "CIEN（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "AMC",
+          "type": "永续合约",
+          "detail": "AMC（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "MDB",
+          "type": "永续合约",
+          "detail": "MDB（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "TWLO",
+          "type": "永续合约",
+          "detail": "TWLO（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "ADBE",
+          "type": "永续合约",
+          "detail": "ADBE（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "SPIR",
+          "type": "永续合约",
+          "detail": "SPIR（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "BX",
+          "type": "永续合约",
+          "detail": "BX（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "HPE",
+          "type": "永续合约",
+          "detail": "HPE（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "CRWD",
+          "type": "永续合约",
+          "detail": "CRWD（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "IWM",
+          "type": "永续合约",
+          "detail": "IWM（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "USDGO",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 USDGO/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885241"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "BX",
+          "type": "美股合约",
+          "detail": "BX（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536068"
+        },
+        {
+          "token": "CRDO",
+          "type": "美股合约",
+          "detail": "CRDO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536068"
+        },
+        {
+          "token": "IWM",
+          "type": "美股合约",
+          "detail": "IWM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536068"
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-06-02",
-  "weekEnd": "2026-06-08",
-  "updatedAt": "2026-06-08T14:26:00.335Z",
+  "weekStart": "2026-06-03",
+  "weekEnd": "2026-06-09",
+  "updatedAt": "2026-06-08T18:16:27.755Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -150,42 +150,6 @@
           "dates": [
             "2026-06-03"
           ]
-        },
-        {
-          "token": "ANTHROPIC",
-          "type": "Pre-IPO 上线",
-          "detail": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
-          "url": "https://www.binance.com/en/support/announcement/2b9ff1e1acf8433793bc40c59a0cb852",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "HYUNDAI",
-          "type": "永续合约",
-          "detail": "HYUNDAI（同公告含 3 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/ed2c6a6160c64eb397b534af90b9d66a",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "SAMSUNG",
-          "type": "永续合约",
-          "detail": "SAMSUNG（同公告含 3 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/ed2c6a6160c64eb397b534af90b9d66a",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "SKHYNIX",
-          "type": "永续合约",
-          "detail": "SKHYNIX（同公告含 3 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/ed2c6a6160c64eb397b534af90b9d66a",
-          "dates": [
-            "2026-06-02"
-          ]
         }
       ],
       "alpha": [],
@@ -254,33 +218,6 @@
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-slxusd-expiry-perp-x-perp",
           "dates": [
             "2026-06-03"
-          ]
-        },
-        {
-          "token": "HPE",
-          "type": "永续合约",
-          "detail": "HPE（同公告含 3 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-hpe-asts-and-now-equities",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "ASTS",
-          "type": "永续合约",
-          "detail": "ASTS（同公告含 3 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-hpe-asts-and-now-equities",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "NOW",
-          "type": "永续合约",
-          "detail": "NOW（同公告含 3 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-hpe-asts-and-now-equities",
-          "dates": [
-            "2026-06-02"
           ]
         }
       ]
@@ -375,15 +312,6 @@
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skhynixusdt-perpetual-contract-with-up-to-20x-leverage-blt1cb8379db5ba34c6/",
           "dates": [
             "2026-06-04"
-          ]
-        },
-        {
-          "token": "DELL",
-          "type": "永续合约",
-          "detail": "DELLUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-dellusdt-perpetual-contract-with-up-to-10x-leverage-bltff481d91a15992f7/",
-          "dates": [
-            "2026-06-02"
           ]
         }
       ]
@@ -566,15 +494,6 @@
           "dates": [
             "2026-06-03"
           ]
-        },
-        {
-          "token": "SLX",
-          "type": "永续合约",
-          "detail": "KuCoin Futures New Listing: SLXUSDT Perpetual Contract with Up to 20x Leverage",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-slxusdt-perpetual-contract-with-up-to-20x-leverage",
-          "dates": [
-            "2026-06-02"
-          ]
         }
       ]
     },
@@ -643,42 +562,6 @@
           "dates": [
             "2026-06-03"
           ]
-        },
-        {
-          "token": "USD1",
-          "type": "现货上线",
-          "detail": "Gate 现货交易新增 USDC/USD1 交易对3 小时前518",
-          "url": "https://www.gate.com/zh/announcements/article/51490",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "ANTHROPIC",
-          "type": "上线",
-          "detail": "Gate 股票体验官：发布真实体验，赢 ANTHROPIC 股票彩蛋5 小时前635",
-          "url": "https://www.gate.com/zh/announcements/article/51487",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "XRP",
-          "type": "上线",
-          "detail": "XRP 充能计划：畅享四重激励，单人可领 100 XRP8 小时前974",
-          "url": "https://www.gate.com/zh/announcements/article/51482",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "SKHYNIX",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 SKHYNIX（SK 海力士）、SAMSUNG（三星电子...11 小时前2,460",
-          "url": "https://www.gate.com/zh/announcements/article/51477",
-          "dates": [
-            "2026-06-02"
-          ]
         }
       ]
     },
@@ -690,7 +573,8 @@
           "detail": "DXYZ（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -699,7 +583,8 @@
           "detail": "SATSSTOCK（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -708,7 +593,8 @@
           "detail": "PL（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -717,7 +603,8 @@
           "detail": "SATL（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -726,7 +613,8 @@
           "detail": "IREN（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -735,7 +623,8 @@
           "detail": "CIEN（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -744,7 +633,8 @@
           "detail": "AMC（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -753,7 +643,8 @@
           "detail": "MDB（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -762,7 +653,8 @@
           "detail": "TWLO（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -771,7 +663,8 @@
           "detail": "ADBE（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -780,7 +673,8 @@
           "detail": "SPIR（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -789,7 +683,8 @@
           "detail": "BX（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -798,7 +693,8 @@
           "detail": "HPE（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -807,7 +703,8 @@
           "detail": "CRWD（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -816,7 +713,8 @@
           "detail": "IWM（同公告含 15 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -825,7 +723,8 @@
           "detail": "Bitget 全仓杠杆上线 USDGO/USDT",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885241",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -973,7 +872,8 @@
           "detail": "BX（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536068",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -982,7 +882,8 @@
           "detail": "CRDO（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536068",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -991,7 +892,8 @@
           "detail": "IWM（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536068",
           "dates": [
-            "2026-06-08"
+            "2026-06-08",
+            "2026-06-09"
           ]
         },
         {
@@ -1107,78 +1009,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535869",
           "dates": [
             "2026-06-03"
-          ]
-        },
-        {
-          "token": "HPE",
-          "type": "上线",
-          "detail": "新美股合約上線：HPE U 本位合約將於 6/2 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535887",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "DOGEUS",
-          "type": "Meme+ 现货",
-          "detail": "DOGEUS 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535865",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "HYUNDAI",
-          "type": "跟单合约",
-          "detail": "HYUNDAI（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "NVO",
-          "type": "跟单合约",
-          "detail": "NVO（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "LUNR",
-          "type": "跟单合约",
-          "detail": "LUNR（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "BBSTOCK",
-          "type": "跟单合约",
-          "detail": "BBSTOCK（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "THREE",
-          "type": "Meme+ 现货",
-          "detail": "THREE 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535853",
-          "dates": [
-            "2026-06-02"
-          ]
-        },
-        {
-          "token": "HYUNDAI",
-          "type": "上线",
-          "detail": "新股票合約上線：HYUNDAI USDT 本位合約將於 6/2 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535869",
-          "dates": [
-            "2026-06-02"
           ]
         }
       ]
