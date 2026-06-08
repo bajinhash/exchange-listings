@@ -7,12 +7,27 @@
 # Idempotent: GH Actions cron may also run; whichever pushes first
 # wins, the other re-runs and the soft-reset push logic merges cleanly.
 #
-# Output: ~/Downloads/claude\ code/exchange-listings/local-cron.log
+# DEPLOYMENT (important — macOS TCC): launchd cannot EXECUTE a script that
+# lives inside ~/Downloads (a TCC-protected folder → "Operation not
+# permitted", exit 126). So this file is DEPLOYED to a non-protected path
+#   ~/Library/Application Support/exchange-listings/local-cron.sh
+# and the LaunchAgent points there. `scripts/install-launchd.sh` syncs the
+# repo copy to that location and (re)loads the agent. The LOG also lives
+# outside Downloads so we can always see failures.
+#
+# Output: ~/Library/Logs/exchange-listings.log
 
 set -uo pipefail
 
-REPO="$HOME/Downloads/claude code/exchange-listings"
-LOG="$REPO/local-cron.log"
+# REPO is a DEDICATED bot clone living OUTSIDE ~/Downloads. macOS TCC blocks
+# launchd-spawned processes from reading ~/Downloads at all (git fails with
+# "Operation not permitted"), so the user's interactive Downloads copy can't
+# be driven by cron. This clone is created + kept fresh by
+# scripts/install-launchd.sh and is the only copy launchd touches. Override
+# with EXCHANGE_LISTINGS_REPO if you put it somewhere else.
+REPO="${EXCHANGE_LISTINGS_REPO:-$HOME/exchange-listings-bot}"
+LOG="$HOME/Library/Logs/exchange-listings.log"
+mkdir -p "$(dirname "$LOG")"
 
 # 1MB log rotation
 [ -f "$LOG" ] && [ "$(stat -f%z "$LOG")" -gt 1048576 ] && mv "$LOG" "${LOG}.1"
