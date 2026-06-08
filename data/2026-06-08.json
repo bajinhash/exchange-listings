@@ -1,0 +1,281 @@
+{
+  "date": "2026-06-08",
+  "updatedAt": "2026-06-08T14:09:28.424Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "AAOI",
+          "type": "永续合约",
+          "detail": "AAOI（同公告含 8 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1"
+        },
+        {
+          "token": "AMAT",
+          "type": "永续合约",
+          "detail": "AMAT（同公告含 8 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1"
+        },
+        {
+          "token": "AXTI",
+          "type": "永续合约",
+          "detail": "AXTI（同公告含 8 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1"
+        },
+        {
+          "token": "BX",
+          "type": "永续合约",
+          "detail": "BX（同公告含 8 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1"
+        },
+        {
+          "token": "CRDO",
+          "type": "永续合约",
+          "detail": "CRDO（同公告含 8 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1"
+        },
+        {
+          "token": "CRWD",
+          "type": "永续合约",
+          "detail": "CRWD（同公告含 8 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1"
+        },
+        {
+          "token": "HPE",
+          "type": "永续合约",
+          "detail": "HPE（同公告含 8 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1"
+        },
+        {
+          "token": "IWM",
+          "type": "永续合约",
+          "detail": "IWM（同公告含 8 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "PANW",
+          "type": "美股合约",
+          "detail": "PANW（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-panw-and-iren-equities"
+        },
+        {
+          "token": "IREN",
+          "type": "美股合约",
+          "detail": "IREN（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-panw-and-iren-equities"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "AMAT",
+          "type": "美股合约",
+          "detail": "AMAT（同公告含 7 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-08"
+        },
+        {
+          "token": "AXT",
+          "type": "美股合约",
+          "detail": "AXT（同公告含 7 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-08"
+        },
+        {
+          "token": "AXTI",
+          "type": "美股合约",
+          "detail": "AXTI（同公告含 7 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-08"
+        },
+        {
+          "token": "BX",
+          "type": "美股合约",
+          "detail": "BX（同公告含 7 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-08"
+        },
+        {
+          "token": "CRDO",
+          "type": "美股合约",
+          "detail": "CRDO（同公告含 7 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-08"
+        },
+        {
+          "token": "CRWD",
+          "type": "美股合约",
+          "detail": "CRWD（同公告含 7 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-08"
+        },
+        {
+          "token": "IWM",
+          "type": "美股合约",
+          "detail": "IWM（同公告含 7 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-08"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "BX",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 BX（黑石集团）、CRDO（默升科技）等 3...6 小时前409",
+          "url": "https://www.gate.com/zh/announcements/article/51579"
+        },
+        {
+          "token": "USDT6",
+          "type": "上线",
+          "detail": "波动行情定投护航季：闪兑定投最高领 1,500 USDT6 小时前356",
+          "url": "https://www.gate.com/zh/announcements/article/51578"
+        },
+        {
+          "token": "BTC",
+          "type": "永续合约",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（6 月 10 日 00:00 – 00:30 UTC+8）7 小时前396",
+          "url": "https://www.gate.com/zh/announcements/article/51576"
+        },
+        {
+          "token": "RTX",
+          "type": "上线",
+          "detail": "CFD 智算乐透：0 门槛抽 AI 热币、RTX 5090 GPU 与 300 NVDAON7 小时前443",
+          "url": "https://www.gate.com/zh/announcements/article/51572"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DXYZ",
+          "type": "永续合约",
+          "detail": "DXYZ（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "SATSSTOCK",
+          "type": "永续合约",
+          "detail": "SATSSTOCK（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "PL",
+          "type": "永续合约",
+          "detail": "PL（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "SATL",
+          "type": "永续合约",
+          "detail": "SATL（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "IREN",
+          "type": "永续合约",
+          "detail": "IREN（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "CIEN",
+          "type": "永续合约",
+          "detail": "CIEN（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "AMC",
+          "type": "永续合约",
+          "detail": "AMC（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "MDB",
+          "type": "永续合约",
+          "detail": "MDB（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "TWLO",
+          "type": "永续合约",
+          "detail": "TWLO（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "ADBE",
+          "type": "永续合约",
+          "detail": "ADBE（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "SPIR",
+          "type": "永续合约",
+          "detail": "SPIR（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "BX",
+          "type": "永续合约",
+          "detail": "BX（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "HPE",
+          "type": "永续合约",
+          "detail": "HPE（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "CRWD",
+          "type": "永续合约",
+          "detail": "CRWD（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "IWM",
+          "type": "永续合约",
+          "detail": "IWM（同公告含 15 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "USDGO",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 USDGO/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885241"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "BX",
+          "type": "美股合约",
+          "detail": "BX（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536068"
+        },
+        {
+          "token": "CRDO",
+          "type": "美股合约",
+          "detail": "CRDO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536068"
+        },
+        {
+          "token": "IWM",
+          "type": "美股合约",
+          "detail": "IWM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536068"
+        },
+        {
+          "token": "YOM",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 YOM U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-yom-usdt-m-futures-17827791536049"
+        }
+      ]
+    }
+  }
+}
