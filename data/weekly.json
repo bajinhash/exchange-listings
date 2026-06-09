@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-03",
   "weekEnd": "2026-06-09",
-  "updatedAt": "2026-06-09T10:38:30.718Z",
+  "updatedAt": "2026-06-09T12:51:44.072Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -598,33 +598,6 @@
     },
     "gateio": {
       "listings": [
-        {
-          "token": "XAUT",
-          "type": "上线",
-          "detail": "Gate ETF 顶配交易宝库，$1 起解锁顶级交易好礼，交易进阶瓜分 XAUT 黄金奖池1 小时前",
-          "url": "https://www.gate.com/zh/announcements/article/51598",
-          "dates": [
-            "2026-06-09"
-          ]
-        },
-        {
-          "token": "USD1",
-          "type": "上线",
-          "detail": "USD1 持币生息：持有即享最高 20% 年化收益4 小时前",
-          "url": "https://www.gate.com/zh/announcements/article/51590",
-          "dates": [
-            "2026-06-09"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "永续合约",
-          "detail": "Gate 关于 SPCX 永续合约标的股数调整及风险提示公告7 小时前",
-          "url": "https://www.gate.com/zh/announcements/article/51584",
-          "dates": [
-            "2026-06-09"
-          ]
-        },
         {
           "token": "BX",
           "type": "现货上线",
