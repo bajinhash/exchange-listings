@@ -1,6 +1,6 @@
 {
   "date": "2026-06-09",
-  "updatedAt": "2026-06-09T10:08:31.001Z",
+  "updatedAt": "2026-06-09T10:38:30.617Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -90,13 +90,13 @@
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "Gate ETF 顶配交易宝库，$1 起解锁顶级交易好礼，交易进阶瓜分 XAUT 黄金奖池26 分钟前",
+          "detail": "Gate ETF 顶配交易宝库，$1 起解锁顶级交易好礼，交易进阶瓜分 XAUT 黄金奖池1 小时前",
           "url": "https://www.gate.com/zh/announcements/article/51598"
         },
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 持币生息：持有即享最高 20% 年化收益3 小时前",
+          "detail": "USD1 持币生息：持有即享最高 20% 年化收益4 小时前",
           "url": "https://www.gate.com/zh/announcements/article/51590"
         },
         {
