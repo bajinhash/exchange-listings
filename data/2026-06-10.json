@@ -1,0 +1,67 @@
+{
+  "date": "2026-06-10",
+  "updatedAt": "2026-06-09T16:16:52.537Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "永续合约",
+          "detail": "Bitget SPCXUSDT 【IPO盘前永续合约 】回归| 基于最新招股书股本数据重定价，提前锁定SpaceX万亿IPO红利！",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885389"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "NFLX",
+          "type": "美股合约",
+          "detail": "NFLX（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122"
+        },
+        {
+          "token": "EBAY",
+          "type": "美股合约",
+          "detail": "EBAY（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122"
+        },
+        {
+          "token": "URNM",
+          "type": "美股合约",
+          "detail": "URNM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122"
+        },
+        {
+          "token": "O",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：o1.exchange (O) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536081"
+        },
+        {
+          "token": "YOM",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 YOM U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-yom-usdt-m-futures-17827791536049"
+        }
+      ]
+    }
+  }
+}
