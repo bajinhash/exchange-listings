@@ -1,9 +1,40 @@
 {
   "date": "2026-06-09",
-  "updatedAt": "2026-06-08T18:16:27.587Z",
+  "updatedAt": "2026-06-09T10:08:31.001Z",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "COST",
+          "type": "永续合约",
+          "detail": "COST（同公告含 5 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f598c7bb87d74b8c995b9f67bf210be1"
+        },
+        {
+          "token": "EBAY",
+          "type": "永续合约",
+          "detail": "EBAY（同公告含 5 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f598c7bb87d74b8c995b9f67bf210be1"
+        },
+        {
+          "token": "HIMS",
+          "type": "永续合约",
+          "detail": "HIMS（同公告含 5 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f598c7bb87d74b8c995b9f67bf210be1"
+        },
+        {
+          "token": "NFLX",
+          "type": "永续合约",
+          "detail": "NFLX（同公告含 5 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f598c7bb87d74b8c995b9f67bf210be1"
+        },
+        {
+          "token": "URNM",
+          "type": "永续合约",
+          "detail": "URNM（同公告含 5 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f598c7bb87d74b8c995b9f67bf210be1"
+        }
+      ],
       "alpha": [],
       "wallet": []
     },
@@ -11,13 +42,70 @@
       "listings": []
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "AAOI",
+          "type": "永续合约",
+          "detail": "AAOIUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-aaoiusdt-perpetual-contract-with-up-to-10x-leverage-blt51052ee4e0e8b037/"
+        },
+        {
+          "token": "IREN",
+          "type": "永续合约",
+          "detail": "IRENUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-irenusdt-perpetual-contract-with-up-to-10x-leverage-blt8300b204a12ff6c6/"
+        },
+        {
+          "token": "ONDS",
+          "type": "永续合约",
+          "detail": "ONDSUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ondsusdt-perpetual-contract-with-up-to-10x-leverage-blt218ddf9fe9dd402d/"
+        },
+        {
+          "token": "QNTX",
+          "type": "永续合约",
+          "detail": "QNTXUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-qntxusdt-perpetual-contract-with-up-to-10x-leverage-blta104ed4e48aaea27/"
+        },
+        {
+          "token": "CTR",
+          "type": "永续合约",
+          "detail": "CTRUSDT 永續合約全新上線創新板塊， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ctrusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage-bltc44262151a71eed5/"
+        }
+      ]
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "KONET",
+          "type": "现货上线",
+          "detail": "KONET (KONET) Listed on KuCoinTrading: 10:00 on June 9, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-konet-konet-listed-on-kucoin"
+        }
+      ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "XAUT",
+          "type": "上线",
+          "detail": "Gate ETF 顶配交易宝库，$1 起解锁顶级交易好礼，交易进阶瓜分 XAUT 黄金奖池26 分钟前",
+          "url": "https://www.gate.com/zh/announcements/article/51598"
+        },
+        {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "USD1 持币生息：持有即享最高 20% 年化收益3 小时前",
+          "url": "https://www.gate.com/zh/announcements/article/51590"
+        },
+        {
+          "token": "SPCX",
+          "type": "永续合约",
+          "detail": "Gate 关于 SPCX 永续合约标的股数调整及风险提示公告7 小时前",
+          "url": "https://www.gate.com/zh/announcements/article/51584"
+        }
+      ]
     },
     "bitget": {
       "listings": [
@@ -122,6 +210,48 @@
     "mexc": {
       "listings": [
         {
+          "token": "XPB",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 US30 和 LEAD(XPB) U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-us30-and-lead-xpb-usdt-m-futures-17827791536103"
+        },
+        {
+          "token": "BX",
+          "type": "跟单合约",
+          "detail": "BX（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bx-crdo-iwm-and-axti-usdt-m-futures-17827791536102"
+        },
+        {
+          "token": "CRDO",
+          "type": "跟单合约",
+          "detail": "CRDO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bx-crdo-iwm-and-axti-usdt-m-futures-17827791536102"
+        },
+        {
+          "token": "IWM",
+          "type": "跟单合约",
+          "detail": "IWM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bx-crdo-iwm-and-axti-usdt-m-futures-17827791536102"
+        },
+        {
+          "token": "JOTCHUA",
+          "type": "Meme+ 现货",
+          "detail": "JOTCHUA 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536098"
+        },
+        {
+          "token": "KINS",
+          "type": "Meme+ 现货",
+          "detail": "KINS 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536097"
+        },
+        {
+          "token": "O",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：o1.exchange (O) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536081"
+        },
+        {
           "token": "BX",
           "type": "美股合约",
           "detail": "BX（同公告含 3 个标的）",
@@ -138,6 +268,12 @@
           "type": "美股合约",
           "detail": "IWM（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536068"
+        },
+        {
+          "token": "YOM",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 YOM U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-yom-usdt-m-futures-17827791536049"
         }
       ]
     }
