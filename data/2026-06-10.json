@@ -1,6 +1,6 @@
 {
   "date": "2026-06-10",
-  "updatedAt": "2026-06-10T10:38:27.613Z",
+  "updatedAt": "2026-06-10T13:46:48.972Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -79,26 +79,7 @@
       "listings": []
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "USD1",
-          "type": "上线",
-          "detail": "闪兑 USD1 收益启航季：一键兑换 USD1，达标瓜分奖励1 小时前273",
-          "url": "https://www.gate.com/zh/announcements/article/51618"
-        },
-        {
-          "token": "ZM",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 ZM（Zoom 通讯）、DKNG (DraftKings) 等 6 个永...2 小时前1,151",
-          "url": "https://www.gate.com/zh/announcements/article/51616"
-        },
-        {
-          "token": "SPCX",
-          "type": "上线",
-          "detail": "SPCX 直通 IPO 专属福利：USDT 理财最高享 200% 年化收益4 小时前661",
-          "url": "https://www.gate.com/zh/announcements/article/51611"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": [
