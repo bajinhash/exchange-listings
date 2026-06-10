@@ -1,12 +1,22 @@
 name: Daily data check
 
-# Runs at 22:00 Asia/Shanghai (14:00 UTC) = 4h after primary scrape cron.
+# Runs at 22:11 Asia/Shanghai (14:11 UTC) — after the 18:07/18:23/21:17 CST
+# scrape crons and the 18:00/18:30 Mac launchd runs have all had their shot.
 # If today's data file is missing or empty, this opens a GitHub Issue and
 # triggers a recovery scrape. Acts as a safety net since GH Actions
 # schedules occasionally skip runs entirely.
+#
+# HISTORY: this file shipped with a YAML parse error (a heredoc body at
+# column 0 terminated the `run: |` block scalar), so it NEVER parsed and
+# the schedule never fired — the safety net was dead from day one, and
+# every credentialed push spawned a stub "failure" run for the broken
+# file. Keep ALL lines inside run blocks indented; no column-0 heredocs.
 on:
   schedule:
-    - cron: '0 14 * * *'   # 22:00 CST
+    # Odd minute on purpose — :00/:30 are GH's congestion peaks where
+    # scheduled runs get delayed or dropped (same reason scrape.yml fires
+    # at :07/:23/:17/:43).
+    - cron: '11 14 * * *'   # 22:11 CST
   workflow_dispatch:
 
 permissions:
@@ -66,26 +76,15 @@ jobs:
           # Trigger a fresh scrape run
           gh workflow run scrape.yml --ref main
 
-          # Open a GitHub issue (deduped per day)
+          # Open a GitHub issue (deduped per day). Body built with printf —
+          # a heredoc's column-0 body would terminate this YAML block scalar
+          # and break the whole workflow file (it did, for three weeks).
           TITLE="[data check] ${DATE}: ${STATUS}"
-          # Skip if already an open issue for today
           EXISTING=$(gh issue list --state open --search "${TITLE} in:title" --json number --jq '.[0].number // empty')
           if [ -z "$EXISTING" ]; then
-            gh issue create \
-              --title "$TITLE" \
-              --body "$(cat <<EOF
-**Daily data check failed at $(TZ=Asia/Shanghai date '+%F %H:%M %Z').**
-
-- File:    \`${FILE}\`
-- Status:  \`${STATUS}\`
-- Count:   \`${COUNT}\`
-
-A recovery scrape has been triggered automatically. Check the latest run
-under [Actions → Daily scrape + format](https://github.com/${{ github.repository }}/actions/workflows/scrape.yml).
-
-If this triggers repeatedly, the scraper / formatter likely needs investigation.
-EOF
-              )"
+            BODY=$(printf '**Daily data check failed at %s.**\n\n- File: `%s`\n- Status: `%s`\n- Count: `%s`\n\nA recovery scrape has been triggered automatically. Check the latest run under [Actions → Daily scrape + format](https://github.com/%s/actions/workflows/scrape.yml).\n\nIf this triggers repeatedly, the scraper / formatter likely needs investigation.\n' \
+              "$(TZ=Asia/Shanghai date '+%F %H:%M %Z')" "$FILE" "$STATUS" "$COUNT" "${{ github.repository }}")
+            gh issue create --title "$TITLE" --body "$BODY"
           else
             echo "issue #${EXISTING} already open for today, skipping create"
           fi

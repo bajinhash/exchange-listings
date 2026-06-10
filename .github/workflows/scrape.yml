@@ -1,19 +1,22 @@
 name: Daily scrape + format
 
-# GitHub Actions scheduled runs are best-effort: at top-of-hour / :30
-# (when everyone schedules) they get delayed 1-2h or dropped outright —
-# the 2026-06-08 21:00-CST run didn't land until ~22:08 CST. Mitigations:
+# GitHub Actions scheduled runs are best-effort: they fire 1-3h late under
+# load (observed 2026-06-09: all four crons fired, each ~2-3h delayed) and
+# at :00/:30 congestion peaks they get dropped outright. Mitigations:
 #   1. Fire at odd minutes, OFF :00/:30, to dodge the worst congestion.
 #   2. Four spread fire times so at least one usually lands near 18:00.
-# The Mac launchd bot-clone backup is the on-time guarantee; these are the
-# cloud fallback. All runs are idempotent (same-day file overwritten).
+#   3. ALL crons sit ≤ 21:00 CST: with a worst-case ~3h delay the run still
+#      executes before CST midnight. On 6/9 the 21:17/23:43 crons slid past
+#      midnight and wrote the NEXT day's file — useless as same-day backstops.
+# The Mac launchd bot-clone backup (18:00/18:30 CST) is the on-time
+# guarantee; these are the cloud fallback. Runs are idempotent.
 # Window: yesterday 18:00 CST → today 18:00 CST (24h rolling).
 on:
   schedule:
     - cron: '7 10 * * *'    # 18:07 CST primary
     - cron: '23 10 * * *'   # 18:23 CST backup
-    - cron: '17 13 * * *'   # 21:17 CST late catch
-    - cron: '43 15 * * *'   # 23:43 CST last resort
+    - cron: '47 11 * * *'   # 19:47 CST late catch
+    - cron: '53 12 * * *'   # 20:53 CST last resort (+3h delay → 23:53, still same CST day)
   workflow_dispatch:
 
 permissions:

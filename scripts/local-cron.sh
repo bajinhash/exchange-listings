@@ -60,6 +60,16 @@ echo
 echo "--- git pull ---"
 git pull --rebase 2>&1 || echo "WARN: pull --rebase had conflicts; continuing"
 
+# Self-update: launchd executes a DEPLOYED COPY of this script (outside
+# ~/Downloads, see header). After pulling, sync the repo's version of the
+# runner over the deployed copy so script fixes take effect on the NEXT
+# run without re-running install-launchd.sh. (Never re-exec mid-run.)
+DEPLOYED="$HOME/Library/Application Support/exchange-listings/local-cron.sh"
+if [ -f "$DEPLOYED" ] && ! cmp -s "$REPO/scripts/local-cron.sh" "$DEPLOYED"; then
+  cp "$REPO/scripts/local-cron.sh" "$DEPLOYED" && chmod +x "$DEPLOYED" \
+    && echo "runner self-updated from repo (effective next run)"
+fi
+
 echo
 echo "--- npm run scrape ---"
 npm run scrape 2>&1 || { echo "ERR: scrape failed"; exit 2; }
