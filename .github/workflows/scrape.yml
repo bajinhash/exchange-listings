@@ -49,8 +49,18 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
+      - name: Install xvfb (virtual display for the non-headless fallback)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq xvfb
+
+      # xvfb-run gives headless:false a display. Gate.io's Akamai hard-403s
+      # headless Chromium from data-center IPs (started ~2026-06-09; the
+      # fallback then failed here with "browserType.launch: ...closed" for
+      # lack of a display and wrote gateio=[]). Under xvfb the real-browser
+      # fallback can at least attempt the Akamai sensor check; if Akamai
+      # still blocks this runner's IP, the merge-don't-clobber save keeps
+      # earlier good data (e.g. from the Mac runner) instead of clobbering.
       - name: Run scraper (raw → data/raw-DATE.json)
-        run: npm run scrape
+        run: xvfb-run --auto-servernum npm run scrape
 
       - name: AI format (Claude Opus 4.7, if ANTHROPIC_API_KEY set)
         if: env.ANTHROPIC_API_KEY != ''

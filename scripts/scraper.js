@@ -797,6 +797,28 @@ async function main() {
 
   const outputPath = path.join(DATA_DIR, `raw-${TODAY}.json`);
   if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+
+  // Merge-don't-clobber: runs are idempotent overwrites, but the runners
+  // degrade differently — Gate 403s GH Actions' data-center IPs (and the
+  // non-headless fallback needs a display GH lacks), while the Mac runner
+  // has a residential IP where the fallback works. On 2026-06-09 a later
+  // GH run wrote gateio=[] over launchd's 30 good Gate articles. If THIS
+  // run got nothing for an exchange but today's existing raw file has
+  // entries, keep the old ones — an empty result is a scrape failure
+  // signal, never better than data we already had.
+  if (fs.existsSync(outputPath)) {
+    try {
+      const prev = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
+      for (const [ex, arr] of Object.entries(rawData.exchanges)) {
+        const old = prev.exchanges?.[ex];
+        if (arr.length === 0 && Array.isArray(old) && old.length > 0) {
+          rawData.exchanges[ex] = old;
+          console.log(`  ${ex}: this run got 0 — kept ${old.length} from earlier run today`);
+        }
+      }
+    } catch { /* unreadable previous file — just overwrite */ }
+  }
+
   fs.writeFileSync(outputPath, JSON.stringify(rawData, null, 2), 'utf-8');
 
   console.log(`\nRaw data saved to ${outputPath}`);
