@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-06-04",
-  "weekEnd": "2026-06-10",
-  "updatedAt": "2026-06-10T13:53:10.964Z",
+  "weekStart": "2026-06-05",
+  "weekEnd": "2026-06-11",
+  "updatedAt": "2026-06-10T16:48:43.168Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -182,7 +182,6 @@
           "detail": "ZEST（同公告含 2 个标的）",
           "url": "https://www.binance.com/en/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38",
           "dates": [
-            "2026-06-04",
             "2026-06-05"
           ]
         },
@@ -192,7 +191,6 @@
           "detail": "BTW（同公告含 2 个标的）",
           "url": "https://www.binance.com/en/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38",
           "dates": [
-            "2026-06-04",
             "2026-06-05"
           ]
         }
@@ -349,60 +347,6 @@
           "dates": [
             "2026-06-05"
           ]
-        },
-        {
-          "token": "NOW",
-          "type": "永续合约",
-          "detail": "NOWUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nowusdt-perpetual-contract-with-up-to-10x-leverage-blte3892b971f29fc24/",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "EWT",
-          "type": "永续合约",
-          "detail": "EWTUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ewtusdt-perpetual-contract-with-up-to-20x-leverage-blt583d2f91582e37a5/",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "ASTS",
-          "type": "永续合约",
-          "detail": "ASTSUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-astsusdt-perpetual-contract-with-up-to-10x-leverage-bltc520ec23e32513a2/",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "HYUNDAI",
-          "type": "永续合约",
-          "detail": "HYUNDAIUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-hyundaiusdt-perpetual-contract-with-up-to-20x-leverage-bltf172db582ef50a62/",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "SAMSUNG",
-          "type": "永续合约",
-          "detail": "SAMSUNGUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-samsungusdt-perpetual-contract-with-up-to-20x-leverage-blta154b4788f259b3f/",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "SKHYNIX",
-          "type": "永续合约",
-          "detail": "SKHYNIXUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skhynixusdt-perpetual-contract-with-up-to-20x-leverage-blt1cb8379db5ba34c6/",
-          "dates": [
-            "2026-06-04"
-          ]
         }
       ]
     },
@@ -481,16 +425,6 @@
           ]
         },
         {
-          "token": "YOM",
-          "type": "现货上线",
-          "detail": "World Premiere: YOM (YOM) Listed on KuCoin10:00 on June 5, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-yom-yom-listed-on-kucoin",
-          "dates": [
-            "2026-06-04",
-            "2026-06-05"
-          ]
-        },
-        {
           "token": "BTW",
           "type": "永续合约",
           "detail": "KuCoin Futures New Listing: BTWUSDT Perpetual Contract with Up to 10x Leverage",
@@ -509,75 +443,12 @@
           ]
         },
         {
-          "token": "SAMSUNG",
-          "type": "美股合约",
-          "detail": "SAMSUNG（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-samsungusdt-hyundaiusdt-skhynixusdt-stock-index-perpetual-contracts",
+          "token": "YOM",
+          "type": "现货上线",
+          "detail": "World Premiere: YOM (YOM) Listed on KuCoin10:00 on June 5, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-yom-yom-listed-on-kucoin",
           "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "HYUNDAI",
-          "type": "美股合约",
-          "detail": "HYUNDAI（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-samsungusdt-hyundaiusdt-skhynixusdt-stock-index-perpetual-contracts",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "SKHYNIX",
-          "type": "美股合约",
-          "detail": "SKHYNIX（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-samsungusdt-hyundaiusdt-skhynixusdt-stock-index-perpetual-contracts",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "CRM",
-          "type": "美股合约",
-          "detail": "CRM（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "HPE",
-          "type": "美股合约",
-          "detail": "HPE（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "IREN",
-          "type": "美股合约",
-          "detail": "IREN（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "NOW",
-          "type": "美股合约",
-          "detail": "NOW（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "ONDS",
-          "type": "美股合约",
-          "detail": "ONDS（同公告含 5 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-03",
-          "dates": [
-            "2026-06-04"
+            "2026-06-05"
           ]
         }
       ]
@@ -618,24 +489,6 @@
           "url": "https://www.gate.com/zh/announcements/article/51572",
           "dates": [
             "2026-06-08"
-          ]
-        },
-        {
-          "token": "BTW",
-          "type": "永续合约",
-          "detail": "Gate 已上线 BTW 永续合约交易（USDT 结算）32 分钟前129",
-          "url": "https://www.gate.com/zh/announcements/article/51540",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "TEA",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Tea (TEA) 现货交易与闪兑交易1 天前4,986",
-          "url": "https://www.gate.com/zh/announcements/article/51512",
-          "dates": [
-            "2026-06-04"
           ]
         }
       ]
@@ -963,42 +816,6 @@
           "dates": [
             "2026-06-05"
           ]
-        },
-        {
-          "token": "QNTSTOCK",
-          "type": "永续合约",
-          "detail": "Bitget将转换 QNTSTOCKUSDT永续合约盘前交易为标准U本位永续合约",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885034",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "SMR",
-          "type": "永续合约",
-          "detail": "SMR（同公告含 3 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885016",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "SITM",
-          "type": "永续合约",
-          "detail": "SITM（同公告含 3 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885016",
-          "dates": [
-            "2026-06-04"
-          ]
-        },
-        {
-          "token": "BBSTOCK",
-          "type": "永续合约",
-          "detail": "BBSTOCK（同公告含 3 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885016",
-          "dates": [
-            "2026-06-04"
-          ]
         }
       ]
     },
@@ -1011,7 +828,77 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-us30-and-lead-xpb-usdt-m-futures-17827791536103",
           "dates": [
             "2026-06-09",
-            "2026-06-10"
+            "2026-06-10",
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "CIEN",
+          "type": "美股合约",
+          "detail": "新美股合約上線：CIEN 和 SATSSTOCK U 本位合約將於 6/10 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536147",
+          "dates": [
+            "2026-06-10",
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "ZM",
+          "type": "美股合约",
+          "detail": "ZM（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536146",
+          "dates": [
+            "2026-06-10",
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "DKNG",
+          "type": "美股合约",
+          "detail": "DKNG（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536146",
+          "dates": [
+            "2026-06-10",
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "NFLX",
+          "type": "美股合约",
+          "detail": "NFLX（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
+          "dates": [
+            "2026-06-10",
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "EBAY",
+          "type": "美股合约",
+          "detail": "EBAY（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
+          "dates": [
+            "2026-06-10",
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "URNM",
+          "type": "美股合约",
+          "detail": "URNM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
+          "dates": [
+            "2026-06-10",
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "DESU",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Dexsport (DESU)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536044",
+          "dates": [
+            "2026-06-11"
           ]
         },
         {
@@ -1041,33 +928,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bx-crdo-iwm-and-axti-usdt-m-futures-17827791536102",
           "dates": [
             "2026-06-09",
-            "2026-06-10"
-          ]
-        },
-        {
-          "token": "CIEN",
-          "type": "美股合约",
-          "detail": "新美股合約上線：CIEN 和 SATSSTOCK U 本位合約將於 6/10 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536147",
-          "dates": [
-            "2026-06-10"
-          ]
-        },
-        {
-          "token": "ZM",
-          "type": "美股合约",
-          "detail": "ZM（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536146",
-          "dates": [
-            "2026-06-10"
-          ]
-        },
-        {
-          "token": "DKNG",
-          "type": "美股合约",
-          "detail": "DKNG（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536146",
-          "dates": [
             "2026-06-10"
           ]
         },
@@ -1130,33 +990,6 @@
           "type": "永续合约",
           "detail": "MEXC 合約創新板塊將於 2026年6月10日 13:10 (UTC+8) 上線 JOTCHUAUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-jotchuausdt-futures-in-innovation-zone-on-jun-10-2026-05-17827791536135",
-          "dates": [
-            "2026-06-10"
-          ]
-        },
-        {
-          "token": "NFLX",
-          "type": "美股合约",
-          "detail": "NFLX（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
-          "dates": [
-            "2026-06-10"
-          ]
-        },
-        {
-          "token": "EBAY",
-          "type": "美股合约",
-          "detail": "EBAY（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
-          "dates": [
-            "2026-06-10"
-          ]
-        },
-        {
-          "token": "URNM",
-          "type": "美股合约",
-          "detail": "URNM（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
           "dates": [
             "2026-06-10"
           ]
@@ -1231,10 +1064,9 @@
         {
           "token": "YOM",
           "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 YOM (YOM) 並支援閃兌服務",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535901",
+          "detail": "全球首發：MEXC 將於 2026年6月5日 18:10 (UTC+8) 上線 YOM (YOM) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535985",
           "dates": [
-            "2026-06-04",
             "2026-06-05",
             "2026-06-06"
           ]
@@ -1257,26 +1089,6 @@
           "dates": [
             "2026-06-05",
             "2026-06-06"
-          ]
-        },
-        {
-          "token": "THREE",
-          "type": "上线",
-          "detail": "THREE 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-three-to-innovation-zone-17827791535941",
-          "dates": [
-            "2026-06-04",
-            "2026-06-05"
-          ]
-        },
-        {
-          "token": "HPE",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 HPE U本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hpe-usdt-m-futures-17827791535938",
-          "dates": [
-            "2026-06-04",
-            "2026-06-05"
           ]
         },
         {
@@ -1307,12 +1119,21 @@
           ]
         },
         {
-          "token": "TEA",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Tea Protocol (TEA)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535917",
+          "token": "THREE",
+          "type": "上线",
+          "detail": "THREE 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-three-to-innovation-zone-17827791535941",
           "dates": [
-            "2026-06-04"
+            "2026-06-05"
+          ]
+        },
+        {
+          "token": "HPE",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 HPE U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hpe-usdt-m-futures-17827791535938",
+          "dates": [
+            "2026-06-05"
           ]
         }
       ]
