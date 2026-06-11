@@ -1,6 +1,6 @@
 {
   "date": "2026-06-11",
-  "updatedAt": "2026-06-11T10:08:35.435Z",
+  "updatedAt": "2026-06-11T10:38:26.106Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -96,6 +96,24 @@
     "kucoin": {
       "listings": [
         {
+          "token": "UVXY",
+          "type": "美股合约",
+          "detail": "UVXY（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-uvxyusdt-adbeusdt-stxxusdt-stock-index-perpetual-contracts-2026-06-11"
+        },
+        {
+          "token": "ADBE",
+          "type": "美股合约",
+          "detail": "ADBE（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-uvxyusdt-adbeusdt-stxxusdt-stock-index-perpetual-contracts-2026-06-11"
+        },
+        {
+          "token": "STXX",
+          "type": "美股合约",
+          "detail": "STXX（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-uvxyusdt-adbeusdt-stxxusdt-stock-index-perpetual-contracts-2026-06-11"
+        },
+        {
           "token": "DKNG",
           "type": "美股合约",
           "detail": "DKNG（同公告含 6 个标的）",
@@ -138,7 +156,7 @@
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "Gate 闪兑刮刮乐三期：100% 爆奖，$1 解锁 XAUT 与 $500 现金2 小时前29",
+          "detail": "Gate 闪兑刮刮乐三期：100% 爆奖，$1 解锁 XAUT 与 $500 现金2 小时前70",
           "url": "https://www.gate.com/zh/announcements/article/51636"
         }
       ]
