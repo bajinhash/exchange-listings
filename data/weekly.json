@@ -1,10 +1,64 @@
 {
   "weekStart": "2026-06-05",
   "weekEnd": "2026-06-11",
-  "updatedAt": "2026-06-10T18:20:48.605Z",
+  "updatedAt": "2026-06-11T10:08:35.557Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "ADBE",
+          "type": "永续合约",
+          "detail": "ADBE（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f622c1f2a1a94ba1894d9a9e265fb4b9",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "ASML",
+          "type": "永续合约",
+          "detail": "ASML（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f622c1f2a1a94ba1894d9a9e265fb4b9",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "BMNR",
+          "type": "永续合约",
+          "detail": "BMNR（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f622c1f2a1a94ba1894d9a9e265fb4b9",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "GLW",
+          "type": "永续合约",
+          "detail": "GLW（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f622c1f2a1a94ba1894d9a9e265fb4b9",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "STXX",
+          "type": "永续合约",
+          "detail": "STXX（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f622c1f2a1a94ba1894d9a9e265fb4b9",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "UVXY",
+          "type": "永续合约",
+          "detail": "UVXY（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/f622c1f2a1a94ba1894d9a9e265fb4b9",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
         {
           "token": "DKNG",
           "type": "永续合约",
@@ -201,6 +255,69 @@
     "okx": {
       "listings": [
         {
+          "token": "WLDUSD",
+          "type": "永续合约",
+          "detail": "WLDUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-wldusd-nearusd-and-enausd-expiry-perps-x-perp",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "NEARUSD",
+          "type": "永续合约",
+          "detail": "NEARUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-wldusd-nearusd-and-enausd-expiry-perps-x-perp",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "ENAUSD",
+          "type": "永续合约",
+          "detail": "ENAUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-wldusd-nearusd-and-enausd-expiry-perps-x-perp",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "CRDO",
+          "type": "美股合约",
+          "detail": "CRDO（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-crdo-cien-isrg-and-flnc-equities",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "CIEN",
+          "type": "美股合约",
+          "detail": "CIEN（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-crdo-cien-isrg-and-flnc-equities",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "ISRG",
+          "type": "美股合约",
+          "detail": "ISRG（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-crdo-cien-isrg-and-flnc-equities",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "FLNC",
+          "type": "美股合约",
+          "detail": "FLNC（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-crdo-cien-isrg-and-flnc-equities",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
           "token": "ETH",
           "type": "上线",
           "detail": "OKX 關於上線 ETH 和 SOL USD 本位交割合約交易的公告發佈於 2026年6月10日",
@@ -353,6 +470,60 @@
     "kucoin": {
       "listings": [
         {
+          "token": "DKNG",
+          "type": "美股合约",
+          "detail": "DKNG（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-10",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "EWZ",
+          "type": "美股合约",
+          "detail": "EWZ（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-10",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "GME",
+          "type": "美股合约",
+          "detail": "GME（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-10",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "RIVN",
+          "type": "美股合约",
+          "detail": "RIVN（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-10",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "XLE",
+          "type": "美股合约",
+          "detail": "XLE（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-10",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "ZM",
+          "type": "美股合约",
+          "detail": "ZM（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-10",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
           "token": "KONET",
           "type": "现货上线",
           "detail": "KONET (KONET) Listed on KuCoinTrading: 10:00 on June 9, 2026 (UTC)",
@@ -455,6 +626,15 @@
     },
     "gateio": {
       "listings": [
+        {
+          "token": "XAUT",
+          "type": "上线",
+          "detail": "Gate 闪兑刮刮乐三期：100% 爆奖，$1 解锁 XAUT 与 $500 现金2 小时前29",
+          "url": "https://www.gate.com/zh/announcements/article/51636",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
         {
           "token": "BX",
           "type": "现货上线",
@@ -822,17 +1002,6 @@
     "mexc": {
       "listings": [
         {
-          "token": "XPB",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 US30 和 LEAD(XPB) U本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-us30-and-lead-xpb-usdt-m-futures-17827791536103",
-          "dates": [
-            "2026-06-09",
-            "2026-06-10",
-            "2026-06-11"
-          ]
-        },
-        {
           "token": "CIEN",
           "type": "美股合约",
           "detail": "新美股合約上線：CIEN 和 SATSSTOCK U 本位合約將於 6/10 上線，限時享受 0 費",
@@ -863,32 +1032,94 @@
           ]
         },
         {
-          "token": "NFLX",
-          "type": "美股合约",
-          "detail": "NFLX（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
+          "token": "EWZ",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年6月10日 上線 EWZ 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ewz-index-futures-on-jun-10-with-0-fee-trading-17827791536145",
           "dates": [
             "2026-06-10",
             "2026-06-11"
           ]
         },
         {
-          "token": "EBAY",
-          "type": "美股合约",
-          "detail": "EBAY（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
+          "token": "SOXL",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 SOXL 和 JOTCHUA U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-soxl-and-jotchua-usdt-m-futures-17827791536143",
           "dates": [
             "2026-06-10",
             "2026-06-11"
           ]
         },
         {
-          "token": "URNM",
-          "type": "美股合约",
-          "detail": "URNM（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
+          "token": "UVXY",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年6月11日 上線 UVXY 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-uvxy-index-futures-on-jun-11-with-0-fee-trading-17827791536178",
           "dates": [
-            "2026-06-10",
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "ZM",
+          "type": "跟单合约",
+          "detail": "ZM（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "DKNG",
+          "type": "跟单合约",
+          "detail": "DKNG（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "EWZ",
+          "type": "跟单合约",
+          "detail": "EWZ（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "CIEN",
+          "type": "跟单合约",
+          "detail": "CIEN（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "OUST",
+          "type": "美股合约",
+          "detail": "OUST（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536171",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "AMC",
+          "type": "美股合约",
+          "detail": "AMC（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536171",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "JOTCHUA",
+          "type": "上线",
+          "detail": "JOTCHUA 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-jotchua-to-innovation-zone-17827791536166",
+          "dates": [
             "2026-06-11"
           ]
         },
@@ -899,6 +1130,16 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536044",
           "dates": [
             "2026-06-11"
+          ]
+        },
+        {
+          "token": "XPB",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 US30 和 LEAD(XPB) U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-us30-and-lead-xpb-usdt-m-futures-17827791536103",
+          "dates": [
+            "2026-06-09",
+            "2026-06-10"
           ]
         },
         {
@@ -928,24 +1169,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bx-crdo-iwm-and-axti-usdt-m-futures-17827791536102",
           "dates": [
             "2026-06-09",
-            "2026-06-10"
-          ]
-        },
-        {
-          "token": "EWZ",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年6月10日 上線 EWZ 指數合約，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ewz-index-futures-on-jun-10-with-0-fee-trading-17827791536145",
-          "dates": [
-            "2026-06-10"
-          ]
-        },
-        {
-          "token": "SOXL",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 SOXL 和 JOTCHUA U本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-soxl-and-jotchua-usdt-m-futures-17827791536143",
-          "dates": [
             "2026-06-10"
           ]
         },
@@ -990,6 +1213,33 @@
           "type": "永续合约",
           "detail": "MEXC 合約創新板塊將於 2026年6月10日 13:10 (UTC+8) 上線 JOTCHUAUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-jotchuausdt-futures-in-innovation-zone-on-jun-10-2026-05-17827791536135",
+          "dates": [
+            "2026-06-10"
+          ]
+        },
+        {
+          "token": "NFLX",
+          "type": "美股合约",
+          "detail": "NFLX（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
+          "dates": [
+            "2026-06-10"
+          ]
+        },
+        {
+          "token": "EBAY",
+          "type": "美股合约",
+          "detail": "EBAY（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
+          "dates": [
+            "2026-06-10"
+          ]
+        },
+        {
+          "token": "URNM",
+          "type": "美股合约",
+          "detail": "URNM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536122",
           "dates": [
             "2026-06-10"
           ]
