@@ -1,10 +1,64 @@
 {
   "weekStart": "2026-06-05",
   "weekEnd": "2026-06-11",
-  "updatedAt": "2026-06-11T10:38:26.207Z",
+  "updatedAt": "2026-06-11T14:13:02.602Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "ADGM",
+          "type": "现货上线",
+          "detail": "ADGM（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "CRCLB",
+          "type": "现货上线",
+          "detail": "CRCLB（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "MUB",
+          "type": "现货上线",
+          "detail": "MUB（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "NVDAB",
+          "type": "现货上线",
+          "detail": "NVDAB（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "SNDKB",
+          "type": "现货上线",
+          "detail": "SNDKB（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "TSLAB",
+          "type": "现货上线",
+          "detail": "TSLAB（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245",
+          "dates": [
+            "2026-06-11"
+          ]
+        },
         {
           "token": "ADBE",
           "type": "永续合约",
@@ -653,15 +707,6 @@
     },
     "gateio": {
       "listings": [
-        {
-          "token": "XAUT",
-          "type": "上线",
-          "detail": "Gate 闪兑刮刮乐三期：100% 爆奖，$1 解锁 XAUT 与 $500 现金2 小时前70",
-          "url": "https://www.gate.com/zh/announcements/article/51636",
-          "dates": [
-            "2026-06-11"
-          ]
-        },
         {
           "token": "BX",
           "type": "现货上线",
