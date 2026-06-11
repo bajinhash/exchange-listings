@@ -1,0 +1,116 @@
+{
+  "date": "2026-06-12",
+  "updatedAt": "2026-06-11T17:05:40.130Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "ADGM",
+          "type": "现货上线",
+          "detail": "ADGM（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245"
+        },
+        {
+          "token": "CRCLB",
+          "type": "现货上线",
+          "detail": "CRCLB（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245"
+        },
+        {
+          "token": "MUB",
+          "type": "现货上线",
+          "detail": "MUB（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245"
+        },
+        {
+          "token": "NVDAB",
+          "type": "现货上线",
+          "detail": "NVDAB（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245"
+        },
+        {
+          "token": "SNDKB",
+          "type": "现货上线",
+          "detail": "SNDKB（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245"
+        },
+        {
+          "token": "TSLAB",
+          "type": "现货上线",
+          "detail": "TSLAB（同公告含 6 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "UVXY",
+          "type": "美股合约",
+          "detail": "UVXY（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-uvxyusdt-adbeusdt-stxxusdt-stock-index-perpetual-contracts-2026-06-11"
+        },
+        {
+          "token": "ADBE",
+          "type": "美股合约",
+          "detail": "ADBE（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-uvxyusdt-adbeusdt-stxxusdt-stock-index-perpetual-contracts-2026-06-11"
+        },
+        {
+          "token": "STXX",
+          "type": "美股合约",
+          "detail": "STXX（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-uvxyusdt-adbeusdt-stxxusdt-stock-index-perpetual-contracts-2026-06-11"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "OUST",
+          "type": "美股合约",
+          "detail": "OUST（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536171"
+        },
+        {
+          "token": "AMC",
+          "type": "美股合约",
+          "detail": "AMC（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536171"
+        },
+        {
+          "token": "DESU",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Dexsport (DESU)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536044"
+        },
+        {
+          "token": "EWZ",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年6月10日 上線 EWZ 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ewz-index-futures-on-jun-10-with-0-fee-trading-17827791536145"
+        },
+        {
+          "token": "SOXL",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 SOXL 和 JOTCHUA U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-soxl-and-jotchua-usdt-m-futures-17827791536143"
+        }
+      ]
+    }
+  }
+}
