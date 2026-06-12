@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "updatedAt": "2026-06-12T10:08:33.412Z",
+  "updatedAt": "2026-06-12T10:38:33.109Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -114,25 +114,25 @@
         {
           "token": "MM3",
           "type": "上线",
-          "detail": "第二期 Gate CrossEx 进阶交易激励计划开启，享 CrossEx Gate 合约 MM3 负费率2 小时前251",
+          "detail": "第二期 Gate CrossEx 进阶交易激励计划开启，享 CrossEx Gate 合约 MM3 负费率2 小时前285",
           "url": "https://www.gate.com/zh/announcements/article/100016"
         },
         {
           "token": "USDY",
           "type": "现货上线",
-          "detail": "Gate 将上线 Ondo U.S. Dollar Yield (USDY) 现货交易与闪兑交易4 小时前1,133",
+          "detail": "Gate 将上线 Ondo U.S. Dollar Yield (USDY) 现货交易与闪兑交易5 小时前1,167",
           "url": "https://www.gate.com/zh/announcements/article/100008"
         },
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX 合约周末三王争霸赛：选择您的阵营，赢取 20,000 USDT5 小时前550",
+          "detail": "Gate DEX 合约周末三王争霸赛：选择您的阵营，赢取 20,000 USDT5 小时前583",
           "url": "https://www.gate.com/zh/announcements/article/100007"
         },
         {
           "token": "SPCXX",
           "type": "现货上线",
-          "detail": "Gate 将上线 SpaceX (SPCXX) 现货交易6 小时前2,962",
+          "detail": "Gate 将上线 SpaceX (SPCXX) 现货交易6 小时前3,012",
           "url": "https://www.gate.com/zh/announcements/article/100004"
         }
       ]
