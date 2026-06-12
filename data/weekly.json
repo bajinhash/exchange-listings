@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-06",
   "weekEnd": "2026-06-12",
-  "updatedAt": "2026-06-12T10:38:33.214Z",
+  "updatedAt": "2026-06-12T13:41:36.801Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -681,42 +681,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "MM3",
-          "type": "上线",
-          "detail": "第二期 Gate CrossEx 进阶交易激励计划开启，享 CrossEx Gate 合约 MM3 负费率2 小时前285",
-          "url": "https://www.gate.com/zh/announcements/article/100016",
-          "dates": [
-            "2026-06-12"
-          ]
-        },
-        {
-          "token": "USDY",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Ondo U.S. Dollar Yield (USDY) 现货交易与闪兑交易5 小时前1,167",
-          "url": "https://www.gate.com/zh/announcements/article/100008",
-          "dates": [
-            "2026-06-12"
-          ]
-        },
-        {
-          "token": "DEX",
-          "type": "上线",
-          "detail": "Gate DEX 合约周末三王争霸赛：选择您的阵营，赢取 20,000 USDT5 小时前583",
-          "url": "https://www.gate.com/zh/announcements/article/100007",
-          "dates": [
-            "2026-06-12"
-          ]
-        },
-        {
-          "token": "SPCXX",
-          "type": "现货上线",
-          "detail": "Gate 将上线 SpaceX (SPCXX) 现货交易6 小时前3,012",
-          "url": "https://www.gate.com/zh/announcements/article/100004",
-          "dates": [
-            "2026-06-12"
-          ]
-        },
-        {
           "token": "BX",
           "type": "现货上线",
           "detail": "Gate 合约股票专区将上线 BX（黑石集团）、CRDO（默升科技）等 3...6 小时前428",
@@ -1055,12 +1019,20 @@
           ]
         },
         {
-          "token": "JOTCHUA",
-          "type": "上线",
-          "detail": "JOTCHUA 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-jotchua-to-innovation-zone-17827791536166",
+          "token": "AXON",
+          "type": "美股合约",
+          "detail": "AXON（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536217",
           "dates": [
-            "2026-06-11",
+            "2026-06-12"
+          ]
+        },
+        {
+          "token": "NTAP",
+          "type": "美股合约",
+          "detail": "NTAP（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536217",
+          "dates": [
             "2026-06-12"
           ]
         },
@@ -1183,6 +1155,15 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-soxl-and-jotchua-usdt-m-futures-17827791536143",
           "dates": [
             "2026-06-10",
+            "2026-06-11"
+          ]
+        },
+        {
+          "token": "JOTCHUA",
+          "type": "上线",
+          "detail": "JOTCHUA 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-jotchua-to-innovation-zone-17827791536166",
+          "dates": [
             "2026-06-11"
           ]
         },
