@@ -1,10 +1,19 @@
 {
-  "weekStart": "2026-06-06",
-  "weekEnd": "2026-06-12",
-  "updatedAt": "2026-06-12T13:47:43.035Z",
+  "weekStart": "2026-06-07",
+  "weekEnd": "2026-06-13",
+  "updatedAt": "2026-06-12T16:31:33.155Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "SPCXB",
+          "type": "现货上线",
+          "detail": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12",
+          "url": "https://www.binance.com/en/support/announcement/191cb96109f24c5c85362631a55a45d3",
+          "dates": [
+            "2026-06-13"
+          ]
+        },
         {
           "token": "ADGM",
           "type": "现货上线",
@@ -296,6 +305,15 @@
     },
     "okx": {
       "listings": [
+        {
+          "token": "SPCX",
+          "type": "永续合约",
+          "detail": "OKX 關於SPCXUSD X-合約（X-Perp）正式上線的公告發佈於 2026年6月13日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-spcxusd-expiry-perp-x-perp",
+          "dates": [
+            "2026-06-13"
+          ]
+        },
         {
           "token": "SPCX",
           "type": "Pre-IPO 上线",
@@ -722,6 +740,15 @@
       "listings": [
         {
           "token": "SPCX",
+          "type": "上线",
+          "detail": "SpaceX (SPCX) 正式上线 Bitget 及交易通道开启的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885758",
+          "dates": [
+            "2026-06-13"
+          ]
+        },
+        {
+          "token": "SPCX",
           "type": "永续合约",
           "detail": "Bitget SPCXUSDT 【IPO盘前永续合约 】回归| 基于最新招股书股本数据重定价，提前锁定SpaceX万亿IPO红利！",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885389",
@@ -955,7 +982,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-uvxy-index-futures-on-jun-11-with-0-fee-trading-17827791536178",
           "dates": [
             "2026-06-11",
-            "2026-06-12"
+            "2026-06-12",
+            "2026-06-13"
           ]
         },
         {
@@ -965,7 +993,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173",
           "dates": [
             "2026-06-11",
-            "2026-06-12"
+            "2026-06-12",
+            "2026-06-13"
           ]
         },
         {
@@ -975,7 +1004,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173",
           "dates": [
             "2026-06-11",
-            "2026-06-12"
+            "2026-06-12",
+            "2026-06-13"
           ]
         },
         {
@@ -985,7 +1015,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172",
           "dates": [
             "2026-06-11",
-            "2026-06-12"
+            "2026-06-12",
+            "2026-06-13"
           ]
         },
         {
@@ -995,7 +1026,38 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172",
           "dates": [
             "2026-06-11",
-            "2026-06-12"
+            "2026-06-12",
+            "2026-06-13"
+          ]
+        },
+        {
+          "token": "AXON",
+          "type": "美股合约",
+          "detail": "AXON（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536217",
+          "dates": [
+            "2026-06-12",
+            "2026-06-13"
+          ]
+        },
+        {
+          "token": "NTAP",
+          "type": "美股合约",
+          "detail": "NTAP（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536217",
+          "dates": [
+            "2026-06-12",
+            "2026-06-13"
+          ]
+        },
+        {
+          "token": "VEERA",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Veera (VEERA) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536189",
+          "dates": [
+            "2026-06-12",
+            "2026-06-13"
           ]
         },
         {
@@ -1015,24 +1077,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536171",
           "dates": [
             "2026-06-11",
-            "2026-06-12"
-          ]
-        },
-        {
-          "token": "AXON",
-          "type": "美股合约",
-          "detail": "AXON（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536217",
-          "dates": [
-            "2026-06-12"
-          ]
-        },
-        {
-          "token": "NTAP",
-          "type": "美股合约",
-          "detail": "NTAP（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536217",
-          "dates": [
             "2026-06-12"
           ]
         },
@@ -1095,15 +1139,6 @@
           "type": "永续合约",
           "detail": "MEXC 合約創新板塊將於 2026年6月12日 13:20 (UTC+8) 上線 KINSUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536198",
-          "dates": [
-            "2026-06-12"
-          ]
-        },
-        {
-          "token": "VEERA",
-          "type": "上线",
-          "detail": "MEXC 盤前交易：Veera (VEERA) 即將上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536189",
           "dates": [
             "2026-06-12"
           ]
@@ -1353,33 +1388,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536081",
           "dates": [
             "2026-06-09"
-          ]
-        },
-        {
-          "token": "YOM",
-          "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年6月5日 18:10 (UTC+8) 上線 YOM (YOM) USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535985",
-          "dates": [
-            "2026-06-06"
-          ]
-        },
-        {
-          "token": "XZN",
-          "type": "跟单合约",
-          "detail": "XZN（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983",
-          "dates": [
-            "2026-06-06"
-          ]
-        },
-        {
-          "token": "XNI",
-          "type": "跟单合约",
-          "detail": "XNI（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983",
-          "dates": [
-            "2026-06-06"
           ]
         }
       ]

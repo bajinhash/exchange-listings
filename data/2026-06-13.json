@@ -1,0 +1,99 @@
+{
+  "date": "2026-06-13",
+  "updatedAt": "2026-06-12T16:31:32.985Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "SPCXB",
+          "type": "现货上线",
+          "detail": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12",
+          "url": "https://www.binance.com/en/support/announcement/191cb96109f24c5c85362631a55a45d3"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "永续合约",
+          "detail": "OKX 關於SPCXUSD X-合約（X-Perp）正式上線的公告發佈於 2026年6月13日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-spcxusd-expiry-perp-x-perp"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "上线",
+          "detail": "SpaceX (SPCX) 正式上线 Bitget 及交易通道开启的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885758"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "AXON",
+          "type": "美股合约",
+          "detail": "AXON（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536217"
+        },
+        {
+          "token": "NTAP",
+          "type": "美股合约",
+          "detail": "NTAP（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536217"
+        },
+        {
+          "token": "VEERA",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Veera (VEERA) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536189"
+        },
+        {
+          "token": "UVXY",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年6月11日 上線 UVXY 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-uvxy-index-futures-on-jun-11-with-0-fee-trading-17827791536178"
+        },
+        {
+          "token": "ZM",
+          "type": "跟单合约",
+          "detail": "ZM（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173"
+        },
+        {
+          "token": "DKNG",
+          "type": "跟单合约",
+          "detail": "DKNG（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173"
+        },
+        {
+          "token": "EWZ",
+          "type": "跟单合约",
+          "detail": "EWZ（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172"
+        },
+        {
+          "token": "CIEN",
+          "type": "跟单合约",
+          "detail": "CIEN（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172"
+        }
+      ]
+    }
+  }
+}
