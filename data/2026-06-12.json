@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "updatedAt": "2026-06-11T18:40:02.465Z",
+  "updatedAt": "2026-06-12T10:08:33.412Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -45,13 +45,50 @@
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "OKX 關於將 SPCXUSDT Pre-IPO 合約轉換為標準股票永續合約的公告發佈於 2026年6月12日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-convert-spcxusdt-pre-ipo-contract-to-standard-equity-perpetual"
+        },
+        {
+          "token": "TWLO",
+          "type": "美股合约",
+          "detail": "TWLO（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-twlo-bx-rok-and-cgnx-equities"
+        },
+        {
+          "token": "BX",
+          "type": "美股合约",
+          "detail": "BX（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-twlo-bx-rok-and-cgnx-equities"
+        },
+        {
+          "token": "ROK",
+          "type": "美股合约",
+          "detail": "ROK（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-twlo-bx-rok-and-cgnx-equities"
+        },
+        {
+          "token": "CGNX",
+          "type": "美股合约",
+          "detail": "CGNX（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-twlo-bx-rok-and-cgnx-equities"
+        }
+      ]
     },
     "bybit": {
       "listings": []
     },
     "kucoin": {
       "listings": [
+        {
+          "token": "SPCX06",
+          "type": "Pre-IPO 上线",
+          "detail": "KuCoin Futures to Convert Pre-IPO Contract to Standard Stock Index Perpetual Contract for SPCX",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-to-convert-pre-ipo-contract-to-standard-stock-index-perpetual-contract-for-spcx"
+        },
         {
           "token": "UVXY",
           "type": "美股合约",
@@ -73,13 +110,123 @@
       ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "MM3",
+          "type": "上线",
+          "detail": "第二期 Gate CrossEx 进阶交易激励计划开启，享 CrossEx Gate 合约 MM3 负费率2 小时前251",
+          "url": "https://www.gate.com/zh/announcements/article/100016"
+        },
+        {
+          "token": "USDY",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Ondo U.S. Dollar Yield (USDY) 现货交易与闪兑交易4 小时前1,133",
+          "url": "https://www.gate.com/zh/announcements/article/100008"
+        },
+        {
+          "token": "DEX",
+          "type": "上线",
+          "detail": "Gate DEX 合约周末三王争霸赛：选择您的阵营，赢取 20,000 USDT5 小时前550",
+          "url": "https://www.gate.com/zh/announcements/article/100007"
+        },
+        {
+          "token": "SPCXX",
+          "type": "现货上线",
+          "detail": "Gate 将上线 SpaceX (SPCXX) 现货交易6 小时前2,962",
+          "url": "https://www.gate.com/zh/announcements/article/100004"
+        }
+      ]
     },
     "bitget": {
-      "listings": []
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "永续合约",
+          "detail": "Bitget将转换 SPCXUSDT永续合约盘前交易为标准U本位永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885694"
+        }
+      ]
     },
     "mexc": {
       "listings": [
+        {
+          "token": "LVR",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Levare (LVR)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536162"
+        },
+        {
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 關於 SPCXUSDT Pre-IPO 永續合約轉換為正式合約的公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-spcxusdt-pre-ipo-futures-into-standard-futures-17827791536201"
+        },
+        {
+          "token": "KINS",
+          "type": "跟单合约",
+          "detail": "KINS（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
+        },
+        {
+          "token": "PL",
+          "type": "跟单合约",
+          "detail": "PL（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
+        },
+        {
+          "token": "AMC",
+          "type": "跟单合约",
+          "detail": "AMC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
+        },
+        {
+          "token": "OUST",
+          "type": "跟单合约",
+          "detail": "OUST（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
+        },
+        {
+          "token": "KINS",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月12日 13:20 (UTC+8) 上線 KINSUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536198"
+        },
+        {
+          "token": "VEERA",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Veera (VEERA) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536189"
+        },
+        {
+          "token": "UVXY",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年6月11日 上線 UVXY 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-uvxy-index-futures-on-jun-11-with-0-fee-trading-17827791536178"
+        },
+        {
+          "token": "ZM",
+          "type": "跟单合约",
+          "detail": "ZM（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173"
+        },
+        {
+          "token": "DKNG",
+          "type": "跟单合约",
+          "detail": "DKNG（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173"
+        },
+        {
+          "token": "EWZ",
+          "type": "跟单合约",
+          "detail": "EWZ（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172"
+        },
+        {
+          "token": "CIEN",
+          "type": "跟单合约",
+          "detail": "CIEN（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172"
+        },
         {
           "token": "OUST",
           "type": "美股合约",
@@ -93,22 +240,10 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536171"
         },
         {
-          "token": "DESU",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Dexsport (DESU)，瓜分 40,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536044"
-        },
-        {
-          "token": "EWZ",
+          "token": "JOTCHUA",
           "type": "上线",
-          "detail": "MEXC 將於 2026年6月10日 上線 EWZ 指數合約，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ewz-index-futures-on-jun-10-with-0-fee-trading-17827791536145"
-        },
-        {
-          "token": "SOXL",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 SOXL 和 JOTCHUA U本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-soxl-and-jotchua-usdt-m-futures-17827791536143"
+          "detail": "JOTCHUA 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-jotchua-to-innovation-zone-17827791536166"
         }
       ]
     }
