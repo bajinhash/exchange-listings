@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-07",
   "weekEnd": "2026-06-13",
-  "updatedAt": "2026-06-13T10:38:29.039Z",
+  "updatedAt": "2026-06-13T12:04:09.582Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -698,60 +698,6 @@
     },
     "gateio": {
       "listings": [
-        {
-          "token": "SPCXON",
-          "type": "现货上线",
-          "detail": "Gate 将上线 SpaceX Ondo Tokenized (SPCXON) 现货交易与闪兑交易6 小时前1,700",
-          "url": "https://www.gate.com/zh/announcements/article/100028",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "SPCXX",
-          "type": "现货上线",
-          "detail": "Gate 将上线 SpaceX (SPCXX) 现货交易与闪兑交易9 小时前1,895",
-          "url": "https://www.gate.com/zh/announcements/article/100026",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "上线",
-          "detail": "Gate 直通 IPO 首期项目：SpaceX（SPCX）已完成股票分发及交易开放公告19 小时前25,892",
-          "url": "https://www.gate.com/zh/announcements/article/100025",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "永续合约",
-          "detail": "Gate 关于迁移 SPCXUSDT 盘前永续合约至正式永续合约交易1 天前3,743",
-          "url": "https://www.gate.com/zh/announcements/article/100020",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "MM3",
-          "type": "上线",
-          "detail": "第二期 Gate CrossEx 进阶交易激励计划开启，享 CrossEx Gate 合约 MM3 负费率1 天前800",
-          "url": "https://www.gate.com/zh/announcements/article/100016",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "USDY",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Ondo U.S. Dollar Yield (USDY) 现货交易与闪兑交易1 天前1,893",
-          "url": "https://www.gate.com/zh/announcements/article/100008",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
         {
           "token": "BX",
           "type": "现货上线",
