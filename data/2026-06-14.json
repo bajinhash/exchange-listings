@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-14",
+  "updatedAt": "2026-06-13T17:04:42.821Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "LVR",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Levare (LVR)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536162"
+        },
+        {
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 關於 SPCXUSDT Pre-IPO 永續合約轉換為正式合約的公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-spcxusdt-pre-ipo-futures-into-standard-futures-17827791536201"
+        },
+        {
+          "token": "KINS",
+          "type": "跟单合约",
+          "detail": "KINS（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
+        },
+        {
+          "token": "PL",
+          "type": "跟单合约",
+          "detail": "PL（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
+        },
+        {
+          "token": "AMC",
+          "type": "跟单合约",
+          "detail": "AMC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
+        },
+        {
+          "token": "OUST",
+          "type": "跟单合约",
+          "detail": "OUST（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
+        },
+        {
+          "token": "KINS",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月12日 13:20 (UTC+8) 上線 KINSUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536198"
+        }
+      ]
+    }
+  }
+}
