@@ -1,6 +1,6 @@
 {
   "date": "2026-06-14",
-  "updatedAt": "2026-06-13T17:04:42.821Z",
+  "updatedAt": "2026-06-14T10:08:24.805Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -17,7 +17,20 @@
       "listings": []
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "SPCXON",
+          "type": "现货上线",
+          "detail": "Gate 将上线 SpaceX Ondo Tokenized (SPCXON) 现货交易与闪兑交易1 天前3,135",
+          "url": "https://www.gate.com/zh/announcements/article/100028"
+        },
+        {
+          "token": "SPCXX",
+          "type": "现货上线",
+          "detail": "Gate 将上线 SpaceX (SPCXX) 现货交易与闪兑交易1 天前2,830",
+          "url": "https://www.gate.com/zh/announcements/article/100026"
+        }
+      ]
     },
     "bitget": {
       "listings": []
@@ -25,46 +38,16 @@
     "mexc": {
       "listings": [
         {
-          "token": "LVR",
+          "token": "CS",
           "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Levare (LVR)，瓜分 40,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536162"
+          "detail": "MEXC 將於創新區上線 Cattoverse (CS)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536169"
         },
         {
-          "token": "SPCX",
-          "type": "Pre-IPO 上线",
-          "detail": "MEXC 關於 SPCXUSDT Pre-IPO 永續合約轉換為正式合約的公告",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-spcxusdt-pre-ipo-futures-into-standard-futures-17827791536201"
-        },
-        {
-          "token": "KINS",
-          "type": "跟单合约",
-          "detail": "KINS（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
-        },
-        {
-          "token": "PL",
-          "type": "跟单合约",
-          "detail": "PL（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
-        },
-        {
-          "token": "AMC",
-          "type": "跟单合约",
-          "detail": "AMC（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
-        },
-        {
-          "token": "OUST",
-          "type": "跟单合约",
-          "detail": "OUST（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
-        },
-        {
-          "token": "KINS",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年6月12日 13:20 (UTC+8) 上線 KINSUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536198"
+          "token": "SPCXON",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 SpaceX (SPCXON)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536221"
         }
       ]
     }
