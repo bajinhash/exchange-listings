@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-15",
+  "updatedAt": "2026-06-14T17:03:41.439Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SPCXON",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 SpaceX (SPCXON)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536221"
+        }
+      ]
+    }
+  }
+}
