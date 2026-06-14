@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-08",
   "weekEnd": "2026-06-14",
-  "updatedAt": "2026-06-14T10:37:05.708Z",
+  "updatedAt": "2026-06-14T12:12:56.188Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -698,24 +698,6 @@
     },
     "gateio": {
       "listings": [
-        {
-          "token": "SPCXON",
-          "type": "现货上线",
-          "detail": "Gate 将上线 SpaceX Ondo Tokenized (SPCXON) 现货交易与闪兑交易1 天前3,151",
-          "url": "https://www.gate.com/zh/announcements/article/100028",
-          "dates": [
-            "2026-06-14"
-          ]
-        },
-        {
-          "token": "SPCXX",
-          "type": "现货上线",
-          "detail": "Gate 将上线 SpaceX (SPCXX) 现货交易与闪兑交易1 天前2,846",
-          "url": "https://www.gate.com/zh/announcements/article/100026",
-          "dates": [
-            "2026-06-14"
-          ]
-        },
         {
           "token": "BX",
           "type": "现货上线",
