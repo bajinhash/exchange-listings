@@ -1,0 +1,73 @@
+{
+  "date": "2026-06-16",
+  "updatedAt": "2026-06-15T16:09:32.445Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "GRAMUSDC",
+          "type": "上线",
+          "detail": "GRAMUSDC 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885856"
+        },
+        {
+          "token": "GRAM",
+          "type": "上线",
+          "detail": "GRAMUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885855"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GRAMUSDT",
+          "type": "上线",
+          "detail": "GRAMUSDT（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
+        },
+        {
+          "token": "GRAMUSDC",
+          "type": "上线",
+          "detail": "GRAMUSDC（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
+        },
+        {
+          "token": "GRAMUSD1",
+          "type": "上线",
+          "detail": "GRAMUSD1（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
+        },
+        {
+          "token": "KIOXIA",
+          "type": "美股合约",
+          "detail": "新股票合約上線：KIOXIA USDT 本位合約將於 6/15 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536255"
+        },
+        {
+          "token": "CS",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Cattoverse (CS)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536169"
+        }
+      ]
+    }
+  }
+}
