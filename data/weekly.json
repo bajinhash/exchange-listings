@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-09",
   "weekEnd": "2026-06-15",
-  "updatedAt": "2026-06-14T17:03:41.609Z",
+  "updatedAt": "2026-06-15T10:08:35.887Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -391,6 +391,15 @@
     "bybit": {
       "listings": [
         {
+          "token": "SPCX",
+          "type": "永续合约",
+          "detail": "SPCXUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spcxusdt-perpetual-contract-with-up-to-10x-leverage-blt19bef84ccc826df8/",
+          "dates": [
+            "2026-06-15"
+          ]
+        },
+        {
           "token": "AAOI",
           "type": "永续合约",
           "detail": "AAOIUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
@@ -544,7 +553,44 @@
       ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "USDT4",
+          "type": "上线",
+          "detail": "GT 夏日福利站：持仓有礼，赢 2,500 GT 和 350,000 USDT4 小时前484",
+          "url": "https://www.gate.com/zh/announcements/article/100150",
+          "dates": [
+            "2026-06-15"
+          ]
+        },
+        {
+          "token": "RLUSD",
+          "type": "上线",
+          "detail": "Gate 正式上线 RLUSD：同步开放四大交易对并启动系列激励计划7 小时前594",
+          "url": "https://www.gate.com/zh/announcements/article/100034",
+          "dates": [
+            "2026-06-15"
+          ]
+        },
+        {
+          "token": "TURTLE",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 TURTLE (TheMisterTurtle)、Islands (Islands)8 小时前295",
+          "url": "https://www.gate.com/zh/announcements/article/100033",
+          "dates": [
+            "2026-06-15"
+          ]
+        },
+        {
+          "token": "BTC",
+          "type": "永续合约",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（6 月 16 日 00:00 – 00:30 UTC+8）1 天前998",
+          "url": "https://www.gate.com/zh/announcements/article/100032",
+          "dates": [
+            "2026-06-15"
+          ]
+        }
+      ]
     },
     "bitget": {
       "listings": [
@@ -770,22 +816,58 @@
     "mexc": {
       "listings": [
         {
+          "token": "CS",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Cattoverse (CS)，瓜分 40,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536169",
+          "dates": [
+            "2026-06-14",
+            "2026-06-15"
+          ]
+        },
+        {
+          "token": "TWLO",
+          "type": "跟单合约",
+          "detail": "TWLO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242",
+          "dates": [
+            "2026-06-15"
+          ]
+        },
+        {
+          "token": "NTAP",
+          "type": "跟单合约",
+          "detail": "NTAP（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242",
+          "dates": [
+            "2026-06-15"
+          ]
+        },
+        {
+          "token": "SITM",
+          "type": "跟单合约",
+          "detail": "SITM（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242",
+          "dates": [
+            "2026-06-15"
+          ]
+        },
+        {
+          "token": "AXON",
+          "type": "跟单合约",
+          "detail": "AXON（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242",
+          "dates": [
+            "2026-06-15"
+          ]
+        },
+        {
           "token": "SPCXON",
           "type": "现货上线",
           "detail": "MEXC 將於創新區上線 SpaceX (SPCXON)",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536221",
           "dates": [
             "2026-06-13",
-            "2026-06-14",
-            "2026-06-15"
-          ]
-        },
-        {
-          "token": "CS",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Cattoverse (CS)，瓜分 40,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536169",
-          "dates": [
             "2026-06-14"
           ]
         },
