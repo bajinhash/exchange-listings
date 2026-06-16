@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-10",
   "weekEnd": "2026-06-16",
-  "updatedAt": "2026-06-16T13:47:16.370Z",
+  "updatedAt": "2026-06-16T15:29:35.145Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -400,6 +400,33 @@
     "bybit": {
       "listings": [
         {
+          "token": "COHR",
+          "type": "永续合约",
+          "detail": "COHRUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cohrusdt-perpetual-contract-with-up-to-10x-leverage-blt9bb74cb5e7ab16eb/",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "FLNC",
+          "type": "永续合约",
+          "detail": "FLNCUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-flncusdt-perpetual-contract-with-up-to-10x-leverage-blte9c294ad1e115242/",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "AXTI",
+          "type": "永续合约",
+          "detail": "AXTIUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-axtiusdt-perpetual-contract-with-up-to-10x-leverage-bltf3034b08f389b777/",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
           "token": "SPCX",
           "type": "永续合约",
           "detail": "SPCXUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
@@ -555,28 +582,37 @@
     "gateio": {
       "listings": [
         {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "关于调整 USD1 持币生息活动年化收益率的公告3 小时前474",
+          "url": "https://www.gate.com/zh/announcements/article/100182",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "GOOGL",
+          "type": "上线",
+          "detail": "GOOGL（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100180",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "GOOG",
+          "type": "上线",
+          "detail": "GOOG（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100180",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
           "token": "TWLO",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 TWLO（特维利奥）、ROK（罗克韦尔自动化...6 小时前1,256",
+          "detail": "Gate 合约股票专区将上线 TWLO（特维利奥）、ROK（罗克韦尔自动化...11 小时前1,497",
           "url": "https://www.gate.com/zh/announcements/article/100169",
-          "dates": [
-            "2026-06-16"
-          ]
-        },
-        {
-          "token": "Merlin",
-          "type": "现货上线",
-          "detail": "Merlin（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100164",
-          "dates": [
-            "2026-06-16"
-          ]
-        },
-        {
-          "token": "Chaton",
-          "type": "现货上线",
-          "detail": "Chaton（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100164",
           "dates": [
             "2026-06-16"
           ]
@@ -610,6 +646,33 @@
           "type": "现货上线",
           "detail": "AIVIVE (AVV) 将上线 Bitget AI 区",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885877",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "FLNC",
+          "type": "美股合约",
+          "detail": "FLNC（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885937",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "CGNX",
+          "type": "美股合约",
+          "detail": "CGNX（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885937",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "SMH",
+          "type": "美股合约",
+          "detail": "SMH（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885937",
           "dates": [
             "2026-06-16"
           ]
@@ -730,6 +793,24 @@
           ]
         },
         {
+          "token": "CCL",
+          "type": "美股合约",
+          "detail": "CCL（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536310",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "NKE",
+          "type": "美股合约",
+          "detail": "NKE（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536310",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
           "token": "KO",
           "type": "跟单合约",
           "detail": "KO（同公告含 3 个标的）",
@@ -793,6 +874,15 @@
           ]
         },
         {
+          "token": "USD1",
+          "type": "现货上线",
+          "detail": "MEXC 上線 USD1/USDC 現貨交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-usd1-usdc-spot-trading-pair-17827791536280",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
           "token": "KO",
           "type": "美股合约",
           "detail": "新美股合約上線： KO U 本位合約將於 6/16 上線，限時享受 0 費",
@@ -815,6 +905,15 @@
           "type": "上线",
           "detail": "TQQQ（同公告含 2 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-smh-tqqq-and-2-others-index-futures-on-jun-16-with-0-fee-trading-17827791536273",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "O",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 o1.exchange (O) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536272",
           "dates": [
             "2026-06-16"
           ]
