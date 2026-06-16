@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-10",
   "weekEnd": "2026-06-16",
-  "updatedAt": "2026-06-16T10:08:34.529Z",
+  "updatedAt": "2026-06-16T10:35:33.194Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -548,7 +548,7 @@
         {
           "token": "TWLO",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 TWLO（特维利奥）、ROK（罗克韦尔自动化...6 小时前1,211",
+          "detail": "Gate 合约股票专区将上线 TWLO（特维利奥）、ROK（罗克韦尔自动化...6 小时前1,256",
           "url": "https://www.gate.com/zh/announcements/article/100169",
           "dates": [
             "2026-06-16"
