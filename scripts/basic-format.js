@@ -534,6 +534,23 @@ function formatExchange(key, rawArr) {
     if (tokens.length === 1 && (tokens[0] === '?' || tokens[0] === 'TradFi' || tokens[0] === '多个')) continue;
     const type = extractType(item);
     const baseDetail = makeDetail(item);
+    // Collapse mega-baskets into ONE summary row. Bitget mirrors the whole US
+    // market as tokenized stocks (rBB/rNBIS/…) in 30-200+-at-once baskets —
+    // emitting a row per token (210 on 6/12) would bury the day's actual
+    // notable listings. Threshold 18 keeps every genuine multi-token listing
+    // (perp bundles, OKX X-Perp ≤ ~13) fully expanded.
+    if (tokens.length > 18) {
+      const dk = `${key}|basket|${item.url || baseDetail}`;
+      if (seen.has(dk)) continue;
+      seen.add(dk);
+      out.push({
+        token: `${tokens[0]} 等 ${tokens.length} 个`,
+        type,
+        detail: `${baseDetail}（${tokens.slice(0, 8).join('、')}… 共 ${tokens.length} 个标的）`,
+        url: item.url || '',
+      });
+      continue;
+    }
     for (const token of tokens) {
       const dedupKey = `${key}|${token}|${type}`;
       if (seen.has(dedupKey)) continue;
