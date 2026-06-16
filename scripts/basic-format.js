@@ -273,6 +273,20 @@ function extractTokensFromBody(item) {
 // bulk listings → multiple tokens parsed from body.
 function extractTokens(item) {
   const title = item.title || '';
+  // Priority 0 (Gate Alpha): "Gate Alpha 首发上线 <Sym> (<Full Name>)、<Sym2>
+  //   (<Full Name2>)". Gate Alpha INVERTS the usual convention — the symbol
+  //   sits OUTSIDE the parens and the parens hold the (multi-word, mixed-case)
+  //   full name, e.g. "Merlin (The Patriotic Duck)、Chaton (Le gros chaton)".
+  //   Symbols are frequently mixed-case (Merlin / Chaton / bStocks), so every
+  //   ALL-CAPS pattern below returns '?' and the listing was silently dropped
+  //   (article 100164, flagged 2026-06-16). Grab the word(s) immediately
+  //   before each opening paren.
+  if (/Gate\s*Alpha/i.test(title) && /首发上线|首發上線|首发上市|首發上市/.test(title)) {
+    const syms = [...title.matchAll(/([A-Za-z][A-Za-z0-9]{1,14})\s*[(（]/g)]
+      .map(m => m[1])
+      .filter(t => !BANNED_TOKEN.has(t.toUpperCase()) && !BRAND_LOWER.has(t.toLowerCase()));
+    if (syms.length > 0) return [...new Set(syms)];
+  }
   // Priority A: title with 2+ (TICKER) parens. The parens ARE the canonical
   // ticker list — trust them and skip the body scan. Body context like
   // "trading GENIUS and OPG against BTC, USDT" or "buy with VISA, MasterCard"
