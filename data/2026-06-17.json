@@ -1,0 +1,160 @@
+{
+  "date": "2026-06-17",
+  "updatedAt": "2026-06-16T18:47:46.257Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "COHR",
+          "type": "永续合约",
+          "detail": "COHRUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cohrusdt-perpetual-contract-with-up-to-10x-leverage-blt9bb74cb5e7ab16eb/"
+        },
+        {
+          "token": "FLNC",
+          "type": "永续合约",
+          "detail": "FLNCUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-flncusdt-perpetual-contract-with-up-to-10x-leverage-blte9c294ad1e115242/"
+        },
+        {
+          "token": "AXTI",
+          "type": "永续合约",
+          "detail": "AXTIUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-axtiusdt-perpetual-contract-with-up-to-10x-leverage-bltf3034b08f389b777/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "O",
+          "type": "现货上线",
+          "detail": "World Premiere: o1.exchange (O) Listed on KuCoinTrading: 16:00 on June 17, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-o1-exchange-o-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "关于调整 USD1 持币生息活动年化收益率的公告6 小时前727",
+          "url": "https://www.gate.com/zh/announcements/article/100182"
+        },
+        {
+          "token": "GOOGL",
+          "type": "上线",
+          "detail": "GOOGL（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100180"
+        },
+        {
+          "token": "GOOG",
+          "type": "上线",
+          "detail": "GOOG（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100180"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "FLNC",
+          "type": "美股合约",
+          "detail": "FLNC（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885937"
+        },
+        {
+          "token": "CGNX",
+          "type": "美股合约",
+          "detail": "CGNX（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885937"
+        },
+        {
+          "token": "SMH",
+          "type": "美股合约",
+          "detail": "SMH（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885937"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "CCL",
+          "type": "美股合约",
+          "detail": "CCL（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536310"
+        },
+        {
+          "token": "NKE",
+          "type": "美股合约",
+          "detail": "NKE（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536310"
+        },
+        {
+          "token": "KO",
+          "type": "美股合约",
+          "detail": "新美股合約上線： KO U 本位合約將於 6/16 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536277"
+        },
+        {
+          "token": "GRAMUSDT",
+          "type": "上线",
+          "detail": "GRAMUSDT（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
+        },
+        {
+          "token": "GRAMUSDC",
+          "type": "上线",
+          "detail": "GRAMUSDC（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
+        },
+        {
+          "token": "GRAMUSD1",
+          "type": "上线",
+          "detail": "GRAMUSD1（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
+        },
+        {
+          "token": "TWLO",
+          "type": "跟单合约",
+          "detail": "TWLO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+        },
+        {
+          "token": "NTAP",
+          "type": "跟单合约",
+          "detail": "NTAP（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+        },
+        {
+          "token": "SITM",
+          "type": "跟单合约",
+          "detail": "SITM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+        },
+        {
+          "token": "AXON",
+          "type": "跟单合约",
+          "detail": "AXON（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+        },
+        {
+          "token": "RCAT",
+          "type": "跟单合约",
+          "detail": "RCAT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+        }
+      ]
+    }
+  }
+}
