@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-10",
   "weekEnd": "2026-06-16",
-  "updatedAt": "2026-06-16T15:29:35.145Z",
+  "updatedAt": "2026-06-16T15:38:43.988Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -584,7 +584,7 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息活动年化收益率的公告3 小时前474",
+          "detail": "关于调整 USD1 持币生息活动年化收益率的公告3 小时前500",
           "url": "https://www.gate.com/zh/announcements/article/100182",
           "dates": [
             "2026-06-16"
@@ -611,7 +611,7 @@
         {
           "token": "TWLO",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 TWLO（特维利奥）、ROK（罗克韦尔自动化...11 小时前1,497",
+          "detail": "Gate 合约股票专区将上线 TWLO（特维利奥）、ROK（罗克韦尔自动化...11 小时前1,506",
           "url": "https://www.gate.com/zh/announcements/article/100169",
           "dates": [
             "2026-06-16"
