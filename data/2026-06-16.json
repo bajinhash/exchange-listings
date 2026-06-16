@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "updatedAt": "2026-06-15T19:34:39.118Z",
+  "updatedAt": "2026-06-16T10:08:34.389Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -8,19 +8,94 @@
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "ALAB",
+          "type": "美股合约",
+          "detail": "ALAB（同公告含 5 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-alab-ter-axti-poet-and-onds-equities"
+        },
+        {
+          "token": "TER",
+          "type": "美股合约",
+          "detail": "TER（同公告含 5 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-alab-ter-axti-poet-and-onds-equities"
+        },
+        {
+          "token": "AXTI",
+          "type": "美股合约",
+          "detail": "AXTI（同公告含 5 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-alab-ter-axti-poet-and-onds-equities"
+        },
+        {
+          "token": "POET",
+          "type": "美股合约",
+          "detail": "POET（同公告含 5 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-alab-ter-axti-poet-and-onds-equities"
+        },
+        {
+          "token": "ONDS",
+          "type": "美股合约",
+          "detail": "ONDS（同公告含 5 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-alab-ter-axti-poet-and-onds-equities"
+        }
+      ]
     },
     "bybit": {
       "listings": []
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "O",
+          "type": "现货上线",
+          "detail": "World Premiere: o1.exchange (O) Listed on KuCoinTrading: 16:00 on June 17, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-o1-exchange-o-listed-on-kucoin"
+        },
+        {
+          "token": "TER",
+          "type": "美股合约",
+          "detail": "TER（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-terusdt-alabusdt-poetusdt-stock-index-perpetual-contracts-2026-06-16"
+        },
+        {
+          "token": "ALAB",
+          "type": "美股合约",
+          "detail": "ALAB（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-terusdt-alabusdt-poetusdt-stock-index-perpetual-contracts-2026-06-16"
+        },
+        {
+          "token": "POET",
+          "type": "美股合约",
+          "detail": "POET（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-terusdt-alabusdt-poetusdt-stock-index-perpetual-contracts-2026-06-16"
+        },
+        {
+          "token": "U",
+          "type": "现货上线",
+          "detail": "United Stables (U) Listed on KuCoinTrading: 10:00 on June 16, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-united-stables-u-listed-on-kucoin"
+        }
+      ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "TWLO",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 TWLO（特维利奥）、ROK（罗克韦尔自动化...6 小时前1,211",
+          "url": "https://www.gate.com/zh/announcements/article/100169"
+        }
+      ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "AVV",
+          "type": "现货上线",
+          "detail": "AIVIVE (AVV) 将上线 Bitget AI 区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885877"
+        },
         {
           "token": "GRAMUSDC",
           "type": "上线",
@@ -37,6 +112,54 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "KO",
+          "type": "跟单合约",
+          "detail": "KO（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287"
+        },
+        {
+          "token": "KIOXIA",
+          "type": "跟单合约",
+          "detail": "KIOXIA（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287"
+        },
+        {
+          "token": "SMH",
+          "type": "跟单合约",
+          "detail": "SMH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
+        },
+        {
+          "token": "TQQQ",
+          "type": "跟单合约",
+          "detail": "TQQQ（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
+        },
+        {
+          "token": "SQQQ",
+          "type": "跟单合约",
+          "detail": "SQQQ（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
+        },
+        {
+          "token": "KO",
+          "type": "美股合约",
+          "detail": "新美股合約上線： KO U 本位合約將於 6/16 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536277"
+        },
+        {
+          "token": "SMH",
+          "type": "上线",
+          "detail": "SMH（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-smh-tqqq-and-2-others-index-futures-on-jun-16-with-0-fee-trading-17827791536273"
+        },
+        {
+          "token": "TQQQ",
+          "type": "上线",
+          "detail": "TQQQ（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-smh-tqqq-and-2-others-index-futures-on-jun-16-with-0-fee-trading-17827791536273"
+        },
         {
           "token": "GRAMUSDT",
           "type": "上线",
@@ -62,10 +185,28 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536255"
         },
         {
-          "token": "CS",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Cattoverse (CS)，瓜分 40,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536169"
+          "token": "TWLO",
+          "type": "跟单合约",
+          "detail": "TWLO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+        },
+        {
+          "token": "NTAP",
+          "type": "跟单合约",
+          "detail": "NTAP（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+        },
+        {
+          "token": "SITM",
+          "type": "跟单合约",
+          "detail": "SITM（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+        },
+        {
+          "token": "AXON",
+          "type": "跟单合约",
+          "detail": "AXON（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
         }
       ]
     }
