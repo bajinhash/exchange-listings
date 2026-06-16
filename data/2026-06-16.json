@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "updatedAt": "2026-06-16T10:35:33.072Z",
+  "updatedAt": "2026-06-16T13:24:53.713Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -85,6 +85,18 @@
           "type": "现货上线",
           "detail": "Gate 合约股票专区将上线 TWLO（特维利奥）、ROK（罗克韦尔自动化...6 小时前1,256",
           "url": "https://www.gate.com/zh/announcements/article/100169"
+        },
+        {
+          "token": "Merlin",
+          "type": "现货上线",
+          "detail": "Merlin（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100164"
+        },
+        {
+          "token": "Chaton",
+          "type": "现货上线",
+          "detail": "Chaton（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100164"
         }
       ]
     },
