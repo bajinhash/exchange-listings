@@ -266,6 +266,14 @@ function extractTokensFromBody(item) {
       add(inner[1]);
     }
   }
+  // Pattern 6: OKX X-Perp body lists each contract as "AAPLUSD UM（X-Perp）"
+  //   — bare TICKER + USD + space + optional "UM" + （X-Perp）, no slash/dash/
+  //   USDT. The title carries NO tickers in this format, so without this the
+  //   whole 9-symbol stock X-Perp listing dropped (6/9). m[1] is already the
+  //   bare ticker (captured before USD), no USD-strip needed.
+  for (const m of body.matchAll(/(?<![A-Z0-9])([A-Z][A-Z0-9]{1,14})USD\s*(?:UM)?\s*[（(]\s*X-?Perp/g)) {
+    add(m[1]);
+  }
   return [...tokens].sort();
 }
 
@@ -286,6 +294,19 @@ function extractTokens(item) {
       .map(m => m[1])
       .filter(t => !BANNED_TOKEN.has(t.toUpperCase()) && !BRAND_LOWER.has(t.toLowerCase()));
     if (syms.length > 0) return [...new Set(syms)];
+  }
+  // Priority 0b (Bitget tokenized stocks): "X 关于上线 rBB、rNBIS…等49只股票现货".
+  //   Bitget prefixes tokenized US stocks with a lowercase 'r' (rBB=BlackBerry,
+  //   rIBM=IBM). The lowercase prefix breaks every ALL-CAPS path → '?' → the
+  //   whole basket of 30-108 stocks was silently dropped (6 baskets, 6/4-6/12).
+  //   Pull every \br[A-Z]… out of title+body. The \b before 'r' is what keeps
+  //   prose safe ("our BTC" has no word boundary before that 'r').
+  if (/关于上线|關於上線/.test(title) && /股票现[货貨]|股票現[货貨]/.test(title)) {
+    const body = title + '\n' + (item.body || '');
+    const rstocks = [...body.matchAll(/\br([A-Z][A-Z0-9]{0,14})\b/g)]
+      .map(m => 'r' + m[1])
+      .filter(t => !BANNED_TOKEN.has(t.slice(1)) && !BANNED_TOKEN.has(t));
+    if (rstocks.length > 0) return [...new Set(rstocks)];
   }
   // Priority A: title with 2+ (TICKER) parens. The parens ARE the canonical
   // ticker list — trust them and skip the body scan. Body context like
@@ -311,8 +332,11 @@ function extractTokens(item) {
   }
   // Pull every ticker out of a 顿号 / comma run in the title (the bulk
   // detector in extractToken() captures only "ticker before next 顿号",
-  // missing both the first and last — this collects them all).
-  const titleDunRuns = [...title.matchAll(/(?:[A-Z][A-Z0-9]{1,14}\s*[、,]\s*){1,}[A-Z][A-Z0-9]{1,14}/g)];
+  // missing both the first and last — this collects them all). The optional
+  // trailing (和|及|与|與|and)+ticker consumes the conjunction-joined LAST
+  // ticker — MEXC/OKX bundle the final symbol with 和 not 顿号, e.g.
+  // "BX、CRDO、IWM 和 AXTI" → AXTI was being lost.
+  const titleDunRuns = [...title.matchAll(/(?:[A-Z][A-Z0-9]{1,14}\s*[、,]\s*){1,}[A-Z][A-Z0-9]{1,14}(?:\s*(?:和|及|与|與|and)\s*[A-Z][A-Z0-9]{1,14})?/g)];
   const titleDunhao = [];
   for (const run of titleDunRuns) {
     for (const inner of run[0].matchAll(/\b([A-Z][A-Z0-9]{1,14})\b/g)) {
@@ -321,6 +345,17 @@ function extractTokens(item) {
   }
   if (titleDunhao.length >= 2) {
     return [...new Set(titleDunhao)];
+  }
+  // 2-token Chinese-conjunction list with NO 顿号: "CIEN 和 SATSSTOCK",
+  // OKX "ETH 和 SOL". extractToken() returns just the FIRST ticker (not
+  // '?'), short-circuiting before the body scan, so the second symbol was
+  // lost. Restricted to 和/及/与/與 (NOT English "and" — English bulk lists
+  // go through body Pattern 2). Strip a USD quote suffix in X-Perp context.
+  const heMatch = title.match(/\b([A-Z][A-Z0-9]{1,14})\s*(?:和|及|与|與)\s*([A-Z][A-Z0-9]{1,14})\b/);
+  if (heMatch && !BANNED_TOKEN.has(heMatch[1]) && !BANNED_TOKEN.has(heMatch[2])) {
+    const usdCtx = /X-?Perp|X-?合[約约]|USD\s*本位|USD-?Margined|USDⓈ-?Margined/i.test(title);
+    const strip = (t) => (usdCtx && t.length > 4 && t.endsWith('USD') && !BANNED_TOKEN.has(t)) ? t.slice(0, -3) : t;
+    return [...new Set([strip(heMatch[1]), strip(heMatch[2])])];
   }
   let single = extractToken(item);
   // Strip a trailing USD quote suffix on single-token USD-margined / X-Perp
@@ -461,15 +496,22 @@ function inWindow(parsed) {
 // Note: 定投 (DCA / dollar-cost averaging) was previously in DENY, but
 // "现货定投新增支持 X" is legit new-token-support news. Keep the deny list
 // scoped to genuine noise (campaigns, lotteries, maintenance, delistings).
-const DENY = /Trading Competition|AMA|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|下线|下線|关于下线|關於下線|Delisting|Will Delist|盲盒派对|盲盒派對|研究院|战略合作|戰略合作|机构周报|機構周報|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照|老友季|老友福利|老友专属|老友專屬|交易大赛|交易大賽|交易赛|交易賽|打卡领|打卡領|打卡瓜分|回归得|回歸得|单人最高|單人最高|回归首单包赔|回歸首單包賠|每日打卡|零成本跟单|零成本跟單|跟单第\s*[一二三四五六七八九十\d]+\s*期|跟單第\s*[一二三四五六七八九十\d]+\s*期|见面礼|見面禮|活期理财|活期理財|理财福利|理財福利|新人特权|新人特權|首充\s*\d+%|首充\s*[一二三四五六七八九十百]+%|返现\b|返現\b|邀友|空投来袭|空投來襲|新人同领|新人同領|回归加送|回歸加送|瓜分\s*[\d,]+\s*[A-Z]{3,6}|质押上线|質押上線|份额拆分|份額拆分|份额合并|份額合併|恢复盘前交易|恢復盤前交易|首次下载|首次下載|新用户专属|新用戶專屬|交易結束|交易结束|交割安排|盘前交易.*结束|盤前交易.*結束|开户领|開戶領|豪华奖池|豪華獎池|开放时间确认|開放時間確認|交易开放时间|交易開放時間|资金费率|資金費率|首交赢|首交贏|交易回馈|交易回饋|质押挑战赛|質押挑戰賽|回归用户赢取|回歸用戶贏取|挑战赛|挑戰賽|杠杆新增\s*[A-Z]+\/|槓桿新增\s*[A-Z]+\/|杠杆.*交易对|槓桿.*交易對|Adds\s+\w+\/(?:AED|EUR|GBP|TRY|BRL|ARS|JPY|CNY|UAH|RUB|IDR|VND|NGN|ZAR|MXN|COP|PLN)\s+Spot|\/(?:AED|EUR|GBP|TRY|BRL|ARS|JPY|CNY|UAH|RUB|IDR|VND|NGN|ZAR|MXN|COP|PLN)\s+Spot Trading Pair|BountyDrop|杠杆无忧|槓桿無憂|赢\s*100%|贏\s*100%|能量补给|能量補給|价格精度|價格精度|数量精度|數量精度|调整.*精度|調整.*精度|创作者激励|創作者激勵|认证创作者|認證創作者|预测市场|預測市場|世界杯|竞猜|競猜|绿茵预言|綠茵預言|预言家|預言家|网格机器人|網格機器人|机器人新用户|機器人新用戶|手把手|交易教程|老友特权|老友特權|严选交易员|嚴選交易員|功能下线|功能下線|开仓立领|開倉立領/i;
+const DENY = /Trading Competition|\bAMA\b|Completes Integration|Alpha Will Remove|Competition|Campaign|Maintenance|系統維護|System Maintenance|Institutions and VIPs|Getting started|Announcements$|Latest announcements|Trading updates|手续费|手續費|下架|下线|下線|关于下线|關於下線|Delisting|Will Delist|盲盒派对|盲盒派對|研究院|战略合作|戰略合作|机构周报|機構周報|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|獎勵等您|奖励等您|盲盒|抽獎|抽奖|抽签|抽籤|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|热币赛|熱幣賽|签启好运|簽啟好運|报名领|報名領|報名即|报名即|重磅福利|豪礼|豪禮|豪奖|豪獎|金条|金條|福利$|VIP 交易分红|VIP 交易分紅|Gate Live|每月瓜分|快訊|快讯|周报|週報|月报|月報|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|期权上线|期權上線|期权产品|期權產品|空投\s*[一二三四五六七八九十百\d]+\s*期|空投[四五六七八九十]期|幸運轉盤|幸运转盘|陽光普照|阳光普照|老友季|老友福利|老友专属|老友專屬|交易大赛|交易大賽|交易赛|交易賽|打卡领|打卡領|打卡瓜分|回归得|回歸得|单人最高|單人最高|回归首单包赔|回歸首單包賠|每日打卡|零成本跟单|零成本跟單|跟单第\s*[一二三四五六七八九十\d]+\s*期|跟單第\s*[一二三四五六七八九十\d]+\s*期|见面礼|見面禮|活期理财|活期理財|理财福利|理財福利|新人特权|新人特權|首充\s*\d+%|首充\s*[一二三四五六七八九十百]+%|返现\b|返現\b|邀友|空投来袭|空投來襲|新人同领|新人同領|回归加送|回歸加送|瓜分\s*[\d,]+\s*[A-Z]{3,6}|质押上线|質押上線|份额拆分|份額拆分|份额合并|份額合併|恢复盘前交易|恢復盤前交易|首次下载|首次下載|新用户专属|新用戶專屬|交易結束|交易结束|交割安排|盘前交易.*结束|盤前交易.*結束|开户领|開戶領|豪华奖池|豪華獎池|开放时间确认|開放時間確認|交易开放时间|交易開放時間|资金费率|資金費率|首交赢|首交贏|交易回馈|交易回饋|质押挑战赛|質押挑戰賽|回归用户赢取|回歸用戶贏取|挑战赛|挑戰賽|杠杆新增\s*[A-Z]+\/|槓桿新增\s*[A-Z]+\/|杠杆.*交易对|槓桿.*交易對|Adds\s+\w+\/(?:AED|EUR|GBP|TRY|BRL|ARS|JPY|CNY|UAH|RUB|IDR|VND|NGN|ZAR|MXN|COP|PLN)\s+Spot|\/(?:AED|EUR|GBP|TRY|BRL|ARS|JPY|CNY|UAH|RUB|IDR|VND|NGN|ZAR|MXN|COP|PLN)\s+Spot Trading Pair|BountyDrop|杠杆无忧|槓桿無憂|赢\s*100%|贏\s*100%|能量补给|能量補給|价格精度|價格精度|数量精度|數量精度|调整.*精度|調整.*精度|创作者激励|創作者激勵|认证创作者|認證創作者|预测市场|預測市場|世界杯|竞猜|競猜|绿茵预言|綠茵預言|预言家|預言家|网格机器人|網格機器人|机器人新用户|機器人新用戶|手把手|交易教程|老友特权|老友特權|严选交易员|嚴選交易員|功能下线|功能下線|开仓立领|開倉立領/i;
 
 // "首发上线" / "Will List" / "上币" — these are strong positive listing
 // signals. When a title has one of these AND no HARD-noise marker (campaign,
 // lottery), keep it even if the DENY pattern would otherwise match (e.g.
 // MEXC's "首發上線：MEXC ... Airdrop+ 獎池" — 'Airdrop' is fine, '獎池' is
 // noise on its own but here it's a bonus on a real listing).
-const ALLOW_OVERRIDE = /首發上線|首发上线|首發上市|首发上市|Will\s+(?:List|Launch|Add)|新美股合約上線|新美股合约上线|World Premiere/i;
-const HARD_NOISE = /Trading Competition|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|抽獎|抽奖|抽签|抽籤|盲盒|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|签启好运|簽啟好運|報名領|报名领|報名即|报名即|Gate Live|CandyDrop|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|幸運轉盤|幸运转盘|陽光普照|阳光普照/i;
+// 創新區上線 / 创新区上线 added so MEXC innovation-zone spot listings that
+// merely BUNDLE a 瓜分-bonus (e.g. "MEXC 將於創新區上線 Manadia (UMXM)，瓜分
+// 60,000 USDT") are recognised as real listings and rescued from DENY.
+const ALLOW_OVERRIDE = /首發上線|首发上线|首發上市|首发上市|Will\s+(?:List|Launch|Add)|新美股合約上線|新美股合约上线|World Premiere|創新區上線|创新区上线|考核區上線|考核区上线/i;
+// CandyDrop removed from HARD_NOISE (kept in DENY): a real listing that
+// bundles a CandyDrop bonus (Gate "首发上线 KAIO … CandyDrop") must stay
+// rescuable by ALLOW_OVERRIDE. A standalone "CandyDrop 第3期" campaign has no
+// listing verb / ticker, so DENY still catches it.
+const HARD_NOISE = /Trading Competition|百倍|圍獵|围猎|獵計|計畫第\s*\d+\s*期|计划第\s*\d+\s*期|第\s*\d+\s*期[：:]|抽獎|抽奖|抽签|抽籤|盲盒|更名|透明度报告|透明度報告|研究院|直播挖矿|直播挖礦|签启好运|簽啟好運|報名領|报名领|報名即|报名即|Gate Live|闪兑幸运|閃兌幸運|中奖狂欢|中獎狂歡|幸運轉盤|幸运转盘|陽光普照|阳光普照/i;
 
 function isDenied(item) {
   const title = item.title || '';

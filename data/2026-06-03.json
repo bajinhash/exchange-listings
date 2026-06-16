@@ -1,6 +1,6 @@
 {
   "date": "2026-06-03",
-  "updatedAt": "2026-06-03T14:09:45.409Z",
+  "updatedAt": "2026-06-16T13:43:32.829Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -116,20 +116,7 @@
       ]
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "TEA",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Tea (TEA) 现货交易与闪兑交易",
-          "url": "https://www.gate.com/zh/announcements/article/51512"
-        },
-        {
-          "token": "JARS",
-          "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 JARS (Kool Aid Pineapple Jars)",
-          "url": "https://www.gate.com/zh/announcements/article/51498"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": []
@@ -137,16 +124,52 @@
     "mexc": {
       "listings": [
         {
-          "token": "TEA",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Tea Protocol (TEA)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535917"
-        },
-        {
           "token": "HPE",
           "type": "美股合约",
           "detail": "新美股合約上線：HPE U 本位合約將於 6/2 上線，限時享受 0 費",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535887"
+        },
+        {
+          "token": "DOGEUS",
+          "type": "Meme+ 现货",
+          "detail": "DOGEUS 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535865"
+        },
+        {
+          "token": "HYUNDAI",
+          "type": "跟单合约",
+          "detail": "HYUNDAI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856"
+        },
+        {
+          "token": "NVO",
+          "type": "跟单合约",
+          "detail": "NVO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856"
+        },
+        {
+          "token": "LUNR",
+          "type": "跟单合约",
+          "detail": "LUNR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856"
+        },
+        {
+          "token": "BBSTOCK",
+          "type": "跟单合约",
+          "detail": "BBSTOCK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856"
+        },
+        {
+          "token": "EWT",
+          "type": "跟单合约",
+          "detail": "EWT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856"
+        },
+        {
+          "token": "THREE",
+          "type": "Meme+ 现货",
+          "detail": "THREE 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535853"
         },
         {
           "token": "HYUNDAI",

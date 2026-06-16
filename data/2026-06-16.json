@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "updatedAt": "2026-06-16T13:24:53.713Z",
+  "updatedAt": "2026-06-16T13:43:33.185Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -127,31 +127,43 @@
         {
           "token": "KO",
           "type": "跟单合约",
-          "detail": "KO（同公告含 2 个标的）",
+          "detail": "KO（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287"
         },
         {
           "token": "KIOXIA",
           "type": "跟单合约",
-          "detail": "KIOXIA（同公告含 2 个标的）",
+          "detail": "KIOXIA（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287"
+        },
+        {
+          "token": "GRAM",
+          "type": "跟单合约",
+          "detail": "GRAM（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287"
         },
         {
           "token": "SMH",
           "type": "跟单合约",
-          "detail": "SMH（同公告含 3 个标的）",
+          "detail": "SMH（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
         },
         {
           "token": "TQQQ",
           "type": "跟单合约",
-          "detail": "TQQQ（同公告含 3 个标的）",
+          "detail": "TQQQ（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
         },
         {
           "token": "SQQQ",
           "type": "跟单合约",
-          "detail": "SQQQ（同公告含 3 个标的）",
+          "detail": "SQQQ（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
+        },
+        {
+          "token": "SOXS",
+          "type": "跟单合约",
+          "detail": "SOXS（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
         },
         {
@@ -199,25 +211,31 @@
         {
           "token": "TWLO",
           "type": "跟单合约",
-          "detail": "TWLO（同公告含 4 个标的）",
+          "detail": "TWLO（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
         },
         {
           "token": "NTAP",
           "type": "跟单合约",
-          "detail": "NTAP（同公告含 4 个标的）",
+          "detail": "NTAP（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
         },
         {
           "token": "SITM",
           "type": "跟单合约",
-          "detail": "SITM（同公告含 4 个标的）",
+          "detail": "SITM（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
         },
         {
           "token": "AXON",
           "type": "跟单合约",
-          "detail": "AXON（同公告含 4 个标的）",
+          "detail": "AXON（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+        },
+        {
+          "token": "RCAT",
+          "type": "跟单合约",
+          "detail": "RCAT（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
         }
       ]

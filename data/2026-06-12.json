@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "updatedAt": "2026-06-12T13:47:42.870Z",
+  "updatedAt": "2026-06-16T13:43:33.077Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -115,6 +115,1260 @@
     "bitget": {
       "listings": [
         {
+          "token": "rNU",
+          "type": "现货上线",
+          "detail": "rNU（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rMCHP",
+          "type": "现货上线",
+          "detail": "rMCHP（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rADSK",
+          "type": "现货上线",
+          "detail": "rADSK（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rFDX",
+          "type": "现货上线",
+          "detail": "rFDX（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rMPC",
+          "type": "现货上线",
+          "detail": "rMPC（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rSU",
+          "type": "现货上线",
+          "detail": "rSU（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rEOG",
+          "type": "现货上线",
+          "detail": "rEOG（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rPSX",
+          "type": "现货上线",
+          "detail": "rPSX（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rKMI",
+          "type": "现货上线",
+          "detail": "rKMI（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rSRE",
+          "type": "现货上线",
+          "detail": "rSRE（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rDVN",
+          "type": "现货上线",
+          "detail": "rDVN（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rFANG",
+          "type": "现货上线",
+          "detail": "rFANG（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rLNG",
+          "type": "现货上线",
+          "detail": "rLNG（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rBKR",
+          "type": "现货上线",
+          "detail": "rBKR（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rVLO",
+          "type": "现货上线",
+          "detail": "rVLO（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCI",
+          "type": "现货上线",
+          "detail": "rCI（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rBSX",
+          "type": "现货上线",
+          "detail": "rBSX（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rHUM",
+          "type": "现货上线",
+          "detail": "rHUM（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rBDX",
+          "type": "现货上线",
+          "detail": "rBDX（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rIDXX",
+          "type": "现货上线",
+          "detail": "rIDXX（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rEW",
+          "type": "现货上线",
+          "detail": "rEW（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCAH",
+          "type": "现货上线",
+          "detail": "rCAH（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rMDLN",
+          "type": "现货上线",
+          "detail": "rMDLN（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rARGX",
+          "type": "现货上线",
+          "detail": "rARGX（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCOR",
+          "type": "现货上线",
+          "detail": "rCOR（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rICE",
+          "type": "现货上线",
+          "detail": "rICE（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rMCO",
+          "type": "现货上线",
+          "detail": "rMCO（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rFITB",
+          "type": "现货上线",
+          "detail": "rFITB（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rSTT",
+          "type": "现货上线",
+          "detail": "rSTT（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rAON",
+          "type": "现货上线",
+          "detail": "rAON（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rAFL",
+          "type": "现货上线",
+          "detail": "rAFL（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rTRV",
+          "type": "现货上线",
+          "detail": "rTRV（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rAJG",
+          "type": "现货上线",
+          "detail": "rAJG（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rALL",
+          "type": "现货上线",
+          "detail": "rALL（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rTFC",
+          "type": "现货上线",
+          "detail": "rTFC（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rMRSH",
+          "type": "现货上线",
+          "detail": "rMRSH（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rMSCI",
+          "type": "现货上线",
+          "detail": "rMSCI（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rNDAQ",
+          "type": "现货上线",
+          "detail": "rNDAQ（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rARES",
+          "type": "现货上线",
+          "detail": "rARES（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rEMR",
+          "type": "现货上线",
+          "detail": "rEMR（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rITW",
+          "type": "现货上线",
+          "detail": "rITW（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rURI",
+          "type": "现货上线",
+          "detail": "rURI（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rFIX",
+          "type": "现货上线",
+          "detail": "rFIX（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rPCAR",
+          "type": "现货上线",
+          "detail": "rPCAR（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rGWW",
+          "type": "现货上线",
+          "detail": "rGWW（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCTAS",
+          "type": "现货上线",
+          "detail": "rCTAS（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rRSG",
+          "type": "现货上线",
+          "detail": "rRSG（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCNI",
+          "type": "现货上线",
+          "detail": "rCNI（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rAME",
+          "type": "现货上线",
+          "detail": "rAME（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rTDG",
+          "type": "现货上线",
+          "detail": "rTDG（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rLHX",
+          "type": "现货上线",
+          "detail": "rLHX（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rHEI",
+          "type": "现货上线",
+          "detail": "rHEI（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCARR",
+          "type": "现货上线",
+          "detail": "rCARR（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rROK",
+          "type": "现货上线",
+          "detail": "rROK（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rODFL",
+          "type": "现货上线",
+          "detail": "rODFL（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rFAST",
+          "type": "现货上线",
+          "detail": "rFAST（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rFERG",
+          "type": "现货上线",
+          "detail": "rFERG（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rFLEX",
+          "type": "现货上线",
+          "detail": "rFLEX（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rHLT",
+          "type": "现货上线",
+          "detail": "rHLT（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rROST",
+          "type": "现货上线",
+          "detail": "rROST（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rORLY",
+          "type": "现货上线",
+          "detail": "rORLY（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rTGT",
+          "type": "现货上线",
+          "detail": "rTGT（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rAZO",
+          "type": "现货上线",
+          "detail": "rAZO（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rRCL",
+          "type": "现货上线",
+          "detail": "rRCL（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rGM",
+          "type": "现货上线",
+          "detail": "rGM（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rDAL",
+          "type": "现货上线",
+          "detail": "rDAL（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rSE",
+          "type": "现货上线",
+          "detail": "rSE（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCL",
+          "type": "现货上线",
+          "detail": "rCL（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCCEP",
+          "type": "现货上线",
+          "detail": "rCCEP（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rKDP",
+          "type": "现货上线",
+          "detail": "rKDP（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rSHW",
+          "type": "现货上线",
+          "detail": "rSHW（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rNUE",
+          "type": "现货上线",
+          "detail": "rNUE（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rAPD",
+          "type": "现货上线",
+          "detail": "rAPD（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rVALE",
+          "type": "现货上线",
+          "detail": "rVALE（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rAU",
+          "type": "现货上线",
+          "detail": "rAU（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCCJ",
+          "type": "现货上线",
+          "detail": "rCCJ（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rWPM",
+          "type": "现货上线",
+          "detail": "rWPM（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rB",
+          "type": "现货上线",
+          "detail": "rB（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rFNV",
+          "type": "现货上线",
+          "detail": "rFNV（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCRH",
+          "type": "现货上线",
+          "detail": "rCRH（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rECL",
+          "type": "现货上线",
+          "detail": "rECL（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCTVA",
+          "type": "现货上线",
+          "detail": "rCTVA（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rDLR",
+          "type": "现货上线",
+          "detail": "rDLR（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rSPG",
+          "type": "现货上线",
+          "detail": "rSPG（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rO",
+          "type": "现货上线",
+          "detail": "rO（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rPSA",
+          "type": "现货上线",
+          "detail": "rPSA（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rMSI",
+          "type": "现货上线",
+          "detail": "rMSI（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rMPWR",
+          "type": "现货上线",
+          "detail": "rMPWR（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rGFS",
+          "type": "现货上线",
+          "detail": "rGFS（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rCLS",
+          "type": "现货上线",
+          "detail": "rCLS（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rKEYS",
+          "type": "现货上线",
+          "detail": "rKEYS（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rEA",
+          "type": "现货上线",
+          "detail": "rEA（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rTEL",
+          "type": "现货上线",
+          "detail": "rTEL（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rWBD",
+          "type": "现货上线",
+          "detail": "rWBD（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rAEP",
+          "type": "现货上线",
+          "detail": "rAEP（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rEXC",
+          "type": "现货上线",
+          "detail": "rEXC（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rXEL",
+          "type": "现货上线",
+          "detail": "rXEL（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rETR",
+          "type": "现货上线",
+          "detail": "rETR（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rD",
+          "type": "现货上线",
+          "detail": "rD（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rHIMS",
+          "type": "现货上线",
+          "detail": "rHIMS（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rMARA",
+          "type": "现货上线",
+          "detail": "rMARA（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rOSCR",
+          "type": "现货上线",
+          "detail": "rOSCR（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rXOM",
+          "type": "现货上线",
+          "detail": "rXOM（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rOXY",
+          "type": "现货上线",
+          "detail": "rOXY（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rSMH",
+          "type": "现货上线",
+          "detail": "rSMH（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rVOO",
+          "type": "现货上线",
+          "detail": "rVOO（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rWMT",
+          "type": "现货上线",
+          "detail": "rWMT（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rBAC",
+          "type": "现货上线",
+          "detail": "rBAC（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rVGT",
+          "type": "现货上线",
+          "detail": "rVGT（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rNASA",
+          "type": "现货上线",
+          "detail": "rNASA（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rBMNR",
+          "type": "现货上线",
+          "detail": "rBMNR（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rDIS",
+          "type": "现货上线",
+          "detail": "rDIS（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rROKU",
+          "type": "现货上线",
+          "detail": "rROKU（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rLCID",
+          "type": "现货上线",
+          "detail": "rLCID（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rIBM",
+          "type": "现货上线",
+          "detail": "rIBM（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rFTNT",
+          "type": "现货上线",
+          "detail": "rFTNT（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rGS",
+          "type": "现货上线",
+          "detail": "rGS（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rAXP",
+          "type": "现货上线",
+          "detail": "rAXP（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rJNJ",
+          "type": "现货上线",
+          "detail": "rJNJ（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rBB",
+          "type": "现货上线",
+          "detail": "rBB（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rNBIS",
+          "type": "现货上线",
+          "detail": "rNBIS（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rGME",
+          "type": "现货上线",
+          "detail": "rGME（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rAMC",
+          "type": "现货上线",
+          "detail": "rAMC（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rSOFI",
+          "type": "现货上线",
+          "detail": "rSOFI（同公告含 124 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        },
+        {
+          "token": "rPBR",
+          "type": "现货上线",
+          "detail": "rPBR（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rSHEL",
+          "type": "现货上线",
+          "detail": "rSHEL（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rBP",
+          "type": "现货上线",
+          "detail": "rBP（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rCNQ",
+          "type": "现货上线",
+          "detail": "rCNQ（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rWMB",
+          "type": "现货上线",
+          "detail": "rWMB（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rSLB",
+          "type": "现货上线",
+          "detail": "rSLB（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rSO",
+          "type": "现货上线",
+          "detail": "rSO（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rPCG",
+          "type": "现货上线",
+          "detail": "rPCG（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rDUK",
+          "type": "现货上线",
+          "detail": "rDUK（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rENB",
+          "type": "现货上线",
+          "detail": "rENB（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rVRTX",
+          "type": "现货上线",
+          "detail": "rVRTX（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rREGN",
+          "type": "现货上线",
+          "detail": "rREGN（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rMRNA",
+          "type": "现货上线",
+          "detail": "rMRNA（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rMRK",
+          "type": "现货上线",
+          "detail": "rMRK（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rPFE",
+          "type": "现货上线",
+          "detail": "rPFE（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rGILD",
+          "type": "现货上线",
+          "detail": "rGILD（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rBMY",
+          "type": "现货上线",
+          "detail": "rBMY（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rNVS",
+          "type": "现货上线",
+          "detail": "rNVS（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rGSK",
+          "type": "现货上线",
+          "detail": "rGSK（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rSYK",
+          "type": "现货上线",
+          "detail": "rSYK（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rISRG",
+          "type": "现货上线",
+          "detail": "rISRG（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rMDT",
+          "type": "现货上线",
+          "detail": "rMDT（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rDHR",
+          "type": "现货上线",
+          "detail": "rDHR（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rCVS",
+          "type": "现货上线",
+          "detail": "rCVS（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rMCK",
+          "type": "现货上线",
+          "detail": "rMCK（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rHCA",
+          "type": "现货上线",
+          "detail": "rHCA（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rWELL",
+          "type": "现货上线",
+          "detail": "rWELL（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rMS",
+          "type": "现货上线",
+          "detail": "rMS（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rIBKR",
+          "type": "现货上线",
+          "detail": "rIBKR（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rTD",
+          "type": "现货上线",
+          "detail": "rTD（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rHDB",
+          "type": "现货上线",
+          "detail": "rHDB（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rPGR",
+          "type": "现货上线",
+          "detail": "rPGR（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rCB",
+          "type": "现货上线",
+          "detail": "rCB（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rPNC",
+          "type": "现货上线",
+          "detail": "rPNC（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rUSB",
+          "type": "现货上线",
+          "detail": "rUSB（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rCME",
+          "type": "现货上线",
+          "detail": "rCME（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rBX",
+          "type": "现货上线",
+          "detail": "rBX（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rKKR",
+          "type": "现货上线",
+          "detail": "rKKR（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rPG",
+          "type": "现货上线",
+          "detail": "rPG（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rPM",
+          "type": "现货上线",
+          "detail": "rPM（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rBTI",
+          "type": "现货上线",
+          "detail": "rBTI（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rMO",
+          "type": "现货上线",
+          "detail": "rMO（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rMDLZ",
+          "type": "现货上线",
+          "detail": "rMDLZ（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rUL",
+          "type": "现货上线",
+          "detail": "rUL（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rSBUX",
+          "type": "现货上线",
+          "detail": "rSBUX（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rNKE",
+          "type": "现货上线",
+          "detail": "rNKE（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rLOW",
+          "type": "现货上线",
+          "detail": "rLOW（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rHD",
+          "type": "现货上线",
+          "detail": "rHD（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rTJX",
+          "type": "现货上线",
+          "detail": "rTJX（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rTM",
+          "type": "现货上线",
+          "detail": "rTM（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rMAR",
+          "type": "现货上线",
+          "detail": "rMAR（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rEBAY",
+          "type": "现货上线",
+          "detail": "rEBAY（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rBKNG",
+          "type": "现货上线",
+          "detail": "rBKNG（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rWM",
+          "type": "现货上线",
+          "detail": "rWM（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rMTZ",
+          "type": "现货上线",
+          "detail": "rMTZ（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rGE",
+          "type": "现货上线",
+          "detail": "rGE（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rHON",
+          "type": "现货上线",
+          "detail": "rHON（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rAPH",
+          "type": "现货上线",
+          "detail": "rAPH（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rPWR",
+          "type": "现货上线",
+          "detail": "rPWR（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rHWM",
+          "type": "现货上线",
+          "detail": "rHWM（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rJCI",
+          "type": "现货上线",
+          "detail": "rJCI（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rCSX",
+          "type": "现货上线",
+          "detail": "rCSX（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rUPS",
+          "type": "现货上线",
+          "detail": "rUPS（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rGD",
+          "type": "现货上线",
+          "detail": "rGD（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rMMM",
+          "type": "现货上线",
+          "detail": "rMMM（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rPH",
+          "type": "现货上线",
+          "detail": "rPH（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rCMI",
+          "type": "现货上线",
+          "detail": "rCMI（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rNEM",
+          "type": "现货上线",
+          "detail": "rNEM（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rRIO",
+          "type": "现货上线",
+          "detail": "rRIO（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rAEM",
+          "type": "现货上线",
+          "detail": "rAEM（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rLIN",
+          "type": "现货上线",
+          "detail": "rLIN（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rGLW",
+          "type": "现货上线",
+          "detail": "rGLW（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rPALL",
+          "type": "现货上线",
+          "detail": "rPALL（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rNIKL",
+          "type": "现货上线",
+          "detail": "rNIKL（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rURNM",
+          "type": "现货上线",
+          "detail": "rURNM（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rPLD",
+          "type": "现货上线",
+          "detail": "rPLD（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rAMT",
+          "type": "现货上线",
+          "detail": "rAMT（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rCDNS",
+          "type": "现货上线",
+          "detail": "rCDNS（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rSNPS",
+          "type": "现货上线",
+          "detail": "rSNPS（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rASX",
+          "type": "现货上线",
+          "detail": "rASX（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rGRND",
+          "type": "现货上线",
+          "detail": "rGRND（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rVZ",
+          "type": "现货上线",
+          "detail": "rVZ（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rT",
+          "type": "现货上线",
+          "detail": "rT（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rTMUS",
+          "type": "现货上线",
+          "detail": "rTMUS（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
+          "token": "rCMCSA",
+          "type": "现货上线",
+          "detail": "rCMCSA（同公告含 114 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        },
+        {
           "token": "SPCX",
           "type": "永续合约",
           "detail": "Bitget将转换 SPCXUSDT永续合约盘前交易为标准U本位永续合约",
@@ -137,48 +1391,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536217"
         },
         {
-          "token": "LVR",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Levare (LVR)，瓜分 40,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536162"
-        },
-        {
-          "token": "SPCX",
-          "type": "Pre-IPO 上线",
-          "detail": "MEXC 關於 SPCXUSDT Pre-IPO 永續合約轉換為正式合約的公告",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-spcxusdt-pre-ipo-futures-into-standard-futures-17827791536201"
-        },
-        {
-          "token": "KINS",
-          "type": "跟单合约",
-          "detail": "KINS（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
-        },
-        {
-          "token": "PL",
-          "type": "跟单合约",
-          "detail": "PL（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
-        },
-        {
-          "token": "AMC",
-          "type": "跟单合约",
-          "detail": "AMC（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
-        },
-        {
-          "token": "OUST",
-          "type": "跟单合约",
-          "detail": "OUST（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
-        },
-        {
-          "token": "KINS",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年6月12日 13:20 (UTC+8) 上線 KINSUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536198"
-        },
-        {
           "token": "VEERA",
           "type": "上线",
           "detail": "MEXC 盤前交易：Veera (VEERA) 即將上線",
@@ -193,37 +1405,55 @@
         {
           "token": "ZM",
           "type": "跟单合约",
-          "detail": "ZM（同公告含 2 个标的）",
+          "detail": "ZM（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173"
         },
         {
           "token": "DKNG",
           "type": "跟单合约",
-          "detail": "DKNG（同公告含 2 个标的）",
+          "detail": "DKNG（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173"
+        },
+        {
+          "token": "RIVN",
+          "type": "跟单合约",
+          "detail": "RIVN（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173"
         },
         {
           "token": "EWZ",
           "type": "跟单合约",
-          "detail": "EWZ（同公告含 2 个标的）",
+          "detail": "EWZ（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172"
         },
         {
           "token": "CIEN",
           "type": "跟单合约",
-          "detail": "CIEN（同公告含 2 个标的）",
+          "detail": "CIEN（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172"
+        },
+        {
+          "token": "SATSSTOCK",
+          "type": "跟单合约",
+          "detail": "SATSSTOCK（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172"
         },
         {
           "token": "OUST",
           "type": "美股合约",
-          "detail": "OUST（同公告含 2 个标的）",
+          "detail": "OUST（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536171"
         },
         {
           "token": "AMC",
           "type": "美股合约",
-          "detail": "AMC（同公告含 2 个标的）",
+          "detail": "AMC（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536171"
+        },
+        {
+          "token": "PL",
+          "type": "美股合约",
+          "detail": "PL（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536171"
         }
       ]

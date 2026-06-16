@@ -1,6 +1,6 @@
 {
   "date": "2026-06-15",
-  "updatedAt": "2026-06-15T15:58:39.669Z",
+  "updatedAt": "2026-06-16T13:43:33.158Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -45,52 +45,10 @@
     "mexc": {
       "listings": [
         {
-          "token": "GRAMUSDT",
-          "type": "上线",
-          "detail": "GRAMUSDT（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
-        },
-        {
-          "token": "GRAMUSDC",
-          "type": "上线",
-          "detail": "GRAMUSDC（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
-        },
-        {
-          "token": "GRAMUSD1",
-          "type": "上线",
-          "detail": "GRAMUSD1（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
-        },
-        {
           "token": "KIOXIA",
           "type": "美股合约",
           "detail": "新股票合約上線：KIOXIA USDT 本位合約將於 6/15 上線，限時享受 0 費",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536255"
-        },
-        {
-          "token": "TWLO",
-          "type": "跟单合约",
-          "detail": "TWLO（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
-        },
-        {
-          "token": "NTAP",
-          "type": "跟单合约",
-          "detail": "NTAP（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
-        },
-        {
-          "token": "SITM",
-          "type": "跟单合约",
-          "detail": "SITM（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
-        },
-        {
-          "token": "AXON",
-          "type": "跟单合约",
-          "detail": "AXON（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
         },
         {
           "token": "CS",

@@ -1,6 +1,6 @@
 {
   "date": "2026-06-01",
-  "updatedAt": "2026-06-01T11:44:53.087Z",
+  "updatedAt": "2026-06-16T13:43:32.774Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -60,19 +60,19 @@
         },
         {
           "token": "BB",
-          "type": "永续合约",
+          "type": "美股合约",
           "detail": "BB（同公告含 3 个标的）",
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-bb-rdw-and-lunr-equities"
         },
         {
           "token": "RDW",
-          "type": "永续合约",
+          "type": "美股合约",
           "detail": "RDW（同公告含 3 个标的）",
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-bb-rdw-and-lunr-equities"
         },
         {
           "token": "LUNR",
-          "type": "永续合约",
+          "type": "美股合约",
           "detail": "LUNR（同公告含 3 个标的）",
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-bb-rdw-and-lunr-equities"
         }
@@ -111,20 +111,7 @@
       ]
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "NVO",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 NVO（诺和诺德）、NOK（诺基亚）等 6 个...6 小时前1,619",
-          "url": "https://www.gate.com/zh/announcements/article/51459"
-        },
-        {
-          "token": "DATBIHGAH",
-          "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 bStocks (Binance Stocks)、DATBIHGAH (Dat Bih Gah)、GACHA (PowerGacha)10 小时前1,328",
-          "url": "https://www.gate.com/zh/announcements/article/51453"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": [
@@ -139,34 +126,16 @@
     "mexc": {
       "listings": [
         {
-          "token": "PRXVT",
-          "type": "Meme+ 现货",
-          "detail": "PRXVT 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535832"
-        },
-        {
           "token": "BBSTOCK",
-          "type": "上线",
-          "detail": "新美股合約上線：BBSTOCK 和 LUNR U 本位合約將於 6/01 上線，限時享受 0 費",
+          "type": "美股合约",
+          "detail": "BBSTOCK（同公告含 2 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535827"
         },
         {
-          "token": "GACHA",
-          "type": "Meme+ 现货",
-          "detail": "GACHA 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535824"
-        },
-        {
-          "token": "EWT",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年6月1日 上線 EWT 指數合約，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ewt-index-futures-on-jun-1-with-0-fee-trading-17827791535823"
-        },
-        {
-          "token": "CTR",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Citrea (CTR) 並支援閃兌服務",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535526"
+          "token": "LUNR",
+          "type": "美股合约",
+          "detail": "LUNR（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535827"
         }
       ]
     }
