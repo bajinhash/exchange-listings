@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-11",
   "weekEnd": "2026-06-17",
-  "updatedAt": "2026-06-17T10:38:21.423Z",
+  "updatedAt": "2026-06-17T14:03:26.577Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -134,6 +134,15 @@
     },
     "okx": {
       "listings": [
+        {
+          "token": "GRAM",
+          "type": "永续合约",
+          "detail": "歐易關於 GRAMUSD X-合約（X-Perp）正式上線的公告發佈於 2026年6月17日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-gramusd-expiry-perps-x-perp",
+          "dates": [
+            "2026-06-17"
+          ]
+        },
         {
           "token": "RE",
           "type": "永续合约",
@@ -552,7 +561,7 @@
         {
           "token": "C2C",
           "type": "上线",
-          "detail": "Gate C2C 夏季里程拉力赛：领取里程补给，赢 iPhone 17 大奖1 小时前168",
+          "detail": "Gate C2C 夏季里程拉力赛：领取里程补给，赢 iPhone 17 大奖4 小时前430",
           "url": "https://www.gate.com/zh/announcements/article/100210",
           "dates": [
             "2026-06-17"
@@ -561,7 +570,7 @@
         {
           "token": "SBE",
           "type": "现货上线",
-          "detail": "Gate 现货 WebSocket 更新：简单二进制编码（SBE）数据推送功能即将上线实盘交...2 小时前174",
+          "detail": "Gate 现货 WebSocket 更新：简单二进制编码（SBE）数据推送功能即将上线实盘交...5 小时前350",
           "url": "https://www.gate.com/zh/announcements/article/100208",
           "dates": [
             "2026-06-17"
@@ -570,17 +579,8 @@
         {
           "token": "SPCX3L",
           "type": "上线",
-          "detail": "Gate ETF 星耀加码礼：交易领 SPCX3L & USDT，合约积分 & VIP 用户专享多重加码4 小时前363",
+          "detail": "Gate ETF 星耀加码礼：交易领 SPCX3L & USDT，合约积分 & VIP 用户专享多重加码7 小时前487",
           "url": "https://www.gate.com/zh/announcements/article/100199",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "H",
-          "type": "上线",
-          "detail": "Gate 关于支持 Humanity (H) 合约置换的公告6 小时前604",
-          "url": "https://www.gate.com/zh/announcements/article/100193",
           "dates": [
             "2026-06-17"
           ]
@@ -588,7 +588,7 @@
         {
           "token": "O",
           "type": "现货上线",
-          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易7 小时前1,330",
+          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易10 小时前1,601",
           "url": "https://www.gate.com/zh/announcements/article/100188",
           "dates": [
             "2026-06-17"
@@ -665,10 +665,37 @@
           ]
         },
         {
+          "token": "BLUAI",
+          "type": "上线",
+          "detail": "Bluwhale AI（BLUAI）将上线 Bitget AI 专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886006",
+          "dates": [
+            "2026-06-17"
+          ]
+        },
+        {
           "token": "O",
           "type": "现货上线",
           "detail": "o1.exchange（O）将上线 DeFi 区",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885931",
+          "dates": [
+            "2026-06-17"
+          ]
+        },
+        {
+          "token": "HBAR",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 HBAR/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886017",
+          "dates": [
+            "2026-06-17"
+          ]
+        },
+        {
+          "token": "BILL",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 BILL/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886016",
           "dates": [
             "2026-06-17"
           ]
@@ -773,42 +800,57 @@
           ]
         },
         {
-          "token": "KO",
-          "type": "跟单合约",
-          "detail": "KO（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287",
-          "dates": [
-            "2026-06-16",
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "KIOXIA",
-          "type": "跟单合约",
-          "detail": "KIOXIA（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287",
-          "dates": [
-            "2026-06-16",
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "GRAM",
-          "type": "跟单合约",
-          "detail": "GRAM（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287",
-          "dates": [
-            "2026-06-16",
-            "2026-06-17"
-          ]
-        },
-        {
           "token": "O",
           "type": "现货上线",
           "detail": "MEXC 將於創新區上線 o1.exchange (O) 並支援閃兌服務",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536272",
           "dates": [
             "2026-06-16",
+            "2026-06-17"
+          ]
+        },
+        {
+          "token": "QBTS",
+          "type": "美股合约",
+          "detail": "QBTS（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
+          "dates": [
+            "2026-06-17"
+          ]
+        },
+        {
+          "token": "POET",
+          "type": "美股合约",
+          "detail": "POET（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
+          "dates": [
+            "2026-06-17"
+          ]
+        },
+        {
+          "token": "RGTI",
+          "type": "美股合约",
+          "detail": "RGTI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
+          "dates": [
+            "2026-06-17"
+          ]
+        },
+        {
+          "token": "OKLO",
+          "type": "美股合约",
+          "detail": "OKLO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
+          "dates": [
+            "2026-06-17"
+          ]
+        },
+        {
+          "token": "AVV",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 AIVIVE (AVV)，瓜分 60,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536339",
+          "dates": [
             "2026-06-17"
           ]
         },
@@ -921,21 +963,39 @@
           ]
         },
         {
-          "token": "KAZAR",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Kazar (KAZAR)，瓜分 60,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536288",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
           "token": "KIOXIA",
           "type": "美股合约",
           "detail": "新股票合約上線：KIOXIA USDT 本位合約將於 6/15 上線，限時享受 0 費",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536255",
           "dates": [
             "2026-06-15",
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "KO",
+          "type": "跟单合约",
+          "detail": "KO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "KIOXIA",
+          "type": "跟单合约",
+          "detail": "KIOXIA（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
+          "token": "GRAM",
+          "type": "跟单合约",
+          "detail": "GRAM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287",
+          "dates": [
             "2026-06-16"
           ]
         },
