@@ -1,6 +1,6 @@
 {
   "date": "2026-06-17",
-  "updatedAt": "2026-06-17T14:03:26.378Z",
+  "updatedAt": "2026-06-17T14:12:58.188Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -96,25 +96,25 @@
         {
           "token": "C2C",
           "type": "上线",
-          "detail": "Gate C2C 夏季里程拉力赛：领取里程补给，赢 iPhone 17 大奖4 小时前430",
+          "detail": "Gate C2C 夏季里程拉力赛：领取里程补给，赢 iPhone 17 大奖4 小时前432",
           "url": "https://www.gate.com/zh/announcements/article/100210"
         },
         {
           "token": "SBE",
           "type": "现货上线",
-          "detail": "Gate 现货 WebSocket 更新：简单二进制编码（SBE）数据推送功能即将上线实盘交...5 小时前350",
+          "detail": "Gate 现货 WebSocket 更新：简单二进制编码（SBE）数据推送功能即将上线实盘交...5 小时前355",
           "url": "https://www.gate.com/zh/announcements/article/100208"
         },
         {
           "token": "SPCX3L",
           "type": "上线",
-          "detail": "Gate ETF 星耀加码礼：交易领 SPCX3L & USDT，合约积分 & VIP 用户专享多重加码7 小时前487",
+          "detail": "Gate ETF 星耀加码礼：交易领 SPCX3L & USDT，合约积分 & VIP 用户专享多重加码7 小时前488",
           "url": "https://www.gate.com/zh/announcements/article/100199"
         },
         {
           "token": "O",
           "type": "现货上线",
-          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易10 小时前1,601",
+          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易10 小时前1,608",
           "url": "https://www.gate.com/zh/announcements/article/100188"
         }
       ]
