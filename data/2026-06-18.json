@@ -1,0 +1,110 @@
+{
+  "date": "2026-06-18",
+  "updatedAt": "2026-06-17T16:39:47.387Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "BTC（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-market-opening-of-o-usdt-trading-pair-postponed"
+        },
+        {
+          "token": "DOT2026",
+          "type": "上线",
+          "detail": "DOT2026（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-market-opening-of-o-usdt-trading-pair-postponed"
+        },
+        {
+          "token": "ETH",
+          "type": "上线",
+          "detail": "ETH（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-market-opening-of-o-usdt-trading-pair-postponed"
+        },
+        {
+          "token": "GRAM",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: GRAMUSDT Perpetual Contract with Up to 75x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-gramusdt-perpetual-contract-with-up-to-75x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "BLUAI",
+          "type": "上线",
+          "detail": "Bluwhale AI（BLUAI）将上线 Bitget AI 专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886006"
+        },
+        {
+          "token": "HBAR",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 HBAR/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886017"
+        },
+        {
+          "token": "BILL",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 BILL/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886016"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "QBTS",
+          "type": "美股合约",
+          "detail": "QBTS（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340"
+        },
+        {
+          "token": "POET",
+          "type": "美股合约",
+          "detail": "POET（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340"
+        },
+        {
+          "token": "RGTI",
+          "type": "美股合约",
+          "detail": "RGTI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340"
+        },
+        {
+          "token": "OKLO",
+          "type": "美股合约",
+          "detail": "OKLO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340"
+        },
+        {
+          "token": "AVV",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 AIVIVE (AVV)，瓜分 60,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536339"
+        },
+        {
+          "token": "ISRG",
+          "type": "美股合约",
+          "detail": "新美股合約上線： ISRG U 本位合約將於 6/17 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536319"
+        }
+      ]
+    }
+  }
+}
