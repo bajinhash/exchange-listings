@@ -1,6 +1,6 @@
 {
   "date": "2026-06-17",
-  "updatedAt": "2026-06-16T18:47:46.257Z",
+  "updatedAt": "2026-06-17T10:08:29.559Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -8,7 +8,38 @@
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "RE",
+          "type": "永续合约",
+          "detail": "OKX 關於 RE (Re) 盤前永續合約正式上線的公告發佈於 2026年6月17日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-pre-market-perpetual-futures-for-re-re-crypto"
+        },
+        {
+          "token": "GRAM",
+          "type": "现货上线",
+          "detail": "OKX 關於開啟 GRAM/USDⓈ 現貨交易的公告發佈於 2026年6月17日",
+          "url": "https://www.okx.com/zh-hant/help/okx-will-launch-gram-usds-for-spot-trading"
+        },
+        {
+          "token": "TON",
+          "type": "上线",
+          "detail": "OKX 關於完成  TON  置換的公告發佈於 2026年6月17日",
+          "url": "https://www.okx.com/zh-hant/help/okx-completed-ton-token-migration"
+        },
+        {
+          "token": "ONDOUSD",
+          "type": "永续合约",
+          "detail": "ONDOUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-ondousd-and-beatusd-expiry-perps-x-perp"
+        },
+        {
+          "token": "BEATUSD",
+          "type": "永续合约",
+          "detail": "BEATUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-ondousd-and-beatusd-expiry-perps-x-perp"
+        }
+      ]
     },
     "bybit": {
       "listings": [
@@ -35,6 +66,18 @@
     "kucoin": {
       "listings": [
         {
+          "token": "COIN",
+          "type": "杠杆上线",
+          "detail": "KuCoin Futures Will Launch the COIN-Margined BTC Quarterly 0925 Delivery Contract",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-launch-the-coin-margined-btc-quarterly-0925-delivery-contract"
+        },
+        {
+          "token": "ILY",
+          "type": "现货上线",
+          "detail": "ILITY (ILY) Listed on KuCoinTrading: 11:00 on June 17, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-ility-ily-listed-on-kucoin"
+        },
+        {
           "token": "O",
           "type": "现货上线",
           "detail": "World Premiere: o1.exchange (O) Listed on KuCoinTrading: 16:00 on June 17, 2026 (UTC)",
@@ -45,27 +88,45 @@
     "gateio": {
       "listings": [
         {
-          "token": "USD1",
+          "token": "C2C",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息活动年化收益率的公告6 小时前727",
-          "url": "https://www.gate.com/zh/announcements/article/100182"
+          "detail": "Gate C2C 夏季里程拉力赛：领取里程补给，赢 iPhone 17 大奖20 分钟前86",
+          "url": "https://www.gate.com/zh/announcements/article/100210"
         },
         {
-          "token": "GOOGL",
-          "type": "上线",
-          "detail": "GOOGL（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100180"
+          "token": "SBE",
+          "type": "现货上线",
+          "detail": "Gate 现货 WebSocket 更新：简单二进制编码（SBE）数据推送功能即将上线实盘交...1 小时前144",
+          "url": "https://www.gate.com/zh/announcements/article/100208"
         },
         {
-          "token": "GOOG",
+          "token": "SPCX3L",
           "type": "上线",
-          "detail": "GOOG（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100180"
+          "detail": "Gate ETF 星耀加码礼：交易领 SPCX3L & USDT，合约积分 & VIP 用户专享多重加码3 小时前320",
+          "url": "https://www.gate.com/zh/announcements/article/100199"
+        },
+        {
+          "token": "H",
+          "type": "上线",
+          "detail": "Gate 关于支持 Humanity (H) 合约置换的公告5 小时前555",
+          "url": "https://www.gate.com/zh/announcements/article/100193"
+        },
+        {
+          "token": "O",
+          "type": "现货上线",
+          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易6 小时前1,297",
+          "url": "https://www.gate.com/zh/announcements/article/100188"
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "O",
+          "type": "现货上线",
+          "detail": "o1.exchange（O）将上线 DeFi 区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885931"
+        },
         {
           "token": "FLNC",
           "type": "美股合约",
@@ -89,6 +150,78 @@
     "mexc": {
       "listings": [
         {
+          "token": "O",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年6月17日 22:10 (UTC+8) 上線 o1.exchange (O) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536333"
+        },
+        {
+          "token": "CCL",
+          "type": "跟单合约",
+          "detail": "CCL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ccl-nke-cmcsa-mar-and-foxa-usdt-m-futures-17827791536325"
+        },
+        {
+          "token": "NKE",
+          "type": "跟单合约",
+          "detail": "NKE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ccl-nke-cmcsa-mar-and-foxa-usdt-m-futures-17827791536325"
+        },
+        {
+          "token": "CMCSA",
+          "type": "跟单合约",
+          "detail": "CMCSA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ccl-nke-cmcsa-mar-and-foxa-usdt-m-futures-17827791536325"
+        },
+        {
+          "token": "MAR",
+          "type": "跟单合约",
+          "detail": "MAR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ccl-nke-cmcsa-mar-and-foxa-usdt-m-futures-17827791536325"
+        },
+        {
+          "token": "FOXA",
+          "type": "跟单合约",
+          "detail": "FOXA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ccl-nke-cmcsa-mar-and-foxa-usdt-m-futures-17827791536325"
+        },
+        {
+          "token": "ISRG",
+          "type": "跟单合约",
+          "detail": "ISRG（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-isrg-xlk-and-xlu-usdt-m-futures-17827791536324"
+        },
+        {
+          "token": "XLK",
+          "type": "跟单合约",
+          "detail": "XLK（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-isrg-xlk-and-xlu-usdt-m-futures-17827791536324"
+        },
+        {
+          "token": "XLU",
+          "type": "跟单合约",
+          "detail": "XLU（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-isrg-xlk-and-xlu-usdt-m-futures-17827791536324"
+        },
+        {
+          "token": "ISRG",
+          "type": "美股合约",
+          "detail": "新美股合約上線： ISRG U 本位合約將於 6/17 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536319"
+        },
+        {
+          "token": "XLK",
+          "type": "上线",
+          "detail": "XLK（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-xlk-and-xlu-usdt-m-index-futures-on-jun-17-with-0-fee-trading-17827791536318"
+        },
+        {
+          "token": "XLU",
+          "type": "上线",
+          "detail": "XLU（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-xlk-and-xlu-usdt-m-index-futures-on-jun-17-with-0-fee-trading-17827791536318"
+        },
+        {
           "token": "CCL",
           "type": "美股合约",
           "detail": "CCL（同公告含 2 个标的）",
@@ -101,58 +234,52 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536310"
         },
         {
+          "token": "KAZAR",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Kazar (KAZAR)，瓜分 60,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536288"
+        },
+        {
           "token": "KO",
-          "type": "美股合约",
-          "detail": "新美股合約上線： KO U 本位合約將於 6/16 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536277"
-        },
-        {
-          "token": "GRAMUSDT",
-          "type": "上线",
-          "detail": "GRAMUSDT（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
-        },
-        {
-          "token": "GRAMUSDC",
-          "type": "上线",
-          "detail": "GRAMUSDC（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
-        },
-        {
-          "token": "GRAMUSD1",
-          "type": "上线",
-          "detail": "GRAMUSD1（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
-        },
-        {
-          "token": "TWLO",
           "type": "跟单合约",
-          "detail": "TWLO（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+          "detail": "KO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287"
         },
         {
-          "token": "NTAP",
+          "token": "KIOXIA",
           "type": "跟单合约",
-          "detail": "NTAP（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+          "detail": "KIOXIA（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287"
         },
         {
-          "token": "SITM",
+          "token": "GRAM",
           "type": "跟单合约",
-          "detail": "SITM（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+          "detail": "GRAM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287"
         },
         {
-          "token": "AXON",
+          "token": "SMH",
           "type": "跟单合约",
-          "detail": "AXON（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+          "detail": "SMH（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
         },
         {
-          "token": "RCAT",
+          "token": "TQQQ",
           "type": "跟单合约",
-          "detail": "RCAT（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+          "detail": "TQQQ（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
+        },
+        {
+          "token": "SQQQ",
+          "type": "跟单合约",
+          "detail": "SQQQ（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
+        },
+        {
+          "token": "SOXS",
+          "type": "跟单合约",
+          "detail": "SOXS（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
         }
       ]
     }
