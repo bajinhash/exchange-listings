@@ -1,6 +1,6 @@
 {
   "date": "2026-06-17",
-  "updatedAt": "2026-06-17T14:12:58.188Z",
+  "updatedAt": "2026-06-17T14:49:36.417Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -72,6 +72,12 @@
     "kucoin": {
       "listings": [
         {
+          "token": "GRAM",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: GRAMUSDT Perpetual Contract with Up to 75x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-gramusdt-perpetual-contract-with-up-to-75x-leverage"
+        },
+        {
           "token": "COIN",
           "type": "杠杆上线",
           "detail": "KuCoin Futures Will Launch the COIN-Margined BTC Quarterly 0925 Delivery Contract",
@@ -96,25 +102,25 @@
         {
           "token": "C2C",
           "type": "上线",
-          "detail": "Gate C2C 夏季里程拉力赛：领取里程补给，赢 iPhone 17 大奖4 小时前432",
+          "detail": "Gate C2C 夏季里程拉力赛：领取里程补给，赢 iPhone 17 大奖5 小时前459",
           "url": "https://www.gate.com/zh/announcements/article/100210"
         },
         {
           "token": "SBE",
           "type": "现货上线",
-          "detail": "Gate 现货 WebSocket 更新：简单二进制编码（SBE）数据推送功能即将上线实盘交...5 小时前355",
+          "detail": "Gate 现货 WebSocket 更新：简单二进制编码（SBE）数据推送功能即将上线实盘交...6 小时前381",
           "url": "https://www.gate.com/zh/announcements/article/100208"
         },
         {
           "token": "SPCX3L",
           "type": "上线",
-          "detail": "Gate ETF 星耀加码礼：交易领 SPCX3L & USDT，合约积分 & VIP 用户专享多重加码7 小时前488",
+          "detail": "Gate ETF 星耀加码礼：交易领 SPCX3L & USDT，合约积分 & VIP 用户专享多重加码8 小时前507",
           "url": "https://www.gate.com/zh/announcements/article/100199"
         },
         {
           "token": "O",
           "type": "现货上线",
-          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易10 小时前1,608",
+          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易11 小时前1,649",
           "url": "https://www.gate.com/zh/announcements/article/100188"
         }
       ]
@@ -206,7 +212,7 @@
         {
           "token": "O",
           "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年6月17日 22:10 (UTC+8) 上線 o1.exchange (O) USDT合約",
+          "detail": "全球首發：MEXC 將於 2026年6月18日 00:10 (UTC+8) 上線 o1.exchange (O) USDT合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536333"
         },
         {
