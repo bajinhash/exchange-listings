@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "updatedAt": "2026-06-18T10:38:16.828Z",
+  "updatedAt": "2026-06-18T13:46:50.499Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -112,21 +112,33 @@
     "gateio": {
       "listings": [
         {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "关于调整 USD1 持币生息年化收益的公告40 分钟前109",
+          "url": "https://www.gate.com/zh/announcements/article/100239"
+        },
+        {
+          "token": "RE",
+          "type": "跟单合约",
+          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...2 小时前1,048",
+          "url": "https://www.gate.com/zh/announcements/article/100237"
+        },
+        {
           "token": "RE",
           "type": "现货上线",
-          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易21 分钟前733",
+          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易3 小时前1,093",
           "url": "https://www.gate.com/zh/announcements/article/100235"
         },
         {
           "token": "USD1",
           "type": "现货上线",
-          "detail": "Gate 推出 USD1 现货交易对 0 费率活动3 小时前1,275",
+          "detail": "Gate 推出 USD1 现货交易对 0 费率活动6 小时前1,871",
           "url": "https://www.gate.com/zh/announcements/article/100229"
         },
         {
           "token": "O",
           "type": "现货上线",
-          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易1 天前2,419",
+          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易1 天前2,503",
           "url": "https://www.gate.com/zh/announcements/article/100188"
         }
       ]
@@ -146,6 +158,12 @@
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603886006"
         },
         {
+          "token": "RE",
+          "type": "上线",
+          "detail": "REUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886183"
+        },
+        {
           "token": "HBAR",
           "type": "杠杆上线",
           "detail": "Bitget 全仓杠杆上线 HBAR/USDT",
@@ -162,39 +180,63 @@
     "mexc": {
       "listings": [
         {
+          "token": "ALAB",
+          "type": "美股合约",
+          "detail": "ALAB（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536374"
+        },
+        {
+          "token": "TER",
+          "type": "美股合约",
+          "detail": "TER（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536374"
+        },
+        {
+          "token": "LUCKY",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 B-Lucky (LUCKY)，瓜分 14,285,780 LUCKY & 10,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536322"
+        },
+        {
+          "token": "ALAB",
+          "type": "现货上线",
+          "detail": "ALAB（同公告含 7 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-2026-06-18-17827791536341"
+        },
+        {
           "token": "KLAC",
           "type": "现货上线",
-          "detail": "KLAC（同公告含 6 个标的）",
+          "detail": "KLAC（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-2026-06-18-17827791536341"
         },
         {
           "token": "MINIMAX",
           "type": "现货上线",
-          "detail": "MINIMAX（同公告含 6 个标的）",
+          "detail": "MINIMAX（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-2026-06-18-17827791536341"
         },
         {
           "token": "POET",
           "type": "现货上线",
-          "detail": "POET（同公告含 6 个标的）",
+          "detail": "POET（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-2026-06-18-17827791536341"
         },
         {
           "token": "QBTS",
           "type": "现货上线",
-          "detail": "QBTS（同公告含 6 个标的）",
+          "detail": "QBTS（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-2026-06-18-17827791536341"
         },
         {
           "token": "RE",
           "type": "现货上线",
-          "detail": "RE（同公告含 6 个标的）",
+          "detail": "RE（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-2026-06-18-17827791536341"
         },
         {
           "token": "RGTI",
           "type": "现货上线",
-          "detail": "RGTI（同公告含 6 个标的）",
+          "detail": "RGTI（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-2026-06-18-17827791536341"
         },
         {
@@ -292,18 +334,6 @@
           "type": "美股合约",
           "detail": "OKLO（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340"
-        },
-        {
-          "token": "AVV",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 AIVIVE (AVV)，瓜分 60,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536339"
-        },
-        {
-          "token": "PRE",
-          "type": "上线",
-          "detail": "閃兌新幣上線：SPACEX(PRE), SPCXON",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-convert-listing-17827791536335"
         }
       ]
     }
