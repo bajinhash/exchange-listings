@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-19",
+  "updatedAt": "2026-06-18T16:29:51.256Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "RE",
+          "type": "杠杆上线",
+          "detail": "Binance Will Add Re (RE) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+          "url": "https://www.binance.com/en/support/announcement/005d1ef77538417cbe69d4703deb1969"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "RE",
+          "type": "永续合约",
+          "detail": "REUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-reusdt-perpetual-contract-with-up-to-20x-leverage-blt873940bb4fbcca71/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "RE",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: REUSDT Perpetual Contract with Up to 20x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-reusdt-perpetual-contract-with-up-to-20x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "关于调整 USD1 持币生息年化收益的公告3 小时前461",
+          "url": "https://www.gate.com/zh/announcements/article/100239"
+        },
+        {
+          "token": "RE",
+          "type": "跟单合约",
+          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...5 小时前1,277",
+          "url": "https://www.gate.com/zh/announcements/article/100237"
+        },
+        {
+          "token": "RE",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易6 小时前1,381",
+          "url": "https://www.gate.com/zh/announcements/article/100235"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "ALAB",
+          "type": "美股合约",
+          "detail": "ALAB（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886178"
+        },
+        {
+          "token": "TER",
+          "type": "美股合约",
+          "detail": "TER（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886178"
+        },
+        {
+          "token": "LRCX",
+          "type": "美股合约",
+          "detail": "LRCX（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886178"
+        },
+        {
+          "token": "MUU",
+          "type": "美股合约",
+          "detail": "MUU（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886178"
+        },
+        {
+          "token": "XNDU",
+          "type": "美股合约",
+          "detail": "XNDU（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886178"
+        },
+        {
+          "token": "RE",
+          "type": "上线",
+          "detail": "REUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886183"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ALAB",
+          "type": "美股合约",
+          "detail": "ALAB（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536374"
+        },
+        {
+          "token": "TER",
+          "type": "美股合约",
+          "detail": "TER（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536374"
+        },
+        {
+          "token": "LUCKY",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 B-Lucky (LUCKY)，瓜分 14,285,780 LUCKY & 10,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536322"
+        },
+        {
+          "token": "MINIMAX",
+          "type": "美股合约",
+          "detail": "MINIMAX（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536358"
+        },
+        {
+          "token": "KLAC",
+          "type": "美股合约",
+          "detail": "KLAC（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536358"
+        },
+        {
+          "token": "AAL",
+          "type": "美股合约",
+          "detail": "AAL（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536358"
+        }
+      ]
+    }
+  }
+}
