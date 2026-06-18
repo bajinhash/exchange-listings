@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "updatedAt": "2026-06-18T13:58:18.785Z",
+  "updatedAt": "2026-06-18T14:48:25.979Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -73,10 +73,23 @@
       ]
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "RE",
+          "type": "永续合约",
+          "detail": "REUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-reusdt-perpetual-contract-with-up-to-20x-leverage-blt873940bb4fbcca71/"
+        }
+      ]
     },
     "kucoin": {
       "listings": [
+        {
+          "token": "RE",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: REUSDT Perpetual Contract with Up to 20x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-reusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
         {
           "token": "OUSDT",
           "type": "永续合约",
@@ -120,31 +133,31 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息年化收益的公告1 小时前144",
+          "detail": "关于调整 USD1 持币生息年化收益的公告2 小时前282",
           "url": "https://www.gate.com/zh/announcements/article/100239"
         },
         {
           "token": "RE",
           "type": "跟单合约",
-          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...3 小时前1,067",
+          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...3 小时前1,172",
           "url": "https://www.gate.com/zh/announcements/article/100237"
         },
         {
           "token": "RE",
           "type": "现货上线",
-          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易4 小时前1,103",
+          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易5 小时前1,212",
           "url": "https://www.gate.com/zh/announcements/article/100235"
         },
         {
           "token": "USD1",
           "type": "现货上线",
-          "detail": "Gate 推出 USD1 现货交易对 0 费率活动6 小时前1,915",
+          "detail": "Gate 推出 USD1 现货交易对 0 费率活动7 小时前2,054",
           "url": "https://www.gate.com/zh/announcements/article/100229"
         },
         {
           "token": "O",
           "type": "现货上线",
-          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易1 天前2,509",
+          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易1 天前2,525",
           "url": "https://www.gate.com/zh/announcements/article/100188"
         }
       ]
@@ -162,6 +175,36 @@
           "type": "上线",
           "detail": "Bluwhale AI（BLUAI）将上线 Bitget AI 专区",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603886006"
+        },
+        {
+          "token": "ALAB",
+          "type": "美股合约",
+          "detail": "ALAB（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886178"
+        },
+        {
+          "token": "TER",
+          "type": "美股合约",
+          "detail": "TER（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886178"
+        },
+        {
+          "token": "LRCX",
+          "type": "美股合约",
+          "detail": "LRCX（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886178"
+        },
+        {
+          "token": "MUU",
+          "type": "美股合约",
+          "detail": "MUU（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886178"
+        },
+        {
+          "token": "XNDU",
+          "type": "美股合约",
+          "detail": "XNDU（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886178"
         },
         {
           "token": "RE",
