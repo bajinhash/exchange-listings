@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-12",
   "weekEnd": "2026-06-18",
-  "updatedAt": "2026-06-18T10:08:38.278Z",
+  "updatedAt": "2026-06-18T10:38:16.938Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -517,9 +517,18 @@
           ]
         },
         {
+          "token": "RE",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易21 分钟前733",
+          "url": "https://www.gate.com/zh/announcements/article/100235",
+          "dates": [
+            "2026-06-18"
+          ]
+        },
+        {
           "token": "USD1",
           "type": "现货上线",
-          "detail": "Gate 推出 USD1 现货交易对 0 费率活动2 小时前1,133",
+          "detail": "Gate 推出 USD1 现货交易对 0 费率活动3 小时前1,275",
           "url": "https://www.gate.com/zh/announcements/article/100229",
           "dates": [
             "2026-06-18"
