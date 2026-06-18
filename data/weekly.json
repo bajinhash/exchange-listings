@@ -1,10 +1,19 @@
 {
   "weekStart": "2026-06-12",
   "weekEnd": "2026-06-18",
-  "updatedAt": "2026-06-18T13:46:50.663Z",
+  "updatedAt": "2026-06-18T13:58:18.971Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "RE",
+          "type": "杠杆上线",
+          "detail": "Binance Will Add Re (RE) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+          "url": "https://www.binance.com/en/support/announcement/005d1ef77538417cbe69d4703deb1969",
+          "dates": [
+            "2026-06-18"
+          ]
+        },
         {
           "token": "RE",
           "type": "现货上线",
@@ -529,7 +538,7 @@
         {
           "token": "RE",
           "type": "跟单合约",
-          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...2 小时前1,048",
+          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...3 小时前1,067",
           "url": "https://www.gate.com/zh/announcements/article/100237",
           "dates": [
             "2026-06-18"
@@ -538,7 +547,7 @@
         {
           "token": "RE",
           "type": "现货上线",
-          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易3 小时前1,093",
+          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易4 小时前1,103",
           "url": "https://www.gate.com/zh/announcements/article/100235",
           "dates": [
             "2026-06-18"
@@ -547,7 +556,7 @@
         {
           "token": "USD1",
           "type": "现货上线",
-          "detail": "Gate 推出 USD1 现货交易对 0 费率活动6 小时前1,871",
+          "detail": "Gate 推出 USD1 现货交易对 0 费率活动6 小时前1,915",
           "url": "https://www.gate.com/zh/announcements/article/100229",
           "dates": [
             "2026-06-18"
