@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "updatedAt": "2026-06-18T16:29:51.256Z",
+  "updatedAt": "2026-06-19T12:31:18.825Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -40,22 +40,34 @@
     "gateio": {
       "listings": [
         {
+          "token": "INTU",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 INTU（财捷集团）、TER（泰瑞达）等 8 个...7 小时前1,168",
+          "url": "https://www.gate.com/zh/announcements/article/100241"
+        },
+        {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息年化收益的公告3 小时前461",
+          "detail": "关于调整 USD1 持币生息年化收益的公告21 小时前1,273",
           "url": "https://www.gate.com/zh/announcements/article/100239"
         },
         {
           "token": "RE",
           "type": "跟单合约",
-          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...5 小时前1,277",
+          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...1 天前2,001",
           "url": "https://www.gate.com/zh/announcements/article/100237"
         },
         {
           "token": "RE",
           "type": "现货上线",
-          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易6 小时前1,381",
+          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易1 天前2,108",
           "url": "https://www.gate.com/zh/announcements/article/100235"
+        },
+        {
+          "token": "USD1",
+          "type": "现货上线",
+          "detail": "Gate 推出 USD1 现货交易对 0 费率活动1 天前3,917",
+          "url": "https://www.gate.com/zh/announcements/article/100229"
         }
       ]
     },
@@ -103,6 +115,18 @@
       "listings": [
         {
           "token": "ALAB",
+          "type": "跟单合约",
+          "detail": "ALAB（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-alab-and-ter-usdt-m-futures-17827791536380"
+        },
+        {
+          "token": "TER",
+          "type": "跟单合约",
+          "detail": "TER（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-alab-and-ter-usdt-m-futures-17827791536380"
+        },
+        {
+          "token": "ALAB",
           "type": "美股合约",
           "detail": "ALAB（同公告含 2 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536374"
@@ -112,12 +136,6 @@
           "type": "美股合约",
           "detail": "TER（同公告含 2 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536374"
-        },
-        {
-          "token": "LUCKY",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 B-Lucky (LUCKY)，瓜分 14,285,780 LUCKY & 10,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536322"
         },
         {
           "token": "MINIMAX",

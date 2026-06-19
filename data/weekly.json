@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-13",
   "weekEnd": "2026-06-19",
-  "updatedAt": "2026-06-18T16:29:51.428Z",
+  "updatedAt": "2026-06-19T12:31:19.135Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -433,21 +433,31 @@
           ]
         },
         {
+          "token": "USD1",
+          "type": "现货上线",
+          "detail": "Gate 推出 USD1 现货交易对 0 费率活动7 小时前2,054",
+          "url": "https://www.gate.com/zh/announcements/article/100229",
+          "dates": [
+            "2026-06-18",
+            "2026-06-19"
+          ]
+        },
+        {
+          "token": "INTU",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 INTU（财捷集团）、TER（泰瑞达）等 8 个...7 小时前1,168",
+          "url": "https://www.gate.com/zh/announcements/article/100241",
+          "dates": [
+            "2026-06-19"
+          ]
+        },
+        {
           "token": "O",
           "type": "现货上线",
           "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易11 小时前1,649",
           "url": "https://www.gate.com/zh/announcements/article/100188",
           "dates": [
             "2026-06-17",
-            "2026-06-18"
-          ]
-        },
-        {
-          "token": "USD1",
-          "type": "现货上线",
-          "detail": "Gate 推出 USD1 现货交易对 0 费率活动7 小时前2,054",
-          "url": "https://www.gate.com/zh/announcements/article/100229",
-          "dates": [
             "2026-06-18"
           ]
         },
@@ -719,16 +729,6 @@
           ]
         },
         {
-          "token": "LUCKY",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 B-Lucky (LUCKY)，瓜分 14,285,780 LUCKY & 10,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536322",
-          "dates": [
-            "2026-06-18",
-            "2026-06-19"
-          ]
-        },
-        {
           "token": "MINIMAX",
           "type": "美股合约",
           "detail": "MINIMAX（同公告含 3 个标的）",
@@ -755,6 +755,24 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536358",
           "dates": [
             "2026-06-18",
+            "2026-06-19"
+          ]
+        },
+        {
+          "token": "ALAB",
+          "type": "跟单合约",
+          "detail": "ALAB（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-alab-and-ter-usdt-m-futures-17827791536380",
+          "dates": [
+            "2026-06-19"
+          ]
+        },
+        {
+          "token": "TER",
+          "type": "跟单合约",
+          "detail": "TER（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-alab-and-ter-usdt-m-futures-17827791536380",
+          "dates": [
             "2026-06-19"
           ]
         },
@@ -795,6 +813,15 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
           "dates": [
             "2026-06-17",
+            "2026-06-18"
+          ]
+        },
+        {
+          "token": "LUCKY",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 B-Lucky (LUCKY)，瓜分 14,285,780 LUCKY & 10,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536322",
+          "dates": [
             "2026-06-18"
           ]
         },
