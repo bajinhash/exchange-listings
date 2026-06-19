@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-13",
   "weekEnd": "2026-06-19",
-  "updatedAt": "2026-06-19T13:55:00.043Z",
+  "updatedAt": "2026-06-19T14:03:51.222Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -446,7 +446,7 @@
         {
           "token": "INTU",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 INTU（财捷集团）、TER（泰瑞达）等 8 个...11 小时前1,415",
+          "detail": "Gate 合约股票专区将上线 INTU（财捷集团）、TER（泰瑞达）等 8 个...11 小时前1,432",
           "url": "https://www.gate.com/zh/announcements/article/100241",
           "dates": [
             "2026-06-19"

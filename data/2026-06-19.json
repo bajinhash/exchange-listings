@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "updatedAt": "2026-06-19T13:54:59.866Z",
+  "updatedAt": "2026-06-19T14:03:51.054Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -49,31 +49,31 @@
         {
           "token": "INTU",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 INTU（财捷集团）、TER（泰瑞达）等 8 个...11 小时前1,415",
+          "detail": "Gate 合约股票专区将上线 INTU（财捷集团）、TER（泰瑞达）等 8 个...11 小时前1,432",
           "url": "https://www.gate.com/zh/announcements/article/100241"
         },
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息年化收益的公告1 天前1,409",
+          "detail": "关于调整 USD1 持币生息年化收益的公告1 天前1,417",
           "url": "https://www.gate.com/zh/announcements/article/100239"
         },
         {
           "token": "RE",
           "type": "跟单合约",
-          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...1 天前2,110",
+          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...1 天前2,118",
           "url": "https://www.gate.com/zh/announcements/article/100237"
         },
         {
           "token": "RE",
           "type": "现货上线",
-          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易1 天前2,221",
+          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易1 天前2,231",
           "url": "https://www.gate.com/zh/announcements/article/100235"
         },
         {
           "token": "USD1",
           "type": "现货上线",
-          "detail": "Gate 推出 USD1 现货交易对 0 费率活动1 天前4,462",
+          "detail": "Gate 推出 USD1 现货交易对 0 费率活动1 天前4,550",
           "url": "https://www.gate.com/zh/announcements/article/100229"
         }
       ]
