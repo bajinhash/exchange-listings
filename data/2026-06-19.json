@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "updatedAt": "2026-06-19T12:31:18.825Z",
+  "updatedAt": "2026-06-19T13:54:59.866Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -15,7 +15,14 @@
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "RE",
+          "type": "永续合约",
+          "detail": "OKX 關於 REUSD X-合約（X-Perp）正式上線的公告發佈於 2026年6月19日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-reusd-expiry-perps-x-perp"
+        }
+      ]
     },
     "bybit": {
       "listings": [
@@ -42,31 +49,31 @@
         {
           "token": "INTU",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 INTU（财捷集团）、TER（泰瑞达）等 8 个...7 小时前1,168",
+          "detail": "Gate 合约股票专区将上线 INTU（财捷集团）、TER（泰瑞达）等 8 个...11 小时前1,415",
           "url": "https://www.gate.com/zh/announcements/article/100241"
         },
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息年化收益的公告21 小时前1,273",
+          "detail": "关于调整 USD1 持币生息年化收益的公告1 天前1,409",
           "url": "https://www.gate.com/zh/announcements/article/100239"
         },
         {
           "token": "RE",
           "type": "跟单合约",
-          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...1 天前2,001",
+          "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...1 天前2,110",
           "url": "https://www.gate.com/zh/announcements/article/100237"
         },
         {
           "token": "RE",
           "type": "现货上线",
-          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易1 天前2,108",
+          "detail": "Gate 将上线 Re (RE) 现货交易与闪兑交易1 天前2,221",
           "url": "https://www.gate.com/zh/announcements/article/100235"
         },
         {
           "token": "USD1",
           "type": "现货上线",
-          "detail": "Gate 推出 USD1 现货交易对 0 费率活动1 天前3,917",
+          "detail": "Gate 推出 USD1 现货交易对 0 费率活动1 天前4,462",
           "url": "https://www.gate.com/zh/announcements/article/100229"
         }
       ]
@@ -138,6 +145,90 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536374"
         },
         {
+          "token": "LUCKY",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 B-Lucky (LUCKY)，瓜分 14,285,780 LUCKY & 10,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536322"
+        },
+        {
+          "token": "ALAB",
+          "type": "现货上线",
+          "detail": "ALAB（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-2026-06-18-17827791536341"
+        },
+        {
+          "token": "POET",
+          "type": "现货上线",
+          "detail": "POET（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-2026-06-18-17827791536341"
+        },
+        {
+          "token": "QBTS",
+          "type": "现货上线",
+          "detail": "QBTS（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-2026-06-18-17827791536341"
+        },
+        {
+          "token": "RGTI",
+          "type": "现货上线",
+          "detail": "RGTI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-2026-06-18-17827791536341"
+        },
+        {
+          "token": "RE",
+          "type": "上线",
+          "detail": "盤前合約：REUSDT 將轉換為正式合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-reusdt-pre-market-futures-to-standard-futures-17827791536363"
+        },
+        {
+          "token": "QBTS",
+          "type": "跟单合约",
+          "detail": "QBTS（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qbts-poet-rgti-and-oklo-usdt-m-futures-17827791536360"
+        },
+        {
+          "token": "POET",
+          "type": "跟单合约",
+          "detail": "POET（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qbts-poet-rgti-and-oklo-usdt-m-futures-17827791536360"
+        },
+        {
+          "token": "RGTI",
+          "type": "跟单合约",
+          "detail": "RGTI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qbts-poet-rgti-and-oklo-usdt-m-futures-17827791536360"
+        },
+        {
+          "token": "OKLO",
+          "type": "跟单合约",
+          "detail": "OKLO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qbts-poet-rgti-and-oklo-usdt-m-futures-17827791536360"
+        },
+        {
+          "token": "RE",
+          "type": "跟单合约",
+          "detail": "RE（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-o-re-minimax-klac-and-aal-usdt-m-futures-17827791536359"
+        },
+        {
+          "token": "MINIMAX",
+          "type": "跟单合约",
+          "detail": "MINIMAX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-o-re-minimax-klac-and-aal-usdt-m-futures-17827791536359"
+        },
+        {
+          "token": "KLAC",
+          "type": "跟单合约",
+          "detail": "KLAC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-o-re-minimax-klac-and-aal-usdt-m-futures-17827791536359"
+        },
+        {
+          "token": "AAL",
+          "type": "跟单合约",
+          "detail": "AAL（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-o-re-minimax-klac-and-aal-usdt-m-futures-17827791536359"
+        },
+        {
           "token": "MINIMAX",
           "type": "美股合约",
           "detail": "MINIMAX（同公告含 3 个标的）",
@@ -154,6 +245,12 @@
           "type": "美股合约",
           "detail": "AAL（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536358"
+        },
+        {
+          "token": "RE",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Re Protocol (RE) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536342"
         }
       ]
     }
