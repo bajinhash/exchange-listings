@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-06-13",
+  "weekStart": "2026-06-14",
   "weekEnd": "2026-06-19",
-  "updatedAt": "2026-06-19T14:39:28.723Z",
+  "updatedAt": "2026-06-19T16:03:29.113Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -31,15 +31,6 @@
           "url": "https://www.binance.com/en/support/announcement/81092181ec124efea616f591cf335c05",
           "dates": [
             "2026-06-18"
-          ]
-        },
-        {
-          "token": "SPCXB",
-          "type": "现货上线",
-          "detail": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12",
-          "url": "https://www.binance.com/en/support/announcement/191cb96109f24c5c85362631a55a45d3",
-          "dates": [
-            "2026-06-13"
           ]
         }
       ],
@@ -201,15 +192,6 @@
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-alab-ter-axti-poet-and-onds-equities",
           "dates": [
             "2026-06-16"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "永续合约",
-          "detail": "OKX 關於SPCXUSD X-合約（X-Perp）正式上線的公告發佈於 2026年6月13日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-spcxusd-expiry-perp-x-perp",
-          "dates": [
-            "2026-06-13"
           ]
         }
       ]
@@ -685,24 +667,6 @@
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885877",
           "dates": [
             "2026-06-16"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "上线",
-          "detail": "SpaceX (SPCX) 正式上线 Bitget 及交易通道开启的公告",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885758",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "rNU 等 124 个",
-          "type": "现货上线",
-          "detail": "Bitget 关于上线 rNU、rMCHP、rADSK、rFDX等108只股票现货的公告（rNU、rMCHP、rADSK、rFDX、rMPC、rSU、rEOG、rPSX… 共 124 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751",
-          "dates": [
-            "2026-06-13"
           ]
         }
       ]
@@ -1329,96 +1293,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536221",
           "dates": [
             "2026-06-14"
-          ]
-        },
-        {
-          "token": "AXON",
-          "type": "美股合约",
-          "detail": "AXON（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536217",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "NTAP",
-          "type": "美股合约",
-          "detail": "NTAP（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536217",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "LVR",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Levare (LVR)，瓜分 40,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536162",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "Pre-IPO 上线",
-          "detail": "MEXC 關於 SPCXUSDT Pre-IPO 永續合約轉換為正式合約的公告",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-spcxusdt-pre-ipo-futures-into-standard-futures-17827791536201",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "KINS",
-          "type": "跟单合约",
-          "detail": "KINS（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "PL",
-          "type": "跟单合约",
-          "detail": "PL（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "AMC",
-          "type": "跟单合约",
-          "detail": "AMC（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "OUST",
-          "type": "跟单合约",
-          "detail": "OUST（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "UVXY",
-          "type": "跟单合约",
-          "detail": "UVXY（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200",
-          "dates": [
-            "2026-06-13"
-          ]
-        },
-        {
-          "token": "KINS",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年6月12日 13:20 (UTC+8) 上線 KINSUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536198",
-          "dates": [
-            "2026-06-13"
           ]
         }
       ]
