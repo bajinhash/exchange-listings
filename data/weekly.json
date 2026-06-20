@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-14",
   "weekEnd": "2026-06-20",
-  "updatedAt": "2026-06-20T12:24:03.599Z",
+  "updatedAt": "2026-06-20T13:23:20.574Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -691,6 +691,15 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-alab-and-ter-usdt-m-futures-17827791536380",
           "dates": [
             "2026-06-19",
+            "2026-06-20"
+          ]
+        },
+        {
+          "token": "ZERO",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月20日 21:15 (UTC+8) 上線 ZEROUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536388",
+          "dates": [
             "2026-06-20"
           ]
         },
