@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-06-14",
-  "weekEnd": "2026-06-20",
-  "updatedAt": "2026-06-20T15:05:54.568Z",
+  "weekStart": "2026-06-15",
+  "weekEnd": "2026-06-21",
+  "updatedAt": "2026-06-21T12:26:56.634Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -34,7 +34,17 @@
           ]
         }
       ],
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "ARX",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ARX (Arcium) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2068589999826825385",
+          "dates": [
+            "2026-06-21"
+          ]
+        }
+      ],
       "wallet": []
     },
     "okx": {
@@ -675,6 +685,25 @@
     "mexc": {
       "listings": [
         {
+          "token": "ZERO",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月20日 21:15 (UTC+8) 上線 ZEROUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536388",
+          "dates": [
+            "2026-06-20",
+            "2026-06-21"
+          ]
+        },
+        {
+          "token": "ZERO",
+          "type": "上线",
+          "detail": "ZERO 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-zero-to-innovation-zone-17827791536389",
+          "dates": [
+            "2026-06-21"
+          ]
+        },
+        {
           "token": "ALAB",
           "type": "跟单合约",
           "detail": "ALAB（同公告含 2 个标的）",
@@ -691,15 +720,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-alab-and-ter-usdt-m-futures-17827791536380",
           "dates": [
             "2026-06-19",
-            "2026-06-20"
-          ]
-        },
-        {
-          "token": "ZERO",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年6月20日 21:15 (UTC+8) 上線 ZEROUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536388",
-          "dates": [
             "2026-06-20"
           ]
         },
@@ -1305,15 +1325,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536169",
           "dates": [
             "2026-06-15"
-          ]
-        },
-        {
-          "token": "SPCXON",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 SpaceX (SPCXON)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536221",
-          "dates": [
-            "2026-06-14"
           ]
         }
       ]

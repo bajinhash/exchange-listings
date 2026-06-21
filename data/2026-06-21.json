@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-21",
+  "updatedAt": "2026-06-21T12:26:56.429Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "ARX",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ARX (Arcium) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2068589999826825385"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ZERO",
+          "type": "上线",
+          "detail": "ZERO 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-zero-to-innovation-zone-17827791536389"
+        },
+        {
+          "token": "ZERO",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月20日 21:15 (UTC+8) 上線 ZEROUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536388"
+        }
+      ]
+    }
+  }
+}
