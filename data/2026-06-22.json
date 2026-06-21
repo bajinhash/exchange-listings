@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-22",
+  "updatedAt": "2026-06-21T16:13:55.187Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ZERO",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月20日 21:15 (UTC+8) 上線 ZEROUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536388"
+        }
+      ]
+    }
+  }
+}

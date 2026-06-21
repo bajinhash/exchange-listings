@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-06-15",
-  "weekEnd": "2026-06-21",
-  "updatedAt": "2026-06-21T15:13:38.576Z",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "updatedAt": "2026-06-21T16:13:55.347Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -246,15 +246,6 @@
           "dates": [
             "2026-06-16",
             "2026-06-17"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "永续合约",
-          "detail": "SPCXUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spcxusdt-perpetual-contract-with-up-to-10x-leverage-blt19bef84ccc826df8/",
-          "dates": [
-            "2026-06-15"
           ]
         }
       ]
@@ -652,12 +643,20 @@
           ]
         },
         {
+          "token": "AVV",
+          "type": "现货上线",
+          "detail": "AIVIVE (AVV) 将上线 Bitget AI 区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885877",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
           "token": "GRAMUSDC",
           "type": "上线",
           "detail": "GRAMUSDC 现已上线合约交易和交易BOT",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885856",
           "dates": [
-            "2026-06-15",
             "2026-06-16"
           ]
         },
@@ -666,16 +665,6 @@
           "type": "上线",
           "detail": "GRAMUSDT 现已上线合约交易和交易BOT",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603885855",
-          "dates": [
-            "2026-06-15",
-            "2026-06-16"
-          ]
-        },
-        {
-          "token": "AVV",
-          "type": "现货上线",
-          "detail": "AIVIVE (AVV) 将上线 Bitget AI 区",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885877",
           "dates": [
             "2026-06-16"
           ]
@@ -691,7 +680,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536388",
           "dates": [
             "2026-06-20",
-            "2026-06-21"
+            "2026-06-21",
+            "2026-06-22"
           ]
         },
         {
@@ -1138,16 +1128,6 @@
           ]
         },
         {
-          "token": "KIOXIA",
-          "type": "美股合约",
-          "detail": "新股票合約上線：KIOXIA USDT 本位合約將於 6/15 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536255",
-          "dates": [
-            "2026-06-15",
-            "2026-06-16"
-          ]
-        },
-        {
           "token": "KO",
           "type": "跟单合约",
           "detail": "KO（同公告含 3 个标的）",
@@ -1274,6 +1254,15 @@
           ]
         },
         {
+          "token": "KIOXIA",
+          "type": "美股合约",
+          "detail": "新股票合約上線：KIOXIA USDT 本位合約將於 6/15 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536255",
+          "dates": [
+            "2026-06-16"
+          ]
+        },
+        {
           "token": "TWLO",
           "type": "跟单合约",
           "detail": "TWLO（同公告含 5 个标的）",
@@ -1316,15 +1305,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242",
           "dates": [
             "2026-06-16"
-          ]
-        },
-        {
-          "token": "CS",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Cattoverse (CS)，瓜分 40,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536169",
-          "dates": [
-            "2026-06-15"
           ]
         }
       ]
