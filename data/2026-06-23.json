@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-23",
+  "updatedAt": "2026-06-22T16:28:37.809Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "ARX",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ARX - 服务于区块链、AI、企业及政府的机密超级计算机",
+          "url": "https://www.binance.com/en/alpha/bsc/0xd5f6ef5deabe61e6d5cdb49bfb6f156f2c1ca715"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "GRAM",
+          "type": "永续合约",
+          "detail": "GRAMUSDT 永續合約全新上線， 支援最高 50 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gramusdt-perpetual-contract-with-up-to-50x-leverage-bltb35d5f8f6a2eae4a/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "XRP",
+          "type": "上线",
+          "detail": "Gate 闪兑刮刮乐四期：100%爆奖，$1 解锁 XRP 与 $500 现金6 小时前629",
+          "url": "https://www.gate.com/zh/announcements/article/100267"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "ARX",
+          "type": "上线",
+          "detail": "ARXUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886485"
+        },
+        {
+          "token": "KLAC",
+          "type": "美股合约",
+          "detail": "KLAC（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886343"
+        },
+        {
+          "token": "JPM",
+          "type": "美股合约",
+          "detail": "JPM（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886343"
+        },
+        {
+          "token": "GEV",
+          "type": "美股合约",
+          "detail": "GEV（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886343"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SONY",
+          "type": "美股合约",
+          "detail": "SONY（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536410"
+        },
+        {
+          "token": "KORU",
+          "type": "美股合约",
+          "detail": "KORU（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536410"
+        },
+        {
+          "token": "VST",
+          "type": "美股合约",
+          "detail": "VST（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536407"
+        },
+        {
+          "token": "UPST",
+          "type": "美股合约",
+          "detail": "UPST（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536407"
+        },
+        {
+          "token": "ZHIPU",
+          "type": "美股合约",
+          "detail": "新股票合約上線：ZHIPU U 本位合約將於 6/22 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536396"
+        },
+        {
+          "token": "NEM",
+          "type": "美股合约",
+          "detail": "NEM（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536395"
+        },
+        {
+          "token": "SLB",
+          "type": "美股合约",
+          "detail": "SLB（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536395"
+        },
+        {
+          "token": "ZERO",
+          "type": "上线",
+          "detail": "ZERO 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-zero-to-innovation-zone-17827791536389"
+        }
+      ]
+    }
+  }
+}
