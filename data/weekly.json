@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-06-17",
-  "weekEnd": "2026-06-23",
-  "updatedAt": "2026-06-23T15:50:12.736Z",
+  "weekStart": "2026-06-18",
+  "weekEnd": "2026-06-24",
+  "updatedAt": "2026-06-23T16:43:30.684Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -11,7 +11,8 @@
           "detail": "MVLL（同公告含 3 个标的）",
           "url": "https://www.binance.com/en/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b",
           "dates": [
-            "2026-06-23"
+            "2026-06-23",
+            "2026-06-24"
           ]
         },
         {
@@ -20,7 +21,8 @@
           "detail": "SQQQ（同公告含 3 个标的）",
           "url": "https://www.binance.com/en/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b",
           "dates": [
-            "2026-06-23"
+            "2026-06-23",
+            "2026-06-24"
           ]
         },
         {
@@ -29,7 +31,8 @@
           "detail": "TQQQ（同公告含 3 个标的）",
           "url": "https://www.binance.com/en/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b",
           "dates": [
-            "2026-06-23"
+            "2026-06-23",
+            "2026-06-24"
           ]
         },
         {
@@ -278,10 +281,9 @@
         {
           "token": "RE",
           "type": "永续合约",
-          "detail": "OKX 關於 RE (Re) 盤前永續合約正式上線的公告發佈於 2026年6月17日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-pre-market-perpetual-futures-for-re-re-crypto",
+          "detail": "OKX 關於上線 RE (Re) 現貨交易並轉換盤前合約為標準永續合約的公告發佈於 2026年6月18日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-re-re-for-spot-trading-and-convert-pre-market-futures-to-standard-perpetual-futures",
           "dates": [
-            "2026-06-17",
             "2026-06-18",
             "2026-06-19"
           ]
@@ -338,51 +340,6 @@
           "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-smh-ewz-rivn-dkng-and-rddt-equities",
           "dates": [
             "2026-06-18"
-          ]
-        },
-        {
-          "token": "GRAM",
-          "type": "永续合约",
-          "detail": "歐易關於 GRAMUSD X-合約（X-Perp）正式上線的公告發佈於 2026年6月17日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-gramusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "GRAM",
-          "type": "现货上线",
-          "detail": "OKX 關於開啟 GRAM/USDⓈ 現貨交易的公告發佈於 2026年6月17日",
-          "url": "https://www.okx.com/zh-hant/help/okx-will-launch-gram-usds-for-spot-trading",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "TON",
-          "type": "上线",
-          "detail": "OKX 關於完成  TON  置換的公告發佈於 2026年6月17日",
-          "url": "https://www.okx.com/zh-hant/help/okx-completed-ton-token-migration",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "ONDOUSD",
-          "type": "永续合约",
-          "detail": "ONDOUSD（同公告含 2 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-ondousd-and-beatusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "BEATUSD",
-          "type": "永续合约",
-          "detail": "BEATUSD（同公告含 2 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-ondousd-and-beatusd-expiry-perps-x-perp",
-          "dates": [
-            "2026-06-17"
           ]
         }
       ]
@@ -453,33 +410,6 @@
             "2026-06-18",
             "2026-06-19"
           ]
-        },
-        {
-          "token": "COHR",
-          "type": "永续合约",
-          "detail": "COHRUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cohrusdt-perpetual-contract-with-up-to-10x-leverage-blt9bb74cb5e7ab16eb/",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "FLNC",
-          "type": "永续合约",
-          "detail": "FLNCUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-flncusdt-perpetual-contract-with-up-to-10x-leverage-blte9c294ad1e115242/",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "AXTI",
-          "type": "永续合约",
-          "detail": "AXTIUSDT 永續合約全新上線， 支援最高 10 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-axtiusdt-perpetual-contract-with-up-to-10x-leverage-bltf3034b08f389b777/",
-          "dates": [
-            "2026-06-17"
-          ]
         }
       ]
     },
@@ -520,16 +450,6 @@
           "dates": [
             "2026-06-18",
             "2026-06-19"
-          ]
-        },
-        {
-          "token": "GRAM",
-          "type": "永续合约",
-          "detail": "KuCoin Futures New Listing: GRAMUSDT Perpetual Contract with Up to 75x Leverage",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-gramusdt-perpetual-contract-with-up-to-75x-leverage",
-          "dates": [
-            "2026-06-17",
-            "2026-06-18"
           ]
         },
         {
@@ -578,30 +498,12 @@
           ]
         },
         {
-          "token": "COIN",
-          "type": "杠杆上线",
-          "detail": "KuCoin Futures Will Launch the COIN-Margined BTC Quarterly 0925 Delivery Contract",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-launch-the-coin-margined-btc-quarterly-0925-delivery-contract",
+          "token": "GRAM",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: GRAMUSDT Perpetual Contract with Up to 75x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-gramusdt-perpetual-contract-with-up-to-75x-leverage",
           "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "ILY",
-          "type": "现货上线",
-          "detail": "ILITY (ILY) Listed on KuCoinTrading: 11:00 on June 17, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-ility-ily-listed-on-kucoin",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "O",
-          "type": "现货上线",
-          "detail": "World Premiere: o1.exchange (O) Listed on KuCoinTrading: 16:00 on June 17, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-o1-exchange-o-listed-on-kucoin",
-          "dates": [
-            "2026-06-17"
+            "2026-06-18"
           ]
         }
       ]
@@ -697,38 +599,10 @@
         {
           "token": "O",
           "type": "现货上线",
-          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易11 小时前1,649",
+          "detail": "Gate 将上线 o1.exchange (O) 现货交易与闪兑交易1 天前2,525",
           "url": "https://www.gate.com/zh/announcements/article/100188",
           "dates": [
-            "2026-06-17",
             "2026-06-18"
-          ]
-        },
-        {
-          "token": "C2C",
-          "type": "上线",
-          "detail": "Gate C2C 夏季里程拉力赛：领取里程补给，赢 iPhone 17 大奖5 小时前459",
-          "url": "https://www.gate.com/zh/announcements/article/100210",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "SBE",
-          "type": "现货上线",
-          "detail": "Gate 现货 WebSocket 更新：简单二进制编码（SBE）数据推送功能即将上线实盘交...6 小时前381",
-          "url": "https://www.gate.com/zh/announcements/article/100208",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "SPCX3L",
-          "type": "上线",
-          "detail": "Gate ETF 星耀加码礼：交易领 SPCX3L & USDT，合约积分 & VIP 用户专享多重加码8 小时前507",
-          "url": "https://www.gate.com/zh/announcements/article/100199",
-          "dates": [
-            "2026-06-17"
           ]
         }
       ]
@@ -854,36 +728,6 @@
           ]
         },
         {
-          "token": "BLUAI",
-          "type": "上线",
-          "detail": "Bluwhale AI（BLUAI）将上线 Bitget AI 专区",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886006",
-          "dates": [
-            "2026-06-17",
-            "2026-06-18"
-          ]
-        },
-        {
-          "token": "HBAR",
-          "type": "杠杆上线",
-          "detail": "Bitget 全仓杠杆上线 HBAR/USDT",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886017",
-          "dates": [
-            "2026-06-17",
-            "2026-06-18"
-          ]
-        },
-        {
-          "token": "BILL",
-          "type": "杠杆上线",
-          "detail": "Bitget 全仓杠杆上线 BILL/USDT",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886016",
-          "dates": [
-            "2026-06-17",
-            "2026-06-18"
-          ]
-        },
-        {
           "token": "RE",
           "type": "现货上线",
           "detail": "Re Protocol (RE) 将上线 Bitget Defi 区",
@@ -893,45 +737,46 @@
           ]
         },
         {
-          "token": "O",
-          "type": "现货上线",
-          "detail": "o1.exchange（O）将上线 DeFi 区",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885931",
+          "token": "BLUAI",
+          "type": "上线",
+          "detail": "Bluwhale AI（BLUAI）将上线 Bitget AI 专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886006",
           "dates": [
-            "2026-06-17"
+            "2026-06-18"
           ]
         },
         {
-          "token": "FLNC",
-          "type": "美股合约",
-          "detail": "FLNC（同公告含 3 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885937",
+          "token": "HBAR",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 HBAR/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886017",
           "dates": [
-            "2026-06-17"
+            "2026-06-18"
           ]
         },
         {
-          "token": "CGNX",
-          "type": "美股合约",
-          "detail": "CGNX（同公告含 3 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885937",
+          "token": "BILL",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 BILL/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886016",
           "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "SMH",
-          "type": "美股合约",
-          "detail": "SMH（同公告含 3 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885937",
-          "dates": [
-            "2026-06-17"
+            "2026-06-18"
           ]
         }
       ]
     },
     "mexc": {
       "listings": [
+        {
+          "token": "MVLL",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年6月23日 上線 MVLL 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mvll-usdt-m-index-futures-on-jun-23-with-0-fee-trading-17827791536432",
+          "dates": [
+            "2026-06-23",
+            "2026-06-24"
+          ]
+        },
         {
           "token": "SONY",
           "type": "美股合约",
@@ -949,15 +794,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536410",
           "dates": [
             "2026-06-22",
-            "2026-06-23"
-          ]
-        },
-        {
-          "token": "MVLL",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年6月23日 上線 MVLL 指數合約，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mvll-usdt-m-index-futures-on-jun-23-with-0-fee-trading-17827791536432",
-          "dates": [
             "2026-06-23"
           ]
         },
@@ -1454,46 +1290,6 @@
           ]
         },
         {
-          "token": "QBTS",
-          "type": "美股合约",
-          "detail": "QBTS（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
-          "dates": [
-            "2026-06-17",
-            "2026-06-18"
-          ]
-        },
-        {
-          "token": "POET",
-          "type": "美股合约",
-          "detail": "POET（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
-          "dates": [
-            "2026-06-17",
-            "2026-06-18"
-          ]
-        },
-        {
-          "token": "RGTI",
-          "type": "美股合约",
-          "detail": "RGTI（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
-          "dates": [
-            "2026-06-17",
-            "2026-06-18"
-          ]
-        },
-        {
-          "token": "OKLO",
-          "type": "美股合约",
-          "detail": "OKLO（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
-          "dates": [
-            "2026-06-17",
-            "2026-06-18"
-          ]
-        },
-        {
           "token": "KLAC",
           "type": "现货上线",
           "detail": "KLAC（同公告含 7 个标的）",
@@ -1512,147 +1308,39 @@
           ]
         },
         {
-          "token": "AVV",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 AIVIVE (AVV)，瓜分 60,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536339",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "PRE",
-          "type": "上线",
-          "detail": "閃兌新幣上線：SPACEX(PRE), SPCXON",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-convert-listing-17827791536335",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "O",
-          "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年6月18日 00:10 (UTC+8) 上線 o1.exchange (O) USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536333",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "CCL",
-          "type": "跟单合约",
-          "detail": "CCL（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ccl-nke-cmcsa-mar-and-foxa-usdt-m-futures-17827791536325",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "NKE",
-          "type": "跟单合约",
-          "detail": "NKE（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ccl-nke-cmcsa-mar-and-foxa-usdt-m-futures-17827791536325",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "CMCSA",
-          "type": "跟单合约",
-          "detail": "CMCSA（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ccl-nke-cmcsa-mar-and-foxa-usdt-m-futures-17827791536325",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "MAR",
-          "type": "跟单合约",
-          "detail": "MAR（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ccl-nke-cmcsa-mar-and-foxa-usdt-m-futures-17827791536325",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "FOXA",
-          "type": "跟单合约",
-          "detail": "FOXA（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ccl-nke-cmcsa-mar-and-foxa-usdt-m-futures-17827791536325",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "ISRG",
-          "type": "跟单合约",
-          "detail": "ISRG（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-isrg-xlk-and-xlu-usdt-m-futures-17827791536324",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "XLK",
-          "type": "跟单合约",
-          "detail": "XLK（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-isrg-xlk-and-xlu-usdt-m-futures-17827791536324",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "XLU",
-          "type": "跟单合约",
-          "detail": "XLU（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-isrg-xlk-and-xlu-usdt-m-futures-17827791536324",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "ISRG",
+          "token": "QBTS",
           "type": "美股合约",
-          "detail": "新美股合約上線： ISRG U 本位合約將於 6/17 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536319",
+          "detail": "QBTS（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
           "dates": [
-            "2026-06-17"
+            "2026-06-18"
           ]
         },
         {
-          "token": "XLK",
-          "type": "上线",
-          "detail": "XLK（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-xlk-and-xlu-usdt-m-index-futures-on-jun-17-with-0-fee-trading-17827791536318",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "XLU",
-          "type": "上线",
-          "detail": "XLU（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-xlk-and-xlu-usdt-m-index-futures-on-jun-17-with-0-fee-trading-17827791536318",
-          "dates": [
-            "2026-06-17"
-          ]
-        },
-        {
-          "token": "CCL",
+          "token": "POET",
           "type": "美股合约",
-          "detail": "CCL（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536310",
+          "detail": "POET（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
           "dates": [
-            "2026-06-17"
+            "2026-06-18"
           ]
         },
         {
-          "token": "NKE",
+          "token": "RGTI",
           "type": "美股合约",
-          "detail": "NKE（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536310",
+          "detail": "RGTI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
           "dates": [
-            "2026-06-17"
+            "2026-06-18"
+          ]
+        },
+        {
+          "token": "OKLO",
+          "type": "美股合约",
+          "detail": "OKLO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536340",
+          "dates": [
+            "2026-06-18"
           ]
         }
       ]
