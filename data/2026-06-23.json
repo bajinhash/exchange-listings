@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "updatedAt": "2026-06-23T14:17:12.544Z",
+  "updatedAt": "2026-06-23T15:50:12.568Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -161,21 +161,21 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT6",
+          "token": "USDT7",
           "type": "上线",
-          "detail": "CFD 合约新币上线：股票金属双专区，每人最高领 31,300 USDT6 小时前477",
+          "detail": "CFD 合约新币上线：股票金属双专区，每人最高领 31,300 USDT7 小时前575",
           "url": "https://www.gate.com/zh/announcements/article/100294"
         },
         {
           "token": "MYRO",
           "type": "上线",
-          "detail": "Gate 关于支持 Myro (MYRO) 合约置换的公告6 小时前354",
+          "detail": "Gate 关于支持 Myro (MYRO) 合约置换的公告8 小时前409",
           "url": "https://www.gate.com/zh/announcements/article/100287"
         },
         {
           "token": "RAIN",
           "type": "现货上线",
-          "detail": "Gate 将上线 Rain (RAIN) 现货交易、闪兑交易并开启 HODLer Airdrop7 小时前1,436",
+          "detail": "Gate 将上线 Rain (RAIN) 现货交易、闪兑交易并开启 HODLer Airdrop9 小时前1,539",
           "url": "https://www.gate.com/zh/announcements/article/100282"
         }
       ]
