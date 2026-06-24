@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-18",
   "weekEnd": "2026-06-24",
-  "updatedAt": "2026-06-24T12:30:10.616Z",
+  "updatedAt": "2026-06-24T12:39:08.269Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -719,16 +719,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "MYRO",
-          "type": "上线",
-          "detail": "Gate 关于支持 Myro (MYRO) 合约置换的公告8 小时前409",
-          "url": "https://www.gate.com/zh/announcements/article/100287",
-          "dates": [
-            "2026-06-23",
-            "2026-06-24"
-          ]
-        },
-        {
           "token": "RAIN",
           "type": "现货上线",
           "detail": "Gate 将上线 Rain (RAIN) 现货交易、闪兑交易并开启 HODLer Airdrop9 小时前1,539",
@@ -739,10 +729,55 @@
           ]
         },
         {
-          "token": "USDT8",
-          "type": "上线",
-          "detail": "CFD 合约新币上线：股票金属双专区，每人最高领 31,300 USDT8 小时前603",
-          "url": "https://www.gate.com/zh/announcements/article/100294",
+          "token": "NES",
+          "type": "永续合约",
+          "detail": "Gate 将上线 Nesa (NES) 永续合约交易（USDT 结算）16 分钟前725",
+          "url": "https://www.gate.com/zh/announcements/article/100325",
+          "dates": [
+            "2026-06-24"
+          ]
+        },
+        {
+          "token": "BTC",
+          "type": "永续合约",
+          "detail": "Gate 合约 WebSocket 更新：交割合约及永续合约 BTC 本位新增 OBU 深度频道支持1 小时前141",
+          "url": "https://www.gate.com/zh/announcements/article/100323",
+          "dates": [
+            "2026-06-24"
+          ]
+        },
+        {
+          "token": "SAMSUNGEM",
+          "type": "现货上线",
+          "detail": "SAMSUNGEM（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100310",
+          "dates": [
+            "2026-06-24"
+          ]
+        },
+        {
+          "token": "SKSQUARE",
+          "type": "现货上线",
+          "detail": "SKSQUARE（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100310",
+          "dates": [
+            "2026-06-24"
+          ]
+        },
+        {
+          "token": "HPSP",
+          "type": "现货上线",
+          "detail": "HPSP（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100310",
+          "dates": [
+            "2026-06-24"
+          ]
+        },
+        {
+          "token": "JUSUNG",
+          "type": "现货上线",
+          "detail": "JUSUNG（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100310",
           "dates": [
             "2026-06-24"
           ]
@@ -752,6 +787,15 @@
           "type": "上线",
           "detail": "CFD 合约新币上线：股票金属双专区，每人最高领 31,300 USDT7 小时前575",
           "url": "https://www.gate.com/zh/announcements/article/100294",
+          "dates": [
+            "2026-06-23"
+          ]
+        },
+        {
+          "token": "MYRO",
+          "type": "上线",
+          "detail": "Gate 关于支持 Myro (MYRO) 合约置换的公告8 小时前409",
+          "url": "https://www.gate.com/zh/announcements/article/100287",
           "dates": [
             "2026-06-23"
           ]

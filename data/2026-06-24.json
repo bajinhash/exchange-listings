@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "updatedAt": "2026-06-24T12:30:10.450Z",
+  "updatedAt": "2026-06-24T12:39:08.108Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -186,21 +186,45 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT8",
-          "type": "上线",
-          "detail": "CFD 合约新币上线：股票金属双专区，每人最高领 31,300 USDT8 小时前603",
-          "url": "https://www.gate.com/zh/announcements/article/100294"
+          "token": "NES",
+          "type": "永续合约",
+          "detail": "Gate 将上线 Nesa (NES) 永续合约交易（USDT 结算）16 分钟前725",
+          "url": "https://www.gate.com/zh/announcements/article/100325"
         },
         {
-          "token": "MYRO",
-          "type": "上线",
-          "detail": "Gate 关于支持 Myro (MYRO) 合约置换的公告9 小时前434",
-          "url": "https://www.gate.com/zh/announcements/article/100287"
+          "token": "BTC",
+          "type": "永续合约",
+          "detail": "Gate 合约 WebSocket 更新：交割合约及永续合约 BTC 本位新增 OBU 深度频道支持1 小时前141",
+          "url": "https://www.gate.com/zh/announcements/article/100323"
+        },
+        {
+          "token": "SAMSUNGEM",
+          "type": "现货上线",
+          "detail": "SAMSUNGEM（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100310"
+        },
+        {
+          "token": "SKSQUARE",
+          "type": "现货上线",
+          "detail": "SKSQUARE（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100310"
+        },
+        {
+          "token": "HPSP",
+          "type": "现货上线",
+          "detail": "HPSP（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100310"
+        },
+        {
+          "token": "JUSUNG",
+          "type": "现货上线",
+          "detail": "JUSUNG（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100310"
         },
         {
           "token": "RAIN",
           "type": "现货上线",
-          "detail": "Gate 将上线 Rain (RAIN) 现货交易、闪兑交易并开启 HODLer Airdrop10 小时前1,594",
+          "detail": "Gate 将上线 Rain (RAIN) 现货交易、闪兑交易并开启 HODLer Airdrop1 天前2,534",
           "url": "https://www.gate.com/zh/announcements/article/100282"
         }
       ]
