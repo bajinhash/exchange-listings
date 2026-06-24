@@ -1,9 +1,15 @@
 {
   "date": "2026-06-24",
-  "updatedAt": "2026-06-23T16:43:30.505Z",
+  "updatedAt": "2026-06-24T12:30:10.450Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "OUSDT",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+          "url": "https://www.binance.com/en/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f"
+        },
         {
           "token": "MVLL",
           "type": "永续合约",
@@ -23,26 +29,302 @@
           "url": "https://www.binance.com/en/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b"
         }
       ],
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "NES",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NES - Nesa is the largest decentralized AI platform and ecosystem backed by a privacy-",
+          "url": "https://www.binance.com/en/alpha/bsc/0x3131f6b80c26936ab03f7d9d29eb4ddf36ac3fb5"
+        },
+        {
+          "token": "EWYB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 EWYB - iShares MSCI South Korea ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xbe82f76637dba2c114c41df856c2c51e522e2cb8"
+        }
+      ],
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "NES",
+          "type": "现货上线",
+          "detail": "OKX 關於開啟 NES/USDⓈ 現貨交易的公告發佈於 2026年6月24日",
+          "url": "https://www.okx.com/zh-hant/help/okx-will-launch-nes-usds-for-spot-trading"
+        },
+        {
+          "token": "ZHIPU",
+          "type": "美股合约",
+          "detail": "ZHIPU（同公告含 6 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-zhipu-minimax-uvxy-koru-sony-and-smci-equities"
+        },
+        {
+          "token": "MINIMAX",
+          "type": "美股合约",
+          "detail": "MINIMAX（同公告含 6 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-zhipu-minimax-uvxy-koru-sony-and-smci-equities"
+        },
+        {
+          "token": "UVXY",
+          "type": "美股合约",
+          "detail": "UVXY（同公告含 6 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-zhipu-minimax-uvxy-koru-sony-and-smci-equities"
+        },
+        {
+          "token": "KORU",
+          "type": "美股合约",
+          "detail": "KORU（同公告含 6 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-zhipu-minimax-uvxy-koru-sony-and-smci-equities"
+        },
+        {
+          "token": "SONY",
+          "type": "美股合约",
+          "detail": "SONY（同公告含 6 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-zhipu-minimax-uvxy-koru-sony-and-smci-equities"
+        },
+        {
+          "token": "SMCI",
+          "type": "美股合约",
+          "detail": "SMCI（同公告含 6 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-zhipu-minimax-uvxy-koru-sony-and-smci-equities"
+        },
+        {
+          "token": "ARX",
+          "type": "永续合约",
+          "detail": "OKX 關於 ARXUSD，UBUSD X-合約（X-Perp）正式上線的公告發佈於 2026年6月24日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-arxusd-and-ubusd-expiry-perps-x-perp"
+        }
+      ]
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "GLW",
+          "type": "永续合约",
+          "detail": "GLWUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-glwusdt-perpetual-contract-with-up-to-20x-leverage-blt1c8a222a102dd2f6/"
+        },
+        {
+          "token": "KORU",
+          "type": "永续合约",
+          "detail": "KORUUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-koruusdt-perpetual-contract-with-up-to-20x-leverage-bltfbc10bda086fd35e/"
+        },
+        {
+          "token": "LRCX",
+          "type": "永续合约",
+          "detail": "LRCXUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-lrcxusdt-perpetual-contract-with-up-to-20x-leverage-blteee8ebe6c3029051/"
+        },
+        {
+          "token": "TQQQ",
+          "type": "永续合约",
+          "detail": "TQQQUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tqqqusdt-perpetual-contract-with-up-to-20x-leverage-bltddc1317d9d0c71c2/"
+        },
+        {
+          "token": "SMCI",
+          "type": "永续合约",
+          "detail": "SMCIUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-smciusdt-perpetual-contract-with-up-to-20x-leverage-blt9482460e6a1bda30/"
+        }
+      ]
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "NES",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: NESUSDT Perpetual Contract with Up to 20x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-nesusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "NES",
+          "type": "现货上线",
+          "detail": "World Premiere: Nesa (NES) Listed on KuCoinTrading: 13:00 on June 24, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-nesa-nes-listed-on-kucoin"
+        },
+        {
+          "token": "CIEN",
+          "type": "美股合约",
+          "detail": "CIEN（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-24"
+        },
+        {
+          "token": "KLAC",
+          "type": "美股合约",
+          "detail": "KLAC（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-24"
+        },
+        {
+          "token": "KORU",
+          "type": "美股合约",
+          "detail": "KORU（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-24"
+        },
+        {
+          "token": "LRCX",
+          "type": "美股合约",
+          "detail": "LRCX（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-24"
+        },
+        {
+          "token": "SMCI",
+          "type": "美股合约",
+          "detail": "SMCI（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-24"
+        },
+        {
+          "token": "SONY",
+          "type": "美股合约",
+          "detail": "SONY（同公告含 6 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-24"
+        }
+      ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "USDT8",
+          "type": "上线",
+          "detail": "CFD 合约新币上线：股票金属双专区，每人最高领 31,300 USDT8 小时前603",
+          "url": "https://www.gate.com/zh/announcements/article/100294"
+        },
+        {
+          "token": "MYRO",
+          "type": "上线",
+          "detail": "Gate 关于支持 Myro (MYRO) 合约置换的公告9 小时前434",
+          "url": "https://www.gate.com/zh/announcements/article/100287"
+        },
+        {
+          "token": "RAIN",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Rain (RAIN) 现货交易、闪兑交易并开启 HODLer Airdrop10 小时前1,594",
+          "url": "https://www.gate.com/zh/announcements/article/100282"
+        }
+      ]
     },
     "bitget": {
-      "listings": []
+      "listings": [
+        {
+          "token": "rSTRC 等 21 个",
+          "type": "现货上线",
+          "detail": "Bitget 关于上线rSTRC、rQQQI、rASST、rSCHD、rDHI、rYUM、rAMP等7只股票现货的公告（rSTRC、rQQQI、rASST、rSCHD、rDHI、rYUM、rAMP、rDXYZ… 共 21 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887280"
+        },
+        {
+          "token": "SONY",
+          "type": "美股合约",
+          "detail": "SONY（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887322"
+        },
+        {
+          "token": "MVLL",
+          "type": "美股合约",
+          "detail": "MVLL（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887322"
+        },
+        {
+          "token": "ZHIPU",
+          "type": "永续合约",
+          "detail": "ZHIPU（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887315"
+        },
+        {
+          "token": "MINIMAX",
+          "type": "永续合约",
+          "detail": "MINIMAX（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887315"
+        }
+      ]
     },
     "mexc": {
       "listings": [
+        {
+          "token": "MAME",
+          "type": "上线",
+          "detail": "MAME 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-mame-to-innovation-zone-17827791536449"
+        },
+        {
+          "token": "NES",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年6月24日 20:10 (UTC+8) 上線 Nesa (NES) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536448"
+        },
+        {
+          "token": "ANET",
+          "type": "跟单合约",
+          "detail": "ANET（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
+        },
+        {
+          "token": "ETN",
+          "type": "跟单合约",
+          "detail": "ETN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
+        },
+        {
+          "token": "CCJ",
+          "type": "跟单合约",
+          "detail": "CCJ（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
+        },
+        {
+          "token": "APD",
+          "type": "跟单合约",
+          "detail": "APD（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
+        },
+        {
+          "token": "MAME",
+          "type": "跟单合约",
+          "detail": "MAME（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442"
+        },
+        {
+          "token": "XBI",
+          "type": "跟单合约",
+          "detail": "XBI（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442"
+        },
+        {
+          "token": "MVLL",
+          "type": "跟单合约",
+          "detail": "MVLL（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442"
+        },
+        {
+          "token": "ANET",
+          "type": "美股合约",
+          "detail": "ANET（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441"
+        },
+        {
+          "token": "ETN",
+          "type": "美股合约",
+          "detail": "ETN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441"
+        },
+        {
+          "token": "CCJ",
+          "type": "美股合约",
+          "detail": "CCJ（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441"
+        },
+        {
+          "token": "APD",
+          "type": "美股合约",
+          "detail": "APD（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441"
+        },
+        {
+          "token": "MAME",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月24日 13:00 (UTC+8) 上線 MAMEUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mameusdt-futures-in-innovation-zone-on-jun-24-2026-05-17827791536440"
+        },
         {
           "token": "MVLL",
           "type": "上线",
