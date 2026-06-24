@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-18",
   "weekEnd": "2026-06-24",
-  "updatedAt": "2026-06-24T14:03:37.656Z",
+  "updatedAt": "2026-06-24T15:31:33.638Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -1226,6 +1226,15 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mvll-usdt-m-index-futures-on-jun-23-with-0-fee-trading-17827791536432",
           "dates": [
             "2026-06-23",
+            "2026-06-24"
+          ]
+        },
+        {
+          "token": "ASE",
+          "type": "上线",
+          "detail": "MEXC 將於創新區上線 Asentum (ASE)，瓜分 6,900,000 ASE & 10,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-asentum-ase-in-innovation-zone-with-6-900-000-ase-10-000-usdt-airdrop-rewards-17827791536422",
+          "dates": [
             "2026-06-24"
           ]
         },
