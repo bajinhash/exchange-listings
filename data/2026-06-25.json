@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "updatedAt": "2026-06-25T14:01:06.428Z",
+  "updatedAt": "2026-06-25T15:39:58.133Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -91,19 +91,19 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 收益加速季：闪兑交易 USD1，持有收益再加码6 小时前521",
+          "detail": "USD1 收益加速季：闪兑交易 USD1，持有收益再加码7 小时前599",
           "url": "https://www.gate.com/zh/announcements/article/100342"
         },
         {
-          "token": "USDT6",
+          "token": "USDT8",
           "type": "上线",
-          "detail": "每日闪兑打卡挑战：天天闪兑，单日最高领 140 USDT6 小时前513",
+          "detail": "每日闪兑打卡挑战：天天闪兑，单日最高领 140 USDT8 小时前582",
           "url": "https://www.gate.com/zh/announcements/article/100340"
         },
         {
           "token": "SKHYNIX3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 SKHYNIX3L/3S、SOXL3L/3S10 小时前472",
+          "detail": "Gate ETF 上线 SKHYNIX3L/3S、SOXL3L/3S11 小时前509",
           "url": "https://www.gate.com/zh/announcements/article/100333"
         }
       ]
@@ -150,6 +150,12 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "WEN",
+          "type": "美股合约",
+          "detail": "新美股合約上線：WEN USDT 本位合約將於 6月25日 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536488"
+        },
         {
           "token": "SP500",
           "type": "现货上线",
@@ -227,30 +233,6 @@
           "type": "跟单合约",
           "detail": "MVLL（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442"
-        },
-        {
-          "token": "ANET",
-          "type": "美股合约",
-          "detail": "ANET（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441"
-        },
-        {
-          "token": "ETN",
-          "type": "美股合约",
-          "detail": "ETN（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441"
-        },
-        {
-          "token": "CCJ",
-          "type": "美股合约",
-          "detail": "CCJ（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441"
-        },
-        {
-          "token": "APD",
-          "type": "美股合约",
-          "detail": "APD（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441"
         }
       ]
     }
