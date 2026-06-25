@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-19",
   "weekEnd": "2026-06-25",
-  "updatedAt": "2026-06-24T16:38:35.376Z",
+  "updatedAt": "2026-06-25T12:39:51.652Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -170,8 +170,7 @@
           "detail": "Binance Alpha 上线 NES - Nesa is the largest decentralized AI platform and ecosystem backed by a privacy-",
           "url": "https://www.binance.com/en/alpha/bsc/0x3131f6b80c26936ab03f7d9d29eb4ddf36ac3fb5",
           "dates": [
-            "2026-06-24",
-            "2026-06-25"
+            "2026-06-24"
           ]
         },
         {
@@ -189,6 +188,51 @@
     },
     "okx": {
       "listings": [
+        {
+          "token": "WEN",
+          "type": "美股合约",
+          "detail": "WEN（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-wen-tsem-and-kioxia-equities",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "TSEM",
+          "type": "美股合约",
+          "detail": "TSEM（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-wen-tsem-and-kioxia-equities",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "KIOXIA",
+          "type": "美股合约",
+          "detail": "KIOXIA（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-wen-tsem-and-kioxia-equities",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "DRAM",
+          "type": "永续合约",
+          "detail": "OKX 關於 DRAMUSD X-合約（X-Perp）正式上線的公告發佈於 2026年6月25日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-dramusd-equity-x-perp",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "CARDS",
+          "type": "现货上线",
+          "detail": "OKX 關於上線 CARDS/USDT (Collector Crypt) 現貨交易的公告發佈於 2026年6月25日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-cards-usdt-collector-crypt-for-spot-trading",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
         {
           "token": "ARX",
           "type": "永续合约",
@@ -365,6 +409,24 @@
     },
     "bybit": {
       "listings": [
+        {
+          "token": "UVXY",
+          "type": "永续合约",
+          "detail": "UVXYUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-uvxyusdt-perpetual-contract-with-up-to-20x-leverage-bltbc4ab2230583010a/",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "STXX",
+          "type": "永续合约",
+          "detail": "STXXUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-stxxusdt-perpetual-contract-with-up-to-20x-leverage-bltc272a9ae2cec4c52/",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
         {
           "token": "GLW",
           "type": "永续合约",
@@ -592,14 +654,59 @@
     "gateio": {
       "listings": [
         {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "关于调整 USD1 持币生息年化收益的公告1 天前1,441",
+          "url": "https://www.gate.com/zh/announcements/article/100239",
+          "dates": [
+            "2026-06-19",
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "DLLL",
+          "type": "上线",
+          "detail": "DLLL（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100348",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "INTW",
+          "type": "上线",
+          "detail": "INTW（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100348",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "USDT5",
+          "type": "上线",
+          "detail": "每日闪兑打卡挑战：天天闪兑，单日最高领 140 USDT5 小时前444",
+          "url": "https://www.gate.com/zh/announcements/article/100340",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "SKHYNIX3L",
+          "type": "上线",
+          "detail": "Gate ETF 上线 SKHYNIX3L/3S、SOXL3L/3S8 小时前428",
+          "url": "https://www.gate.com/zh/announcements/article/100333",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
+        {
           "token": "RAIN",
           "type": "现货上线",
           "detail": "Gate 将上线 Rain (RAIN) 现货交易、闪兑交易并开启 HODLer Airdrop9 小时前1,539",
           "url": "https://www.gate.com/zh/announcements/article/100282",
           "dates": [
             "2026-06-23",
-            "2026-06-24",
-            "2026-06-25"
+            "2026-06-24"
           ]
         },
         {
@@ -608,8 +715,7 @@
           "detail": "Gate 将上线 Nesa (NES) 永续合约交易（USDT 结算）2 小时前1,133",
           "url": "https://www.gate.com/zh/announcements/article/100325",
           "dates": [
-            "2026-06-24",
-            "2026-06-25"
+            "2026-06-24"
           ]
         },
         {
@@ -618,8 +724,7 @@
           "detail": "Gate 合约 WebSocket 更新：交割合约及永续合约 BTC 本位新增 OBU 深度频道支持3 小时前212",
           "url": "https://www.gate.com/zh/announcements/article/100323",
           "dates": [
-            "2026-06-24",
-            "2026-06-25"
+            "2026-06-24"
           ]
         },
         {
@@ -696,15 +801,6 @@
           ]
         },
         {
-          "token": "USD1",
-          "type": "上线",
-          "detail": "关于调整 USD1 持币生息年化收益的公告1 天前1,441",
-          "url": "https://www.gate.com/zh/announcements/article/100239",
-          "dates": [
-            "2026-06-19"
-          ]
-        },
-        {
           "token": "RE",
           "type": "跟单合约",
           "detail": "Gate 将上线 Re (RE) 合约交易、杠杆借贷交易、交易机器人、跟单...1 天前2,135",
@@ -762,6 +858,15 @@
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603887322",
           "dates": [
             "2026-06-24",
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "BIO",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 BIO/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887448",
+          "dates": [
             "2026-06-25"
           ]
         },
@@ -1044,17 +1149,6 @@
     "mexc": {
       "listings": [
         {
-          "token": "MVLL",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年6月23日 上線 MVLL 指數合約，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mvll-usdt-m-index-futures-on-jun-23-with-0-fee-trading-17827791536432",
-          "dates": [
-            "2026-06-23",
-            "2026-06-24",
-            "2026-06-25"
-          ]
-        },
-        {
           "token": "ASE",
           "type": "上线",
           "detail": "MEXC 將於創新區上線 Asentum (ASE)，瓜分 6,900,000 ASE & 10,000 USDT Airdrop+ 獎池！",
@@ -1070,7 +1164,8 @@
           "detail": "MAME 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-mame-to-innovation-zone-17827791536449",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1079,7 +1174,8 @@
           "detail": "全球首發：MEXC 將於 2026年6月24日 20:10 (UTC+8) 上線 Nesa (NES) USDT合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536448",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1088,7 +1184,8 @@
           "detail": "ANET（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1097,7 +1194,8 @@
           "detail": "ETN（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1106,7 +1204,8 @@
           "detail": "CCJ（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1115,7 +1214,8 @@
           "detail": "APD（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1124,7 +1224,8 @@
           "detail": "MAME（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1133,7 +1234,8 @@
           "detail": "XBI（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1142,7 +1244,8 @@
           "detail": "MVLL（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1151,7 +1254,8 @@
           "detail": "ANET（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1160,7 +1264,8 @@
           "detail": "ETN（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1169,7 +1274,8 @@
           "detail": "CCJ（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1178,7 +1284,8 @@
           "detail": "APD（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441",
           "dates": [
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ]
         },
         {
@@ -1187,6 +1294,26 @@
           "detail": "MEXC 合約創新板塊將於 2026年6月24日 13:00 (UTC+8) 上線 MAMEUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mameusdt-futures-in-innovation-zone-on-jun-24-2026-05-17827791536440",
           "dates": [
+            "2026-06-24",
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "NES",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 NES U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-nes-usdt-m-futures-17827791536478",
+          "dates": [
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "MVLL",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年6月23日 上線 MVLL 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mvll-usdt-m-index-futures-on-jun-23-with-0-fee-trading-17827791536432",
+          "dates": [
+            "2026-06-23",
             "2026-06-24"
           ]
         },
