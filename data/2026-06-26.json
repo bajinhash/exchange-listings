@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-26",
+  "updatedAt": "2026-06-25T16:42:03.131Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "DLLL",
+          "type": "上线",
+          "detail": "DLLL（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100348"
+        },
+        {
+          "token": "INTW",
+          "type": "上线",
+          "detail": "INTW（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100348"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "EVAA",
+          "type": "上线",
+          "detail": "EVAAUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887480"
+        },
+        {
+          "token": "RAM",
+          "type": "美股合约",
+          "detail": "Bitget首发上线RAMUSDT股票永续合约-两倍做多存储芯片板块！",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887479"
+        },
+        {
+          "token": "BIO",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 BIO/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887448"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "WEN",
+          "type": "美股合约",
+          "detail": "新美股合約上線：WEN USDT 本位合約將於 6月25日 上線，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536488"
+        },
+        {
+          "token": "ASE",
+          "type": "上线",
+          "detail": "MEXC 將於創新區上線 Asentum (ASE)，瓜分 6,900,000 ASE & 10,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-asentum-ase-in-innovation-zone-with-6-900-000-ase-10-000-usdt-airdrop-rewards-17827791536422"
+        },
+        {
+          "token": "MAME",
+          "type": "上线",
+          "detail": "MAME 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-mame-to-innovation-zone-17827791536449"
+        },
+        {
+          "token": "NES",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年6月24日 20:10 (UTC+8) 上線 Nesa (NES) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536448"
+        },
+        {
+          "token": "ANET",
+          "type": "跟单合约",
+          "detail": "ANET（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
+        },
+        {
+          "token": "ETN",
+          "type": "跟单合约",
+          "detail": "ETN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
+        },
+        {
+          "token": "CCJ",
+          "type": "跟单合约",
+          "detail": "CCJ（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
+        },
+        {
+          "token": "APD",
+          "type": "跟单合约",
+          "detail": "APD（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
+        },
+        {
+          "token": "MAME",
+          "type": "跟单合约",
+          "detail": "MAME（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442"
+        },
+        {
+          "token": "XBI",
+          "type": "跟单合约",
+          "detail": "XBI（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442"
+        },
+        {
+          "token": "MVLL",
+          "type": "跟单合约",
+          "detail": "MVLL（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442"
+        }
+      ]
+    }
+  }
+}
