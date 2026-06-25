@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-19",
   "weekEnd": "2026-06-25",
-  "updatedAt": "2026-06-25T12:48:54.719Z",
+  "updatedAt": "2026-06-25T14:01:06.610Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -682,9 +682,9 @@
           ]
         },
         {
-          "token": "USDT5",
+          "token": "USDT6",
           "type": "上线",
-          "detail": "每日闪兑打卡挑战：天天闪兑，单日最高领 140 USDT5 小时前451",
+          "detail": "每日闪兑打卡挑战：天天闪兑，单日最高领 140 USDT6 小时前513",
           "url": "https://www.gate.com/zh/announcements/article/100340",
           "dates": [
             "2026-06-25"
@@ -693,7 +693,7 @@
         {
           "token": "SKHYNIX3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 SKHYNIX3L/3S、SOXL3L/3S8 小时前432",
+          "detail": "Gate ETF 上线 SKHYNIX3L/3S、SOXL3L/3S10 小时前472",
           "url": "https://www.gate.com/zh/announcements/article/100333",
           "dates": [
             "2026-06-25"
@@ -858,6 +858,15 @@
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603887322",
           "dates": [
             "2026-06-24",
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "EVAA",
+          "type": "上线",
+          "detail": "EVAAUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887480",
+          "dates": [
             "2026-06-25"
           ]
         },
@@ -1298,12 +1307,20 @@
           ]
         },
         {
-          "token": "MAME",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年6月24日 13:00 (UTC+8) 上線 MAMEUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mameusdt-futures-in-innovation-zone-on-jun-24-2026-05-17827791536440",
+          "token": "SP500",
+          "type": "现货上线",
+          "detail": "SP500（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451",
           "dates": [
-            "2026-06-24",
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "SPCX",
+          "type": "现货上线",
+          "detail": "SPCX（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451",
+          "dates": [
             "2026-06-25"
           ]
         },
@@ -1323,6 +1340,15 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mvll-usdt-m-index-futures-on-jun-23-with-0-fee-trading-17827791536432",
           "dates": [
             "2026-06-23",
+            "2026-06-24"
+          ]
+        },
+        {
+          "token": "MAME",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月24日 13:00 (UTC+8) 上線 MAMEUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mameusdt-futures-in-innovation-zone-on-jun-24-2026-05-17827791536440",
+          "dates": [
             "2026-06-24"
           ]
         },

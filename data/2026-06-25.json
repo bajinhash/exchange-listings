@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "updatedAt": "2026-06-25T12:48:54.547Z",
+  "updatedAt": "2026-06-25T14:01:06.428Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -91,19 +91,19 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 收益加速季：闪兑交易 USD1，持有收益再加码5 小时前461",
+          "detail": "USD1 收益加速季：闪兑交易 USD1，持有收益再加码6 小时前521",
           "url": "https://www.gate.com/zh/announcements/article/100342"
         },
         {
-          "token": "USDT5",
+          "token": "USDT6",
           "type": "上线",
-          "detail": "每日闪兑打卡挑战：天天闪兑，单日最高领 140 USDT5 小时前451",
+          "detail": "每日闪兑打卡挑战：天天闪兑，单日最高领 140 USDT6 小时前513",
           "url": "https://www.gate.com/zh/announcements/article/100340"
         },
         {
           "token": "SKHYNIX3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 SKHYNIX3L/3S、SOXL3L/3S8 小时前432",
+          "detail": "Gate ETF 上线 SKHYNIX3L/3S、SOXL3L/3S10 小时前472",
           "url": "https://www.gate.com/zh/announcements/article/100333"
         }
       ]
@@ -115,6 +115,12 @@
           "type": "现货上线",
           "detail": "Nesa（NES）将上线 AI 专区",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603887325"
+        },
+        {
+          "token": "EVAA",
+          "type": "上线",
+          "detail": "EVAAUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887480"
         },
         {
           "token": "RAM",
@@ -144,6 +150,18 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "SP500",
+          "type": "现货上线",
+          "detail": "SP500（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451"
+        },
+        {
+          "token": "SPCX",
+          "type": "现货上线",
+          "detail": "SPCX（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451"
+        },
         {
           "token": "NES",
           "type": "跟单合约",
@@ -233,12 +251,6 @@
           "type": "美股合约",
           "detail": "APD（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441"
-        },
-        {
-          "token": "MAME",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年6月24日 13:00 (UTC+8) 上線 MAMEUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mameusdt-futures-in-innovation-zone-on-jun-24-2026-05-17827791536440"
         }
       ]
     }
