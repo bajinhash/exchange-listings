@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-19",
   "weekEnd": "2026-06-25",
-  "updatedAt": "2026-06-25T12:39:51.652Z",
+  "updatedAt": "2026-06-25T12:48:54.719Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -684,7 +684,7 @@
         {
           "token": "USDT5",
           "type": "上线",
-          "detail": "每日闪兑打卡挑战：天天闪兑，单日最高领 140 USDT5 小时前444",
+          "detail": "每日闪兑打卡挑战：天天闪兑，单日最高领 140 USDT5 小时前451",
           "url": "https://www.gate.com/zh/announcements/article/100340",
           "dates": [
             "2026-06-25"
@@ -693,7 +693,7 @@
         {
           "token": "SKHYNIX3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 SKHYNIX3L/3S、SOXL3L/3S8 小时前428",
+          "detail": "Gate ETF 上线 SKHYNIX3L/3S、SOXL3L/3S8 小时前432",
           "url": "https://www.gate.com/zh/announcements/article/100333",
           "dates": [
             "2026-06-25"
@@ -858,6 +858,15 @@
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603887322",
           "dates": [
             "2026-06-24",
+            "2026-06-25"
+          ]
+        },
+        {
+          "token": "RAM",
+          "type": "美股合约",
+          "detail": "Bitget首发上线RAMUSDT股票永续合约-两倍做多存储芯片板块！",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887479",
+          "dates": [
             "2026-06-25"
           ]
         },
