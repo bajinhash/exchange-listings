@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "updatedAt": "2026-06-26T12:30:50.187Z",
+  "updatedAt": "2026-06-26T13:59:48.327Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -65,34 +65,34 @@
     "gateio": {
       "listings": [
         {
-          "token": "DLLL",
+          "token": "HONX",
           "type": "上线",
-          "detail": "DLLL（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100348"
+          "detail": "HONX（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100366"
         },
         {
-          "token": "INTW",
+          "token": "CRWDX",
           "type": "上线",
-          "detail": "INTW（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100348"
+          "detail": "CRWDX（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100366"
         },
         {
-          "token": "USD1",
+          "token": "CRWD",
           "type": "上线",
-          "detail": "USD1 收益加速季：闪兑交易 USD1，持有收益再加码8 小时前652",
-          "url": "https://www.gate.com/zh/announcements/article/100342"
+          "detail": "Gate 关于 CRWD (CrowdStrike) 股票拆股进行相关调整的公告6 小时前281",
+          "url": "https://www.gate.com/zh/announcements/article/100360"
         },
         {
-          "token": "USDT9",
+          "token": "HON",
           "type": "上线",
-          "detail": "每日闪兑打卡挑战：天天闪兑，单日最高领 140 USDT9 小时前628",
-          "url": "https://www.gate.com/zh/announcements/article/100340"
+          "detail": "Gate 关于 HON（霍尼韦尔）股票合股进行相关调整的公告6 小时前265",
+          "url": "https://www.gate.com/zh/announcements/article/100356"
         },
         {
-          "token": "SKHYNIX3L",
-          "type": "上线",
-          "detail": "Gate ETF 上线 SKHYNIX3L/3S、SOXL3L/3S12 小时前535",
-          "url": "https://www.gate.com/zh/announcements/article/100333"
+          "token": "KBHLD",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 KBHLD（建滔集团 00148.HK）等 3 个永续合...7 小时前1,189",
+          "url": "https://www.gate.com/zh/announcements/article/100355"
         }
       ]
     },
