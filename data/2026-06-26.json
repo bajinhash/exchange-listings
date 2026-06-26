@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "updatedAt": "2026-06-26T13:59:48.327Z",
+  "updatedAt": "2026-06-26T15:26:25.922Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -79,19 +79,19 @@
         {
           "token": "CRWD",
           "type": "上线",
-          "detail": "Gate 关于 CRWD (CrowdStrike) 股票拆股进行相关调整的公告6 小时前281",
+          "detail": "Gate 关于 CRWD (CrowdStrike) 股票拆股进行相关调整的公告7 小时前325",
           "url": "https://www.gate.com/zh/announcements/article/100360"
         },
         {
           "token": "HON",
           "type": "上线",
-          "detail": "Gate 关于 HON（霍尼韦尔）股票合股进行相关调整的公告6 小时前265",
+          "detail": "Gate 关于 HON（霍尼韦尔）股票合股进行相关调整的公告8 小时前301",
           "url": "https://www.gate.com/zh/announcements/article/100356"
         },
         {
           "token": "KBHLD",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 KBHLD（建滔集团 00148.HK）等 3 个永续合...7 小时前1,189",
+          "detail": "Gate 合约股票专区将上线 KBHLD（建滔集团 00148.HK）等 3 个永续合...9 小时前1,246",
           "url": "https://www.gate.com/zh/announcements/article/100355"
         }
       ]
