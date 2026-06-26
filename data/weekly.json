@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-06-20",
-  "weekEnd": "2026-06-26",
-  "updatedAt": "2026-06-26T15:26:26.091Z",
+  "weekStart": "2026-06-21",
+  "weekEnd": "2026-06-27",
+  "updatedAt": "2026-06-26T16:34:03.681Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -161,7 +161,8 @@
           "detail": "Binance Alpha 上线 CAP - CAP 是一个引入超额托管抵押与金融担保机制的加密信贷平台。 用传统金融的严苛风控，重新定义 Web3 资产的极致安全边界。",
           "url": "https://www.binance.com/en/alpha/bsc/0x99991c6aabba5a096f24f250b73580f5179b9999",
           "dates": [
-            "2026-06-26"
+            "2026-06-26",
+            "2026-06-27"
           ]
         },
         {
@@ -686,7 +687,8 @@
           "detail": "HONX（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/100366",
           "dates": [
-            "2026-06-26"
+            "2026-06-26",
+            "2026-06-27"
           ]
         },
         {
@@ -695,7 +697,8 @@
           "detail": "CRWDX（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/100366",
           "dates": [
-            "2026-06-26"
+            "2026-06-26",
+            "2026-06-27"
           ]
         },
         {
@@ -859,15 +862,6 @@
           "url": "https://www.gate.com/zh/announcements/article/100267",
           "dates": [
             "2026-06-22"
-          ]
-        },
-        {
-          "token": "INTU",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 INTU（财捷集团）、TER（泰瑞达）等 8 个...1 天前2,575",
-          "url": "https://www.gate.com/zh/announcements/article/100241",
-          "dates": [
-            "2026-06-20"
           ]
         }
       ]
@@ -1186,7 +1180,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536488",
           "dates": [
             "2026-06-25",
-            "2026-06-26"
+            "2026-06-26",
+            "2026-06-27"
           ]
         },
         {
@@ -1196,7 +1191,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451",
           "dates": [
             "2026-06-25",
-            "2026-06-26"
+            "2026-06-26",
+            "2026-06-27"
           ]
         },
         {
@@ -1206,7 +1202,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451",
           "dates": [
             "2026-06-25",
-            "2026-06-26"
+            "2026-06-26",
+            "2026-06-27"
           ]
         },
         {
@@ -1216,7 +1213,38 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-nes-usdt-m-futures-17827791536478",
           "dates": [
             "2026-06-25",
-            "2026-06-26"
+            "2026-06-26",
+            "2026-06-27"
+          ]
+        },
+        {
+          "token": "CAP",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年6月26日 20:10 (UTC+8) 上線 Cap (CAP) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536496",
+          "dates": [
+            "2026-06-26",
+            "2026-06-27"
+          ]
+        },
+        {
+          "token": "ADVANTEST",
+          "type": "现货上线",
+          "detail": "ADVANTEST（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451",
+          "dates": [
+            "2026-06-26",
+            "2026-06-27"
+          ]
+        },
+        {
+          "token": "ADVANTESTSTOCK",
+          "type": "现货上线",
+          "detail": "ADVANTESTSTOCK（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451",
+          "dates": [
+            "2026-06-26",
+            "2026-06-27"
           ]
         },
         {
@@ -1247,15 +1275,6 @@
           ]
         },
         {
-          "token": "CAP",
-          "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年6月26日 20:10 (UTC+8) 上線 Cap (CAP) USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536496",
-          "dates": [
-            "2026-06-26"
-          ]
-        },
-        {
           "token": "ADVANTESTSTOCK",
           "type": "美股合约",
           "detail": "ADVANTESTSTOCK（同公告含 2 个标的）",
@@ -1269,24 +1288,6 @@
           "type": "美股合约",
           "detail": "TOKYOELSTOCK（同公告含 2 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536494",
-          "dates": [
-            "2026-06-26"
-          ]
-        },
-        {
-          "token": "ADVANTEST",
-          "type": "现货上线",
-          "detail": "ADVANTEST（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451",
-          "dates": [
-            "2026-06-26"
-          ]
-        },
-        {
-          "token": "ADVANTESTSTOCK",
-          "type": "现货上线",
-          "detail": "ADVANTESTSTOCK（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451",
           "dates": [
             "2026-06-26"
           ]
@@ -1725,35 +1726,7 @@
           "detail": "MEXC 合約創新板塊將於 2026年6月20日 21:15 (UTC+8) 上線 ZEROUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536388",
           "dates": [
-            "2026-06-20",
             "2026-06-21"
-          ]
-        },
-        {
-          "token": "ZERO",
-          "type": "Meme+ 现货",
-          "detail": "ZERO 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536386",
-          "dates": [
-            "2026-06-20"
-          ]
-        },
-        {
-          "token": "ALAB",
-          "type": "跟单合约",
-          "detail": "ALAB（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-alab-and-ter-usdt-m-futures-17827791536380",
-          "dates": [
-            "2026-06-20"
-          ]
-        },
-        {
-          "token": "TER",
-          "type": "跟单合约",
-          "detail": "TER（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-alab-and-ter-usdt-m-futures-17827791536380",
-          "dates": [
-            "2026-06-20"
           ]
         }
       ]
