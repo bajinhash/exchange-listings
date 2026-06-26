@@ -1,20 +1,66 @@
 {
   "date": "2026-06-26",
-  "updatedAt": "2026-06-25T16:42:03.131Z",
+  "updatedAt": "2026-06-26T12:26:30.200Z",
   "exchanges": {
     "binance": {
       "listings": [],
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "CAP",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CAP - CAP 是一个引入超额托管抵押与金融担保机制的加密信贷平台。 用传统金融的严苛风控，重新定义 Web3 资产的极致安全边界。",
+          "url": "https://www.binance.com/en/alpha/bsc/0x99991c6aabba5a096f24f250b73580f5179b9999"
+        }
+      ],
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "CAP",
+          "type": "永续合约",
+          "detail": "OKX 關於 CAP 永續合約正式上線的公告發佈於 2026年6月26日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-cap-crypto"
+        }
+      ]
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "ASML",
+          "type": "永续合约",
+          "detail": "ASMLUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-asmlusdt-perpetual-contract-with-up-to-25x-leverage-blt62af8e37f8db88d4/"
+        },
+        {
+          "token": "HPE",
+          "type": "永续合约",
+          "detail": "HPEUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-hpeusdt-perpetual-contract-with-up-to-20x-leverage-blt6c1c66df5aff8cfa/"
+        },
+        {
+          "token": "KLAC",
+          "type": "永续合约",
+          "detail": "KLACUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-klacusdt-perpetual-contract-with-up-to-20x-leverage-bltdceced7873e7e16c/"
+        }
+      ]
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "ESIM",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: ESIMUSDT Perpetual Contract with Up to 10x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-esimusdt-perpetual-contract-with-up-to-10x-leverage"
+        },
+        {
+          "token": "CAP",
+          "type": "现货上线",
+          "detail": "World Premiere: Cap (CAP) Listed on KuCoinTrading: 12:00 on June 26, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-cap-cap-listed-on-kucoin"
+        }
+      ]
     },
     "gateio": {
       "listings": [
@@ -29,11 +75,107 @@
           "type": "上线",
           "detail": "INTW（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/100348"
+        },
+        {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "USD1 收益加速季：闪兑交易 USD1，持有收益再加码8 小时前652",
+          "url": "https://www.gate.com/zh/announcements/article/100342"
+        },
+        {
+          "token": "USDT9",
+          "type": "上线",
+          "detail": "每日闪兑打卡挑战：天天闪兑，单日最高领 140 USDT9 小时前628",
+          "url": "https://www.gate.com/zh/announcements/article/100340"
+        },
+        {
+          "token": "SKHYNIX3L",
+          "type": "上线",
+          "detail": "Gate ETF 上线 SKHYNIX3L/3S、SOXL3L/3S12 小时前535",
+          "url": "https://www.gate.com/zh/announcements/article/100333"
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "rRAM",
+          "type": "现货上线",
+          "detail": "rRAM（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rDXYZ",
+          "type": "现货上线",
+          "detail": "rDXYZ（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rNVD",
+          "type": "现货上线",
+          "detail": "rNVD（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rNVDL",
+          "type": "现货上线",
+          "detail": "rNVDL（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rSPMO",
+          "type": "现货上线",
+          "detail": "rSPMO（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rSMTC",
+          "type": "现货上线",
+          "detail": "rSMTC（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rSTRC",
+          "type": "现货上线",
+          "detail": "rSTRC（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rQQQI",
+          "type": "现货上线",
+          "detail": "rQQQI（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rASST",
+          "type": "现货上线",
+          "detail": "rASST（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rSCHD",
+          "type": "现货上线",
+          "detail": "rSCHD（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rDHI",
+          "type": "现货上线",
+          "detail": "rDHI（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rYUM",
+          "type": "现货上线",
+          "detail": "rYUM（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "rAMP",
+          "type": "现货上线",
+          "detail": "rAMP（同公告含 13 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
         {
           "token": "EVAA",
           "type": "上线",
@@ -58,69 +200,75 @@
       "listings": [
         {
           "token": "WEN",
+          "type": "跟单合约",
+          "detail": "WEN（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-wen-advantest-and-tokyoel-usdt-m-futures-17827791536499"
+        },
+        {
+          "token": "ADVANTEST",
+          "type": "跟单合约",
+          "detail": "ADVANTEST（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-wen-advantest-and-tokyoel-usdt-m-futures-17827791536499"
+        },
+        {
+          "token": "TOKYOEL",
+          "type": "跟单合约",
+          "detail": "TOKYOEL（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-wen-advantest-and-tokyoel-usdt-m-futures-17827791536499"
+        },
+        {
+          "token": "CAP",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年6月26日 20:10 (UTC+8) 上線 Cap (CAP) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536496"
+        },
+        {
+          "token": "ADVANTESTSTOCK",
+          "type": "美股合约",
+          "detail": "ADVANTESTSTOCK（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536494"
+        },
+        {
+          "token": "TOKYOELSTOCK",
+          "type": "美股合约",
+          "detail": "TOKYOELSTOCK（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536494"
+        },
+        {
+          "token": "WEN",
           "type": "美股合约",
           "detail": "新美股合約上線：WEN USDT 本位合約將於 6月25日 上線，限時享受 0 費",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536488"
         },
         {
-          "token": "ASE",
-          "type": "上线",
-          "detail": "MEXC 將於創新區上線 Asentum (ASE)，瓜分 6,900,000 ASE & 10,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-asentum-ase-in-innovation-zone-with-6-900-000-ase-10-000-usdt-airdrop-rewards-17827791536422"
+          "token": "ADVANTEST",
+          "type": "现货上线",
+          "detail": "ADVANTEST（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451"
         },
         {
-          "token": "MAME",
-          "type": "上线",
-          "detail": "MAME 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-mame-to-innovation-zone-17827791536449"
+          "token": "ADVANTESTSTOCK",
+          "type": "现货上线",
+          "detail": "ADVANTESTSTOCK（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451"
+        },
+        {
+          "token": "SP500",
+          "type": "现货上线",
+          "detail": "SP500（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451"
+        },
+        {
+          "token": "SPCX",
+          "type": "现货上线",
+          "detail": "SPCX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451"
         },
         {
           "token": "NES",
-          "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年6月24日 20:10 (UTC+8) 上線 Nesa (NES) USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536448"
-        },
-        {
-          "token": "ANET",
           "type": "跟单合约",
-          "detail": "ANET（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
-        },
-        {
-          "token": "ETN",
-          "type": "跟单合约",
-          "detail": "ETN（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
-        },
-        {
-          "token": "CCJ",
-          "type": "跟单合约",
-          "detail": "CCJ（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
-        },
-        {
-          "token": "APD",
-          "type": "跟单合约",
-          "detail": "APD（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
-        },
-        {
-          "token": "MAME",
-          "type": "跟单合约",
-          "detail": "MAME（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442"
-        },
-        {
-          "token": "XBI",
-          "type": "跟单合约",
-          "detail": "XBI（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442"
-        },
-        {
-          "token": "MVLL",
-          "type": "跟单合约",
-          "detail": "MVLL（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442"
+          "detail": "MEXC 跟單新增 NES U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-nes-usdt-m-futures-17827791536478"
         }
       ]
     }
