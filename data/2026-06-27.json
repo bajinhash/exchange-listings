@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "updatedAt": "2026-06-27T13:01:04.913Z",
+  "updatedAt": "2026-06-27T14:27:54.534Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -26,9 +26,15 @@
     "gateio": {
       "listings": [
         {
+          "token": "CAP",
+          "type": "永续合约",
+          "detail": "Gate 已上线 CAP 永续合约交易（USDT 结算）2 小时前1,194",
+          "url": "https://www.gate.com/zh/announcements/article/100371"
+        },
+        {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息收益的公告10 小时前756",
+          "detail": "关于调整 USD1 持币生息收益的公告13 小时前874",
           "url": "https://www.gate.com/zh/announcements/article/100370"
         },
         {
@@ -46,25 +52,32 @@
         {
           "token": "CRWD",
           "type": "上线",
-          "detail": "Gate 关于 CRWD (CrowdStrike) 股票拆股进行相关调整的公告1 天前657",
+          "detail": "Gate 关于 CRWD (CrowdStrike) 股票拆股进行相关调整的公告1 天前687",
           "url": "https://www.gate.com/zh/announcements/article/100360"
         },
         {
           "token": "HON",
           "type": "上线",
-          "detail": "Gate 关于 HON（霍尼韦尔）股票合股进行相关调整的公告1 天前611",
+          "detail": "Gate 关于 HON（霍尼韦尔）股票合股进行相关调整的公告1 天前638",
           "url": "https://www.gate.com/zh/announcements/article/100356"
         },
         {
           "token": "KBHLD",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 KBHLD（建滔集团 00148.HK）等 3 个永续合...1 天前1,867",
+          "detail": "Gate 合约股票专区将上线 KBHLD（建滔集团 00148.HK）等 3 个永续合...1 天前1,920",
           "url": "https://www.gate.com/zh/announcements/article/100355"
         }
       ]
     },
     "bitget": {
-      "listings": []
+      "listings": [
+        {
+          "token": "CAP",
+          "type": "上线",
+          "detail": "CAPUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887564"
+        }
+      ]
     },
     "mexc": {
       "listings": [

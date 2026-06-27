@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-21",
   "weekEnd": "2026-06-27",
-  "updatedAt": "2026-06-27T13:01:05.089Z",
+  "updatedAt": "2026-06-27T14:27:54.710Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -750,6 +750,15 @@
           ]
         },
         {
+          "token": "CAP",
+          "type": "永续合约",
+          "detail": "Gate 已上线 CAP 永续合约交易（USDT 结算）2 小时前1,194",
+          "url": "https://www.gate.com/zh/announcements/article/100371",
+          "dates": [
+            "2026-06-27"
+          ]
+        },
+        {
           "token": "DLLL",
           "type": "上线",
           "detail": "DLLL（同公告含 2 个标的）",
@@ -880,6 +889,15 @@
     },
     "bitget": {
       "listings": [
+        {
+          "token": "CAP",
+          "type": "上线",
+          "detail": "CAPUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887564",
+          "dates": [
+            "2026-06-27"
+          ]
+        },
         {
           "token": "rSTRC",
           "type": "现货上线",
