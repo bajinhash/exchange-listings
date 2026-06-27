@@ -1,9 +1,16 @@
 {
   "date": "2026-06-27",
-  "updatedAt": "2026-06-26T16:34:03.512Z",
+  "updatedAt": "2026-06-27T11:52:44.572Z",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "CAP",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+          "url": "https://www.binance.com/en/support/announcement/a444dd2f67da43e0bafdd730fddc3887"
+        }
+      ],
       "alpha": [
         {
           "token": "CAP",
@@ -26,6 +33,12 @@
     "gateio": {
       "listings": [
         {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "关于调整 USD1 持币生息收益的公告10 小时前742",
+          "url": "https://www.gate.com/zh/announcements/article/100370"
+        },
+        {
           "token": "HONX",
           "type": "上线",
           "detail": "HONX（同公告含 2 个标的）",
@@ -36,6 +49,24 @@
           "type": "上线",
           "detail": "CRWDX（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/100366"
+        },
+        {
+          "token": "CRWD",
+          "type": "上线",
+          "detail": "Gate 关于 CRWD (CrowdStrike) 股票拆股进行相关调整的公告1 天前654",
+          "url": "https://www.gate.com/zh/announcements/article/100360"
+        },
+        {
+          "token": "HON",
+          "type": "上线",
+          "detail": "Gate 关于 HON（霍尼韦尔）股票合股进行相关调整的公告1 天前610",
+          "url": "https://www.gate.com/zh/announcements/article/100356"
+        },
+        {
+          "token": "KBHLD",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 KBHLD（建滔集团 00148.HK）等 3 个永续合...1 天前1,863",
+          "url": "https://www.gate.com/zh/announcements/article/100355"
         }
       ]
     },
@@ -46,45 +77,39 @@
       "listings": [
         {
           "token": "WEN",
-          "type": "美股合约",
-          "detail": "新美股合約上線：WEN USDT 本位合約將於 6月25日 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536488"
+          "type": "跟单合约",
+          "detail": "WEN（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-wen-advantest-and-tokyoel-usdt-m-futures-17827791536499"
         },
         {
           "token": "ADVANTEST",
-          "type": "现货上线",
-          "detail": "ADVANTEST（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451"
-        },
-        {
-          "token": "ADVANTESTSTOCK",
-          "type": "现货上线",
-          "detail": "ADVANTESTSTOCK（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451"
-        },
-        {
-          "token": "SP500",
-          "type": "现货上线",
-          "detail": "SP500（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451"
-        },
-        {
-          "token": "SPCX",
-          "type": "现货上线",
-          "detail": "SPCX（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jun-25-2026-17827791536451"
-        },
-        {
-          "token": "NES",
           "type": "跟单合约",
-          "detail": "MEXC 跟單新增 NES U本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-nes-usdt-m-futures-17827791536478"
+          "detail": "ADVANTEST（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-wen-advantest-and-tokyoel-usdt-m-futures-17827791536499"
+        },
+        {
+          "token": "TOKYOEL",
+          "type": "跟单合约",
+          "detail": "TOKYOEL（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-wen-advantest-and-tokyoel-usdt-m-futures-17827791536499"
         },
         {
           "token": "CAP",
           "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Cap (CAP) 並支援閃兌服務",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536474"
+          "detail": "全球首發：MEXC 將於 2026年6月26日 20:10 (UTC+8) 上線 Cap (CAP) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536496"
+        },
+        {
+          "token": "ADVANTESTSTOCK",
+          "type": "美股合约",
+          "detail": "ADVANTESTSTOCK（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536494"
+        },
+        {
+          "token": "TOKYOELSTOCK",
+          "type": "美股合约",
+          "detail": "TOKYOELSTOCK（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536494"
         }
       ]
     }
