@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-21",
   "weekEnd": "2026-06-27",
-  "updatedAt": "2026-06-27T12:01:51.836Z",
+  "updatedAt": "2026-06-27T13:01:05.089Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -170,8 +170,7 @@
           "detail": "Binance Alpha 上线 CAP - CAP 是一个引入超额托管抵押与金融担保机制的加密信贷平台。 用传统金融的严苛风控，重新定义 Web3 资产的极致安全边界。",
           "url": "https://www.binance.com/en/alpha/bsc/0x99991c6aabba5a096f24f250b73580f5179b9999",
           "dates": [
-            "2026-06-26",
-            "2026-06-27"
+            "2026-06-26"
           ]
         },
         {
