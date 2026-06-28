@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "updatedAt": "2026-06-28T11:59:18.750Z",
+  "updatedAt": "2026-06-28T12:08:14.030Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -24,7 +24,20 @@
       "listings": []
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "CAP",
+          "type": "永续合约",
+          "detail": "Gate 已上线 CAP 永续合约交易（USDT 结算）1 天前2,521",
+          "url": "https://www.gate.com/zh/announcements/article/100371"
+        },
+        {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "关于调整 USD1 持币生息收益的公告1 天前1,445",
+          "url": "https://www.gate.com/zh/announcements/article/100370"
+        }
+      ]
     },
     "bitget": {
       "listings": [

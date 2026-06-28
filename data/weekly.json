@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-22",
   "weekEnd": "2026-06-28",
-  "updatedAt": "2026-06-28T11:59:18.927Z",
+  "updatedAt": "2026-06-28T12:08:14.211Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -696,7 +696,18 @@
           "url": "https://www.gate.com/zh/announcements/article/100342",
           "dates": [
             "2026-06-25",
-            "2026-06-27"
+            "2026-06-27",
+            "2026-06-28"
+          ]
+        },
+        {
+          "token": "CAP",
+          "type": "永续合约",
+          "detail": "Gate 已上线 CAP 永续合约交易（USDT 结算）2 小时前1,194",
+          "url": "https://www.gate.com/zh/announcements/article/100371",
+          "dates": [
+            "2026-06-27",
+            "2026-06-28"
           ]
         },
         {
@@ -746,15 +757,6 @@
           "url": "https://www.gate.com/zh/announcements/article/100355",
           "dates": [
             "2026-06-26",
-            "2026-06-27"
-          ]
-        },
-        {
-          "token": "CAP",
-          "type": "永续合约",
-          "detail": "Gate 已上线 CAP 永续合约交易（USDT 结算）2 小时前1,194",
-          "url": "https://www.gate.com/zh/announcements/article/100371",
-          "dates": [
             "2026-06-27"
           ]
         },
