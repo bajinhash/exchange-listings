@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-28",
+  "updatedAt": "2026-06-28T11:59:18.750Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "CAP",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+          "url": "https://www.binance.com/en/support/announcement/a444dd2f67da43e0bafdd730fddc3887"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CAP",
+          "type": "上线",
+          "detail": "CAPUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887564"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ANSEM",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月28日 15:40 (UTC+8) 上線 ANSEMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536538"
+        },
+        {
+          "token": "ANSEM",
+          "type": "上线",
+          "detail": "ANSEM 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-ansem-to-innovation-zone-17827791536537"
+        },
+        {
+          "token": "ANSEM",
+          "type": "Meme+ 现货",
+          "detail": "ANSEM 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536536"
+        }
+      ]
+    }
+  }
+}

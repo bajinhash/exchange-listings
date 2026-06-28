@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-06-21",
-  "weekEnd": "2026-06-27",
-  "updatedAt": "2026-06-27T14:27:54.710Z",
+  "weekStart": "2026-06-22",
+  "weekEnd": "2026-06-28",
+  "updatedAt": "2026-06-28T11:59:18.927Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -11,7 +11,8 @@
           "detail": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
           "url": "https://www.binance.com/en/support/announcement/a444dd2f67da43e0bafdd730fddc3887",
           "dates": [
-            "2026-06-27"
+            "2026-06-27",
+            "2026-06-28"
           ]
         },
         {
@@ -185,10 +186,9 @@
         {
           "token": "ARX",
           "type": "上线",
-          "detail": "Binance Alpha 上线 ARX (Arcium) — @BinanceWallet 公告",
-          "url": "https://x.com/BinanceWallet/status/2068589999826825385",
+          "detail": "Binance Alpha 上线 ARX - 服务于区块链、AI、企业及政府的机密超级计算机",
+          "url": "https://www.binance.com/en/alpha/bsc/0xd5f6ef5deabe61e6d5cdb49bfb6f156f2c1ca715",
           "dates": [
-            "2026-06-21",
             "2026-06-22"
           ]
         }
@@ -895,7 +895,8 @@
           "detail": "CAPUSDT 现已上线合约交易和交易BOT",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603887564",
           "dates": [
-            "2026-06-27"
+            "2026-06-27",
+            "2026-06-28"
           ]
         },
         {
@@ -1203,6 +1204,33 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "ANSEM",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月28日 15:40 (UTC+8) 上線 ANSEMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536538",
+          "dates": [
+            "2026-06-28"
+          ]
+        },
+        {
+          "token": "ANSEM",
+          "type": "上线",
+          "detail": "ANSEM 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-ansem-to-innovation-zone-17827791536537",
+          "dates": [
+            "2026-06-28"
+          ]
+        },
+        {
+          "token": "ANSEM",
+          "type": "Meme+ 现货",
+          "detail": "ANSEM 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536536",
+          "dates": [
+            "2026-06-28"
+          ]
+        },
         {
           "token": "WEN",
           "type": "跟单合约",
@@ -1623,16 +1651,6 @@
           ]
         },
         {
-          "token": "ZERO",
-          "type": "上线",
-          "detail": "ZERO 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-zero-to-innovation-zone-17827791536389",
-          "dates": [
-            "2026-06-21",
-            "2026-06-22"
-          ]
-        },
-        {
           "token": "VST",
           "type": "美股合约",
           "detail": "VST（同公告含 2 个标的）",
@@ -1751,11 +1769,11 @@
         },
         {
           "token": "ZERO",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年6月20日 21:15 (UTC+8) 上線 ZEROUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536388",
+          "type": "上线",
+          "detail": "ZERO 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-zero-to-innovation-zone-17827791536389",
           "dates": [
-            "2026-06-21"
+            "2026-06-22"
           ]
         }
       ]
