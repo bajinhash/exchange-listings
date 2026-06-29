@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "updatedAt": "2026-06-29T14:38:16.497Z",
+  "updatedAt": "2026-06-29T15:28:03.670Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -121,31 +121,31 @@
         {
           "token": "NVIDIA",
           "type": "上线",
-          "detail": "Gate 关于已完成英伟达（NVIDIA）等 141 只股票股息派发公告3 小时前302",
+          "detail": "Gate 关于已完成英伟达（NVIDIA）等 141 只股票股息派发公告3 小时前398",
           "url": "https://www.gate.com/zh/announcements/article/100388"
         },
         {
           "token": "BTC",
           "type": "永续合约",
-          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（7 月 1 日 00:00 – 00:30 UTC+8）7 小时前569",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（7 月 1 日 00:00 – 00:30 UTC+8）8 小时前619",
           "url": "https://www.gate.com/zh/announcements/article/100387"
         },
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX 福利中心正式上线：完成成长任务，最高领取 5,400+ USDT 奖励 + 免 Gas...7 小时前909",
+          "detail": "Gate DEX 福利中心正式上线：完成成长任务，最高领取 5,400+ USDT 奖励 + 免 Gas...8 小时前993",
           "url": "https://www.gate.com/zh/announcements/article/100386"
         },
         {
           "token": "HCWB",
           "type": "上线",
-          "detail": "Gate 关于 HCWB (HCW Biologics Inc.)、UVIX（两倍做多 VIX 期货 ETF）ETF 股票合股进行...8 小时前336",
+          "detail": "Gate 关于 HCWB (HCW Biologics Inc.)、UVIX（两倍做多 VIX 期货 ETF）ETF 股票合股进行...9 小时前361",
           "url": "https://www.gate.com/zh/announcements/article/100381"
         },
         {
           "token": "BTC9",
           "type": "上线",
-          "detail": "华语合约火力周：交易达标领 $188，冲榜独享 $5,888 等值 BTC9 小时前353",
+          "detail": "华语合约火力周：交易达标领 $188，冲榜独享 $5,888 等值 BTC9 小时前368",
           "url": "https://www.gate.com/zh/announcements/article/100379"
         }
       ]
@@ -192,6 +192,12 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "SOLANGELES",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月29日 23:45 (UTC+8) 上線 SOLANGELESUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536552"
+        },
         {
           "token": "ANSEM",
           "type": "跟单合约",
