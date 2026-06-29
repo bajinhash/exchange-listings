@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-23",
   "weekEnd": "2026-06-29",
-  "updatedAt": "2026-06-29T14:25:21.081Z",
+  "updatedAt": "2026-06-29T14:38:16.648Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -745,7 +745,7 @@
         {
           "token": "NVIDIA",
           "type": "上线",
-          "detail": "Gate 关于已完成英伟达（NVIDIA）等 141 只股票股息派发公告2 小时前283",
+          "detail": "Gate 关于已完成英伟达（NVIDIA）等 141 只股票股息派发公告3 小时前302",
           "url": "https://www.gate.com/zh/announcements/article/100388",
           "dates": [
             "2026-06-29"
@@ -754,7 +754,7 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX 福利中心正式上线：完成成长任务，最高领取 5,400+ USDT 奖励 + 免 Gas...7 小时前878",
+          "detail": "Gate DEX 福利中心正式上线：完成成长任务，最高领取 5,400+ USDT 奖励 + 免 Gas...7 小时前909",
           "url": "https://www.gate.com/zh/announcements/article/100386",
           "dates": [
             "2026-06-29"
@@ -763,16 +763,16 @@
         {
           "token": "HCWB",
           "type": "上线",
-          "detail": "Gate 关于 HCWB (HCW Biologics Inc.)、UVIX（两倍做多 VIX 期货 ETF）ETF 股票合股进行...8 小时前329",
+          "detail": "Gate 关于 HCWB (HCW Biologics Inc.)、UVIX（两倍做多 VIX 期货 ETF）ETF 股票合股进行...8 小时前336",
           "url": "https://www.gate.com/zh/announcements/article/100381",
           "dates": [
             "2026-06-29"
           ]
         },
         {
-          "token": "BTC8",
+          "token": "BTC9",
           "type": "上线",
-          "detail": "华语合约火力周：交易达标领 $188，冲榜独享 $5,888 等值 BTC8 小时前344",
+          "detail": "华语合约火力周：交易达标领 $188，冲榜独享 $5,888 等值 BTC9 小时前353",
           "url": "https://www.gate.com/zh/announcements/article/100379",
           "dates": [
             "2026-06-29"
