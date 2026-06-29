@@ -1,0 +1,147 @@
+{
+  "date": "2026-06-30",
+  "updatedAt": "2026-06-29T16:38:28.396Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "MSTRB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 MSTRB - Strategy (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xe87afb3076aeb0f9b14e368de8145ae6a2826a14"
+        },
+        {
+          "token": "INTCB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 INTCB - Intel (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xe614e2fc6c787035ff51f452e8e826bfd32d5283"
+        },
+        {
+          "token": "AMDB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AMDB - Advanced Micro Devices (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x75fd4cf6f8392e41e70391d60c90c0d5211603a1"
+        },
+        {
+          "token": "SPCXB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SPCXB - SpaceX (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1"
+        },
+        {
+          "token": "SNDKB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SNDKB - SanDisk (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x3ee4df61bd4f867e349beae8bfe07bc31b4850fb"
+        },
+        {
+          "token": "MUB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 MUB - Micron Technology (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xcdf2f3e0fa43c47a6662a91c9e4a7c5f69762699"
+        },
+        {
+          "token": "CRCLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CRCLB - Circle Internet Group (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x80f3d493ebce97e343c53d29a137942416b4ffc0"
+        },
+        {
+          "token": "NVDAB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NVDAB - NVIDIA (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x02fca66c1d1afb4e2a7884261eb00f63598a7436"
+        },
+        {
+          "token": "TSLAB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 TSLAB - Tesla (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x5b1910eaad6450e50f816082aa078c41f10c292f"
+        },
+        {
+          "token": "EWYB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 EWYB - iShares MSCI South Korea ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xbe82f76637dba2c114c41df856c2c51e522e2cb8"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "NVIDIA",
+          "type": "上线",
+          "detail": "Gate 关于已完成英伟达（NVIDIA）等 141 只股票股息派发公告5 小时前489",
+          "url": "https://www.gate.com/zh/announcements/article/100388"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "VOO",
+          "type": "美股合约",
+          "detail": "VOO（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887644"
+        },
+        {
+          "token": "SOXX",
+          "type": "美股合约",
+          "detail": "SOXX（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887644"
+        },
+        {
+          "token": "PDD",
+          "type": "美股合约",
+          "detail": "PDD（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887644"
+        },
+        {
+          "token": "WEN",
+          "type": "美股合约",
+          "detail": "WEN（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887644"
+        },
+        {
+          "token": "RE",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 RE/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887628"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SOLANGELES",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月29日 23:45 (UTC+8) 上線 SOLANGELESUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536552"
+        },
+        {
+          "token": "ANSEM",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月28日 15:40 (UTC+8) 上線 ANSEMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536538"
+        },
+        {
+          "token": "ANSEM",
+          "type": "上线",
+          "detail": "ANSEM 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-ansem-to-innovation-zone-17827791536537"
+        }
+      ]
+    }
+  }
+}
