@@ -1,10 +1,19 @@
 {
   "weekStart": "2026-06-24",
   "weekEnd": "2026-06-30",
-  "updatedAt": "2026-06-30T13:39:03.313Z",
+  "updatedAt": "2026-06-30T15:29:19.867Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "BTCU",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+          "url": "https://www.binance.com/en/support/announcement/25da4614ffff435fa28544b27fd33a39",
+          "dates": [
+            "2026-06-30"
+          ]
+        },
         {
           "token": "LITEB",
           "type": "现货上线",
@@ -126,6 +135,51 @@
         }
       ],
       "alpha": [
+        {
+          "token": "MSFTB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 MSFTB - Microsoft (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x80106cb3ead06659a5ad19df39d9b4733863b9b0",
+          "dates": [
+            "2026-06-30"
+          ]
+        },
+        {
+          "token": "PLTRB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 PLTRB - Palantir (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x0ca5d51d0277bd006fd9607d3e560785ebad8222",
+          "dates": [
+            "2026-06-30"
+          ]
+        },
+        {
+          "token": "LITEB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 LITEB - Lumentum (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x64748bea17b6d19e242adf20425de2440c656142",
+          "dates": [
+            "2026-06-30"
+          ]
+        },
+        {
+          "token": "METAB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 METAB - Meta (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x7425889fe94f9d693e8daefe88bcced6acfef4c0",
+          "dates": [
+            "2026-06-30"
+          ]
+        },
+        {
+          "token": "QQQB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 QQQB - Invesco QQQ Trust (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x205812cdbed920aff76c6580abd681a46d11efc7",
+          "dates": [
+            "2026-06-30"
+          ]
+        },
         {
           "token": "MSTRB",
           "type": "上线",
@@ -686,18 +740,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "USD1",
-          "type": "上线",
-          "detail": "USD1 收益加速季：闪兑交易 USD1，持有收益再加码7 小时前599",
-          "url": "https://www.gate.com/zh/announcements/article/100342",
-          "dates": [
-            "2026-06-25",
-            "2026-06-27",
-            "2026-06-28",
-            "2026-06-30"
-          ]
-        },
-        {
           "token": "DEX",
           "type": "上线",
           "detail": "Gate DEX 福利中心正式上线：完成成长任务，最高领取 5,400+ USDT 奖励 + 免 Gas...8 小时前993",
@@ -742,6 +784,17 @@
           "url": "https://www.gate.com/zh/announcements/article/100379",
           "dates": [
             "2026-06-29"
+          ]
+        },
+        {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "USD1 收益加速季：闪兑交易 USD1，持有收益再加码7 小时前599",
+          "url": "https://www.gate.com/zh/announcements/article/100342",
+          "dates": [
+            "2026-06-25",
+            "2026-06-27",
+            "2026-06-28"
           ]
         },
         {
@@ -1326,6 +1379,51 @@
           ]
         },
         {
+          "token": "SLS",
+          "type": "美股合约",
+          "detail": "SLS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536574",
+          "dates": [
+            "2026-06-30"
+          ]
+        },
+        {
+          "token": "MVLL",
+          "type": "美股合约",
+          "detail": "MVLL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536574",
+          "dates": [
+            "2026-06-30"
+          ]
+        },
+        {
+          "token": "CATSTOCK",
+          "type": "美股合约",
+          "detail": "CATSTOCK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536574",
+          "dates": [
+            "2026-06-30"
+          ]
+        },
+        {
+          "token": "GS",
+          "type": "美股合约",
+          "detail": "GS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536574",
+          "dates": [
+            "2026-06-30"
+          ]
+        },
+        {
+          "token": "ARKK",
+          "type": "美股合约",
+          "detail": "ARKK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536574",
+          "dates": [
+            "2026-06-30"
+          ]
+        },
+        {
           "token": "TJR",
           "type": "上线",
           "detail": "TJR 將遷移至創新區",
@@ -1335,36 +1433,36 @@
           ]
         },
         {
-          "token": "ADM",
+          "token": "CATSTOCK",
           "type": "现货上线",
-          "detail": "ADM（同公告含 5 个标的）",
+          "detail": "CATSTOCK（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
           "dates": [
             "2026-06-30"
           ]
         },
         {
-          "token": "AZN",
+          "token": "GS",
           "type": "现货上线",
-          "detail": "AZN（同公告含 5 个标的）",
+          "detail": "GS（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
           "dates": [
             "2026-06-30"
           ]
         },
         {
-          "token": "IBKR",
+          "token": "MVLL",
           "type": "现货上线",
-          "detail": "IBKR（同公告含 5 个标的）",
+          "detail": "MVLL（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
           "dates": [
             "2026-06-30"
           ]
         },
         {
-          "token": "SBUX",
+          "token": "SLS",
           "type": "现货上线",
-          "detail": "SBUX（同公告含 5 个标的）",
+          "detail": "SLS（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
           "dates": [
             "2026-06-30"
