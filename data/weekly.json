@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-24",
   "weekEnd": "2026-06-30",
-  "updatedAt": "2026-06-30T12:28:56.964Z",
+  "updatedAt": "2026-06-30T13:39:03.313Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -686,23 +686,14 @@
     "gateio": {
       "listings": [
         {
-          "token": "BTC",
-          "type": "永续合约",
-          "detail": "Gate 合约 WebSocket 更新：交割合约及永续合约 BTC 本位新增 OBU 深度频道支持3 小时前212",
-          "url": "https://www.gate.com/zh/announcements/article/100323",
-          "dates": [
-            "2026-06-24",
-            "2026-06-29",
-            "2026-06-30"
-          ]
-        },
-        {
-          "token": "NVIDIA",
+          "token": "USD1",
           "type": "上线",
-          "detail": "Gate 关于已完成英伟达（NVIDIA）等 141 只股票股息派发公告3 小时前398",
-          "url": "https://www.gate.com/zh/announcements/article/100388",
+          "detail": "USD1 收益加速季：闪兑交易 USD1，持有收益再加码7 小时前599",
+          "url": "https://www.gate.com/zh/announcements/article/100342",
           "dates": [
-            "2026-06-29",
+            "2026-06-25",
+            "2026-06-27",
+            "2026-06-28",
             "2026-06-30"
           ]
         },
@@ -717,22 +708,31 @@
           ]
         },
         {
+          "token": "BTC",
+          "type": "永续合约",
+          "detail": "Gate 合约 WebSocket 更新：交割合约及永续合约 BTC 本位新增 OBU 深度频道支持3 小时前212",
+          "url": "https://www.gate.com/zh/announcements/article/100323",
+          "dates": [
+            "2026-06-24",
+            "2026-06-29"
+          ]
+        },
+        {
+          "token": "NVIDIA",
+          "type": "上线",
+          "detail": "Gate 关于已完成英伟达（NVIDIA）等 141 只股票股息派发公告3 小时前398",
+          "url": "https://www.gate.com/zh/announcements/article/100388",
+          "dates": [
+            "2026-06-29"
+          ]
+        },
+        {
           "token": "HCWB",
           "type": "上线",
           "detail": "Gate 关于 HCWB (HCW Biologics Inc.)、UVIX（两倍做多 VIX 期货 ETF）ETF 股票合股进行...9 小时前361",
           "url": "https://www.gate.com/zh/announcements/article/100381",
           "dates": [
-            "2026-06-29",
-            "2026-06-30"
-          ]
-        },
-        {
-          "token": "BTC11",
-          "type": "上线",
-          "detail": "华语合约火力周：交易达标领 $188，冲榜独享 $5,888 等值 BTC11 小时前391",
-          "url": "https://www.gate.com/zh/announcements/article/100379",
-          "dates": [
-            "2026-06-30"
+            "2026-06-29"
           ]
         },
         {
@@ -742,17 +742,6 @@
           "url": "https://www.gate.com/zh/announcements/article/100379",
           "dates": [
             "2026-06-29"
-          ]
-        },
-        {
-          "token": "USD1",
-          "type": "上线",
-          "detail": "USD1 收益加速季：闪兑交易 USD1，持有收益再加码7 小时前599",
-          "url": "https://www.gate.com/zh/announcements/article/100342",
-          "dates": [
-            "2026-06-25",
-            "2026-06-27",
-            "2026-06-28"
           ]
         },
         {

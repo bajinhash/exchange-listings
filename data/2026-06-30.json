@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "updatedAt": "2026-06-30T12:28:56.808Z",
+  "updatedAt": "2026-06-30T13:39:03.136Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -119,34 +119,16 @@
     "gateio": {
       "listings": [
         {
-          "token": "NVIDIA",
-          "type": "上线",
-          "detail": "Gate 关于已完成英伟达（NVIDIA）等 141 只股票股息派发公告5 小时前489",
-          "url": "https://www.gate.com/zh/announcements/article/100388"
-        },
-        {
-          "token": "BTC",
-          "type": "永续合约",
-          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（7 月 1 日 00:00 – 00:30 UTC+8）9 小时前670",
-          "url": "https://www.gate.com/zh/announcements/article/100387"
-        },
-        {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX 福利中心正式上线：完成成长任务，最高领取 5,400+ USDT 奖励 + 免 Gas...9 小时前1,149",
-          "url": "https://www.gate.com/zh/announcements/article/100386"
+          "detail": "Gate DEX Bonus：参与 USDD 质押 BNB 链第四期，享 4% APY + 30,000 USDD 额外奖励4 小时前235",
+          "url": "https://www.gate.com/zh/announcements/article/100411"
         },
         {
-          "token": "HCWB",
+          "token": "USD1",
           "type": "上线",
-          "detail": "Gate 关于 HCWB (HCW Biologics Inc.)、UVIX（两倍做多 VIX 期货 ETF）ETF 股票合股进行...10 小时前388",
-          "url": "https://www.gate.com/zh/announcements/article/100381"
-        },
-        {
-          "token": "BTC11",
-          "type": "上线",
-          "detail": "华语合约火力周：交易达标领 $188，冲榜独享 $5,888 等值 BTC11 小时前391",
-          "url": "https://www.gate.com/zh/announcements/article/100379"
+          "detail": "关于调整 USD1 持币生息收益的公告7 小时前330",
+          "url": "https://www.gate.com/zh/announcements/article/100400"
         }
       ]
     },
