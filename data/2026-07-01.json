@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "updatedAt": "2026-07-01T13:01:18.660Z",
+  "updatedAt": "2026-07-01T14:04:46.787Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -11,38 +11,7 @@
           "url": "https://www.binance.com/en/support/announcement/25da4614ffff435fa28544b27fd33a39"
         }
       ],
-      "alpha": [
-        {
-          "token": "MSFTB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 MSFTB - Microsoft (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x80106cb3ead06659a5ad19df39d9b4733863b9b0"
-        },
-        {
-          "token": "PLTRB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 PLTRB - Palantir (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x0ca5d51d0277bd006fd9607d3e560785ebad8222"
-        },
-        {
-          "token": "LITEB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 LITEB - Lumentum (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x64748bea17b6d19e242adf20425de2440c656142"
-        },
-        {
-          "token": "METAB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 METAB - Meta (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x7425889fe94f9d693e8daefe88bcced6acfef4c0"
-        },
-        {
-          "token": "QQQB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 QQQB - Invesco QQQ Trust (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x205812cdbed920aff76c6580abd681a46d11efc7"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -78,13 +47,13 @@
         {
           "token": "NES",
           "type": "现货上线",
-          "detail": "Gate 将上线 NESA (NES) 现货交易与闪兑交易4 小时前1,213",
+          "detail": "Gate 将上线 NESA (NES) 现货交易与闪兑交易5 小时前1,289",
           "url": "https://www.gate.com/zh/announcements/article/100445"
         },
         {
-          "token": "MU5",
+          "token": "MU6",
           "type": "上线",
-          "detail": "美光 MU 空投：报名 0 门槛抽美股，CFD 交易最高得 8 股 MU5 小时前452",
+          "detail": "美光 MU 空投：报名 0 门槛抽美股，CFD 交易最高得 8 股 MU6 小时前518",
           "url": "https://www.gate.com/zh/announcements/article/100443"
         }
       ]
