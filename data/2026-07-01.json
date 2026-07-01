@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "updatedAt": "2026-07-01T14:04:46.787Z",
+  "updatedAt": "2026-07-01T15:41:21.189Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -47,13 +47,13 @@
         {
           "token": "NES",
           "type": "现货上线",
-          "detail": "Gate 将上线 NESA (NES) 现货交易与闪兑交易5 小时前1,289",
+          "detail": "Gate 将上线 NESA (NES) 现货交易与闪兑交易7 小时前1,382",
           "url": "https://www.gate.com/zh/announcements/article/100445"
         },
         {
-          "token": "MU6",
+          "token": "MU8",
           "type": "上线",
-          "detail": "美光 MU 空投：报名 0 门槛抽美股，CFD 交易最高得 8 股 MU6 小时前518",
+          "detail": "美光 MU 空投：报名 0 门槛抽美股，CFD 交易最高得 8 股 MU8 小时前592",
           "url": "https://www.gate.com/zh/announcements/article/100443"
         }
       ]
