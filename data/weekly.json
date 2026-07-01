@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-25",
   "weekEnd": "2026-07-01",
-  "updatedAt": "2026-06-30T16:37:01.819Z",
+  "updatedAt": "2026-07-01T12:52:18.375Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -378,6 +378,15 @@
           ]
         },
         {
+          "token": "BOT",
+          "type": "永续合约",
+          "detail": "BOTUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-botusdt-perpetual-contract-with-up-to-20x-leverage-blt773ea6e7dd2c5d10/",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
           "token": "ALAB",
           "type": "永续合约",
           "detail": "ALABUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
@@ -520,6 +529,24 @@
     },
     "gateio": {
       "listings": [
+        {
+          "token": "NES",
+          "type": "现货上线",
+          "detail": "Gate 将上线 NESA (NES) 现货交易与闪兑交易4 小时前1,207",
+          "url": "https://www.gate.com/zh/announcements/article/100445",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "MU5",
+          "type": "上线",
+          "detail": "美光 MU 空投：报名 0 门槛抽美股，CFD 交易最高得 8 股 MU5 小时前451",
+          "url": "https://www.gate.com/zh/announcements/article/100443",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
         {
           "token": "DEX",
           "type": "上线",
@@ -1015,39 +1042,6 @@
     "mexc": {
       "listings": [
         {
-          "token": "SOLANGELES",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年6月29日 23:45 (UTC+8) 上線 SOLANGELESUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536552",
-          "dates": [
-            "2026-06-29",
-            "2026-06-30",
-            "2026-07-01"
-          ]
-        },
-        {
-          "token": "ANSEM",
-          "type": "跟单合约",
-          "detail": "ANSEM（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ansem-and-cap-usdt-m-futures-17827791536545",
-          "dates": [
-            "2026-06-29",
-            "2026-06-30",
-            "2026-07-01"
-          ]
-        },
-        {
-          "token": "CAP",
-          "type": "跟单合约",
-          "detail": "CAP（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ansem-and-cap-usdt-m-futures-17827791536545",
-          "dates": [
-            "2026-06-29",
-            "2026-06-30",
-            "2026-07-01"
-          ]
-        },
-        {
           "token": "SLS",
           "type": "美股合约",
           "detail": "SLS（同公告含 5 个标的）",
@@ -1103,7 +1097,8 @@
           "detail": "TJR 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-tjr-to-innovation-zone-17827791536570",
           "dates": [
-            "2026-06-30"
+            "2026-06-30",
+            "2026-07-01"
           ]
         },
         {
@@ -1112,7 +1107,8 @@
           "detail": "CATSTOCK（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
           "dates": [
-            "2026-06-30"
+            "2026-06-30",
+            "2026-07-01"
           ]
         },
         {
@@ -1121,7 +1117,8 @@
           "detail": "GS（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
           "dates": [
-            "2026-06-30"
+            "2026-06-30",
+            "2026-07-01"
           ]
         },
         {
@@ -1130,7 +1127,8 @@
           "detail": "MVLL（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
           "dates": [
-            "2026-06-30"
+            "2026-06-30",
+            "2026-07-01"
           ]
         },
         {
@@ -1139,6 +1137,286 @@
           "detail": "SLS（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
           "dates": [
+            "2026-06-30",
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "TJR",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月30日 14:50 (UTC+8) 上線 TJRUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536567",
+          "dates": [
+            "2026-06-30",
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "AZN",
+          "type": "美股合约",
+          "detail": "AZN（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536559",
+          "dates": [
+            "2026-06-30",
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "IBKR",
+          "type": "美股合约",
+          "detail": "IBKR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536559",
+          "dates": [
+            "2026-06-30",
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "SBUX",
+          "type": "美股合约",
+          "detail": "SBUX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536559",
+          "dates": [
+            "2026-06-30",
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "ADM",
+          "type": "美股合约",
+          "detail": "ADM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536559",
+          "dates": [
+            "2026-06-30",
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "BIDU",
+          "type": "美股合约",
+          "detail": "BIDU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536559",
+          "dates": [
+            "2026-06-30",
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "SOFI",
+          "type": "美股合约",
+          "detail": "SOFI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536608",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "MXL",
+          "type": "美股合约",
+          "detail": "MXL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536608",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "PENG",
+          "type": "美股合约",
+          "detail": "PENG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536608",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "NVTS",
+          "type": "美股合约",
+          "detail": "NVTS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536608",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "NU",
+          "type": "美股合约",
+          "detail": "NU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536608",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "SOLANGELES",
+          "type": "跟单合约",
+          "detail": "SOLANGELES（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-solangeles-and-tjr-usdt-m-futures-17827791536591",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "TJR",
+          "type": "跟单合约",
+          "detail": "TJR（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-solangeles-and-tjr-usdt-m-futures-17827791536591",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "BKNG",
+          "type": "美股合约",
+          "detail": "BKNG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536583",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "COF",
+          "type": "美股合约",
+          "detail": "COF（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536583",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "DDOG",
+          "type": "美股合约",
+          "detail": "DDOG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536583",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "HAL",
+          "type": "美股合约",
+          "detail": "HAL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536583",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "KHC",
+          "type": "美股合约",
+          "detail": "KHC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536583",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "BKNG",
+          "type": "现货上线",
+          "detail": "BKNG（同公告含 13 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "COF",
+          "type": "现货上线",
+          "detail": "COF（同公告含 13 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "DDOG",
+          "type": "现货上线",
+          "detail": "DDOG（同公告含 13 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "HAL",
+          "type": "现货上线",
+          "detail": "HAL（同公告含 13 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "MXL",
+          "type": "现货上线",
+          "detail": "MXL（同公告含 13 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "NVTS",
+          "type": "现货上线",
+          "detail": "NVTS（同公告含 13 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "PENG",
+          "type": "现货上线",
+          "detail": "PENG（同公告含 13 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "SOFI",
+          "type": "现货上线",
+          "detail": "SOFI（同公告含 13 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "SOLANGELES",
+          "type": "现货上线",
+          "detail": "SOLANGELES（同公告含 13 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
+          "dates": [
+            "2026-07-01"
+          ]
+        },
+        {
+          "token": "SOLANGELES",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年6月29日 23:45 (UTC+8) 上線 SOLANGELESUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536552",
+          "dates": [
+            "2026-06-29",
+            "2026-06-30"
+          ]
+        },
+        {
+          "token": "ANSEM",
+          "type": "跟单合约",
+          "detail": "ANSEM（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ansem-and-cap-usdt-m-futures-17827791536545",
+          "dates": [
+            "2026-06-29",
+            "2026-06-30"
+          ]
+        },
+        {
+          "token": "CAP",
+          "type": "跟单合约",
+          "detail": "CAP（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ansem-and-cap-usdt-m-futures-17827791536545",
+          "dates": [
+            "2026-06-29",
             "2026-06-30"
           ]
         },
@@ -1147,15 +1425,6 @@
           "type": "现货上线",
           "detail": "TJR（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550",
-          "dates": [
-            "2026-06-30"
-          ]
-        },
-        {
-          "token": "TJR",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年6月30日 14:50 (UTC+8) 上線 TJRUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536567",
           "dates": [
             "2026-06-30"
           ]
@@ -1174,51 +1443,6 @@
           "type": "Meme+ 现货",
           "detail": "FLORK 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536560",
-          "dates": [
-            "2026-06-30"
-          ]
-        },
-        {
-          "token": "AZN",
-          "type": "美股合约",
-          "detail": "AZN（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536559",
-          "dates": [
-            "2026-06-30"
-          ]
-        },
-        {
-          "token": "IBKR",
-          "type": "美股合约",
-          "detail": "IBKR（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536559",
-          "dates": [
-            "2026-06-30"
-          ]
-        },
-        {
-          "token": "SBUX",
-          "type": "美股合约",
-          "detail": "SBUX（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536559",
-          "dates": [
-            "2026-06-30"
-          ]
-        },
-        {
-          "token": "ADM",
-          "type": "美股合约",
-          "detail": "ADM（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536559",
-          "dates": [
-            "2026-06-30"
-          ]
-        },
-        {
-          "token": "BIDU",
-          "type": "美股合约",
-          "detail": "BIDU（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536559",
           "dates": [
             "2026-06-30"
           ]
