@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-26",
   "weekEnd": "2026-07-02",
-  "updatedAt": "2026-07-02T13:30:34.096Z",
+  "updatedAt": "2026-07-02T15:10:14.506Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -670,9 +670,9 @@
           ]
         },
         {
-          "token": "USDT5",
+          "token": "USDT7",
           "type": "上线",
-          "detail": "闪兑新人专享好礼：1 USDT 开启，最高解锁 888 USDT5 小时前600",
+          "detail": "闪兑新人专享好礼：1 USDT 开启，最高解锁 888 USDT7 小时前708",
           "url": "https://www.gate.com/zh/announcements/article/100469",
           "dates": [
             "2026-07-02"
@@ -681,7 +681,7 @@
         {
           "token": "LR",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 LR (Ledger Realms)6 小时前199",
+          "detail": "Gate Alpha 首发上线 LR (Ledger Realms)7 小时前241",
           "url": "https://www.gate.com/zh/announcements/article/100466",
           "dates": [
             "2026-07-02"

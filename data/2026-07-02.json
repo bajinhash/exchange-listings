@@ -1,6 +1,6 @@
 {
   "date": "2026-07-02",
-  "updatedAt": "2026-07-02T13:30:33.930Z",
+  "updatedAt": "2026-07-02T15:10:14.337Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -167,21 +167,21 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT5",
+          "token": "USDT7",
           "type": "上线",
-          "detail": "闪兑新人专享好礼：1 USDT 开启，最高解锁 888 USDT5 小时前600",
+          "detail": "闪兑新人专享好礼：1 USDT 开启，最高解锁 888 USDT7 小时前708",
           "url": "https://www.gate.com/zh/announcements/article/100469"
         },
         {
           "token": "LR",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 LR (Ledger Realms)6 小时前199",
+          "detail": "Gate Alpha 首发上线 LR (Ledger Realms)7 小时前241",
           "url": "https://www.gate.com/zh/announcements/article/100466"
         },
         {
           "token": "NES",
           "type": "现货上线",
-          "detail": "Gate 将上线 NESA (NES) 现货交易与闪兑交易1 天前2,187",
+          "detail": "Gate 将上线 NESA (NES) 现货交易与闪兑交易1 天前2,225",
           "url": "https://www.gate.com/zh/announcements/article/100445"
         }
       ]
