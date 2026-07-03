@@ -1,9 +1,15 @@
 {
   "date": "2026-07-03",
-  "updatedAt": "2026-07-02T16:20:38.236Z",
+  "updatedAt": "2026-07-03T12:27:00.033Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "DATAIP",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+          "url": "https://www.binance.com/en/support/announcement/98d978c5630041c49a6bd317daa791e8"
+        },
         {
           "token": "ETHUSD1",
           "type": "永续合约",
@@ -11,21 +17,51 @@
           "url": "https://www.binance.com/en/support/announcement/23c9b8e88309409cbcd8509af0b78d10"
         }
       ],
-      "alpha": [
-        {
-          "token": "DATAIP",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 DATAIP - The DATA Network is the open protocol where real human data is sourced, proven,",
-          "url": "https://www.binance.com/en/alpha/bsc/0xa37eded373c5cdf88644db7c6b89f222e756afb2"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "VVV",
+          "type": "永续合约",
+          "detail": "OKX 關於 VVVUSD X-合約（X-Perp）正式上線的公告發佈於 2026年7月3日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-vvvusd-expiry-x-perp"
+        },
+        {
+          "token": "BASED",
+          "type": "永续合约",
+          "detail": "OKX 關於 BASEDUSD，XLMUSD X-合約（X-Perp）正式上線的公告發佈於 2026年7月3日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-basedusd-and-xlmusd-expiry-x-perps"
+        },
+        {
+          "token": "SOFTBANK",
+          "type": "永续合约",
+          "detail": "OKX 關於 SOFTBANKUSD X-合約（X-Perp）正式上線的公告發佈於 2026年7月3日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-softbankusd-equity-x-perp"
+        }
+      ]
     },
     "bybit": {
       "listings": [
+        {
+          "token": "HIMS",
+          "type": "永续合约",
+          "detail": "HIMSUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-himsusdt-perpetual-contract-with-up-to-20x-leverage-blta41a28e3e686ee2c/"
+        },
+        {
+          "token": "FLEX",
+          "type": "永续合约",
+          "detail": "FLEXUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-flexusdt-perpetual-contract-with-up-to-20x-leverage-bltad34bd2feefc7838/"
+        },
+        {
+          "token": "CRWD",
+          "type": "永续合约",
+          "detail": "CRWDUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-crwdusdt-perpetual-contract-with-up-to-20x-leverage-blt63db1ed88fc5b6ad/"
+        },
         {
           "token": "TER",
           "type": "永续合约",
@@ -47,20 +83,45 @@
       ]
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "DATA",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: DATAUSDT Perpetual Contract with Up to 30x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-datausdt-perpetual-contract-with-up-to-30x-leverage"
+        }
+      ]
     },
     "gateio": {
       "listings": [
         {
-          "token": "NES",
-          "type": "现货上线",
-          "detail": "Gate 将上线 NESA (NES) 现货交易与闪兑交易1 天前2,260",
-          "url": "https://www.gate.com/zh/announcements/article/100445"
+          "token": "USDT4",
+          "type": "上线",
+          "detail": "余币宝理财双周打卡，天天领 100 USDT4 小时前331",
+          "url": "https://www.gate.com/zh/announcements/article/100489"
+        },
+        {
+          "token": "SPCXG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...6 小时前1,549",
+          "url": "https://www.gate.com/zh/announcements/article/100484"
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "DATAUSDC",
+          "type": "上线",
+          "detail": "DATAUSDC 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888182"
+        },
+        {
+          "token": "SKHY",
+          "type": "永续合约",
+          "detail": "Bitget 首发上线SKHYUSDT【IPO 盘前永续合约】| 提前博弈 SK 海力士美股上市，抢跑 AI 内存兆级赛道定价权！",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888019"
+        },
         {
           "token": "DATA",
           "type": "上线",
@@ -71,6 +132,48 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "SP500USDC",
+          "type": "现货上线",
+          "detail": "MEXC to List SP500USDC and SOXLUSDC Index Futures on Jul 3 with 0-Fee Trading",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-sp500usdc-and-soxlusdc-index-futures-on-jul-3-with-0-fee-trading-17827791536668"
+        },
+        {
+          "token": "XAU",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年7月3日 19:45 (UTC+8) 上線 GOLD(XAU)USDC 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gold-xau-usdc-futures-on-jul-3-2026-11-17827791536667"
+        },
+        {
+          "token": "BSP",
+          "type": "跟单合约",
+          "detail": "BSP（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657"
+        },
+        {
+          "token": "FLEX",
+          "type": "跟单合约",
+          "detail": "FLEX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657"
+        },
+        {
+          "token": "TTWO",
+          "type": "跟单合约",
+          "detail": "TTWO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657"
+        },
+        {
+          "token": "KSTR",
+          "type": "跟单合约",
+          "detail": "KSTR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657"
+        },
+        {
+          "token": "STRC",
+          "type": "跟单合约",
+          "detail": "STRC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657"
+        },
         {
           "token": "BSP",
           "type": "美股合约",
@@ -102,94 +205,94 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536641"
         },
         {
-          "token": "AZN",
+          "token": "SOFI",
           "type": "跟单合约",
-          "detail": "AZN（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-azn-ibkr-sbux-adm-and-bidu-usdt-m-futures-17827791536615"
+          "detail": "SOFI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sofi-mxl-peng-nvts-and-nu-usdt-m-futures-17827791536637"
         },
         {
-          "token": "IBKR",
+          "token": "MXL",
           "type": "跟单合约",
-          "detail": "IBKR（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-azn-ibkr-sbux-adm-and-bidu-usdt-m-futures-17827791536615"
+          "detail": "MXL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sofi-mxl-peng-nvts-and-nu-usdt-m-futures-17827791536637"
         },
         {
-          "token": "SBUX",
+          "token": "PENG",
           "type": "跟单合约",
-          "detail": "SBUX（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-azn-ibkr-sbux-adm-and-bidu-usdt-m-futures-17827791536615"
+          "detail": "PENG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sofi-mxl-peng-nvts-and-nu-usdt-m-futures-17827791536637"
         },
         {
-          "token": "ADM",
+          "token": "NVTS",
           "type": "跟单合约",
-          "detail": "ADM（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-azn-ibkr-sbux-adm-and-bidu-usdt-m-futures-17827791536615"
+          "detail": "NVTS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sofi-mxl-peng-nvts-and-nu-usdt-m-futures-17827791536637"
         },
         {
-          "token": "BIDU",
+          "token": "NU",
           "type": "跟单合约",
-          "detail": "BIDU（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-azn-ibkr-sbux-adm-and-bidu-usdt-m-futures-17827791536615"
+          "detail": "NU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sofi-mxl-peng-nvts-and-nu-usdt-m-futures-17827791536637"
         },
         {
-          "token": "RTX",
+          "token": "MARA",
           "type": "跟单合约",
-          "detail": "RTX（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-rtx-nio-avav-smr-and-aehr-usdt-m-futures-17827791536614"
+          "detail": "MARA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mara-syf-afrm-data-and-aergo-usdt-m-futures-17827791536636"
         },
         {
-          "token": "NIO",
+          "token": "SYF",
           "type": "跟单合约",
-          "detail": "NIO（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-rtx-nio-avav-smr-and-aehr-usdt-m-futures-17827791536614"
+          "detail": "SYF（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mara-syf-afrm-data-and-aergo-usdt-m-futures-17827791536636"
         },
         {
-          "token": "AVAV",
+          "token": "AFRM",
           "type": "跟单合约",
-          "detail": "AVAV（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-rtx-nio-avav-smr-and-aehr-usdt-m-futures-17827791536614"
+          "detail": "AFRM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mara-syf-afrm-data-and-aergo-usdt-m-futures-17827791536636"
         },
         {
-          "token": "SMR",
+          "token": "DATA",
           "type": "跟单合约",
-          "detail": "SMR（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-rtx-nio-avav-smr-and-aehr-usdt-m-futures-17827791536614"
+          "detail": "DATA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mara-syf-afrm-data-and-aergo-usdt-m-futures-17827791536636"
         },
         {
-          "token": "AEHR",
+          "token": "AERGO",
           "type": "跟单合约",
-          "detail": "AEHR（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-rtx-nio-avav-smr-and-aehr-usdt-m-futures-17827791536614"
+          "detail": "AERGO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mara-syf-afrm-data-and-aergo-usdt-m-futures-17827791536636"
         },
         {
-          "token": "SLS",
-          "type": "跟单合约",
-          "detail": "SLS（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sls-mvll-arkk-catstock-and-gs-usdt-m-futures-17827791536613"
+          "token": "MARA",
+          "type": "美股合约",
+          "detail": "MARA（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536631"
         },
         {
-          "token": "MVLL",
-          "type": "跟单合约",
-          "detail": "MVLL（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sls-mvll-arkk-catstock-and-gs-usdt-m-futures-17827791536613"
+          "token": "SYF",
+          "type": "美股合约",
+          "detail": "SYF（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536631"
         },
         {
-          "token": "ARKK",
-          "type": "跟单合约",
-          "detail": "ARKK（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sls-mvll-arkk-catstock-and-gs-usdt-m-futures-17827791536613"
+          "token": "AFRM",
+          "type": "美股合约",
+          "detail": "AFRM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536631"
         },
         {
-          "token": "CATSTOCK",
-          "type": "跟单合约",
-          "detail": "CATSTOCK（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sls-mvll-arkk-catstock-and-gs-usdt-m-futures-17827791536613"
+          "token": "DATA",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年7月2日 12:45 (UTC+8) 上線 DATAUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-datausdt-futures-on-jul-2-2026-04-17827791536630"
         },
         {
-          "token": "GS",
-          "type": "跟单合约",
-          "detail": "GS（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sls-mvll-arkk-catstock-and-gs-usdt-m-futures-17827791536613"
+          "token": "AERGO",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年7月2日 12:45 (UTC+8) 上線 AERGOUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aergousdt-futures-on-jul-2-2026-04-17827791536629"
         }
       ]
     }
