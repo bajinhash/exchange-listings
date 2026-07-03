@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-27",
   "weekEnd": "2026-07-03",
-  "updatedAt": "2026-07-03T12:27:00.214Z",
+  "updatedAt": "2026-07-03T12:36:07.508Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -683,7 +683,7 @@
         {
           "token": "USDT4",
           "type": "上线",
-          "detail": "余币宝理财双周打卡，天天领 100 USDT4 小时前331",
+          "detail": "余币宝理财双周打卡，天天领 100 USDT4 小时前334",
           "url": "https://www.gate.com/zh/announcements/article/100489",
           "dates": [
             "2026-07-03"
@@ -692,7 +692,7 @@
         {
           "token": "SPCXG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...6 小时前1,549",
+          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...6 小时前1,559",
           "url": "https://www.gate.com/zh/announcements/article/100484",
           "dates": [
             "2026-07-03"
@@ -1256,6 +1256,42 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aergousdt-futures-on-jul-2-2026-04-17827791536629",
           "dates": [
             "2026-07-02",
+            "2026-07-03"
+          ]
+        },
+        {
+          "token": "SPCX",
+          "type": "美股合约",
+          "detail": "SPCX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
+          "dates": [
+            "2026-07-03"
+          ]
+        },
+        {
+          "token": "MU",
+          "type": "美股合约",
+          "detail": "MU（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
+          "dates": [
+            "2026-07-03"
+          ]
+        },
+        {
+          "token": "SNDK",
+          "type": "美股合约",
+          "detail": "SNDK（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
+          "dates": [
+            "2026-07-03"
+          ]
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "美股合约",
+          "detail": "SKHYNIX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
+          "dates": [
             "2026-07-03"
           ]
         },

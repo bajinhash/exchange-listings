@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "updatedAt": "2026-07-03T12:27:00.033Z",
+  "updatedAt": "2026-07-03T12:36:07.326Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -97,13 +97,13 @@
         {
           "token": "USDT4",
           "type": "上线",
-          "detail": "余币宝理财双周打卡，天天领 100 USDT4 小时前331",
+          "detail": "余币宝理财双周打卡，天天领 100 USDT4 小时前334",
           "url": "https://www.gate.com/zh/announcements/article/100489"
         },
         {
           "token": "SPCXG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...6 小时前1,549",
+          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...6 小时前1,559",
           "url": "https://www.gate.com/zh/announcements/article/100484"
         }
       ]
@@ -132,6 +132,30 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "SPCX",
+          "type": "美股合约",
+          "detail": "SPCX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670"
+        },
+        {
+          "token": "MU",
+          "type": "美股合约",
+          "detail": "MU（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670"
+        },
+        {
+          "token": "SNDK",
+          "type": "美股合约",
+          "detail": "SNDK（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670"
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "美股合约",
+          "detail": "SKHYNIX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670"
+        },
         {
           "token": "SP500USDC",
           "type": "现货上线",
