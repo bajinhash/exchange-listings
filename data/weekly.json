@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-27",
   "weekEnd": "2026-07-03",
-  "updatedAt": "2026-07-03T13:32:54.971Z",
+  "updatedAt": "2026-07-03T15:06:43.632Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -681,18 +681,19 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT5",
+          "token": "USDT7",
           "type": "上线",
-          "detail": "余币宝理财双周打卡，天天领 100 USDT5 小时前371",
-          "url": "https://www.gate.com/zh/announcements/article/100489",
+          "detail": "闪兑新人专享好礼：1 USDT 开启，最高解锁 888 USDT7 小时前708",
+          "url": "https://www.gate.com/zh/announcements/article/100469",
           "dates": [
+            "2026-07-02",
             "2026-07-03"
           ]
         },
         {
           "token": "SPCXG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...7 小时前1,617",
+          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...9 小时前1,717",
           "url": "https://www.gate.com/zh/announcements/article/100484",
           "dates": [
             "2026-07-03"
@@ -705,15 +706,6 @@
           "url": "https://www.gate.com/zh/announcements/article/100445",
           "dates": [
             "2026-07-01",
-            "2026-07-02"
-          ]
-        },
-        {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "闪兑新人专享好礼：1 USDT 开启，最高解锁 888 USDT7 小时前708",
-          "url": "https://www.gate.com/zh/announcements/article/100469",
-          "dates": [
             "2026-07-02"
           ]
         },
