@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-04",
+  "updatedAt": "2026-07-04T11:51:29.816Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CRWDX",
+          "type": "上线",
+          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明5 小时前375",
+          "url": "https://www.gate.com/zh/announcements/article/100501"
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "余币宝理财双周打卡，天天领 100 USDT1 天前885",
+          "url": "https://www.gate.com/zh/announcements/article/100489"
+        },
+        {
+          "token": "SPCXG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...1 天前2,595",
+          "url": "https://www.gate.com/zh/announcements/article/100484"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "美股合约",
+          "detail": "SPCX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670"
+        },
+        {
+          "token": "MU",
+          "type": "美股合约",
+          "detail": "MU（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670"
+        },
+        {
+          "token": "SNDK",
+          "type": "美股合约",
+          "detail": "SNDK（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670"
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "美股合约",
+          "detail": "SKHYNIX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670"
+        },
+        {
+          "token": "SP500USDC",
+          "type": "现货上线",
+          "detail": "MEXC to List SP500USDC and SOXLUSDC Index Futures on Jul 3 with 0-Fee Trading",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-sp500usdc-and-soxlusdc-index-futures-on-jul-3-with-0-fee-trading-17827791536668"
+        },
+        {
+          "token": "XAU",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年7月3日 19:45 (UTC+8) 上線 GOLD(XAU)USDC 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gold-xau-usdc-futures-on-jul-3-2026-11-17827791536667"
+        },
+        {
+          "token": "BSP",
+          "type": "跟单合约",
+          "detail": "BSP（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657"
+        },
+        {
+          "token": "FLEX",
+          "type": "跟单合约",
+          "detail": "FLEX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657"
+        },
+        {
+          "token": "TTWO",
+          "type": "跟单合约",
+          "detail": "TTWO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657"
+        },
+        {
+          "token": "KSTR",
+          "type": "跟单合约",
+          "detail": "KSTR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657"
+        },
+        {
+          "token": "STRC",
+          "type": "跟单合约",
+          "detail": "STRC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657"
+        }
+      ]
+    }
+  }
+}

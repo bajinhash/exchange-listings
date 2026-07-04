@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-06-27",
-  "weekEnd": "2026-07-03",
-  "updatedAt": "2026-07-03T15:06:43.632Z",
+  "weekStart": "2026-06-28",
+  "weekEnd": "2026-07-04",
+  "updatedAt": "2026-07-04T11:51:30.005Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -193,7 +193,6 @@
           "detail": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
           "url": "https://www.binance.com/en/support/announcement/a444dd2f67da43e0bafdd730fddc3887",
           "dates": [
-            "2026-06-27",
             "2026-06-28"
           ]
         }
@@ -681,21 +680,40 @@
     "gateio": {
       "listings": [
         {
+          "token": "SPCXG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...9 小时前1,717",
+          "url": "https://www.gate.com/zh/announcements/article/100484",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "CRWDX",
+          "type": "上线",
+          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明5 小时前375",
+          "url": "https://www.gate.com/zh/announcements/article/100501",
+          "dates": [
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "余币宝理财双周打卡，天天领 100 USDT1 天前885",
+          "url": "https://www.gate.com/zh/announcements/article/100489",
+          "dates": [
+            "2026-07-04"
+          ]
+        },
+        {
           "token": "USDT7",
           "type": "上线",
           "detail": "闪兑新人专享好礼：1 USDT 开启，最高解锁 888 USDT7 小时前708",
           "url": "https://www.gate.com/zh/announcements/article/100469",
           "dates": [
             "2026-07-02",
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "SPCXG",
-          "type": "上线",
-          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...9 小时前1,717",
-          "url": "https://www.gate.com/zh/announcements/article/100484",
-          "dates": [
             "2026-07-03"
           ]
         },
@@ -776,66 +794,19 @@
         {
           "token": "CAP",
           "type": "永续合约",
-          "detail": "Gate 已上线 CAP 永续合约交易（USDT 结算）2 小时前1,194",
+          "detail": "Gate 已上线 CAP 永续合约交易（USDT 结算）1 天前2,521",
           "url": "https://www.gate.com/zh/announcements/article/100371",
           "dates": [
-            "2026-06-27",
             "2026-06-28"
           ]
         },
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息收益的公告13 小时前874",
+          "detail": "关于调整 USD1 持币生息收益的公告1 天前1,445",
           "url": "https://www.gate.com/zh/announcements/article/100370",
           "dates": [
-            "2026-06-27",
             "2026-06-28"
-          ]
-        },
-        {
-          "token": "HONX",
-          "type": "上线",
-          "detail": "HONX（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100366",
-          "dates": [
-            "2026-06-27"
-          ]
-        },
-        {
-          "token": "CRWDX",
-          "type": "上线",
-          "detail": "CRWDX（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100366",
-          "dates": [
-            "2026-06-27"
-          ]
-        },
-        {
-          "token": "CRWD",
-          "type": "上线",
-          "detail": "Gate 关于 CRWD (CrowdStrike) 股票拆股进行相关调整的公告1 天前687",
-          "url": "https://www.gate.com/zh/announcements/article/100360",
-          "dates": [
-            "2026-06-27"
-          ]
-        },
-        {
-          "token": "HON",
-          "type": "上线",
-          "detail": "Gate 关于 HON（霍尼韦尔）股票合股进行相关调整的公告1 天前638",
-          "url": "https://www.gate.com/zh/announcements/article/100356",
-          "dates": [
-            "2026-06-27"
-          ]
-        },
-        {
-          "token": "KBHLD",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 KBHLD（建滔集团 00148.HK）等 3 个永续合...1 天前1,920",
-          "url": "https://www.gate.com/zh/announcements/article/100355",
-          "dates": [
-            "2026-06-27"
           ]
         }
       ]
@@ -1043,7 +1014,6 @@
           "detail": "CAPUSDT 现已上线合约交易和交易BOT",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603887564",
           "dates": [
-            "2026-06-27",
             "2026-06-28"
           ]
         }
@@ -1051,6 +1021,116 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "SPCX",
+          "type": "美股合约",
+          "detail": "SPCX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "MU",
+          "type": "美股合约",
+          "detail": "MU（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "SNDK",
+          "type": "美股合约",
+          "detail": "SNDK（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "美股合约",
+          "detail": "SKHYNIX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "SP500USDC",
+          "type": "现货上线",
+          "detail": "MEXC to List SP500USDC and SOXLUSDC Index Futures on Jul 3 with 0-Fee Trading",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-sp500usdc-and-soxlusdc-index-futures-on-jul-3-with-0-fee-trading-17827791536668",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "XAU",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年7月3日 19:45 (UTC+8) 上線 GOLD(XAU)USDC 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gold-xau-usdc-futures-on-jul-3-2026-11-17827791536667",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "BSP",
+          "type": "跟单合约",
+          "detail": "BSP（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "FLEX",
+          "type": "跟单合约",
+          "detail": "FLEX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "TTWO",
+          "type": "跟单合约",
+          "detail": "TTWO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "KSTR",
+          "type": "跟单合约",
+          "detail": "KSTR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
+        {
+          "token": "STRC",
+          "type": "跟单合约",
+          "detail": "STRC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04"
+          ]
+        },
         {
           "token": "BSP",
           "type": "美股合约",
@@ -1248,105 +1328,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aergousdt-futures-on-jul-2-2026-04-17827791536629",
           "dates": [
             "2026-07-02",
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "美股合约",
-          "detail": "SPCX（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
-          "dates": [
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "MU",
-          "type": "美股合约",
-          "detail": "MU（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
-          "dates": [
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "SNDK",
-          "type": "美股合约",
-          "detail": "SNDK（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
-          "dates": [
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "SKHYNIX",
-          "type": "美股合约",
-          "detail": "SKHYNIX（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
-          "dates": [
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "SP500USDC",
-          "type": "现货上线",
-          "detail": "MEXC to List SP500USDC and SOXLUSDC Index Futures on Jul 3 with 0-Fee Trading",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-sp500usdc-and-soxlusdc-index-futures-on-jul-3-with-0-fee-trading-17827791536668",
-          "dates": [
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "XAU",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年7月3日 19:45 (UTC+8) 上線 GOLD(XAU)USDC 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gold-xau-usdc-futures-on-jul-3-2026-11-17827791536667",
-          "dates": [
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "BSP",
-          "type": "跟单合约",
-          "detail": "BSP（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657",
-          "dates": [
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "FLEX",
-          "type": "跟单合约",
-          "detail": "FLEX（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657",
-          "dates": [
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "TTWO",
-          "type": "跟单合约",
-          "detail": "TTWO（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657",
-          "dates": [
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "KSTR",
-          "type": "跟单合约",
-          "detail": "KSTR（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657",
-          "dates": [
-            "2026-07-03"
-          ]
-        },
-        {
-          "token": "STRC",
-          "type": "跟单合约",
-          "detail": "STRC（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bsp-flex-ttwo-kstr-and-strc-usdt-m-futures-17827791536657",
-          "dates": [
             "2026-07-03"
           ]
         },
@@ -1905,60 +1886,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536536",
           "dates": [
             "2026-06-28"
-          ]
-        },
-        {
-          "token": "WEN",
-          "type": "跟单合约",
-          "detail": "WEN（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-wen-advantest-and-tokyoel-usdt-m-futures-17827791536499",
-          "dates": [
-            "2026-06-27"
-          ]
-        },
-        {
-          "token": "ADVANTEST",
-          "type": "跟单合约",
-          "detail": "ADVANTEST（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-wen-advantest-and-tokyoel-usdt-m-futures-17827791536499",
-          "dates": [
-            "2026-06-27"
-          ]
-        },
-        {
-          "token": "TOKYOEL",
-          "type": "跟单合约",
-          "detail": "TOKYOEL（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-wen-advantest-and-tokyoel-usdt-m-futures-17827791536499",
-          "dates": [
-            "2026-06-27"
-          ]
-        },
-        {
-          "token": "CAP",
-          "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年6月26日 20:10 (UTC+8) 上線 Cap (CAP) USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536496",
-          "dates": [
-            "2026-06-27"
-          ]
-        },
-        {
-          "token": "ADVANTESTSTOCK",
-          "type": "美股合约",
-          "detail": "ADVANTESTSTOCK（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536494",
-          "dates": [
-            "2026-06-27"
-          ]
-        },
-        {
-          "token": "TOKYOELSTOCK",
-          "type": "美股合约",
-          "detail": "TOKYOELSTOCK（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536494",
-          "dates": [
-            "2026-06-27"
           ]
         }
       ]
