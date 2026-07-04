@@ -1,6 +1,6 @@
 {
   "date": "2026-07-04",
-  "updatedAt": "2026-07-04T11:51:29.816Z",
+  "updatedAt": "2026-07-04T11:58:57.982Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,7 +21,7 @@
         {
           "token": "CRWDX",
           "type": "上线",
-          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明5 小时前375",
+          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明5 小时前380",
           "url": "https://www.gate.com/zh/announcements/article/100501"
         },
         {
@@ -33,7 +33,7 @@
         {
           "token": "SPCXG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...1 天前2,595",
+          "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...1 天前2,597",
           "url": "https://www.gate.com/zh/announcements/article/100484"
         }
       ]
