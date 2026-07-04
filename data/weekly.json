@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-28",
   "weekEnd": "2026-07-04",
-  "updatedAt": "2026-07-04T12:57:52.925Z",
+  "updatedAt": "2026-07-04T14:27:59.533Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -692,7 +692,7 @@
         {
           "token": "CRWDX",
           "type": "上线",
-          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明6 小时前440",
+          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明7 小时前535",
           "url": "https://www.gate.com/zh/announcements/article/100501",
           "dates": [
             "2026-07-04"
@@ -701,7 +701,7 @@
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "余币宝理财双周打卡，天天领 100 USDT1 天前899",
+          "detail": "余币宝理财双周打卡，天天领 100 USDT1 天前918",
           "url": "https://www.gate.com/zh/announcements/article/100489",
           "dates": [
             "2026-07-04"
