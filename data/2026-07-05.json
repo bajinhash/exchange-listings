@@ -1,6 +1,6 @@
 {
   "date": "2026-07-05",
-  "updatedAt": "2026-07-05T12:02:45.984Z",
+  "updatedAt": "2026-07-05T13:04:18.631Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,7 +21,7 @@
         {
           "token": "CRWDX",
           "type": "上线",
-          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明1 天前1,494",
+          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明1 天前1,516",
           "url": "https://www.gate.com/zh/announcements/article/100501"
         }
       ]
