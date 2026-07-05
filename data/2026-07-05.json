@@ -1,0 +1,55 @@
+{
+  "date": "2026-07-05",
+  "updatedAt": "2026-07-05T11:53:49.619Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CRWDX",
+          "type": "上线",
+          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明1 天前1,489",
+          "url": "https://www.gate.com/zh/announcements/article/100501"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "CZ",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年7月5日 18:20 (UTC+8) 起把 CZUSDT 從創新區轉板至主板區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-czusdt-from-innovation-zone-to-main-board-on-jul-5-2026-10-17827791536682"
+        },
+        {
+          "token": "CZ",
+          "type": "Meme+ 现货",
+          "detail": "CZ 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536680"
+        },
+        {
+          "token": "MANLET",
+          "type": "Meme+ 现货",
+          "detail": "MANLET 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536675"
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-06-28",
-  "weekEnd": "2026-07-04",
-  "updatedAt": "2026-07-04T14:27:59.533Z",
+  "weekStart": "2026-06-29",
+  "weekEnd": "2026-07-05",
+  "updatedAt": "2026-07-05T11:53:49.799Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -185,15 +185,6 @@
           "url": "https://www.binance.com/en/support/announcement/8057e105f5724d9bbf29ba416f14149e",
           "dates": [
             "2026-06-29"
-          ]
-        },
-        {
-          "token": "CAP",
-          "type": "永续合约",
-          "detail": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
-          "url": "https://www.binance.com/en/support/announcement/a444dd2f67da43e0bafdd730fddc3887",
-          "dates": [
-            "2026-06-28"
           ]
         }
       ],
@@ -680,21 +671,22 @@
     "gateio": {
       "listings": [
         {
+          "token": "CRWDX",
+          "type": "上线",
+          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明7 小时前535",
+          "url": "https://www.gate.com/zh/announcements/article/100501",
+          "dates": [
+            "2026-07-04",
+            "2026-07-05"
+          ]
+        },
+        {
           "token": "SPCXG",
           "type": "上线",
           "detail": "Gate gStocks 专区新增 SPCXG (SpaceX)、TSLAG（特斯拉）等 15 个 gStocks 代币化证券现...9 小时前1,717",
           "url": "https://www.gate.com/zh/announcements/article/100484",
           "dates": [
             "2026-07-03",
-            "2026-07-04"
-          ]
-        },
-        {
-          "token": "CRWDX",
-          "type": "上线",
-          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明7 小时前535",
-          "url": "https://www.gate.com/zh/announcements/article/100501",
-          "dates": [
             "2026-07-04"
           ]
         },
@@ -789,24 +781,6 @@
           "url": "https://www.gate.com/zh/announcements/article/100379",
           "dates": [
             "2026-06-29"
-          ]
-        },
-        {
-          "token": "CAP",
-          "type": "永续合约",
-          "detail": "Gate 已上线 CAP 永续合约交易（USDT 结算）1 天前2,521",
-          "url": "https://www.gate.com/zh/announcements/article/100371",
-          "dates": [
-            "2026-06-28"
-          ]
-        },
-        {
-          "token": "USD1",
-          "type": "上线",
-          "detail": "关于调整 USD1 持币生息收益的公告1 天前1,445",
-          "url": "https://www.gate.com/zh/announcements/article/100370",
-          "dates": [
-            "2026-06-28"
           ]
         }
       ]
@@ -1007,20 +981,38 @@
           "dates": [
             "2026-06-29"
           ]
-        },
-        {
-          "token": "CAP",
-          "type": "上线",
-          "detail": "CAPUSDT 现已上线合约交易和交易BOT",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887564",
-          "dates": [
-            "2026-06-28"
-          ]
         }
       ]
     },
     "mexc": {
       "listings": [
+        {
+          "token": "CZ",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年7月5日 18:20 (UTC+8) 起把 CZUSDT 從創新區轉板至主板區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-czusdt-from-innovation-zone-to-main-board-on-jul-5-2026-10-17827791536682",
+          "dates": [
+            "2026-07-05"
+          ]
+        },
+        {
+          "token": "CZ",
+          "type": "Meme+ 现货",
+          "detail": "CZ 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536680",
+          "dates": [
+            "2026-07-05"
+          ]
+        },
+        {
+          "token": "MANLET",
+          "type": "Meme+ 现货",
+          "detail": "MANLET 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536675",
+          "dates": [
+            "2026-07-05"
+          ]
+        },
         {
           "token": "SPCX",
           "type": "美股合约",
@@ -1865,7 +1857,6 @@
           "detail": "MEXC 合約創新板塊將於 2026年6月28日 15:40 (UTC+8) 上線 ANSEMUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536538",
           "dates": [
-            "2026-06-28",
             "2026-06-29"
           ]
         },
@@ -1875,17 +1866,7 @@
           "detail": "ANSEM 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-ansem-to-innovation-zone-17827791536537",
           "dates": [
-            "2026-06-28",
             "2026-06-29"
-          ]
-        },
-        {
-          "token": "ANSEM",
-          "type": "Meme+ 现货",
-          "detail": "ANSEM 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536536",
-          "dates": [
-            "2026-06-28"
           ]
         }
       ]
