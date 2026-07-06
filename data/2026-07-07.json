@@ -1,0 +1,67 @@
+{
+  "date": "2026-07-07",
+  "updatedAt": "2026-07-06T16:19:36.711Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DIASTOCK",
+          "type": "美股合约",
+          "detail": "DIASTOCK（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888404"
+        },
+        {
+          "token": "CONL",
+          "type": "美股合约",
+          "detail": "CONL（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888404"
+        },
+        {
+          "token": "MSTU",
+          "type": "美股合约",
+          "detail": "MSTU（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888404"
+        },
+        {
+          "token": "HOME",
+          "type": "杠杆上线",
+          "detail": "HOME（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888375"
+        },
+        {
+          "token": "JST",
+          "type": "杠杆上线",
+          "detail": "JST（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888375"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "CZ",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年7月5日 18:20 (UTC+8) 上線 CZUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536690"
+        }
+      ]
+    }
+  }
+}
