@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-30",
   "weekEnd": "2026-07-06",
-  "updatedAt": "2026-07-06T14:16:38.652Z",
+  "updatedAt": "2026-07-06T14:54:39.387Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -727,7 +727,7 @@
         {
           "token": "NKE",
           "type": "上线",
-          "detail": "Gate 关于已完成耐克（NKE）等 206 只股票股息派发公告6 小时前464",
+          "detail": "Gate 关于已完成耐克（NKE）等 206 只股票股息派发公告6 小时前497",
           "url": "https://www.gate.com/zh/announcements/article/100523",
           "dates": [
             "2026-07-06"
@@ -763,7 +763,7 @@
         {
           "token": "GT",
           "type": "上线",
-          "detail": "2026 年第二季度 GateToken (GT) 链上销毁公告8 小时前5,998",
+          "detail": "2026 年第二季度 GateToken (GT) 链上销毁公告9 小时前6,406",
           "url": "https://www.gate.com/zh/announcements/article/100511",
           "dates": [
             "2026-07-06"
