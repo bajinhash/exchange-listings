@@ -1,6 +1,6 @@
 {
   "date": "2026-07-06",
-  "updatedAt": "2026-07-06T14:07:21.560Z",
+  "updatedAt": "2026-07-06T14:16:38.485Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -157,7 +157,7 @@
         {
           "token": "NKE",
           "type": "上线",
-          "detail": "Gate 关于已完成耐克（NKE）等 206 只股票股息派发公告6 小时前453",
+          "detail": "Gate 关于已完成耐克（NKE）等 206 只股票股息派发公告6 小时前464",
           "url": "https://www.gate.com/zh/announcements/article/100523"
         },
         {
@@ -181,13 +181,31 @@
         {
           "token": "GT",
           "type": "上线",
-          "detail": "2026 年第二季度 GateToken (GT) 链上销毁公告8 小时前5,836",
+          "detail": "2026 年第二季度 GateToken (GT) 链上销毁公告8 小时前5,998",
           "url": "https://www.gate.com/zh/announcements/article/100511"
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "DIASTOCK",
+          "type": "美股合约",
+          "detail": "DIASTOCK（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888404"
+        },
+        {
+          "token": "CONL",
+          "type": "美股合约",
+          "detail": "CONL（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888404"
+        },
+        {
+          "token": "MSTU",
+          "type": "美股合约",
+          "detail": "MSTU（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888404"
+        },
         {
           "token": "HOME",
           "type": "杠杆上线",
