@@ -1,6 +1,6 @@
 {
   "date": "2026-07-07",
-  "updatedAt": "2026-07-07T12:50:46.205Z",
+  "updatedAt": "2026-07-07T14:03:20.830Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -114,25 +114,25 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 & USDT 理财季火热开启，最高享 100% 年化收益3 小时前312",
+          "detail": "USD1 & USDT 理财季火热开启，最高享 100% 年化收益4 小时前404",
           "url": "https://www.gate.com/zh/announcements/article/100548"
         },
         {
           "token": "GUSD",
           "type": "上线",
-          "detail": "闪兑 GUSD 奖励加码，链上赚币享 3.8% 年化5 小时前319",
+          "detail": "闪兑 GUSD 奖励加码，链上赚币享 3.8% 年化6 小时前364",
           "url": "https://www.gate.com/zh/announcements/article/100543"
         },
         {
           "token": "FREEDOM",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 FREEDOM (FREEDOM)7 小时前260",
+          "detail": "Gate Alpha 首发上线 FREEDOM (FREEDOM)8 小时前287",
           "url": "https://www.gate.com/zh/announcements/article/100537"
         },
         {
           "token": "ANTA",
           "type": "上线",
-          "detail": "Gate 股票已上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美...10 小时前1,210",
+          "detail": "Gate 股票已上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美...11 小时前1,278",
           "url": "https://www.gate.com/zh/announcements/article/100535"
         },
         {
@@ -192,16 +192,16 @@
     "mexc": {
       "listings": [
         {
+          "token": "GROVE",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年7月7日 23:10 (UTC+8) 上線 Grove (GROVE) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536729"
+        },
+        {
           "token": "LEVI",
           "type": "上线",
           "detail": "LEVI 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-levi-to-innovation-zone-17827791536726"
-        },
-        {
-          "token": "GROVE",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Grove (GROVE) 並支援閃兌服務",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536724"
         },
         {
           "token": "GROVE",
@@ -328,12 +328,6 @@
           "type": "美股合约",
           "detail": "ASX（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697"
-        },
-        {
-          "token": "ANSEM",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年7月6日 15:40 (UTC+8) 起把 ANSEMUSDT 從創新區轉板至主板區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-ansemusdt-from-innovation-zone-to-main-board-on-jul-6-2026-07-17827791536691"
         }
       ]
     }

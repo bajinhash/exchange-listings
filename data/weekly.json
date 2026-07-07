@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-01",
   "weekEnd": "2026-07-07",
-  "updatedAt": "2026-07-07T12:50:46.384Z",
+  "updatedAt": "2026-07-07T14:03:21.015Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -688,7 +688,7 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 & USDT 理财季火热开启，最高享 100% 年化收益3 小时前312",
+          "detail": "USD1 & USDT 理财季火热开启，最高享 100% 年化收益4 小时前404",
           "url": "https://www.gate.com/zh/announcements/article/100548",
           "dates": [
             "2026-07-07"
@@ -697,7 +697,7 @@
         {
           "token": "GUSD",
           "type": "上线",
-          "detail": "闪兑 GUSD 奖励加码，链上赚币享 3.8% 年化5 小时前319",
+          "detail": "闪兑 GUSD 奖励加码，链上赚币享 3.8% 年化6 小时前364",
           "url": "https://www.gate.com/zh/announcements/article/100543",
           "dates": [
             "2026-07-07"
@@ -706,7 +706,7 @@
         {
           "token": "FREEDOM",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 FREEDOM (FREEDOM)7 小时前260",
+          "detail": "Gate Alpha 首发上线 FREEDOM (FREEDOM)8 小时前287",
           "url": "https://www.gate.com/zh/announcements/article/100537",
           "dates": [
             "2026-07-07"
@@ -715,7 +715,7 @@
         {
           "token": "ANTA",
           "type": "上线",
-          "detail": "Gate 股票已上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美...10 小时前1,210",
+          "detail": "Gate 股票已上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美...11 小时前1,278",
           "url": "https://www.gate.com/zh/announcements/article/100535",
           "dates": [
             "2026-07-07"
@@ -1096,12 +1096,11 @@
           ]
         },
         {
-          "token": "ANSEM",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年7月6日 15:40 (UTC+8) 起把 ANSEMUSDT 從創新區轉板至主板區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-ansemusdt-from-innovation-zone-to-main-board-on-jul-6-2026-07-17827791536691",
+          "token": "GROVE",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年7月7日 23:10 (UTC+8) 上線 Grove (GROVE) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536729",
           "dates": [
-            "2026-07-06",
             "2026-07-07"
           ]
         },
@@ -1110,15 +1109,6 @@
           "type": "上线",
           "detail": "LEVI 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-levi-to-innovation-zone-17827791536726",
-          "dates": [
-            "2026-07-07"
-          ]
-        },
-        {
-          "token": "GROVE",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 Grove (GROVE) 並支援閃兌服務",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536724",
           "dates": [
             "2026-07-07"
           ]
@@ -1272,6 +1262,15 @@
           "type": "Meme+ 现货",
           "detail": "LEVI 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536694",
+          "dates": [
+            "2026-07-06"
+          ]
+        },
+        {
+          "token": "ANSEM",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年7月6日 15:40 (UTC+8) 起把 ANSEMUSDT 從創新區轉板至主板區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-ansemusdt-from-innovation-zone-to-main-board-on-jul-6-2026-07-17827791536691",
           "dates": [
             "2026-07-06"
           ]
