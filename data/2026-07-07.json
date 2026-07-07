@@ -1,6 +1,6 @@
 {
   "date": "2026-07-07",
-  "updatedAt": "2026-07-07T12:44:30.657Z",
+  "updatedAt": "2026-07-07T12:50:46.205Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -114,25 +114,25 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 & USDT 理财季火热开启，最高享 100% 年化收益3 小时前308",
+          "detail": "USD1 & USDT 理财季火热开启，最高享 100% 年化收益3 小时前312",
           "url": "https://www.gate.com/zh/announcements/article/100548"
         },
         {
           "token": "GUSD",
           "type": "上线",
-          "detail": "闪兑 GUSD 奖励加码，链上赚币享 3.8% 年化5 小时前314",
+          "detail": "闪兑 GUSD 奖励加码，链上赚币享 3.8% 年化5 小时前319",
           "url": "https://www.gate.com/zh/announcements/article/100543"
         },
         {
           "token": "FREEDOM",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 FREEDOM (FREEDOM)7 小时前257",
+          "detail": "Gate Alpha 首发上线 FREEDOM (FREEDOM)7 小时前260",
           "url": "https://www.gate.com/zh/announcements/article/100537"
         },
         {
           "token": "ANTA",
           "type": "上线",
-          "detail": "Gate 股票已上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美...10 小时前1,206",
+          "detail": "Gate 股票已上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美...10 小时前1,210",
           "url": "https://www.gate.com/zh/announcements/article/100535"
         },
         {
