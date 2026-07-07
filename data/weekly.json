@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-01",
   "weekEnd": "2026-07-07",
-  "updatedAt": "2026-07-07T14:03:21.015Z",
+  "updatedAt": "2026-07-07T15:46:00.221Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -278,6 +278,96 @@
         }
       ],
       "alpha": [
+        {
+          "token": "WDCB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 WDCB - Western Digital (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xebe29695f8047c13d36e7a790ca8c1b239ffad1c",
+          "dates": [
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "SPYB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SPYB - SPY (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+          "dates": [
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "SOXLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SOXLB - Semicon Bull 3X ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xd97d097a89113fa59b76c572e5b2eb647e8eefaf",
+          "dates": [
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "QCOMB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 QCOMB - Qualcomm (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x5f7a56e877b9130608bf8be962621011182fefe1",
+          "dates": [
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "NBISB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NBISB - Nebius (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xe256bc2a4f5297f8ba6f043f180a46300ecbcbb1",
+          "dates": [
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "GOOGLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 GOOGLB - Alphabet (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+          "dates": [
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "GLWB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 GLWB - Corning (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x740e075cbbea22a082b9d6679e65e82767875b6a",
+          "dates": [
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "DRAMB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 DRAMB - Roundhill Memory ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x93862d63fd9fd488b1328e9b47717d75e994a84b",
+          "dates": [
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "COINB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 COINB - Coinbase (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x585bde7c54abb5ccd7791f923d6c2187635f3952",
+          "dates": [
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "CBRSB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CBRSB - Cerebras (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xe81c6bb0266cd68b4f17278531dd03ea1f12da4e",
+          "dates": [
+            "2026-07-07"
+          ]
+        },
         {
           "token": "DATAIP",
           "type": "上线",
@@ -688,7 +778,7 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 & USDT 理财季火热开启，最高享 100% 年化收益4 小时前404",
+          "detail": "USD1 & USDT 理财季火热开启，最高享 100% 年化收益6 小时前509",
           "url": "https://www.gate.com/zh/announcements/article/100548",
           "dates": [
             "2026-07-07"
@@ -697,7 +787,7 @@
         {
           "token": "GUSD",
           "type": "上线",
-          "detail": "闪兑 GUSD 奖励加码，链上赚币享 3.8% 年化6 小时前364",
+          "detail": "闪兑 GUSD 奖励加码，链上赚币享 3.8% 年化8 小时前425",
           "url": "https://www.gate.com/zh/announcements/article/100543",
           "dates": [
             "2026-07-07"
@@ -706,7 +796,7 @@
         {
           "token": "FREEDOM",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 FREEDOM (FREEDOM)8 小时前287",
+          "detail": "Gate Alpha 首发上线 FREEDOM (FREEDOM)10 小时前330",
           "url": "https://www.gate.com/zh/announcements/article/100537",
           "dates": [
             "2026-07-07"
@@ -715,7 +805,7 @@
         {
           "token": "ANTA",
           "type": "上线",
-          "detail": "Gate 股票已上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美...11 小时前1,278",
+          "detail": "Gate 股票已上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美...13 小时前1,370",
           "url": "https://www.gate.com/zh/announcements/article/100535",
           "dates": [
             "2026-07-07"
