@@ -1,0 +1,133 @@
+{
+  "date": "2026-07-08",
+  "updatedAt": "2026-07-07T16:48:11.861Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "WDCB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 WDCB - Western Digital (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xebe29695f8047c13d36e7a790ca8c1b239ffad1c"
+        },
+        {
+          "token": "SPYB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SPYB - SPY (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8"
+        },
+        {
+          "token": "SOXLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SOXLB - Semicon Bull 3X ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xd97d097a89113fa59b76c572e5b2eb647e8eefaf"
+        },
+        {
+          "token": "QCOMB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 QCOMB - Qualcomm (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x5f7a56e877b9130608bf8be962621011182fefe1"
+        },
+        {
+          "token": "NBISB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NBISB - Nebius (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xe256bc2a4f5297f8ba6f043f180a46300ecbcbb1"
+        },
+        {
+          "token": "GOOGLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 GOOGLB - Alphabet (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x3f53de71c126bdabae20f9cd64848d317f6c3238"
+        },
+        {
+          "token": "GLWB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 GLWB - Corning (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x740e075cbbea22a082b9d6679e65e82767875b6a"
+        },
+        {
+          "token": "DRAMB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 DRAMB - Roundhill Memory ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x93862d63fd9fd488b1328e9b47717d75e994a84b"
+        },
+        {
+          "token": "COINB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 COINB - Coinbase (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x585bde7c54abb5ccd7791f923d6c2187635f3952"
+        },
+        {
+          "token": "CBRSB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CBRSB - Cerebras (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xe81c6bb0266cd68b4f17278531dd03ea1f12da4e"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GROVE",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年7月7日 23:10 (UTC+8) 上線 Grove (GROVE) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536729"
+        },
+        {
+          "token": "LEVI",
+          "type": "上线",
+          "detail": "LEVI 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-levi-to-innovation-zone-17827791536726"
+        },
+        {
+          "token": "CRWD",
+          "type": "美股合约",
+          "detail": "CRWD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697"
+        },
+        {
+          "token": "OPENSTOCK",
+          "type": "美股合约",
+          "detail": "OPENSTOCK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697"
+        },
+        {
+          "token": "CELH",
+          "type": "美股合约",
+          "detail": "CELH（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697"
+        },
+        {
+          "token": "LIN",
+          "type": "美股合约",
+          "detail": "LIN（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697"
+        },
+        {
+          "token": "ASX",
+          "type": "美股合约",
+          "detail": "ASX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697"
+        }
+      ]
+    }
+  }
+}
