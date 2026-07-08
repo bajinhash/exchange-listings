@@ -1,0 +1,96 @@
+{
+  "date": "2026-07-09",
+  "updatedAt": "2026-07-08T16:16:17.583Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "CASHCAT",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年7月8日 22:10 (UTC+8) 上線 CASHCAT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536756"
+        },
+        {
+          "token": "HBM",
+          "type": "美股合约",
+          "detail": "HBM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536754"
+        },
+        {
+          "token": "USO",
+          "type": "美股合约",
+          "detail": "USO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536754"
+        },
+        {
+          "token": "INDA",
+          "type": "美股合约",
+          "detail": "INDA（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536754"
+        },
+        {
+          "token": "SPCX",
+          "type": "美股合约",
+          "detail": "SPCX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752"
+        },
+        {
+          "token": "SOXL",
+          "type": "美股合约",
+          "detail": "SOXL（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752"
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "美股合约",
+          "detail": "SKHYNIX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752"
+        },
+        {
+          "token": "SAMSUNG",
+          "type": "美股合约",
+          "detail": "SAMSUNG（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Cash Cat (CASHCAT) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536751"
+        },
+        {
+          "token": "GROVE",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年7月7日 23:10 (UTC+8) 上線 Grove (GROVE) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536729"
+        },
+        {
+          "token": "LEVI",
+          "type": "上线",
+          "detail": "LEVI 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-levi-to-innovation-zone-17827791536726"
+        }
+      ]
+    }
+  }
+}
