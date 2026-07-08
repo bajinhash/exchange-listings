@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-02",
   "weekEnd": "2026-07-08",
-  "updatedAt": "2026-07-07T16:48:12.016Z",
+  "updatedAt": "2026-07-08T12:03:09.694Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -384,6 +384,24 @@
     "okx": {
       "listings": [
         {
+          "token": "INJUSD",
+          "type": "永续合约",
+          "detail": "INJUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-injusd-icpusd-and-renderusd-x-perps",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "ICPUSD",
+          "type": "永续合约",
+          "detail": "ICPUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-injusd-icpusd-and-renderusd-x-perps",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
           "token": "MUU",
           "type": "永续合约",
           "detail": "OKX 關於 MUU 永續合約公司行動調整的公告發佈於 2026年7月7日",
@@ -595,6 +613,33 @@
     "bybit": {
       "listings": [
         {
+          "token": "COST",
+          "type": "永续合约",
+          "detail": "COSTUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-costusdt-perpetual-contract-with-up-to-20x-leverage--art34f1ebb1db43/",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "SONY",
+          "type": "永续合约",
+          "detail": "SONYUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-sonyusdt-perpetual-contract-with-up-to-20x-leverage--art07dd1a13e0e8/",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "SHAZ",
+          "type": "永续合约",
+          "detail": "SHAZUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-shazusdt-perpetual-contract-with-up-to-20x-leverage--artba8d8bc04f3a/",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
           "token": "NFLX",
           "type": "永续合约",
           "detail": "NFLXUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
@@ -683,6 +728,15 @@
     "kucoin": {
       "listings": [
         {
+          "token": "ANTFUN",
+          "type": "现货上线",
+          "detail": "AntFun (ANTFUN) Listed on KuCoinTrading: 10:00 on July 8, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-antfun-antfun-listed-on-kucoin",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
           "token": "GROVE",
           "type": "现货上线",
           "detail": "World Premiere: Grove (GROVE) Listed on KuCoinTrading: 15:00 on July 7, 2026 (UTC)",
@@ -755,7 +809,54 @@
           "detail": "USD1 & USDT 理财季火热开启，最高享 100% 年化收益6 小时前509",
           "url": "https://www.gate.com/zh/announcements/article/100548",
           "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "ANTA",
+          "type": "上线",
+          "detail": "Gate 股票已上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美...13 小时前1,370",
+          "url": "https://www.gate.com/zh/announcements/article/100535",
+          "dates": [
+            "2026-07-07",
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "SKHYNIXG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 SKHYNIXG（SK 海力士）、SAMSUNGG（三星电子）等 11 个 gStocks...7 小时前1,205",
+          "url": "https://www.gate.com/zh/announcements/article/100558",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "ok",
+          "type": "现货上线",
+          "detail": "ok（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100553",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "bibi",
+          "type": "现货上线",
+          "detail": "bibi（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100553",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "Cupsey",
+          "type": "现货上线",
+          "detail": "Cupsey（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100553",
+          "dates": [
+            "2026-07-08"
           ]
         },
         {
@@ -772,15 +873,6 @@
           "type": "现货上线",
           "detail": "Gate Alpha 首发上线 FREEDOM (FREEDOM)10 小时前330",
           "url": "https://www.gate.com/zh/announcements/article/100537",
-          "dates": [
-            "2026-07-07"
-          ]
-        },
-        {
-          "token": "ANTA",
-          "type": "上线",
-          "detail": "Gate 股票已上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美...13 小时前1,370",
-          "url": "https://www.gate.com/zh/announcements/article/100535",
           "dates": [
             "2026-07-07"
           ]
@@ -1019,61 +1111,6 @@
     "mexc": {
       "listings": [
         {
-          "token": "CRWD",
-          "type": "美股合约",
-          "detail": "CRWD（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697",
-          "dates": [
-            "2026-07-06",
-            "2026-07-07",
-            "2026-07-08"
-          ]
-        },
-        {
-          "token": "OPENSTOCK",
-          "type": "美股合约",
-          "detail": "OPENSTOCK（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697",
-          "dates": [
-            "2026-07-06",
-            "2026-07-07",
-            "2026-07-08"
-          ]
-        },
-        {
-          "token": "CELH",
-          "type": "美股合约",
-          "detail": "CELH（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697",
-          "dates": [
-            "2026-07-06",
-            "2026-07-07",
-            "2026-07-08"
-          ]
-        },
-        {
-          "token": "LIN",
-          "type": "美股合约",
-          "detail": "LIN（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697",
-          "dates": [
-            "2026-07-06",
-            "2026-07-07",
-            "2026-07-08"
-          ]
-        },
-        {
-          "token": "ASX",
-          "type": "美股合约",
-          "detail": "ASX（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697",
-          "dates": [
-            "2026-07-06",
-            "2026-07-07",
-            "2026-07-08"
-          ]
-        },
-        {
           "token": "GROVE",
           "type": "现货上线",
           "detail": "全球首發：MEXC 將於 2026年7月7日 23:10 (UTC+8) 上線 Grove (GROVE) USDT合約",
@@ -1099,7 +1136,8 @@
           "detail": "MEXC 盤前交易：Grove (GROVE) 即將上線",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536720",
           "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08"
           ]
         },
         {
@@ -1108,7 +1146,8 @@
           "detail": "MSTU（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mstu-tsem-abnb-rok-and-levi-usdt-m-futures-17827791536718",
           "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08"
           ]
         },
         {
@@ -1117,7 +1156,8 @@
           "detail": "TSEM（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mstu-tsem-abnb-rok-and-levi-usdt-m-futures-17827791536718",
           "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08"
           ]
         },
         {
@@ -1126,7 +1166,8 @@
           "detail": "ABNB（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mstu-tsem-abnb-rok-and-levi-usdt-m-futures-17827791536718",
           "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08"
           ]
         },
         {
@@ -1135,7 +1176,8 @@
           "detail": "ROK（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mstu-tsem-abnb-rok-and-levi-usdt-m-futures-17827791536718",
           "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08"
           ]
         },
         {
@@ -1144,7 +1186,8 @@
           "detail": "LEVI（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mstu-tsem-abnb-rok-and-levi-usdt-m-futures-17827791536718",
           "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08"
           ]
         },
         {
@@ -1153,7 +1196,8 @@
           "detail": "CRWD（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-crwd-openstock-celh-lin-and-asx-usdt-m-futures-17827791536717",
           "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08"
           ]
         },
         {
@@ -1162,7 +1206,8 @@
           "detail": "OPENSTOCK（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-crwd-openstock-celh-lin-and-asx-usdt-m-futures-17827791536717",
           "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08"
           ]
         },
         {
@@ -1171,7 +1216,8 @@
           "detail": "CELH（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-crwd-openstock-celh-lin-and-asx-usdt-m-futures-17827791536717",
           "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08"
           ]
         },
         {
@@ -1180,7 +1226,8 @@
           "detail": "LIN（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-crwd-openstock-celh-lin-and-asx-usdt-m-futures-17827791536717",
           "dates": [
-            "2026-07-07"
+            "2026-07-07",
+            "2026-07-08"
           ]
         },
         {
@@ -1189,6 +1236,84 @@
           "detail": "ASX（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-crwd-openstock-celh-lin-and-asx-usdt-m-futures-17827791536717",
           "dates": [
+            "2026-07-07",
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "GROVE",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 GROVE U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-grove-usdt-m-futures-17827791536744",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "BIBI",
+          "type": "Meme+ 现货",
+          "detail": "BIBI 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536742",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "CUPSEY",
+          "type": "Meme+ 现货",
+          "detail": "CUPSEY 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536741",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "CRWD",
+          "type": "美股合约",
+          "detail": "CRWD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697",
+          "dates": [
+            "2026-07-06",
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "OPENSTOCK",
+          "type": "美股合约",
+          "detail": "OPENSTOCK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697",
+          "dates": [
+            "2026-07-06",
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "CELH",
+          "type": "美股合约",
+          "detail": "CELH（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697",
+          "dates": [
+            "2026-07-06",
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "LIN",
+          "type": "美股合约",
+          "detail": "LIN（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697",
+          "dates": [
+            "2026-07-06",
+            "2026-07-07"
+          ]
+        },
+        {
+          "token": "ASX",
+          "type": "美股合约",
+          "detail": "ASX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697",
+          "dates": [
+            "2026-07-06",
             "2026-07-07"
           ]
         },
