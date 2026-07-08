@@ -1,71 +1,10 @@
 {
   "date": "2026-07-08",
-  "updatedAt": "2026-07-08T13:25:54.796Z",
+  "updatedAt": "2026-07-08T15:11:32.495Z",
   "exchanges": {
     "binance": {
       "listings": [],
-      "alpha": [
-        {
-          "token": "WDCB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 WDCB - Western Digital (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xebe29695f8047c13d36e7a790ca8c1b239ffad1c"
-        },
-        {
-          "token": "SPYB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 SPYB - SPY (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8"
-        },
-        {
-          "token": "SOXLB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 SOXLB - Semicon Bull 3X ETF (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xd97d097a89113fa59b76c572e5b2eb647e8eefaf"
-        },
-        {
-          "token": "QCOMB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 QCOMB - Qualcomm (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x5f7a56e877b9130608bf8be962621011182fefe1"
-        },
-        {
-          "token": "NBISB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 NBISB - Nebius (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xe256bc2a4f5297f8ba6f043f180a46300ecbcbb1"
-        },
-        {
-          "token": "GOOGLB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 GOOGLB - Alphabet (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x3f53de71c126bdabae20f9cd64848d317f6c3238"
-        },
-        {
-          "token": "GLWB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 GLWB - Corning (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x740e075cbbea22a082b9d6679e65e82767875b6a"
-        },
-        {
-          "token": "DRAMB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 DRAMB - Roundhill Memory ETF (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x93862d63fd9fd488b1328e9b47717d75e994a84b"
-        },
-        {
-          "token": "COINB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 COINB - Coinbase (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x585bde7c54abb5ccd7791f923d6c2187635f3952"
-        },
-        {
-          "token": "CBRSB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 CBRSB - Cerebras (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xe81c6bb0266cd68b4f17278531dd03ea1f12da4e"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -121,7 +60,7 @@
         {
           "token": "SKHYNIXG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 SKHYNIXG（SK 海力士）、SAMSUNGG（三星电子）等 11 个 gStocks...8 小时前1,304",
+          "detail": "Gate gStocks 专区新增 SKHYNIXG（SK 海力士）、SAMSUNGG（三星电子）等 11 个 gStocks...10 小时前1,435",
           "url": "https://www.gate.com/zh/announcements/article/100558"
         },
         {
@@ -141,18 +80,6 @@
           "type": "现货上线",
           "detail": "Cupsey（同公告含 3 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/100553"
-        },
-        {
-          "token": "USD1",
-          "type": "上线",
-          "detail": "USD1 & USDT 理财季火热开启，最高享 100% 年化收益1 天前1,153",
-          "url": "https://www.gate.com/zh/announcements/article/100548"
-        },
-        {
-          "token": "ANTA",
-          "type": "上线",
-          "detail": "Gate 股票已上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美...1 天前2,125",
-          "url": "https://www.gate.com/zh/announcements/article/100535"
         }
       ]
     },
@@ -161,6 +88,12 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "CASHCAT",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年7月8日 22:10 (UTC+8) 上線 CASHCAT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536756"
+        },
         {
           "token": "HBM",
           "type": "美股合约",
@@ -182,19 +115,61 @@
         {
           "token": "SPCX",
           "type": "美股合约",
-          "detail": "MEXC 合約已提升SPCXUSDT股票合約持倉數量上限（7/8）",
+          "detail": "SPCX（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752"
+        },
+        {
+          "token": "SOXL",
+          "type": "美股合约",
+          "detail": "SOXL（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752"
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "美股合约",
+          "detail": "SKHYNIX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752"
+        },
+        {
+          "token": "SAMSUNG",
+          "type": "美股合约",
+          "detail": "SAMSUNG（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Cash Cat (CASHCAT) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536751"
         },
         {
           "token": "HBM",
           "type": "现货上线",
-          "detail": "HBM（同公告含 2 个标的）",
+          "detail": "HBM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728"
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "现货上线",
+          "detail": "SKHYNIX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728"
+        },
+        {
+          "token": "SOXL",
+          "type": "现货上线",
+          "detail": "SOXL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728"
+        },
+        {
+          "token": "SPCX",
+          "type": "现货上线",
+          "detail": "SPCX（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728"
         },
         {
           "token": "USO",
           "type": "现货上线",
-          "detail": "USO（同公告含 2 个标的）",
+          "detail": "USO（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728"
         },
         {
@@ -226,12 +201,6 @@
           "type": "上线",
           "detail": "LEVI 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-levi-to-innovation-zone-17827791536726"
-        },
-        {
-          "token": "GROVE",
-          "type": "上线",
-          "detail": "MEXC 盤前交易：Grove (GROVE) 即將上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536720"
         }
       ]
     }
