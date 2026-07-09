@@ -1,0 +1,214 @@
+{
+  "date": "2026-07-10",
+  "updatedAt": "2026-07-09T16:43:31.176Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "BNC",
+          "type": "永续合约",
+          "detail": "BNC（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d"
+        },
+        {
+          "token": "BOT",
+          "type": "永续合约",
+          "detail": "BOT（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d"
+        },
+        {
+          "token": "FWDI",
+          "type": "永续合约",
+          "detail": "FWDI（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d"
+        },
+        {
+          "token": "INTW",
+          "type": "永续合约",
+          "detail": "INTW（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d"
+        },
+        {
+          "token": "SNXX",
+          "type": "永续合约",
+          "detail": "SNXX（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d"
+        },
+        {
+          "token": "WEN",
+          "type": "永续合约",
+          "detail": "WEN（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d"
+        },
+        {
+          "token": "XBI",
+          "type": "永续合约",
+          "detail": "XBI（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "DATA",
+          "type": "永续合约",
+          "detail": "DATAUSDT 永續合約全新上線， 支援最高 12.5 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-datausdt-perpetual-contract-with-up-to-12-5x-leverage--art34c5cee4fca8/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SOXS",
+          "type": "上线",
+          "detail": "SOXS（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100592"
+        },
+        {
+          "token": "MUU",
+          "type": "上线",
+          "detail": "MUU（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100592"
+        },
+        {
+          "token": "SKHYNIXG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 SKHYNIXG（SK 海力士）、SAMSUNGG（三星电子）等 11 个 gStocks...1 天前2,636",
+          "url": "https://www.gate.com/zh/announcements/article/100558"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "EVAA",
+          "type": "上线",
+          "detail": "EVAA Protocol（EVAA） 将上线 Bitget DeFi专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888851"
+        },
+        {
+          "token": "AI",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 AI/USDT, LITNEW/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888852"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "QXO",
+          "type": "美股合约",
+          "detail": "QXO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+        },
+        {
+          "token": "AKAM",
+          "type": "美股合约",
+          "detail": "AKAM（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+        },
+        {
+          "token": "FLUT",
+          "type": "美股合约",
+          "detail": "FLUT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+        },
+        {
+          "token": "GRAB",
+          "type": "美股合约",
+          "detail": "GRAB（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+        },
+        {
+          "token": "SPY",
+          "type": "上线",
+          "detail": "MEXC 將於 7月9日 上線 SPYUSDT 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-spyusdt-index-futures-on-jul-9-with-0-fee-trading-17827791536777"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年7月8日 22:10 (UTC+8) 上線 CASHCAT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536756"
+        },
+        {
+          "token": "HBM",
+          "type": "美股合约",
+          "detail": "HBM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536754"
+        },
+        {
+          "token": "USO",
+          "type": "美股合约",
+          "detail": "USO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536754"
+        },
+        {
+          "token": "INDA",
+          "type": "美股合约",
+          "detail": "INDA（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536754"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Cash Cat (CASHCAT) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536751"
+        },
+        {
+          "token": "AKAM",
+          "type": "现货上线",
+          "detail": "AKAM（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728"
+        },
+        {
+          "token": "FLUT",
+          "type": "现货上线",
+          "detail": "FLUT（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728"
+        },
+        {
+          "token": "HBM",
+          "type": "现货上线",
+          "detail": "HBM（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728"
+        },
+        {
+          "token": "QXO",
+          "type": "现货上线",
+          "detail": "QXO（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728"
+        },
+        {
+          "token": "USO",
+          "type": "现货上线",
+          "detail": "USO（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728"
+        },
+        {
+          "token": "GROVE",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 GROVE U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-grove-usdt-m-futures-17827791536744"
+        },
+        {
+          "token": "BANA",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Bana Protocol (BANA)，瓜分 60,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536743"
+        }
+      ]
+    }
+  }
+}
