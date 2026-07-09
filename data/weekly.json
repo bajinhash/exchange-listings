@@ -1,10 +1,73 @@
 {
   "weekStart": "2026-07-03",
   "weekEnd": "2026-07-09",
-  "updatedAt": "2026-07-08T16:16:17.774Z",
+  "updatedAt": "2026-07-09T13:05:51.195Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "BNC",
+          "type": "永续合约",
+          "detail": "BNC（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "BOT",
+          "type": "永续合约",
+          "detail": "BOT（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "FWDI",
+          "type": "永续合约",
+          "detail": "FWDI（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "INTW",
+          "type": "永续合约",
+          "detail": "INTW（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "SNXX",
+          "type": "永续合约",
+          "detail": "SNXX（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "WEN",
+          "type": "永续合约",
+          "detail": "WEN（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "XBI",
+          "type": "永续合约",
+          "detail": "XBI（同公告含 7 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
         {
           "token": "ADGM",
           "type": "现货上线",
@@ -283,6 +346,33 @@
     "okx": {
       "listings": [
         {
+          "token": "XPLUSD",
+          "type": "永续合约",
+          "detail": "XPLUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-xplusd-algousd-x-perps",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "ALGOUSD",
+          "type": "永续合约",
+          "detail": "ALGOUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-xplusd-algousd-x-perps",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "AAOI",
+          "type": "永续合约",
+          "detail": "OKX 關於 AAOIUSD 以及 NBISUSD X-合約（X-Perp）正式上線的公告發佈於 2026年7月9日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-aaoiusd-and-nbisusd-equity-x-perps",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
           "token": "INJUSD",
           "type": "永续合约",
           "detail": "INJUSD（同公告含 2 个标的）",
@@ -422,6 +512,15 @@
     "bybit": {
       "listings": [
         {
+          "token": "DATA",
+          "type": "永续合约",
+          "detail": "DATAUSDT 永續合約全新上線， 支援最高 12.5 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-datausdt-perpetual-contract-with-up-to-12-5x-leverage--art34c5cee4fca8/",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
           "token": "COST",
           "type": "永续合约",
           "detail": "COSTUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
@@ -534,6 +633,15 @@
     "kucoin": {
       "listings": [
         {
+          "token": "CARDS",
+          "type": "现货上线",
+          "detail": "Collector Crypt (CARDS) Listed on KuCoinTrading: 10:00 on July 9, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-collector-crypt-cards-listed-on-kucoin",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
           "token": "ANTFUN",
           "type": "现货上线",
           "detail": "AntFun (ANTFUN) Listed on KuCoinTrading: 10:00 on July 8, 2026 (UTC)",
@@ -615,7 +723,17 @@
           "detail": "Gate gStocks 专区新增 SKHYNIXG（SK 海力士）、SAMSUNGG（三星电子）等 11 个 gStocks...10 小时前1,435",
           "url": "https://www.gate.com/zh/announcements/article/100558",
           "dates": [
-            "2026-07-08"
+            "2026-07-08",
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "CBRSG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 CBRSG（赛睿斯）、COING (Coinbase) 等 15 个 gStocks 代币化证券...8 小时前1,184",
+          "url": "https://www.gate.com/zh/announcements/article/100571",
+          "dates": [
+            "2026-07-09"
           ]
         },
         {
@@ -796,6 +914,34 @@
     "bitget": {
       "listings": [
         {
+          "token": "SKHY",
+          "type": "永续合约",
+          "detail": "Bitget 首发上线SKHYUSDT【IPO 盘前永续合约】| 提前博弈 SK 海力士美股上市，抢跑 AI 内存兆级赛道定价权！",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888019",
+          "dates": [
+            "2026-07-03",
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "EVAA",
+          "type": "上线",
+          "detail": "EVAA Protocol（EVAA） 将上线 Bitget DeFi专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888851",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "AI",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 AI/USDT, LITNEW/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888852",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
           "token": "DIASTOCK",
           "type": "美股合约",
           "detail": "DIASTOCK（同公告含 3 个标的）",
@@ -855,15 +1001,6 @@
           ]
         },
         {
-          "token": "SKHY",
-          "type": "永续合约",
-          "detail": "Bitget 首发上线SKHYUSDT【IPO 盘前永续合约】| 提前博弈 SK 海力士美股上市，抢跑 AI 内存兆级赛道定价权！",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888019",
-          "dates": [
-            "2026-07-03"
-          ]
-        },
-        {
           "token": "DATA",
           "type": "上线",
           "detail": "DATAUSDT 现已上线合约交易和交易BOT",
@@ -876,52 +1013,6 @@
     },
     "mexc": {
       "listings": [
-        {
-          "token": "SPCX",
-          "type": "美股合约",
-          "detail": "SPCX（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
-          "dates": [
-            "2026-07-03",
-            "2026-07-04",
-            "2026-07-08",
-            "2026-07-09"
-          ]
-        },
-        {
-          "token": "SKHYNIX",
-          "type": "美股合约",
-          "detail": "SKHYNIX（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
-          "dates": [
-            "2026-07-03",
-            "2026-07-04",
-            "2026-07-08",
-            "2026-07-09"
-          ]
-        },
-        {
-          "token": "GROVE",
-          "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年7月7日 23:10 (UTC+8) 上線 Grove (GROVE) USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536729",
-          "dates": [
-            "2026-07-07",
-            "2026-07-08",
-            "2026-07-09"
-          ]
-        },
-        {
-          "token": "LEVI",
-          "type": "上线",
-          "detail": "LEVI 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-levi-to-innovation-zone-17827791536726",
-          "dates": [
-            "2026-07-07",
-            "2026-07-08",
-            "2026-07-09"
-          ]
-        },
         {
           "token": "CASHCAT",
           "type": "永续合约",
@@ -963,26 +1054,6 @@
           ]
         },
         {
-          "token": "SOXL",
-          "type": "美股合约",
-          "detail": "SOXL（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752",
-          "dates": [
-            "2026-07-08",
-            "2026-07-09"
-          ]
-        },
-        {
-          "token": "SAMSUNG",
-          "type": "美股合约",
-          "detail": "SAMSUNG（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752",
-          "dates": [
-            "2026-07-08",
-            "2026-07-09"
-          ]
-        },
-        {
           "token": "CASHCAT",
           "type": "现货上线",
           "detail": "MEXC 將於考核區上線 Cash Cat (CASHCAT) 並支援閃兌服務",
@@ -997,6 +1068,141 @@
           "type": "现货上线",
           "detail": "HBM（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728",
+          "dates": [
+            "2026-07-08",
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "USO",
+          "type": "现货上线",
+          "detail": "USO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728",
+          "dates": [
+            "2026-07-08",
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "GROVE",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 GROVE U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-grove-usdt-m-futures-17827791536744",
+          "dates": [
+            "2026-07-08",
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "CASHCAT",
+          "type": "跟单合约",
+          "detail": "CASHCAT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "HBM",
+          "type": "跟单合约",
+          "detail": "HBM（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "USO",
+          "type": "跟单合约",
+          "detail": "USO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "INDA",
+          "type": "跟单合约",
+          "detail": "INDA（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "ARROW",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Arrow Finance (ARROW)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536764",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "BANA",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Bana Protocol (BANA)，瓜分 60,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536743",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "SPCX",
+          "type": "美股合约",
+          "detail": "SPCX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04",
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "SKHYNIX",
+          "type": "美股合约",
+          "detail": "SKHYNIX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536670",
+          "dates": [
+            "2026-07-03",
+            "2026-07-04",
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "GROVE",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年7月7日 23:10 (UTC+8) 上線 Grove (GROVE) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536729",
+          "dates": [
+            "2026-07-07",
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "LEVI",
+          "type": "上线",
+          "detail": "LEVI 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-levi-to-innovation-zone-17827791536726",
+          "dates": [
+            "2026-07-07",
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "SOXL",
+          "type": "美股合约",
+          "detail": "SOXL（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752",
+          "dates": [
+            "2026-07-08"
+          ]
+        },
+        {
+          "token": "SAMSUNG",
+          "type": "美股合约",
+          "detail": "SAMSUNG（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-futures-has-increased-position-limits-for-spcxusdt-stock-futures-jul-8-17827791536752",
           "dates": [
             "2026-07-08"
           ]
@@ -1024,24 +1230,6 @@
           "type": "现货上线",
           "detail": "SPCX（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728",
-          "dates": [
-            "2026-07-08"
-          ]
-        },
-        {
-          "token": "USO",
-          "type": "现货上线",
-          "detail": "USO（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728",
-          "dates": [
-            "2026-07-08"
-          ]
-        },
-        {
-          "token": "GROVE",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 GROVE U 本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-grove-usdt-m-futures-17827791536744",
           "dates": [
             "2026-07-08"
           ]
