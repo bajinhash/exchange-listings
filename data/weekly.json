@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-03",
   "weekEnd": "2026-07-09",
-  "updatedAt": "2026-07-09T14:26:32.883Z",
+  "updatedAt": "2026-07-09T15:59:12.877Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -718,6 +718,16 @@
     "gateio": {
       "listings": [
         {
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "余币宝理财双周打卡，天天领 100 USDT7 小时前427",
+          "url": "https://www.gate.com/zh/announcements/article/100489",
+          "dates": [
+            "2026-07-03",
+            "2026-07-09"
+          ]
+        },
+        {
           "token": "SKHYNIXG",
           "type": "上线",
           "detail": "Gate gStocks 专区新增 SKHYNIXG（SK 海力士）、SAMSUNGG（三星电子）等 11 个 gStocks...10 小时前1,435",
@@ -746,18 +756,9 @@
           ]
         },
         {
-          "token": "USDT5",
+          "token": "USDT8",
           "type": "上线",
-          "detail": "闪兑新人启航礼：1 USDT 开启，最高解锁 888 USDT5 小时前577",
-          "url": "https://www.gate.com/zh/announcements/article/100588",
-          "dates": [
-            "2026-07-09"
-          ]
-        },
-        {
-          "token": "USDT6",
-          "type": "上线",
-          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT6 小时前572",
+          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT8 小时前643",
           "url": "https://www.gate.com/zh/announcements/article/100585",
           "dates": [
             "2026-07-09"
@@ -766,7 +767,7 @@
         {
           "token": "CBRSG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 CBRSG（赛睿斯）、COING (Coinbase) 等 15 个 gStocks 代币化证券...10 小时前1,290",
+          "detail": "Gate gStocks 专区新增 CBRSG（赛睿斯）、COING (Coinbase) 等 15 个 gStocks 代币化证券...11 小时前1,387",
           "url": "https://www.gate.com/zh/announcements/article/100571",
           "dates": [
             "2026-07-09"
@@ -934,15 +935,6 @@
           "url": "https://www.gate.com/zh/announcements/article/100489",
           "dates": [
             "2026-07-04"
-          ]
-        },
-        {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "余币宝理财双周打卡，天天领 100 USDT7 小时前427",
-          "url": "https://www.gate.com/zh/announcements/article/100489",
-          "dates": [
-            "2026-07-03"
           ]
         }
       ]
@@ -1130,6 +1122,51 @@
           ]
         },
         {
+          "token": "QXO",
+          "type": "美股合约",
+          "detail": "QXO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "AKAM",
+          "type": "美股合约",
+          "detail": "AKAM（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "FLUT",
+          "type": "美股合约",
+          "detail": "FLUT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "GRAB",
+          "type": "美股合约",
+          "detail": "GRAB（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "SPY",
+          "type": "上线",
+          "detail": "MEXC 將於 7月9日 上線 SPYUSDT 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-spyusdt-index-futures-on-jul-9-with-0-fee-trading-17827791536777",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
           "token": "CASHCAT",
           "type": "跟单合约",
           "detail": "CASHCAT（同公告含 4 个标的）",
@@ -1170,6 +1207,33 @@
           "type": "现货上线",
           "detail": "MEXC 將於考核區上線 Arrow Finance (ARROW)",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536764",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "AKAM",
+          "type": "现货上线",
+          "detail": "AKAM（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "FLUT",
+          "type": "现货上线",
+          "detail": "FLUT（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728",
+          "dates": [
+            "2026-07-09"
+          ]
+        },
+        {
+          "token": "QXO",
+          "type": "现货上线",
+          "detail": "QXO（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728",
           "dates": [
             "2026-07-09"
           ]
