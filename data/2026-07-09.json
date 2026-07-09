@@ -1,6 +1,6 @@
 {
   "date": "2026-07-09",
-  "updatedAt": "2026-07-09T13:05:51.019Z",
+  "updatedAt": "2026-07-09T14:26:32.709Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -95,15 +95,39 @@
     "gateio": {
       "listings": [
         {
+          "token": "SOXS",
+          "type": "上线",
+          "detail": "SOXS（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100592"
+        },
+        {
+          "token": "MUU",
+          "type": "上线",
+          "detail": "MUU（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100592"
+        },
+        {
+          "token": "USDT5",
+          "type": "上线",
+          "detail": "闪兑新人启航礼：1 USDT 开启，最高解锁 888 USDT5 小时前577",
+          "url": "https://www.gate.com/zh/announcements/article/100588"
+        },
+        {
+          "token": "USDT6",
+          "type": "上线",
+          "detail": "500 万 USDT 行情波动兜底补贴：轻松领 100 USDT，新人额外奖励 50 USDT6 小时前572",
+          "url": "https://www.gate.com/zh/announcements/article/100585"
+        },
+        {
           "token": "CBRSG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 CBRSG（赛睿斯）、COING (Coinbase) 等 15 个 gStocks 代币化证券...8 小时前1,184",
+          "detail": "Gate gStocks 专区新增 CBRSG（赛睿斯）、COING (Coinbase) 等 15 个 gStocks 代币化证券...10 小时前1,290",
           "url": "https://www.gate.com/zh/announcements/article/100571"
         },
         {
           "token": "SKHYNIXG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 SKHYNIXG（SK 海力士）、SAMSUNGG（三星电子）等 11 个 gStocks...1 天前2,452",
+          "detail": "Gate gStocks 专区新增 SKHYNIXG（SK 海力士）、SAMSUNGG（三星电子）等 11 个 gStocks...1 天前2,523",
           "url": "https://www.gate.com/zh/announcements/article/100558"
         }
       ]
