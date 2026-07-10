@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "updatedAt": "2026-07-10T13:54:24.877Z",
+  "updatedAt": "2026-07-10T15:33:17.711Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -181,13 +181,13 @@
         {
           "token": "ADR",
           "type": "现货上线",
-          "detail": "海力士 ADR 芯动首发季，抢头筹、冲榜、晒持仓，瓜分 120 股 SKHY4 小时前467",
+          "detail": "海力士 ADR 芯动首发季，抢头筹、冲榜、晒持仓，瓜分 120 股 SKHY6 小时前614",
           "url": "https://www.gate.com/zh/announcements/article/100611"
         },
         {
           "token": "SNDKG",
           "type": "上线",
-          "detail": "gStocks 新币交易狂欢：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池6 小时前2,144",
+          "detail": "gStocks 新币交易狂欢：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池7 小时前2,395",
           "url": "https://www.gate.com/zh/announcements/article/100608"
         },
         {
@@ -217,7 +217,7 @@
         {
           "token": "CBRSG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 CBRSG（赛睿斯）、COING (Coinbase) 等 15 个 gStocks 代币化证券...1 天前2,362",
+          "detail": "Gate gStocks 专区新增 CBRSG（赛睿斯）、COING (Coinbase) 等 15 个 gStocks 代币化证券...1 天前2,428",
           "url": "https://www.gate.com/zh/announcements/article/100571"
         }
       ]
