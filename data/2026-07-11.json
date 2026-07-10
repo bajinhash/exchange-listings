@@ -1,0 +1,147 @@
+{
+  "date": "2026-07-11",
+  "updatedAt": "2026-07-10T16:39:56.501Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "SKHY",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+          "url": "https://www.binance.com/en/support/announcement/6fe9f6dc91544df88dc24ad41211feff"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "GEV",
+          "type": "永续合约",
+          "detail": "GEVUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gevusdt-perpetual-contract-with-up-to-20x-leverage--art77cfe2bc2ff9/"
+        },
+        {
+          "token": "VRT",
+          "type": "永续合约",
+          "detail": "VRTUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-vrtusdt-perpetual-contract-with-up-to-20x-leverage--art9d6582525b5d/"
+        },
+        {
+          "token": "SNOW",
+          "type": "永续合约",
+          "detail": "SNOWUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-snowusdt-perpetual-contract-with-up-to-20x-leverage--art9cdb5c5476ea/"
+        },
+        {
+          "token": "PURR",
+          "type": "永续合约",
+          "detail": "PURRUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-purrusdt-perpetual-contract-with-up-to-20x-leverage--artd1441225e541/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CBRSG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 CBRSG（赛睿斯）、COING (Coinbase) 等 15 个 gStocks 代币化证券...1 天前2,468",
+          "url": "https://www.gate.com/zh/announcements/article/100571"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "TSLL",
+          "type": "美股合约",
+          "detail": "TSLL（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536793"
+        },
+        {
+          "token": "NVDL",
+          "type": "美股合约",
+          "detail": "NVDL（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536793"
+        },
+        {
+          "token": "RAM",
+          "type": "美股合约",
+          "detail": "RAM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536793"
+        },
+        {
+          "token": "QXO",
+          "type": "美股合约",
+          "detail": "QXO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+        },
+        {
+          "token": "AKAM",
+          "type": "美股合约",
+          "detail": "AKAM（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+        },
+        {
+          "token": "FLUT",
+          "type": "美股合约",
+          "detail": "FLUT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+        },
+        {
+          "token": "GRAB",
+          "type": "美股合约",
+          "detail": "GRAB（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+        },
+        {
+          "token": "SPY",
+          "type": "上线",
+          "detail": "MEXC 將於 7月9日 上線 SPYUSDT 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-spyusdt-index-futures-on-jul-9-with-0-fee-trading-17827791536777"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "跟单合约",
+          "detail": "CASHCAT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765"
+        },
+        {
+          "token": "HBM",
+          "type": "跟单合约",
+          "detail": "HBM（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765"
+        },
+        {
+          "token": "USO",
+          "type": "跟单合约",
+          "detail": "USO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765"
+        },
+        {
+          "token": "INDA",
+          "type": "跟单合约",
+          "detail": "INDA（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765"
+        },
+        {
+          "token": "ARROW",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Arrow Finance (ARROW)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536764"
+        }
+      ]
+    }
+  }
+}
