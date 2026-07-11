@@ -1,6 +1,6 @@
 {
   "date": "2026-07-11",
-  "updatedAt": "2026-07-11T11:35:26.236Z",
+  "updatedAt": "2026-07-11T12:50:29.952Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -59,7 +59,7 @@
         {
           "token": "SKHYG",
           "type": "现货上线",
-          "detail": "Gate gStocks 专区新增 SKHYG（SK 海力士）代币化证券现货交易5 小时前974",
+          "detail": "Gate gStocks 专区新增 SKHYG（SK 海力士）代币化证券现货交易6 小时前1,099",
           "url": "https://www.gate.com/zh/announcements/article/100615"
         },
         {
@@ -69,27 +69,27 @@
           "url": "https://www.gate.com/zh/announcements/article/100614"
         },
         {
-          "token": "SKHY3S6",
+          "token": "SKHY3S8",
           "type": "上线",
-          "detail": "SKHY3S6（同公告含 2 个标的）",
+          "detail": "SKHY3S8（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/100614"
         },
         {
           "token": "SKHY",
           "type": "永续合约",
-          "detail": "Gate 关于迁移 SKHYUSDT 盘前永续合约至正式永续合约交易18 小时前2,405",
+          "detail": "Gate 关于迁移 SKHYUSDT 盘前永续合约至正式永续合约交易19 小时前2,483",
           "url": "https://www.gate.com/zh/announcements/article/100613"
         },
         {
           "token": "ADR",
           "type": "现货上线",
-          "detail": "海力士 ADR 芯动首发季，抢头筹、冲榜、晒持仓，瓜分 120 股 SKHY1 天前1,326",
+          "detail": "海力士 ADR 芯动首发季，抢头筹、冲榜、晒持仓，瓜分 120 股 SKHY1 天前1,355",
           "url": "https://www.gate.com/zh/announcements/article/100611"
         },
         {
           "token": "SNDKG",
           "type": "上线",
-          "detail": "gStocks 新币交易狂欢：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池1 天前3,327",
+          "detail": "gStocks 新币交易狂欢：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池1 天前3,371",
           "url": "https://www.gate.com/zh/announcements/article/100608"
         },
         {
