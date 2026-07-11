@@ -1,6 +1,6 @@
 {
   "date": "2026-07-11",
-  "updatedAt": "2026-07-10T16:39:56.501Z",
+  "updatedAt": "2026-07-11T11:24:37.941Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -19,6 +19,12 @@
     },
     "bybit": {
       "listings": [
+        {
+          "token": "SKHY",
+          "type": "永续合约",
+          "detail": "SKHYUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skhyusdt-perpetual-contract-with-up-to-25x-leverage--artec82c8aa95fc/"
+        },
         {
           "token": "GEV",
           "type": "永续合约",
@@ -51,10 +57,52 @@
     "gateio": {
       "listings": [
         {
-          "token": "CBRSG",
+          "token": "SKHYG",
+          "type": "现货上线",
+          "detail": "Gate gStocks 专区新增 SKHYG（SK 海力士）代币化证券现货交易5 小时前959",
+          "url": "https://www.gate.com/zh/announcements/article/100615"
+        },
+        {
+          "token": "SKHY3L",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 CBRSG（赛睿斯）、COING (Coinbase) 等 15 个 gStocks 代币化证券...1 天前2,468",
-          "url": "https://www.gate.com/zh/announcements/article/100571"
+          "detail": "SKHY3L（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100614"
+        },
+        {
+          "token": "SKHY3S6",
+          "type": "上线",
+          "detail": "SKHY3S6（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100614"
+        },
+        {
+          "token": "SKHY",
+          "type": "永续合约",
+          "detail": "Gate 关于迁移 SKHYUSDT 盘前永续合约至正式永续合约交易18 小时前2,394",
+          "url": "https://www.gate.com/zh/announcements/article/100613"
+        },
+        {
+          "token": "ADR",
+          "type": "现货上线",
+          "detail": "海力士 ADR 芯动首发季，抢头筹、冲榜、晒持仓，瓜分 120 股 SKHY1 天前1,315",
+          "url": "https://www.gate.com/zh/announcements/article/100611"
+        },
+        {
+          "token": "SNDKG",
+          "type": "上线",
+          "detail": "gStocks 新币交易狂欢：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池1 天前3,319",
+          "url": "https://www.gate.com/zh/announcements/article/100608"
+        },
+        {
+          "token": "TV",
+          "type": "上线",
+          "detail": "TV（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100604"
+        },
+        {
+          "token": "JBL",
+          "type": "上线",
+          "detail": "JBL（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100604"
         }
       ]
     },
@@ -63,6 +111,42 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "HOODRAT",
+          "type": "Meme+ 现货",
+          "detail": "HOODRAT 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536804"
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月11日 14:30 (UTC+8) 上線 JUGGERNAUTUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536803"
+        },
+        {
+          "token": "VEXAI",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月11日 14:30 (UTC+8) 上線 VEXAIUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536802"
+        },
+        {
+          "token": "SKHY",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 關於 SKHYUSDT Pre-IPO 永續合約已轉換為正式合約的公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-completes-conversion-of-skhyusdt-pre-ipo-futures-to-standard-futures-17827791536799"
+        },
+        {
+          "token": "VEXAI",
+          "type": "Meme+ 现货",
+          "detail": "VEXAI 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536798"
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "Meme+ 现货",
+          "detail": "JUGGERNAUT 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536797"
+        },
         {
           "token": "TSLL",
           "type": "美股合约",
@@ -83,63 +167,45 @@
         },
         {
           "token": "QXO",
-          "type": "美股合约",
+          "type": "跟单合约",
           "detail": "QXO（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qxo-akam-flut-and-grab-usdt-m-futures-17827791536788"
         },
         {
           "token": "AKAM",
-          "type": "美股合约",
+          "type": "跟单合约",
           "detail": "AKAM（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qxo-akam-flut-and-grab-usdt-m-futures-17827791536788"
         },
         {
           "token": "FLUT",
-          "type": "美股合约",
+          "type": "跟单合约",
           "detail": "FLUT（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qxo-akam-flut-and-grab-usdt-m-futures-17827791536788"
         },
         {
           "token": "GRAB",
-          "type": "美股合约",
+          "type": "跟单合约",
           "detail": "GRAB（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
-        },
-        {
-          "token": "SPY",
-          "type": "上线",
-          "detail": "MEXC 將於 7月9日 上線 SPYUSDT 指數合約，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-spyusdt-index-futures-on-jul-9-with-0-fee-trading-17827791536777"
-        },
-        {
-          "token": "CASHCAT",
-          "type": "跟单合约",
-          "detail": "CASHCAT（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765"
-        },
-        {
-          "token": "HBM",
-          "type": "跟单合约",
-          "detail": "HBM（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765"
-        },
-        {
-          "token": "USO",
-          "type": "跟单合约",
-          "detail": "USO（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765"
-        },
-        {
-          "token": "INDA",
-          "type": "跟单合约",
-          "detail": "INDA（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qxo-akam-flut-and-grab-usdt-m-futures-17827791536788"
         },
         {
           "token": "ARROW",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Arrow Finance (ARROW)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536764"
+          "type": "跟单合约",
+          "detail": "ARROW（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-arrow-skhy-and-spy-usdt-m-futures-17827791536787"
+        },
+        {
+          "token": "SKHY",
+          "type": "跟单合约",
+          "detail": "SKHY（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-arrow-skhy-and-spy-usdt-m-futures-17827791536787"
+        },
+        {
+          "token": "SPY",
+          "type": "跟单合约",
+          "detail": "SPY（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-arrow-skhy-and-spy-usdt-m-futures-17827791536787"
         }
       ]
     }
