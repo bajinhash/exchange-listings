@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-05",
   "weekEnd": "2026-07-11",
-  "updatedAt": "2026-07-11T11:24:38.109Z",
+  "updatedAt": "2026-07-11T11:35:26.400Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -844,7 +844,7 @@
         {
           "token": "SKHYG",
           "type": "现货上线",
-          "detail": "Gate gStocks 专区新增 SKHYG（SK 海力士）代币化证券现货交易5 小时前959",
+          "detail": "Gate gStocks 专区新增 SKHYG（SK 海力士）代币化证券现货交易5 小时前974",
           "url": "https://www.gate.com/zh/announcements/article/100615",
           "dates": [
             "2026-07-11"
@@ -871,7 +871,7 @@
         {
           "token": "SKHY",
           "type": "永续合约",
-          "detail": "Gate 关于迁移 SKHYUSDT 盘前永续合约至正式永续合约交易18 小时前2,394",
+          "detail": "Gate 关于迁移 SKHYUSDT 盘前永续合约至正式永续合约交易18 小时前2,405",
           "url": "https://www.gate.com/zh/announcements/article/100613",
           "dates": [
             "2026-07-11"
