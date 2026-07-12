@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-07-05",
-  "weekEnd": "2026-07-11",
-  "updatedAt": "2026-07-11T14:23:04.486Z",
+  "weekStart": "2026-07-06",
+  "weekEnd": "2026-07-12",
+  "updatedAt": "2026-07-12T11:29:52.573Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -807,7 +807,26 @@
           "detail": "Gate gStocks 专区新增 SKHYG（SK 海力士）代币化证券现货交易8 小时前1,219",
           "url": "https://www.gate.com/zh/announcements/article/100615",
           "dates": [
-            "2026-07-11"
+            "2026-07-11",
+            "2026-07-12"
+          ]
+        },
+        {
+          "token": "SKHY3L",
+          "type": "上线",
+          "detail": "SKHY3L（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100614",
+          "dates": [
+            "2026-07-12"
+          ]
+        },
+        {
+          "token": "SKHY3S1",
+          "type": "上线",
+          "detail": "SKHY3S1（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100614",
+          "dates": [
+            "2026-07-12"
           ]
         },
         {
@@ -1063,15 +1082,6 @@
           "dates": [
             "2026-07-06"
           ]
-        },
-        {
-          "token": "CRWDX",
-          "type": "上线",
-          "detail": "Gate 关于 CRWDX 充提和交易服务恢复及 CRWD 股票拆分相关事项的说明1 天前1,558",
-          "url": "https://www.gate.com/zh/announcements/article/100501",
-          "dates": [
-            "2026-07-05"
-          ]
         }
       ]
     },
@@ -1160,6 +1170,46 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "HOODRAT",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月11日 21:30 (UTC+8) 上線 HOODRATUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536808",
+          "dates": [
+            "2026-07-11",
+            "2026-07-12"
+          ]
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月11日 14:30 (UTC+8) 上線 JUGGERNAUTUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536803",
+          "dates": [
+            "2026-07-11",
+            "2026-07-12"
+          ]
+        },
+        {
+          "token": "VEXAI",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月11日 14:30 (UTC+8) 上線 VEXAIUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536802",
+          "dates": [
+            "2026-07-11",
+            "2026-07-12"
+          ]
+        },
+        {
+          "token": "SKHY",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 關於 SKHYUSDT Pre-IPO 永續合約已轉換為正式合約的公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-completes-conversion-of-skhyusdt-pre-ipo-futures-to-standard-futures-17827791536799",
+          "dates": [
+            "2026-07-11",
+            "2026-07-12"
+          ]
+        },
         {
           "token": "TSLL",
           "type": "美股合约",
@@ -1262,45 +1312,9 @@
         },
         {
           "token": "HOODRAT",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月11日 21:30 (UTC+8) 上線 HOODRATUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536808",
-          "dates": [
-            "2026-07-11"
-          ]
-        },
-        {
-          "token": "HOODRAT",
           "type": "Meme+ 现货",
           "detail": "HOODRAT 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536804",
-          "dates": [
-            "2026-07-11"
-          ]
-        },
-        {
-          "token": "JUGGERNAUT",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月11日 14:30 (UTC+8) 上線 JUGGERNAUTUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536803",
-          "dates": [
-            "2026-07-11"
-          ]
-        },
-        {
-          "token": "VEXAI",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月11日 14:30 (UTC+8) 上線 VEXAIUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536802",
-          "dates": [
-            "2026-07-11"
-          ]
-        },
-        {
-          "token": "SKHY",
-          "type": "Pre-IPO 上线",
-          "detail": "MEXC 關於 SKHYUSDT Pre-IPO 永續合約已轉換為正式合約的公告",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-completes-conversion-of-skhyusdt-pre-ipo-futures-to-standard-futures-17827791536799",
           "dates": [
             "2026-07-11"
           ]
@@ -1934,33 +1948,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536690",
           "dates": [
             "2026-07-06"
-          ]
-        },
-        {
-          "token": "CZ",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年7月5日 18:20 (UTC+8) 起把 CZUSDT 從創新區轉板至主板區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-czusdt-from-innovation-zone-to-main-board-on-jul-5-2026-10-17827791536682",
-          "dates": [
-            "2026-07-05"
-          ]
-        },
-        {
-          "token": "CZ",
-          "type": "Meme+ 现货",
-          "detail": "CZ 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536680",
-          "dates": [
-            "2026-07-05"
-          ]
-        },
-        {
-          "token": "MANLET",
-          "type": "Meme+ 现货",
-          "detail": "MANLET 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536675",
-          "dates": [
-            "2026-07-05"
           ]
         }
       ]
