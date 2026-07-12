@@ -1,6 +1,6 @@
 {
   "date": "2026-07-12",
-  "updatedAt": "2026-07-12T12:50:44.555Z",
+  "updatedAt": "2026-07-12T14:27:45.668Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,20 +21,8 @@
         {
           "token": "SKHYG",
           "type": "现货上线",
-          "detail": "Gate gStocks 专区新增 SKHYG（SK 海力士）代币化证券现货交易1 天前2,467",
+          "detail": "Gate gStocks 专区新增 SKHYG（SK 海力士）代币化证券现货交易1 天前2,539",
           "url": "https://www.gate.com/zh/announcements/article/100615"
-        },
-        {
-          "token": "SKHY3L",
-          "type": "上线",
-          "detail": "SKHY3L（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100614"
-        },
-        {
-          "token": "SKHY3S1",
-          "type": "上线",
-          "detail": "SKHY3S1（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100614"
         }
       ]
     },
