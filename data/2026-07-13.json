@@ -1,9 +1,15 @@
 {
   "date": "2026-07-13",
-  "updatedAt": "2026-07-13T13:59:54.520Z",
+  "updatedAt": "2026-07-13T15:46:10.837Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "SKHYB",
+          "type": "上线",
+          "detail": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+          "url": "https://www.binance.com/en/support/announcement/dbc90c04fc654d848f08b0b974fec233"
+        },
         {
           "token": "SKHYB",
           "type": "现货上线",
@@ -11,14 +17,7 @@
           "url": "https://www.binance.com/en/support/announcement/c2e92c3c6c8347c197b9091851ec285e"
         }
       ],
-      "alpha": [
-        {
-          "token": "SKHYB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 SKHYB - SK Hynix (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xca750ef65f295bbecd685abf54e82caf297bdb61"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -59,21 +58,21 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT4",
+          "token": "USDT6",
           "type": "上线",
-          "detail": "华语合约火力周：每日交易领 10 USDT，冲榜最高独享 8,888 USDT4 小时前229",
+          "detail": "华语合约火力周：每日交易领 10 USDT，冲榜最高独享 8,888 USDT6 小时前288",
           "url": "https://www.gate.com/zh/announcements/article/100640"
         },
         {
           "token": "TSM",
           "type": "上线",
-          "detail": "Gate 关于已完成台积电（TSM）等 144 只股票股息派发公告4 小时前306",
+          "detail": "Gate 关于已完成台积电（TSM）等 144 只股票股息派发公告6 小时前390",
           "url": "https://www.gate.com/zh/announcements/article/100639"
         },
         {
           "token": "Bison",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 Bison (The Charging Bison)8 小时前322",
+          "detail": "Gate Alpha 首发上线 Bison (The Charging Bison)9 小时前366",
           "url": "https://www.gate.com/zh/announcements/article/100630"
         },
         {
