@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-07",
   "weekEnd": "2026-07-13",
-  "updatedAt": "2026-07-13T13:13:18.274Z",
+  "updatedAt": "2026-07-13T13:59:54.693Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -230,6 +230,15 @@
         }
       ],
       "alpha": [
+        {
+          "token": "SKHYB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SKHYB - SK Hynix (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xca750ef65f295bbecd685abf54e82caf297bdb61",
+          "dates": [
+            "2026-07-13"
+          ]
+        },
         {
           "token": "WDCB",
           "type": "上线",
@@ -649,9 +658,9 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT3",
+          "token": "USDT4",
           "type": "上线",
-          "detail": "华语合约火力周：每日交易领 10 USDT，冲榜最高独享 8,888 USDT3 小时前197",
+          "detail": "华语合约火力周：每日交易领 10 USDT，冲榜最高独享 8,888 USDT4 小时前229",
           "url": "https://www.gate.com/zh/announcements/article/100640",
           "dates": [
             "2026-07-13"
@@ -660,7 +669,7 @@
         {
           "token": "TSM",
           "type": "上线",
-          "detail": "Gate 关于已完成台积电（TSM）等 144 只股票股息派发公告4 小时前272",
+          "detail": "Gate 关于已完成台积电（TSM）等 144 只股票股息派发公告4 小时前306",
           "url": "https://www.gate.com/zh/announcements/article/100639",
           "dates": [
             "2026-07-13"
@@ -669,7 +678,7 @@
         {
           "token": "Bison",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 Bison (The Charging Bison)7 小时前300",
+          "detail": "Gate Alpha 首发上线 Bison (The Charging Bison)8 小时前322",
           "url": "https://www.gate.com/zh/announcements/article/100630",
           "dates": [
             "2026-07-13"
