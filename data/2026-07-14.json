@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-14",
+  "updatedAt": "2026-07-13T16:50:05.403Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "SKHYB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SKHYB - SK Hynix (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xca750ef65f295bbecd685abf54e82caf297bdb61"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "FIG",
+          "type": "美股合约",
+          "detail": "FIG（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536834"
+        },
+        {
+          "token": "IONS",
+          "type": "美股合约",
+          "detail": "IONS（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536834"
+        },
+        {
+          "token": "FRMI",
+          "type": "美股合约",
+          "detail": "FRMI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536834"
+        },
+        {
+          "token": "BOT",
+          "type": "美股合约",
+          "detail": "BOT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536834"
+        }
+      ]
+    }
+  }
+}
