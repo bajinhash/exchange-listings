@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-08",
   "weekEnd": "2026-07-14",
-  "updatedAt": "2026-07-14T13:02:23.154Z",
+  "updatedAt": "2026-07-14T14:39:23.843Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -139,17 +139,7 @@
           ]
         }
       ],
-      "alpha": [
-        {
-          "token": "SKHYB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 SKHYB - SK Hynix (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xca750ef65f295bbecd685abf54e82caf297bdb61",
-          "dates": [
-            "2026-07-14"
-          ]
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -534,7 +524,7 @@
         {
           "token": "NVDA",
           "type": "上线",
-          "detail": "股票派送季：打卡交易，210 股 NVDA 限时放送6 小时前822",
+          "detail": "股票派送季：打卡交易，210 股 NVDA 限时放送8 小时前920",
           "url": "https://www.gate.com/zh/announcements/article/100653",
           "dates": [
             "2026-07-14"
@@ -543,7 +533,7 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate Layer 网络升级：Gate DEX 暂停充值提现9 小时前395",
+          "detail": "Gate Layer 网络升级：Gate DEX 暂停充值提现11 小时前432",
           "url": "https://www.gate.com/zh/announcements/article/100646",
           "dates": [
             "2026-07-14"
