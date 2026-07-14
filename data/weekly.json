@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-08",
   "weekEnd": "2026-07-14",
-  "updatedAt": "2026-07-14T11:49:44.224Z",
+  "updatedAt": "2026-07-14T11:58:39.458Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -534,7 +534,7 @@
         {
           "token": "NVDA",
           "type": "上线",
-          "detail": "股票派送季：打卡交易，210 股 NVDA 限时放送5 小时前721",
+          "detail": "股票派送季：打卡交易，210 股 NVDA 限时放送5 小时前744",
           "url": "https://www.gate.com/zh/announcements/article/100653",
           "dates": [
             "2026-07-14"
@@ -543,7 +543,7 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate Layer 网络升级：Gate DEX 暂停充值提现8 小时前358",
+          "detail": "Gate Layer 网络升级：Gate DEX 暂停充值提现8 小时前362",
           "url": "https://www.gate.com/zh/announcements/article/100646",
           "dates": [
             "2026-07-14"
