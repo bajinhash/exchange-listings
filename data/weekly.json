@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-09",
   "weekEnd": "2026-07-15",
-  "updatedAt": "2026-07-15T11:53:09.885Z",
+  "updatedAt": "2026-07-15T12:01:44.169Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -624,7 +624,7 @@
         {
           "token": "CXMT",
           "type": "永续合约",
-          "detail": "Gate 已上线 CXMTUSDT 永续合约盘前交易（USDT 结算）18 分钟前112",
+          "detail": "Gate 已上线 CXMTUSDT 永续合约盘前交易（USDT 结算）27 分钟前136",
           "url": "https://www.gate.com/zh/announcements/article/100682",
           "dates": [
             "2026-07-15"
@@ -633,7 +633,7 @@
         {
           "token": "NEURALINK",
           "type": "永续合约",
-          "detail": "Gate 已上线 NEURALINKUSDT 永续合约盘前交易（USDT 结算）2 小时前915",
+          "detail": "Gate 已上线 NEURALINKUSDT 永续合约盘前交易（USDT 结算）2 小时前935",
           "url": "https://www.gate.com/zh/announcements/article/100680",
           "dates": [
             "2026-07-15"
@@ -642,7 +642,7 @@
         {
           "token": "VOOG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...9 小时前1,112",
+          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...9 小时前1,115",
           "url": "https://www.gate.com/zh/announcements/article/100663",
           "dates": [
             "2026-07-15"
@@ -913,22 +913,11 @@
     "mexc": {
       "listings": [
         {
-          "token": "INTW",
-          "type": "美股合约",
-          "detail": "INTW（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536851",
+          "token": "MARIAN",
+          "type": "Meme+ 现货",
+          "detail": "MARIAN 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536876",
           "dates": [
-            "2026-07-14",
-            "2026-07-15"
-          ]
-        },
-        {
-          "token": "SNXX",
-          "type": "美股合约",
-          "detail": "SNXX（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536851",
-          "dates": [
-            "2026-07-14",
             "2026-07-15"
           ]
         },
@@ -1123,6 +1112,24 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ondo-tokenized-stock-sk-hynix-skhyon-on-spot-jul-13-2026-17827791536790",
           "dates": [
             "2026-07-13",
+            "2026-07-14"
+          ]
+        },
+        {
+          "token": "INTW",
+          "type": "美股合约",
+          "detail": "INTW（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536851",
+          "dates": [
+            "2026-07-14"
+          ]
+        },
+        {
+          "token": "SNXX",
+          "type": "美股合约",
+          "detail": "SNXX（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536851",
+          "dates": [
             "2026-07-14"
           ]
         },
