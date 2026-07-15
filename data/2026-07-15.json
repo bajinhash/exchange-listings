@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "updatedAt": "2026-07-15T13:07:31.257Z",
+  "updatedAt": "2026-07-15T14:38:19.743Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -77,7 +77,68 @@
           "url": "https://www.binance.com/en/support/announcement/f198d9602f3b4604a9b15cd0a1529e32"
         }
       ],
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "IBMB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 IBMB - IBM (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xfa273b076feb8c0fb34e554ae341082323d016a3"
+        },
+        {
+          "token": "HOODB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 HOODB - Robinhood (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xa394dcea3fd3847fd793afbfd163e2e3858b7c65"
+        },
+        {
+          "token": "MRVLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 MRVLB - Marvell Technology (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x16cd4fe7e8880ecc3ba222795229e20489fc2c76"
+        },
+        {
+          "token": "AVGOB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AVGOB - Broadcom (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x76682c454467b3a1150ad8b6a92fc5ee2c21d7ed"
+        },
+        {
+          "token": "BABAB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 BABAB - Alibaba (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec"
+        },
+        {
+          "token": "TSMB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 TSMB - TSMC (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xab78b89b5bb00236be0b4b20704cbfa04efc711c"
+        },
+        {
+          "token": "NOKB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NOKB - Nokia (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x7c4d7a180d737dd5a70d8065a90e6746a69c37ea"
+        },
+        {
+          "token": "RKLBB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 RKLBB - Rocket Lab (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xc8da12cbcce7c45180692a6420b0076e03a5179a"
+        },
+        {
+          "token": "AAOIB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AAOIB - Applied Optoelectronics (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x10343ef7da3301493d7ecb647d68a288c6c1db2f"
+        },
+        {
+          "token": "ARMB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ARMB - ARM (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xd42a79ebb7f527f40faecd196ffb47ad5e8d6f8c"
+        }
+      ],
       "wallet": []
     },
     "okx": {
@@ -139,25 +200,25 @@
         {
           "token": "CXMT",
           "type": "永续合约",
-          "detail": "Gate 已上线 CXMTUSDT 永续合约盘前交易（USDT 结算）2 小时前228",
+          "detail": "Gate 已上线 CXMTUSDT 永续合约盘前交易（USDT 结算）3 小时前335",
           "url": "https://www.gate.com/zh/announcements/article/100682"
         },
         {
           "token": "NEURALINK",
           "type": "永续合约",
-          "detail": "Gate 已上线 NEURALINKUSDT 永续合约盘前交易（USDT 结算）3 小时前1,018",
+          "detail": "Gate 已上线 NEURALINKUSDT 永续合约盘前交易（USDT 结算）4 小时前1,132",
           "url": "https://www.gate.com/zh/announcements/article/100680"
         },
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX 合约首单启航：首单交易并邀请好友，赢取 10,000 USDT5 小时前350",
+          "detail": "Gate DEX 合约首单启航：首单交易并邀请好友，赢取 10,000 USDT6 小时前584",
           "url": "https://www.gate.com/zh/announcements/article/100675"
         },
         {
           "token": "VOOG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...10 小时前1,160",
+          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...12 小时前1,218",
           "url": "https://www.gate.com/zh/announcements/article/100663"
         }
       ]
