@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-09",
   "weekEnd": "2026-07-15",
-  "updatedAt": "2026-07-15T12:01:44.169Z",
+  "updatedAt": "2026-07-15T13:07:31.366Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -624,7 +624,7 @@
         {
           "token": "CXMT",
           "type": "永续合约",
-          "detail": "Gate 已上线 CXMTUSDT 永续合约盘前交易（USDT 结算）27 分钟前136",
+          "detail": "Gate 已上线 CXMTUSDT 永续合约盘前交易（USDT 结算）2 小时前228",
           "url": "https://www.gate.com/zh/announcements/article/100682",
           "dates": [
             "2026-07-15"
@@ -633,7 +633,7 @@
         {
           "token": "NEURALINK",
           "type": "永续合约",
-          "detail": "Gate 已上线 NEURALINKUSDT 永续合约盘前交易（USDT 结算）2 小时前935",
+          "detail": "Gate 已上线 NEURALINKUSDT 永续合约盘前交易（USDT 结算）3 小时前1,018",
           "url": "https://www.gate.com/zh/announcements/article/100680",
           "dates": [
             "2026-07-15"
@@ -642,7 +642,7 @@
         {
           "token": "VOOG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...9 小时前1,115",
+          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...10 小时前1,160",
           "url": "https://www.gate.com/zh/announcements/article/100663",
           "dates": [
             "2026-07-15"
