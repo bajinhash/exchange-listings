@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-10",
   "weekEnd": "2026-07-16",
-  "updatedAt": "2026-07-16T12:08:12.999Z",
+  "updatedAt": "2026-07-16T13:15:55.288Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -863,7 +863,7 @@
         {
           "token": "GUSD",
           "type": "上线",
-          "detail": "GUSD 支持无损快速赎回功能上线1 小时前184",
+          "detail": "GUSD 支持无损快速赎回功能上线2 小时前299",
           "url": "https://www.gate.com/zh/announcements/article/100710",
           "dates": [
             "2026-07-16"
@@ -872,7 +872,7 @@
         {
           "token": "XRP",
           "type": "上线",
-          "detail": "闪兑领 2 XRP，新人最高领 502 XRP5 小时前471",
+          "detail": "闪兑领 2 XRP，新人最高领 502 XRP6 小时前524",
           "url": "https://www.gate.com/zh/announcements/article/100699",
           "dates": [
             "2026-07-16"

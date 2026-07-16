@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "updatedAt": "2026-07-16T12:08:12.814Z",
+  "updatedAt": "2026-07-16T13:15:55.150Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -206,19 +206,19 @@
         {
           "token": "GUSD",
           "type": "上线",
-          "detail": "GUSD 支持无损快速赎回功能上线1 小时前184",
+          "detail": "GUSD 支持无损快速赎回功能上线2 小时前299",
           "url": "https://www.gate.com/zh/announcements/article/100710"
         },
         {
           "token": "SNDKG",
           "type": "上线",
-          "detail": "gStocks 新币交易狂欢二期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池4 小时前385",
+          "detail": "gStocks 新币交易狂欢二期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池6 小时前437",
           "url": "https://www.gate.com/zh/announcements/article/100701"
         },
         {
           "token": "XRP",
           "type": "上线",
-          "detail": "闪兑领 2 XRP，新人最高领 502 XRP5 小时前471",
+          "detail": "闪兑领 2 XRP，新人最高领 502 XRP6 小时前524",
           "url": "https://www.gate.com/zh/announcements/article/100699"
         },
         {
@@ -236,7 +236,7 @@
         {
           "token": "VOOG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...1 天前1,817",
+          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...1 天前1,832",
           "url": "https://www.gate.com/zh/announcements/article/100663"
         }
       ]
