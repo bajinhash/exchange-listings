@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-10",
   "weekEnd": "2026-07-16",
-  "updatedAt": "2026-07-16T11:58:59.598Z",
+  "updatedAt": "2026-07-16T12:08:12.999Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -841,12 +841,58 @@
     "gateio": {
       "listings": [
         {
-          "token": "NEURALINK",
-          "type": "永续合约",
-          "detail": "Gate 已上线 NEURALINKUSDT 永续合约盘前交易（USDT 结算）4 小时前1,132",
-          "url": "https://www.gate.com/zh/announcements/article/100680",
+          "token": "SNDKG",
+          "type": "上线",
+          "detail": "gStocks 新币交易狂欢：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池7 小时前2,395",
+          "url": "https://www.gate.com/zh/announcements/article/100608",
+          "dates": [
+            "2026-07-10",
+            "2026-07-16"
+          ]
+        },
+        {
+          "token": "VOOG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...12 小时前1,218",
+          "url": "https://www.gate.com/zh/announcements/article/100663",
           "dates": [
             "2026-07-15",
+            "2026-07-16"
+          ]
+        },
+        {
+          "token": "GUSD",
+          "type": "上线",
+          "detail": "GUSD 支持无损快速赎回功能上线1 小时前184",
+          "url": "https://www.gate.com/zh/announcements/article/100710",
+          "dates": [
+            "2026-07-16"
+          ]
+        },
+        {
+          "token": "XRP",
+          "type": "上线",
+          "detail": "闪兑领 2 XRP，新人最高领 502 XRP5 小时前471",
+          "url": "https://www.gate.com/zh/announcements/article/100699",
+          "dates": [
+            "2026-07-16"
+          ]
+        },
+        {
+          "token": "SOLdiers",
+          "type": "现货上线",
+          "detail": "SOLdiers（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100692",
+          "dates": [
+            "2026-07-16"
+          ]
+        },
+        {
+          "token": "TrumpCoin",
+          "type": "现货上线",
+          "detail": "TrumpCoin（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100692",
+          "dates": [
             "2026-07-16"
           ]
         },
@@ -870,10 +916,10 @@
           ]
         },
         {
-          "token": "VOOG",
-          "type": "上线",
-          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...12 小时前1,218",
-          "url": "https://www.gate.com/zh/announcements/article/100663",
+          "token": "NEURALINK",
+          "type": "永续合约",
+          "detail": "Gate 已上线 NEURALINKUSDT 永续合约盘前交易（USDT 结算）4 小时前1,132",
+          "url": "https://www.gate.com/zh/announcements/article/100680",
           "dates": [
             "2026-07-15"
           ]
@@ -992,15 +1038,6 @@
           "type": "现货上线",
           "detail": "海力士 ADR 芯动首发季，抢头筹、冲榜、晒持仓，瓜分 120 股 SKHY6 小时前614",
           "url": "https://www.gate.com/zh/announcements/article/100611",
-          "dates": [
-            "2026-07-10"
-          ]
-        },
-        {
-          "token": "SNDKG",
-          "type": "上线",
-          "detail": "gStocks 新币交易狂欢：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池7 小时前2,395",
-          "url": "https://www.gate.com/zh/announcements/article/100608",
           "dates": [
             "2026-07-10"
           ]
