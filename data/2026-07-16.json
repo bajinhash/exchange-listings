@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "updatedAt": "2026-07-16T13:15:55.150Z",
+  "updatedAt": "2026-07-16T14:58:14.038Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -41,68 +41,7 @@
           "url": "https://www.binance.com/en/support/announcement/0a613aed15cc4cf78898594d7c767661"
         }
       ],
-      "alpha": [
-        {
-          "token": "IBMB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 IBMB - IBM (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xfa273b076feb8c0fb34e554ae341082323d016a3"
-        },
-        {
-          "token": "HOODB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 HOODB - Robinhood (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xa394dcea3fd3847fd793afbfd163e2e3858b7c65"
-        },
-        {
-          "token": "MRVLB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 MRVLB - Marvell Technology (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x16cd4fe7e8880ecc3ba222795229e20489fc2c76"
-        },
-        {
-          "token": "AVGOB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 AVGOB - Broadcom (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x76682c454467b3a1150ad8b6a92fc5ee2c21d7ed"
-        },
-        {
-          "token": "BABAB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 BABAB - Alibaba (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec"
-        },
-        {
-          "token": "TSMB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 TSMB - TSMC (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xab78b89b5bb00236be0b4b20704cbfa04efc711c"
-        },
-        {
-          "token": "NOKB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 NOKB - Nokia (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x7c4d7a180d737dd5a70d8065a90e6746a69c37ea"
-        },
-        {
-          "token": "RKLBB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 RKLBB - Rocket Lab (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xc8da12cbcce7c45180692a6420b0076e03a5179a"
-        },
-        {
-          "token": "AAOIB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 AAOIB - Applied Optoelectronics (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x10343ef7da3301493d7ecb647d68a288c6c1db2f"
-        },
-        {
-          "token": "ARMB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 ARMB - ARM (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xd42a79ebb7f527f40faecd196ffb47ad5e8d6f8c"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -206,19 +145,19 @@
         {
           "token": "GUSD",
           "type": "上线",
-          "detail": "GUSD 支持无损快速赎回功能上线2 小时前299",
+          "detail": "GUSD 支持无损快速赎回功能上线4 小时前440",
           "url": "https://www.gate.com/zh/announcements/article/100710"
         },
         {
           "token": "SNDKG",
           "type": "上线",
-          "detail": "gStocks 新币交易狂欢二期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池6 小时前437",
+          "detail": "gStocks 新币交易狂欢二期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池7 小时前509",
           "url": "https://www.gate.com/zh/announcements/article/100701"
         },
         {
           "token": "XRP",
           "type": "上线",
-          "detail": "闪兑领 2 XRP，新人最高领 502 XRP6 小时前524",
+          "detail": "闪兑领 2 XRP，新人最高领 502 XRP8 小时前598",
           "url": "https://www.gate.com/zh/announcements/article/100699"
         },
         {
@@ -236,7 +175,7 @@
         {
           "token": "VOOG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...1 天前1,832",
+          "detail": "Gate gStocks 专区新增 VOOG（领航标普 500 指数 ETF）、IVVG（安硕核心标普 500 ETF...1 天前1,860",
           "url": "https://www.gate.com/zh/announcements/article/100663"
         }
       ]
@@ -248,6 +187,30 @@
           "type": "现货上线",
           "detail": "Bitget 关于上线rJEPQ、rCONL、rXBI、rDIA、rKSTR等16只股票现货的公告（rJEPQ、rCONL、rXBI、rDIA、rKSTR、rECHO、rADM、rKR… 共 30 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603889337"
+        },
+        {
+          "token": "CPNG",
+          "type": "美股合约",
+          "detail": "CPNG（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889448"
+        },
+        {
+          "token": "PKX",
+          "type": "美股合约",
+          "detail": "PKX（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889448"
+        },
+        {
+          "token": "MUFG",
+          "type": "美股合约",
+          "detail": "MUFG（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889448"
+        },
+        {
+          "token": "TM",
+          "type": "美股合约",
+          "detail": "TM（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889448"
         }
       ]
     },
