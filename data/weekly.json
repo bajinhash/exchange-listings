@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-11",
   "weekEnd": "2026-07-17",
-  "updatedAt": "2026-07-17T12:58:26.997Z",
+  "updatedAt": "2026-07-17T14:29:45.409Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -780,25 +780,25 @@
         {
           "token": "OPENAI",
           "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 第二期：OpenAI (OPENAI) 资产凭证首期分发完成及开盘时间的公告2 小时前393",
+          "detail": "Gate Pre-IPOs 第二期：OpenAI (OPENAI) 资产凭证首期分发完成及开盘时间的公告3 小时前554",
           "url": "https://www.gate.com/zh/announcements/article/100729",
           "dates": [
             "2026-07-17"
           ]
         },
         {
-          "token": "USDT3",
+          "token": "USDT4",
           "type": "Pre-IPO 上线",
-          "detail": "OpenAI Pre-IPOs 专属合约体验礼：首单领 5 USDT，风险缓冲最高补贴 50 USDT3 小时前410",
+          "detail": "OpenAI Pre-IPOs 专属合约体验礼：首单领 5 USDT，风险缓冲最高补贴 50 USDT4 小时前540",
           "url": "https://www.gate.com/zh/announcements/article/100727",
           "dates": [
             "2026-07-17"
           ]
         },
         {
-          "token": "DOGE9",
+          "token": "DOGE10",
           "type": "上线",
-          "detail": "合约探险家：首单立领 10 USDT，全员夺宝最高赢 5,000 USDT 等值 DOGE9 小时前733",
+          "detail": "合约探险家：首单立领 10 USDT，全员夺宝最高赢 5,000 USDT 等值 DOGE10 小时前795",
           "url": "https://www.gate.com/zh/announcements/article/100715",
           "dates": [
             "2026-07-17"
@@ -834,7 +834,7 @@
         {
           "token": "TSM3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 TSM3L/3S、EWY3L/3S、DRAM3L/3S10 小时前404",
+          "detail": "Gate ETF 上线 TSM3L/3S、EWY3L/3S、DRAM3L/3S11 小时前443",
           "url": "https://www.gate.com/zh/announcements/article/100712",
           "dates": [
             "2026-07-17"
