@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "updatedAt": "2026-07-18T11:29:36.089Z",
+  "updatedAt": "2026-07-18T12:48:16.183Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -65,25 +65,25 @@
         {
           "token": "OPENAI",
           "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 第二期：OpenAI (OPENAI) 资产凭证首期分发完成及开盘时间的公告1 天前1,873",
+          "detail": "Gate Pre-IPOs 第二期：OpenAI (OPENAI) 资产凭证首期分发完成及开盘时间的公告1 天前1,943",
           "url": "https://www.gate.com/zh/announcements/article/100729"
         },
         {
           "token": "USDT1",
           "type": "Pre-IPO 上线",
-          "detail": "OpenAI Pre-IPOs 专属合约体验礼：首单领 5 USDT，风险缓冲最高补贴 50 USDT1 天前1,501",
+          "detail": "OpenAI Pre-IPOs 专属合约体验礼：首单领 5 USDT，风险缓冲最高补贴 50 USDT1 天前1,550",
           "url": "https://www.gate.com/zh/announcements/article/100727"
         },
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX 全面接入 Robinhood Chain，拓展多链生态布局与链上服务能力1 天前984",
+          "detail": "Gate DEX 全面接入 Robinhood Chain，拓展多链生态布局与链上服务能力1 天前1,002",
           "url": "https://www.gate.com/zh/announcements/article/100718"
         },
         {
           "token": "DOGE1",
           "type": "上线",
-          "detail": "合约探险家：首单立领 10 USDT，全员夺宝最高赢 5,000 USDT 等值 DOGE1 天前1,327",
+          "detail": "合约探险家：首单立领 10 USDT，全员夺宝最高赢 5,000 USDT 等值 DOGE1 天前1,350",
           "url": "https://www.gate.com/zh/announcements/article/100715"
         },
         {
@@ -107,7 +107,7 @@
         {
           "token": "TSM3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 TSM3L/3S、EWY3L/3S、DRAM3L/3S1 天前771",
+          "detail": "Gate ETF 上线 TSM3L/3S、EWY3L/3S、DRAM3L/3S1 天前788",
           "url": "https://www.gate.com/zh/announcements/article/100712"
         }
       ]
