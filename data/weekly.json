@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-07-12",
-  "weekEnd": "2026-07-18",
-  "updatedAt": "2026-07-18T14:20:27.896Z",
+  "weekStart": "2026-07-13",
+  "weekEnd": "2026-07-19",
+  "updatedAt": "2026-07-19T11:27:44.824Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -987,15 +987,6 @@
           "dates": [
             "2026-07-13"
           ]
-        },
-        {
-          "token": "SKHYG",
-          "type": "现货上线",
-          "detail": "Gate gStocks 专区新增 SKHYG（SK 海力士）代币化证券现货交易1 天前2,539",
-          "url": "https://www.gate.com/zh/announcements/article/100615",
-          "dates": [
-            "2026-07-12"
-          ]
         }
       ]
     },
@@ -1698,42 +1689,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hoodrat-vexai-and-juggernaut-usdt-m-futures-17827791536822",
           "dates": [
             "2026-07-13"
-          ]
-        },
-        {
-          "token": "HOODRAT",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月11日 21:30 (UTC+8) 上線 HOODRATUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536808",
-          "dates": [
-            "2026-07-12"
-          ]
-        },
-        {
-          "token": "JUGGERNAUT",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月11日 14:30 (UTC+8) 上線 JUGGERNAUTUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536803",
-          "dates": [
-            "2026-07-12"
-          ]
-        },
-        {
-          "token": "VEXAI",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月11日 14:30 (UTC+8) 上線 VEXAIUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536802",
-          "dates": [
-            "2026-07-12"
-          ]
-        },
-        {
-          "token": "SKHY",
-          "type": "Pre-IPO 上线",
-          "detail": "MEXC 關於 SKHYUSDT Pre-IPO 永續合約已轉換為正式合約的公告",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-completes-conversion-of-skhyusdt-pre-ipo-futures-to-standard-futures-17827791536799",
-          "dates": [
-            "2026-07-12"
           ]
         }
       ]
