@@ -1,6 +1,6 @@
 {
   "date": "2026-07-20",
-  "updatedAt": "2026-07-20T13:38:31.452Z",
+  "updatedAt": "2026-07-20T15:07:48.146Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -65,44 +65,32 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于 USD1 持币生息活动结束及支持铸造 GUSD 的公告2 小时前184",
+          "detail": "关于 USD1 持币生息活动结束及支持铸造 GUSD 的公告4 小时前273",
           "url": "https://www.gate.com/zh/announcements/article/100746"
         },
         {
           "token": "BABA",
           "type": "上线",
-          "detail": "Gate 关于已完成阿里巴巴（BABA）等 84 只股票股息派发公告4 小时前1,013",
+          "detail": "Gate 关于已完成阿里巴巴（BABA）等 84 只股票股息派发公告5 小时前1,293",
           "url": "https://www.gate.com/zh/announcements/article/100743"
         },
         {
           "token": "BTC",
           "type": "永续合约",
-          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（7 月22 日 00:00 – 00:30 UTC+8）6 小时前364",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（7 月22 日 00:00 – 00:30 UTC+8）7 小时前426",
           "url": "https://www.gate.com/zh/announcements/article/100739"
         },
         {
           "token": "XRP",
           "type": "上线",
-          "detail": "XRP 空投升级：邀一人即领 3 XRP，30,000 XRP 实时发放10 小时前689",
+          "detail": "XRP 空投升级：邀一人即领 3 XRP，30,000 XRP 实时发放11 小时前748",
           "url": "https://www.gate.com/zh/announcements/article/100734"
         },
         {
           "token": "POV",
           "type": "现货上线",
-          "detail": "Gate 推出现货 POV 算法订单: 面向大额订单提供智能拆单工具10 小时前623",
+          "detail": "Gate 推出现货 POV 算法订单: 面向大额订单提供智能拆单工具11 小时前695",
           "url": "https://www.gate.com/zh/announcements/article/100733"
-        },
-        {
-          "token": "Agamemnon",
-          "type": "现货上线",
-          "detail": "Agamemnon（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100731"
-        },
-        {
-          "token": "Jimothy",
-          "type": "现货上线",
-          "detail": "Jimothy（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100731"
         }
       ]
     },
