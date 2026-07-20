@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-14",
   "weekEnd": "2026-07-20",
-  "updatedAt": "2026-07-20T12:33:26.219Z",
+  "updatedAt": "2026-07-20T12:42:36.640Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -749,7 +749,7 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于 USD1 持币生息活动结束及支持铸造 GUSD 的公告1 小时前115",
+          "detail": "关于 USD1 持币生息活动结束及支持铸造 GUSD 的公告1 小时前121",
           "url": "https://www.gate.com/zh/announcements/article/100746",
           "dates": [
             "2026-07-20"
@@ -758,7 +758,7 @@
         {
           "token": "BABA",
           "type": "上线",
-          "detail": "Gate 关于已完成阿里巴巴（BABA）等 84 只股票股息派发公告3 小时前189",
+          "detail": "Gate 关于已完成阿里巴巴（BABA）等 84 只股票股息派发公告3 小时前193",
           "url": "https://www.gate.com/zh/announcements/article/100743",
           "dates": [
             "2026-07-20"
@@ -767,7 +767,7 @@
         {
           "token": "BTC",
           "type": "永续合约",
-          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（7 月22 日 00:00 – 00:30 UTC+8）5 小时前328",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（7 月22 日 00:00 – 00:30 UTC+8）5 小时前332",
           "url": "https://www.gate.com/zh/announcements/article/100739",
           "dates": [
             "2026-07-20"
@@ -776,7 +776,7 @@
         {
           "token": "POV",
           "type": "现货上线",
-          "detail": "Gate 推出现货 POV 算法订单: 面向大额订单提供智能拆单工具9 小时前575",
+          "detail": "Gate 推出现货 POV 算法订单: 面向大额订单提供智能拆单工具9 小时前581",
           "url": "https://www.gate.com/zh/announcements/article/100733",
           "dates": [
             "2026-07-20"
