@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "updatedAt": "2026-07-21T12:14:11.176Z",
+  "updatedAt": "2026-07-21T13:14:07.081Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -119,49 +119,49 @@
         {
           "token": "TENCENTHKD",
           "type": "永续合约",
-          "detail": "Gate 关于新增 Quanto 永续合约及首发上线 TENCENTHKD（腾讯控股 00700.HK）、ZHIPUHK...4 小时前1,048",
+          "detail": "Gate 关于新增 Quanto 永续合约及首发上线 TENCENTHKD（腾讯控股 00700.HK）、ZHIPUHK...5 小时前1,134",
           "url": "https://www.gate.com/zh/announcements/article/100769"
         },
         {
           "token": "USDPT",
           "type": "上线",
-          "detail": "USDPT 定期理财上线，申购享 15% 年化4 小时前389",
+          "detail": "USDPT 定期理财上线，申购享 15% 年化5 小时前474",
           "url": "https://www.gate.com/zh/announcements/article/100768"
         },
         {
           "token": "IBM3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 IBM3L/3S、NOK3L/3S、NBIS3L/3S、RKLB3L/3S4 小时前250",
+          "detail": "Gate ETF 上线 IBM3L/3S、NOK3L/3S、NBIS3L/3S、RKLB3L/3S5 小时前288",
           "url": "https://www.gate.com/zh/announcements/article/100764"
         },
         {
           "token": "GUSD",
           "type": "上线",
-          "detail": "GUSD 专属交易节：开单即领，叠享 USDT & GUSD 双重奖池5 小时前480",
+          "detail": "GUSD 专属交易节：开单即领，叠享 USDT & GUSD 双重奖池6 小时前541",
           "url": "https://www.gate.com/zh/announcements/article/100760"
         },
         {
           "token": "KIMI",
           "type": "永续合约",
-          "detail": "Gate 已上线 KIMIUSDT（月之暗面）永续合约盘前交易（USDT 结算）6 小时前1,137",
+          "detail": "Gate 已上线 KIMIUSDT（月之暗面）永续合约盘前交易（USDT 结算）7 小时前1,183",
           "url": "https://www.gate.com/zh/announcements/article/100758"
         },
         {
           "token": "TSLA3L",
           "type": "上线",
-          "detail": "Gate ETF 领航加码礼：交易 ETF 赢 TSLA3L & USDT，合约积分与 VIP 用户专享加码7 小时前495",
+          "detail": "Gate ETF 领航加码礼：交易 ETF 赢 TSLA3L & USDT，合约积分与 VIP 用户专享加码8 小时前520",
           "url": "https://www.gate.com/zh/announcements/article/100756"
         },
         {
           "token": "ANTFUN",
           "type": "Launchpool",
-          "detail": "Gate 将上线 AntFun (ANTFUN) 现货交易、闪兑交易并开启 Launchpool，质押 USDT、GUSD...9 小时前1,436",
+          "detail": "Gate 将上线 AntFun (ANTFUN) 现货交易、闪兑交易并开启 Launchpool，质押 USDT、GUSD...10 小时前1,514",
           "url": "https://www.gate.com/zh/announcements/article/100753"
         },
         {
           "token": "POV",
           "type": "现货上线",
-          "detail": "Gate 推出现货 POV 算法订单: 面向大额订单提供智能拆单工具1 天前1,298",
+          "detail": "Gate 推出现货 POV 算法订单: 面向大额订单提供智能拆单工具1 天前1,309",
           "url": "https://www.gate.com/zh/announcements/article/100733"
         }
       ]
