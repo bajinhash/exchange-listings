@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "updatedAt": "2026-07-22T13:19:29.512Z",
+  "updatedAt": "2026-07-22T14:57:36.856Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -83,7 +83,68 @@
           "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
         }
       ],
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "ORCLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ORCLB - Oracle (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x4684d9887fc1c71cba7bab8e88835cec217eb598"
+        },
+        {
+          "token": "QNTB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 QNTB - Quantinuum (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xd721c192d612db77621df57a9fab38418033c02e"
+        },
+        {
+          "token": "TQQQB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 TQQQB - ProShares UltraPro QQQ (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x462b5f13b7c7748279358962925c5de83bb9e598"
+        },
+        {
+          "token": "INTWB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 INTWB - GraniteShares 2X Long INTC ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x0735d9904b7e34e6fe39b0f66e00c111b3f2b681"
+        },
+        {
+          "token": "SNXXB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SNXXB - Tradr 2X Long SNDK ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x9e82e3da8f1115b73d24bb24113ab836ffdab6b6"
+        },
+        {
+          "token": "MVLLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 MVLLB - GraniteShares 2X Long MRVL ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x7c26a12f20507e2cee22ceebed9e88fda47f866c"
+        },
+        {
+          "token": "MUUB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 MUUB - Direxion MU Bull 2X ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x0bb3fa77e0809f42948e435f04883c25415e8263"
+        },
+        {
+          "token": "CRWVB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CRWVB - CoreWeave (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x33e7317e17838fee56b10fe8d0b9ca6ca3090c95"
+        },
+        {
+          "token": "AXTIB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AXTIB - AXT (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x9bdc8b470dbf89dbcb123587c6f5e49cca3463be"
+        },
+        {
+          "token": "KORUB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 KORUB - South Korea Bull 3X ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x1ffad32d69c5fead99f88c25ca0191edc3757636"
+        }
+      ],
       "wallet": []
     },
     "okx": {
@@ -191,33 +252,51 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT3",
+          "token": "USDT5",
           "type": "上线",
-          "detail": "Gate ETF 老友专享：回归交易领好礼，最高可得 225 USDT3 小时前341",
+          "detail": "Gate ETF 老友专享：回归交易领好礼，最高可得 225 USDT5 小时前487",
           "url": "https://www.gate.com/zh/announcements/article/100797"
         },
         {
-          "token": "USDT5",
+          "token": "USDT7",
           "type": "上线",
-          "detail": "合约老友回归：交易 1 USDT 领 50 USDT，最高解锁 5,100 USDT5 小时前738",
+          "detail": "合约老友回归：交易 1 USDT 领 50 USDT，最高解锁 5,100 USDT7 小时前928",
           "url": "https://www.gate.com/zh/announcements/article/100794"
         },
         {
           "token": "SKHYON",
           "type": "现货上线",
-          "detail": "Gate 将上线 SK Hynix Ondo Tokenized (SKHYON) 现货交易与闪兑交易1 天前2,126",
+          "detail": "Gate 将上线 SK Hynix Ondo Tokenized (SKHYON) 现货交易与闪兑交易1 天前2,168",
           "url": "https://www.gate.com/zh/announcements/article/100775"
         },
         {
           "token": "ANTFUN",
           "type": "Launchpool",
-          "detail": "Gate 将上线 AntFun (ANTFUN) 现货交易、闪兑交易并开启 Launchpool，质押 USDT、GUSD...1 天前2,536",
+          "detail": "Gate 将上线 AntFun (ANTFUN) 现货交易、闪兑交易并开启 Launchpool，质押 USDT、GUSD...1 天前2,571",
           "url": "https://www.gate.com/zh/announcements/article/100753"
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "SHAZ",
+          "type": "美股合约",
+          "detail": "SHAZ（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889969"
+        },
+        {
+          "token": "SOFI",
+          "type": "美股合约",
+          "detail": "SOFI（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889969"
+        },
+        {
+          "token": "PENG",
+          "type": "美股合约",
+          "detail": "PENG（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889969"
+        },
         {
           "token": "ZHIPU",
           "type": "永续合约",
@@ -229,16 +308,22 @@
     "mexc": {
       "listings": [
         {
+          "token": "WOOD",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月22日 22:30 (UTC+8) 上線 WOODUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536999"
+        },
+        {
+          "token": "SHAZ",
+          "type": "美股合约",
+          "detail": "MEXC 將於 7月22日 上線 SHAZ 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-shaz-stock-futures-with-0-fee-trading-on-jul-22-17827791536998"
+        },
+        {
           "token": "KET",
           "type": "Meme+ 现货",
           "detail": "KET 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536985"
-        },
-        {
-          "token": "WOOD",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Sherwood Protocol (WOOD)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536982"
         },
         {
           "token": "GMEBULL",
@@ -293,12 +378,6 @@
           "type": "上线",
           "detail": "JIMOTHY 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-jimothy-to-innovation-zone-17827791536946"
-        },
-        {
-          "token": "PONS",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年7月21日 11:10 (UTC+8) 起把 PONSUSDT 從創新區轉板至主板區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-ponsusdt-from-innovation-zone-to-main-board-on-jul-21-2026-03-17827791536943"
         }
       ]
     }
