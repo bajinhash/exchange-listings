@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-16",
   "weekEnd": "2026-07-22",
-  "updatedAt": "2026-07-22T12:07:51.768Z",
+  "updatedAt": "2026-07-22T12:17:03.411Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -732,7 +732,7 @@
         {
           "token": "USDT2",
           "type": "上线",
-          "detail": "Gate ETF 老友专享：回归交易领好礼，最高可得 225 USDT2 小时前249",
+          "detail": "Gate ETF 老友专享：回归交易领好礼，最高可得 225 USDT2 小时前283",
           "url": "https://www.gate.com/zh/announcements/article/100797",
           "dates": [
             "2026-07-22"
@@ -741,7 +741,7 @@
         {
           "token": "USDT4",
           "type": "上线",
-          "detail": "合约老友回归：交易 1 USDT 领 50 USDT，最高解锁 5,100 USDT4 小时前630",
+          "detail": "合约老友回归：交易 1 USDT 领 50 USDT，最高解锁 5,100 USDT4 小时前652",
           "url": "https://www.gate.com/zh/announcements/article/100794",
           "dates": [
             "2026-07-22"
@@ -750,7 +750,7 @@
         {
           "token": "SKHYON",
           "type": "现货上线",
-          "detail": "Gate 将上线 SK Hynix Ondo Tokenized (SKHYON) 现货交易与闪兑交易21 小时前2,094",
+          "detail": "Gate 将上线 SK Hynix Ondo Tokenized (SKHYON) 现货交易与闪兑交易21 小时前2,102",
           "url": "https://www.gate.com/zh/announcements/article/100775",
           "dates": [
             "2026-07-22"
