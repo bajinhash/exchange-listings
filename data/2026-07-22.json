@@ -1,0 +1,306 @@
+{
+  "date": "2026-07-22",
+  "updatedAt": "2026-07-22T12:07:51.586Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "ADGM",
+          "type": "上线",
+          "detail": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+          "url": "https://www.binance.com/en/support/announcement/dd18d9850f504666b7c91b5c74fe8c10"
+        },
+        {
+          "token": "ADGM",
+          "type": "现货上线",
+          "detail": "ADGM（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        },
+        {
+          "token": "AXTIB",
+          "type": "现货上线",
+          "detail": "AXTIB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        },
+        {
+          "token": "BTC",
+          "type": "现货上线",
+          "detail": "BTC（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        },
+        {
+          "token": "CRWVB",
+          "type": "现货上线",
+          "detail": "CRWVB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        },
+        {
+          "token": "INTWB",
+          "type": "现货上线",
+          "detail": "INTWB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        },
+        {
+          "token": "KORUB",
+          "type": "现货上线",
+          "detail": "KORUB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        },
+        {
+          "token": "MUUB",
+          "type": "现货上线",
+          "detail": "MUUB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        },
+        {
+          "token": "MVLLB",
+          "type": "现货上线",
+          "detail": "MVLLB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        },
+        {
+          "token": "ORCLB",
+          "type": "现货上线",
+          "detail": "ORCLB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        },
+        {
+          "token": "QNTB",
+          "type": "现货上线",
+          "detail": "QNTB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        },
+        {
+          "token": "SNXXB",
+          "type": "现货上线",
+          "detail": "SNXXB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        },
+        {
+          "token": "TQQQB",
+          "type": "现货上线",
+          "detail": "TQQQB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "BONKUSD",
+          "type": "永续合约",
+          "detail": "BONKUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-bonkusd-jtousd-x-perps"
+        },
+        {
+          "token": "JTOUSD",
+          "type": "永续合约",
+          "detail": "JTOUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-bonkusd-jtousd-x-perps"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SOFI",
+          "type": "永续合约",
+          "detail": "SOFIUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-sofiusdt-perpetual-contract-with-up-to-20x-leverage--art01184f30ecf9/"
+        },
+        {
+          "token": "PENGSTOCK",
+          "type": "永续合约",
+          "detail": "PENGSTOCKUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-pengstockusdt-perpetual-contract-with-up-to-20x-leverage--art93c668385015/"
+        },
+        {
+          "token": "PANW",
+          "type": "永续合约",
+          "detail": "PANWUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-panwusdt-perpetual-contract-with-up-to-20x-leverage--artbbc24df97cef/"
+        },
+        {
+          "token": "SOXX",
+          "type": "永续合约",
+          "detail": "SOXXUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-soxxusdt-perpetual-contract-with-up-to-20x-leverage--artffef63767592/"
+        },
+        {
+          "token": "ON",
+          "type": "永续合约",
+          "detail": "ONUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-onusdt-perpetual-contract-with-up-to-20x-leverage--art99a20c30982b/"
+        },
+        {
+          "token": "XLF",
+          "type": "永续合约",
+          "detail": "XLFUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-xlfusdt-perpetual-contract-with-up-to-20x-leverage--art9b0367b43e0a/"
+        },
+        {
+          "token": "XLK",
+          "type": "永续合约",
+          "detail": "XLKUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-xlkusdt-perpetual-contract-with-up-to-20x-leverage--art9acd30b3247f/"
+        },
+        {
+          "token": "XLV",
+          "type": "永续合约",
+          "detail": "XLVUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-xlvusdt-perpetual-contract-with-up-to-20x-leverage--art46276a0844ae/"
+        },
+        {
+          "token": "NVDL",
+          "type": "永续合约",
+          "detail": "NVDLUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nvdlusdt-perpetual-contract-with-up-to-20x-leverage--art555ff9c66331/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "ZHIPU",
+          "type": "美股合约",
+          "detail": "ZHIPU（同公告含 2 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-zhipuusdt-and-minimaxusdt-stock-index-perpetual-contracts-2026-07-22"
+        },
+        {
+          "token": "MINIMAX",
+          "type": "美股合约",
+          "detail": "MINIMAX（同公告含 2 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-zhipuusdt-and-minimaxusdt-stock-index-perpetual-contracts-2026-07-22"
+        },
+        {
+          "token": "ESE",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: ESEUSDT Perpetual Contract with Up to 8x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-eseusdt-perpetual-contract-with-up-to-8x-leverage"
+        },
+        {
+          "token": "BANK",
+          "type": "现货上线",
+          "detail": "Lorenzo Protocol (BANK) Listed on KuCoinTrading: 10:00 on July 22, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-lorenzo-protocol-bank-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "USDT2",
+          "type": "上线",
+          "detail": "Gate ETF 老友专享：回归交易领好礼，最高可得 225 USDT2 小时前249",
+          "url": "https://www.gate.com/zh/announcements/article/100797"
+        },
+        {
+          "token": "USDT4",
+          "type": "上线",
+          "detail": "合约老友回归：交易 1 USDT 领 50 USDT，最高解锁 5,100 USDT4 小时前630",
+          "url": "https://www.gate.com/zh/announcements/article/100794"
+        },
+        {
+          "token": "SKHYON",
+          "type": "现货上线",
+          "detail": "Gate 将上线 SK Hynix Ondo Tokenized (SKHYON) 现货交易与闪兑交易21 小时前2,094",
+          "url": "https://www.gate.com/zh/announcements/article/100775"
+        },
+        {
+          "token": "ANTFUN",
+          "type": "Launchpool",
+          "detail": "Gate 将上线 AntFun (ANTFUN) 现货交易、闪兑交易并开启 Launchpool，质押 USDT、GUSD...1 天前2,498",
+          "url": "https://www.gate.com/zh/announcements/article/100753"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "ZHIPU",
+          "type": "永续合约",
+          "detail": "Bitget已上线腾讯、小米、ZHIPU Quanto永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889934"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "KET",
+          "type": "Meme+ 现货",
+          "detail": "KET 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536985"
+        },
+        {
+          "token": "WOOD",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Sherwood Protocol (WOOD)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536982"
+        },
+        {
+          "token": "GMEBULL",
+          "type": "Meme+ 现货",
+          "detail": "GMEBULL 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536980"
+        },
+        {
+          "token": "HK1810",
+          "type": "美股合约",
+          "detail": "HK1810（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk1810-lasertec-and-sumielec-stock-futures-with-0-fee-trading-on-jul-22-17827791536979"
+        },
+        {
+          "token": "LASERTEC",
+          "type": "美股合约",
+          "detail": "LASERTEC（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk1810-lasertec-and-sumielec-stock-futures-with-0-fee-trading-on-jul-22-17827791536979"
+        },
+        {
+          "token": "SUMIELEC",
+          "type": "美股合约",
+          "detail": "SUMIELEC（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk1810-lasertec-and-sumielec-stock-futures-with-0-fee-trading-on-jul-22-17827791536979"
+        },
+        {
+          "token": "SNPS",
+          "type": "跟单合约",
+          "detail": "SNPS（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-snps-cdns-and-jimothy-usdt-m-futures-17827791536949"
+        },
+        {
+          "token": "CDNS",
+          "type": "跟单合约",
+          "detail": "CDNS（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-snps-cdns-and-jimothy-usdt-m-futures-17827791536949"
+        },
+        {
+          "token": "JIMOTHY",
+          "type": "跟单合约",
+          "detail": "JIMOTHY（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-snps-cdns-and-jimothy-usdt-m-futures-17827791536949"
+        },
+        {
+          "token": "STONKBROKER",
+          "type": "上线",
+          "detail": "STONKBROKER 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-stonkbroker-to-innovation-zone-17827791536947"
+        },
+        {
+          "token": "JIMOTHY",
+          "type": "上线",
+          "detail": "JIMOTHY 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-jimothy-to-innovation-zone-17827791536946"
+        },
+        {
+          "token": "PONS",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年7月21日 11:10 (UTC+8) 起把 PONSUSDT 從創新區轉板至主板區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-ponsusdt-from-innovation-zone-to-main-board-on-jul-21-2026-03-17827791536943"
+        }
+      ]
+    }
+  }
+}
