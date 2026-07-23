@@ -1,0 +1,409 @@
+{
+  "date": "2026-07-23",
+  "updatedAt": "2026-07-23T12:08:18.417Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "POPMART",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23)",
+          "url": "https://www.binance.com/en/support/announcement/fcdc949b45a644c78e341c88331a35ef"
+        },
+        {
+          "token": "ADGM",
+          "type": "上线",
+          "detail": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+          "url": "https://www.binance.com/en/support/announcement/dd18d9850f504666b7c91b5c74fe8c10"
+        }
+      ],
+      "alpha": [
+        {
+          "token": "ORCLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ORCLB - Oracle (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x4684d9887fc1c71cba7bab8e88835cec217eb598"
+        },
+        {
+          "token": "QNTB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 QNTB - Quantinuum (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0xd721c192d612db77621df57a9fab38418033c02e"
+        },
+        {
+          "token": "TQQQB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 TQQQB - ProShares UltraPro QQQ (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x462b5f13b7c7748279358962925c5de83bb9e598"
+        },
+        {
+          "token": "INTWB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 INTWB - GraniteShares 2X Long INTC ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x0735d9904b7e34e6fe39b0f66e00c111b3f2b681"
+        },
+        {
+          "token": "SNXXB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SNXXB - Tradr 2X Long SNDK ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x9e82e3da8f1115b73d24bb24113ab836ffdab6b6"
+        },
+        {
+          "token": "MVLLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 MVLLB - GraniteShares 2X Long MRVL ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x7c26a12f20507e2cee22ceebed9e88fda47f866c"
+        },
+        {
+          "token": "MUUB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 MUUB - Direxion MU Bull 2X ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x0bb3fa77e0809f42948e435f04883c25415e8263"
+        },
+        {
+          "token": "CRWVB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CRWVB - CoreWeave (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x33e7317e17838fee56b10fe8d0b9ca6ca3090c95"
+        },
+        {
+          "token": "AXTIB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AXTIB - AXT (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x9bdc8b470dbf89dbcb123587c6f5e49cca3463be"
+        },
+        {
+          "token": "KORUB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 KORUB - South Korea Bull 3X ETF (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x1ffad32d69c5fead99f88c25ca0191edc3757636"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XIBM",
+          "type": "现货上线",
+          "detail": "OKX 關於上線 XIBM，XHOOD 等統一代幣化股票現貨交易的公告發佈於 2026年7月23日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xibm-xhood-and-more-for-spot-trading"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "CRM",
+          "type": "永续合约",
+          "detail": "CRMUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-crmusdt-perpetual-contract-with-up-to-20x-leverage--artb4d3b7dd9ec5/"
+        },
+        {
+          "token": "AAL",
+          "type": "永续合约",
+          "detail": "AALUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-aalusdt-perpetual-contract-with-up-to-20x-leverage--art1eb9a1f6d237/"
+        },
+        {
+          "token": "GS",
+          "type": "永续合约",
+          "detail": "GSUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gsusdt-perpetual-contract-with-up-to-20x-leverage--art9c680e7ce7b2/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "TENCENT",
+          "type": "美股合约",
+          "detail": "TENCENT（同公告含 2 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-tencentusdt-and-popmartusdt-stock-index-perpetual-contracts-2026-07-23"
+        },
+        {
+          "token": "POPMART",
+          "type": "美股合约",
+          "detail": "POPMART（同公告含 2 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-tencentusdt-and-popmartusdt-stock-index-perpetual-contracts-2026-07-23"
+        },
+        {
+          "token": "TAG",
+          "type": "现货上线",
+          "detail": "Tagger (TAG) Listed on KuCoinTrading: 10:00 on July 23, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-tagger-tag-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "USDT4",
+          "type": "上线",
+          "detail": "闪兑新人专享：首兑领 2 USDT，交易再领 100 USDT4 小时前489",
+          "url": "https://www.gate.com/zh/announcements/article/100814"
+        },
+        {
+          "token": "SNDKG",
+          "type": "上线",
+          "detail": "gStocks 新币交易狂欢三期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池5 小时前484",
+          "url": "https://www.gate.com/zh/announcements/article/100813"
+        },
+        {
+          "token": "BOP",
+          "type": "现货上线",
+          "detail": "BOP（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100807"
+        },
+        {
+          "token": "KET",
+          "type": "现货上线",
+          "detail": "KET（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100807"
+        },
+        {
+          "token": "MSFU",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 MSFU（Direxion 微软 2 倍做多 ETF）等 7 个...9 小时前1,102",
+          "url": "https://www.gate.com/zh/announcements/article/100801"
+        },
+        {
+          "token": "AXTIG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 AXTIG（AXT 半导体）、CRWVG (CoreWeave) 等 9 个 gStocks 代币化...20 小时前1,991",
+          "url": "https://www.gate.com/zh/announcements/article/100800"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SHAZ",
+          "type": "美股合约",
+          "detail": "SHAZ（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889969"
+        },
+        {
+          "token": "SOFI",
+          "type": "美股合约",
+          "detail": "SOFI（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889969"
+        },
+        {
+          "token": "PENG",
+          "type": "美股合约",
+          "detail": "PENG（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889969"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "RIOT",
+          "type": "美股合约",
+          "detail": "RIOT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-riot-arwr-wab-and-nvd-stock-futures-with-0-fee-trading-on-jul-23-17827791537026"
+        },
+        {
+          "token": "ARWR",
+          "type": "美股合约",
+          "detail": "ARWR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-riot-arwr-wab-and-nvd-stock-futures-with-0-fee-trading-on-jul-23-17827791537026"
+        },
+        {
+          "token": "WAB",
+          "type": "美股合约",
+          "detail": "WAB（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-riot-arwr-wab-and-nvd-stock-futures-with-0-fee-trading-on-jul-23-17827791537026"
+        },
+        {
+          "token": "NVD",
+          "type": "美股合约",
+          "detail": "NVD（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-riot-arwr-wab-and-nvd-stock-futures-with-0-fee-trading-on-jul-23-17827791537026"
+        },
+        {
+          "token": "AIINU",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月23日 17:30 (UTC+8) 上線 AIINUUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537024"
+        },
+        {
+          "token": "GMEROBINHOOD",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月23日 17:30 (UTC+8) 上線 GMEROBINHOODUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537023"
+        },
+        {
+          "token": "KET",
+          "type": "跟单合约",
+          "detail": "KET（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ket-and-wood-usdt-m-futures-17827791537019"
+        },
+        {
+          "token": "WOOD",
+          "type": "跟单合约",
+          "detail": "WOOD（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ket-and-wood-usdt-m-futures-17827791537019"
+        },
+        {
+          "token": "POPMART",
+          "type": "跟单合约",
+          "detail": "POPMART（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
+        },
+        {
+          "token": "SHAZ",
+          "type": "跟单合约",
+          "detail": "SHAZ（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
+        },
+        {
+          "token": "HK1810",
+          "type": "跟单合约",
+          "detail": "HK1810（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
+        },
+        {
+          "token": "LASERTEC",
+          "type": "跟单合约",
+          "detail": "LASERTEC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
+        },
+        {
+          "token": "SUMIELEC",
+          "type": "跟单合约",
+          "detail": "SUMIELEC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
+        },
+        {
+          "token": "AIINU",
+          "type": "上线",
+          "detail": "AIINU（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017"
+        },
+        {
+          "token": "ARWR",
+          "type": "上线",
+          "detail": "ARWR（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017"
+        },
+        {
+          "token": "GMEROBINHOOD",
+          "type": "上线",
+          "detail": "GMEROBINHOOD（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017"
+        },
+        {
+          "token": "HK1810",
+          "type": "上线",
+          "detail": "HK1810（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017"
+        },
+        {
+          "token": "KET",
+          "type": "上线",
+          "detail": "KET（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017"
+        },
+        {
+          "token": "LASERTEC",
+          "type": "上线",
+          "detail": "LASERTEC（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017"
+        },
+        {
+          "token": "P2P",
+          "type": "上线",
+          "detail": "P2P（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017"
+        },
+        {
+          "token": "POPMART",
+          "type": "上线",
+          "detail": "POPMART（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017"
+        },
+        {
+          "token": "RIOT",
+          "type": "上线",
+          "detail": "RIOT（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017"
+        },
+        {
+          "token": "SHAZ",
+          "type": "上线",
+          "detail": "SHAZ（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017"
+        },
+        {
+          "token": "WAB",
+          "type": "上线",
+          "detail": "WAB（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017"
+        },
+        {
+          "token": "ARWR",
+          "type": "现货上线",
+          "detail": "ARWR（同公告含 10 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
+        },
+        {
+          "token": "HK1810",
+          "type": "现货上线",
+          "detail": "HK1810（同公告含 10 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
+        },
+        {
+          "token": "KET",
+          "type": "现货上线",
+          "detail": "KET（同公告含 10 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
+        },
+        {
+          "token": "LASERTEC",
+          "type": "现货上线",
+          "detail": "LASERTEC（同公告含 10 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
+        },
+        {
+          "token": "POPMART",
+          "type": "现货上线",
+          "detail": "POPMART（同公告含 10 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
+        },
+        {
+          "token": "RIOT",
+          "type": "现货上线",
+          "detail": "RIOT（同公告含 10 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
+        },
+        {
+          "token": "SHAZ",
+          "type": "现货上线",
+          "detail": "SHAZ（同公告含 10 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
+        },
+        {
+          "token": "WAB",
+          "type": "现货上线",
+          "detail": "WAB（同公告含 10 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
+        },
+        {
+          "token": "AIINU",
+          "type": "Meme+ 现货",
+          "detail": "AIINU 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537014"
+        },
+        {
+          "token": "GMEROBINHOOD",
+          "type": "Meme+ 现货",
+          "detail": "GMEROBINHOOD 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537013"
+        }
+      ]
+    }
+  }
+}
