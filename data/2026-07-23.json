@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "updatedAt": "2026-07-23T12:08:18.417Z",
+  "updatedAt": "2026-07-23T12:14:46.914Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -138,40 +138,16 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT4",
-          "type": "上线",
-          "detail": "闪兑新人专享：首兑领 2 USDT，交易再领 100 USDT4 小时前489",
-          "url": "https://www.gate.com/zh/announcements/article/100814"
-        },
-        {
-          "token": "SNDKG",
-          "type": "上线",
-          "detail": "gStocks 新币交易狂欢三期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池5 小时前484",
-          "url": "https://www.gate.com/zh/announcements/article/100813"
-        },
-        {
-          "token": "BOP",
-          "type": "现货上线",
-          "detail": "BOP（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100807"
-        },
-        {
-          "token": "KET",
-          "type": "现货上线",
-          "detail": "KET（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100807"
-        },
-        {
-          "token": "MSFU",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 MSFU（Direxion 微软 2 倍做多 ETF）等 7 个...9 小时前1,102",
-          "url": "https://www.gate.com/zh/announcements/article/100801"
-        },
-        {
           "token": "AXTIG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 AXTIG（AXT 半导体）、CRWVG (CoreWeave) 等 9 个 gStocks 代币化...20 小时前1,991",
+          "detail": "Gate gStocks 专区新增 AXTIG（AXT 半导体）、CRWVG (CoreWeave) 等 9 个 gStocks 代币化...21 小时前1,993",
           "url": "https://www.gate.com/zh/announcements/article/100800"
+        },
+        {
+          "token": "KORU",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 KORU（每日 MSCI 韩国 3 倍看涨 ETF）等 8...1 天前2,030",
+          "url": "https://www.gate.com/zh/announcements/article/100779"
         }
       ]
     },
