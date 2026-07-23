@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-17",
   "weekEnd": "2026-07-23",
-  "updatedAt": "2026-07-23T12:14:47.100Z",
+  "updatedAt": "2026-07-23T13:21:56.019Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -810,19 +810,56 @@
     "gateio": {
       "listings": [
         {
-          "token": "AXTIG",
+          "token": "USDT5",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 AXTIG（AXT 半导体）、CRWVG (CoreWeave) 等 9 个 gStocks 代币化...21 小时前1,993",
-          "url": "https://www.gate.com/zh/announcements/article/100800",
+          "detail": "Gate ETF 老友专享：回归交易领好礼，最高可得 225 USDT5 小时前487",
+          "url": "https://www.gate.com/zh/announcements/article/100797",
+          "dates": [
+            "2026-07-22",
+            "2026-07-23"
+          ]
+        },
+        {
+          "token": "SNDKG",
+          "type": "上线",
+          "detail": "gStocks 新币交易狂欢三期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池6 小时前541",
+          "url": "https://www.gate.com/zh/announcements/article/100813",
           "dates": [
             "2026-07-23"
           ]
         },
         {
-          "token": "KORU",
+          "token": "BOP",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 KORU（每日 MSCI 韩国 3 倍看涨 ETF）等 8...1 天前2,030",
-          "url": "https://www.gate.com/zh/announcements/article/100779",
+          "detail": "BOP（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100807",
+          "dates": [
+            "2026-07-23"
+          ]
+        },
+        {
+          "token": "KET",
+          "type": "现货上线",
+          "detail": "KET（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100807",
+          "dates": [
+            "2026-07-23"
+          ]
+        },
+        {
+          "token": "MSFU",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 MSFU（Direxion 微软 2 倍做多 ETF）等 7 个...11 小时前1,151",
+          "url": "https://www.gate.com/zh/announcements/article/100801",
+          "dates": [
+            "2026-07-23"
+          ]
+        },
+        {
+          "token": "AXTIG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 AXTIG（AXT 半导体）、CRWVG (CoreWeave) 等 9 个 gStocks 代币化...1 天前2,036",
+          "url": "https://www.gate.com/zh/announcements/article/100800",
           "dates": [
             "2026-07-23"
           ]
@@ -834,15 +871,6 @@
           "url": "https://www.gate.com/zh/announcements/article/100753",
           "dates": [
             "2026-07-21",
-            "2026-07-22"
-          ]
-        },
-        {
-          "token": "USDT5",
-          "type": "上线",
-          "detail": "Gate ETF 老友专享：回归交易领好礼，最高可得 225 USDT5 小时前487",
-          "url": "https://www.gate.com/zh/announcements/article/100797",
-          "dates": [
             "2026-07-22"
           ]
         },
@@ -1153,6 +1181,15 @@
     "mexc": {
       "listings": [
         {
+          "token": "BRODIE",
+          "type": "Meme+ 现货",
+          "detail": "BRODIE 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537033",
+          "dates": [
+            "2026-07-23"
+          ]
+        },
+        {
           "token": "RIOT",
           "type": "美股合约",
           "detail": "RIOT（同公告含 4 个标的）",
@@ -1272,7 +1309,7 @@
         {
           "token": "AIINU",
           "type": "上线",
-          "detail": "AIINU（同公告含 11 个标的）",
+          "detail": "AIINU（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017",
           "dates": [
             "2026-07-23"
@@ -1281,7 +1318,7 @@
         {
           "token": "ARWR",
           "type": "上线",
-          "detail": "ARWR（同公告含 11 个标的）",
+          "detail": "ARWR（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017",
           "dates": [
             "2026-07-23"
@@ -1290,16 +1327,7 @@
         {
           "token": "GMEROBINHOOD",
           "type": "上线",
-          "detail": "GMEROBINHOOD（同公告含 11 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017",
-          "dates": [
-            "2026-07-23"
-          ]
-        },
-        {
-          "token": "HK1810",
-          "type": "上线",
-          "detail": "HK1810（同公告含 11 个标的）",
+          "detail": "GMEROBINHOOD（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017",
           "dates": [
             "2026-07-23"
@@ -1308,16 +1336,7 @@
         {
           "token": "KET",
           "type": "上线",
-          "detail": "KET（同公告含 11 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017",
-          "dates": [
-            "2026-07-23"
-          ]
-        },
-        {
-          "token": "LASERTEC",
-          "type": "上线",
-          "detail": "LASERTEC（同公告含 11 个标的）",
+          "detail": "KET（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017",
           "dates": [
             "2026-07-23"
@@ -1326,16 +1345,7 @@
         {
           "token": "P2P",
           "type": "上线",
-          "detail": "P2P（同公告含 11 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017",
-          "dates": [
-            "2026-07-23"
-          ]
-        },
-        {
-          "token": "POPMART",
-          "type": "上线",
-          "detail": "POPMART（同公告含 11 个标的）",
+          "detail": "P2P（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017",
           "dates": [
             "2026-07-23"
@@ -1344,16 +1354,7 @@
         {
           "token": "RIOT",
           "type": "上线",
-          "detail": "RIOT（同公告含 11 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017",
-          "dates": [
-            "2026-07-23"
-          ]
-        },
-        {
-          "token": "SHAZ",
-          "type": "上线",
-          "detail": "SHAZ（同公告含 11 个标的）",
+          "detail": "RIOT（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017",
           "dates": [
             "2026-07-23"
@@ -1362,7 +1363,7 @@
         {
           "token": "WAB",
           "type": "上线",
-          "detail": "WAB（同公告含 11 个标的）",
+          "detail": "WAB（同公告含 7 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/up-down-crypto-events-carnival-week-17827791537017",
           "dates": [
             "2026-07-23"
@@ -1371,16 +1372,7 @@
         {
           "token": "ARWR",
           "type": "现货上线",
-          "detail": "ARWR（同公告含 10 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016",
-          "dates": [
-            "2026-07-23"
-          ]
-        },
-        {
-          "token": "HK1810",
-          "type": "现货上线",
-          "detail": "HK1810（同公告含 10 个标的）",
+          "detail": "ARWR（同公告含 6 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016",
           "dates": [
             "2026-07-23"
@@ -1389,25 +1381,7 @@
         {
           "token": "KET",
           "type": "现货上线",
-          "detail": "KET（同公告含 10 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016",
-          "dates": [
-            "2026-07-23"
-          ]
-        },
-        {
-          "token": "LASERTEC",
-          "type": "现货上线",
-          "detail": "LASERTEC（同公告含 10 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016",
-          "dates": [
-            "2026-07-23"
-          ]
-        },
-        {
-          "token": "POPMART",
-          "type": "现货上线",
-          "detail": "POPMART（同公告含 10 个标的）",
+          "detail": "KET（同公告含 6 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016",
           "dates": [
             "2026-07-23"
@@ -1416,16 +1390,7 @@
         {
           "token": "RIOT",
           "type": "现货上线",
-          "detail": "RIOT（同公告含 10 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016",
-          "dates": [
-            "2026-07-23"
-          ]
-        },
-        {
-          "token": "SHAZ",
-          "type": "现货上线",
-          "detail": "SHAZ（同公告含 10 个标的）",
+          "detail": "RIOT（同公告含 6 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016",
           "dates": [
             "2026-07-23"
@@ -1434,7 +1399,7 @@
         {
           "token": "WAB",
           "type": "现货上线",
-          "detail": "WAB（同公告含 10 个标的）",
+          "detail": "WAB（同公告含 6 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016",
           "dates": [
             "2026-07-23"
