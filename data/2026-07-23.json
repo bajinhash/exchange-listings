@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "updatedAt": "2026-07-23T13:21:55.818Z",
+  "updatedAt": "2026-07-23T15:04:10.146Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -17,68 +17,7 @@
           "url": "https://www.binance.com/en/support/announcement/dd18d9850f504666b7c91b5c74fe8c10"
         }
       ],
-      "alpha": [
-        {
-          "token": "ORCLB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 ORCLB - Oracle (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x4684d9887fc1c71cba7bab8e88835cec217eb598"
-        },
-        {
-          "token": "QNTB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 QNTB - Quantinuum (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0xd721c192d612db77621df57a9fab38418033c02e"
-        },
-        {
-          "token": "TQQQB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 TQQQB - ProShares UltraPro QQQ (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x462b5f13b7c7748279358962925c5de83bb9e598"
-        },
-        {
-          "token": "INTWB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 INTWB - GraniteShares 2X Long INTC ETF (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x0735d9904b7e34e6fe39b0f66e00c111b3f2b681"
-        },
-        {
-          "token": "SNXXB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 SNXXB - Tradr 2X Long SNDK ETF (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x9e82e3da8f1115b73d24bb24113ab836ffdab6b6"
-        },
-        {
-          "token": "MVLLB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 MVLLB - GraniteShares 2X Long MRVL ETF (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x7c26a12f20507e2cee22ceebed9e88fda47f866c"
-        },
-        {
-          "token": "MUUB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 MUUB - Direxion MU Bull 2X ETF (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x0bb3fa77e0809f42948e435f04883c25415e8263"
-        },
-        {
-          "token": "CRWVB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 CRWVB - CoreWeave (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x33e7317e17838fee56b10fe8d0b9ca6ca3090c95"
-        },
-        {
-          "token": "AXTIB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 AXTIB - AXT (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x9bdc8b470dbf89dbcb123587c6f5e49cca3463be"
-        },
-        {
-          "token": "KORUB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 KORUB - South Korea Bull 3X ETF (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x1ffad32d69c5fead99f88c25ca0191edc3757636"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -138,15 +77,15 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT5",
+          "token": "USDT7",
           "type": "上线",
-          "detail": "闪兑新人专享：首兑领 2 USDT，交易再领 100 USDT5 小时前570",
+          "detail": "闪兑新人专享：首兑领 2 USDT，交易再领 100 USDT7 小时前692",
           "url": "https://www.gate.com/zh/announcements/article/100814"
         },
         {
           "token": "SNDKG",
           "type": "上线",
-          "detail": "gStocks 新币交易狂欢三期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池6 小时前541",
+          "detail": "gStocks 新币交易狂欢三期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池7 小时前638",
           "url": "https://www.gate.com/zh/announcements/article/100813"
         },
         {
@@ -162,15 +101,9 @@
           "url": "https://www.gate.com/zh/announcements/article/100807"
         },
         {
-          "token": "MSFU",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 MSFU（Direxion 微软 2 倍做多 ETF）等 7 个...11 小时前1,151",
-          "url": "https://www.gate.com/zh/announcements/article/100801"
-        },
-        {
           "token": "AXTIG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 AXTIG（AXT 半导体）、CRWVG (CoreWeave) 等 9 个 gStocks 代币化...1 天前2,036",
+          "detail": "Gate gStocks 专区新增 AXTIG（AXT 半导体）、CRWVG (CoreWeave) 等 9 个 gStocks 代币化...1 天前2,093",
           "url": "https://www.gate.com/zh/announcements/article/100800"
         }
       ]
