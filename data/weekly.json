@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-07-17",
-  "weekEnd": "2026-07-23",
-  "updatedAt": "2026-07-23T15:04:10.313Z",
+  "weekStart": "2026-07-18",
+  "weekEnd": "2026-07-24",
+  "updatedAt": "2026-07-23T16:09:57.229Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -176,51 +176,6 @@
           "dates": [
             "2026-07-18"
           ]
-        },
-        {
-          "token": "SPCXUSD1",
-          "type": "永续合约",
-          "detail": "Binance Futures Will Launch USDⓈ-Margined SPCXUSD1 Perpetual Contract (2026-07-20)",
-          "url": "https://www.binance.com/en/support/announcement/6cbb1b11a9c843949624cf2eacaac8b4",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "AERO",
-          "type": "现货上线",
-          "detail": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
-          "url": "https://www.binance.com/en/support/announcement/1631198cd282431bbb5fbd333106a413",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "HK0700",
-          "type": "永续合约",
-          "detail": "HK0700（同公告含 3 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/18724cba64a048938986a98bbb257258",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "HKD",
-          "type": "永续合约",
-          "detail": "HKD（同公告含 3 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/18724cba64a048938986a98bbb257258",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "RIE",
-          "type": "永续合约",
-          "detail": "RIE（同公告含 3 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/18724cba64a048938986a98bbb257258",
-          "dates": [
-            "2026-07-17"
-          ]
         }
       ],
       "alpha": [
@@ -354,51 +309,6 @@
           "dates": [
             "2026-07-20"
           ]
-        },
-        {
-          "token": "NIGHT",
-          "type": "永续合约",
-          "detail": "OKX 關於 NIGHTUSD（X-Perp）正式上線的公告發佈於 2026年7月17日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-nightusd-expiry-x-perp",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "SOXS",
-          "type": "美股合约",
-          "detail": "SOXS（同公告含 4 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxs-zm-snow-and-app-equities",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "ZM",
-          "type": "美股合约",
-          "detail": "ZM（同公告含 4 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxs-zm-snow-and-app-equities",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "SNOW",
-          "type": "美股合约",
-          "detail": "SNOW（同公告含 4 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxs-zm-snow-and-app-equities",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "APP",
-          "type": "美股合约",
-          "detail": "APP（同公告含 4 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-soxs-zm-snow-and-app-equities",
-          "dates": [
-            "2026-07-17"
-          ]
         }
       ]
     },
@@ -410,7 +320,8 @@
           "detail": "CRMUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-crmusdt-perpetual-contract-with-up-to-20x-leverage--artb4d3b7dd9ec5/",
           "dates": [
-            "2026-07-23"
+            "2026-07-23",
+            "2026-07-24"
           ]
         },
         {
@@ -419,7 +330,8 @@
           "detail": "AALUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-aalusdt-perpetual-contract-with-up-to-20x-leverage--art1eb9a1f6d237/",
           "dates": [
-            "2026-07-23"
+            "2026-07-23",
+            "2026-07-24"
           ]
         },
         {
@@ -428,7 +340,8 @@
           "detail": "GSUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gsusdt-perpetual-contract-with-up-to-20x-leverage--art9c680e7ce7b2/",
           "dates": [
-            "2026-07-23"
+            "2026-07-23",
+            "2026-07-24"
           ]
         },
         {
@@ -584,7 +497,6 @@
           "detail": "APLDUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-apldusdt-perpetual-contract-with-up-to-20x-leverage--artc81230e3245a/",
           "dates": [
-            "2026-07-17",
             "2026-07-18"
           ]
         },
@@ -594,7 +506,6 @@
           "detail": "IONQUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ionqusdt-perpetual-contract-with-up-to-20x-leverage--artd72126b5018b/",
           "dates": [
-            "2026-07-17",
             "2026-07-18"
           ]
         },
@@ -604,7 +515,6 @@
           "detail": "BXUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bxusdt-perpetual-contract-with-up-to-20x-leverage--art10e89f81bf1b/",
           "dates": [
-            "2026-07-17",
             "2026-07-18"
           ]
         },
@@ -614,7 +524,6 @@
           "detail": "MARAUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-marausdt-perpetual-contract-with-up-to-20x-leverage--art7cec2fbf322c/",
           "dates": [
-            "2026-07-17",
             "2026-07-18"
           ]
         },
@@ -624,7 +533,6 @@
           "detail": "TSEMUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tsemusdt-perpetual-contract-with-up-to-20x-leverage--art6acf5fe88d69/",
           "dates": [
-            "2026-07-17",
             "2026-07-18"
           ]
         },
@@ -634,89 +542,7 @@
           "detail": "ZMUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-zmusdt-perpetual-contract-with-up-to-20x-leverage--artad51ebefdbc3/",
           "dates": [
-            "2026-07-17",
             "2026-07-18"
-          ]
-        },
-        {
-          "token": "APPSTOCK",
-          "type": "永续合约",
-          "detail": "APPSTOCKUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-appstockusdt-perpetual-contract-with-up-to-20x-leverage--art8f52a5b1babf/",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "TZA",
-          "type": "永续合约",
-          "detail": "TZAUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tzausdt-perpetual-contract-with-up-to-20x-leverage--artfbba54ec9caa/",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "FWDI",
-          "type": "永续合约",
-          "detail": "FWDIUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-fwdiusdt-perpetual-contract-with-up-to-20x-leverage--art946ddbe62e3b/",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "SOXS",
-          "type": "永续合约",
-          "detail": "SOXSUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-soxsusdt-perpetual-contract-with-up-to-20x-leverage--art19e54880030c/",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "AEHR",
-          "type": "永续合约",
-          "detail": "AEHRUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-aehrusdt-perpetual-contract-with-up-to-20x-leverage--art497c7e92d719/",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "RDW",
-          "type": "永续合约",
-          "detail": "RDWUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-rdwusdt-perpetual-contract-with-up-to-20x-leverage--artf5fa097d816d/",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "MUU",
-          "type": "永续合约",
-          "detail": "MUUUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-muuusdt-perpetual-contract-with-up-to-20x-leverage--art39091496975e/",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "POET",
-          "type": "永续合约",
-          "detail": "POETUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-poetusdt-perpetual-contract-with-up-to-20x-leverage--artffe42f5bf044/",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "BNC",
-          "type": "永续合约",
-          "detail": "BNCUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bncusdt-perpetual-contract-with-up-to-20x-leverage--art2242976fe74e/",
-          "dates": [
-            "2026-07-17"
           ]
         }
       ]
@@ -785,20 +611,21 @@
           "dates": [
             "2026-07-22"
           ]
-        },
-        {
-          "token": "MUU",
-          "type": "美股合约",
-          "detail": "KuCoin Futures Will List MUUUSDT Stock Index Perpetual Contract (2026-07-17)",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-muuusdt-stock-index-perpetual-contract-2026-07-17",
-          "dates": [
-            "2026-07-17"
-          ]
         }
       ]
     },
     "gateio": {
       "listings": [
+        {
+          "token": "AXTIG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 AXTIG（AXT 半导体）、CRWVG (CoreWeave) 等 9 个 gStocks 代币化...1 天前2,093",
+          "url": "https://www.gate.com/zh/announcements/article/100800",
+          "dates": [
+            "2026-07-23",
+            "2026-07-24"
+          ]
+        },
         {
           "token": "USDT7",
           "type": "上线",
@@ -832,15 +659,6 @@
           "type": "现货上线",
           "detail": "KET（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/100807",
-          "dates": [
-            "2026-07-23"
-          ]
-        },
-        {
-          "token": "AXTIG",
-          "type": "上线",
-          "detail": "Gate gStocks 专区新增 AXTIG（AXT 半导体）、CRWVG (CoreWeave) 等 9 个 gStocks 代币化...1 天前2,093",
-          "url": "https://www.gate.com/zh/announcements/article/100800",
           "dates": [
             "2026-07-23"
           ]
@@ -976,60 +794,9 @@
         {
           "token": "OPENAI",
           "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 第二期：OpenAI (OPENAI) 资产凭证首期分发完成及开盘时间的公告3 小时前554",
+          "detail": "Gate Pre-IPOs 第二期：OpenAI (OPENAI) 资产凭证首期分发完成及开盘时间的公告1 天前2,012",
           "url": "https://www.gate.com/zh/announcements/article/100729",
           "dates": [
-            "2026-07-17",
-            "2026-07-18"
-          ]
-        },
-        {
-          "token": "DEX",
-          "type": "上线",
-          "detail": "Gate DEX 全面接入 Robinhood Chain，拓展多链生态布局与链上服务能力9 小时前517",
-          "url": "https://www.gate.com/zh/announcements/article/100718",
-          "dates": [
-            "2026-07-17",
-            "2026-07-18"
-          ]
-        },
-        {
-          "token": "CRDU",
-          "type": "上线",
-          "detail": "CRDU（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100713",
-          "dates": [
-            "2026-07-17",
-            "2026-07-18"
-          ]
-        },
-        {
-          "token": "IREZ",
-          "type": "上线",
-          "detail": "IREZ（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100713",
-          "dates": [
-            "2026-07-17",
-            "2026-07-18"
-          ]
-        },
-        {
-          "token": "SNDQ",
-          "type": "上线",
-          "detail": "SNDQ（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/100713",
-          "dates": [
-            "2026-07-17",
-            "2026-07-18"
-          ]
-        },
-        {
-          "token": "TSM3L",
-          "type": "上线",
-          "detail": "Gate ETF 上线 TSM3L/3S、EWY3L/3S、DRAM3L/3S11 小时前443",
-          "url": "https://www.gate.com/zh/announcements/article/100712",
-          "dates": [
-            "2026-07-17",
             "2026-07-18"
           ]
         },
@@ -1038,6 +805,15 @@
           "type": "Pre-IPO 上线",
           "detail": "OpenAI Pre-IPOs 专属合约体验礼：首单领 5 USDT，风险缓冲最高补贴 50 USDT1 天前1,609",
           "url": "https://www.gate.com/zh/announcements/article/100727",
+          "dates": [
+            "2026-07-18"
+          ]
+        },
+        {
+          "token": "DEX",
+          "type": "上线",
+          "detail": "Gate DEX 全面接入 Robinhood Chain，拓展多链生态布局与链上服务能力1 天前1,026",
+          "url": "https://www.gate.com/zh/announcements/article/100718",
           "dates": [
             "2026-07-18"
           ]
@@ -1052,21 +828,39 @@
           ]
         },
         {
-          "token": "USDT4",
-          "type": "Pre-IPO 上线",
-          "detail": "OpenAI Pre-IPOs 专属合约体验礼：首单领 5 USDT，风险缓冲最高补贴 50 USDT4 小时前540",
-          "url": "https://www.gate.com/zh/announcements/article/100727",
+          "token": "CRDU",
+          "type": "上线",
+          "detail": "CRDU（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100713",
           "dates": [
-            "2026-07-17"
+            "2026-07-18"
           ]
         },
         {
-          "token": "DOGE10",
+          "token": "IREZ",
           "type": "上线",
-          "detail": "合约探险家：首单立领 10 USDT，全员夺宝最高赢 5,000 USDT 等值 DOGE10 小时前795",
-          "url": "https://www.gate.com/zh/announcements/article/100715",
+          "detail": "IREZ（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100713",
           "dates": [
-            "2026-07-17"
+            "2026-07-18"
+          ]
+        },
+        {
+          "token": "SNDQ",
+          "type": "上线",
+          "detail": "SNDQ（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100713",
+          "dates": [
+            "2026-07-18"
+          ]
+        },
+        {
+          "token": "TSM3L",
+          "type": "上线",
+          "detail": "Gate ETF 上线 TSM3L/3S、EWY3L/3S、DRAM3L/3S1 天前805",
+          "url": "https://www.gate.com/zh/announcements/article/100712",
+          "dates": [
+            "2026-07-18"
           ]
         }
       ]
@@ -1120,42 +914,6 @@
           "dates": [
             "2026-07-21"
           ]
-        },
-        {
-          "token": "CPNG",
-          "type": "美股合约",
-          "detail": "CPNG（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889448",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "PKX",
-          "type": "美股合约",
-          "detail": "PKX（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889448",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "MUFG",
-          "type": "美股合约",
-          "detail": "MUFG（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889448",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "TM",
-          "type": "美股合约",
-          "detail": "TM（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889448",
-          "dates": [
-            "2026-07-17"
-          ]
         }
       ]
     },
@@ -1167,7 +925,8 @@
           "detail": "BRODIE 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537033",
           "dates": [
-            "2026-07-23"
+            "2026-07-23",
+            "2026-07-24"
           ]
         },
         {
@@ -1779,66 +1538,6 @@
           ]
         },
         {
-          "token": "BRIAN",
-          "type": "上线",
-          "detail": "BRIAN 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-brian-to-innovation-zone-17827791536905",
-          "dates": [
-            "2026-07-17",
-            "2026-07-18"
-          ]
-        },
-        {
-          "token": "TENCENT",
-          "type": "美股合约",
-          "detail": "TENCENT（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tencent-hk0700-xiaomi-and-mufg-stock-futures-with-0-fee-trading-on-jul-17-17827791536904",
-          "dates": [
-            "2026-07-17",
-            "2026-07-18"
-          ]
-        },
-        {
-          "token": "HK0700",
-          "type": "美股合约",
-          "detail": "HK0700（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tencent-hk0700-xiaomi-and-mufg-stock-futures-with-0-fee-trading-on-jul-17-17827791536904",
-          "dates": [
-            "2026-07-17",
-            "2026-07-18"
-          ]
-        },
-        {
-          "token": "XIAOMI",
-          "type": "美股合约",
-          "detail": "XIAOMI（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tencent-hk0700-xiaomi-and-mufg-stock-futures-with-0-fee-trading-on-jul-17-17827791536904",
-          "dates": [
-            "2026-07-17",
-            "2026-07-18"
-          ]
-        },
-        {
-          "token": "MUFG",
-          "type": "美股合约",
-          "detail": "MUFG（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tencent-hk0700-xiaomi-and-mufg-stock-futures-with-0-fee-trading-on-jul-17-17827791536904",
-          "dates": [
-            "2026-07-17",
-            "2026-07-18"
-          ]
-        },
-        {
-          "token": "BRIAN",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月17日 14:00 (UTC+8) 上線 BRIANUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536903",
-          "dates": [
-            "2026-07-17",
-            "2026-07-18"
-          ]
-        },
-        {
           "token": "JIMOTHY",
           "type": "Meme+ 现货",
           "detail": "JIMOTHY 現已上線 MEXC Meme+",
@@ -1849,128 +1548,56 @@
         },
         {
           "token": "BRIAN",
-          "type": "Meme+ 现货",
-          "detail": "BRIAN 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536902",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "APH",
-          "type": "美股合约",
-          "detail": "APH（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aph-stm-onstock-and-ms-stock-futures-with-0-fee-trading-on-jul-16-17827791536896",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "STM",
-          "type": "美股合约",
-          "detail": "STM（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aph-stm-onstock-and-ms-stock-futures-with-0-fee-trading-on-jul-16-17827791536896",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "ONSTOCK",
-          "type": "美股合约",
-          "detail": "ONSTOCK（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aph-stm-onstock-and-ms-stock-futures-with-0-fee-trading-on-jul-16-17827791536896",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "MS",
-          "type": "美股合约",
-          "detail": "MS（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aph-stm-onstock-and-ms-stock-futures-with-0-fee-trading-on-jul-16-17827791536896",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "TZA",
           "type": "上线",
-          "detail": "MEXC 將於 7月16日 上線 TZA 指數合約，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tza-index-futures-on-jul-16-with-0-fee-trading-17827791536895",
+          "detail": "BRIAN 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-brian-to-innovation-zone-17827791536905",
           "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "APH",
-          "type": "现货上线",
-          "detail": "APH（同公告含 7 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-16-2026-17827791536887",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "HK0700",
-          "type": "现货上线",
-          "detail": "HK0700（同公告含 7 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-16-2026-17827791536887",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "ONSTOCK",
-          "type": "现货上线",
-          "detail": "ONSTOCK（同公告含 7 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-16-2026-17827791536887",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "STM",
-          "type": "现货上线",
-          "detail": "STM（同公告含 7 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-16-2026-17827791536887",
-          "dates": [
-            "2026-07-17"
+            "2026-07-18"
           ]
         },
         {
           "token": "TENCENT",
-          "type": "现货上线",
-          "detail": "TENCENT（同公告含 7 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-16-2026-17827791536887",
+          "type": "美股合约",
+          "detail": "TENCENT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tencent-hk0700-xiaomi-and-mufg-stock-futures-with-0-fee-trading-on-jul-17-17827791536904",
           "dates": [
-            "2026-07-17"
+            "2026-07-18"
+          ]
+        },
+        {
+          "token": "HK0700",
+          "type": "美股合约",
+          "detail": "HK0700（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tencent-hk0700-xiaomi-and-mufg-stock-futures-with-0-fee-trading-on-jul-17-17827791536904",
+          "dates": [
+            "2026-07-18"
           ]
         },
         {
           "token": "XIAOMI",
-          "type": "现货上线",
-          "detail": "XIAOMI（同公告含 7 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-16-2026-17827791536887",
-          "dates": [
-            "2026-07-17"
-          ]
-        },
-        {
-          "token": "MUU",
           "type": "美股合约",
-          "detail": "新美股合約上線：MUU USDT 本位合約將於 7月16日 上線，限時享受 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536889",
+          "detail": "XIAOMI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tencent-hk0700-xiaomi-and-mufg-stock-futures-with-0-fee-trading-on-jul-17-17827791536904",
           "dates": [
-            "2026-07-17"
+            "2026-07-18"
           ]
         },
         {
-          "token": "TENDIES",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月16日 14:50 (UTC+8) 上線 TENDIESUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536885",
+          "token": "MUFG",
+          "type": "美股合约",
+          "detail": "MUFG（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tencent-hk0700-xiaomi-and-mufg-stock-futures-with-0-fee-trading-on-jul-17-17827791536904",
           "dates": [
-            "2026-07-17"
+            "2026-07-18"
+          ]
+        },
+        {
+          "token": "BRIAN",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月17日 14:00 (UTC+8) 上線 BRIANUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536903",
+          "dates": [
+            "2026-07-18"
           ]
         }
       ]
