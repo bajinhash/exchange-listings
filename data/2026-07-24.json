@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "updatedAt": "2026-07-23T16:09:57.078Z",
+  "updatedAt": "2026-07-24T12:00:18.442Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -8,7 +8,20 @@
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "ZAMA",
+          "type": "永续合约",
+          "detail": "OKX 關於 ZAMAUSD（X-Perp）正式上線的公告發佈於 2026年7月24日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-zamausd-expiry-x-perp"
+        },
+        {
+          "token": "WLFI",
+          "type": "永续合约",
+          "detail": "OKX 關於 WLFIUSD（X-Perp）正式上線的公告發佈於 2026年7月24日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-wlfiusd-expiry-x-perp"
+        }
+      ]
     },
     "bybit": {
       "listings": [
@@ -38,10 +51,46 @@
     "gateio": {
       "listings": [
         {
-          "token": "AXTIG",
+          "token": "USDT4",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 AXTIG（AXT 半导体）、CRWVG (CoreWeave) 等 9 个 gStocks 代币化...1 天前2,126",
-          "url": "https://www.gate.com/zh/announcements/article/100800"
+          "detail": "交易无忧：双福利限时开启，最高领 120 USDT4 小时前717",
+          "url": "https://www.gate.com/zh/announcements/article/100829"
+        },
+        {
+          "token": "SKHYG",
+          "type": "上线",
+          "detail": "Gate 边学边赚：学习股票知识，赚 USDT & SKHYG 大奖5 小时前1,034",
+          "url": "https://www.gate.com/zh/announcements/article/100827"
+        },
+        {
+          "token": "JMKE",
+          "type": "上线",
+          "detail": "Gate 直通 IPO 第二期：Jersey Mike's (JMKE) ，支持 USDT 或 GUSD 意向申购5 小时前9,420",
+          "url": "https://www.gate.com/zh/announcements/article/100826"
+        },
+        {
+          "token": "looong",
+          "type": "现货上线",
+          "detail": "looong（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100823"
+        },
+        {
+          "token": "VLAD",
+          "type": "现货上线",
+          "detail": "VLAD（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100823"
+        },
+        {
+          "token": "GME",
+          "type": "现货上线",
+          "detail": "GME（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100823"
+        },
+        {
+          "token": "DEX",
+          "type": "上线",
+          "detail": "Gate DEX 合约夏日能量狂欢：交易收集夏日能量，共享 20,000 USDT 奖池6 小时前636",
+          "url": "https://www.gate.com/zh/announcements/article/100821"
         }
       ]
     },
@@ -51,10 +100,148 @@
     "mexc": {
       "listings": [
         {
+          "token": "GMEROBINHOOD",
+          "type": "跟单合约",
+          "detail": "GMEROBINHOOD（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gmerobinhood-and-aiinu-usdt-m-futures-17827791537043"
+        },
+        {
+          "token": "AIINU",
+          "type": "跟单合约",
+          "detail": "AIINU（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gmerobinhood-and-aiinu-usdt-m-futures-17827791537043"
+        },
+        {
+          "token": "RIOT",
+          "type": "跟单合约",
+          "detail": "RIOT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-riot-arwr-wab-and-nvd-usdt-m-futures-17827791537042"
+        },
+        {
+          "token": "ARWR",
+          "type": "跟单合约",
+          "detail": "ARWR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-riot-arwr-wab-and-nvd-usdt-m-futures-17827791537042"
+        },
+        {
+          "token": "WAB",
+          "type": "跟单合约",
+          "detail": "WAB（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-riot-arwr-wab-and-nvd-usdt-m-futures-17827791537042"
+        },
+        {
+          "token": "NVD",
+          "type": "跟单合约",
+          "detail": "NVD（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-riot-arwr-wab-and-nvd-usdt-m-futures-17827791537042"
+        },
+        {
+          "token": "FEFER",
+          "type": "Meme+ 现货",
+          "detail": "FEFER 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537041"
+        },
+        {
           "token": "BRODIE",
           "type": "Meme+ 现货",
           "detail": "BRODIE 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537033"
+        },
+        {
+          "token": "RIOT",
+          "type": "美股合约",
+          "detail": "RIOT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-riot-arwr-wab-and-nvd-stock-futures-with-0-fee-trading-on-jul-23-17827791537026"
+        },
+        {
+          "token": "ARWR",
+          "type": "美股合约",
+          "detail": "ARWR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-riot-arwr-wab-and-nvd-stock-futures-with-0-fee-trading-on-jul-23-17827791537026"
+        },
+        {
+          "token": "WAB",
+          "type": "美股合约",
+          "detail": "WAB（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-riot-arwr-wab-and-nvd-stock-futures-with-0-fee-trading-on-jul-23-17827791537026"
+        },
+        {
+          "token": "NVD",
+          "type": "美股合约",
+          "detail": "NVD（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-riot-arwr-wab-and-nvd-stock-futures-with-0-fee-trading-on-jul-23-17827791537026"
+        },
+        {
+          "token": "AIINU",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月23日 17:30 (UTC+8) 上線 AIINUUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537024"
+        },
+        {
+          "token": "GMEROBINHOOD",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月23日 17:30 (UTC+8) 上線 GMEROBINHOODUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537023"
+        },
+        {
+          "token": "KET",
+          "type": "跟单合约",
+          "detail": "KET（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ket-and-wood-usdt-m-futures-17827791537019"
+        },
+        {
+          "token": "WOOD",
+          "type": "跟单合约",
+          "detail": "WOOD（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ket-and-wood-usdt-m-futures-17827791537019"
+        },
+        {
+          "token": "POPMART",
+          "type": "跟单合约",
+          "detail": "POPMART（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
+        },
+        {
+          "token": "SHAZ",
+          "type": "跟单合约",
+          "detail": "SHAZ（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
+        },
+        {
+          "token": "HK1810",
+          "type": "跟单合约",
+          "detail": "HK1810（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
+        },
+        {
+          "token": "LASERTEC",
+          "type": "跟单合约",
+          "detail": "LASERTEC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
+        },
+        {
+          "token": "SUMIELEC",
+          "type": "跟单合约",
+          "detail": "SUMIELEC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
+        },
+        {
+          "token": "ARWR",
+          "type": "现货上线",
+          "detail": "ARWR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
+        },
+        {
+          "token": "RIOT",
+          "type": "现货上线",
+          "detail": "RIOT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
+        },
+        {
+          "token": "WAB",
+          "type": "现货上线",
+          "detail": "WAB（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
         }
       ]
     }
