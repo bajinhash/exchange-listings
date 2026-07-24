@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "updatedAt": "2026-07-24T13:16:04.409Z",
+  "updatedAt": "2026-07-24T14:36:56.378Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -51,21 +51,21 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT5",
+          "token": "USDT6",
           "type": "上线",
-          "detail": "交易无忧：双福利限时开启，最高领 120 USDT5 小时前826",
+          "detail": "交易无忧：双福利限时开启，最高领 120 USDT6 小时前942",
           "url": "https://www.gate.com/zh/announcements/article/100829"
         },
         {
           "token": "SKHYG",
           "type": "上线",
-          "detail": "Gate 边学边赚：学习股票知识，赚 USDT & SKHYG 大奖6 小时前1,342",
+          "detail": "Gate 边学边赚：学习股票知识，赚 USDT & SKHYG 大奖7 小时前1,546",
           "url": "https://www.gate.com/zh/announcements/article/100827"
         },
         {
           "token": "JMKE",
           "type": "上线",
-          "detail": "Gate 直通 IPO 第二期：Jersey Mike's (JMKE) ，支持 USDT 或 GUSD 意向申购6 小时前12,771",
+          "detail": "Gate 直通 IPO 第二期：Jersey Mike's (JMKE) ，支持 USDT 或 GUSD 意向申购7 小时前16,721",
           "url": "https://www.gate.com/zh/announcements/article/100826"
         },
         {
@@ -89,7 +89,7 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX 合约夏日能量狂欢：交易收集夏日能量，共享 20,000 USDT 奖池8 小时前752",
+          "detail": "Gate DEX 合约夏日能量狂欢：交易收集夏日能量，共享 20,000 USDT 奖池9 小时前856",
           "url": "https://www.gate.com/zh/announcements/article/100821"
         }
       ]
@@ -99,6 +99,18 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "ROL",
+          "type": "美股合约",
+          "detail": "ROL（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-rol-and-ggll-stock-futures-with-0-fee-trading-on-jul-24-17827791537064"
+        },
+        {
+          "token": "GGLL",
+          "type": "美股合约",
+          "detail": "GGLL（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-rol-and-ggll-stock-futures-with-0-fee-trading-on-jul-24-17827791537064"
+        },
         {
           "token": "GMEROBINHOOD",
           "type": "跟单合约",
@@ -224,24 +236,6 @@
           "type": "跟单合约",
           "detail": "SUMIELEC（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
-        },
-        {
-          "token": "ARWR",
-          "type": "现货上线",
-          "detail": "ARWR（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
-        },
-        {
-          "token": "RIOT",
-          "type": "现货上线",
-          "detail": "RIOT（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
-        },
-        {
-          "token": "WAB",
-          "type": "现货上线",
-          "detail": "WAB（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
         }
       ]
     }
