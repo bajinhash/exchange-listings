@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-19",
   "weekEnd": "2026-07-25",
-  "updatedAt": "2026-07-25T12:55:17.514Z",
+  "updatedAt": "2026-07-25T14:31:03.899Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -634,7 +634,7 @@
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "交易无忧：双福利限时开启，最高领 120 USDT1 天前1,820",
+          "detail": "交易无忧：双福利限时开启，最高领 120 USDT1 天前1,864",
           "url": "https://www.gate.com/zh/announcements/article/100829",
           "dates": [
             "2026-07-25"
