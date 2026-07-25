@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-19",
   "weekEnd": "2026-07-25",
-  "updatedAt": "2026-07-25T11:46:31.531Z",
+  "updatedAt": "2026-07-25T12:55:17.514Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -634,7 +634,7 @@
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "交易无忧：双福利限时开启，最高领 120 USDT1 天前1,803",
+          "detail": "交易无忧：双福利限时开启，最高领 120 USDT1 天前1,820",
           "url": "https://www.gate.com/zh/announcements/article/100829",
           "dates": [
             "2026-07-25"
@@ -967,6 +967,15 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-riot-arwr-wab-and-nvd-usdt-m-futures-17827791537042",
           "dates": [
             "2026-07-24",
+            "2026-07-25"
+          ]
+        },
+        {
+          "token": "FEFER",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月25日 21:00 (UTC+8) 上線 FEFERUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537066",
+          "dates": [
             "2026-07-25"
           ]
         },
