@@ -1,6 +1,6 @@
 {
   "date": "2026-07-25",
-  "updatedAt": "2026-07-25T11:30:48.999Z",
+  "updatedAt": "2026-07-25T11:46:31.387Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,19 +21,19 @@
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "交易无忧：双福利限时开启，最高领 120 USDT1 天前1,792",
+          "detail": "交易无忧：双福利限时开启，最高领 120 USDT1 天前1,803",
           "url": "https://www.gate.com/zh/announcements/article/100829"
         },
         {
           "token": "SKHYG",
           "type": "上线",
-          "detail": "Gate 边学边赚：学习股票知识，赚 USDT & SKHYG 大奖1 天前2,777",
+          "detail": "Gate 边学边赚：学习股票知识，赚 USDT & SKHYG 大奖1 天前2,791",
           "url": "https://www.gate.com/zh/announcements/article/100827"
         },
         {
           "token": "JMKE",
           "type": "上线",
-          "detail": "Gate 直通 IPO 第二期：Jersey Mike's (JMKE) ，支持 USDT 或 GUSD 意向申购1 天前55,381",
+          "detail": "Gate 直通 IPO 第二期：Jersey Mike's (JMKE) ，支持 USDT 或 GUSD 意向申购1 天前55,975",
           "url": "https://www.gate.com/zh/announcements/article/100826"
         },
         {
@@ -57,7 +57,7 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX 合约夏日能量狂欢：交易收集夏日能量，共享 20,000 USDT 奖池1 天前1,749",
+          "detail": "Gate DEX 合约夏日能量狂欢：交易收集夏日能量，共享 20,000 USDT 奖池1 天前1,755",
           "url": "https://www.gate.com/zh/announcements/article/100821"
         }
       ]
