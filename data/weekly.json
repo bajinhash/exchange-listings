@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-20",
   "weekEnd": "2026-07-26",
-  "updatedAt": "2026-07-26T11:51:22.765Z",
+  "updatedAt": "2026-07-26T12:54:29.243Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -571,6 +571,15 @@
     },
     "gateio": {
       "listings": [
+        {
+          "token": "CXMT",
+          "type": "永续合约",
+          "detail": "Gate 关于迁移 CXMTUSDT（长鑫存储）盘前永续合约至正式永续合约交易1 小时前899",
+          "url": "https://www.gate.com/zh/announcements/article/100836",
+          "dates": [
+            "2026-07-26"
+          ]
+        },
         {
           "token": "SKHYG",
           "type": "上线",
