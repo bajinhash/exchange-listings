@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-20",
   "weekEnd": "2026-07-26",
-  "updatedAt": "2026-07-26T12:54:29.243Z",
+  "updatedAt": "2026-07-26T14:28:20.001Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -574,7 +574,7 @@
         {
           "token": "CXMT",
           "type": "永续合约",
-          "detail": "Gate 关于迁移 CXMTUSDT（长鑫存储）盘前永续合约至正式永续合约交易1 小时前899",
+          "detail": "Gate 关于迁移 CXMTUSDT（长鑫存储）盘前永续合约至正式永续合约交易2 小时前1,203",
           "url": "https://www.gate.com/zh/announcements/article/100836",
           "dates": [
             "2026-07-26"
