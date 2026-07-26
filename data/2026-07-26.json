@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-26",
+  "updatedAt": "2026-07-26T11:42:21.096Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "FEFER",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月25日 21:00 (UTC+8) 上線 FEFERUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537066"
+        },
+        {
+          "token": "BRODIE",
+          "type": "Meme+ 现货",
+          "detail": "BRODIE 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537033"
+        }
+      ]
+    }
+  }
+}

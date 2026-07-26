@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-07-19",
-  "weekEnd": "2026-07-25",
-  "updatedAt": "2026-07-25T14:31:03.899Z",
+  "weekStart": "2026-07-20",
+  "weekEnd": "2026-07-26",
+  "updatedAt": "2026-07-26T11:42:21.281Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -887,7 +887,18 @@
           "dates": [
             "2026-07-23",
             "2026-07-24",
-            "2026-07-25"
+            "2026-07-25",
+            "2026-07-26"
+          ]
+        },
+        {
+          "token": "FEFER",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月25日 21:00 (UTC+8) 上線 FEFERUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537066",
+          "dates": [
+            "2026-07-25",
+            "2026-07-26"
           ]
         },
         {
@@ -967,15 +978,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-riot-arwr-wab-and-nvd-usdt-m-futures-17827791537042",
           "dates": [
             "2026-07-24",
-            "2026-07-25"
-          ]
-        },
-        {
-          "token": "FEFER",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月25日 21:00 (UTC+8) 上線 FEFERUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537066",
-          "dates": [
             "2026-07-25"
           ]
         },
