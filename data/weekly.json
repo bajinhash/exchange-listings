@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-21",
   "weekEnd": "2026-07-27",
-  "updatedAt": "2026-07-27T13:26:37.447Z",
+  "updatedAt": "2026-07-27T13:36:00.121Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -777,7 +777,7 @@
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "主流热币加成抽赏：每日抽 1 BTC，加成奖励再升级6 小时前792",
+          "detail": "主流热币加成抽赏：每日抽 1 BTC，加成奖励再升级6 小时前798",
           "url": "https://www.gate.com/zh/announcements/article/100848",
           "dates": [
             "2026-07-27"
@@ -813,7 +813,7 @@
         {
           "token": "MU",
           "type": "上线",
-          "detail": "Gate 关于已完成美光科技 (MU) 等 51 只股票股息派发公告8 小时前1,228",
+          "detail": "Gate 关于已完成美光科技 (MU) 等 51 只股票股息派发公告8 小时前1,234",
           "url": "https://www.gate.com/zh/announcements/article/100844",
           "dates": [
             "2026-07-27"
@@ -822,7 +822,7 @@
         {
           "token": "AEON",
           "type": "现货上线",
-          "detail": "Gate 将上线 AEON (AEON) 现货交易与闪兑交易9 小时前1,424",
+          "detail": "Gate 将上线 AEON (AEON) 现货交易与闪兑交易9 小时前1,426",
           "url": "https://www.gate.com/zh/announcements/article/100842",
           "dates": [
             "2026-07-27"
@@ -831,7 +831,7 @@
         {
           "token": "USDT10",
           "type": "上线",
-          "detail": "合约双线狂欢：121,000 USDT 奖励狂撒，邀新唤老最高领超 2,000 USDT10 小时前846",
+          "detail": "合约双线狂欢：121,000 USDT 奖励狂撒，邀新唤老最高领超 2,000 USDT10 小时前847",
           "url": "https://www.gate.com/zh/announcements/article/100841",
           "dates": [
             "2026-07-27"
