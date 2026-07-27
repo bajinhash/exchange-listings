@@ -1,0 +1,99 @@
+{
+  "date": "2026-07-28",
+  "updatedAt": "2026-07-27T16:39:10.791Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "AEON",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AEON - AEON是面向智能体经济的AI原生结算基础设施，具备低成本、可编程、快速结算能力。",
+          "url": "https://www.binance.com/en/alpha/bsc/0x277add739c6e0477616948357af9e79fe1ec9b80"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "VUSDT",
+          "type": "永续合约",
+          "detail": "VUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-vusdt-perpetual-contract-with-up-to-25x-leverage--art1a35950bbe4f/"
+        },
+        {
+          "token": "BITO",
+          "type": "永续合约",
+          "detail": "BITOUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bitousdt-perpetual-contract-with-up-to-25x-leverage--art3052540a8a9c/"
+        },
+        {
+          "token": "GDX",
+          "type": "永续合约",
+          "detail": "GDXUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gdxusdt-perpetual-contract-with-up-to-25x-leverage--artfc17fecb9455/"
+        },
+        {
+          "token": "AMC",
+          "type": "永续合约",
+          "detail": "AMCUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-amcusdt-perpetual-contract-with-up-to-20x-leverage--art28779c453894/"
+        },
+        {
+          "token": "GMESTOCK",
+          "type": "永续合约",
+          "detail": "GMESTOCKUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gmestockusdt-perpetual-contract-with-up-to-20x-leverage--artda717c001840/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "BOTZ",
+          "type": "美股合约",
+          "detail": "BOTZ（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890268"
+        },
+        {
+          "token": "SKDD",
+          "type": "美股合约",
+          "detail": "SKDD（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890268"
+        },
+        {
+          "token": "SKUU",
+          "type": "美股合约",
+          "detail": "SKUU（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890268"
+        },
+        {
+          "token": "AEON",
+          "type": "上线",
+          "detail": "AEONUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890269"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "EPIK",
+          "type": "Meme+ 现货",
+          "detail": "EPIK 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537100"
+        }
+      ]
+    }
+  }
+}
