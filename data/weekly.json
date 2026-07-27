@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-21",
   "weekEnd": "2026-07-27",
-  "updatedAt": "2026-07-27T14:08:43.620Z",
+  "updatedAt": "2026-07-27T15:41:26.514Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -775,13 +775,75 @@
           ]
         },
         {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "主流热币加成抽赏：每日抽 1 BTC，加成奖励再升级9 小时前939",
+          "url": "https://www.gate.com/zh/announcements/article/100848",
+          "dates": [
+            "2026-07-27"
+          ]
+        },
+        {
+          "token": "CATE",
+          "type": "现货上线",
+          "detail": "CATE（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100845",
+          "dates": [
+            "2026-07-27"
+          ]
+        },
+        {
+          "token": "PUPPY",
+          "type": "现货上线",
+          "detail": "PUPPY（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100845",
+          "dates": [
+            "2026-07-27"
+          ]
+        },
+        {
+          "token": "FWA",
+          "type": "现货上线",
+          "detail": "FWA（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100845",
+          "dates": [
+            "2026-07-27"
+          ]
+        },
+        {
+          "token": "MU",
+          "type": "上线",
+          "detail": "Gate 关于已完成美光科技 (MU) 等 51 只股票股息派发公告10 小时前1,366",
+          "url": "https://www.gate.com/zh/announcements/article/100844",
+          "dates": [
+            "2026-07-27"
+          ]
+        },
+        {
+          "token": "AEON",
+          "type": "现货上线",
+          "detail": "Gate 将上线 AEON (AEON) 现货交易与闪兑交易11 小时前1,549",
+          "url": "https://www.gate.com/zh/announcements/article/100842",
+          "dates": [
+            "2026-07-27"
+          ]
+        },
+        {
+          "token": "USDT12",
+          "type": "上线",
+          "detail": "合约双线狂欢：121,000 USDT 奖励狂撒，邀新唤老最高领超 2,000 USDT12 小时前928",
+          "url": "https://www.gate.com/zh/announcements/article/100841",
+          "dates": [
+            "2026-07-27"
+          ]
+        },
+        {
           "token": "CXMT",
           "type": "永续合约",
           "detail": "Gate 关于迁移 CXMTUSDT（长鑫存储）盘前永续合约至正式永续合约交易2 小时前1,203",
           "url": "https://www.gate.com/zh/announcements/article/100836",
           "dates": [
-            "2026-07-26",
-            "2026-07-27"
+            "2026-07-26"
           ]
         },
         {
