@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-22",
   "weekEnd": "2026-07-28",
-  "updatedAt": "2026-07-28T12:24:50.391Z",
+  "updatedAt": "2026-07-28T13:29:12.778Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -748,7 +748,7 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 持币生息：持有即享最高 8% 年化收益2 小时前317",
+          "detail": "USD1 持币生息：持有即享最高 8% 年化收益3 小时前419",
           "url": "https://www.gate.com/zh/announcements/article/100875",
           "dates": [
             "2026-07-28"
@@ -757,7 +757,7 @@
         {
           "token": "KORU",
           "type": "上线",
-          "detail": "Gate CFD 股票专区已上线 KORU（Direxion MSCI 韩国指数 3 倍做多 ETF）等 17 个差价...5 小时前968",
+          "detail": "Gate CFD 股票专区已上线 KORU（Direxion MSCI 韩国指数 3 倍做多 ETF）等 17 个差价...6 小时前1,026",
           "url": "https://www.gate.com/zh/announcements/article/100866",
           "dates": [
             "2026-07-28"
@@ -766,7 +766,7 @@
         {
           "token": "TMF",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 TMF（Direxion 美债 20 年以上 3 倍做多 ETF...7 小时前1,061",
+          "detail": "Gate 合约股票专区将上线 TMF（Direxion 美债 20 年以上 3 倍做多 ETF...8 小时前1,114",
           "url": "https://www.gate.com/zh/announcements/article/100863",
           "dates": [
             "2026-07-28"
@@ -1183,12 +1183,56 @@
           ]
         },
         {
-          "token": "CATE",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月27日 14:00 (UTC+8) 上線 CATEUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537082",
+          "token": "GILD",
+          "type": "美股合约",
+          "detail": "GILD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
           "dates": [
-            "2026-07-27",
+            "2026-07-28"
+          ]
+        },
+        {
+          "token": "IBB",
+          "type": "美股合约",
+          "detail": "IBB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
+          "dates": [
+            "2026-07-28"
+          ]
+        },
+        {
+          "token": "WDAY",
+          "type": "美股合约",
+          "detail": "WDAY（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
+          "dates": [
+            "2026-07-28"
+          ]
+        },
+        {
+          "token": "HUBS",
+          "type": "美股合约",
+          "detail": "HUBS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
+          "dates": [
+            "2026-07-28"
+          ]
+        },
+        {
+          "token": "HUT",
+          "type": "美股合约",
+          "detail": "HUT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
+          "dates": [
+            "2026-07-28"
+          ]
+        },
+        {
+          "token": "EPIK",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月28日 21:40 (UTC+8) 上線 EPIKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537114",
+          "dates": [
             "2026-07-28"
           ]
         },
@@ -1208,6 +1252,15 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aeon-usdt-m-futures-17827791537106",
           "dates": [
             "2026-07-28"
+          ]
+        },
+        {
+          "token": "CATE",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月27日 14:00 (UTC+8) 上線 CATEUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537082",
+          "dates": [
+            "2026-07-27"
           ]
         },
         {
