@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-22",
   "weekEnd": "2026-07-28",
-  "updatedAt": "2026-07-28T12:15:32.491Z",
+  "updatedAt": "2026-07-28T12:24:50.391Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -748,7 +748,7 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 持币生息：持有即享最高 8% 年化收益2 小时前299",
+          "detail": "USD1 持币生息：持有即享最高 8% 年化收益2 小时前317",
           "url": "https://www.gate.com/zh/announcements/article/100875",
           "dates": [
             "2026-07-28"
@@ -757,7 +757,7 @@
         {
           "token": "KORU",
           "type": "上线",
-          "detail": "Gate CFD 股票专区已上线 KORU（Direxion MSCI 韩国指数 3 倍做多 ETF）等 17 个差价...5 小时前960",
+          "detail": "Gate CFD 股票专区已上线 KORU（Direxion MSCI 韩国指数 3 倍做多 ETF）等 17 个差价...5 小时前968",
           "url": "https://www.gate.com/zh/announcements/article/100866",
           "dates": [
             "2026-07-28"
@@ -766,7 +766,7 @@
         {
           "token": "TMF",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 TMF（Direxion 美债 20 年以上 3 倍做多 ETF...7 小时前1,057",
+          "detail": "Gate 合约股票专区将上线 TMF（Direxion 美债 20 年以上 3 倍做多 ETF...7 小时前1,061",
           "url": "https://www.gate.com/zh/announcements/article/100863",
           "dates": [
             "2026-07-28"
