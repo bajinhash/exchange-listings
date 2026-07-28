@@ -1,0 +1,146 @@
+{
+  "date": "2026-07-29",
+  "updatedAt": "2026-07-28T16:18:42.210Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "DEX",
+          "type": "上线",
+          "detail": "Gate DEX Swap 连击挑战：每日达标必得奖，阶梯冲刺赢 300 USDT2 小时前324",
+          "url": "https://www.gate.com/zh/announcements/article/100877"
+        },
+        {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "USD1 持币生息：持有即享最高 8% 年化收益6 小时前643",
+          "url": "https://www.gate.com/zh/announcements/article/100875"
+        },
+        {
+          "token": "AEON",
+          "type": "现货上线",
+          "detail": "Gate 将上线 AEON (AEON) 现货交易与闪兑交易1 天前2,518",
+          "url": "https://www.gate.com/zh/announcements/article/100842"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rHSY 等 49 个",
+          "type": "现货上线",
+          "detail": "Bitget 关于上线 rHSY、rWAT、rPAYX、rVMC、rHIG、rRKT、rHAL、rKVUE、rROP、rSUNB 等30只股票现货的公告（rHSY、rWAT、rPAYX、rVMC、rHIG、rRKT、rHAL、rKVUE… 共 49 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890405"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GILD",
+          "type": "美股合约",
+          "detail": "GILD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116"
+        },
+        {
+          "token": "IBB",
+          "type": "美股合约",
+          "detail": "IBB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116"
+        },
+        {
+          "token": "WDAY",
+          "type": "美股合约",
+          "detail": "WDAY（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116"
+        },
+        {
+          "token": "HUBS",
+          "type": "美股合约",
+          "detail": "HUBS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116"
+        },
+        {
+          "token": "HUT",
+          "type": "美股合约",
+          "detail": "HUT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116"
+        },
+        {
+          "token": "EPIK",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月28日 21:40 (UTC+8) 上線 EPIKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537114"
+        },
+        {
+          "token": "GRVT",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Grvt (GRVT) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537112"
+        },
+        {
+          "token": "SPCXX",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 SpaceX xStocks (SPCXX) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536128"
+        },
+        {
+          "token": "AEON",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年7月27日 18:50 (UTC+8) 上線 AEON (AEON) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537098"
+        },
+        {
+          "token": "CATE",
+          "type": "上线",
+          "detail": "CATE 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-cate-to-innovation-zone-17827791537095"
+        },
+        {
+          "token": "MSFU",
+          "type": "跟单合约",
+          "detail": "MSFU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087"
+        },
+        {
+          "token": "AAPU",
+          "type": "跟单合约",
+          "detail": "AAPU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087"
+        },
+        {
+          "token": "AMZU",
+          "type": "跟单合约",
+          "detail": "AMZU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087"
+        },
+        {
+          "token": "GEOD",
+          "type": "跟单合约",
+          "detail": "GEOD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087"
+        },
+        {
+          "token": "CATE",
+          "type": "跟单合约",
+          "detail": "CATE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087"
+        }
+      ]
+    }
+  }
+}
