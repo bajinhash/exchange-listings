@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-22",
   "weekEnd": "2026-07-28",
-  "updatedAt": "2026-07-28T13:29:12.778Z",
+  "updatedAt": "2026-07-28T15:16:14.812Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -736,6 +736,17 @@
     "gateio": {
       "listings": [
         {
+          "token": "DEX",
+          "type": "上线",
+          "detail": "Gate DEX 合约夏日能量狂欢：交易收集夏日能量，共享 20,000 USDT 奖池9 小时前856",
+          "url": "https://www.gate.com/zh/announcements/article/100821",
+          "dates": [
+            "2026-07-24",
+            "2026-07-25",
+            "2026-07-28"
+          ]
+        },
+        {
           "token": "AEON",
           "type": "现货上线",
           "detail": "Gate 将上线 AEON (AEON) 现货交易与闪兑交易11 小时前1,549",
@@ -748,7 +759,7 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 持币生息：持有即享最高 8% 年化收益3 小时前419",
+          "detail": "USD1 持币生息：持有即享最高 8% 年化收益5 小时前577",
           "url": "https://www.gate.com/zh/announcements/article/100875",
           "dates": [
             "2026-07-28"
@@ -757,7 +768,7 @@
         {
           "token": "KORU",
           "type": "上线",
-          "detail": "Gate CFD 股票专区已上线 KORU（Direxion MSCI 韩国指数 3 倍做多 ETF）等 17 个差价...6 小时前1,026",
+          "detail": "Gate CFD 股票专区已上线 KORU（Direxion MSCI 韩国指数 3 倍做多 ETF）等 17 个差价...8 小时前1,093",
           "url": "https://www.gate.com/zh/announcements/article/100866",
           "dates": [
             "2026-07-28"
@@ -766,7 +777,7 @@
         {
           "token": "TMF",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 TMF（Direxion 美债 20 年以上 3 倍做多 ETF...8 小时前1,114",
+          "detail": "Gate 合约股票专区将上线 TMF（Direxion 美债 20 年以上 3 倍做多 ETF...10 小时前1,193",
           "url": "https://www.gate.com/zh/announcements/article/100863",
           "dates": [
             "2026-07-28"
@@ -881,16 +892,6 @@
           "type": "现货上线",
           "detail": "GME（同公告含 3 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/100823",
-          "dates": [
-            "2026-07-24",
-            "2026-07-25"
-          ]
-        },
-        {
-          "token": "DEX",
-          "type": "上线",
-          "detail": "Gate DEX 合约夏日能量狂欢：交易收集夏日能量，共享 20,000 USDT 奖池9 小时前856",
-          "url": "https://www.gate.com/zh/announcements/article/100821",
           "dates": [
             "2026-07-24",
             "2026-07-25"
