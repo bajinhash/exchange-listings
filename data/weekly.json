@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-23",
   "weekEnd": "2026-07-29",
-  "updatedAt": "2026-07-29T13:34:15.093Z",
+  "updatedAt": "2026-07-29T15:08:45.489Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -188,6 +188,105 @@
         }
       ],
       "alpha": [
+        {
+          "token": "SMHB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SMHB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xbe1fced7047fdce935f45700727845df2c76877a",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "GSB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 GSB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x20cce6656e5f7f79f280e2d0f5db55b401bdbfce",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "PYPLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 PYPLB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x2806a561fc1f9259b2d54a281796bde0d92762ae",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "AMATB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AMATB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xa304bd78e739c0f777202b3eb73ac3736d1df801",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "FLNCB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 FLNCB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x4af1d41cd9dd950dca43984b43aaa2a8702714ac",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "DELLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 DELLB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x0e7a51966c66648999d506e1372efdea1b78cb0b",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "SOXSB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SOXSB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xe28cd11c99af2df76bb8ada4cd0ef3904378280f",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "AMZNB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AMZNB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "BEB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 BEB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x5519de00f5388c17d886b97cb5d2d43a812a82bc",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "AAPLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AAPLB - Apple (bStocks)",
+          "url": "https://www.binance.com/en/alpha/bsc/0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "GRVT",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 GRVT (Grvt) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2082474918516781078",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
         {
           "token": "AEON",
           "type": "上线",
@@ -601,38 +700,12 @@
     "gateio": {
       "listings": [
         {
-          "token": "ZHIPUG",
+          "token": "USDT6",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 ZHIPUG（智谱 AI）、MINIMAXG (MiniMax) 等 11 个 gStocks 代币化证...2 小时前800",
-          "url": "https://www.gate.com/zh/announcements/article/100902",
+          "detail": "交易无忧：双福利限时开启，最高领 120 USDT6 小时前942",
+          "url": "https://www.gate.com/zh/announcements/article/100829",
           "dates": [
-            "2026-07-29"
-          ]
-        },
-        {
-          "token": "USDT4",
-          "type": "上线",
-          "detail": "Gate ETF 新人专享礼遇：交易解锁多重奖励，最高享 160 USDT4 小时前485",
-          "url": "https://www.gate.com/zh/announcements/article/100898",
-          "dates": [
-            "2026-07-29"
-          ]
-        },
-        {
-          "token": "GT6",
-          "type": "上线",
-          "detail": "GT 三重加享礼：交易抽 GT，持仓加成赢 2,500 GT6 小时前736",
-          "url": "https://www.gate.com/zh/announcements/article/100891",
-          "dates": [
-            "2026-07-29"
-          ]
-        },
-        {
-          "token": "BVOL",
-          "type": "现货上线",
-          "detail": "Gate 合约指数专区将上线 BVOL（BTC 波动率）、EVOL（ETH 波动率）永...8 小时前980",
-          "url": "https://www.gate.com/zh/announcements/article/100886",
-          "dates": [
+            "2026-07-24",
             "2026-07-29"
           ]
         },
@@ -644,7 +717,35 @@
           "dates": [
             "2026-07-24",
             "2026-07-25",
-            "2026-07-28"
+            "2026-07-28",
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "ZHIPUG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 ZHIPUG（智谱 AI）、MINIMAXG (MiniMax) 等 11 个 gStocks 代币化证...4 小时前945",
+          "url": "https://www.gate.com/zh/announcements/article/100902",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "GT8",
+          "type": "上线",
+          "detail": "GT 三重加享礼：交易抽 GT，持仓加成赢 2,500 GT8 小时前821",
+          "url": "https://www.gate.com/zh/announcements/article/100891",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "BVOL",
+          "type": "现货上线",
+          "detail": "Gate 合约指数专区将上线 BVOL（BTC 波动率）、EVOL（ETH 波动率）永...10 小时前1,049",
+          "url": "https://www.gate.com/zh/announcements/article/100886",
+          "dates": [
+            "2026-07-29"
           ]
         },
         {
@@ -805,15 +906,6 @@
           "url": "https://www.gate.com/zh/announcements/article/100829",
           "dates": [
             "2026-07-25"
-          ]
-        },
-        {
-          "token": "USDT6",
-          "type": "上线",
-          "detail": "交易无忧：双福利限时开启，最高领 120 USDT6 小时前942",
-          "url": "https://www.gate.com/zh/announcements/article/100829",
-          "dates": [
-            "2026-07-24"
           ]
         },
         {
@@ -1035,12 +1127,47 @@
           ]
         },
         {
-          "token": "AEON",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 AEON U 本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aeon-usdt-m-futures-17827791537106",
+          "token": "TMF",
+          "type": "美股合约",
+          "detail": "TMF（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tmf-tbt-iqv-and-rcl-stock-futures-with-0-fee-trading-on-jul-29-17827791537138",
           "dates": [
-            "2026-07-28",
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "TBT",
+          "type": "美股合约",
+          "detail": "TBT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tmf-tbt-iqv-and-rcl-stock-futures-with-0-fee-trading-on-jul-29-17827791537138",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "IQV",
+          "type": "美股合约",
+          "detail": "IQV（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tmf-tbt-iqv-and-rcl-stock-futures-with-0-fee-trading-on-jul-29-17827791537138",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "RCL",
+          "type": "美股合约",
+          "detail": "RCL（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tmf-tbt-iqv-and-rcl-stock-futures-with-0-fee-trading-on-jul-29-17827791537138",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "GRVT",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Grvt (GRVT) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536838",
+          "dates": [
             "2026-07-29"
           ]
         },
@@ -1135,15 +1262,6 @@
           ]
         },
         {
-          "token": "NATG",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 NatGold (NATG)，瓜分 60,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537105",
-          "dates": [
-            "2026-07-29"
-          ]
-        },
-        {
           "token": "EPIK",
           "type": "Meme+ 现货",
           "detail": "EPIK 現已上線 MEXC Meme+",
@@ -1230,6 +1348,15 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087",
           "dates": [
             "2026-07-27",
+            "2026-07-28"
+          ]
+        },
+        {
+          "token": "AEON",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 AEON U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aeon-usdt-m-futures-17827791537106",
+          "dates": [
             "2026-07-28"
           ]
         },
