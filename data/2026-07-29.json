@@ -1,45 +1,199 @@
 {
   "date": "2026-07-29",
-  "updatedAt": "2026-07-28T16:18:42.210Z",
+  "updatedAt": "2026-07-29T12:21:11.018Z",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "ADGM",
+          "type": "上线",
+          "detail": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+          "url": "https://www.binance.com/en/support/announcement/6a167ac6ee74496b83a820675aea1dbe"
+        },
+        {
+          "token": "AAPLB",
+          "type": "现货上线",
+          "detail": "AAPLB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "ADGM",
+          "type": "现货上线",
+          "detail": "ADGM（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "AMATB",
+          "type": "现货上线",
+          "detail": "AMATB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "AMZNB",
+          "type": "现货上线",
+          "detail": "AMZNB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "BEB",
+          "type": "现货上线",
+          "detail": "BEB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "BTC",
+          "type": "现货上线",
+          "detail": "BTC（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "DELLB",
+          "type": "现货上线",
+          "detail": "DELLB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "FLNCB",
+          "type": "现货上线",
+          "detail": "FLNCB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "GSB",
+          "type": "现货上线",
+          "detail": "GSB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "PYPLB",
+          "type": "现货上线",
+          "detail": "PYPLB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "SMHB",
+          "type": "现货上线",
+          "detail": "SMHB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "SOXSB",
+          "type": "现货上线",
+          "detail": "SOXSB（同公告含 12 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "GS",
+          "type": "永续合约",
+          "detail": "GS（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/93b5cd2280874d9cb4303827374b940d"
+        },
+        {
+          "token": "PYPL",
+          "type": "永续合约",
+          "detail": "PYPL（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/93b5cd2280874d9cb4303827374b940d"
+        },
+        {
+          "token": "SMH",
+          "type": "永续合约",
+          "detail": "SMH（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/93b5cd2280874d9cb4303827374b940d"
+        }
+      ],
       "alpha": [],
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "SHIBUSD",
+          "type": "永续合约",
+          "detail": "SHIBUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-shibusd-zilusd-x-perps"
+        },
+        {
+          "token": "ZILUSD",
+          "type": "永续合约",
+          "detail": "ZILUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-shibusd-zilusd-x-perps"
+        },
+        {
+          "token": "TMF",
+          "type": "永续合约",
+          "detail": "OKX 關於 TMF 永續合約正式上線的公告發佈於 2026年7月29日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-tmf-equity"
+        }
+      ]
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "TBT",
+          "type": "永续合约",
+          "detail": "TBTUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tbtusdt-perpetual-contract-with-up-to-25x-leverage--art237da6342d93/"
+        },
+        {
+          "token": "TMF",
+          "type": "永续合约",
+          "detail": "TMFUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tmfusdt-perpetual-contract-with-up-to-25x-leverage--art03cb2ee89d38/"
+        },
+        {
+          "token": "SSPC",
+          "type": "永续合约",
+          "detail": "SSPCUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-sspcusdt-perpetual-contract-with-up-to-25x-leverage--artc6786c0b8d31/"
+        }
+      ]
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "GRVT",
+          "type": "现货上线",
+          "detail": "World Premiere: Grvt (GRVT) Listed on KuCoinTrading: 14:00 on July 30, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-grvt-grvt-listed-on-kucoin"
+        }
+      ]
     },
     "gateio": {
       "listings": [
         {
-          "token": "DEX",
+          "token": "ZHIPUG",
           "type": "上线",
-          "detail": "Gate DEX Swap 连击挑战：每日达标必得奖，阶梯冲刺赢 300 USDT2 小时前324",
-          "url": "https://www.gate.com/zh/announcements/article/100877"
+          "detail": "Gate gStocks 专区新增 ZHIPUG（智谱 AI）、MINIMAXG (MiniMax) 等 11 个 gStocks 代币化证...1 小时前642",
+          "url": "https://www.gate.com/zh/announcements/article/100902"
         },
         {
-          "token": "USD1",
+          "token": "USDT3",
           "type": "上线",
-          "detail": "USD1 持币生息：持有即享最高 8% 年化收益6 小时前643",
-          "url": "https://www.gate.com/zh/announcements/article/100875"
+          "detail": "Gate ETF 新人专享礼遇：交易解锁多重奖励，最高享 160 USDT3 小时前408",
+          "url": "https://www.gate.com/zh/announcements/article/100898"
         },
         {
-          "token": "AEON",
+          "token": "GT5",
+          "type": "上线",
+          "detail": "GT 三重加享礼：交易抽 GT，持仓加成赢 2,500 GT5 小时前660",
+          "url": "https://www.gate.com/zh/announcements/article/100891"
+        },
+        {
+          "token": "BVOL",
           "type": "现货上线",
-          "detail": "Gate 将上线 AEON (AEON) 现货交易与闪兑交易1 天前2,518",
-          "url": "https://www.gate.com/zh/announcements/article/100842"
+          "detail": "Gate 合约指数专区将上线 BVOL（BTC 波动率）、EVOL（ETH 波动率）永...7 小时前928",
+          "url": "https://www.gate.com/zh/announcements/article/100886"
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "GRVT",
+          "type": "现货上线",
+          "detail": "Grvt（GRVT）将上线 DeFi 专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890498"
+        },
         {
           "token": "rHSY 等 49 个",
           "type": "现货上线",
@@ -50,6 +204,66 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "EPIK",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 EPIK U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-epik-usdt-m-futures-17827791537127"
+        },
+        {
+          "token": "GILD",
+          "type": "跟单合约",
+          "detail": "GILD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126"
+        },
+        {
+          "token": "IBB",
+          "type": "跟单合约",
+          "detail": "IBB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126"
+        },
+        {
+          "token": "WDAY",
+          "type": "跟单合约",
+          "detail": "WDAY（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126"
+        },
+        {
+          "token": "HUBS",
+          "type": "跟单合约",
+          "detail": "HUBS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126"
+        },
+        {
+          "token": "HUT",
+          "type": "跟单合约",
+          "detail": "HUT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126"
+        },
+        {
+          "token": "XLV",
+          "type": "上线",
+          "detail": "XLV（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-xlv-and-bito-index-futures-on-jul-29-with-0-fee-trading-17827791537125"
+        },
+        {
+          "token": "BITO",
+          "type": "上线",
+          "detail": "BITO（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-xlv-and-bito-index-futures-on-jul-29-with-0-fee-trading-17827791537125"
+        },
+        {
+          "token": "PIPEDOG",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年7月29日 14:50 (UTC+8) 上線 PIPEDOGUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537124"
+        },
+        {
+          "token": "PIPEDOG",
+          "type": "Meme+ 现货",
+          "detail": "PIPEDOG 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537119"
+        },
         {
           "token": "GILD",
           "type": "美股合约",
@@ -93,52 +307,16 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537112"
         },
         {
-          "token": "SPCXX",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 SpaceX xStocks (SPCXX) 並支援閃兌服務",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536128"
-        },
-        {
           "token": "AEON",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 AEON U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aeon-usdt-m-futures-17827791537106"
+        },
+        {
+          "token": "NATG",
           "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年7月27日 18:50 (UTC+8) 上線 AEON (AEON) USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537098"
-        },
-        {
-          "token": "CATE",
-          "type": "上线",
-          "detail": "CATE 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-cate-to-innovation-zone-17827791537095"
-        },
-        {
-          "token": "MSFU",
-          "type": "跟单合约",
-          "detail": "MSFU（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087"
-        },
-        {
-          "token": "AAPU",
-          "type": "跟单合约",
-          "detail": "AAPU（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087"
-        },
-        {
-          "token": "AMZU",
-          "type": "跟单合约",
-          "detail": "AMZU（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087"
-        },
-        {
-          "token": "GEOD",
-          "type": "跟单合约",
-          "detail": "GEOD（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087"
-        },
-        {
-          "token": "CATE",
-          "type": "跟单合约",
-          "detail": "CATE（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087"
+          "detail": "MEXC 將於創新區上線 NatGold (NATG)，瓜分 60,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537105"
         }
       ]
     }
