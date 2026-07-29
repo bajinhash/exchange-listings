@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-23",
   "weekEnd": "2026-07-29",
-  "updatedAt": "2026-07-29T12:31:36.271Z",
+  "updatedAt": "2026-07-29T13:34:15.093Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -603,25 +603,25 @@
         {
           "token": "ZHIPUG",
           "type": "上线",
-          "detail": "Gate gStocks 专区新增 ZHIPUG（智谱 AI）、MINIMAXG (MiniMax) 等 11 个 gStocks 代币化证...1 小时前675",
+          "detail": "Gate gStocks 专区新增 ZHIPUG（智谱 AI）、MINIMAXG (MiniMax) 等 11 个 gStocks 代币化证...2 小时前800",
           "url": "https://www.gate.com/zh/announcements/article/100902",
           "dates": [
             "2026-07-29"
           ]
         },
         {
-          "token": "USDT3",
+          "token": "USDT4",
           "type": "上线",
-          "detail": "Gate ETF 新人专享礼遇：交易解锁多重奖励，最高享 160 USDT3 小时前427",
+          "detail": "Gate ETF 新人专享礼遇：交易解锁多重奖励，最高享 160 USDT4 小时前485",
           "url": "https://www.gate.com/zh/announcements/article/100898",
           "dates": [
             "2026-07-29"
           ]
         },
         {
-          "token": "GT5",
+          "token": "GT6",
           "type": "上线",
-          "detail": "GT 三重加享礼：交易抽 GT，持仓加成赢 2,500 GT5 小时前674",
+          "detail": "GT 三重加享礼：交易抽 GT，持仓加成赢 2,500 GT6 小时前736",
           "url": "https://www.gate.com/zh/announcements/article/100891",
           "dates": [
             "2026-07-29"
@@ -630,7 +630,7 @@
         {
           "token": "BVOL",
           "type": "现货上线",
-          "detail": "Gate 合约指数专区将上线 BVOL（BTC 波动率）、EVOL（ETH 波动率）永...7 小时前938",
+          "detail": "Gate 合约指数专区将上线 BVOL（BTC 波动率）、EVOL（ETH 波动率）永...8 小时前980",
           "url": "https://www.gate.com/zh/announcements/article/100886",
           "dates": [
             "2026-07-29"
