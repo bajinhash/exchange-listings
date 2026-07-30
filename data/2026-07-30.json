@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "updatedAt": "2026-07-30T12:18:21.476Z",
+  "updatedAt": "2026-07-30T13:25:15.446Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -165,44 +165,7 @@
       ]
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "ADL",
-          "type": "上线",
-          "detail": "CrossEx 跨所交易升级：新增行情查询接口与 ADL 排名信息推送，开放 RPI 订单...1 小时前124",
-          "url": "https://www.gate.com/zh/announcements/article/100921"
-        },
-        {
-          "token": "DEX",
-          "type": "上线",
-          "detail": "Gate DEX Bonus：参与 USDD 质押 ETH 链第三期，享 4% APY + 20,000 USDD 额外奖励2 小时前197",
-          "url": "https://www.gate.com/zh/announcements/article/100919"
-        },
-        {
-          "token": "Jacket",
-          "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 Jacket (Just a jacket)4 小时前196",
-          "url": "https://www.gate.com/zh/announcements/article/100916"
-        },
-        {
-          "token": "SNDKG",
-          "type": "上线",
-          "detail": "gStocks 新币交易狂欢四期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池4 小时前382",
-          "url": "https://www.gate.com/zh/announcements/article/100914"
-        },
-        {
-          "token": "USDT4",
-          "type": "上线",
-          "detail": "闪兑新人专享：首兑领 2 USDT，交易再领 600 USDT4 小时前358",
-          "url": "https://www.gate.com/zh/announcements/article/100913"
-        },
-        {
-          "token": "ZHIPUG",
-          "type": "上线",
-          "detail": "Gate gStocks 专区新增 ZHIPUG（智谱 AI）、MINIMAXG (MiniMax) 等 11 个 gStocks 代币化证...1 天前1,954",
-          "url": "https://www.gate.com/zh/announcements/article/100902"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": [
@@ -216,6 +179,18 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "AJG",
+          "type": "美股合约",
+          "detail": "AJG（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ajg-and-lhx-stock-futures-with-0-fee-trading-on-jul-30-17827791537159"
+        },
+        {
+          "token": "LHX",
+          "type": "美股合约",
+          "detail": "LHX（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ajg-and-lhx-stock-futures-with-0-fee-trading-on-jul-30-17827791537159"
+        },
         {
           "token": "MARSCOIN",
           "type": "现货上线",
@@ -329,36 +304,6 @@
           "type": "跟单合约",
           "detail": "MEXC 跟單新增 EPIK U 本位合約交易對",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-epik-usdt-m-futures-17827791537127"
-        },
-        {
-          "token": "GILD",
-          "type": "跟单合约",
-          "detail": "GILD（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126"
-        },
-        {
-          "token": "IBB",
-          "type": "跟单合约",
-          "detail": "IBB（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126"
-        },
-        {
-          "token": "WDAY",
-          "type": "跟单合约",
-          "detail": "WDAY（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126"
-        },
-        {
-          "token": "HUBS",
-          "type": "跟单合约",
-          "detail": "HUBS（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126"
-        },
-        {
-          "token": "HUT",
-          "type": "跟单合约",
-          "detail": "HUT（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126"
         }
       ]
     }

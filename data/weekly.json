@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-24",
   "weekEnd": "2026-07-30",
-  "updatedAt": "2026-07-30T12:18:21.658Z",
+  "updatedAt": "2026-07-30T13:25:15.630Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -779,6 +779,16 @@
     "gateio": {
       "listings": [
         {
+          "token": "USDT6",
+          "type": "上线",
+          "detail": "交易无忧：双福利限时开启，最高领 120 USDT6 小时前942",
+          "url": "https://www.gate.com/zh/announcements/article/100829",
+          "dates": [
+            "2026-07-24",
+            "2026-07-29"
+          ]
+        },
+        {
           "token": "DEX",
           "type": "上线",
           "detail": "Gate DEX 合约夏日能量狂欢：交易收集夏日能量，共享 20,000 USDT 奖池9 小时前856",
@@ -787,8 +797,7 @@
             "2026-07-24",
             "2026-07-25",
             "2026-07-28",
-            "2026-07-29",
-            "2026-07-30"
+            "2026-07-29"
           ]
         },
         {
@@ -797,53 +806,6 @@
           "detail": "Gate gStocks 专区新增 ZHIPUG（智谱 AI）、MINIMAXG (MiniMax) 等 11 个 gStocks 代币化证...4 小时前945",
           "url": "https://www.gate.com/zh/announcements/article/100902",
           "dates": [
-            "2026-07-29",
-            "2026-07-30"
-          ]
-        },
-        {
-          "token": "ADL",
-          "type": "上线",
-          "detail": "CrossEx 跨所交易升级：新增行情查询接口与 ADL 排名信息推送，开放 RPI 订单...1 小时前124",
-          "url": "https://www.gate.com/zh/announcements/article/100921",
-          "dates": [
-            "2026-07-30"
-          ]
-        },
-        {
-          "token": "Jacket",
-          "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 Jacket (Just a jacket)4 小时前196",
-          "url": "https://www.gate.com/zh/announcements/article/100916",
-          "dates": [
-            "2026-07-30"
-          ]
-        },
-        {
-          "token": "SNDKG",
-          "type": "上线",
-          "detail": "gStocks 新币交易狂欢四期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池4 小时前382",
-          "url": "https://www.gate.com/zh/announcements/article/100914",
-          "dates": [
-            "2026-07-30"
-          ]
-        },
-        {
-          "token": "USDT4",
-          "type": "上线",
-          "detail": "闪兑新人专享：首兑领 2 USDT，交易再领 600 USDT4 小时前358",
-          "url": "https://www.gate.com/zh/announcements/article/100913",
-          "dates": [
-            "2026-07-30"
-          ]
-        },
-        {
-          "token": "USDT6",
-          "type": "上线",
-          "detail": "交易无忧：双福利限时开启，最高领 120 USDT6 小时前942",
-          "url": "https://www.gate.com/zh/announcements/article/100829",
-          "dates": [
-            "2026-07-24",
             "2026-07-29"
           ]
         },
@@ -1163,52 +1125,20 @@
           ]
         },
         {
-          "token": "GILD",
-          "type": "跟单合约",
-          "detail": "GILD（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126",
+          "token": "AJG",
+          "type": "美股合约",
+          "detail": "AJG（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ajg-and-lhx-stock-futures-with-0-fee-trading-on-jul-30-17827791537159",
           "dates": [
-            "2026-07-29",
             "2026-07-30"
           ]
         },
         {
-          "token": "IBB",
-          "type": "跟单合约",
-          "detail": "IBB（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126",
+          "token": "LHX",
+          "type": "美股合约",
+          "detail": "LHX（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ajg-and-lhx-stock-futures-with-0-fee-trading-on-jul-30-17827791537159",
           "dates": [
-            "2026-07-29",
-            "2026-07-30"
-          ]
-        },
-        {
-          "token": "WDAY",
-          "type": "跟单合约",
-          "detail": "WDAY（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126",
-          "dates": [
-            "2026-07-29",
-            "2026-07-30"
-          ]
-        },
-        {
-          "token": "HUBS",
-          "type": "跟单合约",
-          "detail": "HUBS（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126",
-          "dates": [
-            "2026-07-29",
-            "2026-07-30"
-          ]
-        },
-        {
-          "token": "HUT",
-          "type": "跟单合约",
-          "detail": "HUT（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126",
-          "dates": [
-            "2026-07-29",
             "2026-07-30"
           ]
         },
@@ -1396,6 +1326,51 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537112",
           "dates": [
             "2026-07-28",
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "GILD",
+          "type": "跟单合约",
+          "detail": "GILD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "IBB",
+          "type": "跟单合约",
+          "detail": "IBB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "WDAY",
+          "type": "跟单合约",
+          "detail": "WDAY（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "HUBS",
+          "type": "跟单合约",
+          "detail": "HUBS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "HUT",
+          "type": "跟单合约",
+          "detail": "HUT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126",
+          "dates": [
             "2026-07-29"
           ]
         },
