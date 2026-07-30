@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "updatedAt": "2026-07-30T13:25:15.446Z",
+  "updatedAt": "2026-07-30T15:05:33.474Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -16,72 +16,18 @@
           "type": "上线",
           "detail": "Binance Alpha 上线 MarsCoin - 一个BNB Chain 的meme币",
           "url": "https://www.binance.com/en/alpha/bsc/0xfe189e97832da1573e4e4ff034f4ffc3a15c7777"
-        },
-        {
-          "token": "SMHB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 SMHB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xbe1fced7047fdce935f45700727845df2c76877a"
-        },
-        {
-          "token": "GSB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 GSB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x20cce6656e5f7f79f280e2d0f5db55b401bdbfce"
-        },
-        {
-          "token": "PYPLB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 PYPLB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x2806a561fc1f9259b2d54a281796bde0d92762ae"
-        },
-        {
-          "token": "AMATB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 AMATB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xa304bd78e739c0f777202b3eb73ac3736d1df801"
-        },
-        {
-          "token": "FLNCB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 FLNCB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x4af1d41cd9dd950dca43984b43aaa2a8702714ac"
-        },
-        {
-          "token": "DELLB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 DELLB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x0e7a51966c66648999d506e1372efdea1b78cb0b"
-        },
-        {
-          "token": "SOXSB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 SOXSB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xe28cd11c99af2df76bb8ada4cd0ef3904378280f"
-        },
-        {
-          "token": "AMZNB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 AMZNB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00"
-        },
-        {
-          "token": "BEB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 BEB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x5519de00f5388c17d886b97cb5d2d43a812a82bc"
-        },
-        {
-          "token": "AAPLB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 AAPLB - Apple (bStocks)",
-          "url": "https://www.binance.com/en/alpha/bsc/0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a"
         }
       ],
       "wallet": []
     },
     "okx": {
       "listings": [
+        {
+          "token": "GRVT",
+          "type": "永续合约",
+          "detail": "OKX 關於 GRVT 永續合約正式上線的公告發佈於 2026年7月30日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-grvt-crypto"
+        },
         {
           "token": "PROS",
           "type": "永续合约",
@@ -165,7 +111,44 @@
       ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "ADL",
+          "type": "上线",
+          "detail": "CrossEx 跨所交易升级：新增行情查询接口与 ADL 排名信息推送，开放 RPI 订单...4 小时前234",
+          "url": "https://www.gate.com/zh/announcements/article/100921"
+        },
+        {
+          "token": "DEX",
+          "type": "上线",
+          "detail": "Gate DEX Bonus：参与 USDD 质押 ETH 链第三期，享 4% APY + 20,000 USDD 额外奖励5 小时前314",
+          "url": "https://www.gate.com/zh/announcements/article/100919"
+        },
+        {
+          "token": "Jacket",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 Jacket (Just a jacket)6 小时前266",
+          "url": "https://www.gate.com/zh/announcements/article/100916"
+        },
+        {
+          "token": "SNDKG",
+          "type": "上线",
+          "detail": "gStocks 新币交易狂欢四期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池7 小时前510",
+          "url": "https://www.gate.com/zh/announcements/article/100914"
+        },
+        {
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "闪兑新人专享：首兑领 2 USDT，交易再领 600 USDT7 小时前479",
+          "url": "https://www.gate.com/zh/announcements/article/100913"
+        },
+        {
+          "token": "ZHIPUG",
+          "type": "上线",
+          "detail": "Gate gStocks 专区新增 ZHIPUG（智谱 AI）、MINIMAXG (MiniMax) 等 11 个 gStocks 代币化证...1 天前2,016",
+          "url": "https://www.gate.com/zh/announcements/article/100902"
+        }
+      ]
     },
     "bitget": {
       "listings": [
@@ -179,6 +162,12 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "V4",
+          "type": "Meme+ 现货",
+          "detail": "V4 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537162"
+        },
         {
           "token": "AJG",
           "type": "美股合约",
@@ -298,12 +287,6 @@
           "type": "美股合约",
           "detail": "RCL（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tmf-tbt-iqv-and-rcl-stock-futures-with-0-fee-trading-on-jul-29-17827791537138"
-        },
-        {
-          "token": "EPIK",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 EPIK U 本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-epik-usdt-m-futures-17827791537127"
         }
       ]
     }
