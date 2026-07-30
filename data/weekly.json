@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-24",
   "weekEnd": "2026-07-30",
-  "updatedAt": "2026-07-30T12:09:13.304Z",
+  "updatedAt": "2026-07-30T12:18:21.658Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -804,7 +804,7 @@
         {
           "token": "ADL",
           "type": "上线",
-          "detail": "CrossEx 跨所交易升级：新增行情查询接口与 ADL 排名信息推送，开放 RPI 订单...1 小时前115",
+          "detail": "CrossEx 跨所交易升级：新增行情查询接口与 ADL 排名信息推送，开放 RPI 订单...1 小时前124",
           "url": "https://www.gate.com/zh/announcements/article/100921",
           "dates": [
             "2026-07-30"
@@ -813,7 +813,7 @@
         {
           "token": "Jacket",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 Jacket (Just a jacket)4 小时前192",
+          "detail": "Gate Alpha 首发上线 Jacket (Just a jacket)4 小时前196",
           "url": "https://www.gate.com/zh/announcements/article/100916",
           "dates": [
             "2026-07-30"
@@ -822,7 +822,7 @@
         {
           "token": "SNDKG",
           "type": "上线",
-          "detail": "gStocks 新币交易狂欢四期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池4 小时前373",
+          "detail": "gStocks 新币交易狂欢四期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池4 小时前382",
           "url": "https://www.gate.com/zh/announcements/article/100914",
           "dates": [
             "2026-07-30"
@@ -831,7 +831,7 @@
         {
           "token": "USDT4",
           "type": "上线",
-          "detail": "闪兑新人专享：首兑领 2 USDT，交易再领 600 USDT4 小时前347",
+          "detail": "闪兑新人专享：首兑领 2 USDT，交易再领 600 USDT4 小时前358",
           "url": "https://www.gate.com/zh/announcements/article/100913",
           "dates": [
             "2026-07-30"
