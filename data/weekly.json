@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-25",
   "weekEnd": "2026-07-31",
-  "updatedAt": "2026-07-31T12:28:15.614Z",
+  "updatedAt": "2026-07-31T13:28:33.494Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -877,16 +877,16 @@
         {
           "token": "GRVT",
           "type": "永续合约",
-          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）10 分钟前599",
+          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）1 小时前897",
           "url": "https://www.gate.com/zh/announcements/article/100947",
           "dates": [
             "2026-07-31"
           ]
         },
         {
-          "token": "USDT4",
+          "token": "USDT5",
           "type": "上线",
-          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT4 小时前354",
+          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT5 小时前403",
           "url": "https://www.gate.com/zh/announcements/article/100942",
           "dates": [
             "2026-07-31"
