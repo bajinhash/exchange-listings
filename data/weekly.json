@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-25",
   "weekEnd": "2026-07-31",
-  "updatedAt": "2026-07-31T13:28:33.494Z",
+  "updatedAt": "2026-07-31T15:19:57.693Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -875,19 +875,20 @@
           ]
         },
         {
-          "token": "GRVT",
-          "type": "永续合约",
-          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）1 小时前897",
-          "url": "https://www.gate.com/zh/announcements/article/100947",
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "闪兑新人专享：首兑领 2 USDT，交易再领 600 USDT7 小时前479",
+          "url": "https://www.gate.com/zh/announcements/article/100913",
           "dates": [
+            "2026-07-30",
             "2026-07-31"
           ]
         },
         {
-          "token": "USDT5",
-          "type": "上线",
-          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT5 小时前403",
-          "url": "https://www.gate.com/zh/announcements/article/100942",
+          "token": "GRVT",
+          "type": "永续合约",
+          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）3 小时前1,117",
+          "url": "https://www.gate.com/zh/announcements/article/100947",
           "dates": [
             "2026-07-31"
           ]
@@ -937,15 +938,6 @@
           "type": "上线",
           "detail": "gStocks 新币交易狂欢四期：首单立领 $5 SNDKG，交易瓜分 $50,000 SNDKG 奖池7 小时前510",
           "url": "https://www.gate.com/zh/announcements/article/100914",
-          "dates": [
-            "2026-07-30"
-          ]
-        },
-        {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "闪兑新人专享：首兑领 2 USDT，交易再领 600 USDT7 小时前479",
-          "url": "https://www.gate.com/zh/announcements/article/100913",
           "dates": [
             "2026-07-30"
           ]
