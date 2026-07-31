@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "updatedAt": "2026-07-31T12:17:34.278Z",
+  "updatedAt": "2026-07-31T12:28:15.437Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -26,6 +26,12 @@
     },
     "bybit": {
       "listings": [
+        {
+          "token": "GRVT",
+          "type": "永续合约",
+          "detail": "GRVTUSDT 永續合約全新上線創新板塊， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-grvtusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--artf2cb238a8a78/"
+        },
         {
           "token": "REGN",
           "type": "永续合约",
@@ -137,15 +143,21 @@
     "gateio": {
       "listings": [
         {
+          "token": "GRVT",
+          "type": "永续合约",
+          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）10 分钟前599",
+          "url": "https://www.gate.com/zh/announcements/article/100947"
+        },
+        {
           "token": "USDT4",
           "type": "上线",
-          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT4 小时前339",
+          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT4 小时前354",
           "url": "https://www.gate.com/zh/announcements/article/100942"
         },
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "事件合约周末交易专场：把握 BTC/ETH 波动，瓜分 $10,000 奖池6 小时前348",
+          "detail": "事件合约周末交易专场：把握 BTC/ETH 波动，瓜分 $10,000 奖池6 小时前359",
           "url": "https://www.gate.com/zh/announcements/article/100936"
         }
       ]
