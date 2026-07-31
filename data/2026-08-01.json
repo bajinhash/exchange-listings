@@ -1,0 +1,82 @@
+{
+  "date": "2026-08-01",
+  "updatedAt": "2026-07-31T16:16:18.529Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "GRVT",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined GRVTUSDT Perpetual Contract (2026-07-31)",
+          "url": "https://www.binance.com/en/support/announcement/20536b05b2a34b87a3bae99c45d0dc91"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "GRVT",
+          "type": "永续合约",
+          "detail": "GRVTUSDT 永續合約全新上線創新板塊， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-grvtusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--artf2cb238a8a78/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "GRVT",
+          "type": "永续合约",
+          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）4 小时前1,200",
+          "url": "https://www.gate.com/zh/announcements/article/100947"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "JMKE",
+          "type": "美股合约",
+          "detail": "Bitget首发上线JMKEUSDT（Jersey Mike’s Subs）热门股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890645"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "AJG",
+          "type": "美股合约",
+          "detail": "AJG（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ajg-and-lhx-stock-futures-with-0-fee-trading-on-jul-30-17827791537159"
+        },
+        {
+          "token": "LHX",
+          "type": "美股合约",
+          "detail": "LHX（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ajg-and-lhx-stock-futures-with-0-fee-trading-on-jul-30-17827791537159"
+        },
+        {
+          "token": "MARSCOIN",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 MarsCoin (MARSCOIN)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537154"
+        },
+        {
+          "token": "GRVT",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年7月30日 20:10 (UTC+8) 上線 Grvt (GRVT) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537152"
+        }
+      ]
+    }
+  }
+}
