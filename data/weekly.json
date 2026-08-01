@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-26",
   "weekEnd": "2026-08-01",
-  "updatedAt": "2026-08-01T11:49:25.008Z",
+  "updatedAt": "2026-08-01T12:50:30.882Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -890,7 +890,7 @@
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT1 天前948",
+          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT1 天前975",
           "url": "https://www.gate.com/zh/announcements/article/100942",
           "dates": [
             "2026-08-01"
