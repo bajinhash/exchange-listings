@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T11:40:06.107Z",
+  "updatedAt": "2026-08-01T11:49:24.860Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -31,7 +31,26 @@
       "listings": []
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "GRVT",
+          "type": "永续合约",
+          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）1 天前2,178",
+          "url": "https://www.gate.com/zh/announcements/article/100947"
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT1 天前948",
+          "url": "https://www.gate.com/zh/announcements/article/100942"
+        },
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "事件合约周末交易专场：把握 BTC/ETH 波动，瓜分 $10,000 奖池1 天前849",
+          "url": "https://www.gate.com/zh/announcements/article/100936"
+        }
+      ]
     },
     "bitget": {
       "listings": [

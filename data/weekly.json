@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-26",
   "weekEnd": "2026-08-01",
-  "updatedAt": "2026-08-01T11:40:06.251Z",
+  "updatedAt": "2026-08-01T11:49:25.008Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -873,7 +873,27 @@
           "url": "https://www.gate.com/zh/announcements/article/100848",
           "dates": [
             "2026-07-27",
-            "2026-07-31"
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "GRVT",
+          "type": "永续合约",
+          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）3 小时前1,117",
+          "url": "https://www.gate.com/zh/announcements/article/100947",
+          "dates": [
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT1 天前948",
+          "url": "https://www.gate.com/zh/announcements/article/100942",
+          "dates": [
+            "2026-08-01"
           ]
         },
         {
@@ -883,15 +903,6 @@
           "url": "https://www.gate.com/zh/announcements/article/100913",
           "dates": [
             "2026-07-30",
-            "2026-07-31"
-          ]
-        },
-        {
-          "token": "GRVT",
-          "type": "永续合约",
-          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）3 小时前1,117",
-          "url": "https://www.gate.com/zh/announcements/article/100947",
-          "dates": [
             "2026-07-31"
           ]
         },
