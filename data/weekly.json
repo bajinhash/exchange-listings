@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-26",
   "weekEnd": "2026-08-01",
-  "updatedAt": "2026-08-01T12:50:30.882Z",
+  "updatedAt": "2026-08-01T14:25:41.281Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -890,7 +890,7 @@
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT1 天前975",
+          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT1 天前1,001",
           "url": "https://www.gate.com/zh/announcements/article/100942",
           "dates": [
             "2026-08-01"
@@ -1187,6 +1187,17 @@
     "mexc": {
       "listings": [
         {
+          "token": "V4",
+          "type": "Meme+ 现货",
+          "detail": "V4 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537162",
+          "dates": [
+            "2026-07-30",
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
           "token": "UNITREE",
           "type": "Pre-IPO 上线",
           "detail": "UNITREE（宇樹科技）Pre-IPO合約將於7月31日上線",
@@ -1338,16 +1349,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536838",
           "dates": [
             "2026-07-29",
-            "2026-07-30",
-            "2026-07-31"
-          ]
-        },
-        {
-          "token": "V4",
-          "type": "Meme+ 现货",
-          "detail": "V4 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537162",
-          "dates": [
             "2026-07-30",
             "2026-07-31"
           ]

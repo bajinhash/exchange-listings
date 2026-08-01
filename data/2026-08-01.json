@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T12:50:30.708Z",
+  "updatedAt": "2026-08-01T14:25:41.140Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -35,19 +35,19 @@
         {
           "token": "GRVT",
           "type": "永续合约",
-          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）1 天前2,220",
+          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）1 天前2,286",
           "url": "https://www.gate.com/zh/announcements/article/100947"
         },
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT1 天前975",
+          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT1 天前1,001",
           "url": "https://www.gate.com/zh/announcements/article/100942"
         },
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "事件合约周末交易专场：把握 BTC/ETH 波动，瓜分 $10,000 奖池1 天前866",
+          "detail": "事件合约周末交易专场：把握 BTC/ETH 波动，瓜分 $10,000 奖池1 天前883",
           "url": "https://www.gate.com/zh/announcements/article/100936"
         }
       ]
@@ -153,6 +153,12 @@
           "type": "跟单合约",
           "detail": "LHX（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-marscoin-grvt-ajg-and-lhx-usdt-m-futures-17827791537173"
+        },
+        {
+          "token": "V4",
+          "type": "Meme+ 现货",
+          "detail": "V4 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537162"
         }
       ]
     }
