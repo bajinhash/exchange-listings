@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-26",
   "weekEnd": "2026-08-01",
-  "updatedAt": "2026-07-31T16:16:18.709Z",
+  "updatedAt": "2026-08-01T11:40:06.251Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -867,16 +867,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "GRVT",
-          "type": "永续合约",
-          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）3 小时前1,117",
-          "url": "https://www.gate.com/zh/announcements/article/100947",
-          "dates": [
-            "2026-07-31",
-            "2026-08-01"
-          ]
-        },
-        {
           "token": "BTC",
           "type": "上线",
           "detail": "主流热币加成抽赏：每日抽 1 BTC，加成奖励再升级9 小时前939",
@@ -893,6 +883,15 @@
           "url": "https://www.gate.com/zh/announcements/article/100913",
           "dates": [
             "2026-07-30",
+            "2026-07-31"
+          ]
+        },
+        {
+          "token": "GRVT",
+          "type": "永续合约",
+          "detail": "Gate 已上线 GRVT 永续合约交易（USDT 结算）3 小时前1,117",
+          "url": "https://www.gate.com/zh/announcements/article/100947",
+          "dates": [
             "2026-07-31"
           ]
         },
@@ -1177,6 +1176,151 @@
     "mexc": {
       "listings": [
         {
+          "token": "UNITREE",
+          "type": "Pre-IPO 上线",
+          "detail": "UNITREE（宇樹科技）Pre-IPO合約將於7月31日上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/unitree-unitree-robotics-pre-ipo-futures-to-launch-on-jul-31-17827791537181",
+          "dates": [
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "GDX",
+          "type": "跟单合约",
+          "detail": "GDX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gdx-ctsh-aon-expe-and-regn-usdt-m-futures-17827791537174",
+          "dates": [
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "CTSH",
+          "type": "跟单合约",
+          "detail": "CTSH（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gdx-ctsh-aon-expe-and-regn-usdt-m-futures-17827791537174",
+          "dates": [
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "AON",
+          "type": "跟单合约",
+          "detail": "AON（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gdx-ctsh-aon-expe-and-regn-usdt-m-futures-17827791537174",
+          "dates": [
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "EXPE",
+          "type": "跟单合约",
+          "detail": "EXPE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gdx-ctsh-aon-expe-and-regn-usdt-m-futures-17827791537174",
+          "dates": [
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "REGN",
+          "type": "跟单合约",
+          "detail": "REGN（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gdx-ctsh-aon-expe-and-regn-usdt-m-futures-17827791537174",
+          "dates": [
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "MARSCOIN",
+          "type": "跟单合约",
+          "detail": "MARSCOIN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-marscoin-grvt-ajg-and-lhx-usdt-m-futures-17827791537173",
+          "dates": [
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "GRVT",
+          "type": "跟单合约",
+          "detail": "GRVT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-marscoin-grvt-ajg-and-lhx-usdt-m-futures-17827791537173",
+          "dates": [
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "AJG",
+          "type": "跟单合约",
+          "detail": "AJG（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-marscoin-grvt-ajg-and-lhx-usdt-m-futures-17827791537173",
+          "dates": [
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "LHX",
+          "type": "跟单合约",
+          "detail": "LHX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-marscoin-grvt-ajg-and-lhx-usdt-m-futures-17827791537173",
+          "dates": [
+            "2026-07-31",
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "ASTEROIDBSC",
+          "type": "Meme+ 现货",
+          "detail": "ASTEROIDBSC 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537193",
+          "dates": [
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "AON",
+          "type": "现货上线",
+          "detail": "AON（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
+          "dates": [
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "CTSH",
+          "type": "现货上线",
+          "detail": "CTSH（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
+          "dates": [
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "EXPE",
+          "type": "现货上线",
+          "detail": "EXPE（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
+          "dates": [
+            "2026-08-01"
+          ]
+        },
+        {
+          "token": "GDX",
+          "type": "现货上线",
+          "detail": "GDX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
+          "dates": [
+            "2026-08-01"
+          ]
+        },
+        {
           "token": "GRVT",
           "type": "现货上线",
           "detail": "MEXC 將於創新區上線 Grvt (GRVT) 並支援閃兌服務",
@@ -1184,41 +1328,7 @@
           "dates": [
             "2026-07-29",
             "2026-07-30",
-            "2026-07-31",
-            "2026-08-01"
-          ]
-        },
-        {
-          "token": "AJG",
-          "type": "美股合约",
-          "detail": "AJG（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ajg-and-lhx-stock-futures-with-0-fee-trading-on-jul-30-17827791537159",
-          "dates": [
-            "2026-07-30",
-            "2026-07-31",
-            "2026-08-01"
-          ]
-        },
-        {
-          "token": "LHX",
-          "type": "美股合约",
-          "detail": "LHX（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ajg-and-lhx-stock-futures-with-0-fee-trading-on-jul-30-17827791537159",
-          "dates": [
-            "2026-07-30",
-            "2026-07-31",
-            "2026-08-01"
-          ]
-        },
-        {
-          "token": "MARSCOIN",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 MarsCoin (MARSCOIN)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537154",
-          "dates": [
-            "2026-07-30",
-            "2026-07-31",
-            "2026-08-01"
+            "2026-07-31"
           ]
         },
         {
@@ -1232,11 +1342,32 @@
           ]
         },
         {
-          "token": "UNITREE",
-          "type": "Pre-IPO 上线",
-          "detail": "UNITREE（宇樹科技）Pre-IPO合約將於7月31日上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/unitree-unitree-robotics-pre-ipo-futures-to-launch-on-jul-31-17827791537181",
+          "token": "AJG",
+          "type": "美股合约",
+          "detail": "AJG（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ajg-and-lhx-stock-futures-with-0-fee-trading-on-jul-30-17827791537159",
           "dates": [
+            "2026-07-30",
+            "2026-07-31"
+          ]
+        },
+        {
+          "token": "LHX",
+          "type": "美股合约",
+          "detail": "LHX（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ajg-and-lhx-stock-futures-with-0-fee-trading-on-jul-30-17827791537159",
+          "dates": [
+            "2026-07-30",
+            "2026-07-31"
+          ]
+        },
+        {
+          "token": "MARSCOIN",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 MarsCoin (MARSCOIN)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537154",
+          "dates": [
+            "2026-07-30",
             "2026-07-31"
           ]
         },
@@ -1254,87 +1385,6 @@
           "type": "Meme+ 现货",
           "detail": "FRONG 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537176",
-          "dates": [
-            "2026-07-31"
-          ]
-        },
-        {
-          "token": "GDX",
-          "type": "跟单合约",
-          "detail": "GDX（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gdx-ctsh-aon-expe-and-regn-usdt-m-futures-17827791537174",
-          "dates": [
-            "2026-07-31"
-          ]
-        },
-        {
-          "token": "CTSH",
-          "type": "跟单合约",
-          "detail": "CTSH（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gdx-ctsh-aon-expe-and-regn-usdt-m-futures-17827791537174",
-          "dates": [
-            "2026-07-31"
-          ]
-        },
-        {
-          "token": "AON",
-          "type": "跟单合约",
-          "detail": "AON（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gdx-ctsh-aon-expe-and-regn-usdt-m-futures-17827791537174",
-          "dates": [
-            "2026-07-31"
-          ]
-        },
-        {
-          "token": "EXPE",
-          "type": "跟单合约",
-          "detail": "EXPE（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gdx-ctsh-aon-expe-and-regn-usdt-m-futures-17827791537174",
-          "dates": [
-            "2026-07-31"
-          ]
-        },
-        {
-          "token": "REGN",
-          "type": "跟单合约",
-          "detail": "REGN（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gdx-ctsh-aon-expe-and-regn-usdt-m-futures-17827791537174",
-          "dates": [
-            "2026-07-31"
-          ]
-        },
-        {
-          "token": "MARSCOIN",
-          "type": "跟单合约",
-          "detail": "MARSCOIN（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-marscoin-grvt-ajg-and-lhx-usdt-m-futures-17827791537173",
-          "dates": [
-            "2026-07-31"
-          ]
-        },
-        {
-          "token": "GRVT",
-          "type": "跟单合约",
-          "detail": "GRVT（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-marscoin-grvt-ajg-and-lhx-usdt-m-futures-17827791537173",
-          "dates": [
-            "2026-07-31"
-          ]
-        },
-        {
-          "token": "AJG",
-          "type": "跟单合约",
-          "detail": "AJG（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-marscoin-grvt-ajg-and-lhx-usdt-m-futures-17827791537173",
-          "dates": [
-            "2026-07-31"
-          ]
-        },
-        {
-          "token": "LHX",
-          "type": "跟单合约",
-          "detail": "LHX（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-marscoin-grvt-ajg-and-lhx-usdt-m-futures-17827791537173",
           "dates": [
             "2026-07-31"
           ]
