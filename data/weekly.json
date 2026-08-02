@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-07-26",
-  "weekEnd": "2026-08-01",
-  "updatedAt": "2026-08-01T14:25:41.281Z",
+  "weekStart": "2026-07-27",
+  "weekEnd": "2026-08-02",
+  "updatedAt": "2026-08-02T11:33:19.033Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -1071,15 +1071,6 @@
           "dates": [
             "2026-07-27"
           ]
-        },
-        {
-          "token": "CXMT",
-          "type": "永续合约",
-          "detail": "Gate 关于迁移 CXMTUSDT（长鑫存储）盘前永续合约至正式永续合约交易2 小时前1,203",
-          "url": "https://www.gate.com/zh/announcements/article/100836",
-          "dates": [
-            "2026-07-26"
-          ]
         }
       ]
     },
@@ -1186,6 +1177,46 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "AON",
+          "type": "现货上线",
+          "detail": "AON（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
+          "dates": [
+            "2026-08-01",
+            "2026-08-02"
+          ]
+        },
+        {
+          "token": "CTSH",
+          "type": "现货上线",
+          "detail": "CTSH（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
+          "dates": [
+            "2026-08-01",
+            "2026-08-02"
+          ]
+        },
+        {
+          "token": "EXPE",
+          "type": "现货上线",
+          "detail": "EXPE（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
+          "dates": [
+            "2026-08-01",
+            "2026-08-02"
+          ]
+        },
+        {
+          "token": "GDX",
+          "type": "现货上线",
+          "detail": "GDX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
+          "dates": [
+            "2026-08-01",
+            "2026-08-02"
+          ]
+        },
         {
           "token": "V4",
           "type": "Meme+ 现货",
@@ -1302,42 +1333,6 @@
           "type": "Meme+ 现货",
           "detail": "ASTEROIDBSC 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537193",
-          "dates": [
-            "2026-08-01"
-          ]
-        },
-        {
-          "token": "AON",
-          "type": "现货上线",
-          "detail": "AON（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
-          "dates": [
-            "2026-08-01"
-          ]
-        },
-        {
-          "token": "CTSH",
-          "type": "现货上线",
-          "detail": "CTSH（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
-          "dates": [
-            "2026-08-01"
-          ]
-        },
-        {
-          "token": "EXPE",
-          "type": "现货上线",
-          "detail": "EXPE（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
-          "dates": [
-            "2026-08-01"
-          ]
-        },
-        {
-          "token": "GDX",
-          "type": "现货上线",
-          "detail": "GDX（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
           "dates": [
             "2026-08-01"
           ]
@@ -1860,24 +1855,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537079",
           "dates": [
             "2026-07-27"
-          ]
-        },
-        {
-          "token": "FEFER",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月25日 21:00 (UTC+8) 上線 FEFERUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537066",
-          "dates": [
-            "2026-07-26"
-          ]
-        },
-        {
-          "token": "BRODIE",
-          "type": "Meme+ 现货",
-          "detail": "BRODIE 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537033",
-          "dates": [
-            "2026-07-26"
           ]
         }
       ]

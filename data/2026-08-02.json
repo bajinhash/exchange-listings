@@ -1,0 +1,54 @@
+{
+  "date": "2026-08-02",
+  "updatedAt": "2026-08-02T11:33:18.846Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "AON",
+          "type": "现货上线",
+          "detail": "AON（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191"
+        },
+        {
+          "token": "CTSH",
+          "type": "现货上线",
+          "detail": "CTSH（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191"
+        },
+        {
+          "token": "EXPE",
+          "type": "现货上线",
+          "detail": "EXPE（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191"
+        },
+        {
+          "token": "GDX",
+          "type": "现货上线",
+          "detail": "GDX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191"
+        }
+      ]
+    }
+  }
+}
