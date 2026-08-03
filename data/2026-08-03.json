@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "updatedAt": "2026-08-03T13:34:56.329Z",
+  "updatedAt": "2026-08-03T14:12:36.065Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -85,7 +85,7 @@
         {
           "token": "STONKBROKER",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 STONKBROKER (StonkBroker)3 小时前244",
+          "detail": "Gate Alpha 首发上线 STONKBROKER (StonkBroker)3 小时前287",
           "url": "https://www.gate.com/zh/announcements/article/100974"
         }
       ]
