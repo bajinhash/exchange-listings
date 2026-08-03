@@ -1,0 +1,240 @@
+{
+  "date": "2026-08-03",
+  "updatedAt": "2026-08-03T13:25:47.240Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "GIGADEV",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch GIGADEVUSDT USDⓈ-Margined Perpetual Contract (2026-08-03)",
+          "url": "https://www.binance.com/en/support/announcement/e8bfd0c5adaf4d8a880bb1b7327107ef"
+        }
+      ],
+      "alpha": [
+        {
+          "token": "QUID",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 QUID (Squid) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2084188084057546971"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "JNJ",
+          "type": "永续合约",
+          "detail": "JNJUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-jnjusdt-perpetual-contract-with-up-to-25x-leverage--artd8fee29101f6/"
+        },
+        {
+          "token": "XOM",
+          "type": "永续合约",
+          "detail": "XOMUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-xomusdt-perpetual-contract-with-up-to-25x-leverage--art51fc7658795b/"
+        },
+        {
+          "token": "SPOTUSDT",
+          "type": "永续合约",
+          "detail": "SPOTUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spotusdt-perpetual-contract-with-up-to-25x-leverage--artae93c6a47c8b/"
+        },
+        {
+          "token": "UNITREE",
+          "type": "永续合约",
+          "detail": "UNITREEUSDT 永續合約將於 2026 年 8 月 3 日3:00 UTC 上線 Bybit 盤前交易平台",
+          "url": "https://announcements.bybit.com/zh-TW/article/listing-of-unitreeusdt-on-bybit-perpetual-pre-market-on-aug-3-2026-3-00am-utc--art9fbc4da358f5/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "XDC",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: XDCUSDT Perpetual Contract with Up to 10x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-xdcusdt-perpetual-contract-with-up-to-10x-leverage"
+        },
+        {
+          "token": "ATOM",
+          "type": "永续合约",
+          "detail": "ATOM（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-2u2usdt-perpetual-contract-with-up-to-10x-leverage"
+        },
+        {
+          "token": "SOL2026",
+          "type": "永续合约",
+          "detail": "SOL2026（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-2u2usdt-perpetual-contract-with-up-to-10x-leverage"
+        },
+        {
+          "token": "TRX",
+          "type": "永续合约",
+          "detail": "TRX（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-2u2usdt-perpetual-contract-with-up-to-10x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "STONKBROKER",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 STONKBROKER (StonkBroker)3 小时前238",
+          "url": "https://www.gate.com/zh/announcements/article/100974"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "QUID",
+          "type": "现货上线",
+          "detail": "Squid （QUID）将上线 DeFi 专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890843"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "NET",
+          "type": "美股合约",
+          "detail": "NET（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229"
+        },
+        {
+          "token": "APO",
+          "type": "美股合约",
+          "detail": "APO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229"
+        },
+        {
+          "token": "XYZ",
+          "type": "美股合约",
+          "detail": "XYZ（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229"
+        },
+        {
+          "token": "FRONG",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年8月3日 18:45 (UTC+8) 上線 FRONGUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537228"
+        },
+        {
+          "token": "APO",
+          "type": "现货上线",
+          "detail": "APO（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537227"
+        },
+        {
+          "token": "ASTEROIDBSC",
+          "type": "现货上线",
+          "detail": "ASTEROIDBSC（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537227"
+        },
+        {
+          "token": "GPUBSC",
+          "type": "现货上线",
+          "detail": "GPUBSC（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537227"
+        },
+        {
+          "token": "KOSPI",
+          "type": "现货上线",
+          "detail": "KOSPI（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537227"
+        },
+        {
+          "token": "NET",
+          "type": "现货上线",
+          "detail": "NET（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537227"
+        },
+        {
+          "token": "QUID",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Squid (QUID) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537224"
+        },
+        {
+          "token": "APO",
+          "type": "Meme+ 现货",
+          "detail": "APO（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537221"
+        },
+        {
+          "token": "ASTEROIDBSC",
+          "type": "Meme+ 现货",
+          "detail": "ASTEROIDBSC（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537221"
+        },
+        {
+          "token": "FRONG",
+          "type": "Meme+ 现货",
+          "detail": "FRONG（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537221"
+        },
+        {
+          "token": "GPUBSC",
+          "type": "Meme+ 现货",
+          "detail": "GPUBSC（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537221"
+        },
+        {
+          "token": "KOSPI",
+          "type": "Meme+ 现货",
+          "detail": "KOSPI（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537221"
+        },
+        {
+          "token": "NET",
+          "type": "Meme+ 现货",
+          "detail": "NET（同公告含 6 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537221"
+        },
+        {
+          "token": "KOSPI",
+          "type": "跟单合约",
+          "detail": "KOSPI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kospi-gpubsc-asteroidbsc-and-unitree-usdt-m-futures-17827791537209"
+        },
+        {
+          "token": "GPUBSC",
+          "type": "跟单合约",
+          "detail": "GPUBSC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kospi-gpubsc-asteroidbsc-and-unitree-usdt-m-futures-17827791537209"
+        },
+        {
+          "token": "ASTEROIDBSC",
+          "type": "跟单合约",
+          "detail": "ASTEROIDBSC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kospi-gpubsc-asteroidbsc-and-unitree-usdt-m-futures-17827791537209"
+        },
+        {
+          "token": "UNITREE",
+          "type": "跟单合约",
+          "detail": "UNITREE（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kospi-gpubsc-asteroidbsc-and-unitree-usdt-m-futures-17827791537209"
+        },
+        {
+          "token": "KOSPI",
+          "type": "上线",
+          "detail": "MEXC 將於 8月3日 上線 KOSPI 指數合約，限時享受 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kospi-index-futures-on-aug-3-with-0-fee-trading-17827791537208"
+        },
+        {
+          "token": "CATE",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年8月3日 12:40 (UTC+8) 起把 CATEUSDT 從創新區轉板至主板區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-cateusdt-from-innovation-zone-to-main-board-on-aug-3-2026-04-17827791537205"
+        }
+      ]
+    }
+  }
+}
