@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-04",
+  "updatedAt": "2026-08-03T16:43:36.090Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "STONKBROKER",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 STONKBROKER (StonkBroker)6 小时前396",
+          "url": "https://www.gate.com/zh/announcements/article/100974"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "QUID",
+          "type": "现货上线",
+          "detail": "Squid （QUID）将上线 DeFi 专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890843"
+        },
+        {
+          "token": "XLE",
+          "type": "美股合约",
+          "detail": "XLE（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "VST",
+          "type": "美股合约",
+          "detail": "VST（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "EWZ",
+          "type": "美股合约",
+          "detail": "EWZ（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "SHOP",
+          "type": "美股合约",
+          "detail": "SHOP（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "PYPL",
+          "type": "美股合约",
+          "detail": "PYPL（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "AMGN",
+          "type": "美股合约",
+          "detail": "AMGN（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "ZM",
+          "type": "美股合约",
+          "detail": "ZM（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "NET",
+          "type": "美股合约",
+          "detail": "NET（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229"
+        },
+        {
+          "token": "APO",
+          "type": "美股合约",
+          "detail": "APO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229"
+        },
+        {
+          "token": "XYZ",
+          "type": "美股合约",
+          "detail": "XYZ（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229"
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-07-28",
-  "weekEnd": "2026-08-03",
-  "updatedAt": "2026-08-03T15:41:53.868Z",
+  "weekStart": "2026-07-29",
+  "weekEnd": "2026-08-04",
+  "updatedAt": "2026-08-03T16:43:36.261Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -382,15 +382,6 @@
           "dates": [
             "2026-07-29"
           ]
-        },
-        {
-          "token": "XHIMS",
-          "type": "现货上线",
-          "detail": "OKX 關於上線 XHIMS，XGME 等統一代幣化股票現貨交易的公告發佈於 2026年7月28日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xhims-xgme-and-more-for-spot-trading",
-          "dates": [
-            "2026-07-28"
-          ]
         }
       ]
     },
@@ -582,96 +573,6 @@
           "dates": [
             "2026-07-29"
           ]
-        },
-        {
-          "token": "POPMART",
-          "type": "永续合约",
-          "detail": "POPMARTUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-popmartusdt-perpetual-contract-with-up-to-25x-leverage--art2b4fae42ff8c/",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "MINIMAX",
-          "type": "永续合约",
-          "detail": "MINIMAXUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-minimaxusdt-perpetual-contract-with-up-to-25x-leverage--art8fc2dcf22a4e/",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "TENCENT",
-          "type": "永续合约",
-          "detail": "TENCENTUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tencentusdt-perpetual-contract-with-up-to-25x-leverage--art3d8edf66ac4a/",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "GIGADEVICE",
-          "type": "永续合约",
-          "detail": "GIGADEVICEUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gigadeviceusdt-perpetual-contract-with-up-to-25x-leverage--artd1bc0f8e091b/",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "ZHIPU",
-          "type": "永续合约",
-          "detail": "ZHIPUUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-zhipuusdt-perpetual-contract-with-up-to-25x-leverage--artae9e925f3c24/",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "VUSDT",
-          "type": "永续合约",
-          "detail": "VUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-vusdt-perpetual-contract-with-up-to-25x-leverage--art1a35950bbe4f/",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "BITO",
-          "type": "永续合约",
-          "detail": "BITOUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bitousdt-perpetual-contract-with-up-to-25x-leverage--art3052540a8a9c/",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "GDX",
-          "type": "永续合约",
-          "detail": "GDXUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gdxusdt-perpetual-contract-with-up-to-25x-leverage--artfc17fecb9455/",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "AMC",
-          "type": "永续合约",
-          "detail": "AMCUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-amcusdt-perpetual-contract-with-up-to-20x-leverage--art28779c453894/",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "GMESTOCK",
-          "type": "永续合约",
-          "detail": "GMESTOCKUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gmestockusdt-perpetual-contract-with-up-to-20x-leverage--artda717c001840/",
-          "dates": [
-            "2026-07-28"
-          ]
         }
       ]
     },
@@ -775,15 +676,6 @@
           "dates": [
             "2026-07-29"
           ]
-        },
-        {
-          "token": "AEON",
-          "type": "永续合约",
-          "detail": "KuCoin Futures New Listing: AEONUSDT Perpetual Contract with Up to 20x Leverage",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-aeonusdt-perpetual-contract-with-up-to-20x-leverage",
-          "dates": [
-            "2026-07-28"
-          ]
         }
       ]
     },
@@ -795,7 +687,8 @@
           "detail": "Gate Alpha 首发上线 STONKBROKER (StonkBroker)5 小时前345",
           "url": "https://www.gate.com/zh/announcements/article/100974",
           "dates": [
-            "2026-08-03"
+            "2026-08-03",
+            "2026-08-04"
           ]
         },
         {
@@ -840,10 +733,9 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "Gate DEX Swap 连击挑战：每日达标必得奖，阶梯冲刺赢 300 USDT1 小时前186",
-          "url": "https://www.gate.com/zh/announcements/article/100877",
+          "detail": "Gate DEX 合约护航计划：首单护航享 100% 补贴，老友回归领 16 USDT38 分钟前108",
+          "url": "https://www.gate.com/zh/announcements/article/100903",
           "dates": [
-            "2026-07-28",
             "2026-07-29",
             "2026-07-30"
           ]
@@ -911,42 +803,6 @@
           "dates": [
             "2026-07-29"
           ]
-        },
-        {
-          "token": "USD1",
-          "type": "上线",
-          "detail": "USD1 持币生息：持有即享最高 8% 年化收益5 小时前577",
-          "url": "https://www.gate.com/zh/announcements/article/100875",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "KORU",
-          "type": "上线",
-          "detail": "Gate CFD 股票专区已上线 KORU（Direxion MSCI 韩国指数 3 倍做多 ETF）等 17 个差价...8 小时前1,093",
-          "url": "https://www.gate.com/zh/announcements/article/100866",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "TMF",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 TMF（Direxion 美债 20 年以上 3 倍做多 ETF...10 小时前1,193",
-          "url": "https://www.gate.com/zh/announcements/article/100863",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "AEON",
-          "type": "现货上线",
-          "detail": "Gate 将上线 AEON (AEON) 现货交易与闪兑交易1 天前2,493",
-          "url": "https://www.gate.com/zh/announcements/article/100842",
-          "dates": [
-            "2026-07-28"
-          ]
         }
       ]
     },
@@ -958,7 +814,8 @@
           "detail": "Squid （QUID）将上线 DeFi 专区",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603890843",
           "dates": [
-            "2026-08-03"
+            "2026-08-03",
+            "2026-08-04"
           ]
         },
         {
@@ -967,7 +824,8 @@
           "detail": "XLE（同公告含 7 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872",
           "dates": [
-            "2026-08-03"
+            "2026-08-03",
+            "2026-08-04"
           ]
         },
         {
@@ -976,7 +834,8 @@
           "detail": "VST（同公告含 7 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872",
           "dates": [
-            "2026-08-03"
+            "2026-08-03",
+            "2026-08-04"
           ]
         },
         {
@@ -985,7 +844,8 @@
           "detail": "EWZ（同公告含 7 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872",
           "dates": [
-            "2026-08-03"
+            "2026-08-03",
+            "2026-08-04"
           ]
         },
         {
@@ -994,7 +854,8 @@
           "detail": "SHOP（同公告含 7 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872",
           "dates": [
-            "2026-08-03"
+            "2026-08-03",
+            "2026-08-04"
           ]
         },
         {
@@ -1003,7 +864,8 @@
           "detail": "PYPL（同公告含 7 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872",
           "dates": [
-            "2026-08-03"
+            "2026-08-03",
+            "2026-08-04"
           ]
         },
         {
@@ -1012,7 +874,8 @@
           "detail": "AMGN（同公告含 7 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872",
           "dates": [
-            "2026-08-03"
+            "2026-08-03",
+            "2026-08-04"
           ]
         },
         {
@@ -1021,7 +884,8 @@
           "detail": "ZM（同公告含 7 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872",
           "dates": [
-            "2026-08-03"
+            "2026-08-03",
+            "2026-08-04"
           ]
         },
         {
@@ -1068,44 +932,7 @@
           "detail": "Bitget 关于上线 rHSY、rWAT、rPAYX、rVMC、rHIG、rRKT、rHAL、rKVUE、rROP、rSUNB 等30只股票现货的公告（rHSY、rWAT、rPAYX、rVMC、rHIG、rRKT、rHAL、rKVUE… 共 49 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603890405",
           "dates": [
-            "2026-07-28",
             "2026-07-29"
-          ]
-        },
-        {
-          "token": "BOTZ",
-          "type": "美股合约",
-          "detail": "BOTZ（同公告含 3 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890268",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "SKDD",
-          "type": "美股合约",
-          "detail": "SKDD（同公告含 3 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890268",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "SKUU",
-          "type": "美股合约",
-          "detail": "SKUU（同公告含 3 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890268",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "AEON",
-          "type": "上线",
-          "detail": "AEONUSDT 现已上线合约交易和交易BOT",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890269",
-          "dates": [
-            "2026-07-28"
           ]
         }
       ]
@@ -1113,13 +940,33 @@
     "mexc": {
       "listings": [
         {
-          "token": "CATE",
-          "type": "上线",
-          "detail": "CATE 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-cate-to-innovation-zone-17827791537095",
+          "token": "NET",
+          "type": "美股合约",
+          "detail": "NET（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
           "dates": [
-            "2026-07-28",
-            "2026-08-03"
+            "2026-08-03",
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "APO",
+          "type": "美股合约",
+          "detail": "APO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
+          "dates": [
+            "2026-08-03",
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "XYZ",
+          "type": "美股合约",
+          "detail": "XYZ（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
+          "dates": [
+            "2026-08-03",
+            "2026-08-04"
           ]
         },
         {
@@ -1139,33 +986,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537193",
           "dates": [
             "2026-08-01",
-            "2026-08-03"
-          ]
-        },
-        {
-          "token": "NET",
-          "type": "美股合约",
-          "detail": "NET（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
-          "dates": [
-            "2026-08-03"
-          ]
-        },
-        {
-          "token": "APO",
-          "type": "美股合约",
-          "detail": "APO（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
-          "dates": [
-            "2026-08-03"
-          ]
-        },
-        {
-          "token": "XYZ",
-          "type": "美股合约",
-          "detail": "XYZ（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
-          "dates": [
             "2026-08-03"
           ]
         },
@@ -1309,6 +1129,15 @@
           "type": "上线",
           "detail": "MEXC 將於 8月3日 上線 KOSPI 指數合約，限時享受 0 費",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kospi-index-futures-on-aug-3-with-0-fee-trading-17827791537208",
+          "dates": [
+            "2026-08-03"
+          ]
+        },
+        {
+          "token": "CATE",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年8月3日 12:40 (UTC+8) 起把 CATEUSDT 從創新區轉板至主板區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-cateusdt-from-innovation-zone-to-main-board-on-aug-3-2026-04-17827791537205",
           "dates": [
             "2026-08-03"
           ]
@@ -1663,76 +1492,6 @@
           ]
         },
         {
-          "token": "GILD",
-          "type": "美股合约",
-          "detail": "GILD（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
-          "dates": [
-            "2026-07-28",
-            "2026-07-29"
-          ]
-        },
-        {
-          "token": "IBB",
-          "type": "美股合约",
-          "detail": "IBB（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
-          "dates": [
-            "2026-07-28",
-            "2026-07-29"
-          ]
-        },
-        {
-          "token": "WDAY",
-          "type": "美股合约",
-          "detail": "WDAY（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
-          "dates": [
-            "2026-07-28",
-            "2026-07-29"
-          ]
-        },
-        {
-          "token": "HUBS",
-          "type": "美股合约",
-          "detail": "HUBS（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
-          "dates": [
-            "2026-07-28",
-            "2026-07-29"
-          ]
-        },
-        {
-          "token": "HUT",
-          "type": "美股合约",
-          "detail": "HUT（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
-          "dates": [
-            "2026-07-28",
-            "2026-07-29"
-          ]
-        },
-        {
-          "token": "EPIK",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年7月28日 21:40 (UTC+8) 上線 EPIKUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537114",
-          "dates": [
-            "2026-07-28",
-            "2026-07-29"
-          ]
-        },
-        {
-          "token": "GRVT",
-          "type": "上线",
-          "detail": "MEXC 盤前交易：Grvt (GRVT) 即將上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537112",
-          "dates": [
-            "2026-07-28",
-            "2026-07-29"
-          ]
-        },
-        {
           "token": "EPIK",
           "type": "跟单合约",
           "detail": "MEXC 跟單新增 EPIK U 本位合約交易對",
@@ -1823,84 +1582,66 @@
           ]
         },
         {
-          "token": "AEON",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 AEON U 本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aeon-usdt-m-futures-17827791537106",
+          "token": "GILD",
+          "type": "美股合约",
+          "detail": "GILD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
           "dates": [
-            "2026-07-28"
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "IBB",
+          "type": "美股合约",
+          "detail": "IBB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "WDAY",
+          "type": "美股合约",
+          "detail": "WDAY（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "HUBS",
+          "type": "美股合约",
+          "detail": "HUBS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
+          "dates": [
+            "2026-07-29"
+          ]
+        },
+        {
+          "token": "HUT",
+          "type": "美股合约",
+          "detail": "HUT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116",
+          "dates": [
+            "2026-07-29"
           ]
         },
         {
           "token": "EPIK",
-          "type": "Meme+ 现货",
-          "detail": "EPIK 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537100",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "SPCXX",
           "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 SpaceX xStocks (SPCXX) 並支援閃兌服務",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536128",
+          "detail": "MEXC 合約創新區將於 2026年7月28日 21:40 (UTC+8) 上線 EPIKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537114",
           "dates": [
-            "2026-07-28"
+            "2026-07-29"
           ]
         },
         {
-          "token": "AEON",
-          "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年7月27日 18:50 (UTC+8) 上線 AEON (AEON) USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537098",
+          "token": "GRVT",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Grvt (GRVT) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537112",
           "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "MSFU",
-          "type": "跟单合约",
-          "detail": "MSFU（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "AAPU",
-          "type": "跟单合约",
-          "detail": "AAPU（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "AMZU",
-          "type": "跟单合约",
-          "detail": "AMZU（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "GEOD",
-          "type": "跟单合约",
-          "detail": "GEOD（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087",
-          "dates": [
-            "2026-07-28"
-          ]
-        },
-        {
-          "token": "CATE",
-          "type": "跟单合约",
-          "detail": "CATE（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087",
-          "dates": [
-            "2026-07-28"
+            "2026-07-29"
           ]
         }
       ]
