@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "updatedAt": "2026-08-03T14:12:36.065Z",
+  "updatedAt": "2026-08-03T15:41:53.688Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -85,7 +85,7 @@
         {
           "token": "STONKBROKER",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 STONKBROKER (StonkBroker)3 小时前287",
+          "detail": "Gate Alpha 首发上线 STONKBROKER (StonkBroker)5 小时前345",
           "url": "https://www.gate.com/zh/announcements/article/100974"
         }
       ]
@@ -97,6 +97,48 @@
           "type": "现货上线",
           "detail": "Squid （QUID）将上线 DeFi 专区",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603890843"
+        },
+        {
+          "token": "XLE",
+          "type": "美股合约",
+          "detail": "XLE（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "VST",
+          "type": "美股合约",
+          "detail": "VST（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "EWZ",
+          "type": "美股合约",
+          "detail": "EWZ（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "SHOP",
+          "type": "美股合约",
+          "detail": "SHOP（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "PYPL",
+          "type": "美股合约",
+          "detail": "PYPL（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "AMGN",
+          "type": "美股合约",
+          "detail": "AMGN（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "ZM",
+          "type": "美股合约",
+          "detail": "ZM（同公告含 7 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
         }
       ]
     },
