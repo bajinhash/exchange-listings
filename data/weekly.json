@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-29",
   "weekEnd": "2026-08-04",
-  "updatedAt": "2026-08-03T16:43:36.261Z",
+  "updatedAt": "2026-08-04T12:19:40.647Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -388,6 +388,33 @@
     "bybit": {
       "listings": [
         {
+          "token": "CLSK",
+          "type": "永续合约",
+          "detail": "CLSKUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-clskusdt-perpetual-contract-with-up-to-25x-leverage--art2abd8a27e022/",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "RDDT",
+          "type": "永续合约",
+          "detail": "RDDTUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-rddtusdt-perpetual-contract-with-up-to-25x-leverage--art8ec4c7854d4f/",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "BAC",
+          "type": "永续合约",
+          "detail": "BACUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bacusdt-perpetual-contract-with-up-to-25x-leverage--art4d2318188221/",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
           "token": "JNJ",
           "type": "永续合约",
           "detail": "JNJUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
@@ -579,6 +606,15 @@
     "kucoin": {
       "listings": [
         {
+          "token": "GIGADEV",
+          "type": "美股合约",
+          "detail": "KuCoin Futures Will List GIGADEVUSDT Stock Index Perpetual Contract (2026-08-04)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-gigadevusdt-stock-index-perpetual-contract-2026-08-04",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
           "token": "XDC",
           "type": "永续合约",
           "detail": "KuCoin Futures New Listing: XDCUSDT Perpetual Contract with Up to 10x Leverage",
@@ -682,13 +718,48 @@
     "gateio": {
       "listings": [
         {
+          "token": "UNITREE",
+          "type": "永续合约",
+          "detail": "Gate 已上线 UNITREEUSDT（宇树科技）永续合约盘前交易（USDT 结算）2 小时前1,039",
+          "url": "https://www.gate.com/zh/announcements/article/100999",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "OnlyMarms",
+          "type": "现货上线",
+          "detail": "OnlyMarms（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100997",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "TikTok",
+          "type": "现货上线",
+          "detail": "TikTok（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/100997",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "TSM3L",
+          "type": "上线",
+          "detail": "Gate ETF 晶耀加码礼：交易 ETF 赢  TSM3L & USDT，合约积分与 VIP 用户专享加码4 小时前386",
+          "url": "https://www.gate.com/zh/announcements/article/100991",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
           "token": "STONKBROKER",
           "type": "现货上线",
           "detail": "Gate Alpha 首发上线 STONKBROKER (StonkBroker)5 小时前345",
           "url": "https://www.gate.com/zh/announcements/article/100974",
           "dates": [
-            "2026-08-03",
-            "2026-08-04"
+            "2026-08-03"
           ]
         },
         {
@@ -889,6 +960,51 @@
           ]
         },
         {
+          "token": "PEP",
+          "type": "美股合约",
+          "detail": "PEP（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891018",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "BKNG",
+          "type": "美股合约",
+          "detail": "BKNG（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891018",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "SSPC",
+          "type": "美股合约",
+          "detail": "SSPC（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891018",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "SPCH",
+          "type": "美股合约",
+          "detail": "SPCH（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891018",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "GFS",
+          "type": "美股合约",
+          "detail": "GFS（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891018",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
           "token": "JMKE",
           "type": "美股合约",
           "detail": "Bitget首发上线JMKEUSDT（Jersey Mike’s Subs）热门股票永续合约",
@@ -940,32 +1056,101 @@
     "mexc": {
       "listings": [
         {
-          "token": "NET",
-          "type": "美股合约",
-          "detail": "NET（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
+          "token": "QUID",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Squid (QUID) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537263",
           "dates": [
-            "2026-08-03",
             "2026-08-04"
           ]
         },
         {
-          "token": "APO",
+          "token": "DXCM",
           "type": "美股合约",
-          "detail": "APO（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
+          "detail": "DXCM（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-dxcm-and-thc-stock-futures-with-0-fee-trading-on-aug-4-17827791537258",
           "dates": [
-            "2026-08-03",
             "2026-08-04"
           ]
         },
         {
-          "token": "XYZ",
+          "token": "THC",
           "type": "美股合约",
-          "detail": "XYZ（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
+          "detail": "THC（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-dxcm-and-thc-stock-futures-with-0-fee-trading-on-aug-4-17827791537258",
           "dates": [
-            "2026-08-03",
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "GFS",
+          "type": "美股合约",
+          "detail": "MEXC 將於 8月4日 上線 GFS 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gfs-stock-futures-with-0-fee-trading-on-aug-4-17827791537257",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "WOOF",
+          "type": "Meme+ 现货",
+          "detail": "WOOF 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537251",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "FRONG",
+          "type": "上线",
+          "detail": "FRONG 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-frong-to-innovation-zone-17827791537240",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "GIGADEV",
+          "type": "美股合约",
+          "detail": "GIGADEV（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gigadev-amgn-jmke-and-pep-stock-futures-with-0-fee-trading-on-aug-4-17827791537238",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "AMGN",
+          "type": "美股合约",
+          "detail": "AMGN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gigadev-amgn-jmke-and-pep-stock-futures-with-0-fee-trading-on-aug-4-17827791537238",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "JMKE",
+          "type": "美股合约",
+          "detail": "JMKE（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gigadev-amgn-jmke-and-pep-stock-futures-with-0-fee-trading-on-aug-4-17827791537238",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "PEP",
+          "type": "美股合约",
+          "detail": "PEP（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gigadev-amgn-jmke-and-pep-stock-futures-with-0-fee-trading-on-aug-4-17827791537238",
+          "dates": [
+            "2026-08-04"
+          ]
+        },
+        {
+          "token": "CHONKETHA",
+          "type": "Meme+ 现货",
+          "detail": "CHONKETHA 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537237",
+          "dates": [
             "2026-08-04"
           ]
         },
@@ -986,6 +1171,33 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537193",
           "dates": [
             "2026-08-01",
+            "2026-08-03"
+          ]
+        },
+        {
+          "token": "NET",
+          "type": "美股合约",
+          "detail": "NET（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
+          "dates": [
+            "2026-08-03"
+          ]
+        },
+        {
+          "token": "APO",
+          "type": "美股合约",
+          "detail": "APO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
+          "dates": [
+            "2026-08-03"
+          ]
+        },
+        {
+          "token": "XYZ",
+          "type": "美股合约",
+          "detail": "XYZ（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229",
+          "dates": [
             "2026-08-03"
           ]
         },
