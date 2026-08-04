@@ -1,10 +1,17 @@
 {
   "date": "2026-08-04",
-  "updatedAt": "2026-08-04T12:28:54.367Z",
+  "updatedAt": "2026-08-04T13:34:12.445Z",
   "exchanges": {
     "binance": {
       "listings": [],
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "QUID",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 QUID - 通过Squid在100+条链上买入、兑换与发送2万+代币",
+          "url": "https://www.binance.com/en/alpha/base/0x1a44233fae8d50f1aeb3a5d58dd426ff4814cb53"
+        }
+      ],
       "wallet": []
     },
     "okx": {
@@ -47,7 +54,7 @@
         {
           "token": "UNITREE",
           "type": "永续合约",
-          "detail": "Gate 已上线 UNITREEUSDT（宇树科技）永续合约盘前交易（USDT 结算）2 小时前1,057",
+          "detail": "Gate 已上线 UNITREEUSDT（宇树科技）永续合约盘前交易（USDT 结算）3 小时前1,184",
           "url": "https://www.gate.com/zh/announcements/article/100999"
         },
         {
@@ -65,7 +72,7 @@
         {
           "token": "TSM3L",
           "type": "上线",
-          "detail": "Gate ETF 晶耀加码礼：交易 ETF 赢  TSM3L & USDT，合约积分与 VIP 用户专享加码4 小时前390",
+          "detail": "Gate ETF 晶耀加码礼：交易 ETF 赢  TSM3L & USDT，合约积分与 VIP 用户专享加码5 小时前430",
           "url": "https://www.gate.com/zh/announcements/article/100991"
         }
       ]
