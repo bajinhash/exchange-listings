@@ -1,0 +1,69 @@
+{
+  "date": "2026-08-05",
+  "updatedAt": "2026-08-04T16:39:09.140Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "QUID",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 QUID - 通过Squid在100+条链上买入、兑换与发送2万+代币",
+          "url": "https://www.binance.com/en/alpha/base/0x1a44233fae8d50f1aeb3a5d58dd426ff4814cb53"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "CLSK",
+          "type": "永续合约",
+          "detail": "CLSKUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-clskusdt-perpetual-contract-with-up-to-25x-leverage--art2abd8a27e022/"
+        },
+        {
+          "token": "RDDT",
+          "type": "永续合约",
+          "detail": "RDDTUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-rddtusdt-perpetual-contract-with-up-to-25x-leverage--art8ec4c7854d4f/"
+        },
+        {
+          "token": "BAC",
+          "type": "永续合约",
+          "detail": "BACUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bacusdt-perpetual-contract-with-up-to-25x-leverage--art4d2318188221/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "UNITREE",
+          "type": "永续合约",
+          "detail": "Gate 已上线 UNITREEUSDT（宇树科技）永续合约盘前交易（USDT 结算）6 小时前1,432",
+          "url": "https://www.gate.com/zh/announcements/article/100999"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "QUID",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Squid (QUID) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537263"
+        }
+      ]
+    }
+  }
+}
