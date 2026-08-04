@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-29",
   "weekEnd": "2026-08-04",
-  "updatedAt": "2026-08-04T13:34:12.582Z",
+  "updatedAt": "2026-08-04T15:20:16.795Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -721,7 +721,7 @@
         {
           "token": "UNITREE",
           "type": "永续合约",
-          "detail": "Gate 已上线 UNITREEUSDT（宇树科技）永续合约盘前交易（USDT 结算）3 小时前1,184",
+          "detail": "Gate 已上线 UNITREEUSDT（宇树科技）永续合约盘前交易（USDT 结算）5 小时前1,335",
           "url": "https://www.gate.com/zh/announcements/article/100999",
           "dates": [
             "2026-08-04"
@@ -748,7 +748,7 @@
         {
           "token": "TSM3L",
           "type": "上线",
-          "detail": "Gate ETF 晶耀加码礼：交易 ETF 赢  TSM3L & USDT，合约积分与 VIP 用户专享加码5 小时前430",
+          "detail": "Gate ETF 晶耀加码礼：交易 ETF 赢  TSM3L & USDT，合约积分与 VIP 用户专享加码7 小时前498",
           "url": "https://www.gate.com/zh/announcements/article/100991",
           "dates": [
             "2026-08-04"
