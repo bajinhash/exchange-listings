@@ -1,0 +1,141 @@
+{
+  "date": "2026-08-06",
+  "updatedAt": "2026-08-05T16:15:02.443Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "ALABB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ALABB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x1282493ede6a22753d45cb2c0fdbd8d35e97555a"
+        },
+        {
+          "token": "USARB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 USARB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xcd345d4450e04cdef422a60b97d9265d24e0bcee"
+        },
+        {
+          "token": "CRDOB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CRDOB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x6e7d451f9d30327d32020f116fa79c23b24e9c8d"
+        },
+        {
+          "token": "COHRB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 COHRB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x5131859a059b2446abeefe0f5d313b3c54ff3d36"
+        },
+        {
+          "token": "ASTSB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ASTSB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x58b6f5feeb8436489f5bf4a56619092b1fa8e777"
+        },
+        {
+          "token": "NFLXB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NFLXB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xd6829ea836b6fa224d099d40e54b31262f874631"
+        },
+        {
+          "token": "ASMLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ASMLB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xfbfb4f79cfb4c34dcd7c82bdee5a0fa199b2e7f9"
+        },
+        {
+          "token": "IRENB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 IRENB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xfdc2f2cab77b28f7ef6c819a404706cfa9bca33b"
+        },
+        {
+          "token": "SMCIB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SMCIB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x387dea1d2772d716d081a29116f3effa0ffe1f36"
+        },
+        {
+          "token": "BMNRB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 BMNRB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x3548da95a9effe481e8604664d75e95821e557f5"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "VRTXSTOCK",
+          "type": "永续合约",
+          "detail": "VRTXSTOCKUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-vrtxstockusdt-perpetual-contract-with-up-to-25x-leverage--arte722cb56e533/"
+        },
+        {
+          "token": "BIIB",
+          "type": "永续合约",
+          "detail": "BIIBUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-biibusdt-perpetual-contract-with-up-to-25x-leverage--artdacdedd78db0/"
+        },
+        {
+          "token": "SHOP",
+          "type": "永续合约",
+          "detail": "SHOPUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-shopusdt-perpetual-contract-with-up-to-25x-leverage--art0cf9485e8c43/"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "永续合约",
+          "detail": "CASHCATUSDT 永續合約全新上線創新板塊， 支援最高 10 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cashcatusdt-perpetual-contract-in-innovation-zone-with-up-to-10x-leverage--art88df6bbd86fd/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "KIOXIA",
+          "type": "永续合约",
+          "detail": "Gate 合约股票专区将上线 KIOXIA（铠侠控股 285A.T）永续合约交易（...6 小时前1,183",
+          "url": "https://www.gate.com/zh/announcements/article/101015"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "VGT",
+          "type": "美股合约",
+          "detail": "VGT（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vgt-vug-and-xli-stock-futures-with-0-fee-trading-on-aug-5-17827791537301"
+        },
+        {
+          "token": "VUG",
+          "type": "美股合约",
+          "detail": "VUG（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vgt-vug-and-xli-stock-futures-with-0-fee-trading-on-aug-5-17827791537301"
+        },
+        {
+          "token": "XLI",
+          "type": "美股合约",
+          "detail": "XLI（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vgt-vug-and-xli-stock-futures-with-0-fee-trading-on-aug-5-17827791537301"
+        }
+      ]
+    }
+  }
+}
