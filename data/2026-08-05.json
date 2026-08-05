@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "updatedAt": "2026-08-05T13:33:07.363Z",
+  "updatedAt": "2026-08-05T15:12:44.165Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -83,7 +83,68 @@
           "url": "https://www.binance.com/en/support/announcement/ae96da838d754f91bced1501de728f03"
         }
       ],
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "ALABB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ALABB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x1282493ede6a22753d45cb2c0fdbd8d35e97555a"
+        },
+        {
+          "token": "USARB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 USARB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xcd345d4450e04cdef422a60b97d9265d24e0bcee"
+        },
+        {
+          "token": "CRDOB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CRDOB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x6e7d451f9d30327d32020f116fa79c23b24e9c8d"
+        },
+        {
+          "token": "COHRB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 COHRB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x5131859a059b2446abeefe0f5d313b3c54ff3d36"
+        },
+        {
+          "token": "ASTSB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ASTSB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x58b6f5feeb8436489f5bf4a56619092b1fa8e777"
+        },
+        {
+          "token": "NFLXB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NFLXB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xd6829ea836b6fa224d099d40e54b31262f874631"
+        },
+        {
+          "token": "ASMLB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ASMLB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xfbfb4f79cfb4c34dcd7c82bdee5a0fa199b2e7f9"
+        },
+        {
+          "token": "IRENB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 IRENB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xfdc2f2cab77b28f7ef6c819a404706cfa9bca33b"
+        },
+        {
+          "token": "SMCIB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SMCIB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x387dea1d2772d716d081a29116f3effa0ffe1f36"
+        },
+        {
+          "token": "BMNRB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 BMNRB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x3548da95a9effe481e8604664d75e95821e557f5"
+        }
+      ],
       "wallet": []
     },
     "okx": {
@@ -143,13 +204,13 @@
         {
           "token": "KIOXIA",
           "type": "永续合约",
-          "detail": "Gate 合约股票专区将上线 KIOXIA（铠侠控股 285A.T）永续合约交易（...3 小时前963",
+          "detail": "Gate 合约股票专区将上线 KIOXIA（铠侠控股 285A.T）永续合约交易（...5 小时前1,100",
           "url": "https://www.gate.com/zh/announcements/article/101015"
         },
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息收益率的公告6 小时前850",
+          "detail": "关于调整 USD1 持币生息收益率的公告8 小时前966",
           "url": "https://www.gate.com/zh/announcements/article/101011"
         },
         {
@@ -177,6 +238,24 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "VGT",
+          "type": "美股合约",
+          "detail": "VGT（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vgt-vug-and-xli-stock-futures-with-0-fee-trading-on-aug-5-17827791537301"
+        },
+        {
+          "token": "VUG",
+          "type": "美股合约",
+          "detail": "VUG（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vgt-vug-and-xli-stock-futures-with-0-fee-trading-on-aug-5-17827791537301"
+        },
+        {
+          "token": "XLI",
+          "type": "美股合约",
+          "detail": "XLI（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vgt-vug-and-xli-stock-futures-with-0-fee-trading-on-aug-5-17827791537301"
+        },
         {
           "token": "CUPSEY",
           "type": "现货上线",
