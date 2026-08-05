@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "updatedAt": "2026-08-05T12:27:17.624Z",
+  "updatedAt": "2026-08-05T13:33:07.363Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -83,14 +83,7 @@
           "url": "https://www.binance.com/en/support/announcement/ae96da838d754f91bced1501de728f03"
         }
       ],
-      "alpha": [
-        {
-          "token": "QUID",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 QUID - 通过Squid在100+条链上买入、兑换与发送2万+代币",
-          "url": "https://www.binance.com/en/alpha/base/0x1a44233fae8d50f1aeb3a5d58dd426ff4814cb53"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -150,13 +143,13 @@
         {
           "token": "KIOXIA",
           "type": "永续合约",
-          "detail": "Gate 合约股票专区将上线 KIOXIA（铠侠控股 285A.T）永续合约交易（...2 小时前835",
+          "detail": "Gate 合约股票专区将上线 KIOXIA（铠侠控股 285A.T）永续合约交易（...3 小时前963",
           "url": "https://www.gate.com/zh/announcements/article/101015"
         },
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息收益率的公告5 小时前747",
+          "detail": "关于调整 USD1 持币生息收益率的公告6 小时前850",
           "url": "https://www.gate.com/zh/announcements/article/101011"
         },
         {

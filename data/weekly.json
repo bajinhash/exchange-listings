@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-07-30",
   "weekEnd": "2026-08-05",
-  "updatedAt": "2026-08-05T12:27:17.792Z",
+  "updatedAt": "2026-08-05T13:33:07.551Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -150,8 +150,7 @@
           "url": "https://x.com/BinanceWallet/status/2084188084057546971",
           "dates": [
             "2026-08-03",
-            "2026-08-04",
-            "2026-08-05"
+            "2026-08-04"
           ]
         },
         {
@@ -580,7 +579,7 @@
         {
           "token": "KIOXIA",
           "type": "永续合约",
-          "detail": "Gate 合约股票专区将上线 KIOXIA（铠侠控股 285A.T）永续合约交易（...2 小时前835",
+          "detail": "Gate 合约股票专区将上线 KIOXIA（铠侠控股 285A.T）永续合约交易（...3 小时前963",
           "url": "https://www.gate.com/zh/announcements/article/101015",
           "dates": [
             "2026-08-05"
@@ -589,7 +588,7 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息收益率的公告5 小时前747",
+          "detail": "关于调整 USD1 持币生息收益率的公告6 小时前850",
           "url": "https://www.gate.com/zh/announcements/article/101011",
           "dates": [
             "2026-08-05"
