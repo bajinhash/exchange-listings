@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T13:30:33.060Z",
+  "updatedAt": "2026-08-06T15:10:34.156Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -17,68 +17,7 @@
           "url": "https://www.binance.com/en/support/announcement/307687ad279e42e6909ee1be8c472b50"
         }
       ],
-      "alpha": [
-        {
-          "token": "ALABB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 ALABB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x1282493ede6a22753d45cb2c0fdbd8d35e97555a"
-        },
-        {
-          "token": "USARB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 USARB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xcd345d4450e04cdef422a60b97d9265d24e0bcee"
-        },
-        {
-          "token": "CRDOB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 CRDOB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x6e7d451f9d30327d32020f116fa79c23b24e9c8d"
-        },
-        {
-          "token": "COHRB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 COHRB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x5131859a059b2446abeefe0f5d313b3c54ff3d36"
-        },
-        {
-          "token": "ASTSB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 ASTSB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x58b6f5feeb8436489f5bf4a56619092b1fa8e777"
-        },
-        {
-          "token": "NFLXB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 NFLXB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xd6829ea836b6fa224d099d40e54b31262f874631"
-        },
-        {
-          "token": "ASMLB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 ASMLB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xfbfb4f79cfb4c34dcd7c82bdee5a0fa199b2e7f9"
-        },
-        {
-          "token": "IRENB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 IRENB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xfdc2f2cab77b28f7ef6c819a404706cfa9bca33b"
-        },
-        {
-          "token": "SMCIB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 SMCIB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x387dea1d2772d716d081a29116f3effa0ffe1f36"
-        },
-        {
-          "token": "BMNRB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 BMNRB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x3548da95a9effe481e8604664d75e95821e557f5"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -176,31 +115,31 @@
         {
           "token": "DEX",
           "type": "美股合约",
-          "detail": "Gate DEX 大航海寻宝记：交易代币化股票合约，最高可得 600 USDT1 小时前141",
+          "detail": "Gate DEX 大航海寻宝记：交易代币化股票合约，最高可得 600 USDT3 小时前315",
           "url": "https://www.gate.com/zh/announcements/article/101039"
         },
         {
           "token": "C2C",
           "type": "上线",
-          "detail": "C2C 交易跃迁计划：全新打卡礼包，交易瓜分 $11,000 双重礼遇4 小时前1,059",
+          "detail": "C2C 交易跃迁计划：全新打卡礼包，交易瓜分 $11,000 双重礼遇5 小时前1,338",
           "url": "https://www.gate.com/zh/announcements/article/101037"
         },
         {
           "token": "KIMI",
           "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 第三期：Moonshot AI (KIMI)，支持 USDT 和 GUSD 认购5 小时前12,709",
+          "detail": "Gate Pre-IPOs 第三期：Moonshot AI (KIMI)，支持 USDT 和 GUSD 认购7 小时前18,235",
           "url": "https://www.gate.com/zh/announcements/article/101035"
         },
         {
-          "token": "USDT5",
+          "token": "USDT7",
           "type": "上线",
-          "detail": "闪兑新人专享：首兑领 100 USDT，交易再领 2 USDT5 小时前449",
+          "detail": "闪兑新人专享：首兑领 100 USDT，交易再领 2 USDT7 小时前549",
           "url": "https://www.gate.com/zh/announcements/article/101031"
         },
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "BTC & ETH 双星共振：充值交易，超 $510,000 奖励自动派送6 小时前515",
+          "detail": "BTC & ETH 双星共振：充值交易，超 $510,000 奖励自动派送8 小时前603",
           "url": "https://www.gate.com/zh/announcements/article/101029"
         }
       ]
@@ -231,67 +170,61 @@
         {
           "token": "BIIB",
           "type": "现货上线",
-          "detail": "BIIB（同公告含 11 个标的）",
+          "detail": "BIIB（同公告含 10 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
         },
         {
           "token": "FTNT",
           "type": "现货上线",
-          "detail": "FTNT（同公告含 11 个标的）",
+          "detail": "FTNT（同公告含 10 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
         },
         {
           "token": "KIMI",
           "type": "现货上线",
-          "detail": "KIMI（同公告含 11 个标的）",
+          "detail": "KIMI（同公告含 10 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
         },
         {
           "token": "RBRK",
           "type": "现货上线",
-          "detail": "RBRK（同公告含 11 个标的）",
+          "detail": "RBRK（同公告含 10 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
         },
         {
           "token": "SCCO",
           "type": "现货上线",
-          "detail": "SCCO（同公告含 11 个标的）",
+          "detail": "SCCO（同公告含 10 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
         },
         {
           "token": "TECK",
           "type": "现货上线",
-          "detail": "TECK（同公告含 11 个标的）",
+          "detail": "TECK（同公告含 10 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
         },
         {
           "token": "VGT",
           "type": "现货上线",
-          "detail": "VGT（同公告含 11 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
-        },
-        {
-          "token": "VRTX",
-          "type": "现货上线",
-          "detail": "VRTX（同公告含 11 个标的）",
+          "detail": "VGT（同公告含 10 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
         },
         {
           "token": "VUG",
           "type": "现货上线",
-          "detail": "VUG（同公告含 11 个标的）",
+          "detail": "VUG（同公告含 10 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
         },
         {
           "token": "WPM",
           "type": "现货上线",
-          "detail": "WPM（同公告含 11 个标的）",
+          "detail": "WPM（同公告含 10 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
         },
         {
           "token": "XLI",
           "type": "现货上线",
-          "detail": "XLI（同公告含 11 个标的）",
+          "detail": "XLI（同公告含 10 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
         },
         {
