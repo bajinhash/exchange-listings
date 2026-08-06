@@ -1,9 +1,22 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-05T16:15:02.443Z",
+  "updatedAt": "2026-08-06T12:20:39.678Z",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "KO",
+          "type": "永续合约",
+          "detail": "KO（同公告含 2 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/307687ad279e42e6909ee1be8c472b50"
+        },
+        {
+          "token": "RDDT",
+          "type": "永续合约",
+          "detail": "RDDT（同公告含 2 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/307687ad279e42e6909ee1be8c472b50"
+        }
+      ],
       "alpha": [
         {
           "token": "ALABB",
@@ -69,10 +82,59 @@
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "BRKB",
+          "type": "美股合约",
+          "detail": "BRKB（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-brkb-shop-and-jp225-equities"
+        },
+        {
+          "token": "SHOP",
+          "type": "美股合约",
+          "detail": "SHOP（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-brkb-shop-and-jp225-equities"
+        },
+        {
+          "token": "JP225",
+          "type": "美股合约",
+          "detail": "JP225（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-brkb-shop-and-jp225-equities"
+        },
+        {
+          "token": "HOMEUSD",
+          "type": "永续合约",
+          "detail": "HOMEUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-homeusd-biousd-x-perps"
+        },
+        {
+          "token": "BIOUSD",
+          "type": "永续合约",
+          "detail": "BIOUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-homeusd-biousd-x-perps"
+        }
+      ]
     },
     "bybit": {
       "listings": [
+        {
+          "token": "UBER",
+          "type": "永续合约",
+          "detail": "UBERUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-uberusdt-perpetual-contract-with-up-to-25x-leverage--artb0dce545129e/"
+        },
+        {
+          "token": "NVO",
+          "type": "永续合约",
+          "detail": "NVOUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nvousdt-perpetual-contract-with-up-to-25x-leverage--arte002c1fa8de9/"
+        },
+        {
+          "token": "NET",
+          "type": "永续合约",
+          "detail": "NETUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-netusdt-perpetual-contract-with-up-to-25x-leverage--art7d830ba83097/"
+        },
         {
           "token": "VRTXSTOCK",
           "type": "永续合约",
@@ -100,15 +162,40 @@
       ]
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "PIPEDOG",
+          "type": "现货上线",
+          "detail": "Pipedog (PIPEDOG) Listed on KuCoinTrading: 12:00 on August 6, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-pipedog-pipedog-listed-on-kucoin"
+        }
+      ]
     },
     "gateio": {
       "listings": [
         {
-          "token": "KIOXIA",
-          "type": "永续合约",
-          "detail": "Gate 合约股票专区将上线 KIOXIA（铠侠控股 285A.T）永续合约交易（...6 小时前1,183",
-          "url": "https://www.gate.com/zh/announcements/article/101015"
+          "token": "C2C",
+          "type": "上线",
+          "detail": "C2C 交易跃迁计划：全新打卡礼包，交易瓜分 $11,000 双重礼遇3 小时前825",
+          "url": "https://www.gate.com/zh/announcements/article/101037"
+        },
+        {
+          "token": "KIMI",
+          "type": "Pre-IPO 上线",
+          "detail": "Gate Pre-IPOs 第三期：Moonshot AI (KIMI)，支持 USDT 和 GUSD 认购4 小时前9,246",
+          "url": "https://www.gate.com/zh/announcements/article/101035"
+        },
+        {
+          "token": "USDT4",
+          "type": "上线",
+          "detail": "闪兑新人专享：首兑领 100 USDT，交易再领 2 USDT4 小时前382",
+          "url": "https://www.gate.com/zh/announcements/article/101031"
+        },
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "BTC & ETH 双星共振：充值交易，超 $510,000 奖励自动派送5 小时前456",
+          "url": "https://www.gate.com/zh/announcements/article/101029"
         }
       ]
     },
@@ -117,6 +204,192 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "AU",
+          "type": "美股合约",
+          "detail": "AU（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-au-wpm-and-cde-stock-futures-with-0-fee-trading-on-aug-6-17827791537340"
+        },
+        {
+          "token": "WPM",
+          "type": "美股合约",
+          "detail": "WPM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-au-wpm-and-cde-stock-futures-with-0-fee-trading-on-aug-6-17827791537340"
+        },
+        {
+          "token": "CDE",
+          "type": "美股合约",
+          "detail": "CDE（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-au-wpm-and-cde-stock-futures-with-0-fee-trading-on-aug-6-17827791537340"
+        },
+        {
+          "token": "BIIB",
+          "type": "现货上线",
+          "detail": "BIIB（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "FTNT",
+          "type": "现货上线",
+          "detail": "FTNT（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "KIMI",
+          "type": "现货上线",
+          "detail": "KIMI（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "RBRK",
+          "type": "现货上线",
+          "detail": "RBRK（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "SCCO",
+          "type": "现货上线",
+          "detail": "SCCO（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "TECK",
+          "type": "现货上线",
+          "detail": "TECK（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "VGT",
+          "type": "现货上线",
+          "detail": "VGT（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "VRTX",
+          "type": "现货上线",
+          "detail": "VRTX（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "VUG",
+          "type": "现货上线",
+          "detail": "VUG（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "WPM",
+          "type": "现货上线",
+          "detail": "WPM（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "XLI",
+          "type": "现货上线",
+          "detail": "XLI（同公告含 11 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "FTNT",
+          "type": "跟单合约",
+          "detail": "FTNT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ftnt-scco-teck-rbrk-and-veev-usdt-m-futures-17827791537315"
+        },
+        {
+          "token": "SCCO",
+          "type": "跟单合约",
+          "detail": "SCCO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ftnt-scco-teck-rbrk-and-veev-usdt-m-futures-17827791537315"
+        },
+        {
+          "token": "TECK",
+          "type": "跟单合约",
+          "detail": "TECK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ftnt-scco-teck-rbrk-and-veev-usdt-m-futures-17827791537315"
+        },
+        {
+          "token": "RBRK",
+          "type": "跟单合约",
+          "detail": "RBRK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ftnt-scco-teck-rbrk-and-veev-usdt-m-futures-17827791537315"
+        },
+        {
+          "token": "VEEV",
+          "type": "跟单合约",
+          "detail": "VEEV（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ftnt-scco-teck-rbrk-and-veev-usdt-m-futures-17827791537315"
+        },
+        {
+          "token": "KIMI",
+          "type": "跟单合约",
+          "detail": "KIMI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kimi-vgt-vug-xli-and-cupsey-usdt-m-futures-17827791537314"
+        },
+        {
+          "token": "VGT",
+          "type": "跟单合约",
+          "detail": "VGT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kimi-vgt-vug-xli-and-cupsey-usdt-m-futures-17827791537314"
+        },
+        {
+          "token": "VUG",
+          "type": "跟单合约",
+          "detail": "VUG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kimi-vgt-vug-xli-and-cupsey-usdt-m-futures-17827791537314"
+        },
+        {
+          "token": "XLI",
+          "type": "跟单合约",
+          "detail": "XLI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kimi-vgt-vug-xli-and-cupsey-usdt-m-futures-17827791537314"
+        },
+        {
+          "token": "CUPSEY",
+          "type": "跟单合约",
+          "detail": "CUPSEY（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kimi-vgt-vug-xli-and-cupsey-usdt-m-futures-17827791537314"
+        },
+        {
+          "token": "VRTX",
+          "type": "跟单合约",
+          "detail": "VRTX（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-vrtx-biib-and-stonk-usdt-m-futures-17827791537313"
+        },
+        {
+          "token": "BIIB",
+          "type": "跟单合约",
+          "detail": "BIIB（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-vrtx-biib-and-stonk-usdt-m-futures-17827791537313"
+        },
+        {
+          "token": "STONK",
+          "type": "跟单合约",
+          "detail": "STONK（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-vrtx-biib-and-stonk-usdt-m-futures-17827791537313"
+        },
+        {
+          "token": "VRTX",
+          "type": "美股合约",
+          "detail": "VRTX（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vrtx-and-biib-stock-futures-with-0-fee-trading-on-aug-6-17827791537311"
+        },
+        {
+          "token": "BIIB",
+          "type": "美股合约",
+          "detail": "BIIB（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vrtx-and-biib-stock-futures-with-0-fee-trading-on-aug-6-17827791537311"
+        },
+        {
+          "token": "STONK",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年8月6日 13:40 (UTC+8) 上線 STONKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537310"
+        },
+        {
+          "token": "KIMI",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC將於8月6日11:30（UTC+8）上線KIMI（月之暗面）Pre-IPO合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kimi-moonshot-ai-pre-ipo-futures-on-aug-6-2026-03-17827791537307"
+        },
         {
           "token": "VGT",
           "type": "美股合约",
