@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T12:20:39.678Z",
+  "updatedAt": "2026-08-06T12:30:03.397Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -174,28 +174,10 @@
     "gateio": {
       "listings": [
         {
-          "token": "C2C",
-          "type": "上线",
-          "detail": "C2C 交易跃迁计划：全新打卡礼包，交易瓜分 $11,000 双重礼遇3 小时前825",
-          "url": "https://www.gate.com/zh/announcements/article/101037"
-        },
-        {
-          "token": "KIMI",
-          "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 第三期：Moonshot AI (KIMI)，支持 USDT 和 GUSD 认购4 小时前9,246",
-          "url": "https://www.gate.com/zh/announcements/article/101035"
-        },
-        {
-          "token": "USDT4",
-          "type": "上线",
-          "detail": "闪兑新人专享：首兑领 100 USDT，交易再领 2 USDT4 小时前382",
-          "url": "https://www.gate.com/zh/announcements/article/101031"
-        },
-        {
-          "token": "BTC",
-          "type": "上线",
-          "detail": "BTC & ETH 双星共振：充值交易，超 $510,000 奖励自动派送5 小时前456",
-          "url": "https://www.gate.com/zh/announcements/article/101029"
+          "token": "KIOXIA",
+          "type": "永续合约",
+          "detail": "Gate 合约股票专区将上线 KIOXIA（铠侠控股 285A.T）永续合约交易（...1 天前2,058",
+          "url": "https://www.gate.com/zh/announcements/article/101015"
         }
       ]
     },
