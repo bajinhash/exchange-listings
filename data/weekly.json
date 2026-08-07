@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-01",
   "weekEnd": "2026-08-07",
-  "updatedAt": "2026-08-07T11:21:15.596Z",
+  "updatedAt": "2026-08-07T11:30:27.274Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -576,16 +576,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT1",
-          "type": "上线",
-          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT1 天前1,001",
-          "url": "https://www.gate.com/zh/announcements/article/100942",
-          "dates": [
-            "2026-08-01",
-            "2026-08-07"
-          ]
-        },
-        {
           "token": "DEX",
           "type": "美股合约",
           "detail": "Gate DEX 大航海寻宝记：交易代币化股票合约，最高可得 600 USDT3 小时前315",
@@ -596,9 +586,18 @@
           ]
         },
         {
+          "token": "USDT2",
+          "type": "上线",
+          "detail": "新用户专享：100% 中奖，最高赢取 1,000 USDT2 小时前236",
+          "url": "https://www.gate.com/zh/announcements/article/101051",
+          "dates": [
+            "2026-08-07"
+          ]
+        },
+        {
           "token": "MNST",
           "type": "上线",
-          "detail": "Gate 关于 MNST 股票拆股进行相关调整的公告3 小时前188",
+          "detail": "Gate 关于 MNST 股票拆股进行相关调整的公告3 小时前192",
           "url": "https://www.gate.com/zh/announcements/article/101049",
           "dates": [
             "2026-08-07"
@@ -607,7 +606,7 @@
         {
           "token": "USDT4",
           "type": "上线",
-          "detail": "Gate 合约积分交易加码，日日交易，最高领 200 USDT4 小时前525",
+          "detail": "Gate 合约积分交易加码，日日交易，最高领 200 USDT4 小时前533",
           "url": "https://www.gate.com/zh/announcements/article/101048",
           "dates": [
             "2026-08-07"
@@ -616,7 +615,7 @@
         {
           "token": "CJS",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 CJS（中国巨石 600176.SH）等 10 个永续合...9 小时前1,361",
+          "detail": "Gate 合约股票专区将上线 CJS（中国巨石 600176.SH）等 10 个永续合...9 小时前1,364",
           "url": "https://www.gate.com/zh/announcements/article/101041",
           "dates": [
             "2026-08-07"
@@ -625,7 +624,7 @@
         {
           "token": "PosM",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 PosM (Possum)9 小时前385",
+          "detail": "Gate Alpha 首发上线 PosM (Possum)9 小时前386",
           "url": "https://www.gate.com/zh/announcements/article/101040",
           "dates": [
             "2026-08-07"
@@ -766,11 +765,29 @@
           "dates": [
             "2026-08-01"
           ]
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "简易期权月度挑战：新客首单享补贴，周周交易分 50,000 USDT1 天前1,001",
+          "url": "https://www.gate.com/zh/announcements/article/100942",
+          "dates": [
+            "2026-08-01"
+          ]
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "MOONSHOT",
+          "type": "永续合约",
+          "detail": "Bitget 重磅上线 MOONSHOTUSDT 【IPO盘前永续合约】| 提前博弈月之暗面 IPO，抢跑中国大模型独角兽定价权！",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891454",
+          "dates": [
+            "2026-08-07"
+          ]
+        },
         {
           "token": "QUID",
           "type": "现货上线",
