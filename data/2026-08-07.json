@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "updatedAt": "2026-08-07T12:39:39.067Z",
+  "updatedAt": "2026-08-07T14:10:23.107Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -31,6 +31,12 @@
     },
     "bybit": {
       "listings": [
+        {
+          "token": "MOONSHOT",
+          "type": "Pre-IPO 上线",
+          "detail": "全新上線：MOONSHOTUSDT Pre-IPO 永續合約將於 2026 年 8 月 7 日11:00 UTC 登陸 Bybit 平台",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-moonshot-pre-ipo-perpetual-contract-on-bybit-at-aug-7-2026-11am-utc--art0c8596c63f85/"
+        },
         {
           "token": "MO",
           "type": "永续合约",
@@ -75,39 +81,39 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT3",
+          "token": "USDT4",
           "type": "上线",
-          "detail": "新用户专享：100% 中奖，最高赢取 1,000 USDT3 小时前321",
+          "detail": "新用户专享：100% 中奖，最高赢取 1,000 USDT4 小时前437",
           "url": "https://www.gate.com/zh/announcements/article/101051"
         },
         {
           "token": "MNST",
           "type": "上线",
-          "detail": "Gate 关于 MNST 股票拆股进行相关调整的公告4 小时前244",
+          "detail": "Gate 关于 MNST 股票拆股进行相关调整的公告6 小时前308",
           "url": "https://www.gate.com/zh/announcements/article/101049"
         },
         {
-          "token": "USDT6",
+          "token": "USDT7",
           "type": "上线",
-          "detail": "Gate 合约积分交易加码，日日交易，最高领 200 USDT6 小时前609",
+          "detail": "Gate 合约积分交易加码，日日交易，最高领 200 USDT7 小时前669",
           "url": "https://www.gate.com/zh/announcements/article/101048"
         },
         {
           "token": "CJS",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 CJS（中国巨石 600176.SH）等 10 个永续合...10 小时前1,413",
+          "detail": "Gate 合约股票专区将上线 CJS（中国巨石 600176.SH）等 10 个永续合...12 小时前1,482",
           "url": "https://www.gate.com/zh/announcements/article/101041"
         },
         {
           "token": "PosM",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 PosM (Possum)10 小时前412",
+          "detail": "Gate Alpha 首发上线 PosM (Possum)12 小时前441",
           "url": "https://www.gate.com/zh/announcements/article/101040"
         },
         {
           "token": "DEX",
           "type": "美股合约",
-          "detail": "Gate DEX 大航海寻宝记：交易代币化股票合约，最高可得 600 USDT1 天前1,279",
+          "detail": "Gate DEX 大航海寻宝记：交易代币化股票合约，最高可得 600 USDT1 天前1,305",
           "url": "https://www.gate.com/zh/announcements/article/101039"
         }
       ]
