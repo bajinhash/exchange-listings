@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-01",
   "weekEnd": "2026-08-07",
-  "updatedAt": "2026-08-07T11:30:27.274Z",
+  "updatedAt": "2026-08-07T12:39:39.239Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -586,9 +586,9 @@
           ]
         },
         {
-          "token": "USDT2",
+          "token": "USDT3",
           "type": "上线",
-          "detail": "新用户专享：100% 中奖，最高赢取 1,000 USDT2 小时前236",
+          "detail": "新用户专享：100% 中奖，最高赢取 1,000 USDT3 小时前321",
           "url": "https://www.gate.com/zh/announcements/article/101051",
           "dates": [
             "2026-08-07"
@@ -597,16 +597,16 @@
         {
           "token": "MNST",
           "type": "上线",
-          "detail": "Gate 关于 MNST 股票拆股进行相关调整的公告3 小时前192",
+          "detail": "Gate 关于 MNST 股票拆股进行相关调整的公告4 小时前244",
           "url": "https://www.gate.com/zh/announcements/article/101049",
           "dates": [
             "2026-08-07"
           ]
         },
         {
-          "token": "USDT4",
+          "token": "USDT6",
           "type": "上线",
-          "detail": "Gate 合约积分交易加码，日日交易，最高领 200 USDT4 小时前533",
+          "detail": "Gate 合约积分交易加码，日日交易，最高领 200 USDT6 小时前609",
           "url": "https://www.gate.com/zh/announcements/article/101048",
           "dates": [
             "2026-08-07"
@@ -615,7 +615,7 @@
         {
           "token": "CJS",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 CJS（中国巨石 600176.SH）等 10 个永续合...9 小时前1,364",
+          "detail": "Gate 合约股票专区将上线 CJS（中国巨石 600176.SH）等 10 个永续合...10 小时前1,413",
           "url": "https://www.gate.com/zh/announcements/article/101041",
           "dates": [
             "2026-08-07"
@@ -624,7 +624,7 @@
         {
           "token": "PosM",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 PosM (Possum)9 小时前386",
+          "detail": "Gate Alpha 首发上线 PosM (Possum)10 小时前412",
           "url": "https://www.gate.com/zh/announcements/article/101040",
           "dates": [
             "2026-08-07"
