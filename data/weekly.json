@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-02",
   "weekEnd": "2026-08-08",
-  "updatedAt": "2026-08-08T10:54:19.544Z",
+  "updatedAt": "2026-08-08T11:03:29.337Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -593,7 +593,7 @@
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "新用户专享：100% 中奖，最高赢取 1,000 USDT1 天前1,345",
+          "detail": "新用户专享：100% 中奖，最高赢取 1,000 USDT1 天前1,352",
           "url": "https://www.gate.com/zh/announcements/article/101051",
           "dates": [
             "2026-08-08"
