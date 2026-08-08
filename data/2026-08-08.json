@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T11:03:29.135Z",
+  "updatedAt": "2026-08-08T12:23:38.625Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -46,19 +46,19 @@
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "新用户专享：100% 中奖，最高赢取 1,000 USDT1 天前1,352",
+          "detail": "新用户专享：100% 中奖，最高赢取 1,000 USDT1 天前1,398",
           "url": "https://www.gate.com/zh/announcements/article/101051"
         },
         {
           "token": "MNST",
           "type": "上线",
-          "detail": "Gate 关于 MNST 股票拆股进行相关调整的公告1 天前842",
+          "detail": "Gate 关于 MNST 股票拆股进行相关调整的公告1 天前876",
           "url": "https://www.gate.com/zh/announcements/article/101049"
         },
         {
           "token": "PosM",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 PosM (Possum)1 天前837",
+          "detail": "Gate Alpha 首发上线 PosM (Possum)1 天前855",
           "url": "https://www.gate.com/zh/announcements/article/101040"
         }
       ]
