@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-08-02",
-  "weekEnd": "2026-08-08",
-  "updatedAt": "2026-08-08T13:43:54.813Z",
+  "weekStart": "2026-08-03",
+  "weekEnd": "2026-08-09",
+  "updatedAt": "2026-08-09T10:56:11.263Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -151,6 +151,15 @@
         }
       ],
       "alpha": [
+        {
+          "token": "DAPPOS",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 DOS (DAPPOS) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2086355840311926814",
+          "dates": [
+            "2026-08-09"
+          ]
+        },
         {
           "token": "ALABB",
           "type": "上线",
@@ -897,6 +906,15 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "TOAD",
+          "type": "Meme+ 现货",
+          "detail": "TOAD 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537400",
+          "dates": [
+            "2026-08-09"
+          ]
+        },
         {
           "token": "PAYC",
           "type": "美股合约",
@@ -1859,42 +1877,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-cateusdt-from-innovation-zone-to-main-board-on-aug-3-2026-04-17827791537205",
           "dates": [
             "2026-08-03"
-          ]
-        },
-        {
-          "token": "AON",
-          "type": "现货上线",
-          "detail": "AON（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
-          "dates": [
-            "2026-08-02"
-          ]
-        },
-        {
-          "token": "CTSH",
-          "type": "现货上线",
-          "detail": "CTSH（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
-          "dates": [
-            "2026-08-02"
-          ]
-        },
-        {
-          "token": "EXPE",
-          "type": "现货上线",
-          "detail": "EXPE（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
-          "dates": [
-            "2026-08-02"
-          ]
-        },
-        {
-          "token": "GDX",
-          "type": "现货上线",
-          "detail": "GDX（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537191",
-          "dates": [
-            "2026-08-02"
           ]
         }
       ]
