@@ -1,0 +1,240 @@
+{
+  "date": "2026-08-10",
+  "updatedAt": "2026-08-10T11:26:09.607Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "RIE",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-11)",
+          "url": "https://www.binance.com/en/support/announcement/45c2f20d589b420e80063ab75feb41f2"
+        }
+      ],
+      "alpha": [
+        {
+          "token": "DOS",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 DOS - DAPPOS 专注打造低门槛的AI产品, 核心产品xBubble让用户低门槛获得AI生产力。",
+          "url": "https://www.binance.com/en/alpha/bsc/0xb0f09ea9ae0515c3551080d4a745c8115aa30e37"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "DOS",
+          "type": "永续合约",
+          "detail": "OKX 關於 DOS 永續合約正式上線的公告發佈於 2026年8月10日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-dos-crypto"
+        },
+        {
+          "token": "RAVEUSD",
+          "type": "永续合约",
+          "detail": "RAVEUSD（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-raveusd-crvusd-ordiusd-moodengusd-x-perps"
+        },
+        {
+          "token": "CRVUSD",
+          "type": "永续合约",
+          "detail": "CRVUSD（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-raveusd-crvusd-ordiusd-moodengusd-x-perps"
+        },
+        {
+          "token": "ORDIUSD",
+          "type": "永续合约",
+          "detail": "ORDIUSD（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-raveusd-crvusd-ordiusd-moodengusd-x-perps"
+        },
+        {
+          "token": "MOODENGUSD",
+          "type": "永续合约",
+          "detail": "MOODENGUSD（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-raveusd-crvusd-ordiusd-moodengusd-x-perps"
+        },
+        {
+          "token": "SKUU",
+          "type": "美股合约",
+          "detail": "SKUU（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-skuu-skdd-and-ko-equities"
+        },
+        {
+          "token": "SKDD",
+          "type": "美股合约",
+          "detail": "SKDD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-skuu-skdd-and-ko-equities"
+        },
+        {
+          "token": "KO",
+          "type": "美股合约",
+          "detail": "KO（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-skuu-skdd-and-ko-equities"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "OUST",
+          "type": "永续合约",
+          "detail": "OUSTUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-oustusdt-perpetual-contract-with-up-to-25x-leverage--art15fe79d8c030/"
+        },
+        {
+          "token": "SKDD",
+          "type": "永续合约",
+          "detail": "SKDDUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skddusdt-perpetual-contract-with-up-to-25x-leverage--art49b02c760333/"
+        },
+        {
+          "token": "SKUU",
+          "type": "永续合约",
+          "detail": "SKUUUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skuuusdt-perpetual-contract-with-up-to-25x-leverage--artfa017f9229d9/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "BICO",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: BICOUSDT Perpetual Contract with Up to 20x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-bicousdt-perpetual-contract-with-up-to-20x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "DOS",
+          "type": "Launchpool",
+          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...2 小时前1,136",
+          "url": "https://www.gate.com/zh/announcements/article/101067"
+        },
+        {
+          "token": "XAUT",
+          "type": "上线",
+          "detail": "合约黄金矿场升级：享 XAUT 倍率加成，最高解锁 10 XAUT4 小时前510",
+          "url": "https://www.gate.com/zh/announcements/article/101065"
+        },
+        {
+          "token": "ASML",
+          "type": "上线",
+          "detail": "ASML（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101063"
+        },
+        {
+          "token": "MA",
+          "type": "上线",
+          "detail": "MA（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101063"
+        },
+        {
+          "token": "TOAD",
+          "type": "现货上线",
+          "detail": "TOAD（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101057"
+        },
+        {
+          "token": "LOUIE",
+          "type": "现货上线",
+          "detail": "LOUIE（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101057"
+        },
+        {
+          "token": "BLINK",
+          "type": "现货上线",
+          "detail": "BLINK（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101057"
+        },
+        {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "关于调整 USD1 持币生息收益的公告10 小时前657",
+          "url": "https://www.gate.com/zh/announcements/article/101055"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "TOAD",
+          "type": "跟单合约",
+          "detail": "TOAD（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-toad-and-bullcoin-usdt-m-futures-17827791537420"
+        },
+        {
+          "token": "BULLCOIN",
+          "type": "跟单合约",
+          "detail": "BULLCOIN（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-toad-and-bullcoin-usdt-m-futures-17827791537420"
+        },
+        {
+          "token": "TOAD",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年8月10日 14:30 (UTC+8) 上線 TOAD USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-toad-usdt-m-futures-on-aug-10-2026-06-17827791537419"
+        },
+        {
+          "token": "BULLCOIN",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年8月10日 14:30 (UTC+8) 上線 BULLCOINUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537418"
+        },
+        {
+          "token": "PAYC",
+          "type": "跟单合约",
+          "detail": "PAYC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-payc-mtsi-htz-and-cava-usdt-m-futures-17827791537417"
+        },
+        {
+          "token": "MTSI",
+          "type": "跟单合约",
+          "detail": "MTSI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-payc-mtsi-htz-and-cava-usdt-m-futures-17827791537417"
+        },
+        {
+          "token": "HTZ",
+          "type": "跟单合约",
+          "detail": "HTZ（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-payc-mtsi-htz-and-cava-usdt-m-futures-17827791537417"
+        },
+        {
+          "token": "CAVA",
+          "type": "跟单合约",
+          "detail": "CAVA（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-payc-mtsi-htz-and-cava-usdt-m-futures-17827791537417"
+        },
+        {
+          "token": "DOS",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 DAPPOS (DOS) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537404"
+        },
+        {
+          "token": "DOS",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：DAPPOS (DOS) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537403"
+        },
+        {
+          "token": "BOYZ",
+          "type": "Meme+ 现货",
+          "detail": "BOYZ 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537396"
+        },
+        {
+          "token": "MANCER",
+          "type": "Meme+ 现货",
+          "detail": "MANCER 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537391"
+        }
+      ]
+    }
+  }
+}
