@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T12:42:55.842Z",
+  "updatedAt": "2026-08-10T14:16:54.773Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -108,21 +108,33 @@
     "gateio": {
       "listings": [
         {
+          "token": "TUTUSDT",
+          "type": "永续合约",
+          "detail": "TUTUSDT（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101073"
+        },
+        {
+          "token": "BICOUSDT",
+          "type": "永续合约",
+          "detail": "BICOUSDT（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101073"
+        },
+        {
           "token": "MARVIN",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 MARVIN (The Martian Dog)14 分钟前47",
+          "detail": "Gate Alpha 首发上线 MARVIN (The Martian Dog)2 小时前240",
           "url": "https://www.gate.com/zh/announcements/article/101072"
         },
         {
           "token": "DOS",
           "type": "Launchpool",
-          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...3 小时前1,327",
+          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...5 小时前1,540",
           "url": "https://www.gate.com/zh/announcements/article/101067"
         },
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "合约黄金矿场升级：享 XAUT 倍率加成，最高解锁 10 XAUT5 小时前599",
+          "detail": "合约黄金矿场升级：享 XAUT 倍率加成，最高解锁 10 XAUT7 小时前701",
           "url": "https://www.gate.com/zh/announcements/article/101065"
         },
         {
