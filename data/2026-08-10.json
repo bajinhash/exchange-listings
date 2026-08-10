@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T11:36:33.816Z",
+  "updatedAt": "2026-08-10T12:42:55.842Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -108,15 +108,21 @@
     "gateio": {
       "listings": [
         {
+          "token": "MARVIN",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 MARVIN (The Martian Dog)14 分钟前47",
+          "url": "https://www.gate.com/zh/announcements/article/101072"
+        },
+        {
           "token": "DOS",
           "type": "Launchpool",
-          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...2 小时前1,161",
+          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...3 小时前1,327",
           "url": "https://www.gate.com/zh/announcements/article/101067"
         },
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "合约黄金矿场升级：享 XAUT 倍率加成，最高解锁 10 XAUT4 小时前517",
+          "detail": "合约黄金矿场升级：享 XAUT 倍率加成，最高解锁 10 XAUT5 小时前599",
           "url": "https://www.gate.com/zh/announcements/article/101065"
         },
         {
@@ -148,12 +154,6 @@
           "type": "现货上线",
           "detail": "BLINK（同公告含 3 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101057"
-        },
-        {
-          "token": "USD1",
-          "type": "上线",
-          "detail": "关于调整 USD1 持币生息收益的公告10 小时前664",
-          "url": "https://www.gate.com/zh/announcements/article/101055"
         }
       ]
     },

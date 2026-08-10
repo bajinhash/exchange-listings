@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-04",
   "weekEnd": "2026-08-10",
-  "updatedAt": "2026-08-10T11:36:33.993Z",
+  "updatedAt": "2026-08-10T12:42:56.029Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -624,19 +624,18 @@
     "gateio": {
       "listings": [
         {
-          "token": "USD1",
-          "type": "上线",
-          "detail": "关于调整 USD1 持币生息收益率的公告8 小时前966",
-          "url": "https://www.gate.com/zh/announcements/article/101011",
+          "token": "MARVIN",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 MARVIN (The Martian Dog)14 分钟前47",
+          "url": "https://www.gate.com/zh/announcements/article/101072",
           "dates": [
-            "2026-08-05",
             "2026-08-10"
           ]
         },
         {
           "token": "DOS",
           "type": "Launchpool",
-          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...2 小时前1,161",
+          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...3 小时前1,327",
           "url": "https://www.gate.com/zh/announcements/article/101067",
           "dates": [
             "2026-08-10"
@@ -645,7 +644,7 @@
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "合约黄金矿场升级：享 XAUT 倍率加成，最高解锁 10 XAUT4 小时前517",
+          "detail": "合约黄金矿场升级：享 XAUT 倍率加成，最高解锁 10 XAUT5 小时前599",
           "url": "https://www.gate.com/zh/announcements/article/101065",
           "dates": [
             "2026-08-10"
@@ -795,6 +794,15 @@
           "type": "永续合约",
           "detail": "Gate 合约股票专区将上线 KIOXIA（铠侠控股 285A.T）永续合约交易（...5 小时前1,100",
           "url": "https://www.gate.com/zh/announcements/article/101015",
+          "dates": [
+            "2026-08-05"
+          ]
+        },
+        {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "关于调整 USD1 持币生息收益率的公告8 小时前966",
+          "url": "https://www.gate.com/zh/announcements/article/101011",
           "dates": [
             "2026-08-05"
           ]
