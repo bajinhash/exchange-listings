@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-04",
   "weekEnd": "2026-08-10",
-  "updatedAt": "2026-08-10T11:26:09.766Z",
+  "updatedAt": "2026-08-10T11:36:33.993Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -636,7 +636,7 @@
         {
           "token": "DOS",
           "type": "Launchpool",
-          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...2 小时前1,136",
+          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...2 小时前1,161",
           "url": "https://www.gate.com/zh/announcements/article/101067",
           "dates": [
             "2026-08-10"
@@ -645,7 +645,7 @@
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "合约黄金矿场升级：享 XAUT 倍率加成，最高解锁 10 XAUT4 小时前510",
+          "detail": "合约黄金矿场升级：享 XAUT 倍率加成，最高解锁 10 XAUT4 小时前517",
           "url": "https://www.gate.com/zh/announcements/article/101065",
           "dates": [
             "2026-08-10"
