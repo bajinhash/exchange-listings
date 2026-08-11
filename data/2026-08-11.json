@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T11:10:07.500Z",
+  "updatedAt": "2026-08-11T11:19:08.377Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -94,9 +94,51 @@
     "gateio": {
       "listings": [
         {
+          "token": "GUSD",
+          "type": "上线",
+          "detail": "GUSD 交易打卡营：三重玩法赢好礼，瓜分 $110,000 奖池4 小时前449",
+          "url": "https://www.gate.com/zh/announcements/article/101085"
+        },
+        {
+          "token": "DOGE",
+          "type": "上线",
+          "detail": "合约新人专享：最高赢 250 DOGE，叠加再领 500 USDT 空投7 小时前667",
+          "url": "https://www.gate.com/zh/announcements/article/101082"
+        },
+        {
+          "token": "LITE3L",
+          "type": "上线",
+          "detail": "Gate ETF 上线 LITE3L/3S、PLTRX3L/3S、DELL3L/3S、QCOM3L/3S7 小时前432",
+          "url": "https://www.gate.com/zh/announcements/article/101080"
+        },
+        {
+          "token": "MANLET",
+          "type": "现货上线",
+          "detail": "MANLET（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101077"
+        },
+        {
+          "token": "UP",
+          "type": "现货上线",
+          "detail": "UP（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101077"
+        },
+        {
+          "token": "HMM",
+          "type": "现货上线",
+          "detail": "HMM（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101077"
+        },
+        {
+          "token": "CETS",
+          "type": "现货上线",
+          "detail": "CETS（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101077"
+        },
+        {
           "token": "DOS",
           "type": "Launchpool",
-          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...1 天前3,005",
+          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...1 天前3,009",
           "url": "https://www.gate.com/zh/announcements/article/101067"
         }
       ]
