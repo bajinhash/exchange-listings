@@ -1,0 +1,245 @@
+{
+  "date": "2026-08-11",
+  "updatedAt": "2026-08-11T11:10:07.500Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "ROBOUSD",
+          "type": "永续合约",
+          "detail": "ROBOUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-robousd-arbsd-opusd-x-perps"
+        },
+        {
+          "token": "ARBUSD",
+          "type": "永续合约",
+          "detail": "ARBUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-robousd-arbsd-opusd-x-perps"
+        },
+        {
+          "token": "OPUSD",
+          "type": "永续合约",
+          "detail": "OPUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-robousd-arbsd-opusd-x-perps"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "CSOPSKHYNIX2L",
+          "type": "永续合约",
+          "detail": "CSOPSKHYNIX2LUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-csopskhynix2lusdt-perpetual-contract-with-up-to-20x-leverage--art4a66a47ad279/"
+        },
+        {
+          "token": "CSOPSAMSUNG2L",
+          "type": "永续合约",
+          "detail": "CSOPSAMSUNG2LUSDT 永續合約全新上線， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-csopsamsung2lusdt-perpetual-contract-with-up-to-20x-leverage--artf2bf745905ab/"
+        },
+        {
+          "token": "MEITUAN",
+          "type": "永续合约",
+          "detail": "MEITUANUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-meituanusdt-perpetual-contract-with-up-to-25x-leverage--artf28854e4db7b/"
+        },
+        {
+          "token": "KUAISHOU",
+          "type": "永续合约",
+          "detail": "KUAISHOUUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-kuaishouusdt-perpetual-contract-with-up-to-25x-leverage--art4b0805b03863/"
+        },
+        {
+          "token": "OUST",
+          "type": "永续合约",
+          "detail": "OUSTUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-oustusdt-perpetual-contract-with-up-to-25x-leverage--art15fe79d8c030/"
+        },
+        {
+          "token": "SKDD",
+          "type": "永续合约",
+          "detail": "SKDDUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skddusdt-perpetual-contract-with-up-to-25x-leverage--art49b02c760333/"
+        },
+        {
+          "token": "SKUU",
+          "type": "永续合约",
+          "detail": "SKUUUSDT 永續合約全新上線， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skuuusdt-perpetual-contract-with-up-to-25x-leverage--artfa017f9229d9/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "DOS",
+          "type": "现货上线",
+          "detail": "DAPPOS (DOS) Listed on KuCoinTrading: 12:00 on August 11, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-dappos-dos-listed-on-kucoin"
+        },
+        {
+          "token": "AIR",
+          "type": "现货上线",
+          "detail": "HODLer Airdrops: AI Router Protocol (AIR) World Premiere Listing on KuCoinTrading: 08:00 on August 12, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-hodler-airdrops-ai-router-protocol-air-world-premiere-listing-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "DOS",
+          "type": "Launchpool",
+          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...1 天前3,005",
+          "url": "https://www.gate.com/zh/announcements/article/101067"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DOS",
+          "type": "上线",
+          "detail": "DOSUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891631"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "KUAISHOU",
+          "type": "美股合约",
+          "detail": "KUAISHOU（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kuaishou-meituan-csopskhynix2l-and-csopsamsung2l-stock-futures-with-0-fee-trading-on-aug-11-17827791537452"
+        },
+        {
+          "token": "MEITUAN",
+          "type": "美股合约",
+          "detail": "MEITUAN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kuaishou-meituan-csopskhynix2l-and-csopsamsung2l-stock-futures-with-0-fee-trading-on-aug-11-17827791537452"
+        },
+        {
+          "token": "CSOPSKHYNIX2L",
+          "type": "美股合约",
+          "detail": "CSOPSKHYNIX2L（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kuaishou-meituan-csopskhynix2l-and-csopsamsung2l-stock-futures-with-0-fee-trading-on-aug-11-17827791537452"
+        },
+        {
+          "token": "CSOPSAMSUNG2L",
+          "type": "美股合约",
+          "detail": "CSOPSAMSUNG2L（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kuaishou-meituan-csopskhynix2l-and-csopsamsung2l-stock-futures-with-0-fee-trading-on-aug-11-17827791537452"
+        },
+        {
+          "token": "ALON",
+          "type": "Meme+ 现货",
+          "detail": "ALON 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537445"
+        },
+        {
+          "token": "KRMN",
+          "type": "跟单合约",
+          "detail": "KRMN（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-krmn-enph-ntra-skdd-and-skuu-usdt-m-futures-17827791537444"
+        },
+        {
+          "token": "ENPH",
+          "type": "跟单合约",
+          "detail": "ENPH（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-krmn-enph-ntra-skdd-and-skuu-usdt-m-futures-17827791537444"
+        },
+        {
+          "token": "NTRA",
+          "type": "跟单合约",
+          "detail": "NTRA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-krmn-enph-ntra-skdd-and-skuu-usdt-m-futures-17827791537444"
+        },
+        {
+          "token": "SKDD",
+          "type": "跟单合约",
+          "detail": "SKDD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-krmn-enph-ntra-skdd-and-skuu-usdt-m-futures-17827791537444"
+        },
+        {
+          "token": "SKUU",
+          "type": "跟单合约",
+          "detail": "SKUU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-krmn-enph-ntra-skdd-and-skuu-usdt-m-futures-17827791537444"
+        },
+        {
+          "token": "UPROBINHOOD",
+          "type": "跟单合约",
+          "detail": "UPROBINHOOD（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-uprobinhood-and-dos-usdt-m-futures-17827791537443"
+        },
+        {
+          "token": "DOS",
+          "type": "跟单合约",
+          "detail": "DOS（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-uprobinhood-and-dos-usdt-m-futures-17827791537443"
+        },
+        {
+          "token": "DOS",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年8月11日 13:15 (UTC+8) 上線 DAPPOS (DOS) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-dappos-dos-usdt-m-futures-on-aug-11-2026-05-17827791537442"
+        },
+        {
+          "token": "UPROBINHOOD",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年8月11日 13:15 (UTC+8) 上線 UPROBINHOODUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537441"
+        },
+        {
+          "token": "KRMN",
+          "type": "美股合约",
+          "detail": "KRMN（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-krmn-enph-ntra-skdd-and-skuu-stock-futures-with-0-fee-trading-on-aug-10-17827791537440"
+        },
+        {
+          "token": "ENPH",
+          "type": "美股合约",
+          "detail": "ENPH（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-krmn-enph-ntra-skdd-and-skuu-stock-futures-with-0-fee-trading-on-aug-10-17827791537440"
+        },
+        {
+          "token": "NTRA",
+          "type": "美股合约",
+          "detail": "NTRA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-krmn-enph-ntra-skdd-and-skuu-stock-futures-with-0-fee-trading-on-aug-10-17827791537440"
+        },
+        {
+          "token": "SKDD",
+          "type": "美股合约",
+          "detail": "SKDD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-krmn-enph-ntra-skdd-and-skuu-stock-futures-with-0-fee-trading-on-aug-10-17827791537440"
+        },
+        {
+          "token": "SKUU",
+          "type": "美股合约",
+          "detail": "SKUU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-krmn-enph-ntra-skdd-and-skuu-stock-futures-with-0-fee-trading-on-aug-10-17827791537440"
+        },
+        {
+          "token": "AIR",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 AI Router Protocol (AIR)，瓜分 1,250,000 AIR & 10,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537437"
+        },
+        {
+          "token": "TOAD",
+          "type": "上线",
+          "detail": "TOAD 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-toad-to-innovation-zone-17827791537426"
+        }
+      ]
+    }
+  }
+}
