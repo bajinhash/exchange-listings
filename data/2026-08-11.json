@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T11:19:08.377Z",
+  "updatedAt": "2026-08-11T12:38:39.307Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -94,51 +94,33 @@
     "gateio": {
       "listings": [
         {
+          "token": "BTC",
+          "type": "永续合约",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（8 月 13 日 00:00 – 00:30 UTC+8）36 分钟前159",
+          "url": "https://www.gate.com/zh/announcements/article/101092"
+        },
+        {
           "token": "GUSD",
           "type": "上线",
-          "detail": "GUSD 交易打卡营：三重玩法赢好礼，瓜分 $110,000 奖池4 小时前449",
+          "detail": "GUSD 交易打卡营：三重玩法赢好礼，瓜分 $110,000 奖池5 小时前545",
           "url": "https://www.gate.com/zh/announcements/article/101085"
         },
         {
           "token": "DOGE",
           "type": "上线",
-          "detail": "合约新人专享：最高赢 250 DOGE，叠加再领 500 USDT 空投7 小时前667",
+          "detail": "合约新人专享：最高赢 250 DOGE，叠加再领 500 USDT 空投9 小时前758",
           "url": "https://www.gate.com/zh/announcements/article/101082"
         },
         {
           "token": "LITE3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 LITE3L/3S、PLTRX3L/3S、DELL3L/3S、QCOM3L/3S7 小时前432",
+          "detail": "Gate ETF 上线 LITE3L/3S、PLTRX3L/3S、DELL3L/3S、QCOM3L/3S9 小时前484",
           "url": "https://www.gate.com/zh/announcements/article/101080"
-        },
-        {
-          "token": "MANLET",
-          "type": "现货上线",
-          "detail": "MANLET（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101077"
-        },
-        {
-          "token": "UP",
-          "type": "现货上线",
-          "detail": "UP（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101077"
-        },
-        {
-          "token": "HMM",
-          "type": "现货上线",
-          "detail": "HMM（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101077"
-        },
-        {
-          "token": "CETS",
-          "type": "现货上线",
-          "detail": "CETS（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101077"
         },
         {
           "token": "DOS",
           "type": "Launchpool",
-          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...1 天前3,009",
+          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...1 天前3,090",
           "url": "https://www.gate.com/zh/announcements/article/101067"
         }
       ]
@@ -155,6 +137,30 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "VLO",
+          "type": "美股合约",
+          "detail": "VLO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vlo-mpc-dvn-and-bkr-stock-futures-with-0-fee-trading-on-aug-11-17827791537470"
+        },
+        {
+          "token": "MPC",
+          "type": "美股合约",
+          "detail": "MPC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vlo-mpc-dvn-and-bkr-stock-futures-with-0-fee-trading-on-aug-11-17827791537470"
+        },
+        {
+          "token": "DVN",
+          "type": "美股合约",
+          "detail": "DVN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vlo-mpc-dvn-and-bkr-stock-futures-with-0-fee-trading-on-aug-11-17827791537470"
+        },
+        {
+          "token": "BKR",
+          "type": "美股合约",
+          "detail": "BKR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vlo-mpc-dvn-and-bkr-stock-futures-with-0-fee-trading-on-aug-11-17827791537470"
+        },
         {
           "token": "KUAISHOU",
           "type": "美股合约",
@@ -274,12 +280,6 @@
           "type": "现货上线",
           "detail": "MEXC 將於創新區上線 AI Router Protocol (AIR)，瓜分 1,250,000 AIR & 10,000 USDT Airdrop+ 獎池！",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537437"
-        },
-        {
-          "token": "TOAD",
-          "type": "上线",
-          "detail": "TOAD 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-toad-to-innovation-zone-17827791537426"
         }
       ]
     }

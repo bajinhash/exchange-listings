@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-05",
   "weekEnd": "2026-08-11",
-  "updatedAt": "2026-08-11T11:19:08.495Z",
+  "updatedAt": "2026-08-11T12:38:39.490Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -697,9 +697,18 @@
           ]
         },
         {
+          "token": "BTC",
+          "type": "永续合约",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（8 月 13 日 00:00 – 00:30 UTC+8）36 分钟前159",
+          "url": "https://www.gate.com/zh/announcements/article/101092",
+          "dates": [
+            "2026-08-11"
+          ]
+        },
+        {
           "token": "GUSD",
           "type": "上线",
-          "detail": "GUSD 交易打卡营：三重玩法赢好礼，瓜分 $110,000 奖池4 小时前449",
+          "detail": "GUSD 交易打卡营：三重玩法赢好礼，瓜分 $110,000 奖池5 小时前545",
           "url": "https://www.gate.com/zh/announcements/article/101085",
           "dates": [
             "2026-08-11"
@@ -708,7 +717,7 @@
         {
           "token": "DOGE",
           "type": "上线",
-          "detail": "合约新人专享：最高赢 250 DOGE，叠加再领 500 USDT 空投7 小时前667",
+          "detail": "合约新人专享：最高赢 250 DOGE，叠加再领 500 USDT 空投9 小时前758",
           "url": "https://www.gate.com/zh/announcements/article/101082",
           "dates": [
             "2026-08-11"
@@ -717,44 +726,8 @@
         {
           "token": "LITE3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 LITE3L/3S、PLTRX3L/3S、DELL3L/3S、QCOM3L/3S7 小时前432",
+          "detail": "Gate ETF 上线 LITE3L/3S、PLTRX3L/3S、DELL3L/3S、QCOM3L/3S9 小时前484",
           "url": "https://www.gate.com/zh/announcements/article/101080",
-          "dates": [
-            "2026-08-11"
-          ]
-        },
-        {
-          "token": "MANLET",
-          "type": "现货上线",
-          "detail": "MANLET（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101077",
-          "dates": [
-            "2026-08-11"
-          ]
-        },
-        {
-          "token": "UP",
-          "type": "现货上线",
-          "detail": "UP（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101077",
-          "dates": [
-            "2026-08-11"
-          ]
-        },
-        {
-          "token": "HMM",
-          "type": "现货上线",
-          "detail": "HMM（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101077",
-          "dates": [
-            "2026-08-11"
-          ]
-        },
-        {
-          "token": "CETS",
-          "type": "现货上线",
-          "detail": "CETS（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101077",
           "dates": [
             "2026-08-11"
           ]
@@ -1018,12 +991,38 @@
           ]
         },
         {
-          "token": "TOAD",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年8月10日 14:30 (UTC+8) 上線 TOAD USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-toad-usdt-m-futures-on-aug-10-2026-06-17827791537419",
+          "token": "VLO",
+          "type": "美股合约",
+          "detail": "VLO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vlo-mpc-dvn-and-bkr-stock-futures-with-0-fee-trading-on-aug-11-17827791537470",
           "dates": [
-            "2026-08-10",
+            "2026-08-11"
+          ]
+        },
+        {
+          "token": "MPC",
+          "type": "美股合约",
+          "detail": "MPC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vlo-mpc-dvn-and-bkr-stock-futures-with-0-fee-trading-on-aug-11-17827791537470",
+          "dates": [
+            "2026-08-11"
+          ]
+        },
+        {
+          "token": "DVN",
+          "type": "美股合约",
+          "detail": "DVN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vlo-mpc-dvn-and-bkr-stock-futures-with-0-fee-trading-on-aug-11-17827791537470",
+          "dates": [
+            "2026-08-11"
+          ]
+        },
+        {
+          "token": "BKR",
+          "type": "美股合约",
+          "detail": "BKR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vlo-mpc-dvn-and-bkr-stock-futures-with-0-fee-trading-on-aug-11-17827791537470",
+          "dates": [
             "2026-08-11"
           ]
         },
@@ -1232,6 +1231,15 @@
           "type": "跟单合约",
           "detail": "BULLCOIN（同公告含 2 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-toad-and-bullcoin-usdt-m-futures-17827791537420",
+          "dates": [
+            "2026-08-10"
+          ]
+        },
+        {
+          "token": "TOAD",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年8月10日 14:30 (UTC+8) 上線 TOAD USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-toad-usdt-m-futures-on-aug-10-2026-06-17827791537419",
           "dates": [
             "2026-08-10"
           ]
