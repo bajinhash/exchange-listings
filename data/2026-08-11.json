@@ -1,9 +1,16 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T12:38:39.307Z",
+  "updatedAt": "2026-08-11T14:16:43.113Z",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "DOS",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined DOSUSDT Perpetual Contract (2026-08-11)",
+          "url": "https://www.binance.com/en/support/announcement/a2ee872d61654a5bb43a87c3122b5706"
+        }
+      ],
       "alpha": [],
       "wallet": []
     },
@@ -96,31 +103,31 @@
         {
           "token": "BTC",
           "type": "永续合约",
-          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（8 月 13 日 00:00 – 00:30 UTC+8）36 分钟前159",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（8 月 13 日 00:00 – 00:30 UTC+8）2 小时前349",
           "url": "https://www.gate.com/zh/announcements/article/101092"
         },
         {
           "token": "GUSD",
           "type": "上线",
-          "detail": "GUSD 交易打卡营：三重玩法赢好礼，瓜分 $110,000 奖池5 小时前545",
+          "detail": "GUSD 交易打卡营：三重玩法赢好礼，瓜分 $110,000 奖池7 小时前637",
           "url": "https://www.gate.com/zh/announcements/article/101085"
         },
         {
           "token": "DOGE",
           "type": "上线",
-          "detail": "合约新人专享：最高赢 250 DOGE，叠加再领 500 USDT 空投9 小时前758",
+          "detail": "合约新人专享：最高赢 250 DOGE，叠加再领 500 USDT 空投10 小时前820",
           "url": "https://www.gate.com/zh/announcements/article/101082"
         },
         {
           "token": "LITE3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 LITE3L/3S、PLTRX3L/3S、DELL3L/3S、QCOM3L/3S9 小时前484",
+          "detail": "Gate ETF 上线 LITE3L/3S、PLTRX3L/3S、DELL3L/3S、QCOM3L/3S10 小时前531",
           "url": "https://www.gate.com/zh/announcements/article/101080"
         },
         {
           "token": "DOS",
           "type": "Launchpool",
-          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...1 天前3,090",
+          "detail": "Gate 将上线 DAPPOS (DOS) 现货交易、闪兑交易并开启 Launchpool，质押...1 天前3,188",
           "url": "https://www.gate.com/zh/announcements/article/101067"
         }
       ]
