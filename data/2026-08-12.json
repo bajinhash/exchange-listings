@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T11:16:44.587Z",
+  "updatedAt": "2026-08-12T11:25:59.390Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -135,7 +135,38 @@
       ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "XAUT6",
+          "type": "上线",
+          "detail": "“金”喜情人节：百分百有礼，最高抽取 1 XAUT6 分钟前58",
+          "url": "https://www.gate.com/zh/announcements/article/101118"
+        },
+        {
+          "token": "DOS1",
+          "type": "上线",
+          "detail": "新人福利四重奏，轻松领走最高 50 DOS1 小时前293",
+          "url": "https://www.gate.com/zh/announcements/article/101116"
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "交易机器人 100% 中奖，抽 10g 黄金 和 100,000 USDT1 小时前294",
+          "url": "https://www.gate.com/zh/announcements/article/101115"
+        },
+        {
+          "token": "USDT2",
+          "type": "上线",
+          "detail": "CFD 新人奖励专区：首单领 500 USDx，冲榜再得 1,888 USDT2 小时前402",
+          "url": "https://www.gate.com/zh/announcements/article/101114"
+        },
+        {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "关于调整 USD1 持币生息收益的公告4 小时前336",
+          "url": "https://www.gate.com/zh/announcements/article/101106"
+        }
+      ]
     },
     "bitget": {
       "listings": [
