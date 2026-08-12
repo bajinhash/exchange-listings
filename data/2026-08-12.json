@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T12:42:53.753Z",
+  "updatedAt": "2026-08-12T14:17:44.293Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -35,7 +35,14 @@
           "url": "https://www.binance.com/en/support/announcement/a2ee872d61654a5bb43a87c3122b5706"
         }
       ],
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "GMEB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 GMEB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x46ceefda28dd7207059ed19b0acdc026955bb15c"
+        }
+      ],
       "wallet": []
     },
     "okx": {
@@ -137,33 +144,33 @@
     "gateio": {
       "listings": [
         {
-          "token": "XAUT1",
+          "token": "XAUT3",
           "type": "上线",
-          "detail": "“金”喜情人节：百分百有礼，最高抽取 1 XAUT1 小时前329",
+          "detail": "“金”喜情人节：百分百有礼，最高抽取 1 XAUT3 小时前517",
           "url": "https://www.gate.com/zh/announcements/article/101118"
         },
         {
-          "token": "DOS3",
+          "token": "DOS4",
           "type": "上线",
-          "detail": "新人福利四重奏，轻松领走最高 50 DOS3 小时前404",
+          "detail": "新人福利四重奏，轻松领走最高 50 DOS4 小时前546",
           "url": "https://www.gate.com/zh/announcements/article/101116"
-        },
-        {
-          "token": "USDT3",
-          "type": "上线",
-          "detail": "交易机器人 100% 中奖，抽 10g 黄金 和 100,000 USDT3 小时前394",
-          "url": "https://www.gate.com/zh/announcements/article/101115"
         },
         {
           "token": "USDT4",
           "type": "上线",
-          "detail": "CFD 新人奖励专区：首单领 500 USDx，冲榜再得 1,888 USDT4 小时前491",
+          "detail": "交易机器人 100% 中奖，抽 10g 黄金 和 100,000 USDT4 小时前527",
+          "url": "https://www.gate.com/zh/announcements/article/101115"
+        },
+        {
+          "token": "USDT5",
+          "type": "上线",
+          "detail": "CFD 新人奖励专区：首单领 500 USDx，冲榜再得 1,888 USDT5 小时前597",
           "url": "https://www.gate.com/zh/announcements/article/101114"
         },
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息收益的公告6 小时前398",
+          "detail": "关于调整 USD1 持币生息收益的公告7 小时前479",
           "url": "https://www.gate.com/zh/announcements/article/101106"
         }
       ]
