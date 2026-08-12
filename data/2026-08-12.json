@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T11:25:59.390Z",
+  "updatedAt": "2026-08-12T12:42:53.753Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -137,33 +137,33 @@
     "gateio": {
       "listings": [
         {
-          "token": "XAUT6",
+          "token": "XAUT1",
           "type": "上线",
-          "detail": "“金”喜情人节：百分百有礼，最高抽取 1 XAUT6 分钟前58",
+          "detail": "“金”喜情人节：百分百有礼，最高抽取 1 XAUT1 小时前329",
           "url": "https://www.gate.com/zh/announcements/article/101118"
         },
         {
-          "token": "DOS1",
+          "token": "DOS3",
           "type": "上线",
-          "detail": "新人福利四重奏，轻松领走最高 50 DOS1 小时前293",
+          "detail": "新人福利四重奏，轻松领走最高 50 DOS3 小时前404",
           "url": "https://www.gate.com/zh/announcements/article/101116"
         },
         {
-          "token": "USDT1",
+          "token": "USDT3",
           "type": "上线",
-          "detail": "交易机器人 100% 中奖，抽 10g 黄金 和 100,000 USDT1 小时前294",
+          "detail": "交易机器人 100% 中奖，抽 10g 黄金 和 100,000 USDT3 小时前394",
           "url": "https://www.gate.com/zh/announcements/article/101115"
         },
         {
-          "token": "USDT2",
+          "token": "USDT4",
           "type": "上线",
-          "detail": "CFD 新人奖励专区：首单领 500 USDx，冲榜再得 1,888 USDT2 小时前402",
+          "detail": "CFD 新人奖励专区：首单领 500 USDx，冲榜再得 1,888 USDT4 小时前491",
           "url": "https://www.gate.com/zh/announcements/article/101114"
         },
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "关于调整 USD1 持币生息收益的公告4 小时前336",
+          "detail": "关于调整 USD1 持币生息收益的公告6 小时前398",
           "url": "https://www.gate.com/zh/announcements/article/101106"
         }
       ]
