@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T11:26:01.331Z",
+  "updatedAt": "2026-08-13T12:44:05.454Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -90,26 +90,39 @@
       ]
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "KII",
+          "type": "现货上线",
+          "detail": "World Premiere: KiiChain (KII) Listed on KuCoinTrading: 13:00 on August 14, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-World-premiere-kiichain-kii-listed-on-kucoin-20260813"
+        }
+      ]
     },
     "gateio": {
       "listings": [
         {
+          "token": "KIMI",
+          "type": "Pre-IPO 上线",
+          "detail": "关于 Gate Pre-IPOs 第三期：Moonshot AI (KIMI) 认购结束的说明公告38 分钟前145",
+          "url": "https://www.gate.com/zh/announcements/article/101143"
+        },
+        {
           "token": "ZHONGJI",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 ZHONGJI（中际旭创 03308.HK）等 5 个永续合...13 分钟前100",
+          "detail": "Gate 合约股票专区将上线 ZHONGJI（中际旭创 03308.HK）等 5 个永续合...2 小时前217",
           "url": "https://www.gate.com/zh/announcements/article/101141"
         },
         {
           "token": "utility",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 utility (utility token)3 小时前240",
+          "detail": "Gate Alpha 首发上线 utility (utility token)4 小时前297",
           "url": "https://www.gate.com/zh/announcements/article/101138"
         },
         {
-          "token": "USDT3",
+          "token": "USDT5",
           "type": "上线",
-          "detail": "闪兑新人双重礼：首兑领 100 USDT，交易再领 2 USDT3 小时前383",
+          "detail": "闪兑新人双重礼：首兑领 100 USDT，交易再领 2 USDT5 小时前468",
           "url": "https://www.gate.com/zh/announcements/article/101135"
         }
       ]
@@ -127,10 +140,46 @@
     "mexc": {
       "listings": [
         {
+          "token": "SAMSUNGEM",
+          "type": "美股合约",
+          "detail": "SAMSUNGEM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537543"
+        },
+        {
+          "token": "HANMI",
+          "type": "美股合约",
+          "detail": "HANMI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537543"
+        },
+        {
+          "token": "LGELECTRONICS",
+          "type": "美股合约",
+          "detail": "LGELECTRONICS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537543"
+        },
+        {
+          "token": "NAVER",
+          "type": "美股合约",
+          "detail": "NAVER（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537543"
+        },
+        {
+          "token": "KODEX200",
+          "type": "美股合约",
+          "detail": "KODEX200（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537543"
+        },
+        {
           "token": "UTILITY",
           "type": "Meme+ 现货",
           "detail": "UTILITY 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537542"
+        },
+        {
+          "token": "ENFLAME",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC將於8月13日18:00（UTC+8）上線ENFLAME（燧原科技）Pre-IPO合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537538"
         },
         {
           "token": "AA",
