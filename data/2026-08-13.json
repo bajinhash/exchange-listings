@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T12:44:05.454Z",
+  "updatedAt": "2026-08-13T14:19:18.298Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -11,14 +11,7 @@
           "url": "https://www.binance.com/en/support/announcement/343eff2647754fb1bd0664bba24e9a36"
         }
       ],
-      "alpha": [
-        {
-          "token": "GMEB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 GMEB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x46ceefda28dd7207059ed19b0acdc026955bb15c"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -104,25 +97,25 @@
         {
           "token": "KIMI",
           "type": "Pre-IPO 上线",
-          "detail": "关于 Gate Pre-IPOs 第三期：Moonshot AI (KIMI) 认购结束的说明公告38 分钟前145",
+          "detail": "关于 Gate Pre-IPOs 第三期：Moonshot AI (KIMI) 认购结束的说明公告2 小时前281",
           "url": "https://www.gate.com/zh/announcements/article/101143"
         },
         {
           "token": "ZHONGJI",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 ZHONGJI（中际旭创 03308.HK）等 5 个永续合...2 小时前217",
+          "detail": "Gate 合约股票专区将上线 ZHONGJI（中际旭创 03308.HK）等 5 个永续合...3 小时前330",
           "url": "https://www.gate.com/zh/announcements/article/101141"
         },
         {
           "token": "utility",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 utility (utility token)4 小时前297",
+          "detail": "Gate Alpha 首发上线 utility (utility token)5 小时前346",
           "url": "https://www.gate.com/zh/announcements/article/101138"
         },
         {
-          "token": "USDT5",
+          "token": "USDT6",
           "type": "上线",
-          "detail": "闪兑新人双重礼：首兑领 100 USDT，交易再领 2 USDT5 小时前468",
+          "detail": "闪兑新人双重礼：首兑领 100 USDT，交易再领 2 USDT6 小时前542",
           "url": "https://www.gate.com/zh/announcements/article/101135"
         }
       ]
@@ -134,6 +127,12 @@
           "type": "现货上线",
           "detail": "Bitget 关于上线 rVRSN、rHUBB、rBAP、rCTSH、rQSR 等25只股票现货的公告（rVRSN、rHUBB、rBAP、rCTSH、rQSR、rCRS、rDOW、rRF… 共 41 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603891719"
+        },
+        {
+          "token": "ANET",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 ANETUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891943"
         }
       ]
     },

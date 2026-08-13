@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-07",
   "weekEnd": "2026-08-13",
-  "updatedAt": "2026-08-13T12:44:05.624Z",
+  "updatedAt": "2026-08-13T14:19:18.505Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -69,8 +69,7 @@
           "detail": "Binance Alpha 上线 GMEB",
           "url": "https://www.binance.com/en/alpha/bsc/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
           "dates": [
-            "2026-08-12",
-            "2026-08-13"
+            "2026-08-12"
           ]
         },
         {
@@ -612,19 +611,9 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT5",
-          "type": "上线",
-          "detail": "CFD 新人奖励专区：首单领 500 USDx，冲榜再得 1,888 USDT5 小时前597",
-          "url": "https://www.gate.com/zh/announcements/article/101114",
-          "dates": [
-            "2026-08-12",
-            "2026-08-13"
-          ]
-        },
-        {
           "token": "KIMI",
           "type": "Pre-IPO 上线",
-          "detail": "关于 Gate Pre-IPOs 第三期：Moonshot AI (KIMI) 认购结束的说明公告38 分钟前145",
+          "detail": "关于 Gate Pre-IPOs 第三期：Moonshot AI (KIMI) 认购结束的说明公告2 小时前281",
           "url": "https://www.gate.com/zh/announcements/article/101143",
           "dates": [
             "2026-08-13"
@@ -633,7 +622,7 @@
         {
           "token": "ZHONGJI",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 ZHONGJI（中际旭创 03308.HK）等 5 个永续合...2 小时前217",
+          "detail": "Gate 合约股票专区将上线 ZHONGJI（中际旭创 03308.HK）等 5 个永续合...3 小时前330",
           "url": "https://www.gate.com/zh/announcements/article/101141",
           "dates": [
             "2026-08-13"
@@ -642,8 +631,17 @@
         {
           "token": "utility",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 utility (utility token)4 小时前297",
+          "detail": "Gate Alpha 首发上线 utility (utility token)5 小时前346",
           "url": "https://www.gate.com/zh/announcements/article/101138",
+          "dates": [
+            "2026-08-13"
+          ]
+        },
+        {
+          "token": "USDT6",
+          "type": "上线",
+          "detail": "闪兑新人双重礼：首兑领 100 USDT，交易再领 2 USDT6 小时前542",
+          "url": "https://www.gate.com/zh/announcements/article/101135",
           "dates": [
             "2026-08-13"
           ]
@@ -672,6 +670,15 @@
           "type": "上线",
           "detail": "新人福利四重奏，轻松领走最高 50 DOS4 小时前546",
           "url": "https://www.gate.com/zh/announcements/article/101116",
+          "dates": [
+            "2026-08-12"
+          ]
+        },
+        {
+          "token": "USDT5",
+          "type": "上线",
+          "detail": "CFD 新人奖励专区：首单领 500 USDx，冲榜再得 1,888 USDT5 小时前597",
+          "url": "https://www.gate.com/zh/announcements/article/101114",
           "dates": [
             "2026-08-12"
           ]
@@ -879,6 +886,15 @@
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603891719",
           "dates": [
             "2026-08-12",
+            "2026-08-13"
+          ]
+        },
+        {
+          "token": "ANET",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 ANETUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891943",
+          "dates": [
             "2026-08-13"
           ]
         },
