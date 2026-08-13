@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T11:16:47.877Z",
+  "updatedAt": "2026-08-13T11:26:01.331Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -97,19 +97,19 @@
         {
           "token": "ZHONGJI",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 ZHONGJI（中际旭创 03308.HK）等 5 个永续合...4 分钟前38",
+          "detail": "Gate 合约股票专区将上线 ZHONGJI（中际旭创 03308.HK）等 5 个永续合...13 分钟前100",
           "url": "https://www.gate.com/zh/announcements/article/101141"
         },
         {
           "token": "utility",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 utility (utility token)2 小时前224",
+          "detail": "Gate Alpha 首发上线 utility (utility token)3 小时前240",
           "url": "https://www.gate.com/zh/announcements/article/101138"
         },
         {
           "token": "USDT3",
           "type": "上线",
-          "detail": "闪兑新人双重礼：首兑领 100 USDT，交易再领 2 USDT3 小时前369",
+          "detail": "闪兑新人双重礼：首兑领 100 USDT，交易再领 2 USDT3 小时前383",
           "url": "https://www.gate.com/zh/announcements/article/101135"
         }
       ]
