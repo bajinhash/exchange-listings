@@ -1,0 +1,264 @@
+{
+  "date": "2026-08-13",
+  "updatedAt": "2026-08-13T11:16:47.877Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "RIE",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-14)",
+          "url": "https://www.binance.com/en/support/announcement/343eff2647754fb1bd0664bba24e9a36"
+        }
+      ],
+      "alpha": [
+        {
+          "token": "GMEB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 GMEB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x46ceefda28dd7207059ed19b0acdc026955bb15c"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "VIRTUAL",
+          "type": "永续合约",
+          "detail": "OKX 關於 VIRTUALUSD（X-Perp）正式上線的公告發佈於 2026年8月13日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-virtualusd-x-perp"
+        },
+        {
+          "token": "APRUSD",
+          "type": "永续合约",
+          "detail": "APRUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-aprusd-trbusd-x-perps"
+        },
+        {
+          "token": "TRBUSD",
+          "type": "永续合约",
+          "detail": "TRBUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-aprusd-trbusd-x-perps"
+        },
+        {
+          "token": "DOS",
+          "type": "现货上线",
+          "detail": "OKX 關於上線 DOS/USDT (DappOS) 現貨交易的公告發佈於 2026年8月13日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-dos-usdt-dappos-for-spot-trading"
+        },
+        {
+          "token": "XAAOI",
+          "type": "现货上线",
+          "detail": "OKX 關於上線 XAAOI，XNBIS 等統一代幣化股票現貨交易的公告發佈於 2026年8月13日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xaaoi-xnbis-and-more-for-spot-trading"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "NESA",
+          "type": "永续合约",
+          "detail": "NESAUSDT 永續合約全新上線創新板塊， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nesausdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--art27f51560279f/"
+        },
+        {
+          "token": "AEON",
+          "type": "永续合约",
+          "detail": "AEONUSDT 永續合約全新上線創新板塊， 支援最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-aeonusdt-perpetual-contract-in-innovation-zone-with-up-to-25x-leverage--arte73ea6345fe9/"
+        },
+        {
+          "token": "LYTE",
+          "type": "永续合约",
+          "detail": "全新上線：LYTEUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-lyteusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art04f427ed585b/"
+        },
+        {
+          "token": "NCLD",
+          "type": "永续合约",
+          "detail": "全新上線：NCLDUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ncldusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artb14167bfe5bf/"
+        },
+        {
+          "token": "VST",
+          "type": "永续合约",
+          "detail": "全新上線：VSTUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-vstusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--arte4f0335f875f/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "ZHONGJI",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 ZHONGJI（中际旭创 03308.HK）等 5 个永续合...4 分钟前38",
+          "url": "https://www.gate.com/zh/announcements/article/101141"
+        },
+        {
+          "token": "utility",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 utility (utility token)2 小时前224",
+          "url": "https://www.gate.com/zh/announcements/article/101138"
+        },
+        {
+          "token": "USDT3",
+          "type": "上线",
+          "detail": "闪兑新人双重礼：首兑领 100 USDT，交易再领 2 USDT3 小时前369",
+          "url": "https://www.gate.com/zh/announcements/article/101135"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rVRSN 等 41 个",
+          "type": "现货上线",
+          "detail": "Bitget 关于上线 rVRSN、rHUBB、rBAP、rCTSH、rQSR 等25只股票现货的公告（rVRSN、rHUBB、rBAP、rCTSH、rQSR、rCRS、rDOW、rRF… 共 41 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891719"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "UTILITY",
+          "type": "Meme+ 现货",
+          "detail": "UTILITY 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537542"
+        },
+        {
+          "token": "AA",
+          "type": "跟单合约",
+          "detail": "AA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
+        },
+        {
+          "token": "CHYM",
+          "type": "跟单合约",
+          "detail": "CHYM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
+        },
+        {
+          "token": "ENTG",
+          "type": "跟单合约",
+          "detail": "ENTG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
+        },
+        {
+          "token": "JBL",
+          "type": "跟单合约",
+          "detail": "JBL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
+        },
+        {
+          "token": "KKR",
+          "type": "跟单合约",
+          "detail": "KKR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
+        },
+        {
+          "token": "HMM",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 HMM U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hmm-usdt-m-futures-17827791537521"
+        },
+        {
+          "token": "PACK",
+          "type": "Meme+ 现货",
+          "detail": "PACK 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537519"
+        },
+        {
+          "token": "AA",
+          "type": "美股合约",
+          "detail": "AA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aa-chym-entg-jbl-and-kkr-stock-futures-with-0-fee-trading-on-aug-12-17827791537518"
+        },
+        {
+          "token": "CHYM",
+          "type": "美股合约",
+          "detail": "CHYM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aa-chym-entg-jbl-and-kkr-stock-futures-with-0-fee-trading-on-aug-12-17827791537518"
+        },
+        {
+          "token": "ENTG",
+          "type": "美股合约",
+          "detail": "ENTG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aa-chym-entg-jbl-and-kkr-stock-futures-with-0-fee-trading-on-aug-12-17827791537518"
+        },
+        {
+          "token": "JBL",
+          "type": "美股合约",
+          "detail": "JBL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aa-chym-entg-jbl-and-kkr-stock-futures-with-0-fee-trading-on-aug-12-17827791537518"
+        },
+        {
+          "token": "KKR",
+          "type": "美股合约",
+          "detail": "KKR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aa-chym-entg-jbl-and-kkr-stock-futures-with-0-fee-trading-on-aug-12-17827791537518"
+        },
+        {
+          "token": "HMM",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年8月12日 14:30 (UTC+8) 上線 HMMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537490"
+        },
+        {
+          "token": "KUAISHOU",
+          "type": "跟单合约",
+          "detail": "KUAISHOU（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kuaishou-meituan-csopskhynix2l-and-csopsamsung2l-usdt-m-futures-17827791537488"
+        },
+        {
+          "token": "MEITUAN",
+          "type": "跟单合约",
+          "detail": "MEITUAN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kuaishou-meituan-csopskhynix2l-and-csopsamsung2l-usdt-m-futures-17827791537488"
+        },
+        {
+          "token": "CSOPSKHYNIX2L",
+          "type": "跟单合约",
+          "detail": "CSOPSKHYNIX2L（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kuaishou-meituan-csopskhynix2l-and-csopsamsung2l-usdt-m-futures-17827791537488"
+        },
+        {
+          "token": "CSOPSAMSUNG2L",
+          "type": "跟单合约",
+          "detail": "CSOPSAMSUNG2L（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kuaishou-meituan-csopskhynix2l-and-csopsamsung2l-usdt-m-futures-17827791537488"
+        },
+        {
+          "token": "VLO",
+          "type": "跟单合约",
+          "detail": "VLO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-vlo-mpc-dvn-and-bkr-usdt-m-futures-17827791537487"
+        },
+        {
+          "token": "MPC",
+          "type": "跟单合约",
+          "detail": "MPC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-vlo-mpc-dvn-and-bkr-usdt-m-futures-17827791537487"
+        },
+        {
+          "token": "DVN",
+          "type": "跟单合约",
+          "detail": "DVN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-vlo-mpc-dvn-and-bkr-usdt-m-futures-17827791537487"
+        },
+        {
+          "token": "BKR",
+          "type": "跟单合约",
+          "detail": "BKR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-vlo-mpc-dvn-and-bkr-usdt-m-futures-17827791537487"
+        }
+      ]
+    }
+  }
+}
