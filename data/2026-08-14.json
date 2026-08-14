@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T11:15:16.601Z",
+  "updatedAt": "2026-08-14T11:24:30.058Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -103,19 +103,19 @@
         {
           "token": "PIPEDOG",
           "type": "现货上线",
-          "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易4 小时前1,034",
+          "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易4 小时前1,041",
           "url": "https://www.gate.com/zh/announcements/article/101159"
         },
         {
           "token": "ZONE",
           "type": "上线",
-          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...5 小时前386",
+          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...5 小时前388",
           "url": "https://www.gate.com/zh/announcements/article/101157"
         },
         {
           "token": "BTC7",
           "type": "上线",
-          "detail": "七夕心动合约：交易领 763 USDT，冲榜独享 8,888 USDT 等值 BTC7 小时前312",
+          "detail": "七夕心动合约：交易领 763 USDT，冲榜独享 8,888 USDT 等值 BTC7 小时前314",
           "url": "https://www.gate.com/zh/announcements/article/101152"
         }
       ]
@@ -127,6 +127,42 @@
           "type": "现货上线",
           "detail": "Kiichain (KII) 将上线 Bitget",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603891954"
+        },
+        {
+          "token": "ZHONGJI",
+          "type": "美股合约",
+          "detail": "ZHONGJI（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892049"
+        },
+        {
+          "token": "HANMI",
+          "type": "美股合约",
+          "detail": "HANMI（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892049"
+        },
+        {
+          "token": "LGELECTRONICS",
+          "type": "美股合约",
+          "detail": "LGELECTRONICS（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892049"
+        },
+        {
+          "token": "NAVER",
+          "type": "美股合约",
+          "detail": "NAVER（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892049"
+        },
+        {
+          "token": "SAMSUNGEM",
+          "type": "美股合约",
+          "detail": "SAMSUNGEM（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892049"
+        },
+        {
+          "token": "KR200",
+          "type": "美股合约",
+          "detail": "KR200（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892049"
         }
       ]
     },
