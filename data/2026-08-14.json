@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T12:38:24.251Z",
+  "updatedAt": "2026-08-14T14:13:19.755Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -8,8 +8,8 @@
         {
           "token": "KII",
           "type": "上线",
-          "detail": "Binance Alpha 上线 KII (KiiChain) — @BinanceWallet 公告",
-          "url": "https://x.com/BinanceWallet/status/2088144184356327544"
+          "detail": "Binance Alpha 上线 KII - Kii 是基于稳定币的 7×24 全天候链上外汇层，为企业与用户提供跨境支付、交易及金融解决方案。",
+          "url": "https://www.binance.com/en/alpha/bsc/0xeec6574eabba52bac3f0277f2cd5ac7e67197886"
         }
       ],
       "wallet": []
@@ -89,34 +89,16 @@
     "gateio": {
       "listings": [
         {
-          "token": "SOL",
-          "type": "上线",
-          "detail": "SOL（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101164"
-        },
-        {
-          "token": "XRP",
-          "type": "上线",
-          "detail": "XRP（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101164"
-        },
-        {
           "token": "PIPEDOG",
           "type": "现货上线",
-          "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易5 小时前1,132",
+          "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易7 小时前1,228",
           "url": "https://www.gate.com/zh/announcements/article/101159"
         },
         {
-          "token": "ZONE",
-          "type": "上线",
-          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...6 小时前431",
-          "url": "https://www.gate.com/zh/announcements/article/101157"
-        },
-        {
-          "token": "BTC9",
-          "type": "上线",
-          "detail": "七夕心动合约：交易领 763 USDT，冲榜独享 8,888 USDT 等值 BTC9 小时前339",
-          "url": "https://www.gate.com/zh/announcements/article/101152"
+          "token": "ZHONGJI",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 ZHONGJI（中际旭创 03308.HK）等 5 个永续合...1 天前1,666",
+          "url": "https://www.gate.com/zh/announcements/article/101141"
         }
       ]
     },
@@ -168,6 +150,18 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "RBLX",
+          "type": "美股合约",
+          "detail": "RBLX（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537579"
+        },
+        {
+          "token": "GPN",
+          "type": "美股合约",
+          "detail": "GPN（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537579"
+        },
         {
           "token": "SAMSUNGEM",
           "type": "跟单合约",
@@ -281,36 +275,6 @@
           "type": "Pre-IPO 上线",
           "detail": "MEXC 將於 8 月 13 日 18:00（UTC+8）上線 ENFLAME（燧原科技）Pre-IPO 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537538"
-        },
-        {
-          "token": "AA",
-          "type": "跟单合约",
-          "detail": "AA（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
-        },
-        {
-          "token": "CHYM",
-          "type": "跟单合约",
-          "detail": "CHYM（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
-        },
-        {
-          "token": "ENTG",
-          "type": "跟单合约",
-          "detail": "ENTG（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
-        },
-        {
-          "token": "JBL",
-          "type": "跟单合约",
-          "detail": "JBL（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
-        },
-        {
-          "token": "KKR",
-          "type": "跟单合约",
-          "detail": "KKR（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
         }
       ]
     }
