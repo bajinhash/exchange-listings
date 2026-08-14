@@ -1,0 +1,282 @@
+{
+  "date": "2026-08-14",
+  "updatedAt": "2026-08-14T11:15:16.601Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "KII",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 KII (KiiChain) — @BinanceWallet 公告",
+          "url": "https://x.com/BinanceWallet/status/2088144184356327544"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "AVNTUSD",
+          "type": "永续合约",
+          "detail": "AVNTUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-avntusd-hbarusd-x-perps"
+        },
+        {
+          "token": "HBARUSD",
+          "type": "永续合约",
+          "detail": "HBARUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-avntusd-hbarusd-x-perps"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "ZHONGJI",
+          "type": "永续合约",
+          "detail": "全新上線：ZHONGJIUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-zhongjiusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artaaf9883cc201/"
+        },
+        {
+          "token": "SAMSUNGEM",
+          "type": "永续合约",
+          "detail": "全新上線：SAMSUNGEMUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-samsungemusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art09b8dc7b38f2/"
+        },
+        {
+          "token": "LGELECTRONICS",
+          "type": "永续合约",
+          "detail": "全新上線：LGELECTRONICSUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-lgelectronicsusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--arte72f650e68d9/"
+        },
+        {
+          "token": "HANMI",
+          "type": "永续合约",
+          "detail": "全新上線：HANMIUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-hanmiusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artdeb175f485c2/"
+        },
+        {
+          "token": "NAVER",
+          "type": "永续合约",
+          "detail": "全新上線：NAVERUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-naverusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artdb8ea16bd442/"
+        },
+        {
+          "token": "KODEX200",
+          "type": "永续合约",
+          "detail": "全新上線：KODEX200USDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-kodex200usdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art149cf29e91e5/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "ZHONGJI",
+          "type": "美股合约",
+          "detail": "KuCoin Futures Will List ZHONGJIUSDT Stock Index Perpetual Contract (2026-08-14)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-zhongjiusdt-stock-index-perpetual-contract-2026-08-14"
+        },
+        {
+          "token": "KII",
+          "type": "现货上线",
+          "detail": "World Premiere: KiiChain (KII) Listed on KuCoinTrading: 13:00 on August 14, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-World-premiere-kiichain-kii-listed-on-kucoin-20260813"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SOL",
+          "type": "上线",
+          "detail": "SOL（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101164"
+        },
+        {
+          "token": "XRP",
+          "type": "上线",
+          "detail": "XRP（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101164"
+        },
+        {
+          "token": "PIPEDOG",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易4 小时前1,034",
+          "url": "https://www.gate.com/zh/announcements/article/101159"
+        },
+        {
+          "token": "ZONE",
+          "type": "上线",
+          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...5 小时前386",
+          "url": "https://www.gate.com/zh/announcements/article/101157"
+        },
+        {
+          "token": "BTC7",
+          "type": "上线",
+          "detail": "七夕心动合约：交易领 763 USDT，冲榜独享 8,888 USDT 等值 BTC7 小时前312",
+          "url": "https://www.gate.com/zh/announcements/article/101152"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "KII",
+          "type": "现货上线",
+          "detail": "Kiichain (KII) 将上线 Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891954"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SAMSUNGEM",
+          "type": "跟单合约",
+          "detail": "SAMSUNGEM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-samsungem-hanmi-lgelectronics-naver-and-kodex200-usdt-m-futures-17827791537557"
+        },
+        {
+          "token": "HANMI",
+          "type": "跟单合约",
+          "detail": "HANMI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-samsungem-hanmi-lgelectronics-naver-and-kodex200-usdt-m-futures-17827791537557"
+        },
+        {
+          "token": "LGELECTRONICS",
+          "type": "跟单合约",
+          "detail": "LGELECTRONICS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-samsungem-hanmi-lgelectronics-naver-and-kodex200-usdt-m-futures-17827791537557"
+        },
+        {
+          "token": "NAVER",
+          "type": "跟单合约",
+          "detail": "NAVER（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-samsungem-hanmi-lgelectronics-naver-and-kodex200-usdt-m-futures-17827791537557"
+        },
+        {
+          "token": "KODEX200",
+          "type": "跟单合约",
+          "detail": "KODEX200（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-samsungem-hanmi-lgelectronics-naver-and-kodex200-usdt-m-futures-17827791537557"
+        },
+        {
+          "token": "ZHONGJI",
+          "type": "跟单合约",
+          "detail": "ZHONGJI（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zhongji-utility-and-enflame-usdt-m-futures-17827791537556"
+        },
+        {
+          "token": "UTILITY",
+          "type": "跟单合约",
+          "detail": "UTILITY（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zhongji-utility-and-enflame-usdt-m-futures-17827791537556"
+        },
+        {
+          "token": "ENFLAME",
+          "type": "跟单合约",
+          "detail": "ENFLAME（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zhongji-utility-and-enflame-usdt-m-futures-17827791537556"
+        },
+        {
+          "token": "UTILITY",
+          "type": "上线",
+          "detail": "UTILITY 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-utility-to-innovation-zone-17827791537554"
+        },
+        {
+          "token": "UTILITY",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年8月14日 14:00 (UTC+8) 上線 UTILITYUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537553"
+        },
+        {
+          "token": "ZHONGJI",
+          "type": "美股合约",
+          "detail": "MEXC 將於 8月14日 上線 ZHONGJI 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-zhongji-stock-futures-with-0-fee-trading-on-aug-14-17827791537552"
+        },
+        {
+          "token": "KII",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年8月14日 21:10 (UTC+8) 上線 KiiChain (KII) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537547"
+        },
+        {
+          "token": "SAMSUNGEM",
+          "type": "美股合约",
+          "detail": "SAMSUNGEM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537543"
+        },
+        {
+          "token": "HANMI",
+          "type": "美股合约",
+          "detail": "HANMI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537543"
+        },
+        {
+          "token": "LGELECTRONICS",
+          "type": "美股合约",
+          "detail": "LGELECTRONICS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537543"
+        },
+        {
+          "token": "NAVER",
+          "type": "美股合约",
+          "detail": "NAVER（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537543"
+        },
+        {
+          "token": "KODEX200",
+          "type": "美股合约",
+          "detail": "KODEX200（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537543"
+        },
+        {
+          "token": "UTILITY",
+          "type": "Meme+ 现货",
+          "detail": "UTILITY 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537542"
+        },
+        {
+          "token": "ENFLAME",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 將於 8 月 13 日 18:00（UTC+8）上線 ENFLAME（燧原科技）Pre-IPO 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537538"
+        },
+        {
+          "token": "AA",
+          "type": "跟单合约",
+          "detail": "AA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
+        },
+        {
+          "token": "CHYM",
+          "type": "跟单合约",
+          "detail": "CHYM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
+        },
+        {
+          "token": "ENTG",
+          "type": "跟单合约",
+          "detail": "ENTG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
+        },
+        {
+          "token": "JBL",
+          "type": "跟单合约",
+          "detail": "JBL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
+        },
+        {
+          "token": "KKR",
+          "type": "跟单合约",
+          "detail": "KKR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
+        }
+      ]
+    }
+  }
+}
