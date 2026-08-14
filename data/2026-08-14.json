@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T11:24:30.058Z",
+  "updatedAt": "2026-08-14T12:38:24.251Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -103,19 +103,19 @@
         {
           "token": "PIPEDOG",
           "type": "现货上线",
-          "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易4 小时前1,041",
+          "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易5 小时前1,132",
           "url": "https://www.gate.com/zh/announcements/article/101159"
         },
         {
           "token": "ZONE",
           "type": "上线",
-          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...5 小时前388",
+          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...6 小时前431",
           "url": "https://www.gate.com/zh/announcements/article/101157"
         },
         {
-          "token": "BTC7",
+          "token": "BTC9",
           "type": "上线",
-          "detail": "七夕心动合约：交易领 763 USDT，冲榜独享 8,888 USDT 等值 BTC7 小时前314",
+          "detail": "七夕心动合约：交易领 763 USDT，冲榜独享 8,888 USDT 等值 BTC9 小时前339",
           "url": "https://www.gate.com/zh/announcements/article/101152"
         }
       ]
