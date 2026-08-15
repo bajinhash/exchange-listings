@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updatedAt": "2026-08-15T10:51:50.968Z",
+  "updatedAt": "2026-08-15T12:07:43.320Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -40,13 +40,13 @@
         {
           "token": "PIPEDOG",
           "type": "现货上线",
-          "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易1 天前2,183",
+          "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易1 天前2,228",
           "url": "https://www.gate.com/zh/announcements/article/101159"
         },
         {
           "token": "ZONE",
           "type": "上线",
-          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...1 天前903",
+          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...1 天前922",
           "url": "https://www.gate.com/zh/announcements/article/101157"
         }
       ]
@@ -93,6 +93,48 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "DOCU",
+          "type": "Meme+ 现货",
+          "detail": "DOCU（同公告含 7 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537583"
+        },
+        {
+          "token": "HANMI",
+          "type": "Meme+ 现货",
+          "detail": "HANMI（同公告含 7 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537583"
+        },
+        {
+          "token": "LGELECTRONICS",
+          "type": "Meme+ 现货",
+          "detail": "LGELECTRONICS（同公告含 7 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537583"
+        },
+        {
+          "token": "NAVER",
+          "type": "Meme+ 现货",
+          "detail": "NAVER（同公告含 7 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537583"
+        },
+        {
+          "token": "RBLX",
+          "type": "Meme+ 现货",
+          "detail": "RBLX（同公告含 7 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537583"
+        },
+        {
+          "token": "SAMSUNGEM",
+          "type": "Meme+ 现货",
+          "detail": "SAMSUNGEM（同公告含 7 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537583"
+        },
+        {
+          "token": "UTILITY",
+          "type": "Meme+ 现货",
+          "detail": "UTILITY（同公告含 7 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537583"
+        },
         {
           "token": "RBLX",
           "type": "美股合约",
@@ -176,12 +218,6 @@
           "type": "现货上线",
           "detail": "全球首發：MEXC 將於 2026年8月14日 21:10 (UTC+8) 上線 KiiChain (KII) USDT合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537547"
-        },
-        {
-          "token": "UTILITY",
-          "type": "Meme+ 现货",
-          "detail": "UTILITY 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537542"
         }
       ]
     }
