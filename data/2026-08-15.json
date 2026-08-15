@@ -1,17 +1,10 @@
 {
   "date": "2026-08-15",
-  "updatedAt": "2026-08-15T12:07:43.320Z",
+  "updatedAt": "2026-08-15T13:28:17.984Z",
   "exchanges": {
     "binance": {
       "listings": [],
-      "alpha": [
-        {
-          "token": "KII",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 KII - Kii 是基于稳定币的 7×24 全天候链上外汇层，为企业与用户提供跨境支付、交易及金融解决方案。",
-          "url": "https://www.binance.com/en/alpha/bsc/0xeec6574eabba52bac3f0277f2cd5ac7e67197886"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
@@ -40,13 +33,13 @@
         {
           "token": "PIPEDOG",
           "type": "现货上线",
-          "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易1 天前2,228",
+          "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易1 天前2,285",
           "url": "https://www.gate.com/zh/announcements/article/101159"
         },
         {
           "token": "ZONE",
           "type": "上线",
-          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...1 天前922",
+          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...1 天前956",
           "url": "https://www.gate.com/zh/announcements/article/101157"
         }
       ]

@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-09",
   "weekEnd": "2026-08-15",
-  "updatedAt": "2026-08-15T12:07:43.491Z",
+  "updatedAt": "2026-08-15T13:28:18.150Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -69,8 +69,7 @@
           "detail": "Binance Alpha 上线 KII - Kii 是基于稳定币的 7×24 全天候链上外汇层，为企业与用户提供跨境支付、交易及金融解决方案。",
           "url": "https://www.binance.com/en/alpha/bsc/0xeec6574eabba52bac3f0277f2cd5ac7e67197886",
           "dates": [
-            "2026-08-14",
-            "2026-08-15"
+            "2026-08-14"
           ]
         },
         {
@@ -639,7 +638,7 @@
         {
           "token": "ZONE",
           "type": "上线",
-          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...1 天前922",
+          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...1 天前956",
           "url": "https://www.gate.com/zh/announcements/article/101157",
           "dates": [
             "2026-08-15"
