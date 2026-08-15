@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-09",
   "weekEnd": "2026-08-15",
-  "updatedAt": "2026-08-15T10:42:39.014Z",
+  "updatedAt": "2026-08-15T10:51:51.150Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -345,16 +345,6 @@
     "bybit": {
       "listings": [
         {
-          "token": "HANMI",
-          "type": "永续合约",
-          "detail": "全新上線：HANMIUSDT TradFi 永續合約，支持最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-hanmiusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artdeb175f485c2/",
-          "dates": [
-            "2026-08-14",
-            "2026-08-15"
-          ]
-        },
-        {
           "token": "ZHONGJI",
           "type": "永续合约",
           "detail": "全新上線：ZHONGJIUSDT TradFi 永續合約，支持最高 25 倍槓桿",
@@ -377,6 +367,15 @@
           "type": "永续合约",
           "detail": "全新上線：LGELECTRONICSUSDT TradFi 永續合約，支持最高 25 倍槓桿",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-lgelectronicsusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--arte72f650e68d9/",
+          "dates": [
+            "2026-08-14"
+          ]
+        },
+        {
+          "token": "HANMI",
+          "type": "永续合约",
+          "detail": "全新上線：HANMIUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-hanmiusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artdeb175f485c2/",
           "dates": [
             "2026-08-14"
           ]
@@ -640,7 +639,7 @@
         {
           "token": "ZONE",
           "type": "上线",
-          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...1 天前896",
+          "detail": "Gate 以 Summer Bay 赞助商身份亮相巴厘岛 Coinfest Asia 2026，GATE ZONE 聚焦 Web3 领导...1 天前903",
           "url": "https://www.gate.com/zh/announcements/article/101157",
           "dates": [
             "2026-08-15"
@@ -997,6 +996,17 @@
     "mexc": {
       "listings": [
         {
+          "token": "UTILITY",
+          "type": "Meme+ 现货",
+          "detail": "UTILITY 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537542",
+          "dates": [
+            "2026-08-13",
+            "2026-08-14",
+            "2026-08-15"
+          ]
+        },
+        {
           "token": "RBLX",
           "type": "美股合约",
           "detail": "RBLX（同公告含 2 个标的）",
@@ -1181,16 +1191,6 @@
           "type": "美股合约",
           "detail": "KODEX200（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537543",
-          "dates": [
-            "2026-08-13",
-            "2026-08-14"
-          ]
-        },
-        {
-          "token": "UTILITY",
-          "type": "Meme+ 现货",
-          "detail": "UTILITY 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537542",
           "dates": [
             "2026-08-13",
             "2026-08-14"
