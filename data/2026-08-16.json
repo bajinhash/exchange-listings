@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-16",
+  "updatedAt": "2026-08-16T10:43:14.079Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "NIULAI",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年8月16日 12:05 (UTC+8) 上線 NIULAIUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-niulaiusdt-futures-in-innovation-zone-on-aug-16-2026-04-17827791537587"
+        }
+      ]
+    }
+  }
+}
