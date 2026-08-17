@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T10:52:38.623Z",
+  "updatedAt": "2026-08-17T11:02:02.793Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -77,7 +77,7 @@
         {
           "token": "KITE",
           "type": "上线",
-          "detail": "Gate 关于支持 KITE (KITE) 合约置换的公告19 分钟前112",
+          "detail": "Gate 关于支持 KITE (KITE) 合约置换的公告29 分钟前139",
           "url": "https://www.gate.com/zh/announcements/article/101194"
         },
         {
@@ -95,19 +95,19 @@
         {
           "token": "NVDA2",
           "type": "上线",
-          "detail": "交易无忧：首单包赔 100 USDT，交易再得最高 1 NVDA2 小时前385",
+          "detail": "交易无忧：首单包赔 100 USDT，交易再得最高 1 NVDA2 小时前403",
           "url": "https://www.gate.com/zh/announcements/article/101191"
         },
         {
           "token": "XAUT3L2",
           "type": "现货上线",
-          "detail": "Gate ETF 新人礼：现货、合约用户解锁专享奖励，最高赢 105 USDT + 15 XAUT3L2 小时前257",
+          "detail": "Gate ETF 新人礼：现货、合约用户解锁专享奖励，最高赢 105 USDT + 15 XAUT3L2 小时前268",
           "url": "https://www.gate.com/zh/announcements/article/101190"
         },
         {
           "token": "KIMI",
           "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 第三期：Moonshot AI (KIMI) 资产凭证分发完成及开盘时间的公告3 小时前262",
+          "detail": "Gate Pre-IPOs 第三期：Moonshot AI (KIMI) 资产凭证分发完成及开盘时间的公告3 小时前276",
           "url": "https://www.gate.com/zh/announcements/article/101186"
         },
         {
