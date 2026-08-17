@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-11",
   "weekEnd": "2026-08-17",
-  "updatedAt": "2026-08-17T12:09:57.577Z",
+  "updatedAt": "2026-08-17T13:37:17.081Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -586,88 +586,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "KIMI",
-          "type": "Pre-IPO 上线",
-          "detail": "关于 Gate Pre-IPOs 第三期：Moonshot AI (KIMI) 认购结束的说明公告2 小时前281",
-          "url": "https://www.gate.com/zh/announcements/article/101143",
-          "dates": [
-            "2026-08-13",
-            "2026-08-17"
-          ]
-        },
-        {
-          "token": "SHENHUA",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 SHENHUA（中国神华 601088.SH）等 10 个永续...40 分钟前227",
-          "url": "https://www.gate.com/zh/announcements/article/101195",
-          "dates": [
-            "2026-08-17"
-          ]
-        },
-        {
-          "token": "KITE",
-          "type": "上线",
-          "detail": "Gate 关于支持 KITE (KITE) 合约置换的公告2 小时前272",
-          "url": "https://www.gate.com/zh/announcements/article/101194",
-          "dates": [
-            "2026-08-17"
-          ]
-        },
-        {
-          "token": "BILLY",
-          "type": "现货上线",
-          "detail": "BILLY（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101193",
-          "dates": [
-            "2026-08-17"
-          ]
-        },
-        {
-          "token": "CRASHIUS",
-          "type": "现货上线",
-          "detail": "CRASHIUS（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101193",
-          "dates": [
-            "2026-08-17"
-          ]
-        },
-        {
-          "token": "NVDA3",
-          "type": "上线",
-          "detail": "交易无忧：首单包赔 100 USDT，交易再得最高 1 NVDA3 小时前511",
-          "url": "https://www.gate.com/zh/announcements/article/101191",
-          "dates": [
-            "2026-08-17"
-          ]
-        },
-        {
-          "token": "XAUT3L3",
-          "type": "现货上线",
-          "detail": "Gate ETF 新人礼：现货、合约用户解锁专享奖励，最高赢 105 USDT + 15 XAUT3L3 小时前335",
-          "url": "https://www.gate.com/zh/announcements/article/101190",
-          "dates": [
-            "2026-08-17"
-          ]
-        },
-        {
-          "token": "AAPL",
-          "type": "上线",
-          "detail": "AAPL（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101183",
-          "dates": [
-            "2026-08-17"
-          ]
-        },
-        {
-          "token": "MS",
-          "type": "上线",
-          "detail": "MS（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101183",
-          "dates": [
-            "2026-08-17"
-          ]
-        },
-        {
           "token": "PIPEDOG",
           "type": "现货上线",
           "detail": "Gate 将上线 Pipedog (PIPEDOG) 现货交易与闪兑交易7 小时前1,228",
@@ -712,6 +630,15 @@
           "dates": [
             "2026-08-13",
             "2026-08-14"
+          ]
+        },
+        {
+          "token": "KIMI",
+          "type": "Pre-IPO 上线",
+          "detail": "关于 Gate Pre-IPOs 第三期：Moonshot AI (KIMI) 认购结束的说明公告2 小时前281",
+          "url": "https://www.gate.com/zh/announcements/article/101143",
+          "dates": [
+            "2026-08-13"
           ]
         },
         {
