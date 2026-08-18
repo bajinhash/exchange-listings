@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-12",
   "weekEnd": "2026-08-18",
-  "updatedAt": "2026-08-18T12:11:55.160Z",
+  "updatedAt": "2026-08-18T13:40:19.434Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -585,29 +585,10 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT4",
+          "token": "WDC3L",
           "type": "上线",
-          "detail": "交易机器人 100% 中奖，抽 10g 黄金 和 100,000 USDT4 小时前527",
-          "url": "https://www.gate.com/zh/announcements/article/101115",
-          "dates": [
-            "2026-08-12",
-            "2026-08-18"
-          ]
-        },
-        {
-          "token": "DEX",
-          "type": "上线",
-          "detail": "Gate DEX 合约新人全垒打：首单领 1-5 USDT 随机奖励，冲榜再得 46 USDT28 分钟前118",
-          "url": "https://www.gate.com/zh/announcements/article/101221",
-          "dates": [
-            "2026-08-18"
-          ]
-        },
-        {
-          "token": "AMD8",
-          "type": "上线",
-          "detail": "AI 算力加速周：报名有礼，交易即送 AMD8 小时前930",
-          "url": "https://www.gate.com/zh/announcements/article/101206",
+          "detail": "Gate ETF 上线 WDC3L/3S、AXTI3L/3S10 小时前619",
+          "url": "https://www.gate.com/zh/announcements/article/101204",
           "dates": [
             "2026-08-18"
           ]
@@ -700,6 +681,15 @@
           "type": "上线",
           "detail": "新人福利四重奏，轻松领走最高 50 DOS4 小时前546",
           "url": "https://www.gate.com/zh/announcements/article/101116",
+          "dates": [
+            "2026-08-12"
+          ]
+        },
+        {
+          "token": "USDT4",
+          "type": "上线",
+          "detail": "交易机器人 100% 中奖，抽 10g 黄金 和 100,000 USDT4 小时前527",
+          "url": "https://www.gate.com/zh/announcements/article/101115",
           "dates": [
             "2026-08-12"
           ]
@@ -1019,6 +1009,16 @@
           ]
         },
         {
+          "token": "MARSCOIN1",
+          "type": "Meme+ 现货",
+          "detail": "MARSCOIN1 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537588",
+          "dates": [
+            "2026-08-17",
+            "2026-08-18"
+          ]
+        },
+        {
           "token": "ALIGN",
           "type": "上线",
           "detail": "MEXC 盤前交易：Aligned (ALIGN) 即將上線",
@@ -1050,15 +1050,6 @@
           "type": "Meme+ 现货",
           "detail": "BASECAT 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537591",
-          "dates": [
-            "2026-08-17"
-          ]
-        },
-        {
-          "token": "MARSCOIN1",
-          "type": "Meme+ 现货",
-          "detail": "MARSCOIN1 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537588",
           "dates": [
             "2026-08-17"
           ]
