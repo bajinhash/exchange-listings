@@ -1,0 +1,228 @@
+{
+  "date": "2026-08-18",
+  "updatedAt": "2026-08-18T10:48:23.539Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "BNB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 牛来 - 一个BNB Chain 的meme币",
+          "url": "https://www.binance.com/en/alpha/bsc/0xbeea1d618e533a387d941f58a7d4c9b7bd377777"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "ARM",
+          "type": "永续合约",
+          "detail": "OKX 關於 ARMUSD 以及 RKLBUSD X-合約（X-Perp）正式上線的公告發佈於 2026年8月18日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-armusd-and-rklbusd-equity-x-perps"
+        },
+        {
+          "token": "CXMT",
+          "type": "美股合约",
+          "detail": "OKX 關於 CXMT 股票永續合約正式上線的公告發佈於 2026年8月18日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-cxmt-equity"
+        },
+        {
+          "token": "CHIPUSD",
+          "type": "永续合约",
+          "detail": "CHIPUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-chipusd-acuusd-ethfiusd-x-perps"
+        },
+        {
+          "token": "ACUUSD",
+          "type": "永续合约",
+          "detail": "ACUUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-chipusd-acuusd-ethfiusd-x-perps"
+        },
+        {
+          "token": "ETHFIUSD",
+          "type": "永续合约",
+          "detail": "ETHFIUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-chipusd-acuusd-ethfiusd-x-perps"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "DDOG",
+          "type": "永续合约",
+          "detail": "全新上線：DDOGUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ddogusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art2ff65920f210/"
+        },
+        {
+          "token": "ISRG",
+          "type": "永续合约",
+          "detail": "全新上線：ISRGUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-isrgusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artb7c0859345fc/"
+        },
+        {
+          "token": "MNST",
+          "type": "永续合约",
+          "detail": "全新上線：MNSTUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mnstusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art9c13431b6b33/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "SWARM",
+          "type": "现货上线",
+          "detail": "HODLer Airdrops: SwarmBase (SWARM) World Premiere Listing on KuCoinTrading: 10:00 on August 19, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-hodler-airdrops-swarmbase-swarm-world-premiere-listing-on-kucoin"
+        },
+        {
+          "token": "CRCLX",
+          "type": "现货上线",
+          "detail": "CRCLX（同公告含 2 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-crclx-and-tslax"
+        },
+        {
+          "token": "TSLAXT",
+          "type": "现货上线",
+          "detail": "TSLAXT（同公告含 2 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-crclx-and-tslax"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "USDT3",
+          "type": "上线",
+          "detail": "闪兑定投福利七期：交易解锁三重礼，最高领 350 USDT3 小时前363",
+          "url": "https://www.gate.com/zh/announcements/article/101213"
+        },
+        {
+          "token": "AMD7",
+          "type": "上线",
+          "detail": "AI 算力加速周：报名有礼，交易即送 AMD7 小时前867",
+          "url": "https://www.gate.com/zh/announcements/article/101206"
+        },
+        {
+          "token": "WDC3L",
+          "type": "上线",
+          "detail": "Gate ETF 上线 WDC3L/3S、AXTI3L/3S7 小时前496",
+          "url": "https://www.gate.com/zh/announcements/article/101204"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SWARM",
+          "type": "现货上线",
+          "detail": "SwarmBase (SWARM) 将上线 Bitget AI 区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892249"
+        },
+        {
+          "token": "GDX",
+          "type": "美股合约",
+          "detail": "GDX（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892238"
+        },
+        {
+          "token": "NET",
+          "type": "美股合约",
+          "detail": "NET（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892238"
+        },
+        {
+          "token": "LYTE",
+          "type": "美股合约",
+          "detail": "LYTE（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892238"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ALIGN",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Aligned (ALIGN) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537621"
+        },
+        {
+          "token": "EYE",
+          "type": "Meme+ 现货",
+          "detail": "EYE 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537616"
+        },
+        {
+          "token": "BASECAT",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年8月17日 17:20 (UTC+8) 上線 BASECATUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537607"
+        },
+        {
+          "token": "SKSQUARE",
+          "type": "美股合约",
+          "detail": "SKSQUARE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-sksquare-mitsubishi-softbank-murata-and-lyte-stock-futures-with-0-fee-trading-on-aug-17-17827791537603"
+        },
+        {
+          "token": "MITSUBISHI",
+          "type": "美股合约",
+          "detail": "MITSUBISHI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-sksquare-mitsubishi-softbank-murata-and-lyte-stock-futures-with-0-fee-trading-on-aug-17-17827791537603"
+        },
+        {
+          "token": "SOFTBANK",
+          "type": "美股合约",
+          "detail": "SOFTBANK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-sksquare-mitsubishi-softbank-murata-and-lyte-stock-futures-with-0-fee-trading-on-aug-17-17827791537603"
+        },
+        {
+          "token": "MURATA",
+          "type": "美股合约",
+          "detail": "MURATA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-sksquare-mitsubishi-softbank-murata-and-lyte-stock-futures-with-0-fee-trading-on-aug-17-17827791537603"
+        },
+        {
+          "token": "LYTE",
+          "type": "美股合约",
+          "detail": "LYTE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-sksquare-mitsubishi-softbank-murata-and-lyte-stock-futures-with-0-fee-trading-on-aug-17-17827791537603"
+        },
+        {
+          "token": "BASECAT",
+          "type": "上线",
+          "detail": "BASECAT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-牛来usdt-from-innovation-zone-to-main-board-on-aug-17-2026-05-17827791537597"
+        },
+        {
+          "token": "MITSUBISHI",
+          "type": "上线",
+          "detail": "MITSUBISHI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-牛来usdt-from-innovation-zone-to-main-board-on-aug-17-2026-05-17827791537597"
+        },
+        {
+          "token": "MURATA",
+          "type": "上线",
+          "detail": "MURATA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-牛来usdt-from-innovation-zone-to-main-board-on-aug-17-2026-05-17827791537597"
+        },
+        {
+          "token": "SKSQUARE",
+          "type": "上线",
+          "detail": "SKSQUARE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-牛来usdt-from-innovation-zone-to-main-board-on-aug-17-2026-05-17827791537597"
+        },
+        {
+          "token": "SOFTBANK",
+          "type": "上线",
+          "detail": "SOFTBANK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-牛来usdt-from-innovation-zone-to-main-board-on-aug-17-2026-05-17827791537597"
+        }
+      ]
+    }
+  }
+}
