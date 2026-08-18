@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T10:57:35.141Z",
+  "updatedAt": "2026-08-18T12:11:55.000Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -95,22 +95,22 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT3",
+          "token": "DEX",
           "type": "上线",
-          "detail": "闪兑定投福利七期：交易解锁三重礼，最高领 350 USDT3 小时前371",
+          "detail": "Gate DEX 合约新人全垒打：首单领 1-5 USDT 随机奖励，冲榜再得 46 USDT28 分钟前118",
+          "url": "https://www.gate.com/zh/announcements/article/101221"
+        },
+        {
+          "token": "USDT4",
+          "type": "上线",
+          "detail": "闪兑定投福利七期：交易解锁三重礼，最高领 350 USDT4 小时前443",
           "url": "https://www.gate.com/zh/announcements/article/101213"
         },
         {
-          "token": "AMD7",
+          "token": "AMD8",
           "type": "上线",
-          "detail": "AI 算力加速周：报名有礼，交易即送 AMD7 小时前874",
+          "detail": "AI 算力加速周：报名有礼，交易即送 AMD8 小时前930",
           "url": "https://www.gate.com/zh/announcements/article/101206"
-        },
-        {
-          "token": "WDC3L",
-          "type": "上线",
-          "detail": "Gate ETF 上线 WDC3L/3S、AXTI3L/3S7 小时前502",
-          "url": "https://www.gate.com/zh/announcements/article/101204"
         }
       ]
     },
