@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-13",
   "weekEnd": "2026-08-19",
-  "updatedAt": "2026-08-19T10:53:39.777Z",
+  "updatedAt": "2026-08-19T11:02:49.646Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -741,7 +741,7 @@
         {
           "token": "UNITREE3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 UNITREE3L/3S、SNDK5L/5S 等 5 个 ETF 新资产7 小时前464",
+          "detail": "Gate ETF 上线 UNITREE3L/3S、SNDK5L/5S 等 5 个 ETF 新资产7 小时前472",
           "url": "https://www.gate.com/zh/announcements/article/101227",
           "dates": [
             "2026-08-19"
