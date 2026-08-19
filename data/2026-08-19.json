@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T12:11:39.312Z",
+  "updatedAt": "2026-08-19T13:47:16.569Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -251,15 +251,15 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT1",
+          "token": "USDT3",
           "type": "上线",
-          "detail": "合约老友回归：回归即领 120 USDT，交易再得 100 USDT1 小时前269",
+          "detail": "合约老友回归：回归即领 120 USDT，交易再得 100 USDT3 小时前582",
           "url": "https://www.gate.com/zh/announcements/article/101240"
         },
         {
           "token": "UNITREE3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 UNITREE3L/3S、SNDK5L/5S 等 5 个 ETF 新资产8 小时前515",
+          "detail": "Gate ETF 上线 UNITREE3L/3S、SNDK5L/5S 等 5 个 ETF 新资产10 小时前580",
           "url": "https://www.gate.com/zh/announcements/article/101227"
         },
         {
