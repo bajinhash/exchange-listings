@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-13",
   "weekEnd": "2026-08-19",
-  "updatedAt": "2026-08-19T11:02:49.646Z",
+  "updatedAt": "2026-08-19T12:11:39.490Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -739,9 +739,18 @@
     "gateio": {
       "listings": [
         {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "合约老友回归：回归即领 120 USDT，交易再得 100 USDT1 小时前269",
+          "url": "https://www.gate.com/zh/announcements/article/101240",
+          "dates": [
+            "2026-08-19"
+          ]
+        },
+        {
           "token": "UNITREE3L",
           "type": "上线",
-          "detail": "Gate ETF 上线 UNITREE3L/3S、SNDK5L/5S 等 5 个 ETF 新资产7 小时前472",
+          "detail": "Gate ETF 上线 UNITREE3L/3S、SNDK5L/5S 等 5 个 ETF 新资产8 小时前515",
           "url": "https://www.gate.com/zh/announcements/article/101227",
           "dates": [
             "2026-08-19"
@@ -1034,6 +1043,51 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537621",
           "dates": [
             "2026-08-18",
+            "2026-08-19"
+          ]
+        },
+        {
+          "token": "TRGP",
+          "type": "美股合约",
+          "detail": "TRGP（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "dates": [
+            "2026-08-19"
+          ]
+        },
+        {
+          "token": "SMTC",
+          "type": "美股合约",
+          "detail": "SMTC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "dates": [
+            "2026-08-19"
+          ]
+        },
+        {
+          "token": "LULU",
+          "type": "美股合约",
+          "detail": "LULU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "dates": [
+            "2026-08-19"
+          ]
+        },
+        {
+          "token": "PSX",
+          "type": "美股合约",
+          "detail": "PSX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "dates": [
+            "2026-08-19"
+          ]
+        },
+        {
+          "token": "CME",
+          "type": "美股合约",
+          "detail": "CME（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "dates": [
             "2026-08-19"
           ]
         },
