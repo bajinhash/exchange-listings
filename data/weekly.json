@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-14",
   "weekEnd": "2026-08-20",
-  "updatedAt": "2026-08-20T10:50:29.273Z",
+  "updatedAt": "2026-08-20T10:59:57.417Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -722,7 +722,7 @@
         {
           "token": "ALIGN",
           "type": "Launchpool",
-          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...5 小时前1,150",
+          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...5 小时前1,154",
           "url": "https://www.gate.com/zh/announcements/article/101251",
           "dates": [
             "2026-08-20"

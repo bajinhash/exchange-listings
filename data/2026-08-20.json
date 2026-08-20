@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updatedAt": "2026-08-20T10:50:29.106Z",
+  "updatedAt": "2026-08-20T10:59:57.233Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -66,13 +66,13 @@
         {
           "token": "USDT3",
           "type": "上线",
-          "detail": "闪兑新人专属礼：首兑享 100 USDT，交易再领 2 USDT3 小时前287",
+          "detail": "闪兑新人专属礼：首兑享 100 USDT，交易再领 2 USDT3 小时前290",
           "url": "https://www.gate.com/zh/announcements/article/101259"
         },
         {
           "token": "ALIGN",
           "type": "Launchpool",
-          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...5 小时前1,150",
+          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...5 小时前1,154",
           "url": "https://www.gate.com/zh/announcements/article/101251"
         }
       ]
