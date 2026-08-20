@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-14",
   "weekEnd": "2026-08-20",
-  "updatedAt": "2026-08-20T10:59:57.417Z",
+  "updatedAt": "2026-08-20T12:23:51.083Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -710,22 +710,30 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT3",
+          "token": "USDT4",
           "type": "上线",
-          "detail": "合约老友回归：回归即领 120 USDT，交易再得 100 USDT3 小时前582",
-          "url": "https://www.gate.com/zh/announcements/article/101240",
+          "detail": "闪兑新人专属礼：首兑享 100 USDT，交易再领 2 USDT4 小时前391",
+          "url": "https://www.gate.com/zh/announcements/article/101259",
           "dates": [
-            "2026-08-19",
             "2026-08-20"
           ]
         },
         {
           "token": "ALIGN",
           "type": "Launchpool",
-          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...5 小时前1,154",
+          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...7 小时前1,250",
           "url": "https://www.gate.com/zh/announcements/article/101251",
           "dates": [
             "2026-08-20"
+          ]
+        },
+        {
+          "token": "USDT3",
+          "type": "上线",
+          "detail": "合约老友回归：回归即领 120 USDT，交易再得 100 USDT3 小时前582",
+          "url": "https://www.gate.com/zh/announcements/article/101240",
+          "dates": [
+            "2026-08-19"
           ]
         },
         {
@@ -979,74 +987,56 @@
     "mexc": {
       "listings": [
         {
-          "token": "BASECAT",
-          "type": "上线",
-          "detail": "BASECAT（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-牛来usdt-from-innovation-zone-to-main-board-on-aug-17-2026-05-17827791537597",
+          "token": "SWARM",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年8月20日 20:30 (UTC+8) 上線 SWARMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537743",
           "dates": [
-            "2026-08-17",
-            "2026-08-18",
-            "2026-08-19",
             "2026-08-20"
           ]
         },
         {
-          "token": "TRGP",
+          "token": "HL",
           "type": "美股合约",
-          "detail": "TRGP（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "detail": "HL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537742",
           "dates": [
-            "2026-08-19",
             "2026-08-20"
           ]
         },
         {
-          "token": "SMTC",
+          "token": "AEM",
           "type": "美股合约",
-          "detail": "SMTC（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "detail": "AEM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537742",
           "dates": [
-            "2026-08-19",
             "2026-08-20"
           ]
         },
         {
-          "token": "LULU",
+          "token": "CVNA",
           "type": "美股合约",
-          "detail": "LULU（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "detail": "CVNA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537742",
           "dates": [
-            "2026-08-19",
             "2026-08-20"
           ]
         },
         {
-          "token": "PSX",
+          "token": "DHR",
           "type": "美股合约",
-          "detail": "PSX（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "detail": "DHR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537742",
           "dates": [
-            "2026-08-19",
             "2026-08-20"
           ]
         },
         {
-          "token": "CME",
+          "token": "TGT",
           "type": "美股合约",
-          "detail": "CME（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "detail": "TGT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537742",
           "dates": [
-            "2026-08-19",
-            "2026-08-20"
-          ]
-        },
-        {
-          "token": "UNITREE",
-          "type": "Pre-IPO 上线",
-          "detail": "MEXC 關於宇樹科技（UNITREE）Pre-IPO 永續合約已轉換為正式合約的公告",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-completes-conversion-of-unitree-robotics-unitree-pre-ipo-futures-to-standard-futures-17827791537670",
-          "dates": [
-            "2026-08-19",
             "2026-08-20"
           ]
         },
@@ -1141,12 +1131,77 @@
           ]
         },
         {
+          "token": "BASECAT",
+          "type": "上线",
+          "detail": "BASECAT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-牛来usdt-from-innovation-zone-to-main-board-on-aug-17-2026-05-17827791537597",
+          "dates": [
+            "2026-08-17",
+            "2026-08-18",
+            "2026-08-19"
+          ]
+        },
+        {
           "token": "ALIGN",
           "type": "上线",
           "detail": "MEXC 盤前交易：Aligned (ALIGN) 即將上線",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537621",
           "dates": [
             "2026-08-18",
+            "2026-08-19"
+          ]
+        },
+        {
+          "token": "TRGP",
+          "type": "美股合约",
+          "detail": "TRGP（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "dates": [
+            "2026-08-19"
+          ]
+        },
+        {
+          "token": "SMTC",
+          "type": "美股合约",
+          "detail": "SMTC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "dates": [
+            "2026-08-19"
+          ]
+        },
+        {
+          "token": "LULU",
+          "type": "美股合约",
+          "detail": "LULU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "dates": [
+            "2026-08-19"
+          ]
+        },
+        {
+          "token": "PSX",
+          "type": "美股合约",
+          "detail": "PSX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "dates": [
+            "2026-08-19"
+          ]
+        },
+        {
+          "token": "CME",
+          "type": "美股合约",
+          "detail": "CME（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715",
+          "dates": [
+            "2026-08-19"
+          ]
+        },
+        {
+          "token": "UNITREE",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 關於宇樹科技（UNITREE）Pre-IPO 永續合約已轉換為正式合約的公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-completes-conversion-of-unitree-robotics-unitree-pre-ipo-futures-to-standard-futures-17827791537670",
+          "dates": [
             "2026-08-19"
           ]
         },
