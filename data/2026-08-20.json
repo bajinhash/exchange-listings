@@ -1,0 +1,203 @@
+{
+  "date": "2026-08-20",
+  "updatedAt": "2026-08-20T10:50:29.106Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "SKHY",
+          "type": "永续合约",
+          "detail": "OKX 關於 SKHYUSD，SNXXUSD 以及 AXTIUSD X-合約（X-Perp）正式上線的公告發佈於 2026年8月20日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-skhyusd-snxxusd-and-axtiusd-equity-x-perps"
+        },
+        {
+          "token": "ZRO",
+          "type": "永续合约",
+          "detail": "OKX 關於 ZROUSD（X-Perp）正式上線的公告發佈於 2026年8月20日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-zrousd-x-perp"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "FUTU",
+          "type": "永续合约",
+          "detail": "全新上線：FUTUUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-futuusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art52549516a047/"
+        },
+        {
+          "token": "ANET",
+          "type": "永续合约",
+          "detail": "全新上線：ANETUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-anetusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art3b073b3064ae/"
+        },
+        {
+          "token": "SPCH",
+          "type": "永续合约",
+          "detail": "全新上線：SPCHUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spchusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art022339563bd5/"
+        },
+        {
+          "token": "MRNA",
+          "type": "永续合约",
+          "detail": "全新上線：MRNAUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mrnausdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art651f7e93635c/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "ALIGN",
+          "type": "现货上线",
+          "detail": "HODLer Airdrops: Aligned (ALIGN) World Premiere Listing on KuCoinTrading: 19:00 on August 20, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-hodler-airdrops-aligned-align-world-premiere-listing-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "USDT3",
+          "type": "上线",
+          "detail": "闪兑新人专属礼：首兑享 100 USDT，交易再领 2 USDT3 小时前287",
+          "url": "https://www.gate.com/zh/announcements/article/101259"
+        },
+        {
+          "token": "ALIGN",
+          "type": "Launchpool",
+          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...5 小时前1,150",
+          "url": "https://www.gate.com/zh/announcements/article/101251"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "ALIGN",
+          "type": "现货上线",
+          "detail": "Aligned (ALIGN) 将上线 Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892577"
+        },
+        {
+          "token": "rHDV 等 34 个",
+          "type": "现货上线",
+          "detail": "Bitget 关于上线 rHDV、rJEPI、rLQDA、rAMPG、rAMPX 等23只股票现货的公告（rHDV、rJEPI、rLQDA、rAMPG、rAMPX、rLPTH、rINFQ、rFLY… 共 34 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892576"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ALIGN",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年8月21日 03:10 (UTC+8) 上線 Aligned (ALIGN) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537731"
+        },
+        {
+          "token": "MRNAON",
+          "type": "现货上线",
+          "detail": "MEXC 將於現貨市場推出 Ondo 代幣化股票 Moderna (MRNAON) (2026年8月20日)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ondo-tokenized-stock-moderna-mrnaon-on-spot-aug-20-2026-17827791537719"
+        },
+        {
+          "token": "FUJIKURA",
+          "type": "美股合约",
+          "detail": "FUJIKURA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537721"
+        },
+        {
+          "token": "FURUKAWA",
+          "type": "美股合约",
+          "detail": "FURUKAWA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537721"
+        },
+        {
+          "token": "TOYOTA",
+          "type": "美股合约",
+          "detail": "TOYOTA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537721"
+        },
+        {
+          "token": "HITACHI",
+          "type": "美股合约",
+          "detail": "HITACHI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537721"
+        },
+        {
+          "token": "IBIDEN",
+          "type": "美股合约",
+          "detail": "IBIDEN（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537721"
+        },
+        {
+          "token": "PLN",
+          "type": "现货上线",
+          "detail": "MEXC 上線 PLN/USDC 現貨交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-pln-usdc-spot-trading-pair-17827791537644"
+        },
+        {
+          "token": "MELI",
+          "type": "美股合约",
+          "detail": "MELI（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-meli-and-mrna-stock-futures-with-0-fee-trading-on-aug-19-17827791537717"
+        },
+        {
+          "token": "MRNA",
+          "type": "美股合约",
+          "detail": "MRNA（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-meli-and-mrna-stock-futures-with-0-fee-trading-on-aug-19-17827791537717"
+        },
+        {
+          "token": "TRGP",
+          "type": "美股合约",
+          "detail": "TRGP（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715"
+        },
+        {
+          "token": "SMTC",
+          "type": "美股合约",
+          "detail": "SMTC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715"
+        },
+        {
+          "token": "LULU",
+          "type": "美股合约",
+          "detail": "LULU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715"
+        },
+        {
+          "token": "PSX",
+          "type": "美股合约",
+          "detail": "PSX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715"
+        },
+        {
+          "token": "CME",
+          "type": "美股合约",
+          "detail": "CME（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537715"
+        },
+        {
+          "token": "BASECAT",
+          "type": "上线",
+          "detail": "BASECAT 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-basecat-to-innovation-zone-17827791537673"
+        },
+        {
+          "token": "UNITREE",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 關於宇樹科技（UNITREE）Pre-IPO 永續合約已轉換為正式合約的公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-completes-conversion-of-unitree-robotics-unitree-pre-ipo-futures-to-standard-futures-17827791537670"
+        }
+      ]
+    }
+  }
+}
