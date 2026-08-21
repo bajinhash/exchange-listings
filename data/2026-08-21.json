@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-21T10:58:56.578Z",
+  "updatedAt": "2026-08-21T12:13:16.409Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -76,39 +76,9 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT3",
-          "type": "上线",
-          "detail": "Meme 狂欢派对：新人首单领 3 USDT，交易最高赢 8,000 USDT3 小时前419",
-          "url": "https://www.gate.com/zh/announcements/article/101286"
-        },
-        {
-          "token": "SUMMER",
-          "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 富贵 (富贵)、SUMMER (SUMMER)3 小时前213",
-          "url": "https://www.gate.com/zh/announcements/article/101283"
-        },
-        {
-          "token": "VCIG",
-          "type": "上线",
-          "detail": "VCIG（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101276"
-        },
-        {
-          "token": "MSTU",
-          "type": "上线",
-          "detail": "MSTU（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101276"
-        },
-        {
-          "token": "IESC",
-          "type": "上线",
-          "detail": "IESC（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101276"
-        },
-        {
           "token": "ALIGN",
           "type": "Launchpool",
-          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...1 天前2,382",
+          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...1 天前2,431",
           "url": "https://www.gate.com/zh/announcements/article/101251"
         }
       ]
@@ -129,25 +99,25 @@
           "token": "PANASONIC",
           "type": "美股合约",
           "detail": "PANASONIC（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779"
         },
         {
           "token": "NINTENDO",
           "type": "美股合约",
           "detail": "NINTENDO（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779"
         },
         {
           "token": "RECRUIT",
           "type": "美股合约",
           "detail": "RECRUIT（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779"
         },
         {
           "token": "KEYENCE",
           "type": "美股合约",
           "detail": "KEYENCE（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779"
         },
         {
           "token": "BNTX",

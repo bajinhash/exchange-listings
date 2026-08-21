@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-15",
   "weekEnd": "2026-08-21",
-  "updatedAt": "2026-08-21T10:58:56.759Z",
+  "updatedAt": "2026-08-21T12:13:16.591Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -692,16 +692,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT3",
-          "type": "上线",
-          "detail": "合约老友回归：回归即领 120 USDT，交易再得 100 USDT3 小时前582",
-          "url": "https://www.gate.com/zh/announcements/article/101240",
-          "dates": [
-            "2026-08-19",
-            "2026-08-21"
-          ]
-        },
-        {
           "token": "ALIGN",
           "type": "Launchpool",
           "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...8 小时前1,332",
@@ -712,48 +702,21 @@
           ]
         },
         {
-          "token": "SUMMER",
-          "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 富贵 (富贵)、SUMMER (SUMMER)3 小时前213",
-          "url": "https://www.gate.com/zh/announcements/article/101283",
-          "dates": [
-            "2026-08-21"
-          ]
-        },
-        {
-          "token": "VCIG",
-          "type": "上线",
-          "detail": "VCIG（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101276",
-          "dates": [
-            "2026-08-21"
-          ]
-        },
-        {
-          "token": "MSTU",
-          "type": "上线",
-          "detail": "MSTU（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101276",
-          "dates": [
-            "2026-08-21"
-          ]
-        },
-        {
-          "token": "IESC",
-          "type": "上线",
-          "detail": "IESC（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101276",
-          "dates": [
-            "2026-08-21"
-          ]
-        },
-        {
           "token": "USDT6",
           "type": "上线",
           "detail": "闪兑新人专属礼：首兑享 100 USDT，交易再领 2 USDT6 小时前454",
           "url": "https://www.gate.com/zh/announcements/article/101259",
           "dates": [
             "2026-08-20"
+          ]
+        },
+        {
+          "token": "USDT3",
+          "type": "上线",
+          "detail": "合约老友回归：回归即领 120 USDT，交易再得 100 USDT3 小时前582",
+          "url": "https://www.gate.com/zh/announcements/article/101240",
+          "dates": [
+            "2026-08-19"
           ]
         },
         {
@@ -1124,7 +1087,7 @@
           "token": "PANASONIC",
           "type": "美股合约",
           "detail": "PANASONIC（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779",
           "dates": [
             "2026-08-21"
           ]
@@ -1133,7 +1096,7 @@
           "token": "NINTENDO",
           "type": "美股合约",
           "detail": "NINTENDO（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779",
           "dates": [
             "2026-08-21"
           ]
@@ -1142,7 +1105,7 @@
           "token": "RECRUIT",
           "type": "美股合约",
           "detail": "RECRUIT（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779",
           "dates": [
             "2026-08-21"
           ]
@@ -1151,7 +1114,7 @@
           "token": "KEYENCE",
           "type": "美股合约",
           "detail": "KEYENCE（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779",
           "dates": [
             "2026-08-21"
           ]
