@@ -1,0 +1,257 @@
+{
+  "date": "2026-08-21",
+  "updatedAt": "2026-08-21T10:49:32.254Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "BMNR",
+          "type": "永续合约",
+          "detail": "OKX 關於 BMNRUSD 以及 CRWVUSD X-合約（X-Perp）正式上線的公告發佈於 2026年8月21日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-bmnrusd-and-crwvusd-equity-x-perps"
+        },
+        {
+          "token": "MRNA",
+          "type": "美股合约",
+          "detail": "MRNA（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-mrna-and-purr-equities"
+        },
+        {
+          "token": "PURR",
+          "type": "美股合约",
+          "detail": "PURR（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-mrna-and-purr-equities"
+        },
+        {
+          "token": "EDGEUSD",
+          "type": "永续合约",
+          "detail": "EDGEUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-edgeusd-ldousd-x-perps"
+        },
+        {
+          "token": "LDOUSD",
+          "type": "永续合约",
+          "detail": "LDOUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-edgeusd-ldousd-x-perps"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "MRK",
+          "type": "永续合约",
+          "detail": "全新上線：MRKUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mrkusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art4ceec6e07ee8/"
+        },
+        {
+          "token": "PDD",
+          "type": "永续合约",
+          "detail": "全新上線：PDDUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-pddusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artf267b4d94fd7/"
+        },
+        {
+          "token": "JD",
+          "type": "永续合约",
+          "detail": "全新上線：JDUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-jdusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art8972c1a94bd9/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "DGAI",
+          "type": "现货上线",
+          "detail": "World Premiere:  DGrid AI (DGAI) Listed on KuCoinTrading: 08:00 on August 24, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-dgrid-ai-dgai-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "USDT3",
+          "type": "上线",
+          "detail": "Meme 狂欢派对：新人首单领 3 USDT，交易最高赢 8,000 USDT3 小时前402",
+          "url": "https://www.gate.com/zh/announcements/article/101286"
+        },
+        {
+          "token": "SUMMER",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 富贵 (富贵)、SUMMER (SUMMER)3 小时前205",
+          "url": "https://www.gate.com/zh/announcements/article/101283"
+        },
+        {
+          "token": "VCIG",
+          "type": "上线",
+          "detail": "VCIG（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276"
+        },
+        {
+          "token": "MSTU",
+          "type": "上线",
+          "detail": "MSTU（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276"
+        },
+        {
+          "token": "IESC",
+          "type": "上线",
+          "detail": "IESC（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276"
+        },
+        {
+          "token": "ALIGN",
+          "type": "Launchpool",
+          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...1 天前2,375",
+          "url": "https://www.gate.com/zh/announcements/article/101251"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DGAI",
+          "type": "现货上线",
+          "detail": "DGrid AI（DGAI）将上线 DePIN 专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892844"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "PANASONIC",
+          "type": "美股合约",
+          "detail": "PANASONIC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779"
+        },
+        {
+          "token": "NINTENDO",
+          "type": "美股合约",
+          "detail": "NINTENDO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779"
+        },
+        {
+          "token": "RECRUIT",
+          "type": "美股合约",
+          "detail": "RECRUIT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779"
+        },
+        {
+          "token": "KEYENCE",
+          "type": "美股合约",
+          "detail": "KEYENCE（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-panasonic-nintendo-recruit-and-keyence-stock-futures-with-0-fee-trading-on-aug-21-17827791537779"
+        },
+        {
+          "token": "BNTX",
+          "type": "美股合约",
+          "detail": "BNTX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-bntx-glxy-purr-and-el-stock-futures-with-0-fee-trading-on-aug-21-17827791537777"
+        },
+        {
+          "token": "GLXY",
+          "type": "美股合约",
+          "detail": "GLXY（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-bntx-glxy-purr-and-el-stock-futures-with-0-fee-trading-on-aug-21-17827791537777"
+        },
+        {
+          "token": "PURR",
+          "type": "美股合约",
+          "detail": "PURR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-bntx-glxy-purr-and-el-stock-futures-with-0-fee-trading-on-aug-21-17827791537777"
+        },
+        {
+          "token": "EL",
+          "type": "美股合约",
+          "detail": "EL（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-bntx-glxy-purr-and-el-stock-futures-with-0-fee-trading-on-aug-21-17827791537777"
+        },
+        {
+          "token": "SWARM",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年8月20日 20:30 (UTC+8) 上線 SWARMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537743"
+        },
+        {
+          "token": "HL",
+          "type": "美股合约",
+          "detail": "HL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537742"
+        },
+        {
+          "token": "AEM",
+          "type": "美股合约",
+          "detail": "AEM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537742"
+        },
+        {
+          "token": "CVNA",
+          "type": "美股合约",
+          "detail": "CVNA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537742"
+        },
+        {
+          "token": "DHR",
+          "type": "美股合约",
+          "detail": "DHR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537742"
+        },
+        {
+          "token": "TGT",
+          "type": "美股合约",
+          "detail": "TGT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537742"
+        },
+        {
+          "token": "ALIGN",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年8月21日 03:50 (UTC+8) 上線 Aligned (ALIGN) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537731"
+        },
+        {
+          "token": "MRNAON",
+          "type": "现货上线",
+          "detail": "MEXC 將於現貨市場推出 Ondo 代幣化股票 Moderna (MRNAON) (2026年8月20日)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ondo-tokenized-stock-moderna-mrnaon-on-spot-aug-20-2026-17827791537719"
+        },
+        {
+          "token": "FUJIKURA",
+          "type": "美股合约",
+          "detail": "FUJIKURA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537721"
+        },
+        {
+          "token": "FURUKAWA",
+          "type": "美股合约",
+          "detail": "FURUKAWA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537721"
+        },
+        {
+          "token": "TOYOTA",
+          "type": "美股合约",
+          "detail": "TOYOTA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537721"
+        },
+        {
+          "token": "HITACHI",
+          "type": "美股合约",
+          "detail": "HITACHI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537721"
+        },
+        {
+          "token": "IBIDEN",
+          "type": "美股合约",
+          "detail": "IBIDEN（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537721"
+        }
+      ]
+    }
+  }
+}
