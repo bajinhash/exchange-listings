@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-21T10:49:32.254Z",
+  "updatedAt": "2026-08-21T10:58:56.578Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -78,13 +78,13 @@
         {
           "token": "USDT3",
           "type": "上线",
-          "detail": "Meme 狂欢派对：新人首单领 3 USDT，交易最高赢 8,000 USDT3 小时前402",
+          "detail": "Meme 狂欢派对：新人首单领 3 USDT，交易最高赢 8,000 USDT3 小时前419",
           "url": "https://www.gate.com/zh/announcements/article/101286"
         },
         {
           "token": "SUMMER",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 富贵 (富贵)、SUMMER (SUMMER)3 小时前205",
+          "detail": "Gate Alpha 首发上线 富贵 (富贵)、SUMMER (SUMMER)3 小时前213",
           "url": "https://www.gate.com/zh/announcements/article/101283"
         },
         {
@@ -108,7 +108,7 @@
         {
           "token": "ALIGN",
           "type": "Launchpool",
-          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...1 天前2,375",
+          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...1 天前2,382",
           "url": "https://www.gate.com/zh/announcements/article/101251"
         }
       ]

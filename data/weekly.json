@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-15",
   "weekEnd": "2026-08-21",
-  "updatedAt": "2026-08-21T10:49:32.431Z",
+  "updatedAt": "2026-08-21T10:58:56.759Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -714,7 +714,7 @@
         {
           "token": "SUMMER",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 富贵 (富贵)、SUMMER (SUMMER)3 小时前205",
+          "detail": "Gate Alpha 首发上线 富贵 (富贵)、SUMMER (SUMMER)3 小时前213",
           "url": "https://www.gate.com/zh/announcements/article/101283",
           "dates": [
             "2026-08-21"
