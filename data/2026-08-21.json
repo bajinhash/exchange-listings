@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-21T12:13:16.409Z",
+  "updatedAt": "2026-08-21T13:43:23.264Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -76,9 +76,39 @@
     "gateio": {
       "listings": [
         {
+          "token": "USDT6",
+          "type": "上线",
+          "detail": "Meme 狂欢派对：新人首单领 3 USDT，交易最高赢 8,000 USDT6 小时前645",
+          "url": "https://www.gate.com/zh/announcements/article/101286"
+        },
+        {
+          "token": "SUMMER",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 富贵 (富贵)、SUMMER (SUMMER)6 小时前338",
+          "url": "https://www.gate.com/zh/announcements/article/101283"
+        },
+        {
+          "token": "VCIG",
+          "type": "上线",
+          "detail": "VCIG（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276"
+        },
+        {
+          "token": "MSTU",
+          "type": "上线",
+          "detail": "MSTU（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276"
+        },
+        {
+          "token": "IESC",
+          "type": "上线",
+          "detail": "IESC（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276"
+        },
+        {
           "token": "ALIGN",
           "type": "Launchpool",
-          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...1 天前2,431",
+          "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...1 天前2,520",
           "url": "https://www.gate.com/zh/announcements/article/101251"
         }
       ]

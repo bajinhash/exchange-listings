@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-15",
   "weekEnd": "2026-08-21",
-  "updatedAt": "2026-08-21T12:13:16.591Z",
+  "updatedAt": "2026-08-21T13:43:23.443Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -692,6 +692,16 @@
     "gateio": {
       "listings": [
         {
+          "token": "USDT6",
+          "type": "上线",
+          "detail": "闪兑新人专属礼：首兑享 100 USDT，交易再领 2 USDT6 小时前454",
+          "url": "https://www.gate.com/zh/announcements/article/101259",
+          "dates": [
+            "2026-08-20",
+            "2026-08-21"
+          ]
+        },
+        {
           "token": "ALIGN",
           "type": "Launchpool",
           "detail": "Gate 将上线 Aligned (ALIGN) 现货交易、闪兑交易并开启 Launchpool，质...8 小时前1,332",
@@ -702,12 +712,39 @@
           ]
         },
         {
-          "token": "USDT6",
-          "type": "上线",
-          "detail": "闪兑新人专属礼：首兑享 100 USDT，交易再领 2 USDT6 小时前454",
-          "url": "https://www.gate.com/zh/announcements/article/101259",
+          "token": "SUMMER",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 富贵 (富贵)、SUMMER (SUMMER)6 小时前338",
+          "url": "https://www.gate.com/zh/announcements/article/101283",
           "dates": [
-            "2026-08-20"
+            "2026-08-21"
+          ]
+        },
+        {
+          "token": "VCIG",
+          "type": "上线",
+          "detail": "VCIG（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276",
+          "dates": [
+            "2026-08-21"
+          ]
+        },
+        {
+          "token": "MSTU",
+          "type": "上线",
+          "detail": "MSTU（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276",
+          "dates": [
+            "2026-08-21"
+          ]
+        },
+        {
+          "token": "IESC",
+          "type": "上线",
+          "detail": "IESC（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276",
+          "dates": [
+            "2026-08-21"
           ]
         },
         {
