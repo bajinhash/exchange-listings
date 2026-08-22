@@ -1,0 +1,134 @@
+{
+  "date": "2026-08-22",
+  "updatedAt": "2026-08-22T10:43:25.006Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "NES",
+          "type": "上线",
+          "detail": "OKX 關於 NES 置換的公告發佈於 2026年8月22日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-support-nes-crypto-migration"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "BTW",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Bitway (BTW) 现货交易、闪兑交易并开启 HODLer Airdrop4 小时前1,390",
+          "url": "https://www.gate.com/zh/announcements/article/101289"
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "Meme 狂欢派对：新人首单领 3 USDT，交易最高赢 8,000 USDT1 天前1,581",
+          "url": "https://www.gate.com/zh/announcements/article/101286"
+        },
+        {
+          "token": "SUMMER",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 富贵 (富贵)、SUMMER (SUMMER)1 天前932",
+          "url": "https://www.gate.com/zh/announcements/article/101283"
+        },
+        {
+          "token": "VCIG",
+          "type": "上线",
+          "detail": "VCIG（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276"
+        },
+        {
+          "token": "MSTU",
+          "type": "上线",
+          "detail": "MSTU（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276"
+        },
+        {
+          "token": "IESC",
+          "type": "上线",
+          "detail": "IESC（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101276"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "POD",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Dolphin (POD)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537786"
+        },
+        {
+          "token": "DRB",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 DebtReliefBot (DRB)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537785"
+        },
+        {
+          "token": "PANASONIC",
+          "type": "美股合约",
+          "detail": "PANASONIC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779"
+        },
+        {
+          "token": "NINTENDO",
+          "type": "美股合约",
+          "detail": "NINTENDO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779"
+        },
+        {
+          "token": "RECRUIT",
+          "type": "美股合约",
+          "detail": "RECRUIT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779"
+        },
+        {
+          "token": "KEYENCE",
+          "type": "美股合约",
+          "detail": "KEYENCE（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537779"
+        },
+        {
+          "token": "BNTX",
+          "type": "美股合约",
+          "detail": "BNTX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-bntx-glxy-purr-and-el-stock-futures-with-0-fee-trading-on-aug-21-17827791537777"
+        },
+        {
+          "token": "GLXY",
+          "type": "美股合约",
+          "detail": "GLXY（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-bntx-glxy-purr-and-el-stock-futures-with-0-fee-trading-on-aug-21-17827791537777"
+        },
+        {
+          "token": "PURR",
+          "type": "美股合约",
+          "detail": "PURR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-bntx-glxy-purr-and-el-stock-futures-with-0-fee-trading-on-aug-21-17827791537777"
+        },
+        {
+          "token": "EL",
+          "type": "美股合约",
+          "detail": "EL（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-bntx-glxy-purr-and-el-stock-futures-with-0-fee-trading-on-aug-21-17827791537777"
+        }
+      ]
+    }
+  }
+}
