@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-16",
   "weekEnd": "2026-08-22",
-  "updatedAt": "2026-08-22T10:43:25.197Z",
+  "updatedAt": "2026-08-22T10:52:40.783Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -743,7 +743,7 @@
         {
           "token": "BTW",
           "type": "现货上线",
-          "detail": "Gate 将上线 Bitway (BTW) 现货交易、闪兑交易并开启 HODLer Airdrop4 小时前1,390",
+          "detail": "Gate 将上线 Bitway (BTW) 现货交易、闪兑交易并开启 HODLer Airdrop4 小时前1,416",
           "url": "https://www.gate.com/zh/announcements/article/101289",
           "dates": [
             "2026-08-22"
@@ -752,7 +752,7 @@
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "Meme 狂欢派对：新人首单领 3 USDT，交易最高赢 8,000 USDT1 天前1,581",
+          "detail": "Meme 狂欢派对：新人首单领 3 USDT，交易最高赢 8,000 USDT1 天前1,584",
           "url": "https://www.gate.com/zh/announcements/article/101286",
           "dates": [
             "2026-08-22"
