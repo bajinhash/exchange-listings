@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-17",
   "weekEnd": "2026-08-23",
-  "updatedAt": "2026-08-23T12:09:38.028Z",
+  "updatedAt": "2026-08-23T13:31:04.062Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -713,7 +713,7 @@
         {
           "token": "DGAI",
           "type": "现货上线",
-          "detail": "Gate 将上线 DGrid AI (DGAI) 现货交易与闪兑交易3 小时前1,180",
+          "detail": "Gate 将上线 DGrid AI (DGAI) 现货交易与闪兑交易4 小时前1,342",
           "url": "https://www.gate.com/zh/announcements/article/101292",
           "dates": [
             "2026-08-23"
@@ -722,7 +722,7 @@
         {
           "token": "TPT",
           "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 TPT：交易 TPT 瓜分 $50,000 空投3 小时前328",
+          "detail": "Gate Alpha 首发上线 TPT：交易 TPT 瓜分 $50,000 空投5 小时前413",
           "url": "https://www.gate.com/zh/announcements/article/101291",
           "dates": [
             "2026-08-23"
