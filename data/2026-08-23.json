@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T10:43:51.724Z",
+  "updatedAt": "2026-08-23T10:53:04.055Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -19,21 +19,9 @@
     "gateio": {
       "listings": [
         {
-          "token": "DGAI",
-          "type": "现货上线",
-          "detail": "Gate 将上线 DGrid AI (DGAI) 现货交易与闪兑交易1 小时前983",
-          "url": "https://www.gate.com/zh/announcements/article/101292"
-        },
-        {
-          "token": "TPT",
-          "type": "现货上线",
-          "detail": "Gate Alpha 首发上线 TPT：交易 TPT 瓜分 $50,000 空投2 小时前202",
-          "url": "https://www.gate.com/zh/announcements/article/101291"
-        },
-        {
           "token": "BTW",
           "type": "现货上线",
-          "detail": "Gate 将上线 Bitway (BTW) 现货交易、闪兑交易并开启 HODLer Airdrop1 天前3,143",
+          "detail": "Gate 将上线 Bitway (BTW) 现货交易、闪兑交易并开启 HODLer Airdrop1 天前3,156",
           "url": "https://www.gate.com/zh/announcements/article/101289"
         }
       ]
