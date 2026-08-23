@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-08-16",
-  "weekEnd": "2026-08-22",
-  "updatedAt": "2026-08-22T13:30:08.039Z",
+  "weekStart": "2026-08-17",
+  "weekEnd": "2026-08-23",
+  "updatedAt": "2026-08-23T10:43:51.898Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -701,6 +701,34 @@
     "gateio": {
       "listings": [
         {
+          "token": "BTW",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Bitway (BTW) 现货交易、闪兑交易并开启 HODLer Airdrop7 小时前1,663",
+          "url": "https://www.gate.com/zh/announcements/article/101289",
+          "dates": [
+            "2026-08-22",
+            "2026-08-23"
+          ]
+        },
+        {
+          "token": "DGAI",
+          "type": "现货上线",
+          "detail": "Gate 将上线 DGrid AI (DGAI) 现货交易与闪兑交易1 小时前983",
+          "url": "https://www.gate.com/zh/announcements/article/101292",
+          "dates": [
+            "2026-08-23"
+          ]
+        },
+        {
+          "token": "TPT",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 TPT：交易 TPT 瓜分 $50,000 空投2 小时前202",
+          "url": "https://www.gate.com/zh/announcements/article/101291",
+          "dates": [
+            "2026-08-23"
+          ]
+        },
+        {
           "token": "SUMMER",
           "type": "现货上线",
           "detail": "Gate Alpha 首发上线 富贵 (富贵)、SUMMER (SUMMER)6 小时前338",
@@ -737,15 +765,6 @@
           "url": "https://www.gate.com/zh/announcements/article/101276",
           "dates": [
             "2026-08-21",
-            "2026-08-22"
-          ]
-        },
-        {
-          "token": "BTW",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Bitway (BTW) 现货交易、闪兑交易并开启 HODLer Airdrop7 小时前1,663",
-          "url": "https://www.gate.com/zh/announcements/article/101289",
-          "dates": [
             "2026-08-22"
           ]
         },
@@ -932,6 +951,35 @@
     "mexc": {
       "listings": [
         {
+          "token": "POD",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 Dolphin (POD)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537786",
+          "dates": [
+            "2026-08-22",
+            "2026-08-23"
+          ]
+        },
+        {
+          "token": "DRB",
+          "type": "现货上线",
+          "detail": "MEXC 將於考核區上線 DebtReliefBot (DRB)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537785",
+          "dates": [
+            "2026-08-22",
+            "2026-08-23"
+          ]
+        },
+        {
+          "token": "QENIS",
+          "type": "Meme+ 现货",
+          "detail": "QENIS 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537791",
+          "dates": [
+            "2026-08-23"
+          ]
+        },
+        {
           "token": "PANASONIC",
           "type": "美股合约",
           "detail": "PANASONIC（同公告含 4 个标的）",
@@ -1008,24 +1056,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-bntx-glxy-purr-and-el-stock-futures-with-0-fee-trading-on-aug-21-17827791537777",
           "dates": [
             "2026-08-21",
-            "2026-08-22"
-          ]
-        },
-        {
-          "token": "POD",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 Dolphin (POD)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537786",
-          "dates": [
-            "2026-08-22"
-          ]
-        },
-        {
-          "token": "DRB",
-          "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 DebtReliefBot (DRB)",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537785",
-          "dates": [
             "2026-08-22"
           ]
         },
@@ -1450,15 +1480,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-牛来usdt-futures-in-innovation-zone-on-aug-16-2026-04-17827791537587",
           "dates": [
             "2026-08-17"
-          ]
-        },
-        {
-          "token": "NIULAI",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年8月16日 12:05 (UTC+8) 上線 NIULAIUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-niulaiusdt-futures-in-innovation-zone-on-aug-16-2026-04-17827791537587",
-          "dates": [
-            "2026-08-16"
           ]
         }
       ]
