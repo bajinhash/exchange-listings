@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-18",
   "weekEnd": "2026-08-24",
-  "updatedAt": "2026-08-24T11:07:06.861Z",
+  "updatedAt": "2026-08-24T12:24:36.426Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -507,6 +507,15 @@
     "kucoin": {
       "listings": [
         {
+          "token": "TMX",
+          "type": "现货上线",
+          "detail": "World Premiere: TermMax (TMX) Listed on KuCoinTrading: 10:00 on August 25, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-termmax-tmx-listed-on-kucoin",
+          "dates": [
+            "2026-08-24"
+          ]
+        },
+        {
           "token": "DGAI",
           "type": "现货上线",
           "detail": "World Premiere:  DGrid AI (DGAI) Listed on KuCoinTrading: 08:00 on August 24, 2026 (UTC)",
@@ -656,16 +665,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT3",
-          "type": "上线",
-          "detail": "合约老友回归：回归即领 120 USDT，交易再得 100 USDT3 小时前582",
-          "url": "https://www.gate.com/zh/announcements/article/101240",
-          "dates": [
-            "2026-08-19",
-            "2026-08-24"
-          ]
-        },
-        {
           "token": "DGAI",
           "type": "现货上线",
           "detail": "Gate 将上线 DGrid AI (DGAI) 现货交易与闪兑交易4 小时前1,342",
@@ -678,7 +677,7 @@
         {
           "token": "BTC",
           "type": "永续合约",
-          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（8 月 26 日 00:00 – 00:30 UTC+8）2 小时前214",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（8 月 26 日 00:00 – 00:30 UTC+8）3 小时前286",
           "url": "https://www.gate.com/zh/announcements/article/101307",
           "dates": [
             "2026-08-24"
@@ -714,8 +713,17 @@
         {
           "token": "C2C",
           "type": "上线",
-          "detail": "Gate C2C 商家招募进行中：官方申请指引及活动一览3 小时前106",
+          "detail": "Gate C2C 商家招募进行中：官方申请指引及活动一览4 小时前136",
           "url": "https://www.gate.com/zh/announcements/article/101305",
+          "dates": [
+            "2026-08-24"
+          ]
+        },
+        {
+          "token": "USDT4",
+          "type": "上线",
+          "detail": "Defi 狂欢派对：新人首单领 3 USDT，交易最高赢 8,000 USDT4 小时前471",
+          "url": "https://www.gate.com/zh/announcements/article/101303",
           "dates": [
             "2026-08-24"
           ]
@@ -723,7 +731,7 @@
         {
           "token": "PG",
           "type": "上线",
-          "detail": "Gate 关于已完成宝洁 (PG) 等 67 只股票股息派发公告4 小时前357",
+          "detail": "Gate 关于已完成宝洁 (PG) 等 67 只股票股息派发公告6 小时前432",
           "url": "https://www.gate.com/zh/announcements/article/101300",
           "dates": [
             "2026-08-24"
@@ -732,7 +740,7 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 积分计划空投第二期，参与用户共获 700,000 WLFI 代币8 小时前981",
+          "detail": "USD1 积分计划空投第二期，参与用户共获 700,000 WLFI 代币9 小时前1,069",
           "url": "https://www.gate.com/zh/announcements/article/101297",
           "dates": [
             "2026-08-24"
@@ -842,6 +850,15 @@
           "dates": [
             "2026-08-20",
             "2026-08-21"
+          ]
+        },
+        {
+          "token": "USDT3",
+          "type": "上线",
+          "detail": "合约老友回归：回归即领 120 USDT，交易再得 100 USDT3 小时前582",
+          "url": "https://www.gate.com/zh/announcements/article/101240",
+          "dates": [
+            "2026-08-19"
           ]
         },
         {
