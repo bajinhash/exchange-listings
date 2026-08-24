@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T10:57:43.859Z",
+  "updatedAt": "2026-08-24T11:07:06.676Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -46,7 +46,7 @@
         {
           "token": "BTC",
           "type": "永续合约",
-          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（8 月 26 日 00:00 – 00:30 UTC+8）2 小时前209",
+          "detail": "Gate 将进行 USDT 和 BTC 结算永续合约升级公告（8 月 26 日 00:00 – 00:30 UTC+8）2 小时前214",
           "url": "https://www.gate.com/zh/announcements/article/101307"
         },
         {
@@ -68,21 +68,27 @@
           "url": "https://www.gate.com/zh/announcements/article/101306"
         },
         {
+          "token": "C2C",
+          "type": "上线",
+          "detail": "Gate C2C 商家招募进行中：官方申请指引及活动一览3 小时前106",
+          "url": "https://www.gate.com/zh/announcements/article/101305"
+        },
+        {
           "token": "USDT3",
           "type": "上线",
-          "detail": "Defi 狂欢派对：新人首单领 3 USDT，交易最高赢 8,000 USDT3 小时前356",
+          "detail": "Defi 狂欢派对：新人首单领 3 USDT，交易最高赢 8,000 USDT3 小时前362",
           "url": "https://www.gate.com/zh/announcements/article/101303"
         },
         {
           "token": "PG",
           "type": "上线",
-          "detail": "Gate 关于已完成宝洁 (PG) 等 67 只股票股息派发公告4 小时前353",
+          "detail": "Gate 关于已完成宝洁 (PG) 等 67 只股票股息派发公告4 小时前357",
           "url": "https://www.gate.com/zh/announcements/article/101300"
         },
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 积分计划空投第二期，参与用户共获 700,000 WLFI 代币8 小时前977",
+          "detail": "USD1 积分计划空投第二期，参与用户共获 700,000 WLFI 代币8 小时前981",
           "url": "https://www.gate.com/zh/announcements/article/101297"
         },
         {
@@ -100,7 +106,7 @@
         {
           "token": "DGAI",
           "type": "现货上线",
-          "detail": "Gate 将上线 DGrid AI (DGAI) 现货交易与闪兑交易1 天前2,891",
+          "detail": "Gate 将上线 DGrid AI (DGAI) 现货交易与闪兑交易1 天前2,892",
           "url": "https://www.gate.com/zh/announcements/article/101292"
         }
       ]
