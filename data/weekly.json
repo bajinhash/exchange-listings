@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-19",
   "weekEnd": "2026-08-25",
-  "updatedAt": "2026-08-25T10:53:01.900Z",
+  "updatedAt": "2026-08-25T11:02:12.758Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -386,6 +386,33 @@
     "bybit": {
       "listings": [
         {
+          "token": "INTU",
+          "type": "永续合约",
+          "detail": "全新上線：INTUUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-intuusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art9879ccabbdff/",
+          "dates": [
+            "2026-08-25"
+          ]
+        },
+        {
+          "token": "RAM",
+          "type": "永续合约",
+          "detail": "全新上線：RAMUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ramusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artdc07219165c1/",
+          "dates": [
+            "2026-08-25"
+          ]
+        },
+        {
+          "token": "DJT",
+          "type": "永续合约",
+          "detail": "全新上線：DJTUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-djtusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artde27434679da/",
+          "dates": [
+            "2026-08-25"
+          ]
+        },
+        {
           "token": "MRK",
           "type": "永续合约",
           "detail": "全新上線：MRKUSDT TradFi 永續合約，支持最高 25 倍槓桿",
@@ -649,7 +676,7 @@
         {
           "token": "AST",
           "type": "上线",
-          "detail": "Gate 关于 韩国资本、AST、T'way Air 股票合股进行相关调整的公告12 分钟前45",
+          "detail": "Gate 关于 韩国资本、AST、T'way Air 股票合股进行相关调整的公告21 分钟前69",
           "url": "https://www.gate.com/zh/announcements/article/101349",
           "dates": [
             "2026-08-25"
@@ -658,7 +685,7 @@
         {
           "token": "ZEC2",
           "type": "上线",
-          "detail": "牛来开赚：交易赢最高 6 ZEC2 小时前304",
+          "detail": "牛来开赚：交易赢最高 6 ZEC2 小时前322",
           "url": "https://www.gate.com/zh/announcements/article/101346",
           "dates": [
             "2026-08-25"
@@ -667,7 +694,7 @@
         {
           "token": "CASHCAT",
           "type": "跟单合约",
-          "detail": "Gate 已上线 CASHCAT 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定...2 小时前308",
+          "detail": "Gate 已上线 CASHCAT 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定...3 小时前325",
           "url": "https://www.gate.com/zh/announcements/article/101341",
           "dates": [
             "2026-08-25"
@@ -676,7 +703,7 @@
         {
           "token": "CASHCAT",
           "type": "现货上线",
-          "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易3 小时前1,106",
+          "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易3 小时前1,111",
           "url": "https://www.gate.com/zh/announcements/article/101335",
           "dates": [
             "2026-08-25"
