@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T11:02:12.581Z",
+  "updatedAt": "2026-08-25T12:24:50.105Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -102,46 +102,34 @@
     "gateio": {
       "listings": [
         {
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行首批 20% 解锁的安排公告1 小时前174",
+          "url": "https://www.gate.com/zh/announcements/article/101351"
+        },
+        {
           "token": "AST",
           "type": "上线",
-          "detail": "Gate 关于 韩国资本、AST、T'way Air 股票合股进行相关调整的公告21 分钟前69",
+          "detail": "Gate 关于 韩国资本、AST、T'way Air 股票合股进行相关调整的公告2 小时前180",
           "url": "https://www.gate.com/zh/announcements/article/101349"
         },
         {
-          "token": "ZEC2",
+          "token": "ZEC3",
           "type": "上线",
-          "detail": "牛来开赚：交易赢最高 6 ZEC2 小时前322",
+          "detail": "牛来开赚：交易赢最高 6 ZEC3 小时前431",
           "url": "https://www.gate.com/zh/announcements/article/101346"
         },
         {
           "token": "CASHCAT",
           "type": "跟单合约",
-          "detail": "Gate 已上线 CASHCAT 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定...3 小时前325",
+          "detail": "Gate 已上线 CASHCAT 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定...4 小时前403",
           "url": "https://www.gate.com/zh/announcements/article/101341"
         },
         {
           "token": "CASHCAT",
           "type": "现货上线",
-          "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易3 小时前1,111",
+          "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易5 小时前1,180",
           "url": "https://www.gate.com/zh/announcements/article/101335"
-        },
-        {
-          "token": "DOGE",
-          "type": "上线",
-          "detail": "DOGE（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101331"
-        },
-        {
-          "token": "HYPE",
-          "type": "上线",
-          "detail": "HYPE（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101331"
-        },
-        {
-          "token": "BNB",
-          "type": "上线",
-          "detail": "BNB（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101331"
         }
       ]
     },
