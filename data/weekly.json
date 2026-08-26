@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-20",
   "weekEnd": "2026-08-26",
-  "updatedAt": "2026-08-26T10:55:51.765Z",
+  "updatedAt": "2026-08-26T11:05:07.906Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -418,10 +418,10 @@
     "gateio": {
       "listings": [
         {
-          "token": "CASHCAT",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易6 小时前1,251",
-          "url": "https://www.gate.com/zh/announcements/article/101335",
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行首批 20% 解锁的安排公告2 小时前406",
+          "url": "https://www.gate.com/zh/announcements/article/101351",
           "dates": [
             "2026-08-25",
             "2026-08-26"
@@ -430,17 +430,8 @@
         {
           "token": "PONS",
           "type": "现货上线",
-          "detail": "Gate 将上线 Pons (PONS) 现货交易2 小时前1,095",
+          "detail": "Gate 将上线 Pons (PONS) 现货交易2 小时前1,108",
           "url": "https://www.gate.com/zh/announcements/article/101372",
-          "dates": [
-            "2026-08-26"
-          ]
-        },
-        {
-          "token": "USDT4",
-          "type": "上线",
-          "detail": "Gate ETF 新人福利周：首单 $1 领 50 USDT，进阶加码 50 USDT4 小时前394",
-          "url": "https://www.gate.com/zh/announcements/article/101363",
           "dates": [
             "2026-08-26"
           ]
@@ -450,15 +441,6 @@
           "type": "上线",
           "detail": "英伟达财报周：聊行情、晒观点，赢 NVDA1 小时前186",
           "url": "https://www.gate.com/zh/announcements/article/101352",
-          "dates": [
-            "2026-08-25"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行首批 20% 解锁的安排公告2 小时前406",
-          "url": "https://www.gate.com/zh/announcements/article/101351",
           "dates": [
             "2026-08-25"
           ]
@@ -486,6 +468,15 @@
           "type": "跟单合约",
           "detail": "Gate 已上线 CASHCAT 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定...5 小时前472",
           "url": "https://www.gate.com/zh/announcements/article/101341",
+          "dates": [
+            "2026-08-25"
+          ]
+        },
+        {
+          "token": "CASHCAT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易6 小时前1,251",
+          "url": "https://www.gate.com/zh/announcements/article/101335",
           "dates": [
             "2026-08-25"
           ]

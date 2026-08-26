@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T10:55:51.628Z",
+  "updatedAt": "2026-08-26T11:05:07.749Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -109,20 +109,14 @@
         {
           "token": "PONS",
           "type": "现货上线",
-          "detail": "Gate 将上线 Pons (PONS) 现货交易2 小时前1,095",
+          "detail": "Gate 将上线 Pons (PONS) 现货交易2 小时前1,108",
           "url": "https://www.gate.com/zh/announcements/article/101372"
         },
         {
-          "token": "USDT4",
-          "type": "上线",
-          "detail": "Gate ETF 新人福利周：首单 $1 领 50 USDT，进阶加码 50 USDT4 小时前394",
-          "url": "https://www.gate.com/zh/announcements/article/101363"
-        },
-        {
-          "token": "CASHCAT",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易1 天前2,021",
-          "url": "https://www.gate.com/zh/announcements/article/101335"
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行首批 20% 解锁的安排公告1 天前1,685",
+          "url": "https://www.gate.com/zh/announcements/article/101351"
         }
       ]
     },
