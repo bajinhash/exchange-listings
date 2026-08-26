@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-20",
   "weekEnd": "2026-08-26",
-  "updatedAt": "2026-08-26T12:26:46.621Z",
+  "updatedAt": "2026-08-26T13:50:48.352Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -427,18 +427,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT6",
-          "type": "上线",
-          "detail": "闪兑新人专属礼：首兑享 100 USDT，交易再领 2 USDT6 小时前454",
-          "url": "https://www.gate.com/zh/announcements/article/101259",
-          "dates": [
-            "2026-08-20",
-            "2026-08-21",
-            "2026-08-24",
-            "2026-08-26"
-          ]
-        },
-        {
           "token": "CASHCAT",
           "type": "现货上线",
           "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易6 小时前1,251",
@@ -451,8 +439,17 @@
         {
           "token": "PONS",
           "type": "现货上线",
-          "detail": "Gate 将上线 Pons (PONS) 现货交易3 小时前1,277",
+          "detail": "Gate 将上线 Pons (PONS) 现货交易5 小时前1,412",
           "url": "https://www.gate.com/zh/announcements/article/101372",
+          "dates": [
+            "2026-08-26"
+          ]
+        },
+        {
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "Gate ETF 新人福利周：首单 $1 领 50 USDT，进阶加码 50 USDT7 小时前535",
+          "url": "https://www.gate.com/zh/announcements/article/101363",
           "dates": [
             "2026-08-26"
           ]
@@ -500,6 +497,17 @@
           "url": "https://www.gate.com/zh/announcements/article/101341",
           "dates": [
             "2026-08-25"
+          ]
+        },
+        {
+          "token": "USDT6",
+          "type": "上线",
+          "detail": "闪兑新人专属礼：首兑享 100 USDT，交易再领 2 USDT6 小时前454",
+          "url": "https://www.gate.com/zh/announcements/article/101259",
+          "dates": [
+            "2026-08-20",
+            "2026-08-21",
+            "2026-08-24"
           ]
         },
         {
