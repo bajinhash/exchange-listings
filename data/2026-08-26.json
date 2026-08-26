@@ -1,0 +1,390 @@
+{
+  "date": "2026-08-26",
+  "updatedAt": "2026-08-26T10:55:51.628Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "ADGM",
+          "type": "上线",
+          "detail": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-26",
+          "url": "https://www.binance.com/en/support/announcement/8837d1a33b97422597c14d38ead5dc82"
+        },
+        {
+          "token": "DJTB",
+          "type": "现货上线",
+          "detail": "Binance Exchange Adds Trump Media & Technology Group (DJTB) bStocks on Binance Spot - 2026-08-26",
+          "url": "https://www.binance.com/en/support/announcement/653dce6a74234b999d7a189c0fa49a80"
+        },
+        {
+          "token": "ACE",
+          "type": "现货上线",
+          "detail": "ACE（同公告含 2 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/9bf3e55d2add4e74a6c644b899864413"
+        },
+        {
+          "token": "ARS",
+          "type": "现货上线",
+          "detail": "ARS（同公告含 2 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/9bf3e55d2add4e74a6c644b899864413"
+        }
+      ],
+      "alpha": [
+        {
+          "token": "DEBIT",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 DEBIT - AI驱动的无抵押贷匹配平台",
+          "url": "https://www.binance.com/en/alpha/bsc/0x66661c7229901f568f16bd1551b3ba826f83ce49"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "JUPUSD",
+          "type": "永续合约",
+          "detail": "JUPUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-jupusd-ontusd-x-perps"
+        },
+        {
+          "token": "ONTUSD",
+          "type": "永续合约",
+          "detail": "ONTUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-jupusd-ontusd-x-perps"
+        },
+        {
+          "token": "KITE",
+          "type": "上线",
+          "detail": "OKX 關於 KITE 置換的公告發佈於 2026年8月26日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-support-kite-crypto-migration"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "MSTU",
+          "type": "永续合约",
+          "detail": "全新上線：MSTUUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mstuusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art0ba5499f7ef8/"
+        },
+        {
+          "token": "INFQ",
+          "type": "永续合约",
+          "detail": "全新上線：INFQUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-infqusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art7e1f378fe0c6/"
+        },
+        {
+          "token": "SPXL",
+          "type": "永续合约",
+          "detail": "全新上線：SPXLUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spxlusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art70539768bd23/"
+        },
+        {
+          "token": "INTU",
+          "type": "永续合约",
+          "detail": "全新上線：INTUUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-intuusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art9879ccabbdff/"
+        },
+        {
+          "token": "RAM",
+          "type": "永续合约",
+          "detail": "全新上線：RAMUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ramusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artdc07219165c1/"
+        },
+        {
+          "token": "DJT",
+          "type": "永续合约",
+          "detail": "全新上線：DJTUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-djtusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artde27434679da/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "PONS",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Pons (PONS) 现货交易2 小时前1,095",
+          "url": "https://www.gate.com/zh/announcements/article/101372"
+        },
+        {
+          "token": "USDT4",
+          "type": "上线",
+          "detail": "Gate ETF 新人福利周：首单 $1 领 50 USDT，进阶加码 50 USDT4 小时前394",
+          "url": "https://www.gate.com/zh/announcements/article/101363"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易1 天前2,021",
+          "url": "https://www.gate.com/zh/announcements/article/101335"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rDJT",
+          "type": "现货上线",
+          "detail": "rDJT（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rPURR",
+          "type": "现货上线",
+          "detail": "rPURR（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rDXYZ",
+          "type": "现货上线",
+          "detail": "rDXYZ（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rNVD",
+          "type": "现货上线",
+          "detail": "rNVD（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rNVDL",
+          "type": "现货上线",
+          "detail": "rNVDL（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rSPMO",
+          "type": "现货上线",
+          "detail": "rSPMO（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rSMTC",
+          "type": "现货上线",
+          "detail": "rSMTC（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rHDV",
+          "type": "现货上线",
+          "detail": "rHDV（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rJEPI",
+          "type": "现货上线",
+          "detail": "rJEPI（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rLQDA",
+          "type": "现货上线",
+          "detail": "rLQDA（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rAMPG",
+          "type": "现货上线",
+          "detail": "rAMPG（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rAMPX",
+          "type": "现货上线",
+          "detail": "rAMPX（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rVRSN",
+          "type": "现货上线",
+          "detail": "rVRSN（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rHUBB",
+          "type": "现货上线",
+          "detail": "rHUBB（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rBAP",
+          "type": "现货上线",
+          "detail": "rBAP（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rCTSH",
+          "type": "现货上线",
+          "detail": "rCTSH（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "rQSR",
+          "type": "现货上线",
+          "detail": "rQSR（同公告含 17 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "MARA",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 MARAUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893405"
+        },
+        {
+          "token": "DJT",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 DJTUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893304"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "PISTACIO",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年8月26日 18:00 (UTC+8) 上線 PISTACIOUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537891"
+        },
+        {
+          "token": "IOT",
+          "type": "美股合约",
+          "detail": "IOT（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-iot-de-and-mo-stock-futures-with-0-fee-trading-on-aug-26-17827791537890"
+        },
+        {
+          "token": "DE",
+          "type": "美股合约",
+          "detail": "DE（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-iot-de-and-mo-stock-futures-with-0-fee-trading-on-aug-26-17827791537890"
+        },
+        {
+          "token": "MO",
+          "type": "美股合约",
+          "detail": "MO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-iot-de-and-mo-stock-futures-with-0-fee-trading-on-aug-26-17827791537890"
+        },
+        {
+          "token": "DEBIT",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年8月26日 18:10 (UTC+8) 上線 DEBITUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537886"
+        },
+        {
+          "token": "TMX",
+          "type": "跟单合约",
+          "detail": "TMX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tmx-dgai-delta-and-djt-usdt-m-futures-17827791537881"
+        },
+        {
+          "token": "DGAI",
+          "type": "跟单合约",
+          "detail": "DGAI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tmx-dgai-delta-and-djt-usdt-m-futures-17827791537881"
+        },
+        {
+          "token": "DELTA",
+          "type": "跟单合约",
+          "detail": "DELTA（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tmx-dgai-delta-and-djt-usdt-m-futures-17827791537881"
+        },
+        {
+          "token": "DJT",
+          "type": "跟单合约",
+          "detail": "DJT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tmx-dgai-delta-and-djt-usdt-m-futures-17827791537881"
+        },
+        {
+          "token": "PISTACIO",
+          "type": "Meme+ 现货",
+          "detail": "PISTACIO 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537876"
+        },
+        {
+          "token": "IREN",
+          "type": "杠杆上线",
+          "detail": "IREN（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/maximum-leverage-adjusted-for-irenusdt-and-mrvlusdt-futures-aug-27-2026-utc-17827791537857"
+        },
+        {
+          "token": "MRVL",
+          "type": "杠杆上线",
+          "detail": "MRVL（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/maximum-leverage-adjusted-for-irenusdt-and-mrvlusdt-futures-aug-27-2026-utc-17827791537857"
+        },
+        {
+          "token": "DJT",
+          "type": "美股合约",
+          "detail": "MEXC 將於 8月25日 上線 DJT 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537853"
+        },
+        {
+          "token": "TMX",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年8月25日 18:10 (UTC+8) 上線 TermMax (TMX) USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537848"
+        },
+        {
+          "token": "EGG",
+          "type": "跟单合约",
+          "detail": "EGG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-egg-purr-mrk-mnst-and-twst-usdt-m-futures-17827791537846"
+        },
+        {
+          "token": "PURR",
+          "type": "跟单合约",
+          "detail": "PURR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-egg-purr-mrk-mnst-and-twst-usdt-m-futures-17827791537846"
+        },
+        {
+          "token": "MRK",
+          "type": "跟单合约",
+          "detail": "MRK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-egg-purr-mrk-mnst-and-twst-usdt-m-futures-17827791537846"
+        },
+        {
+          "token": "MNST",
+          "type": "跟单合约",
+          "detail": "MNST（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-egg-purr-mrk-mnst-and-twst-usdt-m-futures-17827791537846"
+        },
+        {
+          "token": "TWST",
+          "type": "跟单合约",
+          "detail": "TWST（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-egg-purr-mrk-mnst-and-twst-usdt-m-futures-17827791537846"
+        },
+        {
+          "token": "SHEIN",
+          "type": "跟单合约",
+          "detail": "SHEIN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-shein-disco-renesas-and-nec-usdt-m-futures-17827791537845"
+        },
+        {
+          "token": "DISCO",
+          "type": "跟单合约",
+          "detail": "DISCO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-shein-disco-renesas-and-nec-usdt-m-futures-17827791537845"
+        },
+        {
+          "token": "RENESAS",
+          "type": "跟单合约",
+          "detail": "RENESAS（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-shein-disco-renesas-and-nec-usdt-m-futures-17827791537845"
+        },
+        {
+          "token": "NEC",
+          "type": "跟单合约",
+          "detail": "NEC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-shein-disco-renesas-and-nec-usdt-m-futures-17827791537845"
+        }
+      ]
+    }
+  }
+}
