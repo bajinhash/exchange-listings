@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-20",
   "weekEnd": "2026-08-26",
-  "updatedAt": "2026-08-26T11:05:07.906Z",
+  "updatedAt": "2026-08-26T12:26:46.621Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -274,6 +274,15 @@
           ]
         },
         {
+          "token": "TMX",
+          "type": "永续合约",
+          "detail": "TMXUSDT 永續合約全新上線創新板塊， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tmxusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--art67882b7f60b4/",
+          "dates": [
+            "2026-08-26"
+          ]
+        },
+        {
           "token": "MSTU",
           "type": "永续合约",
           "detail": "全新上線：MSTUUSDT TradFi 永續合約，支持最高 25 倍槓桿",
@@ -418,10 +427,22 @@
     "gateio": {
       "listings": [
         {
-          "token": "SPCX",
-          "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行首批 20% 解锁的安排公告2 小时前406",
-          "url": "https://www.gate.com/zh/announcements/article/101351",
+          "token": "USDT6",
+          "type": "上线",
+          "detail": "闪兑新人专属礼：首兑享 100 USDT，交易再领 2 USDT6 小时前454",
+          "url": "https://www.gate.com/zh/announcements/article/101259",
+          "dates": [
+            "2026-08-20",
+            "2026-08-21",
+            "2026-08-24",
+            "2026-08-26"
+          ]
+        },
+        {
+          "token": "CASHCAT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易6 小时前1,251",
+          "url": "https://www.gate.com/zh/announcements/article/101335",
           "dates": [
             "2026-08-25",
             "2026-08-26"
@@ -430,7 +451,7 @@
         {
           "token": "PONS",
           "type": "现货上线",
-          "detail": "Gate 将上线 Pons (PONS) 现货交易2 小时前1,108",
+          "detail": "Gate 将上线 Pons (PONS) 现货交易3 小时前1,277",
           "url": "https://www.gate.com/zh/announcements/article/101372",
           "dates": [
             "2026-08-26"
@@ -441,6 +462,15 @@
           "type": "上线",
           "detail": "英伟达财报周：聊行情、晒观点，赢 NVDA1 小时前186",
           "url": "https://www.gate.com/zh/announcements/article/101352",
+          "dates": [
+            "2026-08-25"
+          ]
+        },
+        {
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行首批 20% 解锁的安排公告2 小时前406",
+          "url": "https://www.gate.com/zh/announcements/article/101351",
           "dates": [
             "2026-08-25"
           ]
@@ -470,26 +500,6 @@
           "url": "https://www.gate.com/zh/announcements/article/101341",
           "dates": [
             "2026-08-25"
-          ]
-        },
-        {
-          "token": "CASHCAT",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易6 小时前1,251",
-          "url": "https://www.gate.com/zh/announcements/article/101335",
-          "dates": [
-            "2026-08-25"
-          ]
-        },
-        {
-          "token": "USDT6",
-          "type": "上线",
-          "detail": "闪兑新人专属礼：首兑享 100 USDT，交易再领 2 USDT6 小时前454",
-          "url": "https://www.gate.com/zh/announcements/article/101259",
-          "dates": [
-            "2026-08-20",
-            "2026-08-21",
-            "2026-08-24"
           ]
         },
         {
@@ -814,6 +824,15 @@
           "type": "现货上线",
           "detail": "rQSR（同公告含 17 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410",
+          "dates": [
+            "2026-08-26"
+          ]
+        },
+        {
+          "token": "PURR",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 PURRUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893437",
           "dates": [
             "2026-08-26"
           ]

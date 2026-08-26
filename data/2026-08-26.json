@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T11:05:07.749Z",
+  "updatedAt": "2026-08-26T12:26:46.448Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -64,6 +64,12 @@
     "bybit": {
       "listings": [
         {
+          "token": "TMX",
+          "type": "永续合约",
+          "detail": "TMXUSDT 永續合約全新上線創新板塊， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tmxusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--art67882b7f60b4/"
+        },
+        {
           "token": "MSTU",
           "type": "永续合约",
           "detail": "全新上線：MSTUUSDT TradFi 永續合約，支持最高 25 倍槓桿",
@@ -109,14 +115,20 @@
         {
           "token": "PONS",
           "type": "现货上线",
-          "detail": "Gate 将上线 Pons (PONS) 现货交易2 小时前1,108",
+          "detail": "Gate 将上线 Pons (PONS) 现货交易3 小时前1,277",
           "url": "https://www.gate.com/zh/announcements/article/101372"
         },
         {
-          "token": "SPCX",
-          "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行首批 20% 解锁的安排公告1 天前1,685",
-          "url": "https://www.gate.com/zh/announcements/article/101351"
+          "token": "USDT6",
+          "type": "上线",
+          "detail": "Gate ETF 新人福利周：首单 $1 领 50 USDT，进阶加码 50 USDT6 小时前473",
+          "url": "https://www.gate.com/zh/announcements/article/101363"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Cash Cat (CASHCAT) 现货交易与闪兑交易1 天前2,069",
+          "url": "https://www.gate.com/zh/announcements/article/101335"
         }
       ]
     },
@@ -223,6 +235,12 @@
           "type": "现货上线",
           "detail": "rQSR（同公告含 17 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "PURR",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 PURRUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893437"
         },
         {
           "token": "MARA",
