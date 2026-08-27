@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-22",
   "weekEnd": "2026-08-28",
-  "updatedAt": "2026-08-27T20:29:18.625Z",
+  "updatedAt": "2026-08-27T20:42:28.910Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -295,7 +295,7 @@
         {
           "token": "MARSCOIN",
           "type": "现货上线",
-          "detail": "Gate 将上线 MarsCoin (MARSCOIN) 现货交易与闪兑交易9 小时前986",
+          "detail": "Gate 将上线 MarsCoin (MARSCOIN) 现货交易与闪兑交易9 小时前1,000",
           "url": "https://www.gate.com/zh/announcements/article/101401",
           "dates": [
             "2026-08-28"
