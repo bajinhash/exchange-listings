@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-28",
+  "updatedAt": "2026-08-27T20:29:18.492Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MARSCOIN",
+          "type": "现货上线",
+          "detail": "Gate 将上线 MarsCoin (MARSCOIN) 现货交易与闪兑交易9 小时前986",
+          "url": "https://www.gate.com/zh/announcements/article/101401"
+        },
+        {
+          "token": "CLAN",
+          "type": "现货上线",
+          "detail": "CLAN（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101400"
+        },
+        {
+          "token": "AGI",
+          "type": "现货上线",
+          "detail": "AGI（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101400"
+        },
+        {
+          "token": "FRIEND",
+          "type": "现货上线",
+          "detail": "FRIEND（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101400"
+        },
+        {
+          "token": "STONKEX",
+          "type": "现货上线",
+          "detail": "STONKEX（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101399"
+        },
+        {
+          "token": "BOW",
+          "type": "现货上线",
+          "detail": "BOW（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101399"
+        },
+        {
+          "token": "EARN",
+          "type": "现货上线",
+          "detail": "EARN（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101399"
+        },
+        {
+          "token": "MOSAIC",
+          "type": "现货上线",
+          "detail": "MOSAIC（同公告含 4 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101399"
+        },
+        {
+          "token": "PONS",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Pons (PONS) 现货交易1 天前3,443",
+          "url": "https://www.gate.com/zh/announcements/article/101372"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "HPQ",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 HPQUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893608"
+        },
+        {
+          "token": "SHEIN",
+          "type": "永续合约",
+          "detail": "Bitget 重磅上线 SHEINUSDT【IPO盘前永续合约】！提前博弈 SHEIN IPO，抢跑快时尚独角兽定价权！",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893607"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MSTU",
+          "type": "美股合约",
+          "detail": "MEXC 將於 8月27日 上線 MSTU 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mstu-stock-futures-with-0-fee-trading-on-aug-27-17827791537918"
+        }
+      ]
+    }
+  }
+}
