@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-27T20:42:28.722Z",
+  "updatedAt": "2026-08-27T21:28:14.048Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,7 +21,7 @@
         {
           "token": "MARSCOIN",
           "type": "现货上线",
-          "detail": "Gate 将上线 MarsCoin (MARSCOIN) 现货交易与闪兑交易9 小时前1,000",
+          "detail": "Gate 将上线 MarsCoin (MARSCOIN) 现货交易与闪兑交易10 小时前1,046",
           "url": "https://www.gate.com/zh/announcements/article/101401"
         },
         {
@@ -65,12 +65,6 @@
           "type": "现货上线",
           "detail": "MOSAIC（同公告含 4 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101399"
-        },
-        {
-          "token": "PONS",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Pons (PONS) 现货交易1 天前3,449",
-          "url": "https://www.gate.com/zh/announcements/article/101372"
         }
       ]
     },
