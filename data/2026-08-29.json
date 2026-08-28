@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-29",
+  "updatedAt": "2026-08-28T21:18:58.446Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "RAM",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 RAM（Roundhill T‑REX 2 倍做多 DRAM 每日目...10 小时前874",
+          "url": "https://www.gate.com/zh/announcements/article/101420"
+        },
+        {
+          "token": "MARSCOIN",
+          "type": "现货上线",
+          "detail": "Gate 将上线 MarsCoin (MARSCOIN) 现货交易与闪兑交易1 天前2,215",
+          "url": "https://www.gate.com/zh/announcements/article/101401"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "OKTA",
+          "type": "美股合约",
+          "detail": "OKTA（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893702"
+        },
+        {
+          "token": "VEEV",
+          "type": "美股合约",
+          "detail": "VEEV（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893702"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "VYNEX",
+          "type": "Meme+ 现货",
+          "detail": "VYNEX 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537953"
+        },
+        {
+          "token": "BASELINE",
+          "type": "Meme+ 现货",
+          "detail": "BASELINE 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537952"
+        },
+        {
+          "token": "MSTU",
+          "type": "美股合约",
+          "detail": "MEXC 將於 8月27日 上線 MSTU 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mstu-stock-futures-with-0-fee-trading-on-aug-27-17827791537918"
+        },
+        {
+          "token": "IOT",
+          "type": "跟单合约",
+          "detail": "IOT（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-iot-de-and-mo-usdt-m-futures-17827791537910"
+        },
+        {
+          "token": "DE",
+          "type": "跟单合约",
+          "detail": "DE（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-iot-de-and-mo-usdt-m-futures-17827791537910"
+        },
+        {
+          "token": "MO",
+          "type": "跟单合约",
+          "detail": "MO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-iot-de-and-mo-usdt-m-futures-17827791537910"
+        },
+        {
+          "token": "BISCOTTI",
+          "type": "跟单合约",
+          "detail": "BISCOTTI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-biscotti-cc1-pistacio-and-debit-usdt-m-futures-17827791537909"
+        },
+        {
+          "token": "CC1",
+          "type": "跟单合约",
+          "detail": "CC1（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-biscotti-cc1-pistacio-and-debit-usdt-m-futures-17827791537909"
+        },
+        {
+          "token": "PISTACIO",
+          "type": "跟单合约",
+          "detail": "PISTACIO（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-biscotti-cc1-pistacio-and-debit-usdt-m-futures-17827791537909"
+        },
+        {
+          "token": "DEBIT",
+          "type": "跟单合约",
+          "detail": "DEBIT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-biscotti-cc1-pistacio-and-debit-usdt-m-futures-17827791537909"
+        }
+      ]
+    }
+  }
+}
