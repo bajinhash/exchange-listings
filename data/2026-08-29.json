@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-28T21:18:58.446Z",
+  "updatedAt": "2026-08-28T21:28:16.895Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,13 +21,13 @@
         {
           "token": "RAM",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 RAM（Roundhill T‑REX 2 倍做多 DRAM 每日目...10 小时前874",
+          "detail": "Gate 合约股票专区将上线 RAM（Roundhill T‑REX 2 倍做多 DRAM 每日目...10 小时前884",
           "url": "https://www.gate.com/zh/announcements/article/101420"
         },
         {
           "token": "MARSCOIN",
           "type": "现货上线",
-          "detail": "Gate 将上线 MarsCoin (MARSCOIN) 现货交易与闪兑交易1 天前2,215",
+          "detail": "Gate 将上线 MarsCoin (MARSCOIN) 现货交易与闪兑交易1 天前2,224",
           "url": "https://www.gate.com/zh/announcements/article/101401"
         }
       ]
