@@ -1,0 +1,139 @@
+{
+  "date": "2026-08-30",
+  "updatedAt": "2026-08-29T17:02:08.556Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "RAM",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 RAM（Roundhill T‑REX 2 倍做多 DRAM 每日目...1 天前1,651",
+          "url": "https://www.gate.com/zh/announcements/article/101420"
+        },
+        {
+          "token": "SHEIN",
+          "type": "永续合约",
+          "detail": "Gate 股票专区已上线 SHEINUSDT（希音）永续合约盘前交易（USDT 结...1 天前1,681",
+          "url": "https://www.gate.com/zh/announcements/article/101416"
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "VIP 尊享交易盛典：交易赢最高 40,000 USDT1 天前617",
+          "url": "https://www.gate.com/zh/announcements/article/101414"
+        },
+        {
+          "token": "PINK",
+          "type": "现货上线",
+          "detail": "PINK（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101411"
+        },
+        {
+          "token": "AU",
+          "type": "现货上线",
+          "detail": "AU（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101411"
+        },
+        {
+          "token": "RAWR",
+          "type": "现货上线",
+          "detail": "RAWR（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101411"
+        },
+        {
+          "token": "WindChill",
+          "type": "现货上线",
+          "detail": "WindChill（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101411"
+        },
+        {
+          "token": "DTF",
+          "type": "现货上线",
+          "detail": "DTF（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101411"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "COPPERINU",
+          "type": "Meme+ 现货",
+          "detail": "COPPERINU 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537955"
+        },
+        {
+          "token": "TAKEDA",
+          "type": "跟单合约",
+          "detail": "TAKEDA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-takeda-melco-fanuc-mstu-and-fone-usdt-m-futures-17827791537931"
+        },
+        {
+          "token": "MELCO",
+          "type": "跟单合约",
+          "detail": "MELCO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-takeda-melco-fanuc-mstu-and-fone-usdt-m-futures-17827791537931"
+        },
+        {
+          "token": "FANUC",
+          "type": "跟单合约",
+          "detail": "FANUC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-takeda-melco-fanuc-mstu-and-fone-usdt-m-futures-17827791537931"
+        },
+        {
+          "token": "MSTU",
+          "type": "跟单合约",
+          "detail": "MSTU（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-takeda-melco-fanuc-mstu-and-fone-usdt-m-futures-17827791537931"
+        },
+        {
+          "token": "FONE",
+          "type": "跟单合约",
+          "detail": "FONE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-takeda-melco-fanuc-mstu-and-fone-usdt-m-futures-17827791537931"
+        },
+        {
+          "token": "TAKEDA",
+          "type": "美股合约",
+          "detail": "TAKEDA（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-takeda-melco-and-fanuc-stock-futures-with-0-fee-trading-on-aug-28-17827791537930"
+        },
+        {
+          "token": "MELCO",
+          "type": "美股合约",
+          "detail": "MELCO（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-takeda-melco-and-fanuc-stock-futures-with-0-fee-trading-on-aug-28-17827791537930"
+        },
+        {
+          "token": "FANUC",
+          "type": "美股合约",
+          "detail": "FANUC（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-takeda-melco-and-fanuc-stock-futures-with-0-fee-trading-on-aug-28-17827791537930"
+        },
+        {
+          "token": "FONE",
+          "type": "上线",
+          "detail": "FONE 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-fone-to-innovation-zone-17827791537929"
+        }
+      ]
+    }
+  }
+}
