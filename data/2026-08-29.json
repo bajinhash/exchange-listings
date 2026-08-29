@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-29T15:19:02.219Z",
+  "updatedAt": "2026-08-29T15:54:29.181Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,25 +21,25 @@
         {
           "token": "USDD",
           "type": "上线",
-          "detail": "Gate Web3 Bonus：参与 USDD 质押 BNB 链第六期，享 4% APY + 39,000 USDD 额外奖励15 小时前1,010",
+          "detail": "Gate Web3 Bonus：参与 USDD 质押 BNB 链第六期，享 4% APY + 39,000 USDD 额外奖励16 小时前1,040",
           "url": "https://www.gate.com/zh/announcements/article/101424"
         },
         {
           "token": "RAM",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 RAM（Roundhill T‑REX 2 倍做多 DRAM 每日目...1 天前1,589",
+          "detail": "Gate 合约股票专区将上线 RAM（Roundhill T‑REX 2 倍做多 DRAM 每日目...1 天前1,610",
           "url": "https://www.gate.com/zh/announcements/article/101420"
         },
         {
           "token": "SHEIN",
           "type": "永续合约",
-          "detail": "Gate 股票专区已上线 SHEINUSDT（希音）永续合约盘前交易（USDT 结...1 天前1,635",
+          "detail": "Gate 股票专区已上线 SHEINUSDT（希音）永续合约盘前交易（USDT 结...1 天前1,652",
           "url": "https://www.gate.com/zh/announcements/article/101416"
         },
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "VIP 尊享交易盛典：交易赢最高 40,000 USDT1 天前603",
+          "detail": "VIP 尊享交易盛典：交易赢最高 40,000 USDT1 天前610",
           "url": "https://www.gate.com/zh/announcements/article/101414"
         },
         {
