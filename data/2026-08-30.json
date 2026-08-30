@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T14:58:05.494Z",
+  "updatedAt": "2026-08-30T15:07:18.202Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,13 +21,13 @@
         {
           "token": "MARSCOIN",
           "type": "跟单合约",
-          "detail": "Gate 已上线 MARSCOIN 合约交易、交易机器人、跟单功能2 小时前343",
+          "detail": "Gate 已上线 MARSCOIN 合约交易、交易机器人、跟单功能2 小时前357",
           "url": "https://www.gate.com/zh/announcements/article/101428"
         },
         {
           "token": "PONS",
           "type": "跟单合约",
-          "detail": "Gate 已上线 PONS 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...11 小时前1,029",
+          "detail": "Gate 已上线 PONS 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...11 小时前1,036",
           "url": "https://www.gate.com/zh/announcements/article/101426"
         }
       ]
