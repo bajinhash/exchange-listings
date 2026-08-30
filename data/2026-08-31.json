@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-31",
+  "updatedAt": "2026-08-30T17:08:45.999Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MARSCOIN",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 MARSCOIN 合约交易、交易机器人、跟单功能4 小时前525",
+          "url": "https://www.gate.com/zh/announcements/article/101428"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "BOT",
+          "type": "上线",
+          "detail": "牛来USDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893765"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "PROLOGUE",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年8月30日 18:30 (UTC+8) 上線 PROLOGUEUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-prologueusdt-futures-in-innovation-zone-on-aug-30-2026-10-17827791537961"
+        },
+        {
+          "token": "COPPERINUM",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年8月30日 18:30 (UTC+8) 上線 COPPERINUMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-copperinumusdt-futures-in-innovation-zone-on-aug-30-2026-10-17827791537960"
+        },
+        {
+          "token": "MICRODUCK",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年8月30日 18:30 (UTC+8) 上線 MICRODUCKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-microduckusdt-futures-in-innovation-zone-on-aug-30-2026-10-17827791537959"
+        }
+      ]
+    }
+  }
+}
