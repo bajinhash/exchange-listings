@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-01",
+  "updatedAt": "2026-08-31T17:42:48.736Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "PONS",
+          "type": "上线",
+          "detail": "PONSUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893868"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SHEIN",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 關於 SHEINUSDT Pre-IPO 永續合約轉換為正式合約的公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-sheinusdt-pre-ipo-futures-into-standard-futures-17827791538008"
+        },
+        {
+          "token": "IGV",
+          "type": "美股合约",
+          "detail": "IGV（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-igv-okta-and-amkr-stock-futures-with-0-fee-trading-on-aug-31-17827791538007"
+        },
+        {
+          "token": "OKTA",
+          "type": "美股合约",
+          "detail": "OKTA（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-igv-okta-and-amkr-stock-futures-with-0-fee-trading-on-aug-31-17827791538007"
+        },
+        {
+          "token": "AMKR",
+          "type": "美股合约",
+          "detail": "AMKR（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-igv-okta-and-amkr-stock-futures-with-0-fee-trading-on-aug-31-17827791538007"
+        },
+        {
+          "token": "PROLOGUE",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年8月30日 18:30 (UTC+8) 上線 PROLOGUEUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-prologueusdt-futures-in-innovation-zone-on-aug-30-2026-10-17827791537961"
+        }
+      ]
+    }
+  }
+}
