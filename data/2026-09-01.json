@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T14:55:32.162Z",
+  "updatedAt": "2026-09-01T15:05:11.237Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -76,6 +76,24 @@
     "gateio": {
       "listings": [
         {
+          "token": "BASECAT",
+          "type": "跟单合约",
+          "detail": "BASECAT（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101484"
+        },
+        {
+          "token": "ANSEM",
+          "type": "跟单合约",
+          "detail": "ANSEM（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101484"
+        },
+        {
+          "token": "CP",
+          "type": "Launchpool",
+          "detail": "Gate 将上线 Cluster Protocol (CP) 现货交易、闪兑交易并开启 Launchpool...5 分钟前70",
+          "url": "https://www.gate.com/zh/announcements/article/101483"
+        },
+        {
           "token": "RVH",
           "type": "现货上线",
           "detail": "RVH（同公告含 4 个标的）",
@@ -114,13 +132,13 @@
         {
           "token": "USDT7",
           "type": "上线",
-          "detail": "闪兑定投福利八期：首单享双礼，最高领 500 USDT7 小时前704",
+          "detail": "闪兑定投福利八期：首单享双礼，最高领 500 USDT7 小时前720",
           "url": "https://www.gate.com/zh/announcements/article/101474"
         },
         {
           "token": "USDJPY",
           "type": "上线",
-          "detail": "USDJPY CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前672",
+          "detail": "USDJPY CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前681",
           "url": "https://www.gate.com/zh/announcements/article/101472"
         }
       ]
