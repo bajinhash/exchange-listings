@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T15:05:11.237Z",
+  "updatedAt": "2026-09-01T15:42:58.056Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -90,7 +90,7 @@
         {
           "token": "CP",
           "type": "Launchpool",
-          "detail": "Gate 将上线 Cluster Protocol (CP) 现货交易、闪兑交易并开启 Launchpool...5 分钟前70",
+          "detail": "Gate 将上线 Cluster Protocol (CP) 现货交易、闪兑交易并开启 Launchpool...43 分钟前968",
           "url": "https://www.gate.com/zh/announcements/article/101483"
         },
         {
@@ -130,15 +130,15 @@
           "url": "https://www.gate.com/zh/announcements/article/101478"
         },
         {
-          "token": "USDT7",
+          "token": "USDT8",
           "type": "上线",
-          "detail": "闪兑定投福利八期：首单享双礼，最高领 500 USDT7 小时前720",
+          "detail": "闪兑定投福利八期：首单享双礼，最高领 500 USDT8 小时前757",
           "url": "https://www.gate.com/zh/announcements/article/101474"
         },
         {
           "token": "USDJPY",
           "type": "上线",
-          "detail": "USDJPY CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前681",
+          "detail": "USDJPY CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT8 小时前715",
           "url": "https://www.gate.com/zh/announcements/article/101472"
         }
       ]

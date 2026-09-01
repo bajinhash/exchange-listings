@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-26",
   "weekEnd": "2026-09-01",
-  "updatedAt": "2026-09-01T15:05:11.411Z",
+  "updatedAt": "2026-09-01T15:42:58.228Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -241,16 +241,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "Gate ETF 新人福利周：首单 $1 领 50 USDT，进阶加码 50 USDT7 小时前535",
-          "url": "https://www.gate.com/zh/announcements/article/101363",
-          "dates": [
-            "2026-08-26",
-            "2026-09-01"
-          ]
-        },
-        {
           "token": "BASECAT",
           "type": "跟单合约",
           "detail": "BASECAT（同公告含 2 个标的）",
@@ -271,7 +261,7 @@
         {
           "token": "CP",
           "type": "Launchpool",
-          "detail": "Gate 将上线 Cluster Protocol (CP) 现货交易、闪兑交易并开启 Launchpool...5 分钟前70",
+          "detail": "Gate 将上线 Cluster Protocol (CP) 现货交易、闪兑交易并开启 Launchpool...43 分钟前968",
           "url": "https://www.gate.com/zh/announcements/article/101483",
           "dates": [
             "2026-09-01"
@@ -332,9 +322,18 @@
           ]
         },
         {
+          "token": "USDT8",
+          "type": "上线",
+          "detail": "闪兑定投福利八期：首单享双礼，最高领 500 USDT8 小时前757",
+          "url": "https://www.gate.com/zh/announcements/article/101474",
+          "dates": [
+            "2026-09-01"
+          ]
+        },
+        {
           "token": "USDJPY",
           "type": "上线",
-          "detail": "USDJPY CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前681",
+          "detail": "USDJPY CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT8 小时前715",
           "url": "https://www.gate.com/zh/announcements/article/101472",
           "dates": [
             "2026-09-01"
@@ -507,6 +506,15 @@
           "type": "现货上线",
           "detail": "Gate 将上线 Pons (PONS) 现货交易5 小时前1,412",
           "url": "https://www.gate.com/zh/announcements/article/101372",
+          "dates": [
+            "2026-08-26"
+          ]
+        },
+        {
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "Gate ETF 新人福利周：首单 $1 领 50 USDT，进阶加码 50 USDT7 小时前535",
+          "url": "https://www.gate.com/zh/announcements/article/101363",
           "dates": [
             "2026-08-26"
           ]
