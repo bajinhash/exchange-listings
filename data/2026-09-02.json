@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-02",
+  "updatedAt": "2026-09-01T17:07:33.124Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "MARSCOIN",
+          "type": "永续合约",
+          "detail": "MARSCOINUSDT 永續合約全新上線創新板塊， 支援最高 20 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-marscoinusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--arte386b0ccffa1/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CP",
+          "type": "Launchpool",
+          "detail": "Gate 将上线 Cluster Protocol (CP) 现货交易、闪兑交易并开启 Launchpool...2 小时前1,173",
+          "url": "https://www.gate.com/zh/announcements/article/101483"
+        },
+        {
+          "token": "JD",
+          "type": "跟单合约",
+          "detail": "Gate 合约股票专区将上线 JD（京东）等 6 个合约交易、交易机器人、跟单功...1 天前2,073",
+          "url": "https://www.gate.com/zh/announcements/article/101445"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "MARSCOIN",
+          "type": "上线",
+          "detail": "MARSCOINUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893943"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GPRO",
+          "type": "美股合约",
+          "detail": "MEXC 將於 9月1日 上線 GPRO 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gpro-stock-futures-with-0-fee-trading-on-sep-1-17827791538068"
+        },
+        {
+          "token": "SPACEHOOD",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月1日 20:00 (UTC+8) 上線 SPACEHOODUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538066"
+        },
+        {
+          "token": "SAYLORMOON",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月1日 20:00 (UTC+8) 上線 SAYLORMOONUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538065"
+        }
+      ]
+    }
+  }
+}
