@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-28",
   "weekEnd": "2026-09-02",
-  "updatedAt": "2026-09-02T14:31:54.994Z",
+  "updatedAt": "2026-09-02T14:41:13.874Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -389,7 +389,7 @@
         {
           "token": "USDT2",
           "type": "上线",
-          "detail": "Gate ETF 新人专享：首单 $1 领 20 USDT，交易加码再赢 50 USDT2 小时前394",
+          "detail": "Gate ETF 新人专享：首单 $1 领 20 USDT，交易加码再赢 50 USDT2 小时前417",
           "url": "https://www.gate.com/zh/announcements/article/101516",
           "dates": [
             "2026-09-02"
@@ -398,7 +398,7 @@
         {
           "token": "PLTR",
           "type": "上线",
-          "detail": "Gate 合约股票专区将上线 PLTR（帕兰提尔科技）等 12 个合约交易、交易机器...4 小时前525",
+          "detail": "Gate 合约股票专区将上线 PLTR（帕兰提尔科技）等 12 个合约交易、交易机器...4 小时前537",
           "url": "https://www.gate.com/zh/announcements/article/101513",
           "dates": [
             "2026-09-02"
@@ -425,16 +425,16 @@
         {
           "token": "SPCX",
           "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第二批 7% 解锁的安排公告6 小时前530",
+          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第二批 7% 解锁的安排公告6 小时前541",
           "url": "https://www.gate.com/zh/announcements/article/101504",
           "dates": [
             "2026-09-02"
           ]
         },
         {
-          "token": "USDT6",
+          "token": "USDT7",
           "type": "上线",
-          "detail": "DeFi 掘金季：新人首单领 3 USDT，交易最高赢 8,000 USDT6 小时前500",
+          "detail": "DeFi 掘金季：新人首单领 3 USDT，交易最高赢 8,000 USDT7 小时前506",
           "url": "https://www.gate.com/zh/announcements/article/101502",
           "dates": [
             "2026-09-02"
@@ -443,7 +443,7 @@
         {
           "token": "AINVDA",
           "type": "上线",
-          "detail": "Gate 将开放 Artificial Inu (AINVDA) 链上充值7 小时前675",
+          "detail": "Gate 将开放 Artificial Inu (AINVDA) 链上充值8 小时前684",
           "url": "https://www.gate.com/zh/announcements/article/101497",
           "dates": [
             "2026-09-02"
