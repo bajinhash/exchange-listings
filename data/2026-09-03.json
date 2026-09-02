@@ -1,0 +1,201 @@
+{
+  "date": "2026-09-03",
+  "updatedAt": "2026-09-02T17:02:19.101Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "CRWDB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CRWDB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x814981cf5df4a14d4d7328f9abf0d02e9ed54cd1"
+        },
+        {
+          "token": "MRNAB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 MRNAB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x5fd86da9b05abe396fe9d02a4a213a7c00556503"
+        },
+        {
+          "token": "SQQQB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SQQQB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x25e572b466d152604d9e6c3e53b432b978825342"
+        },
+        {
+          "token": "STXB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 STXB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x2e065f65f1699964f4092de1d39a8efe6c8d6f32"
+        },
+        {
+          "token": "PONS",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 PONS - Pons 是一个可以在 Robinhood Chain 上发行和交易代币的平台",
+          "url": "https://www.binance.com/en/alpha/4663/0x39dbed3a2bd333467115de45665cc57f813c4571"
+        },
+        {
+          "token": "FLORK",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 FLORK - 一个BNB Chain 的meme币",
+          "url": "https://www.binance.com/en/alpha/bsc/0xf40592daacb3e5abf358789f5688c0b4f64d7777"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "FLORK",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 FLORK 合约交易、交易机器人、跟单功能2 小时前406",
+          "url": "https://www.gate.com/zh/announcements/article/101518"
+        },
+        {
+          "token": "AINVDA",
+          "type": "现货上线",
+          "detail": "AINVDA（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101517"
+        },
+        {
+          "token": "MOO",
+          "type": "现货上线",
+          "detail": "MOO（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101517"
+        },
+        {
+          "token": "MICRODUCK",
+          "type": "现货上线",
+          "detail": "MICRODUCK（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101517"
+        },
+        {
+          "token": "BONER",
+          "type": "现货上线",
+          "detail": "BONER（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101517"
+        },
+        {
+          "token": "SPACEH",
+          "type": "现货上线",
+          "detail": "SPACEH（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101517"
+        },
+        {
+          "token": "USDT5",
+          "type": "上线",
+          "detail": "Gate ETF 新人专享：首单 $1 领 20 USDT，交易加码再赢 50 USDT5 小时前615",
+          "url": "https://www.gate.com/zh/announcements/article/101516"
+        },
+        {
+          "token": "PLTR",
+          "type": "上线",
+          "detail": "Gate 合约股票专区将上线 PLTR（帕兰提尔科技）等 12 个合约交易、交易机器...6 小时前682",
+          "url": "https://www.gate.com/zh/announcements/article/101513"
+        },
+        {
+          "token": "YARD",
+          "type": "现货上线",
+          "detail": "YARD（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101509"
+        },
+        {
+          "token": "ROBINCAT",
+          "type": "现货上线",
+          "detail": "ROBINCAT（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101509"
+        },
+        {
+          "token": "CP",
+          "type": "Launchpool",
+          "detail": "Gate 将上线 Cluster Protocol (CP) 现货交易、闪兑交易并开启 Launchpool...1 天前3,096",
+          "url": "https://www.gate.com/zh/announcements/article/101483"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CP",
+          "type": "上线",
+          "detail": "CPUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894081"
+        },
+        {
+          "token": "SHEIN",
+          "type": "永续合约",
+          "detail": "Bitget已上线SHEIN Quanto永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894080"
+        },
+        {
+          "token": "TEAM",
+          "type": "美股合约",
+          "detail": "TEAM（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079"
+        },
+        {
+          "token": "ZS",
+          "type": "美股合约",
+          "detail": "ZS（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079"
+        },
+        {
+          "token": "GTLB",
+          "type": "美股合约",
+          "detail": "GTLB（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079"
+        },
+        {
+          "token": "NVS",
+          "type": "美股合约",
+          "detail": "NVS（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079"
+        },
+        {
+          "token": "AKE",
+          "type": "上线",
+          "detail": "AKEUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894068"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ZS",
+          "type": "美股合约",
+          "detail": "ZS（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133"
+        },
+        {
+          "token": "GTLB",
+          "type": "美股合约",
+          "detail": "GTLB（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133"
+        },
+        {
+          "token": "TEAM",
+          "type": "美股合约",
+          "detail": "TEAM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133"
+        },
+        {
+          "token": "GPRO",
+          "type": "美股合约",
+          "detail": "MEXC 將於 9月1日 上線 GPRO 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gpro-stock-futures-with-0-fee-trading-on-sep-1-17827791538068"
+        }
+      ]
+    }
+  }
+}

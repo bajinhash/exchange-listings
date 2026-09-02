@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-28",
-  "weekEnd": "2026-09-02",
-  "updatedAt": "2026-09-02T15:30:22.335Z",
+  "weekEnd": "2026-09-03",
+  "updatedAt": "2026-09-02T17:02:19.257Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -103,7 +103,8 @@
           "detail": "Binance Alpha 上线 CRWDB",
           "url": "https://www.binance.com/en/alpha/bsc/0x814981cf5df4a14d4d7328f9abf0d02e9ed54cd1",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -112,7 +113,8 @@
           "detail": "Binance Alpha 上线 MRNAB",
           "url": "https://www.binance.com/en/alpha/bsc/0x5fd86da9b05abe396fe9d02a4a213a7c00556503",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -121,7 +123,8 @@
           "detail": "Binance Alpha 上线 SQQQB",
           "url": "https://www.binance.com/en/alpha/bsc/0x25e572b466d152604d9e6c3e53b432b978825342",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -130,7 +133,8 @@
           "detail": "Binance Alpha 上线 STXB",
           "url": "https://www.binance.com/en/alpha/bsc/0x2e065f65f1699964f4092de1d39a8efe6c8d6f32",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -139,7 +143,8 @@
           "detail": "Binance Alpha 上线 PONS - Pons 是一个可以在 Robinhood Chain 上发行和交易代币的平台",
           "url": "https://www.binance.com/en/alpha/4663/0x39dbed3a2bd333467115de45665cc57f813c4571",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -148,7 +153,8 @@
           "detail": "Binance Alpha 上线 FLORK - 一个BNB Chain 的meme币",
           "url": "https://www.binance.com/en/alpha/bsc/0xf40592daacb3e5abf358789f5688c0b4f64d7777",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         }
       ],
@@ -347,7 +353,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101483",
           "dates": [
             "2026-09-01",
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -356,7 +363,8 @@
           "detail": "Gate 已上线 FLORK 合约交易、交易机器人、跟单功能44 分钟前190",
           "url": "https://www.gate.com/zh/announcements/article/101518",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -365,7 +373,8 @@
           "detail": "AINVDA（同公告含 5 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101517",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -374,7 +383,8 @@
           "detail": "MOO（同公告含 5 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101517",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -383,7 +393,8 @@
           "detail": "MICRODUCK（同公告含 5 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101517",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -392,7 +403,8 @@
           "detail": "BONER（同公告含 5 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101517",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -401,16 +413,8 @@
           "detail": "SPACEH（同公告含 5 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101517",
           "dates": [
-            "2026-09-02"
-          ]
-        },
-        {
-          "token": "USDT3",
-          "type": "上线",
-          "detail": "Gate ETF 新人专享：首单 $1 领 20 USDT，交易加码再赢 50 USDT3 小时前484",
-          "url": "https://www.gate.com/zh/announcements/article/101516",
-          "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -419,7 +423,8 @@
           "detail": "Gate 合约股票专区将上线 PLTR（帕兰提尔科技）等 12 个合约交易、交易机器...5 小时前585",
           "url": "https://www.gate.com/zh/announcements/article/101513",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -428,7 +433,8 @@
           "detail": "YARD（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101509",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -436,6 +442,25 @@
           "type": "现货上线",
           "detail": "ROBINCAT（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101509",
+          "dates": [
+            "2026-09-02",
+            "2026-09-03"
+          ]
+        },
+        {
+          "token": "USDT5",
+          "type": "上线",
+          "detail": "Gate ETF 新人专享：首单 $1 领 20 USDT，交易加码再赢 50 USDT5 小时前615",
+          "url": "https://www.gate.com/zh/announcements/article/101516",
+          "dates": [
+            "2026-09-03"
+          ]
+        },
+        {
+          "token": "USDT3",
+          "type": "上线",
+          "detail": "Gate ETF 新人专享：首单 $1 领 20 USDT，交易加码再赢 50 USDT3 小时前484",
+          "url": "https://www.gate.com/zh/announcements/article/101516",
           "dates": [
             "2026-09-02"
           ]
@@ -715,13 +740,13 @@
     "bitget": {
       "listings": [
         {
-          "token": "MARSCOIN",
-          "type": "上线",
-          "detail": "MARSCOINUSDT 现已上线合约交易和交易BOT",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893943",
+          "token": "SHEIN",
+          "type": "永续合约",
+          "detail": "Bitget 重磅上线 SHEINUSDT【IPO盘前永续合约】！提前博弈 SHEIN IPO，抢跑快时尚独角兽定价权！",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893607",
           "dates": [
-            "2026-09-01",
-            "2026-09-02"
+            "2026-08-28",
+            "2026-09-03"
           ]
         },
         {
@@ -730,7 +755,8 @@
           "detail": "TEAM（同公告含 4 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -739,7 +765,8 @@
           "detail": "ZS（同公告含 4 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -748,7 +775,8 @@
           "detail": "GTLB（同公告含 4 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -757,7 +785,8 @@
           "detail": "NVS（同公告含 4 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -766,6 +795,26 @@
           "detail": "AKEUSDT 现已上线合约交易和交易BOT",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603894068",
           "dates": [
+            "2026-09-02",
+            "2026-09-03"
+          ]
+        },
+        {
+          "token": "CP",
+          "type": "上线",
+          "detail": "CPUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894081",
+          "dates": [
+            "2026-09-03"
+          ]
+        },
+        {
+          "token": "MARSCOIN",
+          "type": "上线",
+          "detail": "MARSCOINUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893943",
+          "dates": [
+            "2026-09-01",
             "2026-09-02"
           ]
         },
@@ -823,15 +872,6 @@
           "dates": [
             "2026-08-28"
           ]
-        },
-        {
-          "token": "SHEIN",
-          "type": "永续合约",
-          "detail": "Bitget 重磅上线 SHEINUSDT【IPO盘前永续合约】！提前博弈 SHEIN IPO，抢跑快时尚独角兽定价权！",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893607",
-          "dates": [
-            "2026-08-28"
-          ]
         }
       ]
     },
@@ -844,7 +884,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gpro-stock-futures-with-0-fee-trading-on-sep-1-17827791538068",
           "dates": [
             "2026-09-01",
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -853,7 +894,8 @@
           "detail": "ZS（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -862,7 +904,8 @@
           "detail": "GTLB（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
@@ -871,7 +914,8 @@
           "detail": "TEAM（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133",
           "dates": [
-            "2026-09-02"
+            "2026-09-02",
+            "2026-09-03"
           ]
         },
         {
