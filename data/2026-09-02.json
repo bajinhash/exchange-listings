@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T14:41:13.689Z",
+  "updatedAt": "2026-09-02T15:30:22.154Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -96,6 +96,12 @@
     "okx": {
       "listings": [
         {
+          "token": "CP",
+          "type": "永续合约",
+          "detail": "OKX 關於 CP 永續合約正式上線的公告發佈於 2026年9月2日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-cp-crypto"
+        },
+        {
           "token": "CSOPSKHYNIX2L",
           "type": "永续合约",
           "detail": "CSOPSKHYNIX2L（同公告含 2 个标的）",
@@ -179,6 +185,12 @@
     "gateio": {
       "listings": [
         {
+          "token": "FLORK",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 FLORK 合约交易、交易机器人、跟单功能44 分钟前190",
+          "url": "https://www.gate.com/zh/announcements/article/101518"
+        },
+        {
           "token": "AINVDA",
           "type": "现货上线",
           "detail": "AINVDA（同公告含 5 个标的）",
@@ -209,15 +221,15 @@
           "url": "https://www.gate.com/zh/announcements/article/101517"
         },
         {
-          "token": "USDT2",
+          "token": "USDT3",
           "type": "上线",
-          "detail": "Gate ETF 新人专享：首单 $1 领 20 USDT，交易加码再赢 50 USDT2 小时前417",
+          "detail": "Gate ETF 新人专享：首单 $1 领 20 USDT，交易加码再赢 50 USDT3 小时前484",
           "url": "https://www.gate.com/zh/announcements/article/101516"
         },
         {
           "token": "PLTR",
           "type": "上线",
-          "detail": "Gate 合约股票专区将上线 PLTR（帕兰提尔科技）等 12 个合约交易、交易机器...4 小时前537",
+          "detail": "Gate 合约股票专区将上线 PLTR（帕兰提尔科技）等 12 个合约交易、交易机器...5 小时前585",
           "url": "https://www.gate.com/zh/announcements/article/101513"
         },
         {
@@ -235,31 +247,49 @@
         {
           "token": "SPCX",
           "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第二批 7% 解锁的安排公告6 小时前541",
+          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第二批 7% 解锁的安排公告7 小时前573",
           "url": "https://www.gate.com/zh/announcements/article/101504"
-        },
-        {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "DeFi 掘金季：新人首单领 3 USDT，交易最高赢 8,000 USDT7 小时前506",
-          "url": "https://www.gate.com/zh/announcements/article/101502"
         },
         {
           "token": "AINVDA",
           "type": "上线",
-          "detail": "Gate 将开放 Artificial Inu (AINVDA) 链上充值8 小时前684",
+          "detail": "Gate 将开放 Artificial Inu (AINVDA) 链上充值8 小时前713",
           "url": "https://www.gate.com/zh/announcements/article/101497"
         },
         {
           "token": "CP",
           "type": "Launchpool",
-          "detail": "Gate 将上线 Cluster Protocol (CP) 现货交易、闪兑交易并开启 Launchpool...1 天前2,969",
+          "detail": "Gate 将上线 Cluster Protocol (CP) 现货交易、闪兑交易并开启 Launchpool...1 天前3,018",
           "url": "https://www.gate.com/zh/announcements/article/101483"
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "TEAM",
+          "type": "美股合约",
+          "detail": "TEAM（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079"
+        },
+        {
+          "token": "ZS",
+          "type": "美股合约",
+          "detail": "ZS（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079"
+        },
+        {
+          "token": "GTLB",
+          "type": "美股合约",
+          "detail": "GTLB（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079"
+        },
+        {
+          "token": "NVS",
+          "type": "美股合约",
+          "detail": "NVS（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079"
+        },
         {
           "token": "AKE",
           "type": "上线",
@@ -307,12 +337,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538124"
         },
         {
-          "token": "ORBIO",
-          "type": "Meme+ 现货",
-          "detail": "ORBIO 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538101"
-        },
-        {
           "token": "GPRO",
           "type": "跟单合约",
           "detail": "GPRO（同公告含 3 个标的）",
@@ -357,7 +381,7 @@
         {
           "token": "CP",
           "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年9月2日 23:10 (UTC+8) 上線 Cluster Protocol (CP) USDT合約",
+          "detail": "全球首發：MEXC 將於 2026年9月2日 22:50 (UTC+8) 上線 Cluster Protocol (CP) USDT合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538090"
         },
         {
