@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T14:35:35.487Z",
+  "updatedAt": "2026-09-03T14:45:20.002Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -89,9 +89,9 @@
     "gateio": {
       "listings": [
         {
-          "token": "UNI3",
+          "token": "UNI4",
           "type": "上线",
-          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 UNI3 小时前443",
+          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 UNI4 小时前461",
           "url": "https://www.gate.com/zh/announcements/article/101543"
         },
         {
@@ -113,15 +113,15 @@
           "url": "https://www.gate.com/zh/announcements/article/101541"
         },
         {
-          "token": "USDT4",
+          "token": "USDT5",
           "type": "上线",
-          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT4 小时前533",
+          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT5 小时前549",
           "url": "https://www.gate.com/zh/announcements/article/101539"
         },
         {
           "token": "FONE",
           "type": "现货上线",
-          "detail": "Gate 将上线 apeonfone (FONE) 现货交易与闪兑交易5 小时前523",
+          "detail": "Gate 将上线 apeonfone (FONE) 现货交易与闪兑交易5 小时前533",
           "url": "https://www.gate.com/zh/announcements/article/101538"
         },
         {
@@ -149,27 +149,27 @@
           "url": "https://www.gate.com/zh/announcements/article/101535"
         },
         {
-          "token": "USDT6",
+          "token": "USDT7",
           "type": "上线",
-          "detail": "闪兑新人专属礼：交易领 20 USDT，进阶再领 3 USDT6 小时前682",
+          "detail": "闪兑新人专属礼：交易领 20 USDT，进阶再领 3 USDT7 小时前695",
           "url": "https://www.gate.com/zh/announcements/article/101534"
         },
         {
           "token": "NVDA8",
           "type": "上线",
-          "detail": "股票打卡能量季：USDT 奖励限量领，双奖池瓜分 125 股 NVDA8 小时前879",
+          "detail": "股票打卡能量季：USDT 奖励限量领，双奖池瓜分 125 股 NVDA8 小时前895",
           "url": "https://www.gate.com/zh/announcements/article/101529"
         },
         {
           "token": "AINVDA",
           "type": "现货上线",
-          "detail": "Gate 将上线 Artificial Inu (AINVDA) 现货交易与闪兑交易1 天前1,892",
+          "detail": "Gate 将上线 Artificial Inu (AINVDA) 现货交易与闪兑交易1 天前1,902",
           "url": "https://www.gate.com/zh/announcements/article/101515"
         },
         {
           "token": "AINVDA",
           "type": "上线",
-          "detail": "Gate 将开放 Artificial Inu (AINVDA) 链上充值1 天前1,623",
+          "detail": "Gate 将开放 Artificial Inu (AINVDA) 链上充值1 天前1,630",
           "url": "https://www.gate.com/zh/announcements/article/101497"
         }
       ]
