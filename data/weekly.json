@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-28",
   "weekEnd": "2026-09-03",
-  "updatedAt": "2026-09-03T14:45:20.182Z",
+  "updatedAt": "2026-09-03T15:22:59.955Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -462,7 +462,7 @@
         {
           "token": "UNI4",
           "type": "上线",
-          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 UNI4 小时前461",
+          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 UNI4 小时前504",
           "url": "https://www.gate.com/zh/announcements/article/101543",
           "dates": [
             "2026-09-03"
@@ -498,7 +498,7 @@
         {
           "token": "USDT5",
           "type": "上线",
-          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT5 小时前549",
+          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT5 小时前597",
           "url": "https://www.gate.com/zh/announcements/article/101539",
           "dates": [
             "2026-09-03"
@@ -507,7 +507,7 @@
         {
           "token": "FONE",
           "type": "现货上线",
-          "detail": "Gate 将上线 apeonfone (FONE) 现货交易与闪兑交易5 小时前533",
+          "detail": "Gate 将上线 apeonfone (FONE) 现货交易与闪兑交易6 小时前571",
           "url": "https://www.gate.com/zh/announcements/article/101538",
           "dates": [
             "2026-09-03"
@@ -552,16 +552,16 @@
         {
           "token": "USDT7",
           "type": "上线",
-          "detail": "闪兑新人专属礼：交易领 20 USDT，进阶再领 3 USDT7 小时前695",
+          "detail": "闪兑新人专属礼：交易领 20 USDT，进阶再领 3 USDT7 小时前723",
           "url": "https://www.gate.com/zh/announcements/article/101534",
           "dates": [
             "2026-09-03"
           ]
         },
         {
-          "token": "NVDA8",
+          "token": "NVDA9",
           "type": "上线",
-          "detail": "股票打卡能量季：USDT 奖励限量领，双奖池瓜分 125 股 NVDA8 小时前895",
+          "detail": "股票打卡能量季：USDT 奖励限量领，双奖池瓜分 125 股 NVDA9 小时前917",
           "url": "https://www.gate.com/zh/announcements/article/101529",
           "dates": [
             "2026-09-03"
