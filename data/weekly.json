@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-08-28",
-  "weekEnd": "2026-09-03",
-  "updatedAt": "2026-09-03T15:22:59.955Z",
+  "weekStart": "2026-08-29",
+  "weekEnd": "2026-09-04",
+  "updatedAt": "2026-09-03T16:51:34.007Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -11,7 +11,8 @@
           "detail": "Binance Futures Will Launch USDⓈ-Margined GPROUSDT Perpetual Contract (2026-09-03)",
           "url": "https://www.binance.com/en/support/announcement/0ffd2dbcc12e4a968fbe7ccd2b4cc9f8",
           "dates": [
-            "2026-09-03"
+            "2026-09-03",
+            "2026-09-04"
           ]
         },
         {
@@ -446,7 +447,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101517",
           "dates": [
             "2026-09-02",
-            "2026-09-03"
+            "2026-09-03",
+            "2026-09-04"
           ]
         },
         {
@@ -456,7 +458,17 @@
           "url": "https://www.gate.com/zh/announcements/article/101497",
           "dates": [
             "2026-09-02",
-            "2026-09-03"
+            "2026-09-03",
+            "2026-09-04"
+          ]
+        },
+        {
+          "token": "UNI6",
+          "type": "上线",
+          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 UNI6 小时前637",
+          "url": "https://www.gate.com/zh/announcements/article/101543",
+          "dates": [
+            "2026-09-04"
           ]
         },
         {
@@ -846,91 +858,19 @@
           "dates": [
             "2026-08-29"
           ]
-        },
-        {
-          "token": "MARSCOIN",
-          "type": "现货上线",
-          "detail": "Gate 将上线 MarsCoin (MARSCOIN) 现货交易与闪兑交易11 小时前1,130",
-          "url": "https://www.gate.com/zh/announcements/article/101401",
-          "dates": [
-            "2026-08-28"
-          ]
-        },
-        {
-          "token": "CLAN",
-          "type": "现货上线",
-          "detail": "CLAN（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101400",
-          "dates": [
-            "2026-08-28"
-          ]
-        },
-        {
-          "token": "AGI",
-          "type": "现货上线",
-          "detail": "AGI（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101400",
-          "dates": [
-            "2026-08-28"
-          ]
-        },
-        {
-          "token": "FRIEND",
-          "type": "现货上线",
-          "detail": "FRIEND（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101400",
-          "dates": [
-            "2026-08-28"
-          ]
-        },
-        {
-          "token": "STONKEX",
-          "type": "现货上线",
-          "detail": "STONKEX（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101399",
-          "dates": [
-            "2026-08-28"
-          ]
-        },
-        {
-          "token": "BOW",
-          "type": "现货上线",
-          "detail": "BOW（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101399",
-          "dates": [
-            "2026-08-28"
-          ]
-        },
-        {
-          "token": "EARN",
-          "type": "现货上线",
-          "detail": "EARN（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101399",
-          "dates": [
-            "2026-08-28"
-          ]
-        },
-        {
-          "token": "MOSAIC",
-          "type": "现货上线",
-          "detail": "MOSAIC（同公告含 4 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101399",
-          "dates": [
-            "2026-08-28"
-          ]
         }
       ]
     },
     "bitget": {
       "listings": [
         {
-          "token": "SHEIN",
-          "type": "永续合约",
-          "detail": "Bitget 重磅上线 SHEINUSDT【IPO盘前永续合约】！提前博弈 SHEIN IPO，抢跑快时尚独角兽定价权！",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893607",
+          "token": "GPRO",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 GPROUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894181",
           "dates": [
-            "2026-08-28",
-            "2026-09-03"
+            "2026-09-03",
+            "2026-09-04"
           ]
         },
         {
@@ -984,19 +924,19 @@
           ]
         },
         {
-          "token": "GPRO",
-          "type": "美股合约",
-          "detail": "Bitget 关于上线 GPROUSDT 热门股票永续合约的公告",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894181",
+          "token": "CP",
+          "type": "上线",
+          "detail": "CPUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894081",
           "dates": [
             "2026-09-03"
           ]
         },
         {
-          "token": "CP",
-          "type": "上线",
-          "detail": "CPUSDT 现已上线合约交易和交易BOT",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894081",
+          "token": "SHEIN",
+          "type": "永续合约",
+          "detail": "Bitget已上线SHEIN Quanto永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894080",
           "dates": [
             "2026-09-03"
           ]
@@ -1056,15 +996,6 @@
           "dates": [
             "2026-08-29"
           ]
-        },
-        {
-          "token": "HPQ",
-          "type": "美股合约",
-          "detail": "Bitget 关于上线 HPQUSDT 热门股票永续合约的公告",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893608",
-          "dates": [
-            "2026-08-28"
-          ]
         }
       ]
     },
@@ -1077,7 +1008,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133",
           "dates": [
             "2026-09-02",
-            "2026-09-03"
+            "2026-09-03",
+            "2026-09-04"
           ]
         },
         {
@@ -1087,7 +1019,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133",
           "dates": [
             "2026-09-02",
-            "2026-09-03"
+            "2026-09-03",
+            "2026-09-04"
           ]
         },
         {
@@ -1097,7 +1030,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133",
           "dates": [
             "2026-09-02",
-            "2026-09-03"
+            "2026-09-03",
+            "2026-09-04"
           ]
         },
         {
@@ -1106,7 +1040,8 @@
           "detail": "全球首發：MEXC 將於 2026年9月3日 18:40 (UTC+8) 上線 FLORKBSCUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538164",
           "dates": [
-            "2026-09-03"
+            "2026-09-03",
+            "2026-09-04"
           ]
         },
         {
@@ -1115,7 +1050,8 @@
           "detail": "MEXC 合約創新區將於 2026年9月3日 18:40 (UTC+8) 上線 ORBIOUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538163",
           "dates": [
-            "2026-09-03"
+            "2026-09-03",
+            "2026-09-04"
           ]
         },
         {
@@ -1609,15 +1545,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-fone-to-innovation-zone-17827791537929",
           "dates": [
             "2026-08-29"
-          ]
-        },
-        {
-          "token": "MSTU",
-          "type": "美股合约",
-          "detail": "MEXC 將於 8月27日 上線 MSTU 股票合約，限時享 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mstu-stock-futures-with-0-fee-trading-on-aug-27-17827791537918",
-          "dates": [
-            "2026-08-28"
           ]
         }
       ]

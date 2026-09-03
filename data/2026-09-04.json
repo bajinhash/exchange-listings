@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-04",
+  "updatedAt": "2026-09-03T16:51:33.828Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "GPRO",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined GPROUSDT Perpetual Contract (2026-09-03)",
+          "url": "https://www.binance.com/en/support/announcement/0ffd2dbcc12e4a968fbe7ccd2b4cc9f8"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "UNI6",
+          "type": "上线",
+          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 UNI6 小时前637",
+          "url": "https://www.gate.com/zh/announcements/article/101543"
+        },
+        {
+          "token": "AINVDA",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Artificial Inu (AINVDA) 现货交易与闪兑交易1 天前1,978",
+          "url": "https://www.gate.com/zh/announcements/article/101515"
+        },
+        {
+          "token": "AINVDA",
+          "type": "上线",
+          "detail": "Gate 将开放 Artificial Inu (AINVDA) 链上充值1 天前1,693",
+          "url": "https://www.gate.com/zh/announcements/article/101497"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "GPRO",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 GPROUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894181"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "FLORKBSC",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年9月3日 18:40 (UTC+8) 上線 FLORKBSCUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538164"
+        },
+        {
+          "token": "ORBIO",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月3日 18:40 (UTC+8) 上線 ORBIOUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538163"
+        },
+        {
+          "token": "ZS",
+          "type": "美股合约",
+          "detail": "ZS（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133"
+        },
+        {
+          "token": "GTLB",
+          "type": "美股合约",
+          "detail": "GTLB（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133"
+        },
+        {
+          "token": "TEAM",
+          "type": "美股合约",
+          "detail": "TEAM（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133"
+        }
+      ]
+    }
+  }
+}
