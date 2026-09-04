@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-29",
   "weekEnd": "2026-09-04",
-  "updatedAt": "2026-09-04T14:34:35.202Z",
+  "updatedAt": "2026-09-04T15:17:35.313Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -580,16 +580,16 @@
         {
           "token": "GIGGLEMAX",
           "type": "跟单合约",
-          "detail": "Gate 已上线 GIGGLEMAX 合约交易、交易机器人、跟单功能2 小时前348",
+          "detail": "Gate 已上线 GIGGLEMAX 合约交易、交易机器人、跟单功能3 小时前412",
           "url": "https://www.gate.com/zh/announcements/article/101568",
           "dates": [
             "2026-09-04"
           ]
         },
         {
-          "token": "CP4",
+          "token": "CP5",
           "type": "上线",
-          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP4 小时前863",
+          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP5 小时前932",
           "url": "https://www.gate.com/zh/announcements/article/101565",
           "dates": [
             "2026-09-04"
@@ -625,7 +625,7 @@
         {
           "token": "PYBOBO",
           "type": "上线",
-          "detail": "Gate 关于支持 Capybobo (PYBOBO) 合约置换的公告6 小时前506",
+          "detail": "Gate 关于支持 Capybobo (PYBOBO) 合约置换的公告7 小时前536",
           "url": "https://www.gate.com/zh/announcements/article/101560",
           "dates": [
             "2026-09-04"
@@ -634,7 +634,7 @@
         {
           "token": "MEMECOIN",
           "type": "现货上线",
-          "detail": "Gate 合约 Robinhood 专区已上线 MEMECOIN 合约交易、交易机器人、跟...7 小时前680",
+          "detail": "Gate 合约 Robinhood 专区已上线 MEMECOIN 合约交易、交易机器人、跟...8 小时前720",
           "url": "https://www.gate.com/zh/announcements/article/101556",
           "dates": [
             "2026-09-04"
