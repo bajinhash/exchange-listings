@@ -1,27 +1,18 @@
 {
-  "weekStart": "2026-08-29",
-  "weekEnd": "2026-09-04",
-  "updatedAt": "2026-09-04T15:17:35.313Z",
+  "weekStart": "2026-08-30",
+  "weekEnd": "2026-09-05",
+  "updatedAt": "2026-09-04T16:46:11.123Z",
   "exchanges": {
     "binance": {
       "listings": [
-        {
-          "token": "GPRO",
-          "type": "永续合约",
-          "detail": "Binance Futures Will Launch USDⓈ-Margined GPROUSDT Perpetual Contract (2026-09-03)",
-          "url": "https://www.binance.com/en/support/announcement/0ffd2dbcc12e4a968fbe7ccd2b4cc9f8",
-          "dates": [
-            "2026-09-03",
-            "2026-09-04"
-          ]
-        },
         {
           "token": "MARSCOIN",
           "type": "杠杆上线",
           "detail": "Binance Will Add MarsCoin (MARSCOIN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
           "url": "https://www.binance.com/en/support/announcement/b8c68539ef9f4925a8d97202d82d98e9",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -30,6 +21,17 @@
           "detail": "Binance Will List MarsCoin (MARSCOIN) with Seed Tag Applied",
           "url": "https://www.binance.com/en/support/announcement/c2eaa763831745b2b1701dab45e20225",
           "dates": [
+            "2026-09-04",
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "GPRO",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined GPROUSDT Perpetual Contract (2026-09-03)",
+          "url": "https://www.binance.com/en/support/announcement/0ffd2dbcc12e4a968fbe7ccd2b4cc9f8",
+          "dates": [
+            "2026-09-03",
             "2026-09-04"
           ]
         },
@@ -131,7 +133,8 @@
           "detail": "Binance Alpha 上线 AI - 一个 Robinhood Chain 的 meme币",
           "url": "https://www.binance.com/en/alpha/4663/0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -140,7 +143,8 @@
           "detail": "Binance Alpha 上线 UP - up. 是一个 Robinhood Chain 上的 ve(3,3) 去中心化交易所",
           "url": "https://www.binance.com/en/alpha/4663/0x57c0e45cb534413d1c20a4240955d6bb250bb4f1",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -149,7 +153,8 @@
           "detail": "Binance Alpha 上线 CASHCAT - 一个 Robinhood Chain 的 meme币",
           "url": "https://www.binance.com/en/alpha/4663/0x020bfc650a365f8bb26819deaabf3e21291018b4",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -158,7 +163,8 @@
           "detail": "Binance Alpha 上线 TAC - TAC为EVM dApps 连接TON生态及Telegram 的10亿用户",
           "url": "https://www.binance.com/en/alpha/bsc/0xb305e6954e4e0cd021c06ec355681abc8a00dbd7",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -167,7 +173,8 @@
           "detail": "Binance Alpha 上线 CP - 私有 AI 的开放基础设施",
           "url": "https://www.binance.com/en/alpha/base/0x001aad84c21a5cd4d696c56d44866e9703c43f77",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -574,7 +581,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101538",
           "dates": [
             "2026-09-03",
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -583,7 +591,8 @@
           "detail": "Gate 已上线 GIGGLEMAX 合约交易、交易机器人、跟单功能3 小时前412",
           "url": "https://www.gate.com/zh/announcements/article/101568",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -966,92 +975,20 @@
           "dates": [
             "2026-08-31"
           ]
-        },
-        {
-          "token": "USDD",
-          "type": "上线",
-          "detail": "Gate Web3 Bonus：参与 USDD 质押 BNB 链第六期，享 4% APY + 39,000 USDD 额外奖励16 小时前1,040",
-          "url": "https://www.gate.com/zh/announcements/article/101424",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "RAM",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 RAM（Roundhill T‑REX 2 倍做多 DRAM 每日目...1 天前1,610",
-          "url": "https://www.gate.com/zh/announcements/article/101420",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "SHEIN",
-          "type": "永续合约",
-          "detail": "Gate 股票专区已上线 SHEINUSDT（希音）永续合约盘前交易（USDT 结...1 天前1,652",
-          "url": "https://www.gate.com/zh/announcements/article/101416",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "USDT1",
-          "type": "上线",
-          "detail": "VIP 尊享交易盛典：交易赢最高 40,000 USDT1 天前610",
-          "url": "https://www.gate.com/zh/announcements/article/101414",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "PINK",
-          "type": "现货上线",
-          "detail": "PINK（同公告含 5 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101411",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "AU",
-          "type": "现货上线",
-          "detail": "AU（同公告含 5 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101411",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "RAWR",
-          "type": "现货上线",
-          "detail": "RAWR（同公告含 5 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101411",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "WindChill",
-          "type": "现货上线",
-          "detail": "WindChill（同公告含 5 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101411",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "DTF",
-          "type": "现货上线",
-          "detail": "DTF（同公告含 5 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101411",
-          "dates": [
-            "2026-08-29"
-          ]
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "DGAI",
+          "type": "上线",
+          "detail": "DGAIUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894266",
+          "dates": [
+            "2026-09-05"
+          ]
+        },
         {
           "token": "GPRO",
           "type": "美股合约",
@@ -1167,24 +1104,6 @@
             "2026-08-30",
             "2026-08-31"
           ]
-        },
-        {
-          "token": "OKTA",
-          "type": "美股合约",
-          "detail": "OKTA（同公告含 2 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893702",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "VEEV",
-          "type": "美股合约",
-          "detail": "VEEV（同公告含 2 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893702",
-          "dates": [
-            "2026-08-29"
-          ]
         }
       ]
     },
@@ -1196,7 +1115,8 @@
           "detail": "MEXC 將於 2026年9月4日 20:00 (UTC+8) 起把 MEMEROBINHOODUSDT 從創新區轉板至主板區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-memerobinhoodusdt-from-innovation-zone-to-main-board-on-sep-4-2026-12-17827791538244",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1774,36 +1694,6 @@
           ]
         },
         {
-          "token": "COPPERINU",
-          "type": "Meme+ 现货",
-          "detail": "COPPERINU 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537955",
-          "dates": [
-            "2026-08-29",
-            "2026-08-30"
-          ]
-        },
-        {
-          "token": "VYNEX",
-          "type": "Meme+ 现货",
-          "detail": "VYNEX 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537953",
-          "dates": [
-            "2026-08-29",
-            "2026-08-30"
-          ]
-        },
-        {
-          "token": "BASELINE",
-          "type": "Meme+ 现货",
-          "detail": "BASELINE 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537952",
-          "dates": [
-            "2026-08-29",
-            "2026-08-30"
-          ]
-        },
-        {
           "token": "PROLOGUE",
           "type": "Meme+ 现货",
           "detail": "PROLOGUE 現已上線 MEXC Meme+",
@@ -1813,93 +1703,30 @@
           ]
         },
         {
-          "token": "MICRODUCK",
+          "token": "COPPERINU",
           "type": "Meme+ 现货",
-          "detail": "MICRODUCK 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537956",
+          "detail": "COPPERINU 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537955",
           "dates": [
-            "2026-08-29"
+            "2026-08-30"
           ]
         },
         {
-          "token": "TAKEDA",
-          "type": "跟单合约",
-          "detail": "TAKEDA（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-takeda-melco-fanuc-mstu-and-fone-usdt-m-futures-17827791537931",
+          "token": "VYNEX",
+          "type": "Meme+ 现货",
+          "detail": "VYNEX 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537953",
           "dates": [
-            "2026-08-29"
+            "2026-08-30"
           ]
         },
         {
-          "token": "MELCO",
-          "type": "跟单合约",
-          "detail": "MELCO（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-takeda-melco-fanuc-mstu-and-fone-usdt-m-futures-17827791537931",
+          "token": "BASELINE",
+          "type": "Meme+ 现货",
+          "detail": "BASELINE 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537952",
           "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "FANUC",
-          "type": "跟单合约",
-          "detail": "FANUC（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-takeda-melco-fanuc-mstu-and-fone-usdt-m-futures-17827791537931",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "MSTU",
-          "type": "跟单合约",
-          "detail": "MSTU（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-takeda-melco-fanuc-mstu-and-fone-usdt-m-futures-17827791537931",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "FONE",
-          "type": "跟单合约",
-          "detail": "FONE（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-takeda-melco-fanuc-mstu-and-fone-usdt-m-futures-17827791537931",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "TAKEDA",
-          "type": "美股合约",
-          "detail": "TAKEDA（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-takeda-melco-and-fanuc-stock-futures-with-0-fee-trading-on-aug-28-17827791537930",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "MELCO",
-          "type": "美股合约",
-          "detail": "MELCO（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-takeda-melco-and-fanuc-stock-futures-with-0-fee-trading-on-aug-28-17827791537930",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "FANUC",
-          "type": "美股合约",
-          "detail": "FANUC（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-takeda-melco-and-fanuc-stock-futures-with-0-fee-trading-on-aug-28-17827791537930",
-          "dates": [
-            "2026-08-29"
-          ]
-        },
-        {
-          "token": "FONE",
-          "type": "上线",
-          "detail": "FONE 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-fone-to-innovation-zone-17827791537929",
-          "dates": [
-            "2026-08-29"
+            "2026-08-30"
           ]
         }
       ]

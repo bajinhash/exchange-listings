@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-05",
+  "updatedAt": "2026-09-04T16:46:10.950Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "MARSCOIN",
+          "type": "杠杆上线",
+          "detail": "Binance Will Add MarsCoin (MARSCOIN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+          "url": "https://www.binance.com/en/support/announcement/b8c68539ef9f4925a8d97202d82d98e9"
+        },
+        {
+          "token": "MARSCOIN",
+          "type": "现货上线",
+          "detail": "Binance Will List MarsCoin (MARSCOIN) with Seed Tag Applied",
+          "url": "https://www.binance.com/en/support/announcement/c2eaa763831745b2b1701dab45e20225"
+        }
+      ],
+      "alpha": [
+        {
+          "token": "AI",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AI - 一个 Robinhood Chain 的 meme币",
+          "url": "https://www.binance.com/en/alpha/4663/0x2e8c31162b855a2ffa90f6f8634643ad6f111e18"
+        },
+        {
+          "token": "UP",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 UP - up. 是一个 Robinhood Chain 上的 ve(3,3) 去中心化交易所",
+          "url": "https://www.binance.com/en/alpha/4663/0x57c0e45cb534413d1c20a4240955d6bb250bb4f1"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CASHCAT - 一个 Robinhood Chain 的 meme币",
+          "url": "https://www.binance.com/en/alpha/4663/0x020bfc650a365f8bb26819deaabf3e21291018b4"
+        },
+        {
+          "token": "TAC",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 TAC - TAC为EVM dApps 连接TON生态及Telegram 的10亿用户",
+          "url": "https://www.binance.com/en/alpha/bsc/0xb305e6954e4e0cd021c06ec355681abc8a00dbd7"
+        },
+        {
+          "token": "CP",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CP - 私有 AI 的开放基础设施",
+          "url": "https://www.binance.com/en/alpha/base/0x001aad84c21a5cd4d696c56d44866e9703c43f77"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "GIGGLEMAX",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 GIGGLEMAX 合约交易、交易机器人、跟单功能4 小时前554",
+          "url": "https://www.gate.com/zh/announcements/article/101568"
+        },
+        {
+          "token": "FONE",
+          "type": "现货上线",
+          "detail": "Gate 将上线 apeonfone (FONE) 现货交易与闪兑交易1 天前1,888",
+          "url": "https://www.gate.com/zh/announcements/article/101538"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DGAI",
+          "type": "上线",
+          "detail": "DGAIUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894266"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MEMEROBINHOOD",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年9月4日 20:00 (UTC+8) 起把 MEMEROBINHOODUSDT 從創新區轉板至主板區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-memerobinhoodusdt-from-innovation-zone-to-main-board-on-sep-4-2026-12-17827791538244"
+        }
+      ]
+    }
+  }
+}
