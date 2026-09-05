@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updatedAt": "2026-09-05T13:33:35.402Z",
+  "updatedAt": "2026-09-05T13:42:44.975Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -72,13 +72,13 @@
         {
           "token": "GIGGLEMAX",
           "type": "跟单合约",
-          "detail": "Gate 已上线 GIGGLEMAX 合约交易、交易机器人、跟单功能1 天前1,895",
+          "detail": "Gate 已上线 GIGGLEMAX 合约交易、交易机器人、跟单功能1 天前1,903",
           "url": "https://www.gate.com/zh/announcements/article/101568"
         },
         {
           "token": "CP1",
           "type": "上线",
-          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP1 天前2,377",
+          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP1 天前2,382",
           "url": "https://www.gate.com/zh/announcements/article/101565"
         },
         {
@@ -108,7 +108,7 @@
         {
           "token": "MEMECOIN",
           "type": "现货上线",
-          "detail": "Gate 合约 Robinhood 专区已上线 MEMECOIN 合约交易、交易机器人、跟...1 天前1,680",
+          "detail": "Gate 合约 Robinhood 专区已上线 MEMECOIN 合约交易、交易机器人、跟...1 天前1,683",
           "url": "https://www.gate.com/zh/announcements/article/101556"
         },
         {

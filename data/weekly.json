@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-30",
   "weekEnd": "2026-09-05",
-  "updatedAt": "2026-09-05T13:33:35.511Z",
+  "updatedAt": "2026-09-05T13:42:45.127Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -696,7 +696,7 @@
         {
           "token": "CP1",
           "type": "上线",
-          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP1 天前2,377",
+          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP1 天前2,382",
           "url": "https://www.gate.com/zh/announcements/article/101565",
           "dates": [
             "2026-09-05"
