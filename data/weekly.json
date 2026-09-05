@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-30",
   "weekEnd": "2026-09-05",
-  "updatedAt": "2026-09-04T16:46:11.123Z",
+  "updatedAt": "2026-09-05T13:33:35.511Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -133,8 +133,7 @@
           "detail": "Binance Alpha 上线 AI - 一个 Robinhood Chain 的 meme币",
           "url": "https://www.binance.com/en/alpha/4663/0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
           "dates": [
-            "2026-09-04",
-            "2026-09-05"
+            "2026-09-04"
           ]
         },
         {
@@ -143,8 +142,7 @@
           "detail": "Binance Alpha 上线 UP - up. 是一个 Robinhood Chain 上的 ve(3,3) 去中心化交易所",
           "url": "https://www.binance.com/en/alpha/4663/0x57c0e45cb534413d1c20a4240955d6bb250bb4f1",
           "dates": [
-            "2026-09-04",
-            "2026-09-05"
+            "2026-09-04"
           ]
         },
         {
@@ -153,8 +151,7 @@
           "detail": "Binance Alpha 上线 CASHCAT - 一个 Robinhood Chain 的 meme币",
           "url": "https://www.binance.com/en/alpha/4663/0x020bfc650a365f8bb26819deaabf3e21291018b4",
           "dates": [
-            "2026-09-04",
-            "2026-09-05"
+            "2026-09-04"
           ]
         },
         {
@@ -163,8 +160,7 @@
           "detail": "Binance Alpha 上线 TAC - TAC为EVM dApps 连接TON生态及Telegram 的10亿用户",
           "url": "https://www.binance.com/en/alpha/bsc/0xb305e6954e4e0cd021c06ec355681abc8a00dbd7",
           "dates": [
-            "2026-09-04",
-            "2026-09-05"
+            "2026-09-04"
           ]
         },
         {
@@ -173,8 +169,7 @@
           "detail": "Binance Alpha 上线 CP - 私有 AI 的开放基础设施",
           "url": "https://www.binance.com/en/alpha/base/0x001aad84c21a5cd4d696c56d44866e9703c43f77",
           "dates": [
-            "2026-09-04",
-            "2026-09-05"
+            "2026-09-04"
           ]
         },
         {
@@ -236,6 +231,24 @@
     },
     "okx": {
       "listings": [
+        {
+          "token": "FET",
+          "type": "永续合约",
+          "detail": "OKX 關於 FET 永續合約正式上線的公告發佈於 2026年9月5日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-fet-crypto",
+          "dates": [
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "PONS",
+          "type": "永续合约",
+          "detail": "OKX 關於 PONS 永續合約正式上線的公告發佈於 2026年9月5日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-pons-crypto",
+          "dates": [
+            "2026-09-05"
+          ]
+        },
         {
           "token": "CP",
           "type": "永续合约",
@@ -517,6 +530,15 @@
     "kucoin": {
       "listings": [
         {
+          "token": "MARSCOIN",
+          "type": "现货上线",
+          "detail": "MarsCoin (MARSCOIN) Listed on KuCoinTrading: 07:00 on September 5, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-marscoin-marscoin-listed-on-kucoin",
+          "dates": [
+            "2026-09-05"
+          ]
+        },
+        {
           "token": "CP",
           "type": "永续合约",
           "detail": "KuCoin Futures New Listing: CPUSDT Perpetual Contract with Up to 20x Leverage",
@@ -575,17 +597,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "FONE",
-          "type": "现货上线",
-          "detail": "Gate 将上线 apeonfone (FONE) 现货交易与闪兑交易6 小时前571",
-          "url": "https://www.gate.com/zh/announcements/article/101538",
-          "dates": [
-            "2026-09-03",
-            "2026-09-04",
-            "2026-09-05"
-          ]
-        },
-        {
           "token": "GIGGLEMAX",
           "type": "跟单合约",
           "detail": "Gate 已上线 GIGGLEMAX 合约交易、交易机器人、跟单功能3 小时前412",
@@ -596,21 +607,13 @@
           ]
         },
         {
-          "token": "CP5",
-          "type": "上线",
-          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP5 小时前932",
-          "url": "https://www.gate.com/zh/announcements/article/101565",
-          "dates": [
-            "2026-09-04"
-          ]
-        },
-        {
           "token": "CONCERN",
           "type": "现货上线",
           "detail": "CONCERN（同公告含 3 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101564",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -619,7 +622,8 @@
           "detail": "VOXEL（同公告含 3 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101564",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -628,7 +632,8 @@
           "detail": "CRCL（同公告含 3 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101564",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -637,7 +642,8 @@
           "detail": "Gate 关于支持 Capybobo (PYBOBO) 合约置换的公告7 小时前536",
           "url": "https://www.gate.com/zh/announcements/article/101560",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -646,7 +652,8 @@
           "detail": "Gate 合约 Robinhood 专区已上线 MEMECOIN 合约交易、交易机器人、跟...8 小时前720",
           "url": "https://www.gate.com/zh/announcements/article/101556",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -654,6 +661,62 @@
           "type": "现货上线",
           "detail": "MEME（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101554",
+          "dates": [
+            "2026-09-04",
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "FATCOIN",
+          "type": "上线",
+          "detail": "FATCOIN（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101569",
+          "dates": [
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "SHROOM",
+          "type": "上线",
+          "detail": "SHROOM（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101569",
+          "dates": [
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "STONKS",
+          "type": "上线",
+          "detail": "STONKS（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101569",
+          "dates": [
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "CP1",
+          "type": "上线",
+          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP1 天前2,377",
+          "url": "https://www.gate.com/zh/announcements/article/101565",
+          "dates": [
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "FONE",
+          "type": "现货上线",
+          "detail": "Gate 将上线 apeonfone (FONE) 现货交易与闪兑交易6 小时前571",
+          "url": "https://www.gate.com/zh/announcements/article/101538",
+          "dates": [
+            "2026-09-03",
+            "2026-09-04"
+          ]
+        },
+        {
+          "token": "CP5",
+          "type": "上线",
+          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP5 小时前932",
+          "url": "https://www.gate.com/zh/announcements/article/101565",
           "dates": [
             "2026-09-04"
           ]
@@ -1125,7 +1188,8 @@
           "detail": "MEMEROBINHOOD（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1134,7 +1198,8 @@
           "detail": "SKINNOV（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1143,7 +1208,8 @@
           "detail": "KBFIN（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1152,7 +1218,8 @@
           "detail": "HANWHAAERO（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1161,7 +1228,8 @@
           "detail": "MEXC 合約創新區將於 2026年9月4日 17:10 (UTC+8) 上線 MEMEROBINHOODUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538209",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1170,7 +1238,8 @@
           "detail": "MEXC 跟單新增 YMTC U 本位合約交易對",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ymtc-usdt-m-futures-17827791538200",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1179,7 +1248,8 @@
           "detail": "FATCOIN（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1188,7 +1258,8 @@
           "detail": "BUN（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1197,7 +1268,8 @@
           "detail": "ORBIO（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1206,7 +1278,8 @@
           "detail": "FLORKBSC（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1215,7 +1288,8 @@
           "detail": "NUDES（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1224,7 +1298,8 @@
           "detail": "SKINNOV（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-skinnov-kbfin-and-hanwhaaero-stock-futures-with-0-fee-trading-on-sep-4-17827791538188",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1233,7 +1308,8 @@
           "detail": "KBFIN（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-skinnov-kbfin-and-hanwhaaero-stock-futures-with-0-fee-trading-on-sep-4-17827791538188",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
           ]
         },
         {
@@ -1242,7 +1318,26 @@
           "detail": "HANWHAAERO（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-skinnov-kbfin-and-hanwhaaero-stock-futures-with-0-fee-trading-on-sep-4-17827791538188",
           "dates": [
-            "2026-09-04"
+            "2026-09-04",
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "SHROOM",
+          "type": "Meme+ 现货",
+          "detail": "SHROOM 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538249",
+          "dates": [
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "STONKS",
+          "type": "Meme+ 现货",
+          "detail": "STONKS 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538246",
+          "dates": [
+            "2026-09-05"
           ]
         },
         {
