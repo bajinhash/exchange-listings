@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-08-30",
-  "weekEnd": "2026-09-05",
-  "updatedAt": "2026-09-05T15:47:14.794Z",
+  "weekStart": "2026-08-31",
+  "weekEnd": "2026-09-06",
+  "updatedAt": "2026-09-05T16:54:49.698Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -603,7 +603,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101568",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -613,7 +614,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101564",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -623,7 +625,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101564",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -633,7 +636,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101564",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -643,7 +647,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101560",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -653,7 +658,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101556",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -663,7 +669,18 @@
           "url": "https://www.gate.com/zh/announcements/article/101554",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
+          ]
+        },
+        {
+          "token": "CP1",
+          "type": "上线",
+          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP1 天前2,483",
+          "url": "https://www.gate.com/zh/announcements/article/101565",
+          "dates": [
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -689,15 +706,6 @@
           "type": "上线",
           "detail": "STONKS（同公告含 3 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101569",
-          "dates": [
-            "2026-09-05"
-          ]
-        },
-        {
-          "token": "CP1",
-          "type": "上线",
-          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP1 天前2,483",
-          "url": "https://www.gate.com/zh/announcements/article/101565",
           "dates": [
             "2026-09-05"
           ]
@@ -1164,7 +1172,6 @@
           "detail": "牛来USDT 现已上线合约交易和交易BOT",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603893765",
           "dates": [
-            "2026-08-30",
             "2026-08-31"
           ]
         }
@@ -1179,7 +1186,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-memerobinhoodusdt-from-innovation-zone-to-main-board-on-sep-4-2026-12-17827791538244",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1189,7 +1197,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1199,7 +1208,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1209,7 +1219,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1219,7 +1230,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1229,7 +1241,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538209",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1239,7 +1252,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ymtc-usdt-m-futures-17827791538200",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1249,7 +1263,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1259,7 +1274,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1269,7 +1285,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1279,7 +1296,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1289,7 +1307,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1299,7 +1318,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-skinnov-kbfin-and-hanwhaaero-stock-futures-with-0-fee-trading-on-sep-4-17827791538188",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1309,7 +1329,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-skinnov-kbfin-and-hanwhaaero-stock-futures-with-0-fee-trading-on-sep-4-17827791538188",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1319,7 +1340,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-skinnov-kbfin-and-hanwhaaero-stock-futures-with-0-fee-trading-on-sep-4-17827791538188",
           "dates": [
             "2026-09-04",
-            "2026-09-05"
+            "2026-09-05",
+            "2026-09-06"
           ]
         },
         {
@@ -1764,7 +1786,6 @@
           "detail": "MEXC 合約創新板塊將於 2026年8月30日 18:30 (UTC+8) 上線 PROLOGUEUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-prologueusdt-futures-in-innovation-zone-on-aug-30-2026-10-17827791537961",
           "dates": [
-            "2026-08-30",
             "2026-08-31"
           ]
         },
@@ -1774,7 +1795,6 @@
           "detail": "MEXC 合約創新板塊將於 2026年8月30日 18:30 (UTC+8) 上線 COPPERINUMUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-copperinumusdt-futures-in-innovation-zone-on-aug-30-2026-10-17827791537960",
           "dates": [
-            "2026-08-30",
             "2026-08-31"
           ]
         },
@@ -1784,44 +1804,7 @@
           "detail": "MEXC 合約創新板塊將於 2026年8月30日 18:30 (UTC+8) 上線 MICRODUCKUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-microduckusdt-futures-in-innovation-zone-on-aug-30-2026-10-17827791537959",
           "dates": [
-            "2026-08-30",
             "2026-08-31"
-          ]
-        },
-        {
-          "token": "PROLOGUE",
-          "type": "Meme+ 现货",
-          "detail": "PROLOGUE 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537958",
-          "dates": [
-            "2026-08-30"
-          ]
-        },
-        {
-          "token": "COPPERINU",
-          "type": "Meme+ 现货",
-          "detail": "COPPERINU 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537955",
-          "dates": [
-            "2026-08-30"
-          ]
-        },
-        {
-          "token": "VYNEX",
-          "type": "Meme+ 现货",
-          "detail": "VYNEX 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537953",
-          "dates": [
-            "2026-08-30"
-          ]
-        },
-        {
-          "token": "BASELINE",
-          "type": "Meme+ 现货",
-          "detail": "BASELINE 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537952",
-          "dates": [
-            "2026-08-30"
           ]
         }
       ]
