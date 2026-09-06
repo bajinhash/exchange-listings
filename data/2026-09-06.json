@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-06T14:34:28.744Z",
+  "updatedAt": "2026-09-06T15:59:10.083Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -28,7 +28,7 @@
         {
           "token": "PAIR",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 PAIR 合约交易、交易机器人、跟单功能3 小时前546",
+          "detail": "Gate 合约 HOOD 专区已上线 PAIR 合约交易、交易机器人、跟单功能5 小时前692",
           "url": "https://www.gate.com/zh/announcements/article/101572"
         }
       ]
@@ -45,6 +45,54 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "PAIR",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年9月6日 23:30 (UTC+8) 上線 PAIRUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-pairusdt-futures-in-innovation-zone-on-sep-6-2026-15-17827791538274"
+        },
+        {
+          "token": "STONKEX",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月6日 23:30 (UTC+8) 上線 STONKEXUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538273"
+        },
+        {
+          "token": "ROBIN",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月6日 23:30 (UTC+8) 上線 ROBINUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538272"
+        },
+        {
+          "token": "STONK",
+          "type": "永续合约",
+          "detail": "MEXC 合約創新板塊將於 2026年9月6日 23:30 (UTC+8) 上線 STONKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-stonkusdt-futures-in-innovation-zone-on-sep-6-2026-15-17827791538271"
+        },
+        {
+          "token": "PAIR",
+          "type": "上线",
+          "detail": "PAIR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-哈基米usdt-futures-on-sep-6-2026-15-17827791538270"
+        },
+        {
+          "token": "ROBIN",
+          "type": "上线",
+          "detail": "ROBIN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-哈基米usdt-futures-on-sep-6-2026-15-17827791538270"
+        },
+        {
+          "token": "STONK",
+          "type": "上线",
+          "detail": "STONK（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-哈基米usdt-futures-on-sep-6-2026-15-17827791538270"
+        },
+        {
+          "token": "STONKEX",
+          "type": "上线",
+          "detail": "STONKEX（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-哈基米usdt-futures-on-sep-6-2026-15-17827791538270"
+        },
         {
           "token": "PAIR",
           "type": "Meme+ 现货",
@@ -64,9 +112,15 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538267"
         },
         {
-          "token": "SHROOM",
+          "token": "PAIR",
           "type": "现货上线",
-          "detail": "MEXC 將於考核區上線 哈基米 (哈基米)",
+          "detail": "PAIR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538265"
+        },
+        {
+          "token": "STONK",
+          "type": "现货上线",
+          "detail": "STONK（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538265"
         },
         {
@@ -74,36 +128,6 @@
           "type": "Meme+ 现货",
           "detail": "ZCAT 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538263"
-        },
-        {
-          "token": "SHROOM",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年9月6日 14:10 (UTC+8) 上線 SHROOMUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-shroomusdt-futures-on-sep-6-2026-06-17827791538262"
-        },
-        {
-          "token": "BLUECHIP",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年9月6日 14:10 (UTC+8) 上線 BLUECHIPUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538261"
-        },
-        {
-          "token": "ZZZ",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年9月6日 14:10 (UTC+8) 上線 ZZZUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538260"
-        },
-        {
-          "token": "SUE",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年9月6日 14:10 (UTC+8) 上線 SUEUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538259"
-        },
-        {
-          "token": "ZZZ",
-          "type": "Meme+ 现货",
-          "detail": "ZZZ 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538256"
         }
       ]
     }
