@@ -1,9 +1,16 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-05T16:54:49.526Z",
+  "updatedAt": "2026-09-06T13:45:29.484Z",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "PONS",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDⓈ-Margined PONSUSDT and 哈基米USDT Perpetual Contracts (2026-09-06)",
+          "url": "https://www.binance.com/en/support/announcement/ca3196e008da448da107d397bae0b4b0"
+        }
+      ],
       "alpha": [],
       "wallet": []
     },
@@ -19,149 +26,108 @@
     "gateio": {
       "listings": [
         {
-          "token": "GIGGLEMAX",
+          "token": "PAIR",
           "type": "跟单合约",
-          "detail": "Gate 已上线 GIGGLEMAX 合约交易、交易机器人、跟单功能1 天前2,061",
-          "url": "https://www.gate.com/zh/announcements/article/101568"
+          "detail": "Gate 合约 HOOD 专区已上线 PAIR 合约交易、交易机器人、跟单功能3 小时前424",
+          "url": "https://www.gate.com/zh/announcements/article/101572"
         },
         {
-          "token": "CP1",
+          "token": "SUE",
+          "type": "跟单合约",
+          "detail": "Gate 合约 Meme 专区已上线 哈基米、SUE 合约交易、交易机器人、跟单功能5 小时前652",
+          "url": "https://www.gate.com/zh/announcements/article/101571"
+        },
+        {
+          "token": "FATCOIN",
           "type": "上线",
-          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP1 天前2,526",
-          "url": "https://www.gate.com/zh/announcements/article/101565"
+          "detail": "FATCOIN（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101569"
         },
         {
-          "token": "CONCERN",
-          "type": "现货上线",
-          "detail": "CONCERN（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101564"
-        },
-        {
-          "token": "VOXEL",
-          "type": "现货上线",
-          "detail": "VOXEL（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101564"
-        },
-        {
-          "token": "CRCL",
-          "type": "现货上线",
-          "detail": "CRCL（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101564"
-        },
-        {
-          "token": "PYBOBO",
+          "token": "SHROOM",
           "type": "上线",
-          "detail": "Gate 关于支持 Capybobo (PYBOBO) 合约置换的公告1 天前1,274",
-          "url": "https://www.gate.com/zh/announcements/article/101560"
+          "detail": "SHROOM（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101569"
         },
         {
-          "token": "MEMECOIN",
-          "type": "现货上线",
-          "detail": "Gate 合约 Robinhood 专区已上线 MEMECOIN 合约交易、交易机器人、跟...1 天前1,780",
-          "url": "https://www.gate.com/zh/announcements/article/101556"
-        },
-        {
-          "token": "MEME",
-          "type": "现货上线",
-          "detail": "MEME（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101554"
+          "token": "STONKS",
+          "type": "上线",
+          "detail": "STONKS（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101569"
         }
       ]
     },
     "bitget": {
-      "listings": []
+      "listings": [
+        {
+          "token": "BOT",
+          "type": "上线",
+          "detail": "哈基米USDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894295"
+        }
+      ]
     },
     "mexc": {
       "listings": [
         {
-          "token": "MEMEROBINHOOD",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年9月4日 20:00 (UTC+8) 起把 MEMEROBINHOODUSDT 從創新區轉板至主板區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-memerobinhoodusdt-from-innovation-zone-to-main-board-on-sep-4-2026-12-17827791538244"
+          "token": "PAIR",
+          "type": "Meme+ 现货",
+          "detail": "PAIR 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538269"
         },
         {
-          "token": "MEMEROBINHOOD",
-          "type": "跟单合约",
-          "detail": "MEMEROBINHOOD（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220"
+          "token": "ROBIN",
+          "type": "Meme+ 现货",
+          "detail": "ROBIN 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538268"
         },
         {
-          "token": "SKINNOV",
-          "type": "跟单合约",
-          "detail": "SKINNOV（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220"
+          "token": "STONKEX",
+          "type": "Meme+ 现货",
+          "detail": "STONKEX 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538267"
         },
         {
-          "token": "KBFIN",
-          "type": "跟单合约",
-          "detail": "KBFIN（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220"
-        },
-        {
-          "token": "HANWHAAERO",
-          "type": "跟单合约",
-          "detail": "HANWHAAERO（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-memerobinhood-skinnov-kbfin-and-hanwhaaero-usdt-m-futures-17827791538220"
-        },
-        {
-          "token": "MEMEROBINHOOD",
+          "token": "SHROOM",
           "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年9月4日 17:10 (UTC+8) 上線 MEMEROBINHOODUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538209"
+          "detail": "MEXC 將於考核區上線 哈基米 (哈基米)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538265"
         },
         {
-          "token": "YMTC",
-          "type": "跟单合约",
-          "detail": "MEXC 跟單新增 YMTC U 本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ymtc-usdt-m-futures-17827791538200"
+          "token": "ZCAT",
+          "type": "Meme+ 现货",
+          "detail": "ZCAT 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538263"
         },
         {
-          "token": "FATCOIN",
-          "type": "跟单合约",
-          "detail": "FATCOIN（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199"
+          "token": "SHROOM",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年9月6日 14:10 (UTC+8) 上線 SHROOMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-shroomusdt-futures-on-sep-6-2026-06-17827791538262"
         },
         {
-          "token": "BUN",
-          "type": "跟单合约",
-          "detail": "BUN（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199"
+          "token": "BLUECHIP",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月6日 14:10 (UTC+8) 上線 BLUECHIPUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538261"
         },
         {
-          "token": "ORBIO",
-          "type": "跟单合约",
-          "detail": "ORBIO（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199"
+          "token": "ZZZ",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月6日 14:10 (UTC+8) 上線 ZZZUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538260"
         },
         {
-          "token": "FLORKBSC",
-          "type": "跟单合约",
-          "detail": "FLORKBSC（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199"
+          "token": "SUE",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月6日 14:10 (UTC+8) 上線 SUEUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538259"
         },
         {
-          "token": "NUDES",
-          "type": "跟单合约",
-          "detail": "NUDES（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fatcoin-bun-orbio-florkbsc-and-nudes-usdt-m-futures-17827791538199"
-        },
-        {
-          "token": "SKINNOV",
-          "type": "美股合约",
-          "detail": "SKINNOV（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-skinnov-kbfin-and-hanwhaaero-stock-futures-with-0-fee-trading-on-sep-4-17827791538188"
-        },
-        {
-          "token": "KBFIN",
-          "type": "美股合约",
-          "detail": "KBFIN（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-skinnov-kbfin-and-hanwhaaero-stock-futures-with-0-fee-trading-on-sep-4-17827791538188"
-        },
-        {
-          "token": "HANWHAAERO",
-          "type": "美股合约",
-          "detail": "HANWHAAERO（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-skinnov-kbfin-and-hanwhaaero-stock-futures-with-0-fee-trading-on-sep-4-17827791538188"
+          "token": "ZZZ",
+          "type": "Meme+ 现货",
+          "detail": "ZZZ 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538256"
         }
       ]
     }
