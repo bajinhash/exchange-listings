@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-08-31",
   "weekEnd": "2026-09-06",
-  "updatedAt": "2026-09-06T13:54:45.100Z",
+  "updatedAt": "2026-09-06T14:34:28.919Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -606,49 +606,10 @@
     "gateio": {
       "listings": [
         {
-          "token": "FATCOIN",
-          "type": "上线",
-          "detail": "FATCOIN（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101569",
-          "dates": [
-            "2026-09-05",
-            "2026-09-06"
-          ]
-        },
-        {
-          "token": "SHROOM",
-          "type": "上线",
-          "detail": "SHROOM（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101569",
-          "dates": [
-            "2026-09-05",
-            "2026-09-06"
-          ]
-        },
-        {
-          "token": "STONKS",
-          "type": "上线",
-          "detail": "STONKS（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101569",
-          "dates": [
-            "2026-09-05",
-            "2026-09-06"
-          ]
-        },
-        {
           "token": "PAIR",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 PAIR 合约交易、交易机器人、跟单功能3 小时前433",
+          "detail": "Gate 合约 HOOD 专区已上线 PAIR 合约交易、交易机器人、跟单功能3 小时前546",
           "url": "https://www.gate.com/zh/announcements/article/101572",
-          "dates": [
-            "2026-09-06"
-          ]
-        },
-        {
-          "token": "SUE",
-          "type": "跟单合约",
-          "detail": "Gate 合约 Meme 专区已上线 哈基米、SUE 合约交易、交易机器人、跟单功能5 小时前661",
-          "url": "https://www.gate.com/zh/announcements/article/101571",
           "dates": [
             "2026-09-06"
           ]
@@ -720,6 +681,33 @@
           "url": "https://www.gate.com/zh/announcements/article/101554",
           "dates": [
             "2026-09-04",
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "FATCOIN",
+          "type": "上线",
+          "detail": "FATCOIN（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101569",
+          "dates": [
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "SHROOM",
+          "type": "上线",
+          "detail": "SHROOM（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101569",
+          "dates": [
+            "2026-09-05"
+          ]
+        },
+        {
+          "token": "STONKS",
+          "type": "上线",
+          "detail": "STONKS（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101569",
+          "dates": [
             "2026-09-05"
           ]
         },
