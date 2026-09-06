@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-06T13:45:29.484Z",
+  "updatedAt": "2026-09-06T13:54:44.908Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -28,13 +28,13 @@
         {
           "token": "PAIR",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 PAIR 合约交易、交易机器人、跟单功能3 小时前424",
+          "detail": "Gate 合约 HOOD 专区已上线 PAIR 合约交易、交易机器人、跟单功能3 小时前433",
           "url": "https://www.gate.com/zh/announcements/article/101572"
         },
         {
           "token": "SUE",
           "type": "跟单合约",
-          "detail": "Gate 合约 Meme 专区已上线 哈基米、SUE 合约交易、交易机器人、跟单功能5 小时前652",
+          "detail": "Gate 合约 Meme 专区已上线 哈基米、SUE 合约交易、交易机器人、跟单功能5 小时前661",
           "url": "https://www.gate.com/zh/announcements/article/101571"
         },
         {
