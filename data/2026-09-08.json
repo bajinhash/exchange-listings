@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-07T16:49:08.426Z",
+  "updatedAt": "2026-09-07T18:05:56.366Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -28,14 +28,20 @@
         {
           "token": "SOCK",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 cyberbeer (cyberbeer)、AP (Artificial Pepe)、SOCK (Sock)3 小时前422",
+          "detail": "Gate 打金狗首发上线 cyberbeer (cyberbeer)、AP (Artificial Pepe)、SOCK (Sock)5 小时前505",
           "url": "https://www.gate.com/zh/announcements/article/101597"
         },
         {
           "token": "CNPY",
           "type": "跟单合约",
-          "detail": "Gate 已上线 CNPY 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...4 小时前572",
+          "detail": "Gate 已上线 CNPY 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...5 小时前661",
           "url": "https://www.gate.com/zh/announcements/article/101596"
+        },
+        {
+          "token": "USDT8",
+          "type": "上线",
+          "detail": "闪兑进阶季：交易冲榜，单人领 1,000 USDT8 小时前864",
+          "url": "https://www.gate.com/zh/announcements/article/101594"
         }
       ]
     },
@@ -68,6 +74,12 @@
           "type": "上线",
           "detail": "MEXC 將於 2026年9月7日 17:15 (UTC+8) 上線 ZCATUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-zcatusdt-futures-on-sep-7-2026-09-17827791538322"
+        },
+        {
+          "token": "BENBSC",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年9月7日 20:00 (UTC+8) 上線 BENBSCUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538318"
         }
       ]
     }
