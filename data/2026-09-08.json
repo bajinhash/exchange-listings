@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-08",
+  "updatedAt": "2026-09-07T16:49:08.426Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "CNPY",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CNPY - Canopy 是一个 Agent 原生的开发框架，用于发布具备主权的链上应用。",
+          "url": "https://www.binance.com/en/alpha/bsc/0xc69b16cf18cea1e5d0bb6a1a9db802097790ddd2"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SOCK",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 cyberbeer (cyberbeer)、AP (Artificial Pepe)、SOCK (Sock)3 小时前422",
+          "url": "https://www.gate.com/zh/announcements/article/101597"
+        },
+        {
+          "token": "CNPY",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 CNPY 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...4 小时前572",
+          "url": "https://www.gate.com/zh/announcements/article/101596"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "PONS",
+          "type": "上线",
+          "detail": "Pons (PONS) 将上线 Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894378"
+        },
+        {
+          "token": "SOFTBANK",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 SOFTBANKUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894419"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SOCK",
+          "type": "Meme+ 现货",
+          "detail": "SOCK 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538323"
+        },
+        {
+          "token": "ZCAT",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年9月7日 17:15 (UTC+8) 上線 ZCATUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-zcatusdt-futures-on-sep-7-2026-09-17827791538322"
+        }
+      ]
+    }
+  }
+}
