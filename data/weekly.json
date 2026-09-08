@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-02",
   "weekEnd": "2026-09-08",
-  "updatedAt": "2026-09-08T14:44:58.600Z",
+  "updatedAt": "2026-09-08T15:30:53.381Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -579,19 +579,9 @@
           ]
         },
         {
-          "token": "CP5",
-          "type": "上线",
-          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP5 小时前932",
-          "url": "https://www.gate.com/zh/announcements/article/101565",
-          "dates": [
-            "2026-09-04",
-            "2026-09-08"
-          ]
-        },
-        {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 持币生息限时收益加权5 小时前694",
+          "detail": "USD1 持币生息限时收益加权5 小时前760",
           "url": "https://www.gate.com/zh/announcements/article/101632",
           "dates": [
             "2026-09-08"
@@ -600,8 +590,17 @@
         {
           "token": "C2C",
           "type": "上线",
-          "detail": "Gate C2C 防诈安全挑战，答 Quiz 赢最高 5 USDT 及惊喜周边5 小时前589",
+          "detail": "Gate C2C 防诈安全挑战，答 Quiz 赢最高 5 USDT 及惊喜周边6 小时前616",
           "url": "https://www.gate.com/zh/announcements/article/101630",
+          "dates": [
+            "2026-09-08"
+          ]
+        },
+        {
+          "token": "CP6",
+          "type": "上线",
+          "detail": "Gate ETF 新人礼：$1 开启交易，最高领 70 USDT 等值 CP6 小时前3,599",
+          "url": "https://www.gate.com/zh/announcements/article/101629",
           "dates": [
             "2026-09-08"
           ]
@@ -609,7 +608,7 @@
         {
           "token": "XAUT6",
           "type": "上线",
-          "detail": "CFD 掘金挑战：650,000 USDx 奖励放送，最高得 2,214 USDT 等值 XAUT6 小时前1,053",
+          "detail": "CFD 掘金挑战：650,000 USDx 奖励放送，最高得 2,214 USDT 等值 XAUT6 小时前1,104",
           "url": "https://www.gate.com/zh/announcements/article/101626",
           "dates": [
             "2026-09-08"
@@ -618,7 +617,7 @@
         {
           "token": "BBO",
           "type": "现货上线",
-          "detail": "Gate 现货 WebSocket 更新：最优买卖价(BBO)推送频率调整6 小时前467",
+          "detail": "Gate 现货 WebSocket 更新：最优买卖价(BBO)推送频率调整7 小时前507",
           "url": "https://www.gate.com/zh/announcements/article/101623",
           "dates": [
             "2026-09-08"
@@ -627,7 +626,7 @@
         {
           "token": "FATPANDA",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 4Stock (4Stock)、FATPANDA (Fat Panda)、build (build)6 小时前549",
+          "detail": "Gate 打金狗首发上线 4Stock (4Stock)、FATPANDA (Fat Panda)、build (build)7 小时前589",
           "url": "https://www.gate.com/zh/announcements/article/101622",
           "dates": [
             "2026-09-08"
@@ -636,7 +635,7 @@
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "合约猎金行动：达标有礼，瓜分 USDT 和 XAUT 黄金奖池7 小时前645",
+          "detail": "合约猎金行动：达标有礼，瓜分 USDT 和 XAUT 黄金奖池8 小时前683",
           "url": "https://www.gate.com/zh/announcements/article/101617",
           "dates": [
             "2026-09-08"
@@ -645,7 +644,7 @@
         {
           "token": "CNPY",
           "type": "现货上线",
-          "detail": "Gate 将上线 Canopy (CNPY) 现货交易与闪兑交易1 天前2,939",
+          "detail": "Gate 将上线 Canopy (CNPY) 现货交易与闪兑交易1 天前2,977",
           "url": "https://www.gate.com/zh/announcements/article/101583",
           "dates": [
             "2026-09-08"
@@ -774,6 +773,15 @@
           "url": "https://www.gate.com/zh/announcements/article/101538",
           "dates": [
             "2026-09-03",
+            "2026-09-04"
+          ]
+        },
+        {
+          "token": "CP5",
+          "type": "上线",
+          "detail": "CP 空投嘉年华：新人最高可领专属福利 3,450 CP5 小时前932",
+          "url": "https://www.gate.com/zh/announcements/article/101565",
+          "dates": [
             "2026-09-04"
           ]
         },
