@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-09",
+  "updatedAt": "2026-09-08T17:00:48.243Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "EURUSD",
+          "type": "永续合约",
+          "detail": "全新上線：EURUSDUSDT TradFi 永續合約，支持最高 100 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-eurusdusdt-tradfi-perpetual-contract-with-up-to-100x-leverage--art24098f22b9c7/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "BYD",
+          "type": "美股合约",
+          "detail": "KuCoin Futures Will List BYDUSDT Stock Index Perpetual Contract (2026-09-09)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bydusdt-stock-index-perpetual-contract-2026-09-09"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "USD1",
+          "type": "上线",
+          "detail": "USD1 持币生息限时收益加权7 小时前883",
+          "url": "https://www.gate.com/zh/announcements/article/101632"
+        },
+        {
+          "token": "C2C",
+          "type": "上线",
+          "detail": "Gate C2C 防诈安全挑战，答 Quiz 赢最高 5 USDT 及惊喜周边7 小时前672",
+          "url": "https://www.gate.com/zh/announcements/article/101630"
+        },
+        {
+          "token": "CNPY",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Canopy (CNPY) 现货交易与闪兑交易1 天前3,028",
+          "url": "https://www.gate.com/zh/announcements/article/101583"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "BYD",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 BYDUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894613"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "BUILD",
+          "type": "现货上线",
+          "detail": "首發上線&#xff1a;MEXC 合約創新區將於 2026年9月8日 21:50 (UTC&#43;8) 上線 BUILDUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538354"
+        }
+      ]
+    }
+  }
+}
