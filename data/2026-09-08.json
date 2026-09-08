@@ -1,47 +1,102 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-07T18:05:56.366Z",
+  "updatedAt": "2026-09-08T14:35:42.390Z",
   "exchanges": {
     "binance": {
       "listings": [],
-      "alpha": [
-        {
-          "token": "CNPY",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 CNPY - Canopy 是一个 Agent 原生的开发框架，用于发布具备主权的链上应用。",
-          "url": "https://www.binance.com/en/alpha/bsc/0xc69b16cf18cea1e5d0bb6a1a9db802097790ddd2"
-        }
-      ],
+      "alpha": [],
       "wallet": []
     },
     "okx": {
       "listings": []
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "EURUSD",
+          "type": "永续合约",
+          "detail": "全新上線：EURUSDUSDT TradFi 永續合約，支持最高 100 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-eurusdusdt-tradfi-perpetual-contract-with-up-to-100x-leverage--art24098f22b9c7/"
+        },
+        {
+          "token": "USDJPY",
+          "type": "永续合约",
+          "detail": "全新上線：USDJPYUSDT TradFi 永續合約，支持最高 100 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-usdjpyusdt-tradfi-perpetual-contract-with-up-to-100x-leverage--art4f909309d319/"
+        },
+        {
+          "token": "GBPUSD",
+          "type": "永续合约",
+          "detail": "全新上線：GBPUSDUSDT TradFi 永續合約，支持最高 100 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gbpusdusdt-tradfi-perpetual-contract-with-up-to-100x-leverage--art4023fe24c1b0/"
+        }
+      ]
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "BYD",
+          "type": "美股合约",
+          "detail": "KuCoin Futures Will List BYDUSDT Stock Index Perpetual Contract (2026-09-09)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bydusdt-stock-index-perpetual-contract-2026-09-09"
+        }
+      ]
     },
     "gateio": {
       "listings": [
         {
-          "token": "SOCK",
+          "token": "USD1",
+          "type": "上线",
+          "detail": "USD1 持币生息限时收益加权4 小时前669",
+          "url": "https://www.gate.com/zh/announcements/article/101632"
+        },
+        {
+          "token": "C2C",
+          "type": "上线",
+          "detail": "Gate C2C 防诈安全挑战，答 Quiz 赢最高 5 USDT 及惊喜周边5 小时前578",
+          "url": "https://www.gate.com/zh/announcements/article/101630"
+        },
+        {
+          "token": "CP5",
+          "type": "上线",
+          "detail": "Gate ETF 新人礼：$1 开启交易，最高领 70 USDT 等值 CP5 小时前3,381",
+          "url": "https://www.gate.com/zh/announcements/article/101629"
+        },
+        {
+          "token": "XAUT5",
+          "type": "上线",
+          "detail": "CFD 掘金挑战：650,000 USDx 奖励放送，最高得 2,214 USDT 等值 XAUT5 小时前1,030",
+          "url": "https://www.gate.com/zh/announcements/article/101626"
+        },
+        {
+          "token": "BBO",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 cyberbeer (cyberbeer)、AP (Artificial Pepe)、SOCK (Sock)5 小时前505",
-          "url": "https://www.gate.com/zh/announcements/article/101597"
+          "detail": "Gate 现货 WebSocket 更新：最优买卖价(BBO)推送频率调整6 小时前452",
+          "url": "https://www.gate.com/zh/announcements/article/101623"
+        },
+        {
+          "token": "FATPANDA",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 4Stock (4Stock)、FATPANDA (Fat Panda)、build (build)6 小时前532",
+          "url": "https://www.gate.com/zh/announcements/article/101622"
+        },
+        {
+          "token": "USDT6",
+          "type": "上线",
+          "detail": "大宗商品 CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT6 小时前698",
+          "url": "https://www.gate.com/zh/announcements/article/101621"
+        },
+        {
+          "token": "XAUT",
+          "type": "上线",
+          "detail": "合约猎金行动：达标有礼，瓜分 USDT 和 XAUT 黄金奖池7 小时前634",
+          "url": "https://www.gate.com/zh/announcements/article/101617"
         },
         {
           "token": "CNPY",
-          "type": "跟单合约",
-          "detail": "Gate 已上线 CNPY 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投...5 小时前661",
-          "url": "https://www.gate.com/zh/announcements/article/101596"
-        },
-        {
-          "token": "USDT8",
-          "type": "上线",
-          "detail": "闪兑进阶季：交易冲榜，单人领 1,000 USDT8 小时前864",
-          "url": "https://www.gate.com/zh/announcements/article/101594"
+          "type": "现货上线",
+          "detail": "Gate 将上线 Canopy (CNPY) 现货交易与闪兑交易1 天前2,930",
+          "url": "https://www.gate.com/zh/announcements/article/101583"
         }
       ]
     },
@@ -54,6 +109,24 @@
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603894378"
         },
         {
+          "token": "BYD",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 BYDUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894613"
+        },
+        {
+          "token": "H100",
+          "type": "永续合约",
+          "detail": "H100（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894397"
+        },
+        {
+          "token": "B200",
+          "type": "永续合约",
+          "detail": "B200（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894397"
+        },
+        {
           "token": "SOFTBANK",
           "type": "美股合约",
           "detail": "Bitget 关于上线 SOFTBANKUSDT 热门股票永续合约的公告",
@@ -64,22 +137,88 @@
     "mexc": {
       "listings": [
         {
-          "token": "SOCK",
-          "type": "Meme+ 现货",
-          "detail": "SOCK 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538323"
+          "token": "BUILD",
+          "type": "现货上线",
+          "detail": "首發上線&#xff1a;MEXC 合約創新區將於 2026年9月8日 21:50 (UTC&#43;8) 上線 BUILDUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538354"
+        },
+        {
+          "token": "STRATTON",
+          "type": "现货上线",
+          "detail": "首發上線&#xff1a;STRATTON 現已上線 MEXC Meme&#43;",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538352"
+        },
+        {
+          "token": "BENBSC",
+          "type": "跟单合约",
+          "detail": "BENBSC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340"
+        },
+        {
+          "token": "CNPY",
+          "type": "跟单合约",
+          "detail": "CNPY（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340"
         },
         {
           "token": "ZCAT",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年9月7日 17:15 (UTC+8) 上線 ZCATUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-zcatusdt-futures-on-sep-7-2026-09-17827791538322"
+          "type": "跟单合约",
+          "detail": "ZCAT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340"
+        },
+        {
+          "token": "BREW",
+          "type": "跟单合约",
+          "detail": "BREW（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340"
+        },
+        {
+          "token": "SOCK",
+          "type": "跟单合约",
+          "detail": "SOCK（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sock-cto-and-4stock-usdt-m-futures-17827791538339"
+        },
+        {
+          "token": "CTO",
+          "type": "跟单合约",
+          "detail": "CTO（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sock-cto-and-4stock-usdt-m-futures-17827791538339"
         },
         {
           "token": "BENBSC",
           "type": "现货上线",
-          "detail": "全球首發：MEXC 將於 2026年9月7日 20:00 (UTC+8) 上線 BENBSCUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538318"
+          "detail": "BENBSC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538338"
+        },
+        {
+          "token": "CNPY",
+          "type": "现货上线",
+          "detail": "CNPY（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538338"
+        },
+        {
+          "token": "ZCAT",
+          "type": "现货上线",
+          "detail": "ZCAT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538338"
+        },
+        {
+          "token": "CTO",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月8日 13:50 (UTC+8) 上線 CTOUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538337"
+        },
+        {
+          "token": "SOCK",
+          "type": "现货上线",
+          "detail": "全球首發：MEXC 將於 2026年9月8日 13:50 (UTC+8) 上線 SOCKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538336"
+        },
+        {
+          "token": "STOCK",
+          "type": "Meme+ 现货",
+          "detail": "4STOCK 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538335"
         }
       ]
     }
