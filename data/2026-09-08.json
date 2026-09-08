@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T14:35:42.390Z",
+  "updatedAt": "2026-09-08T14:44:58.398Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -47,55 +47,55 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "USD1 持币生息限时收益加权4 小时前669",
+          "detail": "USD1 持币生息限时收益加权5 小时前694",
           "url": "https://www.gate.com/zh/announcements/article/101632"
         },
         {
           "token": "C2C",
           "type": "上线",
-          "detail": "Gate C2C 防诈安全挑战，答 Quiz 赢最高 5 USDT 及惊喜周边5 小时前578",
+          "detail": "Gate C2C 防诈安全挑战，答 Quiz 赢最高 5 USDT 及惊喜周边5 小时前589",
           "url": "https://www.gate.com/zh/announcements/article/101630"
         },
         {
           "token": "CP5",
           "type": "上线",
-          "detail": "Gate ETF 新人礼：$1 开启交易，最高领 70 USDT 等值 CP5 小时前3,381",
+          "detail": "Gate ETF 新人礼：$1 开启交易，最高领 70 USDT 等值 CP5 小时前3,444",
           "url": "https://www.gate.com/zh/announcements/article/101629"
         },
         {
-          "token": "XAUT5",
+          "token": "XAUT6",
           "type": "上线",
-          "detail": "CFD 掘金挑战：650,000 USDx 奖励放送，最高得 2,214 USDT 等值 XAUT5 小时前1,030",
+          "detail": "CFD 掘金挑战：650,000 USDx 奖励放送，最高得 2,214 USDT 等值 XAUT6 小时前1,053",
           "url": "https://www.gate.com/zh/announcements/article/101626"
         },
         {
           "token": "BBO",
           "type": "现货上线",
-          "detail": "Gate 现货 WebSocket 更新：最优买卖价(BBO)推送频率调整6 小时前452",
+          "detail": "Gate 现货 WebSocket 更新：最优买卖价(BBO)推送频率调整6 小时前467",
           "url": "https://www.gate.com/zh/announcements/article/101623"
         },
         {
           "token": "FATPANDA",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 4Stock (4Stock)、FATPANDA (Fat Panda)、build (build)6 小时前532",
+          "detail": "Gate 打金狗首发上线 4Stock (4Stock)、FATPANDA (Fat Panda)、build (build)6 小时前549",
           "url": "https://www.gate.com/zh/announcements/article/101622"
         },
         {
-          "token": "USDT6",
+          "token": "USDT7",
           "type": "上线",
-          "detail": "大宗商品 CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT6 小时前698",
+          "detail": "大宗商品 CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前714",
           "url": "https://www.gate.com/zh/announcements/article/101621"
         },
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "合约猎金行动：达标有礼，瓜分 USDT 和 XAUT 黄金奖池7 小时前634",
+          "detail": "合约猎金行动：达标有礼，瓜分 USDT 和 XAUT 黄金奖池7 小时前645",
           "url": "https://www.gate.com/zh/announcements/article/101617"
         },
         {
           "token": "CNPY",
           "type": "现货上线",
-          "detail": "Gate 将上线 Canopy (CNPY) 现货交易与闪兑交易1 天前2,930",
+          "detail": "Gate 将上线 Canopy (CNPY) 现货交易与闪兑交易1 天前2,939",
           "url": "https://www.gate.com/zh/announcements/article/101583"
         }
       ]
