@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-03",
   "weekEnd": "2026-09-09",
-  "updatedAt": "2026-09-09T14:37:39.158Z",
+  "updatedAt": "2026-09-09T14:47:34.202Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -498,37 +498,47 @@
     "gateio": {
       "listings": [
         {
-          "token": "LAPTOP",
-          "type": "跟单合约",
-          "detail": "Gate 合约 Meme 专区已上线 LAPTOP 合约交易、交易机器人、跟单功能1 小时前292",
-          "url": "https://www.gate.com/zh/announcements/article/101661",
-          "dates": [
-            "2026-09-09"
-          ]
-        },
-        {
-          "token": "AMD",
+          "token": "BBO",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 AMD (Advanced Micro Dog)、Jacob (Be like Jacob)、BNC4 (Cea Industries)3 小时前301",
-          "url": "https://www.gate.com/zh/announcements/article/101660",
+          "detail": "Gate 现货 WebSocket 更新：最优买卖价(BBO)推送频率调整7 小时前507",
+          "url": "https://www.gate.com/zh/announcements/article/101623",
+          "dates": [
+            "2026-09-08",
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "POOLX",
+          "type": "上线",
+          "detail": "Gate 关于暂停 Poolz Finance (POOLX) 充值和交易的公告13 小时前820",
+          "url": "https://www.gate.com/zh/announcements/article/101634",
           "dates": [
             "2026-09-09"
           ]
         },
         {
-          "token": "CRUMBS",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 CRUMBS (Crumbs)、tip (tipcoin)、MONEROCHAN (Monero-Chan)、MUCHWOW (Muc...8 小时前611",
-          "url": "https://www.gate.com/zh/announcements/article/101649",
+          "token": "BKNG",
+          "type": "永续合约",
+          "detail": "BKNG（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101609",
           "dates": [
             "2026-09-09"
           ]
         },
         {
-          "token": "ZZZ",
-          "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 ZZZ 合约交易、交易机器人、跟单功能8 小时前925",
-          "url": "https://www.gate.com/zh/announcements/article/101648",
+          "token": "ALB",
+          "type": "永续合约",
+          "detail": "ALB（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101609",
+          "dates": [
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "Gate 事件市场：每日交易享奖励，老用户回归再领 20 USDT1 天前2,395",
+          "url": "https://www.gate.com/zh/announcements/article/101601",
           "dates": [
             "2026-09-09"
           ]
@@ -575,15 +585,6 @@
           "type": "上线",
           "detail": "CFD 掘金挑战：650,000 USDx 奖励放送，最高得 2,214 USDT 等值 XAUT6 小时前1,104",
           "url": "https://www.gate.com/zh/announcements/article/101626",
-          "dates": [
-            "2026-09-08"
-          ]
-        },
-        {
-          "token": "BBO",
-          "type": "现货上线",
-          "detail": "Gate 现货 WebSocket 更新：最优买卖价(BBO)推送频率调整7 小时前507",
-          "url": "https://www.gate.com/zh/announcements/article/101623",
           "dates": [
             "2026-09-08"
           ]
