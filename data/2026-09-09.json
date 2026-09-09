@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T14:47:34.046Z",
+  "updatedAt": "2026-09-09T15:28:19.156Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -144,34 +144,34 @@
     "gateio": {
       "listings": [
         {
-          "token": "POOLX",
-          "type": "上线",
-          "detail": "Gate 关于暂停 Poolz Finance (POOLX) 充值和交易的公告13 小时前820",
-          "url": "https://www.gate.com/zh/announcements/article/101634"
-        },
-        {
-          "token": "BBO",
+          "token": "MCAT",
           "type": "现货上线",
-          "detail": "Gate 现货 WebSocket 更新：最优买卖价(BBO)推送频率调整1 天前1,331",
-          "url": "https://www.gate.com/zh/announcements/article/101623"
+          "detail": "Gate 将上线 MarsCat (MCAT) 现货交易与闪兑交易39 分钟前232",
+          "url": "https://www.gate.com/zh/announcements/article/101662"
         },
         {
-          "token": "BKNG",
-          "type": "永续合约",
-          "detail": "BKNG（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101609"
+          "token": "LAPTOP",
+          "type": "跟单合约",
+          "detail": "Gate 合约 Meme 专区已上线 LAPTOP 合约交易、交易机器人、跟单功能2 小时前410",
+          "url": "https://www.gate.com/zh/announcements/article/101661"
         },
         {
-          "token": "ALB",
-          "type": "永续合约",
-          "detail": "ALB（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101609"
+          "token": "AMD",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 AMD (Advanced Micro Dog)、Jacob (Be like Jacob)、BNC4 (Cea Industries)4 小时前364",
+          "url": "https://www.gate.com/zh/announcements/article/101660"
         },
         {
-          "token": "USDT1",
-          "type": "上线",
-          "detail": "Gate 事件市场：每日交易享奖励，老用户回归再领 20 USDT1 天前2,395",
-          "url": "https://www.gate.com/zh/announcements/article/101601"
+          "token": "CRUMBS",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 CRUMBS (Crumbs)、tip (tipcoin)、MONEROCHAN (Monero-Chan)、MUCHWOW (Muc...9 小时前647",
+          "url": "https://www.gate.com/zh/announcements/article/101649"
+        },
+        {
+          "token": "ZZZ",
+          "type": "跟单合约",
+          "detail": "Gate 合约 HOOD 专区已上线 ZZZ 合约交易、交易机器人、跟单功能9 小时前975",
+          "url": "https://www.gate.com/zh/announcements/article/101648"
         }
       ]
     },
