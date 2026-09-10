@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T14:29:04.977Z",
+  "updatedAt": "2026-09-10T14:38:22.043Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -102,10 +102,58 @@
     "gateio": {
       "listings": [
         {
+          "token": "UPONLY",
+          "type": "现货上线",
+          "detail": "UPONLY（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101686"
+        },
+        {
+          "token": "FLORK",
+          "type": "现货上线",
+          "detail": "FLORK（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101686"
+        },
+        {
+          "token": "CANAL",
+          "type": "现货上线",
+          "detail": "CANAL（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101686"
+        },
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "BTC vs. ETH：双雄对决，争夺 $30,000 等值 AAPL 股票7 小时前769",
+          "url": "https://www.gate.com/zh/announcements/article/101679"
+        },
+        {
+          "token": "NES",
+          "type": "上线",
+          "detail": "Gate 关于支持 NESA (NES) 合约置换的公告7 小时前540",
+          "url": "https://www.gate.com/zh/announcements/article/101678"
+        },
+        {
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "芯股福利加速档：交易闪迪、SK 海力士及美光科技合约，单人再赢 1,000 USDT7 小时前706",
+          "url": "https://www.gate.com/zh/announcements/article/101677"
+        },
+        {
+          "token": "ALIGN",
+          "type": "上线",
+          "detail": "Gate 余币宝：ALIGN 7 天定期理财上线，限时享 200% 年化7 小时前504",
+          "url": "https://www.gate.com/zh/announcements/article/101675"
+        },
+        {
           "token": "LAPTOP",
-          "type": "跟单合约",
-          "detail": "Gate 合约 Meme 专区已上线 LAPTOP 合约交易、交易机器人、跟单功能1 天前2,198",
-          "url": "https://www.gate.com/zh/announcements/article/101661"
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 LAPTOP (LAPTOP)、baton (baton)、EMBER (embercurve)、VC (vape cat)、US...7 小时前461",
+          "url": "https://www.gate.com/zh/announcements/article/101674"
+        },
+        {
+          "token": "MCAT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 MarsCat (MCAT) 现货交易与闪兑交易1 天前1,758",
+          "url": "https://www.gate.com/zh/announcements/article/101662"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-04",
   "weekEnd": "2026-09-10",
-  "updatedAt": "2026-09-10T14:29:05.112Z",
+  "updatedAt": "2026-09-10T14:38:22.186Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -492,12 +492,12 @@
     "gateio": {
       "listings": [
         {
-          "token": "LAPTOP",
-          "type": "跟单合约",
-          "detail": "Gate 合约 Meme 专区已上线 LAPTOP 合约交易、交易机器人、跟单功能2 小时前410",
-          "url": "https://www.gate.com/zh/announcements/article/101661",
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "大宗商品 CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前749",
+          "url": "https://www.gate.com/zh/announcements/article/101621",
           "dates": [
-            "2026-09-09",
+            "2026-09-08",
             "2026-09-10"
           ]
         },
@@ -506,6 +506,79 @@
           "type": "现货上线",
           "detail": "Gate 将上线 MarsCat (MCAT) 现货交易与闪兑交易39 分钟前232",
           "url": "https://www.gate.com/zh/announcements/article/101662",
+          "dates": [
+            "2026-09-09",
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "UPONLY",
+          "type": "现货上线",
+          "detail": "UPONLY（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101686",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "FLORK",
+          "type": "现货上线",
+          "detail": "FLORK（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101686",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "CANAL",
+          "type": "现货上线",
+          "detail": "CANAL（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101686",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "BTC vs. ETH：双雄对决，争夺 $30,000 等值 AAPL 股票7 小时前769",
+          "url": "https://www.gate.com/zh/announcements/article/101679",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "NES",
+          "type": "上线",
+          "detail": "Gate 关于支持 NESA (NES) 合约置换的公告7 小时前540",
+          "url": "https://www.gate.com/zh/announcements/article/101678",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "ALIGN",
+          "type": "上线",
+          "detail": "Gate 余币宝：ALIGN 7 天定期理财上线，限时享 200% 年化7 小时前504",
+          "url": "https://www.gate.com/zh/announcements/article/101675",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "LAPTOP",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 LAPTOP (LAPTOP)、baton (baton)、EMBER (embercurve)、VC (vape cat)、US...7 小时前461",
+          "url": "https://www.gate.com/zh/announcements/article/101674",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "LAPTOP",
+          "type": "跟单合约",
+          "detail": "Gate 合约 Meme 专区已上线 LAPTOP 合约交易、交易机器人、跟单功能2 小时前410",
+          "url": "https://www.gate.com/zh/announcements/article/101661",
           "dates": [
             "2026-09-09"
           ]
@@ -587,15 +660,6 @@
           "type": "现货上线",
           "detail": "Gate 打金狗首发上线 4Stock (4Stock)、FATPANDA (Fat Panda)、build (build)7 小时前589",
           "url": "https://www.gate.com/zh/announcements/article/101622",
-          "dates": [
-            "2026-09-08"
-          ]
-        },
-        {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "大宗商品 CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前749",
-          "url": "https://www.gate.com/zh/announcements/article/101621",
           "dates": [
             "2026-09-08"
           ]
