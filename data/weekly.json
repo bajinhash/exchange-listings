@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-04",
   "weekEnd": "2026-09-10",
-  "updatedAt": "2026-09-10T14:38:22.186Z",
+  "updatedAt": "2026-09-10T15:22:26.935Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -492,22 +492,30 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "大宗商品 CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前749",
-          "url": "https://www.gate.com/zh/announcements/article/101621",
-          "dates": [
-            "2026-09-08",
-            "2026-09-10"
-          ]
-        },
-        {
           "token": "MCAT",
           "type": "现货上线",
           "detail": "Gate 将上线 MarsCat (MCAT) 现货交易与闪兑交易39 分钟前232",
           "url": "https://www.gate.com/zh/announcements/article/101662",
           "dates": [
             "2026-09-09",
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "FRONG",
+          "type": "跟单合约",
+          "detail": "FRONG（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101689",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "跟单合约",
+          "detail": "JUGGERNAUT（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101689",
+          "dates": [
             "2026-09-10"
           ]
         },
@@ -541,7 +549,7 @@
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "BTC vs. ETH：双雄对决，争夺 $30,000 等值 AAPL 股票7 小时前769",
+          "detail": "BTC vs. ETH：双雄对决，争夺 $30,000 等值 AAPL 股票8 小时前813",
           "url": "https://www.gate.com/zh/announcements/article/101679",
           "dates": [
             "2026-09-10"
@@ -550,8 +558,17 @@
         {
           "token": "NES",
           "type": "上线",
-          "detail": "Gate 关于支持 NESA (NES) 合约置换的公告7 小时前540",
+          "detail": "Gate 关于支持 NESA (NES) 合约置换的公告8 小时前573",
           "url": "https://www.gate.com/zh/announcements/article/101678",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "USDT8",
+          "type": "上线",
+          "detail": "芯股福利加速档：交易闪迪、SK 海力士及美光科技合约，单人再赢 1,000 USDT8 小时前748",
+          "url": "https://www.gate.com/zh/announcements/article/101677",
           "dates": [
             "2026-09-10"
           ]
@@ -559,17 +576,8 @@
         {
           "token": "ALIGN",
           "type": "上线",
-          "detail": "Gate 余币宝：ALIGN 7 天定期理财上线，限时享 200% 年化7 小时前504",
+          "detail": "Gate 余币宝：ALIGN 7 天定期理财上线，限时享 200% 年化8 小时前537",
           "url": "https://www.gate.com/zh/announcements/article/101675",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "LAPTOP",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 LAPTOP (LAPTOP)、baton (baton)、EMBER (embercurve)、VC (vape cat)、US...7 小时前461",
-          "url": "https://www.gate.com/zh/announcements/article/101674",
           "dates": [
             "2026-09-10"
           ]
@@ -660,6 +668,15 @@
           "type": "现货上线",
           "detail": "Gate 打金狗首发上线 4Stock (4Stock)、FATPANDA (Fat Panda)、build (build)7 小时前589",
           "url": "https://www.gate.com/zh/announcements/article/101622",
+          "dates": [
+            "2026-09-08"
+          ]
+        },
+        {
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "大宗商品 CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前749",
+          "url": "https://www.gate.com/zh/announcements/article/101621",
           "dates": [
             "2026-09-08"
           ]
@@ -984,46 +1001,6 @@
     "mexc": {
       "listings": [
         {
-          "token": "ALNY",
-          "type": "上线",
-          "detail": "ALNY（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
-          "dates": [
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "BUILD",
-          "type": "上线",
-          "detail": "BUILD（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
-          "dates": [
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "CEG",
-          "type": "上线",
-          "detail": "CEG（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
-          "dates": [
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "CIFR",
-          "type": "上线",
-          "detail": "CIFR（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
-          "dates": [
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
           "token": "BUILD",
           "type": "跟单合约",
           "detail": "BUILD（同公告含 5 个标的）",
@@ -1074,6 +1051,24 @@
           ]
         },
         {
+          "token": "FRONG",
+          "type": "现货上线",
+          "detail": "首發上線&#xff1a;MEXC 合約創新區將於 2026年9月10日 23:00 (UTC&#43;8) 上線 FRONGUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538451",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年9月10日 23:00 (UTC&#43;8) 上線 JUGGERNAUTUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-juggernautusdt-futures-on-sep-10-2026-15-17827791538450",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
           "token": "MCAT",
           "type": "现货上线",
           "detail": "首發上線&#xff1a;MEXC 合約創新區將於 2026年9月10日 20:10 (UTC&#43;8) 上線 MCATUSDT 合約",
@@ -1083,9 +1078,18 @@
           ]
         },
         {
+          "token": "FRONG",
+          "type": "上线",
+          "detail": "FRONG（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
           "token": "MCAT",
           "type": "上线",
-          "detail": "MCAT（同公告含 5 个标的）",
+          "detail": "MCAT（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
           "dates": [
             "2026-09-10"
@@ -1168,6 +1172,42 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538337",
           "dates": [
             "2026-09-08",
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "ALNY",
+          "type": "上线",
+          "detail": "ALNY（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
+          "dates": [
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "BUILD",
+          "type": "上线",
+          "detail": "BUILD（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
+          "dates": [
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "CEG",
+          "type": "上线",
+          "detail": "CEG（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
+          "dates": [
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "CIFR",
+          "type": "上线",
+          "detail": "CIFR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
+          "dates": [
             "2026-09-09"
           ]
         },
