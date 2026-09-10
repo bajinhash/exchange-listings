@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-11",
+  "updatedAt": "2026-09-10T16:51:37.270Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "NES",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NES - Nesa is the largest decentralized AI platform and ecosystem backed by a privacy-",
+          "url": "https://www.binance.com/en/alpha/bsc/0x097acf27503753e77bca940277806156c5925b81"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "FRONG",
+          "type": "跟单合约",
+          "detail": "FRONG（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101689"
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "跟单合约",
+          "detail": "JUGGERNAUT（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101689"
+        },
+        {
+          "token": "UPONLY",
+          "type": "现货上线",
+          "detail": "UPONLY（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101686"
+        },
+        {
+          "token": "FLORK",
+          "type": "现货上线",
+          "detail": "FLORK（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101686"
+        },
+        {
+          "token": "CANAL",
+          "type": "现货上线",
+          "detail": "CANAL（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101686"
+        },
+        {
+          "token": "MCAT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 MarsCat (MCAT) 现货交易与闪兑交易1 天前1,855",
+          "url": "https://www.gate.com/zh/announcements/article/101662"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rBAM 等 133 个",
+          "type": "现货上线",
+          "detail": "Bitget 关于上线 rBAM、rNSC、rTRP、rNWG、rMFC 等472只股票现货的公告（rBAM、rNSC、rTRP、rNWG、rMFC、rHONA、rDB、rTRGP… 共 133 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894817"
+        },
+        {
+          "token": "MCAT",
+          "type": "现货上线",
+          "detail": "MarsCat（MCAT）将上线 Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894777"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "FRONG",
+          "type": "现货上线",
+          "detail": "首發上線&#xff1a;MEXC 合約創新區將於 2026年9月10日 23:00 (UTC&#43;8) 上線 FRONGUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538451"
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年9月10日 23:00 (UTC&#43;8) 上線 JUGGERNAUTUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-juggernautusdt-futures-on-sep-10-2026-15-17827791538450"
+        },
+        {
+          "token": "MCAT",
+          "type": "现货上线",
+          "detail": "首發上線&#xff1a;MEXC 合約創新區將於 2026年9月10日 20:10 (UTC&#43;8) 上線 MCATUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538448"
+        },
+        {
+          "token": "FRONG",
+          "type": "上线",
+          "detail": "FRONG（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394"
+        },
+        {
+          "token": "MCAT",
+          "type": "上线",
+          "detail": "MCAT（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394"
+        },
+        {
+          "token": "BUILD",
+          "type": "跟单合约",
+          "detail": "BUILD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362"
+        },
+        {
+          "token": "CEG",
+          "type": "跟单合约",
+          "detail": "CEG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362"
+        },
+        {
+          "token": "CIFR",
+          "type": "跟单合约",
+          "detail": "CIFR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362"
+        },
+        {
+          "token": "ALNY",
+          "type": "跟单合约",
+          "detail": "ALNY（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362"
+        },
+        {
+          "token": "HPQ",
+          "type": "跟单合约",
+          "detail": "HPQ（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362"
+        }
+      ]
+    }
+  }
+}
