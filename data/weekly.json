@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-04",
   "weekEnd": "2026-09-10",
-  "updatedAt": "2026-09-09T17:03:42.396Z",
+  "updatedAt": "2026-09-10T14:29:05.112Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -93,13 +93,21 @@
       ],
       "alpha": [
         {
+          "token": "NES",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 NES - Nesa is the largest decentralized AI platform and ecosystem backed by a privacy-",
+          "url": "https://www.binance.com/en/alpha/bsc/0x097acf27503753e77bca940277806156c5925b81",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
           "token": "CRMB",
           "type": "上线",
           "detail": "Binance Alpha 上线 CRMB",
           "url": "https://www.binance.com/en/alpha/bsc/0x8c433eca1be0e2a357015602f63751c768f6f643",
           "dates": [
-            "2026-09-09",
-            "2026-09-10"
+            "2026-09-09"
           ]
         },
         {
@@ -108,8 +116,7 @@
           "detail": "Binance Alpha 上线 HIMSB",
           "url": "https://www.binance.com/en/alpha/bsc/0xee6f4bcc88c2c8583d5a65c7d0c877b464100711",
           "dates": [
-            "2026-09-09",
-            "2026-09-10"
+            "2026-09-09"
           ]
         },
         {
@@ -118,8 +125,7 @@
           "detail": "Binance Alpha 上线 MEME - 一个 Robinhood Chain 的 meme币",
           "url": "https://www.binance.com/en/alpha/4663/0x385f4f8ae47651ce5f58f5265395a669f8281e18",
           "dates": [
-            "2026-09-09",
-            "2026-09-10"
+            "2026-09-09"
           ]
         },
         {
@@ -128,8 +134,7 @@
           "detail": "Binance Alpha 上线 4Stock - 一个BNB Chain 的meme币",
           "url": "https://www.binance.com/en/alpha/bsc/0xd270d4e1ec6e6e0d28c0ecb8be966ec75997ffff",
           "dates": [
-            "2026-09-09",
-            "2026-09-10"
+            "2026-09-09"
           ]
         },
         {
@@ -182,6 +187,51 @@
     },
     "okx": {
       "listings": [
+        {
+          "token": "US500",
+          "type": "美股合约",
+          "detail": "US500（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-us500-us100-and-xom-equities",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "US100",
+          "type": "美股合约",
+          "detail": "US100（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-us500-us100-and-xom-equities",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "XOM",
+          "type": "美股合约",
+          "detail": "XOM（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-us500-us100-and-xom-equities",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "ATOM",
+          "type": "永续合约",
+          "detail": "OKX 關於 ATOMUSD（X-Perp）正式上線的公告發佈於 2026年9月10日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-atomusd-x-perp",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "OL",
+          "type": "永续合约",
+          "detail": "OKX 關於 OLUSD（X-Perp）正式上線的公告發佈於 2026年9月10日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-olusd-x-perp",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
         {
           "token": "USELESSUSD",
           "type": "永续合约",
@@ -304,6 +354,33 @@
     "bybit": {
       "listings": [
         {
+          "token": "FORMSTOCK",
+          "type": "永续合约",
+          "detail": "全新上線：FORMSTOCKUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-formstockusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art93adbfcdc60e/",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "CGNX",
+          "type": "永续合约",
+          "detail": "全新上線：CGNXUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cgnxusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artc90ab2ab1cb2/",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "BTDR",
+          "type": "永续合约",
+          "detail": "全新上線：BTDRUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-btdrusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art527a866f714b/",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
           "token": "EURUSD",
           "type": "永续合约",
           "detail": "全新上線：EURUSDUSDT TradFi 永續合約，支持最高 100 倍槓桿",
@@ -415,16 +492,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "MCAT",
-          "type": "现货上线",
-          "detail": "Gate 将上线 MarsCat (MCAT) 现货交易与闪兑交易39 分钟前232",
-          "url": "https://www.gate.com/zh/announcements/article/101662",
-          "dates": [
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
           "token": "LAPTOP",
           "type": "跟单合约",
           "detail": "Gate 合约 Meme 专区已上线 LAPTOP 合约交易、交易机器人、跟单功能2 小时前410",
@@ -435,13 +502,21 @@
           ]
         },
         {
+          "token": "MCAT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 MarsCat (MCAT) 现货交易与闪兑交易39 分钟前232",
+          "url": "https://www.gate.com/zh/announcements/article/101662",
+          "dates": [
+            "2026-09-09"
+          ]
+        },
+        {
           "token": "AMD",
           "type": "现货上线",
           "detail": "Gate 打金狗首发上线 AMD (Advanced Micro Dog)、Jacob (Be like Jacob)、BNC4 (Cea Industries)4 小时前364",
           "url": "https://www.gate.com/zh/announcements/article/101660",
           "dates": [
-            "2026-09-09",
-            "2026-09-10"
+            "2026-09-09"
           ]
         },
         {
@@ -722,6 +797,24 @@
           ]
         },
         {
+          "token": "rBAM 等 133 个",
+          "type": "现货上线",
+          "detail": "Bitget 关于上线 rBAM、rNSC、rTRP、rNWG、rMFC 等472只股票现货的公告（rBAM、rNSC、rTRP、rNWG、rMFC、rHONA、rDB、rTRGP… 共 133 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894817",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "MCAT",
+          "type": "现货上线",
+          "detail": "MarsCat（MCAT）将上线 Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894777",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
           "token": "BYD",
           "type": "美股合约",
           "detail": "Bitget 关于上线 BYDUSDT 热门股票永续合约的公告",
@@ -827,94 +920,6 @@
     "mexc": {
       "listings": [
         {
-          "token": "BUILD",
-          "type": "现货上线",
-          "detail": "首發上線&#xff1a;MEXC 合約創新區將於 2026年9月8日 21:50 (UTC&#43;8) 上線 BUILDUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538354",
-          "dates": [
-            "2026-09-08",
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "BENBSC",
-          "type": "跟单合约",
-          "detail": "BENBSC（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340",
-          "dates": [
-            "2026-09-08",
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "CNPY",
-          "type": "跟单合约",
-          "detail": "CNPY（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340",
-          "dates": [
-            "2026-09-08",
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "ZCAT",
-          "type": "跟单合约",
-          "detail": "ZCAT（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340",
-          "dates": [
-            "2026-09-08",
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "BREW",
-          "type": "跟单合约",
-          "detail": "BREW（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340",
-          "dates": [
-            "2026-09-08",
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "SOCK",
-          "type": "跟单合约",
-          "detail": "SOCK（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sock-cto-and-4stock-usdt-m-futures-17827791538339",
-          "dates": [
-            "2026-09-08",
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "CTO",
-          "type": "跟单合约",
-          "detail": "CTO（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sock-cto-and-4stock-usdt-m-futures-17827791538339",
-          "dates": [
-            "2026-09-08",
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "CTO",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年9月8日 13:50 (UTC+8) 上線 CTOUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538337",
-          "dates": [
-            "2026-09-08",
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
           "token": "ALNY",
           "type": "上线",
           "detail": "ALNY（同公告含 4 个标的）",
@@ -955,42 +960,13 @@
           ]
         },
         {
-          "token": "ALNY",
-          "type": "现货上线",
-          "detail": "ALNY（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538338",
-          "dates": [
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "CEG",
-          "type": "现货上线",
-          "detail": "CEG（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538338",
-          "dates": [
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "CIFR",
-          "type": "现货上线",
-          "detail": "CIFR（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538338",
-          "dates": [
-            "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
           "token": "BUILD",
           "type": "跟单合约",
           "detail": "BUILD（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362",
           "dates": [
-            "2026-09-09"
+            "2026-09-09",
+            "2026-09-10"
           ]
         },
         {
@@ -999,7 +975,8 @@
           "detail": "CEG（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362",
           "dates": [
-            "2026-09-09"
+            "2026-09-09",
+            "2026-09-10"
           ]
         },
         {
@@ -1008,7 +985,8 @@
           "detail": "CIFR（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362",
           "dates": [
-            "2026-09-09"
+            "2026-09-09",
+            "2026-09-10"
           ]
         },
         {
@@ -1017,7 +995,8 @@
           "detail": "ALNY（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362",
           "dates": [
-            "2026-09-09"
+            "2026-09-09",
+            "2026-09-10"
           ]
         },
         {
@@ -1025,6 +1004,132 @@
           "type": "跟单合约",
           "detail": "HPQ（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362",
+          "dates": [
+            "2026-09-09",
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "MCAT",
+          "type": "现货上线",
+          "detail": "首發上線&#xff1a;MEXC 合約創新區將於 2026年9月10日 20:10 (UTC&#43;8) 上線 MCATUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538448",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "MCAT",
+          "type": "上线",
+          "detail": "MCAT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
+          "dates": [
+            "2026-09-10"
+          ]
+        },
+        {
+          "token": "BUILD",
+          "type": "现货上线",
+          "detail": "首發上線&#xff1a;MEXC 合約創新區將於 2026年9月8日 21:50 (UTC&#43;8) 上線 BUILDUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538354",
+          "dates": [
+            "2026-09-08",
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "BENBSC",
+          "type": "跟单合约",
+          "detail": "BENBSC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340",
+          "dates": [
+            "2026-09-08",
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "CNPY",
+          "type": "跟单合约",
+          "detail": "CNPY（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340",
+          "dates": [
+            "2026-09-08",
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "ZCAT",
+          "type": "跟单合约",
+          "detail": "ZCAT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340",
+          "dates": [
+            "2026-09-08",
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "BREW",
+          "type": "跟单合约",
+          "detail": "BREW（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340",
+          "dates": [
+            "2026-09-08",
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "SOCK",
+          "type": "跟单合约",
+          "detail": "SOCK（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sock-cto-and-4stock-usdt-m-futures-17827791538339",
+          "dates": [
+            "2026-09-08",
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "CTO",
+          "type": "跟单合约",
+          "detail": "CTO（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sock-cto-and-4stock-usdt-m-futures-17827791538339",
+          "dates": [
+            "2026-09-08",
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "CTO",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月8日 13:50 (UTC+8) 上線 CTOUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538337",
+          "dates": [
+            "2026-09-08",
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "ALNY",
+          "type": "现货上线",
+          "detail": "ALNY（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538338",
+          "dates": [
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "CEG",
+          "type": "现货上线",
+          "detail": "CEG（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538338",
+          "dates": [
+            "2026-09-09"
+          ]
+        },
+        {
+          "token": "CIFR",
+          "type": "现货上线",
+          "detail": "CIFR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538338",
           "dates": [
             "2026-09-09"
           ]
