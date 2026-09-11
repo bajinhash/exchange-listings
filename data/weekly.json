@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-05",
   "weekEnd": "2026-09-11",
-  "updatedAt": "2026-09-11T14:38:24.667Z",
+  "updatedAt": "2026-09-11T15:23:33.123Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -418,84 +418,22 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "大宗商品 CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前749",
-          "url": "https://www.gate.com/zh/announcements/article/101621",
-          "dates": [
-            "2026-09-08",
-            "2026-09-11"
-          ]
-        },
-        {
-          "token": "EMBER",
+          "token": "FRONG",
           "type": "跟单合约",
-          "detail": "Gate 已上线 EMBER 合约交易、交易机器人、跟单功能44 分钟前231",
-          "url": "https://www.gate.com/zh/announcements/article/101710",
+          "detail": "FRONG（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101689",
           "dates": [
+            "2026-09-10",
             "2026-09-11"
           ]
         },
         {
-          "token": "XRP",
-          "type": "上线",
-          "detail": "XRP 动能激励：多重任务有奖，赢取 39,000 XRP7 小时前903",
-          "url": "https://www.gate.com/zh/announcements/article/101702",
-          "dates": [
-            "2026-09-11"
-          ]
-        },
-        {
-          "token": "KNOTS",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 KNOTS (KNOTS)8 小时前615",
-          "url": "https://www.gate.com/zh/announcements/article/101700",
-          "dates": [
-            "2026-09-11"
-          ]
-        },
-        {
-          "token": "FLYBRAIN",
+          "token": "JUGGERNAUT",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 FLYBRAIN 合约交易、交易机器人、跟单功能9 小时前944",
-          "url": "https://www.gate.com/zh/announcements/article/101699",
+          "detail": "JUGGERNAUT（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101689",
           "dates": [
-            "2026-09-11"
-          ]
-        },
-        {
-          "token": "NXXT",
-          "type": "上线",
-          "detail": "Gate 关于 NXXT 股票合股进行相关调整的公告10 小时前622",
-          "url": "https://www.gate.com/zh/announcements/article/101696",
-          "dates": [
-            "2026-09-11"
-          ]
-        },
-        {
-          "token": "GILD",
-          "type": "永续合约",
-          "detail": "GILD（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101695",
-          "dates": [
-            "2026-09-11"
-          ]
-        },
-        {
-          "token": "STRC",
-          "type": "永续合约",
-          "detail": "STRC（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101695",
-          "dates": [
-            "2026-09-11"
-          ]
-        },
-        {
-          "token": "KO",
-          "type": "永续合约",
-          "detail": "KO（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101695",
-          "dates": [
+            "2026-09-10",
             "2026-09-11"
           ]
         },
@@ -506,24 +444,6 @@
           "url": "https://www.gate.com/zh/announcements/article/101662",
           "dates": [
             "2026-09-09",
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "FRONG",
-          "type": "跟单合约",
-          "detail": "FRONG（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101689",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "JUGGERNAUT",
-          "type": "跟单合约",
-          "detail": "JUGGERNAUT（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101689",
-          "dates": [
             "2026-09-10"
           ]
         },
@@ -676,6 +596,15 @@
           "type": "现货上线",
           "detail": "Gate 打金狗首发上线 4Stock (4Stock)、FATPANDA (Fat Panda)、build (build)7 小时前589",
           "url": "https://www.gate.com/zh/announcements/article/101622",
+          "dates": [
+            "2026-09-08"
+          ]
+        },
+        {
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "大宗商品 CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前749",
+          "url": "https://www.gate.com/zh/announcements/article/101621",
           "dates": [
             "2026-09-08"
           ]

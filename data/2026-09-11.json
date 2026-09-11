@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T14:38:24.504Z",
+  "updatedAt": "2026-09-11T15:23:32.948Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -57,58 +57,16 @@
     "gateio": {
       "listings": [
         {
-          "token": "EMBER",
+          "token": "FRONG",
           "type": "跟单合约",
-          "detail": "Gate 已上线 EMBER 合约交易、交易机器人、跟单功能44 分钟前231",
-          "url": "https://www.gate.com/zh/announcements/article/101710"
+          "detail": "FRONG（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101689"
         },
         {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "股票定投福利：最高领 1,000 USDT7 小时前787",
-          "url": "https://www.gate.com/zh/announcements/article/101703"
-        },
-        {
-          "token": "XRP",
-          "type": "上线",
-          "detail": "XRP 动能激励：多重任务有奖，赢取 39,000 XRP7 小时前903",
-          "url": "https://www.gate.com/zh/announcements/article/101702"
-        },
-        {
-          "token": "KNOTS",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 KNOTS (KNOTS)8 小时前615",
-          "url": "https://www.gate.com/zh/announcements/article/101700"
-        },
-        {
-          "token": "FLYBRAIN",
+          "token": "JUGGERNAUT",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 FLYBRAIN 合约交易、交易机器人、跟单功能9 小时前944",
-          "url": "https://www.gate.com/zh/announcements/article/101699"
-        },
-        {
-          "token": "NXXT",
-          "type": "上线",
-          "detail": "Gate 关于 NXXT 股票合股进行相关调整的公告10 小时前622",
-          "url": "https://www.gate.com/zh/announcements/article/101696"
-        },
-        {
-          "token": "GILD",
-          "type": "永续合约",
-          "detail": "GILD（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101695"
-        },
-        {
-          "token": "STRC",
-          "type": "永续合约",
-          "detail": "STRC（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101695"
-        },
-        {
-          "token": "KO",
-          "type": "永续合约",
-          "detail": "KO（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101695"
+          "detail": "JUGGERNAUT（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101689"
         }
       ]
     },
