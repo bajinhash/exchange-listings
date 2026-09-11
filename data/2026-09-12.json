@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-12",
+  "updatedAt": "2026-09-11T16:55:45.717Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "EMBER",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 EMBER 合约交易、交易机器人、跟单功能3 小时前500",
+          "url": "https://www.gate.com/zh/announcements/article/101710"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "FRONG",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月10日 23:00 (UTC+8) 上線 FRONGUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538451"
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年9月10日 23:00 (UTC+8) 上線 JUGGERNAUTUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-juggernautusdt-futures-on-sep-10-2026-15-17827791538450"
+        }
+      ]
+    }
+  }
+}
