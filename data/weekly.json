@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-05",
   "weekEnd": "2026-09-11",
-  "updatedAt": "2026-09-11T14:29:17.699Z",
+  "updatedAt": "2026-09-11T14:38:24.667Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -418,19 +418,20 @@
     "gateio": {
       "listings": [
         {
-          "token": "EMBER",
-          "type": "跟单合约",
-          "detail": "Gate 已上线 EMBER 合约交易、交易机器人、跟单功能35 分钟前199",
-          "url": "https://www.gate.com/zh/announcements/article/101710",
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "大宗商品 CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前749",
+          "url": "https://www.gate.com/zh/announcements/article/101621",
           "dates": [
+            "2026-09-08",
             "2026-09-11"
           ]
         },
         {
-          "token": "USDT6",
-          "type": "上线",
-          "detail": "股票定投福利：最高领 1,000 USDT6 小时前771",
-          "url": "https://www.gate.com/zh/announcements/article/101703",
+          "token": "EMBER",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 EMBER 合约交易、交易机器人、跟单功能44 分钟前231",
+          "url": "https://www.gate.com/zh/announcements/article/101710",
           "dates": [
             "2026-09-11"
           ]
@@ -438,7 +439,7 @@
         {
           "token": "XRP",
           "type": "上线",
-          "detail": "XRP 动能激励：多重任务有奖，赢取 39,000 XRP7 小时前888",
+          "detail": "XRP 动能激励：多重任务有奖，赢取 39,000 XRP7 小时前903",
           "url": "https://www.gate.com/zh/announcements/article/101702",
           "dates": [
             "2026-09-11"
@@ -447,7 +448,7 @@
         {
           "token": "KNOTS",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 KNOTS (KNOTS)8 小时前603",
+          "detail": "Gate 打金狗首发上线 KNOTS (KNOTS)8 小时前615",
           "url": "https://www.gate.com/zh/announcements/article/101700",
           "dates": [
             "2026-09-11"
@@ -456,7 +457,7 @@
         {
           "token": "FLYBRAIN",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 FLYBRAIN 合约交易、交易机器人、跟单功能9 小时前927",
+          "detail": "Gate 合约 HOOD 专区已上线 FLYBRAIN 合约交易、交易机器人、跟单功能9 小时前944",
           "url": "https://www.gate.com/zh/announcements/article/101699",
           "dates": [
             "2026-09-11"
@@ -465,7 +466,7 @@
         {
           "token": "NXXT",
           "type": "上线",
-          "detail": "Gate 关于 NXXT 股票合股进行相关调整的公告10 小时前617",
+          "detail": "Gate 关于 NXXT 股票合股进行相关调整的公告10 小时前622",
           "url": "https://www.gate.com/zh/announcements/article/101696",
           "dates": [
             "2026-09-11"
@@ -675,15 +676,6 @@
           "type": "现货上线",
           "detail": "Gate 打金狗首发上线 4Stock (4Stock)、FATPANDA (Fat Panda)、build (build)7 小时前589",
           "url": "https://www.gate.com/zh/announcements/article/101622",
-          "dates": [
-            "2026-09-08"
-          ]
-        },
-        {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "大宗商品 CFD 交易派对：入场领 20 USDx，交易再赢 6,000 USDT7 小时前749",
-          "url": "https://www.gate.com/zh/announcements/article/101621",
           "dates": [
             "2026-09-08"
           ]
