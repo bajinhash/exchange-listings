@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-12T13:42:04.826Z",
+  "updatedAt": "2026-09-12T13:51:07.695Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -24,62 +24,7 @@
       "listings": []
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "EMBER",
-          "type": "跟单合约",
-          "detail": "Gate 已上线 EMBER 合约交易、交易机器人、跟单功能1 天前2,008",
-          "url": "https://www.gate.com/zh/announcements/article/101710"
-        },
-        {
-          "token": "USDT1",
-          "type": "上线",
-          "detail": "股票定投福利：最高领 1,000 USDT1 天前1,957",
-          "url": "https://www.gate.com/zh/announcements/article/101703"
-        },
-        {
-          "token": "XRP",
-          "type": "上线",
-          "detail": "XRP 动能激励：多重任务有奖，赢取 39,000 XRP1 天前1,958",
-          "url": "https://www.gate.com/zh/announcements/article/101702"
-        },
-        {
-          "token": "KNOTS",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 KNOTS (KNOTS)1 天前1,384",
-          "url": "https://www.gate.com/zh/announcements/article/101700"
-        },
-        {
-          "token": "FLYBRAIN",
-          "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 FLYBRAIN 合约交易、交易机器人、跟单功能1 天前2,081",
-          "url": "https://www.gate.com/zh/announcements/article/101699"
-        },
-        {
-          "token": "NXXT",
-          "type": "上线",
-          "detail": "Gate 关于 NXXT 股票合股进行相关调整的公告1 天前1,200",
-          "url": "https://www.gate.com/zh/announcements/article/101696"
-        },
-        {
-          "token": "GILD",
-          "type": "永续合约",
-          "detail": "GILD（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101695"
-        },
-        {
-          "token": "STRC",
-          "type": "永续合约",
-          "detail": "STRC（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101695"
-        },
-        {
-          "token": "KO",
-          "type": "永续合约",
-          "detail": "KO（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101695"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": []
