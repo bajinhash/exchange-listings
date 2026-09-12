@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-11T16:55:45.717Z",
+  "updatedAt": "2026-09-12T13:42:04.826Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -8,7 +8,14 @@
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "FLOCK",
+          "type": "永续合约",
+          "detail": "OKX 關於 FLOCK 永續合約正式上線的公告發佈於 2026年9月12日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-flock-crypto"
+        }
+      ]
     },
     "bybit": {
       "listings": []
@@ -21,8 +28,56 @@
         {
           "token": "EMBER",
           "type": "跟单合约",
-          "detail": "Gate 已上线 EMBER 合约交易、交易机器人、跟单功能3 小时前500",
+          "detail": "Gate 已上线 EMBER 合约交易、交易机器人、跟单功能1 天前2,008",
           "url": "https://www.gate.com/zh/announcements/article/101710"
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "股票定投福利：最高领 1,000 USDT1 天前1,957",
+          "url": "https://www.gate.com/zh/announcements/article/101703"
+        },
+        {
+          "token": "XRP",
+          "type": "上线",
+          "detail": "XRP 动能激励：多重任务有奖，赢取 39,000 XRP1 天前1,958",
+          "url": "https://www.gate.com/zh/announcements/article/101702"
+        },
+        {
+          "token": "KNOTS",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 KNOTS (KNOTS)1 天前1,384",
+          "url": "https://www.gate.com/zh/announcements/article/101700"
+        },
+        {
+          "token": "FLYBRAIN",
+          "type": "跟单合约",
+          "detail": "Gate 合约 HOOD 专区已上线 FLYBRAIN 合约交易、交易机器人、跟单功能1 天前2,081",
+          "url": "https://www.gate.com/zh/announcements/article/101699"
+        },
+        {
+          "token": "NXXT",
+          "type": "上线",
+          "detail": "Gate 关于 NXXT 股票合股进行相关调整的公告1 天前1,200",
+          "url": "https://www.gate.com/zh/announcements/article/101696"
+        },
+        {
+          "token": "GILD",
+          "type": "永续合约",
+          "detail": "GILD（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101695"
+        },
+        {
+          "token": "STRC",
+          "type": "永续合约",
+          "detail": "STRC（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101695"
+        },
+        {
+          "token": "KO",
+          "type": "永续合约",
+          "detail": "KO（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101695"
         }
       ]
     },
@@ -32,16 +87,64 @@
     "mexc": {
       "listings": [
         {
-          "token": "FRONG",
+          "token": "CME",
+          "type": "上线",
+          "detail": "CME 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-cme-to-innovation-zone-17827791538521"
+        },
+        {
+          "token": "FLYBRAIN",
+          "type": "上线",
+          "detail": "FLYBRAIN 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-flybrain-to-innovation-zone-17827791538520"
+        },
+        {
+          "token": "EMBER",
+          "type": "Meme+ 现货",
+          "detail": "EMBER 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538519"
+        },
+        {
+          "token": "FLYBRAIN",
+          "type": "跟单合约",
+          "detail": "FLYBRAIN（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-flybrain-and-cme-usdt-m-futures-17827791538492"
+        },
+        {
+          "token": "CME",
+          "type": "跟单合约",
+          "detail": "CME（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-flybrain-and-cme-usdt-m-futures-17827791538492"
+        },
+        {
+          "token": "CME",
           "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年9月10日 23:00 (UTC+8) 上線 FRONGUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538451"
+          "detail": "MEXC 合約創新區將於 2026年9月11日 14:30 (UTC+8) 上線 CMEUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538483"
+        },
+        {
+          "token": "FLYBRAIN",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月11日 14:30 (UTC+8) 上線 FLYBRAINUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538482"
         },
         {
           "token": "JUGGERNAUT",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年9月10日 23:00 (UTC+8) 上線 JUGGERNAUTUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-juggernautusdt-futures-on-sep-10-2026-15-17827791538450"
+          "type": "跟单合约",
+          "detail": "JUGGERNAUT（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-juggernaut-frong-and-mcat-usdt-m-futures-17827791538481"
+        },
+        {
+          "token": "FRONG",
+          "type": "跟单合约",
+          "detail": "FRONG（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-juggernaut-frong-and-mcat-usdt-m-futures-17827791538481"
+        },
+        {
+          "token": "MCAT",
+          "type": "跟单合约",
+          "detail": "MCAT（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-juggernaut-frong-and-mcat-usdt-m-futures-17827791538481"
         }
       ]
     }
