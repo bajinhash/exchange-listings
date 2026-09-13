@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-07",
   "weekEnd": "2026-09-13",
-  "updatedAt": "2026-09-12T17:09:52.547Z",
+  "updatedAt": "2026-09-13T14:25:38.807Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -373,13 +373,21 @@
     "gateio": {
       "listings": [
         {
+          "token": "FOLD",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Interfold (FOLD) 现货交易与闪兑交易8 小时前1,826",
+          "url": "https://www.gate.com/zh/announcements/article/101711",
+          "dates": [
+            "2026-09-13"
+          ]
+        },
+        {
           "token": "EMBER",
           "type": "跟单合约",
           "detail": "Gate 已上线 EMBER 合约交易、交易机器人、跟单功能1 天前2,069",
           "url": "https://www.gate.com/zh/announcements/article/101710",
           "dates": [
-            "2026-09-12",
-            "2026-09-13"
+            "2026-09-12"
           ]
         },
         {
@@ -388,8 +396,7 @@
           "detail": "股票定投福利：最高领 1,000 USDT1 天前1,995",
           "url": "https://www.gate.com/zh/announcements/article/101703",
           "dates": [
-            "2026-09-12",
-            "2026-09-13"
+            "2026-09-12"
           ]
         },
         {
@@ -398,8 +405,7 @@
           "detail": "XRP 动能激励：多重任务有奖，赢取 39,000 XRP1 天前1,998",
           "url": "https://www.gate.com/zh/announcements/article/101702",
           "dates": [
-            "2026-09-12",
-            "2026-09-13"
+            "2026-09-12"
           ]
         },
         {
@@ -408,8 +414,7 @@
           "detail": "Gate 打金狗首发上线 KNOTS (KNOTS)1 天前1,417",
           "url": "https://www.gate.com/zh/announcements/article/101700",
           "dates": [
-            "2026-09-12",
-            "2026-09-13"
+            "2026-09-12"
           ]
         },
         {
@@ -418,8 +423,7 @@
           "detail": "Gate 合约 HOOD 专区已上线 FLYBRAIN 合约交易、交易机器人、跟单功能1 天前2,119",
           "url": "https://www.gate.com/zh/announcements/article/101699",
           "dates": [
-            "2026-09-12",
-            "2026-09-13"
+            "2026-09-12"
           ]
         },
         {
@@ -828,14 +832,51 @@
     "mexc": {
       "listings": [
         {
+          "token": "CME",
+          "type": "上线",
+          "detail": "CME 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-cme-to-innovation-zone-17827791538521",
+          "dates": [
+            "2026-09-12",
+            "2026-09-13"
+          ]
+        },
+        {
+          "token": "FLYBRAIN",
+          "type": "上线",
+          "detail": "FLYBRAIN 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-flybrain-to-innovation-zone-17827791538520",
+          "dates": [
+            "2026-09-12",
+            "2026-09-13"
+          ]
+        },
+        {
+          "token": "EMBER",
+          "type": "上线",
+          "detail": "EMBER 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-ember-to-innovation-zone-17827791538534",
+          "dates": [
+            "2026-09-13"
+          ]
+        },
+        {
+          "token": "BATON",
+          "type": "Meme+ 现货",
+          "detail": "BATON 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538526",
+          "dates": [
+            "2026-09-13"
+          ]
+        },
+        {
           "token": "FLYBRAIN",
           "type": "跟单合约",
           "detail": "FLYBRAIN（同公告含 2 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-flybrain-and-cme-usdt-m-futures-17827791538492",
           "dates": [
             "2026-09-11",
-            "2026-09-12",
-            "2026-09-13"
+            "2026-09-12"
           ]
         },
         {
@@ -845,8 +886,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-flybrain-and-cme-usdt-m-futures-17827791538492",
           "dates": [
             "2026-09-11",
-            "2026-09-12",
-            "2026-09-13"
+            "2026-09-12"
           ]
         },
         {
@@ -856,8 +896,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538483",
           "dates": [
             "2026-09-11",
-            "2026-09-12",
-            "2026-09-13"
+            "2026-09-12"
           ]
         },
         {
@@ -867,8 +906,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538482",
           "dates": [
             "2026-09-11",
-            "2026-09-12",
-            "2026-09-13"
+            "2026-09-12"
           ]
         },
         {
@@ -878,8 +916,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-juggernaut-frong-and-mcat-usdt-m-futures-17827791538481",
           "dates": [
             "2026-09-11",
-            "2026-09-12",
-            "2026-09-13"
+            "2026-09-12"
           ]
         },
         {
@@ -889,8 +926,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-juggernaut-frong-and-mcat-usdt-m-futures-17827791538481",
           "dates": [
             "2026-09-11",
-            "2026-09-12",
-            "2026-09-13"
+            "2026-09-12"
           ]
         },
         {
@@ -900,25 +936,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-juggernaut-frong-and-mcat-usdt-m-futures-17827791538481",
           "dates": [
             "2026-09-11",
-            "2026-09-12",
-            "2026-09-13"
-          ]
-        },
-        {
-          "token": "CME",
-          "type": "上线",
-          "detail": "CME 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-cme-to-innovation-zone-17827791538521",
-          "dates": [
-            "2026-09-12"
-          ]
-        },
-        {
-          "token": "FLYBRAIN",
-          "type": "上线",
-          "detail": "FLYBRAIN 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-flybrain-to-innovation-zone-17827791538520",
-          "dates": [
             "2026-09-12"
           ]
         },
