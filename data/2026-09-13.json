@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T14:35:21.751Z",
+  "updatedAt": "2026-09-13T15:14:02.321Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,7 +21,7 @@
         {
           "token": "FOLD",
           "type": "现货上线",
-          "detail": "Gate 将上线 Interfold (FOLD) 现货交易与闪兑交易8 小时前1,849",
+          "detail": "Gate 将上线 Interfold (FOLD) 现货交易与闪兑交易9 小时前1,902",
           "url": "https://www.gate.com/zh/announcements/article/101711"
         }
       ]
