@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-14",
+  "updatedAt": "2026-09-13T16:48:40.914Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "EMBER",
+          "type": "上线",
+          "detail": "EMBER 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-ember-to-innovation-zone-17827791538534"
+        },
+        {
+          "token": "CME",
+          "type": "上线",
+          "detail": "CME 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-cme-to-innovation-zone-17827791538521"
+        },
+        {
+          "token": "FLYBRAIN",
+          "type": "上线",
+          "detail": "FLYBRAIN 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-flybrain-to-innovation-zone-17827791538520"
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-09-07",
-  "weekEnd": "2026-09-13",
-  "updatedAt": "2026-09-13T15:14:02.498Z",
+  "weekStart": "2026-09-08",
+  "weekEnd": "2026-09-14",
+  "updatedAt": "2026-09-13T16:48:41.086Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -671,15 +671,6 @@
           "dates": [
             "2026-09-08"
           ]
-        },
-        {
-          "token": "PAIR",
-          "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 PAIR 合约交易、交易机器人、跟单功能6 小时前792",
-          "url": "https://www.gate.com/zh/announcements/article/101572",
-          "dates": [
-            "2026-09-07"
-          ]
         }
       ]
     },
@@ -817,15 +808,6 @@
           "dates": [
             "2026-09-08"
           ]
-        },
-        {
-          "token": "BOT",
-          "type": "上线",
-          "detail": "哈基米USDT 现已上线合约交易和交易BOT",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894295",
-          "dates": [
-            "2026-09-07"
-          ]
         }
       ]
     },
@@ -838,7 +820,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-cme-to-innovation-zone-17827791538521",
           "dates": [
             "2026-09-12",
-            "2026-09-13"
+            "2026-09-13",
+            "2026-09-14"
           ]
         },
         {
@@ -848,7 +831,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-flybrain-to-innovation-zone-17827791538520",
           "dates": [
             "2026-09-12",
-            "2026-09-13"
+            "2026-09-13",
+            "2026-09-14"
           ]
         },
         {
@@ -857,7 +841,8 @@
           "detail": "EMBER 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-ember-to-innovation-zone-17827791538534",
           "dates": [
-            "2026-09-13"
+            "2026-09-13",
+            "2026-09-14"
           ]
         },
         {
@@ -1267,87 +1252,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538335",
           "dates": [
             "2026-09-08"
-          ]
-        },
-        {
-          "token": "PAIR",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年9月6日 23:30 (UTC+8) 上線 PAIRUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-pairusdt-futures-in-innovation-zone-on-sep-6-2026-15-17827791538274",
-          "dates": [
-            "2026-09-07"
-          ]
-        },
-        {
-          "token": "STONKEX",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年9月6日 23:30 (UTC+8) 上線 STONKEXUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538273",
-          "dates": [
-            "2026-09-07"
-          ]
-        },
-        {
-          "token": "ROBIN",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年9月6日 23:30 (UTC+8) 上線 ROBINUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538272",
-          "dates": [
-            "2026-09-07"
-          ]
-        },
-        {
-          "token": "STONK",
-          "type": "永续合约",
-          "detail": "MEXC 合約創新板塊將於 2026年9月6日 23:30 (UTC+8) 上線 STONKUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-stonkusdt-futures-in-innovation-zone-on-sep-6-2026-15-17827791538271",
-          "dates": [
-            "2026-09-07"
-          ]
-        },
-        {
-          "token": "PAIR",
-          "type": "上线",
-          "detail": "PAIR（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-哈基米usdt-futures-on-sep-6-2026-15-17827791538270",
-          "dates": [
-            "2026-09-07"
-          ]
-        },
-        {
-          "token": "ROBIN",
-          "type": "上线",
-          "detail": "ROBIN（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-哈基米usdt-futures-on-sep-6-2026-15-17827791538270",
-          "dates": [
-            "2026-09-07"
-          ]
-        },
-        {
-          "token": "STONK",
-          "type": "上线",
-          "detail": "STONK（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-哈基米usdt-futures-on-sep-6-2026-15-17827791538270",
-          "dates": [
-            "2026-09-07"
-          ]
-        },
-        {
-          "token": "STONKEX",
-          "type": "上线",
-          "detail": "STONKEX（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-哈基米usdt-futures-on-sep-6-2026-15-17827791538270",
-          "dates": [
-            "2026-09-07"
-          ]
-        },
-        {
-          "token": "PAIR",
-          "type": "Meme+ 现货",
-          "detail": "PAIR 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538269",
-          "dates": [
-            "2026-09-07"
           ]
         }
       ]
