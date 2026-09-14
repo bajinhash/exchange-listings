@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-09",
   "weekEnd": "2026-09-15",
-  "updatedAt": "2026-09-14T16:28:21.206Z",
+  "updatedAt": "2026-09-14T16:37:36.145Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -401,7 +401,7 @@
         {
           "token": "FAB",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 FAB (Fab)、TOOLS (RHTools)6 小时前536",
+          "detail": "Gate 打金狗首发上线 FAB (Fab)、TOOLS (RHTools)6 小时前542",
           "url": "https://www.gate.com/zh/announcements/article/101738",
           "dates": [
             "2026-09-15"
@@ -410,17 +410,8 @@
         {
           "token": "TSM",
           "type": "永续合约",
-          "detail": "Gate 关于 TSM 永续合约分红派息结算的公告6 小时前569",
+          "detail": "Gate 关于 TSM 永续合约分红派息结算的公告6 小时前574",
           "url": "https://www.gate.com/zh/announcements/article/101737",
-          "dates": [
-            "2026-09-15"
-          ]
-        },
-        {
-          "token": "USDT6",
-          "type": "上线",
-          "detail": "交易进阶站：交易赢最高 500 USDT6 小时前736",
-          "url": "https://www.gate.com/zh/announcements/article/101736",
           "dates": [
             "2026-09-15"
           ]
