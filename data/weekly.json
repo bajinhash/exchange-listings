@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-09",
   "weekEnd": "2026-09-15",
-  "updatedAt": "2026-09-14T17:12:33.316Z",
+  "updatedAt": "2026-09-14T18:22:04.010Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -371,12 +371,12 @@
     "gateio": {
       "listings": [
         {
-          "token": "FOLD",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Interfold (FOLD) 现货交易与闪兑交易9 小时前1,902",
-          "url": "https://www.gate.com/zh/announcements/article/101711",
+          "token": "USDT8",
+          "type": "上线",
+          "detail": "芯股福利加速档：交易闪迪、SK 海力士及美光科技合约，单人再赢 1,000 USDT8 小时前748",
+          "url": "https://www.gate.com/zh/announcements/article/101677",
           "dates": [
-            "2026-09-13",
+            "2026-09-10",
             "2026-09-15"
           ]
         },
@@ -401,7 +401,7 @@
         {
           "token": "FAB",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 FAB (Fab)、TOOLS (RHTools)6 小时前587",
+          "detail": "Gate 打金狗首发上线 FAB (Fab)、TOOLS (RHTools)8 小时前666",
           "url": "https://www.gate.com/zh/announcements/article/101738",
           "dates": [
             "2026-09-15"
@@ -410,17 +410,8 @@
         {
           "token": "TSM",
           "type": "永续合约",
-          "detail": "Gate 关于 TSM 永续合约分红派息结算的公告7 小时前611",
+          "detail": "Gate 关于 TSM 永续合约分红派息结算的公告8 小时前688",
           "url": "https://www.gate.com/zh/announcements/article/101737",
-          "dates": [
-            "2026-09-15"
-          ]
-        },
-        {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "交易进阶站：交易赢最高 500 USDT7 小时前776",
-          "url": "https://www.gate.com/zh/announcements/article/101736",
           "dates": [
             "2026-09-15"
           ]
@@ -428,10 +419,19 @@
         {
           "token": "STONK",
           "type": "现货上线",
-          "detail": "Gate 将上线 STONK (STONK) 现货交易与闪兑交易7 小时前1,030",
+          "detail": "Gate 将上线 STONK (STONK) 现货交易与闪兑交易8 小时前1,156",
           "url": "https://www.gate.com/zh/announcements/article/101733",
           "dates": [
             "2026-09-15"
+          ]
+        },
+        {
+          "token": "FOLD",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Interfold (FOLD) 现货交易与闪兑交易9 小时前1,902",
+          "url": "https://www.gate.com/zh/announcements/article/101711",
+          "dates": [
+            "2026-09-13"
           ]
         },
         {
@@ -586,15 +586,6 @@
           "type": "上线",
           "detail": "Gate 关于支持 NESA (NES) 合约置换的公告8 小时前573",
           "url": "https://www.gate.com/zh/announcements/article/101678",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "USDT8",
-          "type": "上线",
-          "detail": "芯股福利加速档：交易闪迪、SK 海力士及美光科技合约，单人再赢 1,000 USDT8 小时前748",
-          "url": "https://www.gate.com/zh/announcements/article/101677",
           "dates": [
             "2026-09-10"
           ]
