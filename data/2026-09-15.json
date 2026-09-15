@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T15:12:54.698Z",
+  "updatedAt": "2026-09-15T15:52:04.560Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -69,21 +69,21 @@
           "url": "https://www.gate.com/zh/announcements/article/101758"
         },
         {
-          "token": "USDT7",
+          "token": "USDT8",
           "type": "上线",
-          "detail": "原油 CFD 交易派对：入场领 20 USDx，交易最高得 7,200 USDT7 小时前756",
+          "detail": "原油 CFD 交易派对：入场领 20 USDx，交易最高得 7,200 USDT8 小时前805",
           "url": "https://www.gate.com/zh/announcements/article/101751"
         },
         {
           "token": "SOL",
           "type": "上线",
-          "detail": "600 SOL 空投：持仓交易，瓜分多重奖励7 小时前784",
+          "detail": "600 SOL 空投：持仓交易，瓜分多重奖励8 小时前832",
           "url": "https://www.gate.com/zh/announcements/article/101749"
         },
         {
           "token": "STANDARD",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 STANDARD 合约交易、交易机器人、跟单功能8 小时前891",
+          "detail": "Gate 合约 HOOD 专区已上线 STANDARD 合约交易、交易机器人、跟单功能9 小时前933",
           "url": "https://www.gate.com/zh/announcements/article/101747"
         },
         {
@@ -107,7 +107,7 @@
         {
           "token": "STONK",
           "type": "现货上线",
-          "detail": "Gate 将上线 STONK (STONK) 现货交易与闪兑交易1 天前2,400",
+          "detail": "Gate 将上线 STONK (STONK) 现货交易与闪兑交易1 天前2,430",
           "url": "https://www.gate.com/zh/announcements/article/101733"
         }
       ]

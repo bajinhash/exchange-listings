@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-09",
   "weekEnd": "2026-09-15",
-  "updatedAt": "2026-09-15T15:12:54.799Z",
+  "updatedAt": "2026-09-15T15:52:04.741Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -408,6 +408,16 @@
           ]
         },
         {
+          "token": "USDT8",
+          "type": "上线",
+          "detail": "芯股福利加速档：交易闪迪、SK 海力士及美光科技合约，单人再赢 1,000 USDT8 小时前748",
+          "url": "https://www.gate.com/zh/announcements/article/101677",
+          "dates": [
+            "2026-09-10",
+            "2026-09-15"
+          ]
+        },
+        {
           "token": "XRP",
           "type": "上线",
           "detail": "XRP 动能激励：多重任务有奖，赢取 39,000 XRP1 天前1,998",
@@ -445,18 +455,9 @@
           ]
         },
         {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "原油 CFD 交易派对：入场领 20 USDx，交易最高得 7,200 USDT7 小时前756",
-          "url": "https://www.gate.com/zh/announcements/article/101751",
-          "dates": [
-            "2026-09-15"
-          ]
-        },
-        {
           "token": "SOL",
           "type": "上线",
-          "detail": "600 SOL 空投：持仓交易，瓜分多重奖励7 小时前784",
+          "detail": "600 SOL 空投：持仓交易，瓜分多重奖励8 小时前832",
           "url": "https://www.gate.com/zh/announcements/article/101749",
           "dates": [
             "2026-09-15"
@@ -465,7 +466,7 @@
         {
           "token": "STANDARD",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 STANDARD 合约交易、交易机器人、跟单功能8 小时前891",
+          "detail": "Gate 合约 HOOD 专区已上线 STANDARD 合约交易、交易机器人、跟单功能9 小时前933",
           "url": "https://www.gate.com/zh/announcements/article/101747",
           "dates": [
             "2026-09-15"
@@ -483,7 +484,7 @@
         {
           "token": "STONK",
           "type": "现货上线",
-          "detail": "Gate 将上线 STONK (STONK) 现货交易与闪兑交易1 天前2,400",
+          "detail": "Gate 将上线 STONK (STONK) 现货交易与闪兑交易1 天前2,430",
           "url": "https://www.gate.com/zh/announcements/article/101733",
           "dates": [
             "2026-09-15"
@@ -632,15 +633,6 @@
           "type": "上线",
           "detail": "Gate 关于支持 NESA (NES) 合约置换的公告8 小时前573",
           "url": "https://www.gate.com/zh/announcements/article/101678",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "USDT8",
-          "type": "上线",
-          "detail": "芯股福利加速档：交易闪迪、SK 海力士及美光科技合约，单人再赢 1,000 USDT8 小时前748",
-          "url": "https://www.gate.com/zh/announcements/article/101677",
           "dates": [
             "2026-09-10"
           ]
