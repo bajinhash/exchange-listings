@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-16",
+  "updatedAt": "2026-09-15T17:27:52.382Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "HUHCAT",
+          "type": "现货上线",
+          "detail": "HUHCAT（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101758"
+        },
+        {
+          "token": "NECTAR",
+          "type": "现货上线",
+          "detail": "NECTAR（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101758"
+        },
+        {
+          "token": "BORT",
+          "type": "现货上线",
+          "detail": "BORT（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101758"
+        },
+        {
+          "token": "STONK",
+          "type": "现货上线",
+          "detail": "Gate 将上线 STONK (STONK) 现货交易与闪兑交易1 天前2,489",
+          "url": "https://www.gate.com/zh/announcements/article/101733"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CVXSTOCK",
+          "type": "美股合约",
+          "detail": "Bitget 关于上线 CVXSTOCKUSDT 热门股票永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895268"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ADI",
+          "type": "现货上线",
+          "detail": "ADI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-now-supports-united-states-dollar-usd-fiat-deposit-and-spot-trading-17827791538264"
+        },
+        {
+          "token": "BATON",
+          "type": "现货上线",
+          "detail": "BATON（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-now-supports-united-states-dollar-usd-fiat-deposit-and-spot-trading-17827791538264"
+        },
+        {
+          "token": "CLS",
+          "type": "现货上线",
+          "detail": "CLS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-now-supports-united-states-dollar-usd-fiat-deposit-and-spot-trading-17827791538264"
+        },
+        {
+          "token": "STANDARD",
+          "type": "现货上线",
+          "detail": "STANDARD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-now-supports-united-states-dollar-usd-fiat-deposit-and-spot-trading-17827791538264"
+        },
+        {
+          "token": "SWKS",
+          "type": "现货上线",
+          "detail": "SWKS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-now-supports-united-states-dollar-usd-fiat-deposit-and-spot-trading-17827791538264"
+        },
+        {
+          "token": "ADI",
+          "type": "美股合约",
+          "detail": "ADI（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-adi-cls-swks-u-and-pwr-stock-futures-with-0-fee-trading-on-sep-14-17827791538564"
+        },
+        {
+          "token": "CLS",
+          "type": "美股合约",
+          "detail": "CLS（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-adi-cls-swks-u-and-pwr-stock-futures-with-0-fee-trading-on-sep-14-17827791538564"
+        },
+        {
+          "token": "SWKS",
+          "type": "美股合约",
+          "detail": "SWKS（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-adi-cls-swks-u-and-pwr-stock-futures-with-0-fee-trading-on-sep-14-17827791538564"
+        }
+      ]
+    }
+  }
+}
