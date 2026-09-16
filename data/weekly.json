@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-10",
   "weekEnd": "2026-09-16",
-  "updatedAt": "2026-09-16T15:01:12.301Z",
+  "updatedAt": "2026-09-16T15:10:41.432Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -441,7 +441,7 @@
         {
           "token": "ALLINU",
           "type": "跟单合约",
-          "detail": "Gate 合约 Meme 专区已上线 ALLINU 合约交易、交易机器人、跟单功能3 小时前440",
+          "detail": "Gate 合约 Meme 专区已上线 ALLINU 合约交易、交易机器人、跟单功能3 小时前464",
           "url": "https://www.gate.com/zh/announcements/article/101785",
           "dates": [
             "2026-09-16"
@@ -468,7 +468,7 @@
         {
           "token": "BONER",
           "type": "现货上线",
-          "detail": "Gate 将上线 Boner Coin (BONER) 现货交易与闪兑交易3 小时前477",
+          "detail": "Gate 将上线 Boner Coin (BONER) 现货交易与闪兑交易4 小时前491",
           "url": "https://www.gate.com/zh/announcements/article/101783",
           "dates": [
             "2026-09-16"
@@ -477,7 +477,7 @@
         {
           "token": "ZCAT",
           "type": "现货上线",
-          "detail": "Gate 将上线 Anonymous Cat (ZCAT) 现货交易与闪兑交易3 小时前460",
+          "detail": "Gate 将上线 Anonymous Cat (ZCAT) 现货交易与闪兑交易4 小时前473",
           "url": "https://www.gate.com/zh/announcements/article/101782",
           "dates": [
             "2026-09-16"
@@ -486,7 +486,7 @@
         {
           "token": "XRP4",
           "type": "上线",
-          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 XRP4 小时前516",
+          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 XRP4 小时前538",
           "url": "https://www.gate.com/zh/announcements/article/101781",
           "dates": [
             "2026-09-16"
@@ -495,7 +495,7 @@
         {
           "token": "LONG",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 ARGUS (Argus)、TOLLY (Tolly)、LONG (LONG)、Architects (Architects)、C...4 小时前347",
+          "detail": "Gate 打金狗首发上线 ARGUS (Argus)、TOLLY (Tolly)、LONG (LONG)、Architects (Architects)、C...4 小时前371",
           "url": "https://www.gate.com/zh/announcements/article/101780",
           "dates": [
             "2026-09-16"
@@ -504,7 +504,7 @@
         {
           "token": "USDT7",
           "type": "上线",
-          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT7 小时前795",
+          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT7 小时前807",
           "url": "https://www.gate.com/zh/announcements/article/101772",
           "dates": [
             "2026-09-16"
@@ -513,7 +513,7 @@
         {
           "token": "ARC",
           "type": "上线",
-          "detail": "Gate 已开通 USDCoin (USDC) 代币 ARC 主网充值提现7 小时前439",
+          "detail": "Gate 已开通 USDCoin (USDC) 代币 ARC 主网充值提现7 小时前449",
           "url": "https://www.gate.com/zh/announcements/article/101771",
           "dates": [
             "2026-09-16"
