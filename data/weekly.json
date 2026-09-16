@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-09-10",
-  "weekEnd": "2026-09-16",
-  "updatedAt": "2026-09-16T15:43:02.043Z",
+  "weekStart": "2026-09-11",
+  "weekEnd": "2026-09-17",
+  "updatedAt": "2026-09-16T17:27:13.118Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -31,24 +31,6 @@
           "dates": [
             "2026-09-16"
           ]
-        },
-        {
-          "token": "BTC",
-          "type": "杠杆上线",
-          "detail": "BTC（同公告含 2 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/39fe3154675948fbb164b1e63e036629",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "VISA",
-          "type": "杠杆上线",
-          "detail": "VISA（同公告含 2 个标的）",
-          "url": "https://www.binance.com/en/support/announcement/39fe3154675948fbb164b1e63e036629",
-          "dates": [
-            "2026-09-10"
-          ]
         }
       ],
       "alpha": [
@@ -58,7 +40,8 @@
           "detail": "Binance Alpha 上线 RDDTB",
           "url": "https://www.binance.com/en/alpha/bsc/0x41622a9125a22767df8c1dc79fc17299bac4bd0b",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -67,7 +50,8 @@
           "detail": "Binance Alpha 上线 GPROB",
           "url": "https://www.binance.com/en/alpha/bsc/0x1ecfda023c46ca216b5c620ef357a6d0c03951e6",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -76,16 +60,8 @@
           "detail": "Binance Alpha 上线 DGAI - DGrid AI是一个去中心化的AI智能网络，致力于构建一个开放、透明、由社区驱动的去中心化AI网络.",
           "url": "https://www.binance.com/en/alpha/bsc/0x10d4183389e99233db3cc981c43443ebd28ebd5e",
           "dates": [
-            "2026-09-16"
-          ]
-        },
-        {
-          "token": "NES",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 NES - Nesa is the largest decentralized AI platform and ecosystem backed by a privacy-",
-          "url": "https://www.binance.com/en/alpha/bsc/0x097acf27503753e77bca940277806156c5925b81",
-          "dates": [
-            "2026-09-10"
+            "2026-09-16",
+            "2026-09-17"
           ]
         }
       ],
@@ -245,51 +221,6 @@
           "dates": [
             "2026-09-11"
           ]
-        },
-        {
-          "token": "US500",
-          "type": "美股合约",
-          "detail": "US500（同公告含 3 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-us500-us100-and-xom-equities",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "US100",
-          "type": "美股合约",
-          "detail": "US100（同公告含 3 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-us500-us100-and-xom-equities",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "XOM",
-          "type": "美股合约",
-          "detail": "XOM（同公告含 3 个标的）",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-us500-us100-and-xom-equities",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "ATOM",
-          "type": "永续合约",
-          "detail": "OKX 關於 ATOMUSD（X-Perp）正式上線的公告發佈於 2026年9月10日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-atomusd-x-perp",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "OL",
-          "type": "永续合约",
-          "detail": "OKX 關於 OLUSD（X-Perp）正式上線的公告發佈於 2026年9月10日",
-          "url": "https://www.okx.com/zh-hant/help/okx-to-list-olusd-x-perp",
-          "dates": [
-            "2026-09-10"
-          ]
         }
       ]
     },
@@ -301,7 +232,8 @@
           "detail": "新幣上線：2026 年 9 月 16 日11:30 UTC 將上線 MSFUUSDT 之 Bybit TradFi 永續合約",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-msfuusdt-on-bybit-tradfi-perpetual-on-sep-16-2026-11-30am-utc--arte81bdfd89fc8/",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -310,7 +242,8 @@
           "detail": "新幣上線：2026 年 9 月 16 日11:30 UTC 將上線 CONLUSDT 之 Bybit TradFi 永續合約",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-conlusdt-on-bybit-tradfi-perpetual-on-sep-16-2026-11-30am-utc--arte89a4819df26/",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -319,7 +252,8 @@
           "detail": "新幣上線：2026 年 9 月 16 日11:30 UTC 將上線 IBITUSDT 之 Bybit TradFi 永續合約",
           "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-ibitusdt-on-bybit-tradfi-perpetual-on-sep-16-2026-11-30am-utc--art0557e92de728/",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -348,33 +282,6 @@
           "dates": [
             "2026-09-11"
           ]
-        },
-        {
-          "token": "FORMSTOCK",
-          "type": "永续合约",
-          "detail": "全新上線：FORMSTOCKUSDT TradFi 永續合約，支持最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-formstockusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art93adbfcdc60e/",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "CGNX",
-          "type": "永续合约",
-          "detail": "全新上線：CGNXUSDT TradFi 永續合約，支持最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cgnxusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artc90ab2ab1cb2/",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "BTDR",
-          "type": "永续合约",
-          "detail": "全新上線：BTDRUSDT TradFi 永續合約，支持最高 25 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-btdrusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art527a866f714b/",
-          "dates": [
-            "2026-09-10"
-          ]
         }
       ]
     },
@@ -386,7 +293,8 @@
           "detail": "World Premiere: MAGNE.AI (MHA) Listed on KuCoinTrading: 12:00 on September 17, 2026 (UTC)",
           "url": "https://www.kucoin.com/announcement/en-world-premiere-magne-ai-mha-listed-on-kucoin",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -395,7 +303,8 @@
           "detail": "World Premiere: TINA (TINA) Listed on KuCoinTrading: 10:00 on September 17, 2026 (UTC)",
           "url": "https://www.kucoin.com/announcement/en-world-premiere-tina-tina-listed-on-kucoin",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -415,24 +324,6 @@
           "dates": [
             "2026-09-15"
           ]
-        },
-        {
-          "token": "MCAT",
-          "type": "现货上线",
-          "detail": "World Premiere: MarsCat (MCAT) Listed on KuCoinTrading: 12:00 on September 10, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-marscat-mcat-listed-on-kucoin",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "LAPTOP",
-          "type": "现货上线",
-          "detail": "World Premiere: Hunter Biden's Laptop (LAPTOP) Listed on KuCoin",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-hunter-biden-s-laptop-laptop-listed-on-kucoin-0909",
-          "dates": [
-            "2026-09-10"
-          ]
         }
       ]
     },
@@ -444,7 +335,8 @@
           "detail": "Gate 合约 Meme 专区已上线 ALLINU 合约交易、交易机器人、跟单功能3 小时前529",
           "url": "https://www.gate.com/zh/announcements/article/101785",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -453,7 +345,8 @@
           "detail": "ARGUS（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101784",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -462,7 +355,8 @@
           "detail": "TOLLY（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101784",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -471,7 +365,8 @@
           "detail": "Gate 将上线 Boner Coin (BONER) 现货交易与闪兑交易4 小时前538",
           "url": "https://www.gate.com/zh/announcements/article/101783",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -480,16 +375,8 @@
           "detail": "Gate 将上线 Anonymous Cat (ZCAT) 现货交易与闪兑交易4 小时前513",
           "url": "https://www.gate.com/zh/announcements/article/101782",
           "dates": [
-            "2026-09-16"
-          ]
-        },
-        {
-          "token": "XRP5",
-          "type": "上线",
-          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 XRP5 小时前595",
-          "url": "https://www.gate.com/zh/announcements/article/101781",
-          "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -497,6 +384,52 @@
           "type": "现货上线",
           "detail": "Gate 打金狗首发上线 ARGUS (Argus)、TOLLY (Tolly)、LONG (LONG)、Architects (Architects)、C...5 小时前405",
           "url": "https://www.gate.com/zh/announcements/article/101780",
+          "dates": [
+            "2026-09-16",
+            "2026-09-17"
+          ]
+        },
+        {
+          "token": "ARGUS",
+          "type": "跟单合约",
+          "detail": "ARGUS（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101788",
+          "dates": [
+            "2026-09-17"
+          ]
+        },
+        {
+          "token": "TOLLY",
+          "type": "跟单合约",
+          "detail": "TOLLY（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101788",
+          "dates": [
+            "2026-09-17"
+          ]
+        },
+        {
+          "token": "COOL",
+          "type": "跟单合约",
+          "detail": "COOL（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101788",
+          "dates": [
+            "2026-09-17"
+          ]
+        },
+        {
+          "token": "XRP6",
+          "type": "上线",
+          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 XRP6 小时前754",
+          "url": "https://www.gate.com/zh/announcements/article/101781",
+          "dates": [
+            "2026-09-17"
+          ]
+        },
+        {
+          "token": "XRP5",
+          "type": "上线",
+          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 XRP5 小时前595",
+          "url": "https://www.gate.com/zh/announcements/article/101781",
           "dates": [
             "2026-09-16"
           ]
@@ -517,26 +450,6 @@
           "url": "https://www.gate.com/zh/announcements/article/101771",
           "dates": [
             "2026-09-16"
-          ]
-        },
-        {
-          "token": "BTC",
-          "type": "上线",
-          "detail": "BTC vs. ETH：双雄对决，争夺 $30,000 等值 AAPL 股票8 小时前813",
-          "url": "https://www.gate.com/zh/announcements/article/101679",
-          "dates": [
-            "2026-09-10",
-            "2026-09-15"
-          ]
-        },
-        {
-          "token": "USDT8",
-          "type": "上线",
-          "detail": "芯股福利加速档：交易闪迪、SK 海力士及美光科技合约，单人再赢 1,000 USDT8 小时前748",
-          "url": "https://www.gate.com/zh/announcements/article/101677",
-          "dates": [
-            "2026-09-10",
-            "2026-09-15"
           ]
         },
         {
@@ -577,6 +490,15 @@
           ]
         },
         {
+          "token": "USDT8",
+          "type": "上线",
+          "detail": "原油 CFD 交易派对：入场领 20 USDx，交易最高得 7,200 USDT8 小时前805",
+          "url": "https://www.gate.com/zh/announcements/article/101751",
+          "dates": [
+            "2026-09-15"
+          ]
+        },
+        {
           "token": "SOL",
           "type": "上线",
           "detail": "600 SOL 空投：持仓交易，瓜分多重奖励8 小时前832",
@@ -590,6 +512,15 @@
           "type": "跟单合约",
           "detail": "Gate 合约 HOOD 专区已上线 STANDARD 合约交易、交易机器人、跟单功能9 小时前933",
           "url": "https://www.gate.com/zh/announcements/article/101747",
+          "dates": [
+            "2026-09-15"
+          ]
+        },
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "BTC（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101746",
           "dates": [
             "2026-09-15"
           ]
@@ -699,7 +630,6 @@
           "detail": "FRONG（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101689",
           "dates": [
-            "2026-09-10",
             "2026-09-11"
           ]
         },
@@ -709,68 +639,33 @@
           "detail": "JUGGERNAUT（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101689",
           "dates": [
-            "2026-09-10",
             "2026-09-11"
-          ]
-        },
-        {
-          "token": "UPONLY",
-          "type": "现货上线",
-          "detail": "UPONLY（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101686",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "FLORK",
-          "type": "现货上线",
-          "detail": "FLORK（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101686",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "CANAL",
-          "type": "现货上线",
-          "detail": "CANAL（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101686",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "NES",
-          "type": "上线",
-          "detail": "Gate 关于支持 NESA (NES) 合约置换的公告8 小时前573",
-          "url": "https://www.gate.com/zh/announcements/article/101678",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "ALIGN",
-          "type": "上线",
-          "detail": "Gate 余币宝：ALIGN 7 天定期理财上线，限时享 200% 年化8 小时前537",
-          "url": "https://www.gate.com/zh/announcements/article/101675",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "MCAT",
-          "type": "现货上线",
-          "detail": "Gate 将上线 MarsCat (MCAT) 现货交易与闪兑交易1 天前1,799",
-          "url": "https://www.gate.com/zh/announcements/article/101662",
-          "dates": [
-            "2026-09-10"
           ]
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "rCOMP 等 62 个",
+          "type": "现货上线",
+          "detail": "Bitget 关于上线 rCOMP、rIAG、rQGEN、rRRC、rCBSH 等480只股票现货的公告（rCOMP、rIAG、rQGEN、rRRC、rCBSH、rXP、rAXS、rJXN… 共 62 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895360",
+          "dates": [
+            "2026-09-16",
+            "2026-09-17"
+          ]
+        },
+        {
+          "token": "MHA",
+          "type": "现货上线",
+          "detail": "MAGNE.AI（MHA） 将上线 Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895256",
+          "dates": [
+            "2026-09-16",
+            "2026-09-17"
+          ]
+        },
         {
           "token": "CVXSTOCK",
           "type": "美股合约",
@@ -782,30 +677,11 @@
           ]
         },
         {
-          "token": "rCOMP 等 62 个",
-          "type": "现货上线",
-          "detail": "Bitget 关于上线 rCOMP、rIAG、rQGEN、rRRC、rCBSH 等480只股票现货的公告（rCOMP、rIAG、rQGEN、rRRC、rCBSH、rXP、rAXS、rJXN… 共 62 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895360",
-          "dates": [
-            "2026-09-16"
-          ]
-        },
-        {
-          "token": "MHA",
-          "type": "现货上线",
-          "detail": "MAGNE.AI（MHA） 将上线 Bitget",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895256",
-          "dates": [
-            "2026-09-16"
-          ]
-        },
-        {
           "token": "rBAM 等 133 个",
           "type": "现货上线",
           "detail": "Bitget 关于上线 rBAM、rNSC、rTRP、rNWG、rMFC 等472只股票现货的公告（rBAM、rNSC、rTRP、rNWG、rMFC、rHONA、rDB、rTRGP… 共 133 个标的）",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603894817",
           "dates": [
-            "2026-09-10",
             "2026-09-11"
           ]
         },
@@ -815,44 +691,7 @@
           "detail": "MarsCat（MCAT）将上线 Bitget",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603894777",
           "dates": [
-            "2026-09-10",
             "2026-09-11"
-          ]
-        },
-        {
-          "token": "FCX",
-          "type": "美股合约",
-          "detail": "FCX（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894735",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "BHP",
-          "type": "美股合约",
-          "detail": "BHP（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894735",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "RIO",
-          "type": "美股合约",
-          "detail": "RIO（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894735",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "VALE",
-          "type": "美股合约",
-          "detail": "VALE（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894735",
-          "dates": [
-            "2026-09-10"
           ]
         }
       ]
@@ -865,7 +704,8 @@
           "detail": "MEXC 合約創新區將於 2026年9月16日 22:20 (UTC+8) 上線 MUSEBOOKUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538641",
           "dates": [
-            "2026-09-16"
+            "2026-09-16",
+            "2026-09-17"
           ]
         },
         {
@@ -1241,26 +1081,6 @@
           ]
         },
         {
-          "token": "FRONG",
-          "type": "现货上线",
-          "detail": "首發上線&#xff1a;MEXC 合約創新區將於 2026年9月10日 23:00 (UTC&#43;8) 上線 FRONGUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538451",
-          "dates": [
-            "2026-09-10",
-            "2026-09-11"
-          ]
-        },
-        {
-          "token": "JUGGERNAUT",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年9月10日 23:00 (UTC&#43;8) 上線 JUGGERNAUTUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-juggernautusdt-futures-on-sep-10-2026-15-17827791538450",
-          "dates": [
-            "2026-09-10",
-            "2026-09-11"
-          ]
-        },
-        {
           "token": "NEARKAT",
           "type": "Meme+ 现货",
           "detail": "NEARKAT 現已上線 MEXC Meme+",
@@ -1288,75 +1108,21 @@
           ]
         },
         {
-          "token": "MCAT",
-          "type": "现货上线",
-          "detail": "首發上線&#xff1a;MEXC 合約創新區將於 2026年9月10日 20:10 (UTC&#43;8) 上線 MCATUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538448",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
           "token": "FRONG",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月10日 23:00 (UTC+8) 上線 FRONGUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538451",
+          "dates": [
+            "2026-09-11"
+          ]
+        },
+        {
+          "token": "JUGGERNAUT",
           "type": "上线",
-          "detail": "FRONG（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
+          "detail": "MEXC 將於 2026年9月10日 23:00 (UTC+8) 上線 JUGGERNAUTUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-juggernautusdt-futures-on-sep-10-2026-15-17827791538450",
           "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "MCAT",
-          "type": "上线",
-          "detail": "MCAT（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-4stockusdt-from-innovation-zone-to-main-board-on-sep-9-2026-13-17827791538394",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "BUILD",
-          "type": "跟单合约",
-          "detail": "BUILD（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "CEG",
-          "type": "跟单合约",
-          "detail": "CEG（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "CIFR",
-          "type": "跟单合约",
-          "detail": "CIFR（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "ALNY",
-          "type": "跟单合约",
-          "detail": "ALNY（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362",
-          "dates": [
-            "2026-09-10"
-          ]
-        },
-        {
-          "token": "HPQ",
-          "type": "跟单合约",
-          "detail": "HPQ（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362",
-          "dates": [
-            "2026-09-10"
+            "2026-09-11"
           ]
         }
       ]

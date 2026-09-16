@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-17",
+  "updatedAt": "2026-09-16T17:27:12.965Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "RDDTB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 RDDTB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x41622a9125a22767df8c1dc79fc17299bac4bd0b"
+        },
+        {
+          "token": "GPROB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 GPROB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x1ecfda023c46ca216b5c620ef357a6d0c03951e6"
+        },
+        {
+          "token": "DGAI",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 DGAI - DGrid AI是一个去中心化的AI智能网络，致力于构建一个开放、透明、由社区驱动的去中心化AI网络.",
+          "url": "https://www.binance.com/en/alpha/bsc/0x10d4183389e99233db3cc981c43443ebd28ebd5e"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "MSFU",
+          "type": "永续合约",
+          "detail": "新幣上線：2026 年 9 月 16 日11:30 UTC 將上線 MSFUUSDT 之 Bybit TradFi 永續合約",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-msfuusdt-on-bybit-tradfi-perpetual-on-sep-16-2026-11-30am-utc--arte81bdfd89fc8/"
+        },
+        {
+          "token": "CONL",
+          "type": "永续合约",
+          "detail": "新幣上線：2026 年 9 月 16 日11:30 UTC 將上線 CONLUSDT 之 Bybit TradFi 永續合約",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-conlusdt-on-bybit-tradfi-perpetual-on-sep-16-2026-11-30am-utc--arte89a4819df26/"
+        },
+        {
+          "token": "IBIT",
+          "type": "永续合约",
+          "detail": "新幣上線：2026 年 9 月 16 日11:30 UTC 將上線 IBITUSDT 之 Bybit TradFi 永續合約",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-ibitusdt-on-bybit-tradfi-perpetual-on-sep-16-2026-11-30am-utc--art0557e92de728/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "MHA",
+          "type": "现货上线",
+          "detail": "World Premiere: MAGNE.AI (MHA) Listed on KuCoinTrading: 12:00 on September 17, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-magne-ai-mha-listed-on-kucoin"
+        },
+        {
+          "token": "TINA",
+          "type": "现货上线",
+          "detail": "World Premiere: TINA (TINA) Listed on KuCoinTrading: 10:00 on September 17, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-tina-tina-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "ARGUS",
+          "type": "跟单合约",
+          "detail": "ARGUS（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101788"
+        },
+        {
+          "token": "TOLLY",
+          "type": "跟单合约",
+          "detail": "TOLLY（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101788"
+        },
+        {
+          "token": "COOL",
+          "type": "跟单合约",
+          "detail": "COOL（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101788"
+        },
+        {
+          "token": "ALLINU",
+          "type": "跟单合约",
+          "detail": "Gate 合约 Meme 专区已上线 ALLINU 合约交易、交易机器人、跟单功能5 小时前728",
+          "url": "https://www.gate.com/zh/announcements/article/101785"
+        },
+        {
+          "token": "ARGUS",
+          "type": "上线",
+          "detail": "ARGUS（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101784"
+        },
+        {
+          "token": "TOLLY",
+          "type": "上线",
+          "detail": "TOLLY（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101784"
+        },
+        {
+          "token": "BONER",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Boner Coin (BONER) 现货交易与闪兑交易6 小时前707",
+          "url": "https://www.gate.com/zh/announcements/article/101783"
+        },
+        {
+          "token": "ZCAT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Anonymous Cat (ZCAT) 现货交易与闪兑交易6 小时前671",
+          "url": "https://www.gate.com/zh/announcements/article/101782"
+        },
+        {
+          "token": "XRP6",
+          "type": "上线",
+          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 XRP6 小时前754",
+          "url": "https://www.gate.com/zh/announcements/article/101781"
+        },
+        {
+          "token": "LONG",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 ARGUS (Argus)、TOLLY (Tolly)、LONG (LONG)、Architects (Architects)、C...7 小时前529",
+          "url": "https://www.gate.com/zh/announcements/article/101780"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rCOMP 等 62 个",
+          "type": "现货上线",
+          "detail": "Bitget 关于上线 rCOMP、rIAG、rQGEN、rRRC、rCBSH 等480只股票现货的公告（rCOMP、rIAG、rQGEN、rRRC、rCBSH、rXP、rAXS、rJXN… 共 62 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895360"
+        },
+        {
+          "token": "MHA",
+          "type": "现货上线",
+          "detail": "MAGNE.AI（MHA） 将上线 Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895256"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MUSEBOOK",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月16日 22:20 (UTC+8) 上線 MUSEBOOKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538641"
+        }
+      ]
+    }
+  }
+}
