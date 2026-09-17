@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-11",
   "weekEnd": "2026-09-17",
-  "updatedAt": "2026-09-17T15:03:09.008Z",
+  "updatedAt": "2026-09-17T15:12:26.297Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -381,16 +381,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "ALLINU",
-          "type": "跟单合约",
-          "detail": "Gate 合约 Meme 专区已上线 ALLINU 合约交易、交易机器人、跟单功能3 小时前529",
-          "url": "https://www.gate.com/zh/announcements/article/101785",
-          "dates": [
-            "2026-09-16",
-            "2026-09-17"
-          ]
-        },
-        {
           "token": "ARGUS",
           "type": "上线",
           "detail": "ARGUS（同公告含 2 个标的）",
@@ -431,10 +421,66 @@
           ]
         },
         {
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT7 小时前842",
+          "url": "https://www.gate.com/zh/announcements/article/101772",
+          "dates": [
+            "2026-09-16",
+            "2026-09-17"
+          ]
+        },
+        {
+          "token": "ARC",
+          "type": "上线",
+          "detail": "Gate 已开通 USDCoin (USDC) 代币 ARC 主网充值提现7 小时前472",
+          "url": "https://www.gate.com/zh/announcements/article/101771",
+          "dates": [
+            "2026-09-16",
+            "2026-09-17"
+          ]
+        },
+        {
           "token": "MUSEBOOK",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 MUSEBOOK 合约交易、交易机器人、跟单功能3 小时前242",
+          "detail": "Gate 合约 HOOD 专区已上线 MUSEBOOK 合约交易、交易机器人、跟单功能3 小时前246",
           "url": "https://www.gate.com/zh/announcements/article/101809",
+          "dates": [
+            "2026-09-17"
+          ]
+        },
+        {
+          "token": "MEME",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 GP (RuneScape Gold)、MEME (MEME)、NEARKAT (NearKat)、PANCHU (Pacharan)5 小时前209",
+          "url": "https://www.gate.com/zh/announcements/article/101808",
+          "dates": [
+            "2026-09-17"
+          ]
+        },
+        {
+          "token": "METAG8",
+          "type": "上线",
+          "detail": "gStocks 福利限时享：交易持仓齐进阶，赢 $60,000 METAG8 小时前744",
+          "url": "https://www.gate.com/zh/announcements/article/101801",
+          "dates": [
+            "2026-09-17"
+          ]
+        },
+        {
+          "token": "ZEC5L",
+          "type": "上线",
+          "detail": "ZEC5L（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101794",
+          "dates": [
+            "2026-09-17"
+          ]
+        },
+        {
+          "token": "ZEC5S11",
+          "type": "上线",
+          "detail": "ZEC5S11（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101794",
           "dates": [
             "2026-09-17"
           ]
@@ -442,7 +488,7 @@
         {
           "token": "ARGUS",
           "type": "现货上线",
-          "detail": "Gate 将上线 Argus (ARGUS) 现货交易与闪兑交易11 小时前1,421",
+          "detail": "Gate 将上线 Argus (ARGUS) 现货交易与闪兑交易11 小时前1,424",
           "url": "https://www.gate.com/zh/announcements/article/101793",
           "dates": [
             "2026-09-17"
@@ -451,55 +497,19 @@
         {
           "token": "TOLLY",
           "type": "现货上线",
-          "detail": "Gate 将上线 Tolly (TOLLY) 现货交易与闪兑交易11 小时前1,609",
+          "detail": "Gate 将上线 Tolly (TOLLY) 现货交易与闪兑交易11 小时前1,612",
           "url": "https://www.gate.com/zh/announcements/article/101791",
           "dates": [
             "2026-09-17"
           ]
         },
         {
-          "token": "KIMI",
-          "type": "Pre-IPO 上线",
-          "detail": "Gate PreIPO 交易市场正式上线，Moonshot AI (KIMI) 即将开放交易13 小时前614",
-          "url": "https://www.gate.com/zh/announcements/article/101789",
-          "dates": [
-            "2026-09-17"
-          ]
-        },
-        {
-          "token": "ARGUS",
+          "token": "ALLINU",
           "type": "跟单合约",
-          "detail": "ARGUS（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101788",
+          "detail": "Gate 合约 Meme 专区已上线 ALLINU 合约交易、交易机器人、跟单功能3 小时前529",
+          "url": "https://www.gate.com/zh/announcements/article/101785",
           "dates": [
-            "2026-09-17"
-          ]
-        },
-        {
-          "token": "TOLLY",
-          "type": "跟单合约",
-          "detail": "TOLLY（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101788",
-          "dates": [
-            "2026-09-17"
-          ]
-        },
-        {
-          "token": "COOL",
-          "type": "跟单合约",
-          "detail": "COOL（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101788",
-          "dates": [
-            "2026-09-17"
-          ]
-        },
-        {
-          "token": "PAID",
-          "type": "跟单合约",
-          "detail": "Gate 已上线 PAID 合约交易、交易机器人、跟单功能1 天前1,988",
-          "url": "https://www.gate.com/zh/announcements/article/101765",
-          "dates": [
-            "2026-09-17"
+            "2026-09-16"
           ]
         },
         {
@@ -516,24 +526,6 @@
           "type": "现货上线",
           "detail": "Gate 打金狗首发上线 ARGUS (Argus)、TOLLY (Tolly)、LONG (LONG)、Architects (Architects)、C...5 小时前405",
           "url": "https://www.gate.com/zh/announcements/article/101780",
-          "dates": [
-            "2026-09-16"
-          ]
-        },
-        {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT7 小时前842",
-          "url": "https://www.gate.com/zh/announcements/article/101772",
-          "dates": [
-            "2026-09-16"
-          ]
-        },
-        {
-          "token": "ARC",
-          "type": "上线",
-          "detail": "Gate 已开通 USDCoin (USDC) 代币 ARC 主网充值提现7 小时前472",
-          "url": "https://www.gate.com/zh/announcements/article/101771",
           "dates": [
             "2026-09-16"
           ]
