@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T15:12:26.111Z",
+  "updatedAt": "2026-09-17T15:48:58.606Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -91,31 +91,31 @@
         {
           "token": "MUSEBOOK",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 MUSEBOOK 合约交易、交易机器人、跟单功能3 小时前246",
+          "detail": "Gate 合约 HOOD 专区已上线 MUSEBOOK 合约交易、交易机器人、跟单功能4 小时前278",
           "url": "https://www.gate.com/zh/announcements/article/101809"
         },
         {
           "token": "MEME",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 GP (RuneScape Gold)、MEME (MEME)、NEARKAT (NearKat)、PANCHU (Pacharan)5 小时前209",
+          "detail": "Gate 打金狗首发上线 GP (RuneScape Gold)、MEME (MEME)、NEARKAT (NearKat)、PANCHU (Pacharan)5 小时前229",
           "url": "https://www.gate.com/zh/announcements/article/101808"
         },
         {
-          "token": "USDT7",
+          "token": "USDT8",
           "type": "上线",
-          "detail": "Robinhood Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT7 小时前611",
+          "detail": "Robinhood Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT8 小时前642",
           "url": "https://www.gate.com/zh/announcements/article/101805"
         },
         {
           "token": "ARC",
           "type": "上线",
-          "detail": "ARC Meme 狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT7 小时前665",
+          "detail": "ARC Meme 狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT8 小时前692",
           "url": "https://www.gate.com/zh/announcements/article/101804"
         },
         {
-          "token": "METAG8",
+          "token": "METAG9",
           "type": "上线",
-          "detail": "gStocks 福利限时享：交易持仓齐进阶，赢 $60,000 METAG8 小时前744",
+          "detail": "gStocks 福利限时享：交易持仓齐进阶，赢 $60,000 METAG9 小时前767",
           "url": "https://www.gate.com/zh/announcements/article/101801"
         },
         {
@@ -133,13 +133,13 @@
         {
           "token": "ARGUS",
           "type": "现货上线",
-          "detail": "Gate 将上线 Argus (ARGUS) 现货交易与闪兑交易11 小时前1,424",
+          "detail": "Gate 将上线 Argus (ARGUS) 现货交易与闪兑交易12 小时前1,439",
           "url": "https://www.gate.com/zh/announcements/article/101793"
         },
         {
           "token": "TOLLY",
           "type": "现货上线",
-          "detail": "Gate 将上线 Tolly (TOLLY) 现货交易与闪兑交易11 小时前1,612",
+          "detail": "Gate 将上线 Tolly (TOLLY) 现货交易与闪兑交易12 小时前1,630",
           "url": "https://www.gate.com/zh/announcements/article/101791"
         },
         {
@@ -157,13 +157,13 @@
         {
           "token": "BONER",
           "type": "现货上线",
-          "detail": "Gate 将上线 Boner Coin (BONER) 现货交易与闪兑交易1 天前1,817",
+          "detail": "Gate 将上线 Boner Coin (BONER) 现货交易与闪兑交易1 天前1,829",
           "url": "https://www.gate.com/zh/announcements/article/101783"
         },
         {
           "token": "ZCAT",
           "type": "现货上线",
-          "detail": "Gate 将上线 Anonymous Cat (ZCAT) 现货交易与闪兑交易1 天前1,722",
+          "detail": "Gate 将上线 Anonymous Cat (ZCAT) 现货交易与闪兑交易1 天前1,730",
           "url": "https://www.gate.com/zh/announcements/article/101782"
         }
       ]

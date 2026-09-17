@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-11",
   "weekEnd": "2026-09-17",
-  "updatedAt": "2026-09-17T15:12:26.297Z",
+  "updatedAt": "2026-09-17T15:48:58.785Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -381,6 +381,16 @@
     "gateio": {
       "listings": [
         {
+          "token": "USDT8",
+          "type": "上线",
+          "detail": "原油 CFD 交易派对：入场领 20 USDx，交易最高得 7,200 USDT8 小时前805",
+          "url": "https://www.gate.com/zh/announcements/article/101751",
+          "dates": [
+            "2026-09-15",
+            "2026-09-17"
+          ]
+        },
+        {
           "token": "ARGUS",
           "type": "上线",
           "detail": "ARGUS（同公告含 2 个标的）",
@@ -421,16 +431,6 @@
           ]
         },
         {
-          "token": "USDT7",
-          "type": "上线",
-          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT7 小时前842",
-          "url": "https://www.gate.com/zh/announcements/article/101772",
-          "dates": [
-            "2026-09-16",
-            "2026-09-17"
-          ]
-        },
-        {
           "token": "ARC",
           "type": "上线",
           "detail": "Gate 已开通 USDCoin (USDC) 代币 ARC 主网充值提现7 小时前472",
@@ -443,7 +443,7 @@
         {
           "token": "MUSEBOOK",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 MUSEBOOK 合约交易、交易机器人、跟单功能3 小时前246",
+          "detail": "Gate 合约 HOOD 专区已上线 MUSEBOOK 合约交易、交易机器人、跟单功能4 小时前278",
           "url": "https://www.gate.com/zh/announcements/article/101809",
           "dates": [
             "2026-09-17"
@@ -452,16 +452,16 @@
         {
           "token": "MEME",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 GP (RuneScape Gold)、MEME (MEME)、NEARKAT (NearKat)、PANCHU (Pacharan)5 小时前209",
+          "detail": "Gate 打金狗首发上线 GP (RuneScape Gold)、MEME (MEME)、NEARKAT (NearKat)、PANCHU (Pacharan)5 小时前229",
           "url": "https://www.gate.com/zh/announcements/article/101808",
           "dates": [
             "2026-09-17"
           ]
         },
         {
-          "token": "METAG8",
+          "token": "METAG9",
           "type": "上线",
-          "detail": "gStocks 福利限时享：交易持仓齐进阶，赢 $60,000 METAG8 小时前744",
+          "detail": "gStocks 福利限时享：交易持仓齐进阶，赢 $60,000 METAG9 小时前767",
           "url": "https://www.gate.com/zh/announcements/article/101801",
           "dates": [
             "2026-09-17"
@@ -488,7 +488,7 @@
         {
           "token": "ARGUS",
           "type": "现货上线",
-          "detail": "Gate 将上线 Argus (ARGUS) 现货交易与闪兑交易11 小时前1,424",
+          "detail": "Gate 将上线 Argus (ARGUS) 现货交易与闪兑交易12 小时前1,439",
           "url": "https://www.gate.com/zh/announcements/article/101793",
           "dates": [
             "2026-09-17"
@@ -497,7 +497,7 @@
         {
           "token": "TOLLY",
           "type": "现货上线",
-          "detail": "Gate 将上线 Tolly (TOLLY) 现货交易与闪兑交易11 小时前1,612",
+          "detail": "Gate 将上线 Tolly (TOLLY) 现货交易与闪兑交易12 小时前1,630",
           "url": "https://www.gate.com/zh/announcements/article/101791",
           "dates": [
             "2026-09-17"
@@ -526,6 +526,15 @@
           "type": "现货上线",
           "detail": "Gate 打金狗首发上线 ARGUS (Argus)、TOLLY (Tolly)、LONG (LONG)、Architects (Architects)、C...5 小时前405",
           "url": "https://www.gate.com/zh/announcements/article/101780",
+          "dates": [
+            "2026-09-16"
+          ]
+        },
+        {
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT7 小时前842",
+          "url": "https://www.gate.com/zh/announcements/article/101772",
           "dates": [
             "2026-09-16"
           ]
@@ -563,15 +572,6 @@
           "type": "现货上线",
           "detail": "BORT（同公告含 3 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101758",
-          "dates": [
-            "2026-09-15"
-          ]
-        },
-        {
-          "token": "USDT8",
-          "type": "上线",
-          "detail": "原油 CFD 交易派对：入场领 20 USDx，交易最高得 7,200 USDT8 小时前805",
-          "url": "https://www.gate.com/zh/announcements/article/101751",
           "dates": [
             "2026-09-15"
           ]
