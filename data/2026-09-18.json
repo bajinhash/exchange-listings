@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-18",
+  "updatedAt": "2026-09-17T17:26:49.201Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "APM",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 APM - AI驱动的时尚产业创新",
+          "url": "https://www.binance.com/en/alpha/bsc/0x72a22faa6a522c81a8f5d508381e18af3da0921e"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MUSEBOOK",
+          "type": "跟单合约",
+          "detail": "Gate 合约 HOOD 专区已上线 MUSEBOOK 合约交易、交易机器人、跟单功能6 小时前363",
+          "url": "https://www.gate.com/zh/announcements/article/101809"
+        },
+        {
+          "token": "MEME",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 GP (RuneScape Gold)、MEME (MEME)、NEARKAT (NearKat)、PANCHU (Pacharan)7 小时前279",
+          "url": "https://www.gate.com/zh/announcements/article/101808"
+        },
+        {
+          "token": "ARGUS",
+          "type": "上线",
+          "detail": "ARGUS（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101784"
+        },
+        {
+          "token": "TOLLY",
+          "type": "上线",
+          "detail": "TOLLY（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101784"
+        },
+        {
+          "token": "BONER",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Boner Coin (BONER) 现货交易与闪兑交易1 天前1,863",
+          "url": "https://www.gate.com/zh/announcements/article/101783"
+        },
+        {
+          "token": "ZCAT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Anonymous Cat (ZCAT) 现货交易与闪兑交易1 天前1,759",
+          "url": "https://www.gate.com/zh/announcements/article/101782"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GLD",
+          "type": "美股合约",
+          "detail": "GLD（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gld-and-tlt-stock-futures-with-0-fee-trading-on-sep-17-17827791538659"
+        },
+        {
+          "token": "TLT",
+          "type": "美股合约",
+          "detail": "TLT（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gld-and-tlt-stock-futures-with-0-fee-trading-on-sep-17-17827791538659"
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月16日 22:20 (UTC+8) 上線 MUSEBOOKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538641"
+        },
+        {
+          "token": "ILMN",
+          "type": "美股合约",
+          "detail": "MEXC 將於 9月16日 上線 ILMN 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ilmn-stock-futures-with-0-fee-trading-on-sep-16-17827791538637"
+        },
+        {
+          "token": "TOLLY",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月16日 18:00 (UTC+8) 上線 TOLLYUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538635"
+        }
+      ]
+    }
+  }
+}
