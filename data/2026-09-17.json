@@ -1,33 +1,46 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-16T17:27:12.965Z",
+  "updatedAt": "2026-09-17T15:03:08.837Z",
   "exchanges": {
     "binance": {
       "listings": [],
       "alpha": [
         {
-          "token": "RDDTB",
+          "token": "APM",
           "type": "上线",
-          "detail": "Binance Alpha 上线 RDDTB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x41622a9125a22767df8c1dc79fc17299bac4bd0b"
-        },
-        {
-          "token": "GPROB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 GPROB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x1ecfda023c46ca216b5c620ef357a6d0c03951e6"
-        },
-        {
-          "token": "DGAI",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 DGAI - DGrid AI是一个去中心化的AI智能网络，致力于构建一个开放、透明、由社区驱动的去中心化AI网络.",
-          "url": "https://www.binance.com/en/alpha/bsc/0x10d4183389e99233db3cc981c43443ebd28ebd5e"
+          "detail": "Binance Alpha 上线 APM - AI驱动的时尚产业创新",
+          "url": "https://www.binance.com/en/alpha/bsc/0x72a22faa6a522c81a8f5d508381e18af3da0921e"
         }
       ],
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "IOSTUSD",
+          "type": "永续合约",
+          "detail": "IOSTUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-iostusd-strkusd-x-perps"
+        },
+        {
+          "token": "STRKUSD",
+          "type": "永续合约",
+          "detail": "STRKUSD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-iostusd-strkusd-x-perps"
+        },
+        {
+          "token": "META",
+          "type": "上线",
+          "detail": "OKX 關於上線 xMETA USDC 交易幣對的公告發佈於 2026年9月17日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-usdc-trading-pairs-for-tokenized-stocks-xmeta"
+        },
+        {
+          "token": "COHR",
+          "type": "永续合约",
+          "detail": "OKX 關於 COHRUSD X-合約（X-Perp）正式上線的公告發佈於 2026年9月17日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-cohrusd-equity-x-perp"
+        }
+      ]
     },
     "bybit": {
       "listings": [
@@ -54,6 +67,12 @@
     "kucoin": {
       "listings": [
         {
+          "token": "ON",
+          "type": "现货上线",
+          "detail": "Orochi Network (ON)  Listed on KuCoinTrading: 10:00 on September 17, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-orochi-network-on-listed-on-kucoin"
+        },
+        {
           "token": "MHA",
           "type": "现货上线",
           "detail": "World Premiere: MAGNE.AI (MHA) Listed on KuCoinTrading: 12:00 on September 17, 2026 (UTC)",
@@ -69,6 +88,30 @@
     },
     "gateio": {
       "listings": [
+        {
+          "token": "MUSEBOOK",
+          "type": "跟单合约",
+          "detail": "Gate 合约 HOOD 专区已上线 MUSEBOOK 合约交易、交易机器人、跟单功能3 小时前242",
+          "url": "https://www.gate.com/zh/announcements/article/101809"
+        },
+        {
+          "token": "ARGUS",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Argus (ARGUS) 现货交易与闪兑交易11 小时前1,421",
+          "url": "https://www.gate.com/zh/announcements/article/101793"
+        },
+        {
+          "token": "TOLLY",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Tolly (TOLLY) 现货交易与闪兑交易11 小时前1,609",
+          "url": "https://www.gate.com/zh/announcements/article/101791"
+        },
+        {
+          "token": "KIMI",
+          "type": "Pre-IPO 上线",
+          "detail": "Gate PreIPO 交易市场正式上线，Moonshot AI (KIMI) 即将开放交易13 小时前614",
+          "url": "https://www.gate.com/zh/announcements/article/101789"
+        },
         {
           "token": "ARGUS",
           "type": "跟单合约",
@@ -90,7 +133,7 @@
         {
           "token": "ALLINU",
           "type": "跟单合约",
-          "detail": "Gate 合约 Meme 专区已上线 ALLINU 合约交易、交易机器人、跟单功能5 小时前728",
+          "detail": "Gate 合约 Meme 专区已上线 ALLINU 合约交易、交易机器人、跟单功能1 天前1,915",
           "url": "https://www.gate.com/zh/announcements/article/101785"
         },
         {
@@ -108,26 +151,20 @@
         {
           "token": "BONER",
           "type": "现货上线",
-          "detail": "Gate 将上线 Boner Coin (BONER) 现货交易与闪兑交易6 小时前707",
+          "detail": "Gate 将上线 Boner Coin (BONER) 现货交易与闪兑交易1 天前1,815",
           "url": "https://www.gate.com/zh/announcements/article/101783"
         },
         {
           "token": "ZCAT",
           "type": "现货上线",
-          "detail": "Gate 将上线 Anonymous Cat (ZCAT) 现货交易与闪兑交易6 小时前671",
+          "detail": "Gate 将上线 Anonymous Cat (ZCAT) 现货交易与闪兑交易1 天前1,720",
           "url": "https://www.gate.com/zh/announcements/article/101782"
         },
         {
-          "token": "XRP6",
-          "type": "上线",
-          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 888 XRP6 小时前754",
-          "url": "https://www.gate.com/zh/announcements/article/101781"
-        },
-        {
-          "token": "LONG",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 ARGUS (Argus)、TOLLY (Tolly)、LONG (LONG)、Architects (Architects)、C...7 小时前529",
-          "url": "https://www.gate.com/zh/announcements/article/101780"
+          "token": "PAID",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 PAID 合约交易、交易机器人、跟单功能1 天前1,988",
+          "url": "https://www.gate.com/zh/announcements/article/101765"
         }
       ]
     },
@@ -144,16 +181,100 @@
           "type": "现货上线",
           "detail": "MAGNE.AI（MHA） 将上线 Bitget",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603895256"
+        },
+        {
+          "token": "QLD",
+          "type": "美股合约",
+          "detail": "QLD（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895506"
+        },
+        {
+          "token": "IBIT",
+          "type": "美股合约",
+          "detail": "IBIT（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895506"
+        },
+        {
+          "token": "CLSK",
+          "type": "美股合约",
+          "detail": "CLSK（同公告含 3 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895506"
         }
       ]
     },
     "mexc": {
       "listings": [
         {
+          "token": "GLD",
+          "type": "美股合约",
+          "detail": "GLD（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gld-and-tlt-stock-futures-with-0-fee-trading-on-sep-17-17827791538659"
+        },
+        {
+          "token": "TLT",
+          "type": "美股合约",
+          "detail": "TLT（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gld-and-tlt-stock-futures-with-0-fee-trading-on-sep-17-17827791538659"
+        },
+        {
+          "token": "MAX",
+          "type": "Meme+ 现货",
+          "detail": "MAX 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538657"
+        },
+        {
+          "token": "TOLLY",
+          "type": "跟单合约",
+          "detail": "TOLLY（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tolly-allinu-and-果蝇-usdt-m-futures-17827791538650"
+        },
+        {
+          "token": "ALLINU",
+          "type": "跟单合约",
+          "detail": "ALLINU（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tolly-allinu-and-果蝇-usdt-m-futures-17827791538650"
+        },
+        {
+          "token": "TREAD",
+          "type": "跟单合约",
+          "detail": "TREAD（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649"
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "跟单合约",
+          "detail": "MUSEBOOK（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649"
+        },
+        {
+          "token": "ILMN",
+          "type": "跟单合约",
+          "detail": "ILMN（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649"
+        },
+        {
+          "token": "TREAD",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月17日 13:00 (UTC+8) 上線 TREADUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538647"
+        },
+        {
           "token": "MUSEBOOK",
           "type": "现货上线",
           "detail": "MEXC 合約創新區將於 2026年9月16日 22:20 (UTC+8) 上線 MUSEBOOKUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538641"
+        },
+        {
+          "token": "ILMN",
+          "type": "美股合约",
+          "detail": "MEXC 將於 9月16日 上線 ILMN 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ilmn-stock-futures-with-0-fee-trading-on-sep-16-17827791538637"
+        },
+        {
+          "token": "TOLLY",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月16日 18:00 (UTC+8) 上線 TOLLYUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538635"
         }
       ]
     }
