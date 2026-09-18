@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T14:42:49.527Z",
+  "updatedAt": "2026-09-18T15:20:43.171Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -144,31 +144,31 @@
         {
           "token": "FXNW",
           "type": "现货上线",
-          "detail": "Gate 将上线 FastX Network (FXNW) 现货交易、闪兑交易并开启 CandyDrop36 分钟前109",
+          "detail": "Gate 将上线 FastX Network (FXNW) 现货交易、闪兑交易并开启 CandyDrop1 小时前170",
           "url": "https://www.gate.com/zh/announcements/article/101835"
         },
         {
           "token": "SCHIFFY",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 PERK (perk.money)、Wire (Wire)、SCHIFFY (SCHIFFY)、Hound (Dividend Hou...4 小时前199",
+          "detail": "Gate 打金狗首发上线 PERK (perk.money)、Wire (Wire)、SCHIFFY (SCHIFFY)、Hound (Dividend Hou...4 小时前225",
           "url": "https://www.gate.com/zh/announcements/article/101831"
         },
         {
           "token": "PATH",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 PATH (UiPath) 等 7 个合约交易、交易机器...6 小时前341",
+          "detail": "Gate 合约股票专区将上线 PATH (UiPath) 等 7 个合约交易、交易机器...6 小时前359",
           "url": "https://www.gate.com/zh/announcements/article/101826"
         },
         {
           "token": "SOL",
           "type": "上线",
-          "detail": "SOL 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT7 小时前395",
+          "detail": "SOL 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT7 小时前414",
           "url": "https://www.gate.com/zh/announcements/article/101823"
         },
         {
           "token": "BNB",
           "type": "上线",
-          "detail": "BNB 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT7 小时前380",
+          "detail": "BNB 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT7 小时前399",
           "url": "https://www.gate.com/zh/announcements/article/101822"
         },
         {
@@ -192,19 +192,19 @@
         {
           "token": "LAPTOP",
           "type": "现货上线",
-          "detail": "Gate 将上线  Hunter Biden's Laptop (LAPTOP) 现货交易与闪兑交易11 小时前1,223",
+          "detail": "Gate 将上线  Hunter Biden's Laptop (LAPTOP) 现货交易与闪兑交易12 小时前1,254",
           "url": "https://www.gate.com/zh/announcements/article/101812"
         },
         {
           "token": "ARGUS",
           "type": "现货上线",
-          "detail": "Gate 将上线 Argus (ARGUS) 现货交易与闪兑交易1 天前1,742",
+          "detail": "Gate 将上线 Argus (ARGUS) 现货交易与闪兑交易1 天前1,747",
           "url": "https://www.gate.com/zh/announcements/article/101793"
         },
         {
           "token": "TOLLY",
           "type": "现货上线",
-          "detail": "Gate 将上线 Tolly (TOLLY) 现货交易与闪兑交易1 天前1,946",
+          "detail": "Gate 将上线 Tolly (TOLLY) 现货交易与闪兑交易1 天前1,954",
           "url": "https://www.gate.com/zh/announcements/article/101791"
         }
       ]
