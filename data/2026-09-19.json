@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-19",
+  "updatedAt": "2026-09-18T16:54:04.432Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "USDBRL",
+          "type": "永续合约",
+          "detail": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+          "url": "https://www.binance.com/en/support/announcement/533eb2f3998a43e3a34df310998bee48"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "TLT",
+          "type": "永续合约",
+          "detail": "全新上線：TLTUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tltusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art8f6060268e37/"
+        },
+        {
+          "token": "SECZ",
+          "type": "永续合约",
+          "detail": "全新上線：SECZUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-seczusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art09c4032ff6e4/"
+        },
+        {
+          "token": "AMZU",
+          "type": "永续合约",
+          "detail": "全新上線：AMZUUSDT TradFi 永續合約，支持最高 25 倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-amzuusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artdbbd87450b32/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "FXNW",
+          "type": "现货上线",
+          "detail": "Gate 将上线 FastX Network (FXNW) 现货交易、闪兑交易并开启 CandyDrop3 小时前259",
+          "url": "https://www.gate.com/zh/announcements/article/101835"
+        },
+        {
+          "token": "SCHIFFY",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 PERK (perk.money)、Wire (Wire)、SCHIFFY (SCHIFFY)、Hound (Dividend Hou...6 小时前287",
+          "url": "https://www.gate.com/zh/announcements/article/101831"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SDGR",
+          "type": "美股合约",
+          "detail": "SDGR（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895627"
+        },
+        {
+          "token": "PATH",
+          "type": "美股合约",
+          "detail": "PATH（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895627"
+        },
+        {
+          "token": "AGPU",
+          "type": "美股合约",
+          "detail": "AGPU（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895627"
+        },
+        {
+          "token": "GNRC",
+          "type": "美股合约",
+          "detail": "GNRC（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895627"
+        },
+        {
+          "token": "HUT",
+          "type": "美股合约",
+          "detail": "HUT（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895627"
+        },
+        {
+          "token": "CYPH",
+          "type": "美股合约",
+          "detail": "CYPH（同公告含 6 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895627"
+        },
+        {
+          "token": "STONK",
+          "type": "上线",
+          "detail": "STONKUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895628"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GLD",
+          "type": "美股合约",
+          "detail": "GLD（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gld-and-tlt-stock-futures-with-0-fee-trading-on-sep-17-17827791538659"
+        },
+        {
+          "token": "TLT",
+          "type": "美股合约",
+          "detail": "TLT（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gld-and-tlt-stock-futures-with-0-fee-trading-on-sep-17-17827791538659"
+        },
+        {
+          "token": "TOLLY",
+          "type": "跟单合约",
+          "detail": "TOLLY（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tolly-allinu-and-果蝇-usdt-m-futures-17827791538650"
+        },
+        {
+          "token": "ALLINU",
+          "type": "跟单合约",
+          "detail": "ALLINU（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tolly-allinu-and-果蝇-usdt-m-futures-17827791538650"
+        },
+        {
+          "token": "TREAD",
+          "type": "跟单合约",
+          "detail": "TREAD（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649"
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "跟单合约",
+          "detail": "MUSEBOOK（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649"
+        },
+        {
+          "token": "ILMN",
+          "type": "跟单合约",
+          "detail": "ILMN（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649"
+        }
+      ]
+    }
+  }
+}
