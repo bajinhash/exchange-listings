@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-12",
   "weekEnd": "2026-09-18",
-  "updatedAt": "2026-09-18T14:33:43.088Z",
+  "updatedAt": "2026-09-18T14:42:49.703Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -539,7 +539,7 @@
         {
           "token": "FXNW",
           "type": "现货上线",
-          "detail": "Gate 将上线 FastX Network (FXNW) 现货交易、闪兑交易并开启 CandyDrop26 分钟前98",
+          "detail": "Gate 将上线 FastX Network (FXNW) 现货交易、闪兑交易并开启 CandyDrop36 分钟前109",
           "url": "https://www.gate.com/zh/announcements/article/101835",
           "dates": [
             "2026-09-18"
@@ -548,7 +548,7 @@
         {
           "token": "SCHIFFY",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 PERK (perk.money)、Wire (Wire)、SCHIFFY (SCHIFFY)、Hound (Dividend Hou...4 小时前196",
+          "detail": "Gate 打金狗首发上线 PERK (perk.money)、Wire (Wire)、SCHIFFY (SCHIFFY)、Hound (Dividend Hou...4 小时前199",
           "url": "https://www.gate.com/zh/announcements/article/101831",
           "dates": [
             "2026-09-18"
@@ -557,7 +557,7 @@
         {
           "token": "PATH",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 PATH (UiPath) 等 7 个合约交易、交易机器...5 小时前337",
+          "detail": "Gate 合约股票专区将上线 PATH (UiPath) 等 7 个合约交易、交易机器...6 小时前341",
           "url": "https://www.gate.com/zh/announcements/article/101826",
           "dates": [
             "2026-09-18"
@@ -566,7 +566,7 @@
         {
           "token": "BNB",
           "type": "上线",
-          "detail": "BNB 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT6 小时前376",
+          "detail": "BNB 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT7 小时前380",
           "url": "https://www.gate.com/zh/announcements/article/101822",
           "dates": [
             "2026-09-18"
@@ -602,7 +602,7 @@
         {
           "token": "LAPTOP",
           "type": "现货上线",
-          "detail": "Gate 将上线  Hunter Biden's Laptop (LAPTOP) 现货交易与闪兑交易11 小时前1,222",
+          "detail": "Gate 将上线  Hunter Biden's Laptop (LAPTOP) 现货交易与闪兑交易11 小时前1,223",
           "url": "https://www.gate.com/zh/announcements/article/101812",
           "dates": [
             "2026-09-18"
