@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-09-13",
-  "weekEnd": "2026-09-19",
-  "updatedAt": "2026-09-19T14:58:58.589Z",
+  "weekStart": "2026-09-14",
+  "weekEnd": "2026-09-20",
+  "updatedAt": "2026-09-19T16:15:16.599Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -509,7 +509,8 @@
           "dates": [
             "2026-09-15",
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -519,7 +520,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101835",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -529,7 +531,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101831",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -539,7 +542,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101826",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -549,7 +553,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101822",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -559,7 +564,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101817",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -569,7 +575,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101817",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -579,7 +586,8 @@
           "url": "https://www.gate.com/zh/announcements/article/101817",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -824,15 +832,6 @@
           "dates": [
             "2026-09-15"
           ]
-        },
-        {
-          "token": "FOLD",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Interfold (FOLD) 现货交易与闪兑交易9 小时前1,902",
-          "url": "https://www.gate.com/zh/announcements/article/101711",
-          "dates": [
-            "2026-09-13"
-          ]
         }
       ]
     },
@@ -976,7 +975,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -986,7 +986,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -996,7 +997,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -1006,7 +1008,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gstock-and-apm-usdt-m-futures-17827791538689",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -1016,7 +1019,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gstock-and-apm-usdt-m-futures-17827791538689",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -1026,7 +1030,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gstockusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538688",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -1036,7 +1041,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-apmusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538687",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -1046,7 +1052,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gld-and-tlt-usdt-m-futures-17827791538686",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -1056,7 +1063,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gld-and-tlt-usdt-m-futures-17827791538686",
           "dates": [
             "2026-09-18",
-            "2026-09-19"
+            "2026-09-19",
+            "2026-09-20"
           ]
         },
         {
@@ -1427,7 +1435,6 @@
           "detail": "EMBER 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-ember-to-innovation-zone-17827791538534",
           "dates": [
-            "2026-09-13",
             "2026-09-14"
           ]
         },
@@ -1437,7 +1444,6 @@
           "detail": "CME 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-cme-to-innovation-zone-17827791538521",
           "dates": [
-            "2026-09-13",
             "2026-09-14"
           ]
         },
@@ -1447,17 +1453,7 @@
           "detail": "FLYBRAIN 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-flybrain-to-innovation-zone-17827791538520",
           "dates": [
-            "2026-09-13",
             "2026-09-14"
-          ]
-        },
-        {
-          "token": "BATON",
-          "type": "Meme+ 现货",
-          "detail": "BATON 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538526",
-          "dates": [
-            "2026-09-13"
           ]
         }
       ]
