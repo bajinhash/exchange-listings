@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T14:11:12.528Z",
+  "updatedAt": "2026-09-19T14:58:58.404Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -47,31 +47,31 @@
         {
           "token": "FXNW",
           "type": "现货上线",
-          "detail": "Gate 将上线 FastX Network (FXNW) 现货交易、闪兑交易并开启 CandyDrop1 天前987",
+          "detail": "Gate 将上线 FastX Network (FXNW) 现货交易、闪兑交易并开启 CandyDrop1 天前1,007",
           "url": "https://www.gate.com/zh/announcements/article/101835"
         },
         {
           "token": "SCHIFFY",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 PERK (perk.money)、Wire (Wire)、SCHIFFY (SCHIFFY)、Hound (Dividend Hou...1 天前703",
+          "detail": "Gate 打金狗首发上线 PERK (perk.money)、Wire (Wire)、SCHIFFY (SCHIFFY)、Hound (Dividend Hou...1 天前718",
           "url": "https://www.gate.com/zh/announcements/article/101831"
         },
         {
           "token": "PATH",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 PATH (UiPath) 等 7 个合约交易、交易机器...1 天前835",
+          "detail": "Gate 合约股票专区将上线 PATH (UiPath) 等 7 个合约交易、交易机器...1 天前844",
           "url": "https://www.gate.com/zh/announcements/article/101826"
         },
         {
           "token": "SOL",
           "type": "上线",
-          "detail": "SOL 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT1 天前837",
+          "detail": "SOL 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT1 天前849",
           "url": "https://www.gate.com/zh/announcements/article/101823"
         },
         {
           "token": "BNB",
           "type": "上线",
-          "detail": "BNB 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT1 天前833",
+          "detail": "BNB 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT1 天前841",
           "url": "https://www.gate.com/zh/announcements/article/101822"
         },
         {
@@ -95,7 +95,7 @@
         {
           "token": "LAPTOP",
           "type": "现货上线",
-          "detail": "Gate 将上线  Hunter Biden's Laptop (LAPTOP) 现货交易与闪兑交易1 天前1,623",
+          "detail": "Gate 将上线  Hunter Biden's Laptop (LAPTOP) 现货交易与闪兑交易1 天前1,630",
           "url": "https://www.gate.com/zh/announcements/article/101812"
         }
       ]
