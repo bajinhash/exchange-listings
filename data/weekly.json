@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-13",
   "weekEnd": "2026-09-19",
-  "updatedAt": "2026-09-18T16:54:04.618Z",
+  "updatedAt": "2026-09-19T14:02:12.877Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -502,6 +502,17 @@
     "gateio": {
       "listings": [
         {
+          "token": "SOL",
+          "type": "上线",
+          "detail": "600 SOL 空投：持仓交易，瓜分多重奖励8 小时前832",
+          "url": "https://www.gate.com/zh/announcements/article/101749",
+          "dates": [
+            "2026-09-15",
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
           "token": "FXNW",
           "type": "现货上线",
           "detail": "Gate 将上线 FastX Network (FXNW) 现货交易、闪兑交易并开启 CandyDrop1 小时前170",
@@ -522,13 +533,63 @@
           ]
         },
         {
-          "token": "SOL",
-          "type": "上线",
-          "detail": "600 SOL 空投：持仓交易，瓜分多重奖励8 小时前832",
-          "url": "https://www.gate.com/zh/announcements/article/101749",
+          "token": "PATH",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 PATH (UiPath) 等 7 个合约交易、交易机器...6 小时前359",
+          "url": "https://www.gate.com/zh/announcements/article/101826",
           "dates": [
-            "2026-09-15",
-            "2026-09-18"
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "BNB",
+          "type": "上线",
+          "detail": "BNB 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT7 小时前399",
+          "url": "https://www.gate.com/zh/announcements/article/101822",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "QBTX",
+          "type": "上线",
+          "detail": "QBTX（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101817",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "QUBX",
+          "type": "上线",
+          "detail": "QUBX（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101817",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "AXTX",
+          "type": "上线",
+          "detail": "AXTX（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101817",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "LAPTOP",
+          "type": "现货上线",
+          "detail": "Gate 将上线  Hunter Biden's Laptop (LAPTOP) 现货交易与闪兑交易12 小时前1,254",
+          "url": "https://www.gate.com/zh/announcements/article/101812",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
           ]
         },
         {
@@ -548,60 +609,6 @@
           "url": "https://www.gate.com/zh/announcements/article/101791",
           "dates": [
             "2026-09-17",
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "PATH",
-          "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 PATH (UiPath) 等 7 个合约交易、交易机器...6 小时前359",
-          "url": "https://www.gate.com/zh/announcements/article/101826",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "BNB",
-          "type": "上线",
-          "detail": "BNB 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT7 小时前399",
-          "url": "https://www.gate.com/zh/announcements/article/101822",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "QBTX",
-          "type": "上线",
-          "detail": "QBTX（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101817",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "QUBX",
-          "type": "上线",
-          "detail": "QUBX（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101817",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "AXTX",
-          "type": "上线",
-          "detail": "AXTX（同公告含 3 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101817",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "LAPTOP",
-          "type": "现货上线",
-          "detail": "Gate 将上线  Hunter Biden's Laptop (LAPTOP) 现货交易与闪兑交易12 小时前1,254",
-          "url": "https://www.gate.com/zh/announcements/article/101812",
-          "dates": [
             "2026-09-18"
           ]
         },
@@ -963,14 +970,112 @@
     "mexc": {
       "listings": [
         {
+          "token": "PATH",
+          "type": "美股合约",
+          "detail": "PATH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "CYPH",
+          "type": "美股合约",
+          "detail": "CYPH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "AGPU",
+          "type": "美股合约",
+          "detail": "AGPU（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "GSTOCK",
+          "type": "跟单合约",
+          "detail": "GSTOCK（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gstock-and-apm-usdt-m-futures-17827791538689",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "APM",
+          "type": "跟单合约",
+          "detail": "APM（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gstock-and-apm-usdt-m-futures-17827791538689",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "GSTOCK",
+          "type": "上线",
+          "detail": "MEXC 合約創新區將於 2026年9月18日 14:00 (UTC+8) 上線 GSTOCKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gstockusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538688",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "APM",
+          "type": "上线",
+          "detail": "MEXC 合約創新區將於 2026年9月18日 14:00 (UTC+8) 上線 APMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-apmusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538687",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "GLD",
+          "type": "跟单合约",
+          "detail": "GLD（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gld-and-tlt-usdt-m-futures-17827791538686",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "TLT",
+          "type": "跟单合约",
+          "detail": "TLT（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gld-and-tlt-usdt-m-futures-17827791538686",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19"
+          ]
+        },
+        {
+          "token": "INU",
+          "type": "Meme+ 现货",
+          "detail": "INU 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538705",
+          "dates": [
+            "2026-09-19"
+          ]
+        },
+        {
           "token": "GLD",
           "type": "美股合约",
           "detail": "GLD（同公告含 2 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gld-and-tlt-stock-futures-with-0-fee-trading-on-sep-17-17827791538659",
           "dates": [
             "2026-09-17",
-            "2026-09-18",
-            "2026-09-19"
+            "2026-09-18"
           ]
         },
         {
@@ -980,8 +1085,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gld-and-tlt-stock-futures-with-0-fee-trading-on-sep-17-17827791538659",
           "dates": [
             "2026-09-17",
-            "2026-09-18",
-            "2026-09-19"
+            "2026-09-18"
           ]
         },
         {
@@ -991,8 +1095,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tolly-allinu-and-果蝇-usdt-m-futures-17827791538650",
           "dates": [
             "2026-09-17",
-            "2026-09-18",
-            "2026-09-19"
+            "2026-09-18"
           ]
         },
         {
@@ -1002,8 +1105,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tolly-allinu-and-果蝇-usdt-m-futures-17827791538650",
           "dates": [
             "2026-09-17",
-            "2026-09-18",
-            "2026-09-19"
+            "2026-09-18"
           ]
         },
         {
@@ -1013,8 +1115,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649",
           "dates": [
             "2026-09-17",
-            "2026-09-18",
-            "2026-09-19"
+            "2026-09-18"
           ]
         },
         {
@@ -1024,8 +1125,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649",
           "dates": [
             "2026-09-17",
-            "2026-09-18",
-            "2026-09-19"
+            "2026-09-18"
           ]
         },
         {
@@ -1035,88 +1135,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649",
           "dates": [
             "2026-09-17",
-            "2026-09-18",
-            "2026-09-19"
-          ]
-        },
-        {
-          "token": "PATH",
-          "type": "美股合约",
-          "detail": "PATH（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "CYPH",
-          "type": "美股合约",
-          "detail": "CYPH（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "AGPU",
-          "type": "美股合约",
-          "detail": "AGPU（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "GSTOCK",
-          "type": "跟单合约",
-          "detail": "GSTOCK（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gstock-and-apm-usdt-m-futures-17827791538689",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "APM",
-          "type": "跟单合约",
-          "detail": "APM（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gstock-and-apm-usdt-m-futures-17827791538689",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "GSTOCK",
-          "type": "上线",
-          "detail": "MEXC 合約創新區將於 2026年9月18日 14:00 (UTC+8) 上線 GSTOCKUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gstockusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538688",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "APM",
-          "type": "上线",
-          "detail": "MEXC 合約創新區將於 2026年9月18日 14:00 (UTC+8) 上線 APMUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-apmusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538687",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "GLD",
-          "type": "跟单合约",
-          "detail": "GLD（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gld-and-tlt-usdt-m-futures-17827791538686",
-          "dates": [
-            "2026-09-18"
-          ]
-        },
-        {
-          "token": "TLT",
-          "type": "跟单合约",
-          "detail": "TLT（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gld-and-tlt-usdt-m-futures-17827791538686",
-          "dates": [
             "2026-09-18"
           ]
         },

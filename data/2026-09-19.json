@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-18T16:54:04.432Z",
+  "updatedAt": "2026-09-19T14:02:12.710Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -47,14 +47,56 @@
         {
           "token": "FXNW",
           "type": "现货上线",
-          "detail": "Gate 将上线 FastX Network (FXNW) 现货交易、闪兑交易并开启 CandyDrop3 小时前259",
+          "detail": "Gate 将上线 FastX Network (FXNW) 现货交易、闪兑交易并开启 CandyDrop1 天前985",
           "url": "https://www.gate.com/zh/announcements/article/101835"
         },
         {
           "token": "SCHIFFY",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 PERK (perk.money)、Wire (Wire)、SCHIFFY (SCHIFFY)、Hound (Dividend Hou...6 小时前287",
+          "detail": "Gate 打金狗首发上线 PERK (perk.money)、Wire (Wire)、SCHIFFY (SCHIFFY)、Hound (Dividend Hou...1 天前702",
           "url": "https://www.gate.com/zh/announcements/article/101831"
+        },
+        {
+          "token": "PATH",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 PATH (UiPath) 等 7 个合约交易、交易机器...1 天前833",
+          "url": "https://www.gate.com/zh/announcements/article/101826"
+        },
+        {
+          "token": "SOL",
+          "type": "上线",
+          "detail": "SOL 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT1 天前836",
+          "url": "https://www.gate.com/zh/announcements/article/101823"
+        },
+        {
+          "token": "BNB",
+          "type": "上线",
+          "detail": "BNB 生态 Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT1 天前833",
+          "url": "https://www.gate.com/zh/announcements/article/101822"
+        },
+        {
+          "token": "QBTX",
+          "type": "上线",
+          "detail": "QBTX（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101817"
+        },
+        {
+          "token": "QUBX",
+          "type": "上线",
+          "detail": "QUBX（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101817"
+        },
+        {
+          "token": "AXTX",
+          "type": "上线",
+          "detail": "AXTX（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101817"
+        },
+        {
+          "token": "LAPTOP",
+          "type": "现货上线",
+          "detail": "Gate 将上线  Hunter Biden's Laptop (LAPTOP) 现货交易与闪兑交易1 天前1,620",
+          "url": "https://www.gate.com/zh/announcements/article/101812"
         }
       ]
     },
@@ -107,46 +149,64 @@
     "mexc": {
       "listings": [
         {
-          "token": "GLD",
+          "token": "INU",
+          "type": "Meme+ 现货",
+          "detail": "INU 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538705"
+        },
+        {
+          "token": "PATH",
           "type": "美股合约",
+          "detail": "PATH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693"
+        },
+        {
+          "token": "CYPH",
+          "type": "美股合约",
+          "detail": "CYPH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693"
+        },
+        {
+          "token": "AGPU",
+          "type": "美股合约",
+          "detail": "AGPU（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693"
+        },
+        {
+          "token": "GSTOCK",
+          "type": "跟单合约",
+          "detail": "GSTOCK（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gstock-and-apm-usdt-m-futures-17827791538689"
+        },
+        {
+          "token": "APM",
+          "type": "跟单合约",
+          "detail": "APM（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gstock-and-apm-usdt-m-futures-17827791538689"
+        },
+        {
+          "token": "GSTOCK",
+          "type": "上线",
+          "detail": "MEXC 合約創新區將於 2026年9月18日 14:00 (UTC+8) 上線 GSTOCKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gstockusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538688"
+        },
+        {
+          "token": "APM",
+          "type": "上线",
+          "detail": "MEXC 合約創新區將於 2026年9月18日 14:00 (UTC+8) 上線 APMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-apmusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538687"
+        },
+        {
+          "token": "GLD",
+          "type": "跟单合约",
           "detail": "GLD（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gld-and-tlt-stock-futures-with-0-fee-trading-on-sep-17-17827791538659"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gld-and-tlt-usdt-m-futures-17827791538686"
         },
         {
           "token": "TLT",
-          "type": "美股合约",
+          "type": "跟单合约",
           "detail": "TLT（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gld-and-tlt-stock-futures-with-0-fee-trading-on-sep-17-17827791538659"
-        },
-        {
-          "token": "TOLLY",
-          "type": "跟单合约",
-          "detail": "TOLLY（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tolly-allinu-and-果蝇-usdt-m-futures-17827791538650"
-        },
-        {
-          "token": "ALLINU",
-          "type": "跟单合约",
-          "detail": "ALLINU（同公告含 2 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tolly-allinu-and-果蝇-usdt-m-futures-17827791538650"
-        },
-        {
-          "token": "TREAD",
-          "type": "跟单合约",
-          "detail": "TREAD（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649"
-        },
-        {
-          "token": "MUSEBOOK",
-          "type": "跟单合约",
-          "detail": "MUSEBOOK（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649"
-        },
-        {
-          "token": "ILMN",
-          "type": "跟单合约",
-          "detail": "ILMN（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gld-and-tlt-usdt-m-futures-17827791538686"
         }
       ]
     }
