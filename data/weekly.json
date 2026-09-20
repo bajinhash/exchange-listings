@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-09-14",
-  "weekEnd": "2026-09-20",
-  "updatedAt": "2026-09-20T15:02:42.515Z",
+  "weekStart": "2026-09-15",
+  "weekEnd": "2026-09-21",
+  "updatedAt": "2026-09-20T16:40:25.970Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -1464,33 +1464,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538562",
           "dates": [
             "2026-09-15"
-          ]
-        },
-        {
-          "token": "EMBER",
-          "type": "上线",
-          "detail": "EMBER 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-ember-to-innovation-zone-17827791538534",
-          "dates": [
-            "2026-09-14"
-          ]
-        },
-        {
-          "token": "CME",
-          "type": "上线",
-          "detail": "CME 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-cme-to-innovation-zone-17827791538521",
-          "dates": [
-            "2026-09-14"
-          ]
-        },
-        {
-          "token": "FLYBRAIN",
-          "type": "上线",
-          "detail": "FLYBRAIN 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-flybrain-to-innovation-zone-17827791538520",
-          "dates": [
-            "2026-09-14"
           ]
         }
       ]
