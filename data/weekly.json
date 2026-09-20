@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-14",
   "weekEnd": "2026-09-20",
-  "updatedAt": "2026-09-19T16:15:16.599Z",
+  "updatedAt": "2026-09-20T14:18:50.654Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -502,6 +502,60 @@
     "gateio": {
       "listings": [
         {
+          "token": "GSTOCK",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 GSTOCK (Gstock)、GCAT (Genius Cat)、QUEEF (Queefcoin)、FLX (FAIRLAUNCH...4 小时前221",
+          "url": "https://www.gate.com/zh/announcements/article/101848",
+          "dates": [
+            "2026-09-20"
+          ]
+        },
+        {
+          "token": "XAG",
+          "type": "上线",
+          "detail": "白银合约热浪：交易 XAG 合约，瓜分 USDT 和 SLVON 奖池7 小时前503",
+          "url": "https://www.gate.com/zh/announcements/article/101842",
+          "dates": [
+            "2026-09-20"
+          ]
+        },
+        {
+          "token": "SPCX",
+          "type": "美股合约",
+          "detail": "交易股票合约：单人领 $3,000 SPCX 仓位空投7 小时前475",
+          "url": "https://www.gate.com/zh/announcements/article/101841",
+          "dates": [
+            "2026-09-20"
+          ]
+        },
+        {
+          "token": "BTC",
+          "type": "永续合约",
+          "detail": "BTC（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101839",
+          "dates": [
+            "2026-09-20"
+          ]
+        },
+        {
+          "token": "USD1",
+          "type": "永续合约",
+          "detail": "USD1（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101839",
+          "dates": [
+            "2026-09-20"
+          ]
+        },
+        {
+          "token": "JEANPHIL",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 JEANPHIL (Jean Phil)、FLEX (Reflex Monster)、URANUS (Uranus)、FEELSGOO...10 小时前330",
+          "url": "https://www.gate.com/zh/announcements/article/101836",
+          "dates": [
+            "2026-09-20"
+          ]
+        },
+        {
           "token": "SOL",
           "type": "上线",
           "detail": "600 SOL 空投：持仓交易，瓜分多重奖励8 小时前832",
@@ -509,8 +563,7 @@
           "dates": [
             "2026-09-15",
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -520,8 +573,7 @@
           "url": "https://www.gate.com/zh/announcements/article/101835",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -531,8 +583,7 @@
           "url": "https://www.gate.com/zh/announcements/article/101831",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -542,8 +593,7 @@
           "url": "https://www.gate.com/zh/announcements/article/101826",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -553,8 +603,7 @@
           "url": "https://www.gate.com/zh/announcements/article/101822",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -564,8 +613,7 @@
           "url": "https://www.gate.com/zh/announcements/article/101817",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -575,8 +623,7 @@
           "url": "https://www.gate.com/zh/announcements/article/101817",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -586,8 +633,7 @@
           "url": "https://www.gate.com/zh/announcements/article/101817",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -975,8 +1021,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -986,8 +1031,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -997,8 +1041,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -1008,8 +1051,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gstock-and-apm-usdt-m-futures-17827791538689",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -1019,8 +1061,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gstock-and-apm-usdt-m-futures-17827791538689",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -1030,8 +1071,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gstockusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538688",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -1041,8 +1081,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-apmusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538687",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -1052,8 +1091,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gld-and-tlt-usdt-m-futures-17827791538686",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
@@ -1063,8 +1101,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gld-and-tlt-usdt-m-futures-17827791538686",
           "dates": [
             "2026-09-18",
-            "2026-09-19",
-            "2026-09-20"
+            "2026-09-19"
           ]
         },
         {
