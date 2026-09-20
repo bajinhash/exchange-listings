@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updatedAt": "2026-09-20T14:28:18.876Z",
+  "updatedAt": "2026-09-20T15:02:42.357Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,19 +21,19 @@
         {
           "token": "GSTOCK",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 GSTOCK (Gstock)、GCAT (Genius Cat)、QUEEF (Queefcoin)、FLX (FAIRLAUNCH...5 小时前229",
+          "detail": "Gate 打金狗首发上线 GSTOCK (Gstock)、GCAT (Genius Cat)、QUEEF (Queefcoin)、FLX (FAIRLAUNCH...5 小时前246",
           "url": "https://www.gate.com/zh/announcements/article/101848"
         },
         {
           "token": "XAG",
           "type": "上线",
-          "detail": "白银合约热浪：交易 XAG 合约，瓜分 USDT 和 SLVON 奖池7 小时前515",
+          "detail": "白银合约热浪：交易 XAG 合约，瓜分 USDT 和 SLVON 奖池8 小时前538",
           "url": "https://www.gate.com/zh/announcements/article/101842"
         },
         {
           "token": "SPCX",
           "type": "美股合约",
-          "detail": "交易股票合约：单人领 $3,000 SPCX 仓位空投7 小时前492",
+          "detail": "交易股票合约：单人领 $3,000 SPCX 仓位空投8 小时前513",
           "url": "https://www.gate.com/zh/announcements/article/101841"
         },
         {
@@ -51,7 +51,7 @@
         {
           "token": "JEANPHIL",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 JEANPHIL (Jean Phil)、FLEX (Reflex Monster)、URANUS (Uranus)、FEELSGOO...10 小时前333",
+          "detail": "Gate 打金狗首发上线 JEANPHIL (Jean Phil)、FLEX (Reflex Monster)、URANUS (Uranus)、FEELSGOO...11 小时前349",
           "url": "https://www.gate.com/zh/announcements/article/101836"
         }
       ]
