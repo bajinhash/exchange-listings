@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-21T17:21:24.146Z",
+  "updatedAt": "2026-09-21T18:28:52.314Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,7 +21,7 @@
         {
           "token": "OURA",
           "type": "永续合约",
-          "detail": "Gate 股票专区已上线 OURAUSDT（奥拉智能戒指）永续合约盘前交易...2 小时前199",
+          "detail": "Gate 股票专区已上线 OURAUSDT（奥拉智能戒指）永续合约盘前交易...3 小时前241",
           "url": "https://www.gate.com/zh/announcements/article/101874"
         },
         {
@@ -35,12 +35,6 @@
           "type": "跟单合约",
           "detail": "ORBIO（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/101872"
-        },
-        {
-          "token": "CALI",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 NOSH (UseNosh)、中国人能飞（中国人能飞火箭）、CALI (CALI)...7 小时前278",
-          "url": "https://www.gate.com/zh/announcements/article/101868"
         }
       ]
     },
