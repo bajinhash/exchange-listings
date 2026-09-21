@@ -1,0 +1,122 @@
+{
+  "date": "2026-09-22",
+  "updatedAt": "2026-09-21T16:34:37.700Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "OURA",
+          "type": "永续合约",
+          "detail": "Gate 股票专区已上线 OURAUSDT（奥拉智能戒指）永续合约盘前交易...2 小时前155",
+          "url": "https://www.gate.com/zh/announcements/article/101874"
+        },
+        {
+          "token": "STAMP",
+          "type": "跟单合约",
+          "detail": "STAMP（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101872"
+        },
+        {
+          "token": "ORBIO",
+          "type": "跟单合约",
+          "detail": "ORBIO（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/101872"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "USDBRL",
+          "type": "永续合约",
+          "detail": "Bitget 关于上线 USDBRLUSDT 热门外汇永续合约的公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895782"
+        },
+        {
+          "token": "TLT",
+          "type": "美股合约",
+          "detail": "TLT（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895779"
+        },
+        {
+          "token": "JEPQ",
+          "type": "美股合约",
+          "detail": "JEPQ（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895779"
+        },
+        {
+          "token": "CORZ",
+          "type": "美股合约",
+          "detail": "CORZ（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895779"
+        },
+        {
+          "token": "BLSH",
+          "type": "美股合约",
+          "detail": "BLSH（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895779"
+        },
+        {
+          "token": "SECZ",
+          "type": "美股合约",
+          "detail": "SECZ（同公告含 5 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895779"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GSTOCK",
+          "type": "上线",
+          "detail": "GSTOCK 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-gstock-to-innovation-zone-17827791538744"
+        },
+        {
+          "token": "POLYMARKET",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 將於 9月21日 上線 POLYMARKET Pre-IPO 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-polymarket-pre-ipo-futures-on-sep-21-17827791538742"
+        },
+        {
+          "token": "KOKUSAI",
+          "type": "美股合约",
+          "detail": "KOKUSAI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741"
+        },
+        {
+          "token": "ACN",
+          "type": "美股合约",
+          "detail": "ACN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741"
+        },
+        {
+          "token": "MPWR",
+          "type": "美股合约",
+          "detail": "MPWR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741"
+        },
+        {
+          "token": "HUT",
+          "type": "美股合约",
+          "detail": "HUT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741"
+        }
+      ]
+    }
+  }
+}
