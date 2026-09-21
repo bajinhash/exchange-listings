@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-16",
   "weekEnd": "2026-09-22",
-  "updatedAt": "2026-09-21T16:34:37.880Z",
+  "updatedAt": "2026-09-21T16:43:44.022Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -459,7 +459,7 @@
         {
           "token": "OURA",
           "type": "永续合约",
-          "detail": "Gate 股票专区已上线 OURAUSDT（奥拉智能戒指）永续合约盘前交易...2 小时前155",
+          "detail": "Gate 股票专区已上线 OURAUSDT（奥拉智能戒指）永续合约盘前交易...2 小时前168",
           "url": "https://www.gate.com/zh/announcements/article/101874",
           "dates": [
             "2026-09-22"
