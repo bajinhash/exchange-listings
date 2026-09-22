@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-16",
   "weekEnd": "2026-09-22",
-  "updatedAt": "2026-09-22T15:07:54.162Z",
+  "updatedAt": "2026-09-22T15:53:49.488Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -556,19 +556,19 @@
     "gateio": {
       "listings": [
         {
-          "token": "USDT7",
+          "token": "USDT8",
           "type": "上线",
-          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT7 小时前842",
-          "url": "https://www.gate.com/zh/announcements/article/101772",
+          "detail": "Robinhood Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT8 小时前642",
+          "url": "https://www.gate.com/zh/announcements/article/101805",
           "dates": [
-            "2026-09-16",
+            "2026-09-17",
             "2026-09-22"
           ]
         },
         {
           "token": "X7",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 X7 (x7)5 小时前288",
+          "detail": "Gate 打金狗首发上线 X7 (x7)6 小时前317",
           "url": "https://www.gate.com/zh/announcements/article/101897",
           "dates": [
             "2026-09-22"
@@ -577,7 +577,7 @@
         {
           "token": "MOONSHOT",
           "type": "永续合约",
-          "detail": "Gate 股票专区已上线 MOONSHOTUSDT（月之暗面 KIMI AI）永续合约盘前...6 小时前1,268",
+          "detail": "Gate 股票专区已上线 MOONSHOTUSDT（月之暗面 KIMI AI）永续合约盘前...7 小时前1,304",
           "url": "https://www.gate.com/zh/announcements/article/101894",
           "dates": [
             "2026-09-22"
@@ -586,7 +586,7 @@
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "CFD 掘金挑战：交易立领 XAUT，650,000 USDx 等值奖励放送6 小时前601",
+          "detail": "CFD 掘金挑战：交易立领 XAUT，650,000 USDx 等值奖励放送7 小时前638",
           "url": "https://www.gate.com/zh/announcements/article/101893",
           "dates": [
             "2026-09-22"
@@ -595,7 +595,7 @@
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "BTC & ETH 双核驱动：充值交易，开启超 $514,000 奖励7 小时前408",
+          "detail": "BTC & ETH 双核驱动：充值交易，开启超 $514,000 奖励8 小时前434",
           "url": "https://www.gate.com/zh/announcements/article/101888",
           "dates": [
             "2026-09-22"
@@ -604,7 +604,7 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "Gate 闲钱宝新增 USD1，开启享最高 8.16% 年化9 小时前606",
+          "detail": "Gate 闲钱宝新增 USD1，开启享最高 8.16% 年化9 小时前670",
           "url": "https://www.gate.com/zh/announcements/article/101883",
           "dates": [
             "2026-09-22"
@@ -613,7 +613,7 @@
         {
           "token": "GSTOCKBSC",
           "type": "现货上线",
-          "detail": "Gate 将上线 Gstock (GSTOCKBSC) 现货交易与闪兑交易13 小时前1,078",
+          "detail": "Gate 将上线 Gstock (GSTOCKBSC) 现货交易与闪兑交易13 小时前1,095",
           "url": "https://www.gate.com/zh/announcements/article/101877",
           "dates": [
             "2026-09-22"
@@ -852,15 +852,6 @@
           ]
         },
         {
-          "token": "USDT8",
-          "type": "上线",
-          "detail": "Robinhood Meme 合约狂欢：新人首单领 3 USDT，交易最高赢 8,000 USDT8 小时前642",
-          "url": "https://www.gate.com/zh/announcements/article/101805",
-          "dates": [
-            "2026-09-17"
-          ]
-        },
-        {
           "token": "METAG9",
           "type": "上线",
           "detail": "gStocks 福利限时享：交易持仓齐进阶，赢 $60,000 METAG9 小时前767",
@@ -910,6 +901,15 @@
           "type": "现货上线",
           "detail": "Gate 打金狗首发上线 ARGUS (Argus)、TOLLY (Tolly)、LONG (LONG)、Architects (Architects)、C...5 小时前405",
           "url": "https://www.gate.com/zh/announcements/article/101780",
+          "dates": [
+            "2026-09-16"
+          ]
+        },
+        {
+          "token": "USDT7",
+          "type": "上线",
+          "detail": "老友回归站：回归即领 100 USDT，交易再得 100 USDT7 小时前842",
+          "url": "https://www.gate.com/zh/announcements/article/101772",
           "dates": [
             "2026-09-16"
           ]

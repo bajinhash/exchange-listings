@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T15:07:54.016Z",
+  "updatedAt": "2026-09-22T15:53:49.361Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -91,43 +91,43 @@
         {
           "token": "X7",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 X7 (x7)5 小时前288",
+          "detail": "Gate 打金狗首发上线 X7 (x7)6 小时前317",
           "url": "https://www.gate.com/zh/announcements/article/101897"
         },
         {
           "token": "MOONSHOT",
           "type": "永续合约",
-          "detail": "Gate 股票专区已上线 MOONSHOTUSDT（月之暗面 KIMI AI）永续合约盘前...6 小时前1,268",
+          "detail": "Gate 股票专区已上线 MOONSHOTUSDT（月之暗面 KIMI AI）永续合约盘前...7 小时前1,304",
           "url": "https://www.gate.com/zh/announcements/article/101894"
         },
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "CFD 掘金挑战：交易立领 XAUT，650,000 USDx 等值奖励放送6 小时前601",
+          "detail": "CFD 掘金挑战：交易立领 XAUT，650,000 USDx 等值奖励放送7 小时前638",
           "url": "https://www.gate.com/zh/announcements/article/101893"
         },
         {
-          "token": "USDT7",
+          "token": "USDT8",
           "type": "上线",
-          "detail": "股指 CFD 交易派对：入场领 20 USDx，交易最高得 7,200 USDT7 小时前450",
+          "detail": "股指 CFD 交易派对：入场领 20 USDx，交易最高得 7,200 USDT8 小时前481",
           "url": "https://www.gate.com/zh/announcements/article/101889"
         },
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "BTC & ETH 双核驱动：充值交易，开启超 $514,000 奖励7 小时前408",
+          "detail": "BTC & ETH 双核驱动：充值交易，开启超 $514,000 奖励8 小时前434",
           "url": "https://www.gate.com/zh/announcements/article/101888"
         },
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "Gate 闲钱宝新增 USD1，开启享最高 8.16% 年化9 小时前606",
+          "detail": "Gate 闲钱宝新增 USD1，开启享最高 8.16% 年化9 小时前670",
           "url": "https://www.gate.com/zh/announcements/article/101883"
         },
         {
           "token": "GSTOCKBSC",
           "type": "现货上线",
-          "detail": "Gate 将上线 Gstock (GSTOCKBSC) 现货交易与闪兑交易13 小时前1,078",
+          "detail": "Gate 将上线 Gstock (GSTOCKBSC) 现货交易与闪兑交易13 小时前1,095",
           "url": "https://www.gate.com/zh/announcements/article/101877"
         }
       ]
