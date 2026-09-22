@@ -1,0 +1,135 @@
+{
+  "date": "2026-09-23",
+  "updatedAt": "2026-09-22T17:29:49.050Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "OURA",
+          "type": "Pre-IPO 上线",
+          "detail": "全新上線：OURAUSDT Pre-IPO 永續合約將於 2026 年 9 月 22 日13:30 UTC 登陸 Bybit 平台",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-ourausdt-on-bybit-pre-ipo-tradfi-perpetual-on-sep-22-2026-1-30pm-utc--art3ac526788c1e/"
+        },
+        {
+          "token": "SDGR",
+          "type": "永续合约",
+          "detail": "新幣上線：2026 年 9 月 22 日13:00 UTC 將上線 SDGRUSDT 之 Bybit TradFi 永續合約",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-sdgrusdt-on-bybit-tradfi-perpetual-on-sep-22-2026-1-00pm-utc--art2a8a6a044e70/"
+        },
+        {
+          "token": "URNM",
+          "type": "永续合约",
+          "detail": "新幣上線：2026 年 9 月 22 日13:00 UTC 將上線 URNMUSDT 之 Bybit TradFi 永續合約",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-urnmusdt-on-bybit-tradfi-perpetual-on-sep-22-2026-1-00pm-utc--artf8e9f58d496c/"
+        },
+        {
+          "token": "OKLO",
+          "type": "永续合约",
+          "detail": "新幣上線：2026 年 9 月 22 日13:00 UTC 將上線 OKLOUSDT 之 Bybit TradFi 永續合約",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-oklousdt-on-bybit-tradfi-perpetual-on-sep-22-2026-1-00pm-utc--art76abfeb0eb5a/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "X7",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 X7 (x7)7 小时前371",
+          "url": "https://www.gate.com/zh/announcements/article/101897"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "OURA",
+          "type": "永续合约",
+          "detail": "Bitget已上线OURA（奥拉戒指）IPO盘前永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895865"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "DAL",
+          "type": "美股合约",
+          "detail": "DAL（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538780"
+        },
+        {
+          "token": "HONA",
+          "type": "美股合约",
+          "detail": "HONA（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538780"
+        },
+        {
+          "token": "GSTOCK",
+          "type": "上线",
+          "detail": "GSTOCK 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-gstock-to-innovation-zone-17827791538744"
+        },
+        {
+          "token": "POLYMARKET",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 將於 9月21日 上線 POLYMARKET Pre-IPO 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-polymarket-pre-ipo-futures-on-sep-21-17827791538742"
+        },
+        {
+          "token": "KOKUSAI",
+          "type": "美股合约",
+          "detail": "KOKUSAI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741"
+        },
+        {
+          "token": "ACN",
+          "type": "美股合约",
+          "detail": "ACN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741"
+        },
+        {
+          "token": "MPWR",
+          "type": "美股合约",
+          "detail": "MPWR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741"
+        },
+        {
+          "token": "HUT",
+          "type": "美股合约",
+          "detail": "HUT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741"
+        },
+        {
+          "token": "PATH",
+          "type": "跟单合约",
+          "detail": "PATH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-path-cyph-and-agpu-usdt-m-futures-17827791538738"
+        },
+        {
+          "token": "CYPH",
+          "type": "跟单合约",
+          "detail": "CYPH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-path-cyph-and-agpu-usdt-m-futures-17827791538738"
+        },
+        {
+          "token": "AGPU",
+          "type": "跟单合约",
+          "detail": "AGPU（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-path-cyph-and-agpu-usdt-m-futures-17827791538738"
+        }
+      ]
+    }
+  }
+}
