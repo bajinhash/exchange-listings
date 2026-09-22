@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-16",
   "weekEnd": "2026-09-22",
-  "updatedAt": "2026-09-22T14:53:46.643Z",
+  "updatedAt": "2026-09-22T15:07:54.162Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -568,7 +568,7 @@
         {
           "token": "X7",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 X7 (x7)5 小时前282",
+          "detail": "Gate 打金狗首发上线 X7 (x7)5 小时前288",
           "url": "https://www.gate.com/zh/announcements/article/101897",
           "dates": [
             "2026-09-22"
@@ -577,7 +577,7 @@
         {
           "token": "MOONSHOT",
           "type": "永续合约",
-          "detail": "Gate 股票专区已上线 MOONSHOTUSDT（月之暗面 KIMI AI）永续合约盘前...6 小时前1,265",
+          "detail": "Gate 股票专区已上线 MOONSHOTUSDT（月之暗面 KIMI AI）永续合约盘前...6 小时前1,268",
           "url": "https://www.gate.com/zh/announcements/article/101894",
           "dates": [
             "2026-09-22"
@@ -586,7 +586,7 @@
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "CFD 掘金挑战：交易立领 XAUT，650,000 USDx 等值奖励放送6 小时前596",
+          "detail": "CFD 掘金挑战：交易立领 XAUT，650,000 USDx 等值奖励放送6 小时前601",
           "url": "https://www.gate.com/zh/announcements/article/101893",
           "dates": [
             "2026-09-22"
@@ -604,7 +604,7 @@
         {
           "token": "USD1",
           "type": "上线",
-          "detail": "Gate 闲钱宝新增 USD1，开启享最高 8.16% 年化8 小时前599",
+          "detail": "Gate 闲钱宝新增 USD1，开启享最高 8.16% 年化9 小时前606",
           "url": "https://www.gate.com/zh/announcements/article/101883",
           "dates": [
             "2026-09-22"
@@ -613,7 +613,7 @@
         {
           "token": "GSTOCKBSC",
           "type": "现货上线",
-          "detail": "Gate 将上线 Gstock (GSTOCKBSC) 现货交易与闪兑交易12 小时前1,076",
+          "detail": "Gate 将上线 Gstock (GSTOCKBSC) 现货交易与闪兑交易13 小时前1,078",
           "url": "https://www.gate.com/zh/announcements/article/101877",
           "dates": [
             "2026-09-22"
@@ -921,7 +921,7 @@
         {
           "token": "OURA",
           "type": "永续合约",
-          "detail": "Bitget 重磅上线 OURAUSDT 【IPO盘前永续合约】| 提前博弈 Oura 智能戒指 IPO，抢跑全球智能穿戴独角兽定价权！",
+          "detail": "Bitget已上线OURA（奥拉戒指）IPO盘前永续合约",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603895865",
           "dates": [
             "2026-09-22"
