@@ -1,10 +1,55 @@
 {
   "weekStart": "2026-09-17",
   "weekEnd": "2026-09-23",
-  "updatedAt": "2026-09-22T17:29:49.195Z",
+  "updatedAt": "2026-09-23T15:04:36.880Z",
   "exchanges": {
     "binance": {
       "listings": [
+        {
+          "token": "OURA",
+          "type": "Pre-IPO 上线",
+          "detail": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+          "url": "https://www.binance.com/en/support/announcement/8bd2b3a7684749bba472e71fc3ad8043",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "ADGM",
+          "type": "上线",
+          "detail": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+          "url": "https://www.binance.com/en/support/announcement/c61f3c18a3004f968b53fb09841f7bc7",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "AGPUB",
+          "type": "现货上线",
+          "detail": "AGPUB（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/3cc589ca05904ca28e6ddebeb14148db",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "AMCB",
+          "type": "现货上线",
+          "detail": "AMCB（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/3cc589ca05904ca28e6ddebeb14148db",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "CYPHB",
+          "type": "现货上线",
+          "detail": "CYPHB（同公告含 3 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/3cc589ca05904ca28e6ddebeb14148db",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
         {
           "token": "MOONSHOT",
           "type": "Pre-IPO 上线",
@@ -81,6 +126,33 @@
       ],
       "alpha": [
         {
+          "token": "CYPHB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CYPHB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x0393c28065c54e48b45bdb05eff5c401cf891da1",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "AMCB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AMCB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x96e7d606e229448ef817a7f35fd7394c3e15d00c",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "AGPUB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AGPUB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xa455ae0f04a2b86eee47adca98985e61d14cbefb",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
           "token": "APM",
           "type": "上线",
           "detail": "Binance Alpha 上线 APM - AI驱动的时尚产业创新",
@@ -94,6 +166,78 @@
     },
     "okx": {
       "listings": [
+        {
+          "token": "OURA",
+          "type": "Pre-IPO 上线",
+          "detail": "OKX 關於上線 OURA/USDT Pre-IPO 盤前永續合約的公告發佈於 2026年9月23日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-pre-ipo-pre-market-perpetual-futures-for-oura-usdt",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "FLOCKUSD",
+          "type": "永续合约",
+          "detail": "FLOCKUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-flockusd-minausd-cashcatusd-x-perps",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "MINAUSD",
+          "type": "永续合约",
+          "detail": "MINAUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-flockusd-minausd-cashcatusd-x-perps",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "CASHCATUSD",
+          "type": "永续合约",
+          "detail": "CASHCATUSD（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-flockusd-minausd-cashcatusd-x-perps",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "USAR",
+          "type": "永续合约",
+          "detail": "OKX 關於 USARUSD 以及 IRENUSD X-合約（X-Perp）正式上線的公告發佈於 2026年9月23日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-usarusd-and-irenusd-equity-x-perps",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "MSTU",
+          "type": "美股合约",
+          "detail": "MSTU（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-mstu-kstr-cyph-and-gtlb-equities",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "KSTR",
+          "type": "美股合约",
+          "detail": "KSTR（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-mstu-kstr-cyph-and-gtlb-equities",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "CYPH",
+          "type": "美股合约",
+          "detail": "CYPH（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-mstu-kstr-cyph-and-gtlb-equities",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
         {
           "token": "KMNO",
           "type": "永续合约",
@@ -265,6 +409,15 @@
           ]
         },
         {
+          "token": "POLYMARKET",
+          "type": "Pre-IPO 上线",
+          "detail": "全新上線：POLYMARKETUSDT Pre-IPO 永續合約將於 2026 年 9 月 23 日9:00 UTC 登陸 Bybit 平台",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-polymarketusdt-on-bybit-pre-ipo-tradfi-perpetual-on-sep-23-2026-9-00am-utc--art447e5c5467ec/",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
           "token": "PONS",
           "type": "现货上线",
           "detail": "Pons (PONS)即將上線 Bybit 現貨平台",
@@ -371,6 +524,69 @@
     "kucoin": {
       "listings": [
         {
+          "token": "OURA",
+          "type": "Pre-IPO 上线",
+          "detail": "KuCoin Futures New Listing: OURAUSDT Pre-IPO Stock Index Perpetual Contract Pre-Market Trading",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-ourausdt-pre-ipo-stock-index-perpetual-contract-pre-market-trading",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "AAPLX",
+          "type": "现货上线",
+          "detail": "AAPLX（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-aaplx-hoodx-mstrx-and-spcxx",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "HOODX",
+          "type": "现货上线",
+          "detail": "HOODX（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-aaplx-hoodx-mstrx-and-spcxx",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "MSTRX",
+          "type": "现货上线",
+          "detail": "MSTRX（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-aaplx-hoodx-mstrx-and-spcxx",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "SPCXXAAPLX",
+          "type": "现货上线",
+          "detail": "SPCXXAAPLX（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-aaplx-hoodx-mstrx-and-spcxx",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "SPCXX",
+          "type": "现货上线",
+          "detail": "SPCXX（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-aaplx-hoodx-mstrx-and-spcxx",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "MOONSHOT",
+          "type": "Pre-IPO 上线",
+          "detail": "KuCoin Futures New Listing: MOONSHOTUSDT Pre-IPO Stock Index Perpetual Contract Pre-Market Trading",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-moonshotusdt-pre-ipo-stock-index-perpetual-contract-pre-market-trading",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
           "token": "COIN",
           "type": "杠杆上线",
           "detail": "KuCoin Futures Will Launch the COIN-Margined BTC Quarterly 1225 Delivery Contract",
@@ -411,12 +627,56 @@
     "gateio": {
       "listings": [
         {
-          "token": "X7",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 X7 (x7)6 小时前317",
-          "url": "https://www.gate.com/zh/announcements/article/101897",
+          "token": "C2C",
+          "type": "上线",
+          "detail": "Gate C2C 金秋礼遇季：首单 & 交易享 100% 中奖4 小时前519",
+          "url": "https://www.gate.com/zh/announcements/article/101925",
           "dates": [
-            "2026-09-22",
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "BABYCATE",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 BABYCATE (Baby Catecoin)、BOP (Bop)5 小时前257",
+          "url": "https://www.gate.com/zh/announcements/article/101924",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "AGRIPPA",
+          "type": "跟单合约",
+          "detail": "Gate 合约 HOOD 专区已上线 AGRIPPA 合约交易、交易机器人、跟单功能5 小时前330",
+          "url": "https://www.gate.com/zh/announcements/article/101922",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "BCH3L6",
+          "type": "上线",
+          "detail": "Gate ETF 新客福利：$1 开启交易，最高领 50 USDT 等值 BCH3L6 小时前410",
+          "url": "https://www.gate.com/zh/announcements/article/101919",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "NVDA7",
+          "type": "上线",
+          "detail": "股票打卡激励：达标领 USDT，三重奖池赢 200 股 NVDA7 小时前577",
+          "url": "https://www.gate.com/zh/announcements/article/101915",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Musebook (MUSEBOOK) 现货交易与闪兑交易8 小时前355",
+          "url": "https://www.gate.com/zh/announcements/article/101910",
+          "dates": [
             "2026-09-23"
           ]
         },
@@ -427,6 +687,15 @@
           "url": "https://www.gate.com/zh/announcements/article/101805",
           "dates": [
             "2026-09-17",
+            "2026-09-22"
+          ]
+        },
+        {
+          "token": "X7",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 X7 (x7)6 小时前317",
+          "url": "https://www.gate.com/zh/announcements/article/101897",
+          "dates": [
             "2026-09-22"
           ]
         },
@@ -744,6 +1013,42 @@
           ]
         },
         {
+          "token": "rGPRO 等 109 个",
+          "type": "现货上线",
+          "detail": "Bitget 关于上线 rGPRO、rHSAI、rBRZE、rALRM、rLCLN 等462只股票现货的公告（rGPRO、rHSAI、rBRZE、rALRM、rLCLN、rZLAB、rCOHU、rEEFT… 共 109 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895945",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "URNM",
+          "type": "美股合约",
+          "detail": "URNM（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895947",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "WBD",
+          "type": "美股合约",
+          "detail": "WBD（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895947",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "POLYMARKET",
+          "type": "永续合约",
+          "detail": "Bitget已上线POLYMARKET IPO盘前永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895946",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
           "token": "USDBRL",
           "type": "永续合约",
           "detail": "Bitget 关于上线 USDBRLUSDT 热门外汇永续合约的公告",
@@ -917,18 +1222,6 @@
     "mexc": {
       "listings": [
         {
-          "token": "GSTOCK",
-          "type": "上线",
-          "detail": "MEXC 合約創新區將於 2026年9月18日 14:00 (UTC+8) 上線 GSTOCKUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gstockusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538688",
-          "dates": [
-            "2026-09-18",
-            "2026-09-19",
-            "2026-09-22",
-            "2026-09-23"
-          ]
-        },
-        {
           "token": "DAL",
           "type": "美股合约",
           "detail": "DAL（同公告含 2 个标的）",
@@ -949,92 +1242,13 @@
           ]
         },
         {
-          "token": "POLYMARKET",
-          "type": "Pre-IPO 上线",
-          "detail": "MEXC 將於 9月21日 上線 POLYMARKET Pre-IPO 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-polymarket-pre-ipo-futures-on-sep-21-17827791538742",
-          "dates": [
-            "2026-09-22",
-            "2026-09-23"
-          ]
-        },
-        {
-          "token": "KOKUSAI",
-          "type": "美股合约",
-          "detail": "KOKUSAI（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741",
-          "dates": [
-            "2026-09-22",
-            "2026-09-23"
-          ]
-        },
-        {
-          "token": "ACN",
-          "type": "美股合约",
-          "detail": "ACN（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741",
-          "dates": [
-            "2026-09-22",
-            "2026-09-23"
-          ]
-        },
-        {
-          "token": "MPWR",
-          "type": "美股合约",
-          "detail": "MPWR（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741",
-          "dates": [
-            "2026-09-22",
-            "2026-09-23"
-          ]
-        },
-        {
-          "token": "HUT",
-          "type": "美股合约",
-          "detail": "HUT（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741",
-          "dates": [
-            "2026-09-22",
-            "2026-09-23"
-          ]
-        },
-        {
-          "token": "PATH",
-          "type": "跟单合约",
-          "detail": "PATH（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-path-cyph-and-agpu-usdt-m-futures-17827791538738",
-          "dates": [
-            "2026-09-22",
-            "2026-09-23"
-          ]
-        },
-        {
-          "token": "CYPH",
-          "type": "跟单合约",
-          "detail": "CYPH（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-path-cyph-and-agpu-usdt-m-futures-17827791538738",
-          "dates": [
-            "2026-09-22",
-            "2026-09-23"
-          ]
-        },
-        {
-          "token": "AGPU",
-          "type": "跟单合约",
-          "detail": "AGPU（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-path-cyph-and-agpu-usdt-m-futures-17827791538738",
-          "dates": [
-            "2026-09-22",
-            "2026-09-23"
-          ]
-        },
-        {
           "token": "ACN",
           "type": "跟单合约",
           "detail": "ACN（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-acn-mpwr-and-hut-usdt-m-futures-17827791538763",
           "dates": [
-            "2026-09-22"
+            "2026-09-22",
+            "2026-09-23"
           ]
         },
         {
@@ -1043,7 +1257,8 @@
           "detail": "MPWR（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-acn-mpwr-and-hut-usdt-m-futures-17827791538763",
           "dates": [
-            "2026-09-22"
+            "2026-09-22",
+            "2026-09-23"
           ]
         },
         {
@@ -1052,7 +1267,8 @@
           "detail": "HUT（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-acn-mpwr-and-hut-usdt-m-futures-17827791538763",
           "dates": [
-            "2026-09-22"
+            "2026-09-22",
+            "2026-09-23"
           ]
         },
         {
@@ -1061,7 +1277,8 @@
           "detail": "OURA（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-oura-ubik-and-polymarket-usdt-m-futures-17827791538762",
           "dates": [
-            "2026-09-22"
+            "2026-09-22",
+            "2026-09-23"
           ]
         },
         {
@@ -1070,7 +1287,8 @@
           "detail": "UBIK（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-oura-ubik-and-polymarket-usdt-m-futures-17827791538762",
           "dates": [
-            "2026-09-22"
+            "2026-09-22",
+            "2026-09-23"
           ]
         },
         {
@@ -1079,6 +1297,65 @@
           "detail": "POLYMARKET（同公告含 3 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-oura-ubik-and-polymarket-usdt-m-futures-17827791538762",
           "dates": [
+            "2026-09-22",
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "OURA",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 將於 9月22日 上線 OURA Pre-IPO 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-oura-pre-ipo-futures-on-sep-22-17827791538757",
+          "dates": [
+            "2026-09-22",
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "UBIK",
+          "type": "现货上线",
+          "detail": "MEXC 將於 2026年9月22日 12:20 (UTC+8) 上線 UBIK USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538756",
+          "dates": [
+            "2026-09-22",
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "MONITOR",
+          "type": "Meme+ 现货",
+          "detail": "MONITOR 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538805",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "上线",
+          "detail": "MUSEBOOK 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-musebook-to-innovation-zone-17827791538795",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "JEANPHIL",
+          "type": "Meme+ 现货",
+          "detail": "JEANPHIL 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538793",
+          "dates": [
+            "2026-09-23"
+          ]
+        },
+        {
+          "token": "GSTOCK",
+          "type": "上线",
+          "detail": "MEXC 合約創新區將於 2026年9月18日 14:00 (UTC+8) 上線 GSTOCKUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gstockusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538688",
+          "dates": [
+            "2026-09-18",
+            "2026-09-19",
             "2026-09-22"
           ]
         },
@@ -1092,19 +1369,73 @@
           ]
         },
         {
-          "token": "OURA",
+          "token": "POLYMARKET",
           "type": "Pre-IPO 上线",
-          "detail": "MEXC 將於 9月22日 上線 OURA Pre-IPO 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-oura-pre-ipo-futures-on-sep-22-17827791538757",
+          "detail": "MEXC 將於 9月21日 上線 POLYMARKET Pre-IPO 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-polymarket-pre-ipo-futures-on-sep-21-17827791538742",
           "dates": [
             "2026-09-22"
           ]
         },
         {
-          "token": "UBIK",
-          "type": "现货上线",
-          "detail": "MEXC 將於 2026年9月22日 12:20 (UTC+8) 上線 UBIK USDT合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538756",
+          "token": "KOKUSAI",
+          "type": "美股合约",
+          "detail": "KOKUSAI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741",
+          "dates": [
+            "2026-09-22"
+          ]
+        },
+        {
+          "token": "ACN",
+          "type": "美股合约",
+          "detail": "ACN（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741",
+          "dates": [
+            "2026-09-22"
+          ]
+        },
+        {
+          "token": "MPWR",
+          "type": "美股合约",
+          "detail": "MPWR（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741",
+          "dates": [
+            "2026-09-22"
+          ]
+        },
+        {
+          "token": "HUT",
+          "type": "美股合约",
+          "detail": "HUT（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741",
+          "dates": [
+            "2026-09-22"
+          ]
+        },
+        {
+          "token": "PATH",
+          "type": "跟单合约",
+          "detail": "PATH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-path-cyph-and-agpu-usdt-m-futures-17827791538738",
+          "dates": [
+            "2026-09-22"
+          ]
+        },
+        {
+          "token": "CYPH",
+          "type": "跟单合约",
+          "detail": "CYPH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-path-cyph-and-agpu-usdt-m-futures-17827791538738",
+          "dates": [
+            "2026-09-22"
+          ]
+        },
+        {
+          "token": "AGPU",
+          "type": "跟单合约",
+          "detail": "AGPU（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-path-cyph-and-agpu-usdt-m-futures-17827791538738",
           "dates": [
             "2026-09-22"
           ]
