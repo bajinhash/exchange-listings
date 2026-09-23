@@ -1,0 +1,141 @@
+{
+  "date": "2026-09-24",
+  "updatedAt": "2026-09-23T17:38:52.863Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "CYPHB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CYPHB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x0393c28065c54e48b45bdb05eff5c401cf891da1"
+        },
+        {
+          "token": "AMCB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AMCB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x96e7d606e229448ef817a7f35fd7394c3e15d00c"
+        },
+        {
+          "token": "AGPUB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 AGPUB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xa455ae0f04a2b86eee47adca98985e61d14cbefb"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "C2C",
+          "type": "上线",
+          "detail": "Gate C2C 金秋礼遇季：首单 & 交易享 100% 中奖7 小时前660",
+          "url": "https://www.gate.com/zh/announcements/article/101925"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rGPRO 等 109 个",
+          "type": "现货上线",
+          "detail": "Bitget 关于上线 rGPRO、rHSAI、rBRZE、rALRM、rLCLN 等462只股票现货的公告（rGPRO、rHSAI、rBRZE、rALRM、rLCLN、rZLAB、rCOHU、rEEFT… 共 109 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895945"
+        },
+        {
+          "token": "URNM",
+          "type": "美股合约",
+          "detail": "URNM（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895947"
+        },
+        {
+          "token": "WBD",
+          "type": "美股合约",
+          "detail": "WBD（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895947"
+        },
+        {
+          "token": "POLYMARKET",
+          "type": "永续合约",
+          "detail": "Bitget已上线POLYMARKET IPO盘前永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895946"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "DAL",
+          "type": "美股合约",
+          "detail": "DAL（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538780"
+        },
+        {
+          "token": "HONA",
+          "type": "美股合约",
+          "detail": "HONA（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538780"
+        },
+        {
+          "token": "ACN",
+          "type": "跟单合约",
+          "detail": "ACN（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-acn-mpwr-and-hut-usdt-m-futures-17827791538763"
+        },
+        {
+          "token": "MPWR",
+          "type": "跟单合约",
+          "detail": "MPWR（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-acn-mpwr-and-hut-usdt-m-futures-17827791538763"
+        },
+        {
+          "token": "HUT",
+          "type": "跟单合约",
+          "detail": "HUT（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-acn-mpwr-and-hut-usdt-m-futures-17827791538763"
+        },
+        {
+          "token": "OURA",
+          "type": "跟单合约",
+          "detail": "OURA（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-oura-ubik-and-polymarket-usdt-m-futures-17827791538762"
+        },
+        {
+          "token": "UBIK",
+          "type": "跟单合约",
+          "detail": "UBIK（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-oura-ubik-and-polymarket-usdt-m-futures-17827791538762"
+        },
+        {
+          "token": "POLYMARKET",
+          "type": "跟单合约",
+          "detail": "POLYMARKET（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-oura-ubik-and-polymarket-usdt-m-futures-17827791538762"
+        },
+        {
+          "token": "OURA",
+          "type": "Pre-IPO 上线",
+          "detail": "MEXC 將於 9月22日 上線 OURA Pre-IPO 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-oura-pre-ipo-futures-on-sep-22-17827791538757"
+        },
+        {
+          "token": "UBIK",
+          "type": "现货上线",
+          "detail": "MEXC 將於 2026年9月22日 12:20 (UTC+8) 上線 UBIK USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538756"
+        }
+      ]
+    }
+  }
+}
