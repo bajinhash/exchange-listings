@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T15:04:36.735Z",
+  "updatedAt": "2026-09-23T15:13:55.686Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -194,37 +194,37 @@
         {
           "token": "C2C",
           "type": "上线",
-          "detail": "Gate C2C 金秋礼遇季：首单 & 交易享 100% 中奖4 小时前519",
+          "detail": "Gate C2C 金秋礼遇季：首单 & 交易享 100% 中奖4 小时前527",
           "url": "https://www.gate.com/zh/announcements/article/101925"
         },
         {
           "token": "BABYCATE",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 BABYCATE (Baby Catecoin)、BOP (Bop)5 小时前257",
+          "detail": "Gate 打金狗首发上线 BABYCATE (Baby Catecoin)、BOP (Bop)5 小时前259",
           "url": "https://www.gate.com/zh/announcements/article/101924"
         },
         {
           "token": "AGRIPPA",
           "type": "跟单合约",
-          "detail": "Gate 合约 HOOD 专区已上线 AGRIPPA 合约交易、交易机器人、跟单功能5 小时前330",
+          "detail": "Gate 合约 HOOD 专区已上线 AGRIPPA 合约交易、交易机器人、跟单功能6 小时前333",
           "url": "https://www.gate.com/zh/announcements/article/101922"
         },
         {
           "token": "BCH3L6",
           "type": "上线",
-          "detail": "Gate ETF 新客福利：$1 开启交易，最高领 50 USDT 等值 BCH3L6 小时前410",
+          "detail": "Gate ETF 新客福利：$1 开启交易，最高领 50 USDT 等值 BCH3L6 小时前413",
           "url": "https://www.gate.com/zh/announcements/article/101919"
         },
         {
-          "token": "NVDA7",
+          "token": "NVDA8",
           "type": "上线",
-          "detail": "股票打卡激励：达标领 USDT，三重奖池赢 200 股 NVDA7 小时前577",
+          "detail": "股票打卡激励：达标领 USDT，三重奖池赢 200 股 NVDA8 小时前582",
           "url": "https://www.gate.com/zh/announcements/article/101915"
         },
         {
           "token": "MUSEBOOK",
           "type": "现货上线",
-          "detail": "Gate 将上线 Musebook (MUSEBOOK) 现货交易与闪兑交易8 小时前355",
+          "detail": "Gate 将上线 Musebook (MUSEBOOK) 现货交易与闪兑交易8 小时前361",
           "url": "https://www.gate.com/zh/announcements/article/101910"
         }
       ]
