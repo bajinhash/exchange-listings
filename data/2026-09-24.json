@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "updatedAt": "2026-09-24T15:06:17.504Z",
+  "updatedAt": "2026-09-24T15:21:06.962Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -83,31 +83,31 @@
         {
           "token": "PRIORS",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 Bucket (Bucket Shop)、PRIORS (Priors Agents)、SHARTCOIN (Shartcoin)4 小时前266",
+          "detail": "Gate 打金狗首发上线 Bucket (Bucket Shop)、PRIORS (Priors Agents)、SHARTCOIN (Shartcoin)5 小时前278",
           "url": "https://www.gate.com/zh/announcements/article/101958"
         },
         {
           "token": "KII",
           "type": "跟单合约",
-          "detail": "Gate 已上线 KII 合约交易、交易机器人、跟单功能5 小时前365",
+          "detail": "Gate 已上线 KII 合约交易、交易机器人、跟单功能5 小时前375",
           "url": "https://www.gate.com/zh/announcements/article/101956"
         },
         {
           "token": "USDT6",
           "type": "上线",
-          "detail": "闪兑新人福利：首兑领 1 USDT，复兑再领 2 USDT6 小时前485",
+          "detail": "闪兑新人福利：首兑领 1 USDT，复兑再领 2 USDT6 小时前500",
           "url": "https://www.gate.com/zh/announcements/article/101952"
         },
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "黄金 & 白银 vs. BTC & ETH：硬核资产争锋，赢 68,000 USDT8 小时前476",
+          "detail": "黄金 & 白银 vs. BTC & ETH：硬核资产争锋，赢 68,000 USDT8 小时前485",
           "url": "https://www.gate.com/zh/announcements/article/101948"
         },
         {
           "token": "MUSEBOOK",
           "type": "现货上线",
-          "detail": "Gate 将上线 Musebook (MUSEBOOK) 现货交易与闪兑交易1 天前696",
+          "detail": "Gate 将上线 Musebook (MUSEBOOK) 现货交易与闪兑交易1 天前701",
           "url": "https://www.gate.com/zh/announcements/article/101910"
         }
       ]
