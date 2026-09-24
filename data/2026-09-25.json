@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-25",
+  "updatedAt": "2026-09-24T17:43:50.089Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "HYPE",
+          "type": "杠杆上线",
+          "detail": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+          "url": "https://www.binance.com/en/support/announcement/1718842b00ee41479c763ef27b6312f0"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "PRIORS",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 Bucket (Bucket Shop)、PRIORS (Priors Agents)、SHARTCOIN (Shartcoin)7 小时前362",
+          "url": "https://www.gate.com/zh/announcements/article/101958"
+        },
+        {
+          "token": "KII",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 KII 合约交易、交易机器人、跟单功能7 小时前473",
+          "url": "https://www.gate.com/zh/announcements/article/101956"
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Musebook (MUSEBOOK) 现货交易与闪兑交易1 天前717",
+          "url": "https://www.gate.com/zh/announcements/article/101910"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "OTC",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 OTCUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-otcusdt-futures-on-sep-23-2026-06-17827791538802"
+        },
+        {
+          "token": "AURORA",
+          "type": "现货上线",
+          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 AURORAUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538801"
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "上线",
+          "detail": "MUSEBOOK 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-musebook-to-innovation-zone-17827791538795"
+        }
+      ]
+    }
+  }
+}

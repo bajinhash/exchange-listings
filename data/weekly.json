@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-19",
-  "weekEnd": "2026-09-24",
-  "updatedAt": "2026-09-24T16:05:10.195Z",
+  "weekEnd": "2026-09-25",
+  "updatedAt": "2026-09-24T17:43:50.265Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -11,7 +11,8 @@
           "detail": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
           "url": "https://www.binance.com/en/support/announcement/1718842b00ee41479c763ef27b6312f0",
           "dates": [
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -470,23 +471,14 @@
     "gateio": {
       "listings": [
         {
-          "token": "BTC",
-          "type": "上线",
-          "detail": "BTC & ETH 双核驱动：充值交易，开启超 $514,000 奖励8 小时前434",
-          "url": "https://www.gate.com/zh/announcements/article/101888",
-          "dates": [
-            "2026-09-22",
-            "2026-09-24"
-          ]
-        },
-        {
           "token": "MUSEBOOK",
           "type": "现货上线",
           "detail": "Gate 将上线 Musebook (MUSEBOOK) 现货交易与闪兑交易9 小时前375",
           "url": "https://www.gate.com/zh/announcements/article/101910",
           "dates": [
             "2026-09-23",
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -495,7 +487,8 @@
           "detail": "Gate 打金狗首发上线 Bucket (Bucket Shop)、PRIORS (Priors Agents)、SHARTCOIN (Shartcoin)5 小时前278",
           "url": "https://www.gate.com/zh/announcements/article/101958",
           "dates": [
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -504,6 +497,17 @@
           "detail": "Gate 已上线 KII 合约交易、交易机器人、跟单功能5 小时前375",
           "url": "https://www.gate.com/zh/announcements/article/101956",
           "dates": [
+            "2026-09-24",
+            "2026-09-25"
+          ]
+        },
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "BTC & ETH 双核驱动：充值交易，开启超 $514,000 奖励8 小时前434",
+          "url": "https://www.gate.com/zh/announcements/article/101888",
+          "dates": [
+            "2026-09-22",
             "2026-09-24"
           ]
         },
@@ -932,7 +936,28 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-musebook-to-innovation-zone-17827791538795",
           "dates": [
             "2026-09-23",
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
+          ]
+        },
+        {
+          "token": "OTC",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 OTCUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-otcusdt-futures-on-sep-23-2026-06-17827791538802",
+          "dates": [
+            "2026-09-24",
+            "2026-09-25"
+          ]
+        },
+        {
+          "token": "AURORA",
+          "type": "现货上线",
+          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 AURORAUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538801",
+          "dates": [
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -1021,24 +1046,6 @@
           "type": "上线",
           "detail": "MEXC 合約創新區將於 2026年9月24日 12:30 (UTC+8) 上線 GPUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gpusdt-futures-in-innovation-zone-on-sep-24-2026-04-17827791538811",
-          "dates": [
-            "2026-09-24"
-          ]
-        },
-        {
-          "token": "OTC",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 OTCUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-otcusdt-futures-on-sep-23-2026-06-17827791538802",
-          "dates": [
-            "2026-09-24"
-          ]
-        },
-        {
-          "token": "AURORA",
-          "type": "现货上线",
-          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 AURORAUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538801",
           "dates": [
             "2026-09-24"
           ]
