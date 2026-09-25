@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T15:19:09.236Z",
+  "updatedAt": "2026-09-25T15:28:13.319Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -48,37 +48,37 @@
         {
           "token": "MAG7XON",
           "type": "现货上线",
-          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易6 小时前965",
+          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易6 小时前971",
           "url": "https://www.gate.com/zh/announcements/article/101963"
         },
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "Gate App 新客启航：下载 App 解锁 $17 XAUT 新客礼包11 小时前922",
+          "detail": "Gate App 新客启航：下载 App 解锁 $17 XAUT 新客礼包11 小时前933",
           "url": "https://www.gate.com/zh/announcements/article/101960"
         },
         {
           "token": "PRIORS",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 Bucket (Bucket Shop)、PRIORS (Priors Agents)、SHARTCOIN (Shartcoin)1 天前815",
+          "detail": "Gate 打金狗首发上线 Bucket (Bucket Shop)、PRIORS (Priors Agents)、SHARTCOIN (Shartcoin)1 天前816",
           "url": "https://www.gate.com/zh/announcements/article/101958"
         },
         {
           "token": "KII",
           "type": "跟单合约",
-          "detail": "Gate 已上线 KII 合约交易、交易机器人、跟单功能1 天前968",
+          "detail": "Gate 已上线 KII 合约交易、交易机器人、跟单功能1 天前970",
           "url": "https://www.gate.com/zh/announcements/article/101956"
         },
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "闪兑新人福利：首兑领 1 USDT，复兑再领 2 USDT1 天前1,106",
+          "detail": "闪兑新人福利：首兑领 1 USDT，复兑再领 2 USDT1 天前1,109",
           "url": "https://www.gate.com/zh/announcements/article/101952"
         },
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "黄金 & 白银 vs. BTC & ETH：硬核资产争锋，赢 68,000 USDT1 天前925",
+          "detail": "黄金 & 白银 vs. BTC & ETH：硬核资产争锋，赢 68,000 USDT1 天前927",
           "url": "https://www.gate.com/zh/announcements/article/101948"
         }
       ]

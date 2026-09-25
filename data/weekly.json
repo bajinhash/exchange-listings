@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-19",
   "weekEnd": "2026-09-25",
-  "updatedAt": "2026-09-25T15:19:09.409Z",
+  "updatedAt": "2026-09-25T15:28:13.487Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -541,7 +541,7 @@
         {
           "token": "MAG7XON",
           "type": "现货上线",
-          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易6 小时前965",
+          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易6 小时前971",
           "url": "https://www.gate.com/zh/announcements/article/101963",
           "dates": [
             "2026-09-25"
@@ -550,7 +550,7 @@
         {
           "token": "USDT1",
           "type": "上线",
-          "detail": "闪兑新人福利：首兑领 1 USDT，复兑再领 2 USDT1 天前1,106",
+          "detail": "闪兑新人福利：首兑领 1 USDT，复兑再领 2 USDT1 天前1,109",
           "url": "https://www.gate.com/zh/announcements/article/101952",
           "dates": [
             "2026-09-25"
