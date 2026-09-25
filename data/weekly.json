@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-19",
   "weekEnd": "2026-09-25",
-  "updatedAt": "2026-09-24T17:43:50.265Z",
+  "updatedAt": "2026-09-25T15:19:09.409Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -89,6 +89,24 @@
         }
       ],
       "alpha": [
+        {
+          "token": "GSTOCK",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 GSTOCK - 一个BNB Chain 的meme币",
+          "url": "https://www.binance.com/en/alpha/bsc/0xcafdbce93477261db8250e42bdae6e66733f9e20",
+          "dates": [
+            "2026-09-25"
+          ]
+        },
+        {
+          "token": "BREW",
+          "type": "Launchpad",
+          "detail": "Binance Alpha 上线 BREW - 一个 BNB Chain 的 launchpad",
+          "url": "https://www.binance.com/en/alpha/bsc/0xfa6d9b504848606eb9aec04ccc161d169b3f2159",
+          "dates": [
+            "2026-09-25"
+          ]
+        },
         {
           "token": "CYPHB",
           "type": "上线",
@@ -395,6 +413,15 @@
     "kucoin": {
       "listings": [
         {
+          "token": "XDP",
+          "type": "现货上线",
+          "detail": "World Premiere: Doppler Finance (XDP) Listed on KuCoinTrading: 13:00 on September 28, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-doppler-finance-xdp-listed-on-kucoin",
+          "dates": [
+            "2026-09-25"
+          ]
+        },
+        {
           "token": "OURA",
           "type": "Pre-IPO 上线",
           "detail": "KuCoin Futures New Listing: OURAUSDT Pre-IPO Stock Index Perpetual Contract Pre-Market Trading",
@@ -471,12 +498,22 @@
     "gateio": {
       "listings": [
         {
-          "token": "MUSEBOOK",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Musebook (MUSEBOOK) 现货交易与闪兑交易9 小时前375",
-          "url": "https://www.gate.com/zh/announcements/article/101910",
+          "token": "XAUT",
+          "type": "上线",
+          "detail": "CFD 掘金挑战：交易立领 XAUT，650,000 USDx 等值奖励放送7 小时前638",
+          "url": "https://www.gate.com/zh/announcements/article/101893",
           "dates": [
-            "2026-09-23",
+            "2026-09-22",
+            "2026-09-25"
+          ]
+        },
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "BTC & ETH 双核驱动：充值交易，开启超 $514,000 奖励8 小时前434",
+          "url": "https://www.gate.com/zh/announcements/article/101888",
+          "dates": [
+            "2026-09-22",
             "2026-09-24",
             "2026-09-25"
           ]
@@ -502,12 +539,30 @@
           ]
         },
         {
-          "token": "BTC",
-          "type": "上线",
-          "detail": "BTC & ETH 双核驱动：充值交易，开启超 $514,000 奖励8 小时前434",
-          "url": "https://www.gate.com/zh/announcements/article/101888",
+          "token": "MAG7XON",
+          "type": "现货上线",
+          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易6 小时前965",
+          "url": "https://www.gate.com/zh/announcements/article/101963",
           "dates": [
-            "2026-09-22",
+            "2026-09-25"
+          ]
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "闪兑新人福利：首兑领 1 USDT，复兑再领 2 USDT1 天前1,106",
+          "url": "https://www.gate.com/zh/announcements/article/101952",
+          "dates": [
+            "2026-09-25"
+          ]
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Musebook (MUSEBOOK) 现货交易与闪兑交易9 小时前375",
+          "url": "https://www.gate.com/zh/announcements/article/101910",
+          "dates": [
+            "2026-09-23",
             "2026-09-24"
           ]
         },
@@ -579,15 +634,6 @@
           "type": "永续合约",
           "detail": "Gate 股票专区已上线 MOONSHOTUSDT（月之暗面 KIMI AI）永续合约盘前...7 小时前1,304",
           "url": "https://www.gate.com/zh/announcements/article/101894",
-          "dates": [
-            "2026-09-22"
-          ]
-        },
-        {
-          "token": "XAUT",
-          "type": "上线",
-          "detail": "CFD 掘金挑战：交易立领 XAUT，650,000 USDx 等值奖励放送7 小时前638",
-          "url": "https://www.gate.com/zh/announcements/article/101893",
           "dates": [
             "2026-09-22"
           ]
@@ -930,43 +976,13 @@
     "mexc": {
       "listings": [
         {
-          "token": "MUSEBOOK",
-          "type": "上线",
-          "detail": "MUSEBOOK 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-musebook-to-innovation-zone-17827791538795",
-          "dates": [
-            "2026-09-23",
-            "2026-09-24",
-            "2026-09-25"
-          ]
-        },
-        {
-          "token": "OTC",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 OTCUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-otcusdt-futures-on-sep-23-2026-06-17827791538802",
-          "dates": [
-            "2026-09-24",
-            "2026-09-25"
-          ]
-        },
-        {
-          "token": "AURORA",
-          "type": "现货上线",
-          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 AURORAUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538801",
-          "dates": [
-            "2026-09-24",
-            "2026-09-25"
-          ]
-        },
-        {
           "token": "HK0992",
           "type": "美股合约",
           "detail": "HK0992（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831",
           "dates": [
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -975,7 +991,8 @@
           "detail": "VICR（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831",
           "dates": [
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -984,7 +1001,8 @@
           "detail": "TMO（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831",
           "dates": [
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -993,7 +1011,8 @@
           "detail": "PFE（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831",
           "dates": [
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -1002,7 +1021,8 @@
           "detail": "WBD（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831",
           "dates": [
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -1011,7 +1031,8 @@
           "detail": "MEDIATEK（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812",
           "dates": [
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -1020,7 +1041,8 @@
           "detail": "TSMC（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812",
           "dates": [
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -1029,7 +1051,8 @@
           "detail": "UMC（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812",
           "dates": [
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -1038,7 +1061,8 @@
           "detail": "DELTAELEC（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812",
           "dates": [
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-25"
           ]
         },
         {
@@ -1046,6 +1070,35 @@
           "type": "上线",
           "detail": "MEXC 合約創新區將於 2026年9月24日 12:30 (UTC+8) 上線 GPUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gpusdt-futures-in-innovation-zone-on-sep-24-2026-04-17827791538811",
+          "dates": [
+            "2026-09-24",
+            "2026-09-25"
+          ]
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "上线",
+          "detail": "MUSEBOOK 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-musebook-to-innovation-zone-17827791538795",
+          "dates": [
+            "2026-09-23",
+            "2026-09-24"
+          ]
+        },
+        {
+          "token": "OTC",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 OTCUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-otcusdt-futures-on-sep-23-2026-06-17827791538802",
+          "dates": [
+            "2026-09-24"
+          ]
+        },
+        {
+          "token": "AURORA",
+          "type": "现货上线",
+          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 AURORAUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538801",
           "dates": [
             "2026-09-24"
           ]

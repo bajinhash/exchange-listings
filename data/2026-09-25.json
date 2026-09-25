@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-24T17:43:50.089Z",
+  "updatedAt": "2026-09-25T15:19:09.236Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -11,7 +11,20 @@
           "url": "https://www.binance.com/en/support/announcement/1718842b00ee41479c763ef27b6312f0"
         }
       ],
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "GSTOCK",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 GSTOCK - 一个BNB Chain 的meme币",
+          "url": "https://www.binance.com/en/alpha/bsc/0xcafdbce93477261db8250e42bdae6e66733f9e20"
+        },
+        {
+          "token": "BREW",
+          "type": "Launchpad",
+          "detail": "Binance Alpha 上线 BREW - 一个 BNB Chain 的 launchpad",
+          "url": "https://www.binance.com/en/alpha/bsc/0xfa6d9b504848606eb9aec04ccc161d169b3f2159"
+        }
+      ],
       "wallet": []
     },
     "okx": {
@@ -21,27 +34,52 @@
       "listings": []
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "XDP",
+          "type": "现货上线",
+          "detail": "World Premiere: Doppler Finance (XDP) Listed on KuCoinTrading: 13:00 on September 28, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-doppler-finance-xdp-listed-on-kucoin"
+        }
+      ]
     },
     "gateio": {
       "listings": [
         {
+          "token": "MAG7XON",
+          "type": "现货上线",
+          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易6 小时前965",
+          "url": "https://www.gate.com/zh/announcements/article/101963"
+        },
+        {
+          "token": "XAUT",
+          "type": "上线",
+          "detail": "Gate App 新客启航：下载 App 解锁 $17 XAUT 新客礼包11 小时前922",
+          "url": "https://www.gate.com/zh/announcements/article/101960"
+        },
+        {
           "token": "PRIORS",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 Bucket (Bucket Shop)、PRIORS (Priors Agents)、SHARTCOIN (Shartcoin)7 小时前362",
+          "detail": "Gate 打金狗首发上线 Bucket (Bucket Shop)、PRIORS (Priors Agents)、SHARTCOIN (Shartcoin)1 天前815",
           "url": "https://www.gate.com/zh/announcements/article/101958"
         },
         {
           "token": "KII",
           "type": "跟单合约",
-          "detail": "Gate 已上线 KII 合约交易、交易机器人、跟单功能7 小时前473",
+          "detail": "Gate 已上线 KII 合约交易、交易机器人、跟单功能1 天前968",
           "url": "https://www.gate.com/zh/announcements/article/101956"
         },
         {
-          "token": "MUSEBOOK",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Musebook (MUSEBOOK) 现货交易与闪兑交易1 天前717",
-          "url": "https://www.gate.com/zh/announcements/article/101910"
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "闪兑新人福利：首兑领 1 USDT，复兑再领 2 USDT1 天前1,106",
+          "url": "https://www.gate.com/zh/announcements/article/101952"
+        },
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "黄金 & 白银 vs. BTC & ETH：硬核资产争锋，赢 68,000 USDT1 天前925",
+          "url": "https://www.gate.com/zh/announcements/article/101948"
         }
       ]
     },
@@ -51,22 +89,64 @@
     "mexc": {
       "listings": [
         {
-          "token": "OTC",
-          "type": "上线",
-          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 OTCUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-otcusdt-futures-on-sep-23-2026-06-17827791538802"
+          "token": "HK0992",
+          "type": "美股合约",
+          "detail": "HK0992（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831"
         },
         {
-          "token": "AURORA",
-          "type": "现货上线",
-          "detail": "MEXC 將於 2026年9月23日 14:20 (UTC+8) 上線 AURORAUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538801"
+          "token": "VICR",
+          "type": "美股合约",
+          "detail": "VICR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831"
         },
         {
-          "token": "MUSEBOOK",
+          "token": "TMO",
+          "type": "美股合约",
+          "detail": "TMO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831"
+        },
+        {
+          "token": "PFE",
+          "type": "美股合约",
+          "detail": "PFE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831"
+        },
+        {
+          "token": "WBD",
+          "type": "美股合约",
+          "detail": "WBD（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831"
+        },
+        {
+          "token": "MEDIATEK",
+          "type": "美股合约",
+          "detail": "MEDIATEK（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812"
+        },
+        {
+          "token": "TSMC",
+          "type": "美股合约",
+          "detail": "TSMC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812"
+        },
+        {
+          "token": "UMC",
+          "type": "美股合约",
+          "detail": "UMC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812"
+        },
+        {
+          "token": "DELTAELEC",
+          "type": "美股合约",
+          "detail": "DELTAELEC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812"
+        },
+        {
+          "token": "GP",
           "type": "上线",
-          "detail": "MUSEBOOK 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-musebook-to-innovation-zone-17827791538795"
+          "detail": "MEXC 合約創新區將於 2026年9月24日 12:30 (UTC+8) 上線 GPUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gpusdt-futures-in-innovation-zone-on-sep-24-2026-04-17827791538811"
         }
       ]
     }
