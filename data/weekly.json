@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-20",
-  "weekEnd": "2026-09-25",
-  "updatedAt": "2026-09-25T16:04:42.631Z",
+  "weekEnd": "2026-09-26",
+  "updatedAt": "2026-09-25T17:43:49.537Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -86,7 +86,8 @@
           "detail": "Binance Alpha 上线 GSTOCK - 一个BNB Chain 的meme币",
           "url": "https://www.binance.com/en/alpha/bsc/0xcafdbce93477261db8250e42bdae6e66733f9e20",
           "dates": [
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
           ]
         },
         {
@@ -95,7 +96,8 @@
           "detail": "Binance Alpha 上线 BREW - 一个 BNB Chain 的 launchpad",
           "url": "https://www.binance.com/en/alpha/bsc/0xfa6d9b504848606eb9aec04ccc161d169b3f2159",
           "dates": [
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
           ]
         },
         {
@@ -462,6 +464,50 @@
     "gateio": {
       "listings": [
         {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "BTC & ETH 双核驱动：充值交易，开启超 $514,000 奖励8 小时前434",
+          "url": "https://www.gate.com/zh/announcements/article/101888",
+          "dates": [
+            "2026-09-22",
+            "2026-09-24",
+            "2026-09-25",
+            "2026-09-26"
+          ]
+        },
+        {
+          "token": "PRIORS",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 Bucket (Bucket Shop)、PRIORS (Priors Agents)、SHARTCOIN (Shartcoin)5 小时前278",
+          "url": "https://www.gate.com/zh/announcements/article/101958",
+          "dates": [
+            "2026-09-24",
+            "2026-09-25",
+            "2026-09-26"
+          ]
+        },
+        {
+          "token": "KII",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 KII 合约交易、交易机器人、跟单功能5 小时前375",
+          "url": "https://www.gate.com/zh/announcements/article/101956",
+          "dates": [
+            "2026-09-24",
+            "2026-09-25",
+            "2026-09-26"
+          ]
+        },
+        {
+          "token": "USDT1",
+          "type": "上线",
+          "detail": "闪兑新人福利：首兑领 1 USDT，复兑再领 2 USDT1 天前1,109",
+          "url": "https://www.gate.com/zh/announcements/article/101952",
+          "dates": [
+            "2026-09-25",
+            "2026-09-26"
+          ]
+        },
+        {
           "token": "XAUT",
           "type": "上线",
           "detail": "CFD 掘金挑战：交易立领 XAUT，650,000 USDx 等值奖励放送7 小时前638",
@@ -472,50 +518,10 @@
           ]
         },
         {
-          "token": "BTC",
-          "type": "上线",
-          "detail": "BTC & ETH 双核驱动：充值交易，开启超 $514,000 奖励8 小时前434",
-          "url": "https://www.gate.com/zh/announcements/article/101888",
-          "dates": [
-            "2026-09-22",
-            "2026-09-24",
-            "2026-09-25"
-          ]
-        },
-        {
-          "token": "PRIORS",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 Bucket (Bucket Shop)、PRIORS (Priors Agents)、SHARTCOIN (Shartcoin)5 小时前278",
-          "url": "https://www.gate.com/zh/announcements/article/101958",
-          "dates": [
-            "2026-09-24",
-            "2026-09-25"
-          ]
-        },
-        {
-          "token": "KII",
-          "type": "跟单合约",
-          "detail": "Gate 已上线 KII 合约交易、交易机器人、跟单功能5 小时前375",
-          "url": "https://www.gate.com/zh/announcements/article/101956",
-          "dates": [
-            "2026-09-24",
-            "2026-09-25"
-          ]
-        },
-        {
           "token": "MAG7XON",
           "type": "现货上线",
           "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易6 小时前971",
           "url": "https://www.gate.com/zh/announcements/article/101963",
-          "dates": [
-            "2026-09-25"
-          ]
-        },
-        {
-          "token": "USDT1",
-          "type": "上线",
-          "detail": "闪兑新人福利：首兑领 1 USDT，复兑再领 2 USDT1 天前1,109",
-          "url": "https://www.gate.com/zh/announcements/article/101952",
           "dates": [
             "2026-09-25"
           ]
@@ -802,7 +808,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831",
           "dates": [
             "2026-09-24",
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
           ]
         },
         {
@@ -812,7 +819,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831",
           "dates": [
             "2026-09-24",
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
           ]
         },
         {
@@ -822,7 +830,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831",
           "dates": [
             "2026-09-24",
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
           ]
         },
         {
@@ -832,7 +841,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831",
           "dates": [
             "2026-09-24",
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
           ]
         },
         {
@@ -842,7 +852,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk0992-vicr-tmo-pfe-and-wbd-stock-futures-with-0-fee-trading-on-sep-24-17827791538831",
           "dates": [
             "2026-09-24",
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
           ]
         },
         {
@@ -852,7 +863,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812",
           "dates": [
             "2026-09-24",
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
           ]
         },
         {
@@ -862,7 +874,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812",
           "dates": [
             "2026-09-24",
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
           ]
         },
         {
@@ -872,7 +885,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812",
           "dates": [
             "2026-09-24",
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
           ]
         },
         {
@@ -882,7 +896,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538812",
           "dates": [
             "2026-09-24",
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
           ]
         },
         {
@@ -892,7 +907,26 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gpusdt-futures-in-innovation-zone-on-sep-24-2026-04-17827791538811",
           "dates": [
             "2026-09-24",
-            "2026-09-25"
+            "2026-09-25",
+            "2026-09-26"
+          ]
+        },
+        {
+          "token": "AKAM",
+          "type": "美股合约",
+          "detail": "MEXC 將於 9月25日 上線 AKAM 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538844",
+          "dates": [
+            "2026-09-26"
+          ]
+        },
+        {
+          "token": "GP",
+          "type": "Meme+ 现货",
+          "detail": "GP 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538817",
+          "dates": [
+            "2026-09-26"
           ]
         },
         {
