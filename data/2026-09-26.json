@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T14:41:15.938Z",
+  "updatedAt": "2026-09-26T15:16:19.852Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,13 +21,13 @@
         {
           "token": "MAG7XON",
           "type": "现货上线",
-          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易1 天前1,574",
+          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易1 天前1,579",
           "url": "https://www.gate.com/zh/announcements/article/101963"
         },
         {
           "token": "XAUT",
           "type": "上线",
-          "detail": "Gate App 新客启航：下载 App 解锁 $17 XAUT 新客礼包1 天前1,599",
+          "detail": "Gate App 新客启航：下载 App 解锁 $17 XAUT 新客礼包1 天前1,615",
           "url": "https://www.gate.com/zh/announcements/article/101960"
         }
       ]
