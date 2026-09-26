@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-09-20",
-  "weekEnd": "2026-09-26",
-  "updatedAt": "2026-09-26T15:16:20.026Z",
+  "weekStart": "2026-09-21",
+  "weekEnd": "2026-09-27",
+  "updatedAt": "2026-09-26T16:56:05.451Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -462,22 +462,23 @@
     "gateio": {
       "listings": [
         {
+          "token": "MAG7XON",
+          "type": "现货上线",
+          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易6 小时前971",
+          "url": "https://www.gate.com/zh/announcements/article/101963",
+          "dates": [
+            "2026-09-25",
+            "2026-09-26",
+            "2026-09-27"
+          ]
+        },
+        {
           "token": "XAUT",
           "type": "上线",
           "detail": "CFD 掘金挑战：交易立领 XAUT，650,000 USDx 等值奖励放送7 小时前638",
           "url": "https://www.gate.com/zh/announcements/article/101893",
           "dates": [
             "2026-09-22",
-            "2026-09-25",
-            "2026-09-26"
-          ]
-        },
-        {
-          "token": "MAG7XON",
-          "type": "现货上线",
-          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易6 小时前971",
-          "url": "https://www.gate.com/zh/announcements/article/101963",
-          "dates": [
             "2026-09-25",
             "2026-09-26"
           ]
@@ -630,60 +631,6 @@
           "dates": [
             "2026-09-22"
           ]
-        },
-        {
-          "token": "GSTOCK",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 GSTOCK (Gstock)、GCAT (Genius Cat)、QUEEF (Queefcoin)、FLX (FAIRLAUNCH...5 小时前246",
-          "url": "https://www.gate.com/zh/announcements/article/101848",
-          "dates": [
-            "2026-09-20"
-          ]
-        },
-        {
-          "token": "XAG",
-          "type": "上线",
-          "detail": "白银合约热浪：交易 XAG 合约，瓜分 USDT 和 SLVON 奖池8 小时前538",
-          "url": "https://www.gate.com/zh/announcements/article/101842",
-          "dates": [
-            "2026-09-20"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "美股合约",
-          "detail": "交易股票合约：单人领 $3,000 SPCX 仓位空投8 小时前513",
-          "url": "https://www.gate.com/zh/announcements/article/101841",
-          "dates": [
-            "2026-09-20"
-          ]
-        },
-        {
-          "token": "BTC",
-          "type": "永续合约",
-          "detail": "BTC（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101839",
-          "dates": [
-            "2026-09-20"
-          ]
-        },
-        {
-          "token": "USD1",
-          "type": "永续合约",
-          "detail": "USD1（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/101839",
-          "dates": [
-            "2026-09-20"
-          ]
-        },
-        {
-          "token": "JEANPHIL",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 JEANPHIL (Jean Phil)、FLEX (Reflex Monster)、URANUS (Uranus)、FEELSGOO...11 小时前349",
-          "url": "https://www.gate.com/zh/announcements/article/101836",
-          "dates": [
-            "2026-09-20"
-          ]
         }
       ]
     },
@@ -803,7 +750,8 @@
           "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 SIUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-siusdt-futures-in-innovation-zone-on-sep-26-2026-13-17827791538853",
           "dates": [
-            "2026-09-26"
+            "2026-09-26",
+            "2026-09-27"
           ]
         },
         {
@@ -812,7 +760,8 @@
           "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 MASKSOLUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538852",
           "dates": [
-            "2026-09-26"
+            "2026-09-26",
+            "2026-09-27"
           ]
         },
         {
@@ -821,7 +770,18 @@
           "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 EACCUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538851",
           "dates": [
-            "2026-09-26"
+            "2026-09-26",
+            "2026-09-27"
+          ]
+        },
+        {
+          "token": "AKAM",
+          "type": "美股合约",
+          "detail": "MEXC 將於 9月25日 上線 AKAM 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538844",
+          "dates": [
+            "2026-09-26",
+            "2026-09-27"
           ]
         },
         {
@@ -856,15 +816,6 @@
           "type": "Meme+ 现货",
           "detail": "EACC 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538847",
-          "dates": [
-            "2026-09-26"
-          ]
-        },
-        {
-          "token": "AKAM",
-          "type": "美股合约",
-          "detail": "MEXC 將於 9月25日 上線 AKAM 股票合約，限時享 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538844",
           "dates": [
             "2026-09-26"
           ]

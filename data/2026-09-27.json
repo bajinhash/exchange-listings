@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-27",
+  "updatedAt": "2026-09-26T16:56:05.250Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MAG7XON",
+          "type": "现货上线",
+          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易1 天前1,612",
+          "url": "https://www.gate.com/zh/announcements/article/101963"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SI",
+          "type": "上线",
+          "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 SIUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-siusdt-futures-in-innovation-zone-on-sep-26-2026-13-17827791538853"
+        },
+        {
+          "token": "MASKSOL",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 MASKSOLUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538852"
+        },
+        {
+          "token": "EACC",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 EACCUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538851"
+        },
+        {
+          "token": "AKAM",
+          "type": "美股合约",
+          "detail": "MEXC 將於 9月25日 上線 AKAM 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538844"
+        }
+      ]
+    }
+  }
+}
