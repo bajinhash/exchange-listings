@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-21",
   "weekEnd": "2026-09-27",
-  "updatedAt": "2026-09-27T15:24:45.350Z",
+  "updatedAt": "2026-09-27T15:58:01.992Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -464,7 +464,7 @@
         {
           "token": "EACC",
           "type": "跟单合约",
-          "detail": "Gate 合约 Meme 专区已上线 EACC 合约交易、交易机器人、跟单功能10 小时前497",
+          "detail": "Gate 合约 Meme 专区已上线 EACC 合约交易、交易机器人、跟单功能11 小时前515",
           "url": "https://www.gate.com/zh/announcements/article/101965",
           "dates": [
             "2026-09-27"
@@ -473,7 +473,7 @@
         {
           "token": "KARDASHEV",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 e/acc (Effective Accelerationism)、KARDASHEV (Kardashev Research)、YAP...12 小时前390",
+          "detail": "Gate 打金狗首发上线 e/acc (Effective Accelerationism)、KARDASHEV (Kardashev Research)、YAP...12 小时前405",
           "url": "https://www.gate.com/zh/announcements/article/101964",
           "dates": [
             "2026-09-27"
