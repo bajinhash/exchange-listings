@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-28T18:15:30.573Z",
+  "updatedAt": "2026-09-28T18:24:45.005Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -42,25 +42,25 @@
         {
           "token": "DEX",
           "type": "上线",
-          "detail": "CrossEx 跨所交易升级：新增 DEX 交易所支持，优化交易费率，股票 / ETF 即将...5 小时前229",
+          "detail": "CrossEx 跨所交易升级：新增 DEX 交易所支持，优化交易费率，股票 / ETF 即将...6 小时前231",
           "url": "https://www.gate.com/zh/announcements/article/102001"
         },
         {
           "token": "BTC",
           "type": "上线",
-          "detail": "余币宝限时福利：BTC 理财享 3% 加息年化6 小时前309",
+          "detail": "余币宝限时福利：BTC 理财享 3% 加息年化6 小时前312",
           "url": "https://www.gate.com/zh/announcements/article/102000"
         },
         {
           "token": "LEVERAGE",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 LEVERAGE (Leverage Pad)、WIRED (Wired fees to socials)、VAULT (PonsVaul...8 小时前346",
+          "detail": "Gate 打金狗首发上线 LEVERAGE (Leverage Pad)、WIRED (Wired fees to socials)、VAULT (PonsVaul...8 小时前349",
           "url": "https://www.gate.com/zh/announcements/article/101996"
         },
         {
           "token": "USDD",
           "type": "上线",
-          "detail": "Gate Web3 Bonus：参与 USDD 质押 ETH 链第五期，享 4% APY + 60,000 USDD 额外奖励8 小时前307",
+          "detail": "Gate Web3 Bonus：参与 USDD 质押 ETH 链第五期，享 4% APY + 60,000 USDD 额外奖励8 小时前309",
           "url": "https://www.gate.com/zh/announcements/article/101994"
         }
       ]
