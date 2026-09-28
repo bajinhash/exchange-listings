@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-23",
   "weekEnd": "2026-09-29",
-  "updatedAt": "2026-09-28T18:53:43.230Z",
+  "updatedAt": "2026-09-28T20:00:03.209Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -422,26 +422,6 @@
     "gateio": {
       "listings": [
         {
-          "token": "BTC",
-          "type": "上线",
-          "detail": "黄金 & 白银 vs. BTC & ETH：硬核资产争锋，赢 68,000 USDT8 小时前485",
-          "url": "https://www.gate.com/zh/announcements/article/101948",
-          "dates": [
-            "2026-09-24",
-            "2026-09-25",
-            "2026-09-29"
-          ]
-        },
-        {
-          "token": "DEX",
-          "type": "上线",
-          "detail": "CrossEx 跨所交易升级：新增 DEX 交易所支持，优化交易费率，股票 / ETF 即将...6 小时前242",
-          "url": "https://www.gate.com/zh/announcements/article/102001",
-          "dates": [
-            "2026-09-29"
-          ]
-        },
-        {
           "token": "EACC",
           "type": "跟单合约",
           "detail": "Gate 合约 Meme 专区已上线 EACC 合约交易、交易机器人、跟单功能11 小时前515",
@@ -494,6 +474,16 @@
           "type": "跟单合约",
           "detail": "Gate 已上线 KII 合约交易、交易机器人、跟单功能5 小时前375",
           "url": "https://www.gate.com/zh/announcements/article/101956",
+          "dates": [
+            "2026-09-24",
+            "2026-09-25"
+          ]
+        },
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "黄金 & 白银 vs. BTC & ETH：硬核资产争锋，赢 68,000 USDT8 小时前485",
+          "url": "https://www.gate.com/zh/announcements/article/101948",
           "dates": [
             "2026-09-24",
             "2026-09-25"
