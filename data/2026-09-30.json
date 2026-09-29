@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-30",
+  "updatedAt": "2026-09-29T16:37:46.961Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "BTC",
+          "type": "上线",
+          "detail": "BTC（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102030"
+        },
+        {
+          "token": "ETH",
+          "type": "上线",
+          "detail": "ETH（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102030"
+        },
+        {
+          "token": "CARDS",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Collector Crypt (CARDS) 现货交易与闪兑交易6 小时前369",
+          "url": "https://www.gate.com/zh/announcements/article/102029"
+        },
+        {
+          "token": "XDP",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 XDP 合约交易、交易机器人、跟单功能6 小时前331",
+          "url": "https://www.gate.com/zh/announcements/article/102026"
+        },
+        {
+          "token": "VECTIS",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 DARK (Darkwoods)、VECTIS (VECTIS)、AMERICA (america.gov)6 小时前198",
+          "url": "https://www.gate.com/zh/announcements/article/102025"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "CRML",
+          "type": "美股合约",
+          "detail": "CRML（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-crml-mp-and-bwet-stock-futures-with-0-fee-trading-on-sep-29-17827791538913"
+        },
+        {
+          "token": "MP",
+          "type": "美股合约",
+          "detail": "MP（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-crml-mp-and-bwet-stock-futures-with-0-fee-trading-on-sep-29-17827791538913"
+        },
+        {
+          "token": "BWET",
+          "type": "美股合约",
+          "detail": "BWET（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-crml-mp-and-bwet-stock-futures-with-0-fee-trading-on-sep-29-17827791538913"
+        },
+        {
+          "token": "BMY",
+          "type": "美股合约",
+          "detail": "BMY（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538912"
+        },
+        {
+          "token": "PGR",
+          "type": "美股合约",
+          "detail": "PGR（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538912"
+        },
+        {
+          "token": "SPV",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Paimon Polymarket SPV Token",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538910"
+        }
+      ]
+    }
+  }
+}
