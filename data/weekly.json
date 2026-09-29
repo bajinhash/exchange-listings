@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-24",
   "weekEnd": "2026-09-30",
-  "updatedAt": "2026-09-29T16:46:57.924Z",
+  "updatedAt": "2026-09-29T17:11:29.927Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -192,7 +192,7 @@
         {
           "token": "CARDS",
           "type": "现货上线",
-          "detail": "Gate 将上线 Collector Crypt (CARDS) 现货交易与闪兑交易6 小时前377",
+          "detail": "Gate 将上线 Collector Crypt (CARDS) 现货交易与闪兑交易6 小时前397",
           "url": "https://www.gate.com/zh/announcements/article/102029",
           "dates": [
             "2026-09-30"
@@ -201,7 +201,7 @@
         {
           "token": "XDP",
           "type": "跟单合约",
-          "detail": "Gate 已上线 XDP 合约交易、交易机器人、跟单功能6 小时前340",
+          "detail": "Gate 已上线 XDP 合约交易、交易机器人、跟单功能7 小时前357",
           "url": "https://www.gate.com/zh/announcements/article/102026",
           "dates": [
             "2026-09-30"
@@ -210,8 +210,17 @@
         {
           "token": "VECTIS",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 DARK (Darkwoods)、VECTIS (VECTIS)、AMERICA (america.gov)6 小时前201",
+          "detail": "Gate 打金狗首发上线 DARK (Darkwoods)、VECTIS (VECTIS)、AMERICA (america.gov)7 小时前211",
           "url": "https://www.gate.com/zh/announcements/article/102025",
+          "dates": [
+            "2026-09-30"
+          ]
+        },
+        {
+          "token": "NEAR7",
+          "type": "上线",
+          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 666 NEAR7 小时前402",
+          "url": "https://www.gate.com/zh/announcements/article/102024",
           "dates": [
             "2026-09-30"
           ]
