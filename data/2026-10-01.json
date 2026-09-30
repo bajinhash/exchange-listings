@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-09-30T16:32:03.340Z",
+  "updatedAt": "2026-09-30T16:41:16.557Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -77,19 +77,19 @@
         {
           "token": "CODEC",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 CODEC (Codec Flow)6 小时前242",
+          "detail": "Gate 打金狗首发上线 CODEC (Codec Flow)6 小时前245",
           "url": "https://www.gate.com/zh/announcements/article/102059"
         },
         {
           "token": "MU3L",
           "type": "上线",
-          "detail": "Gate ETF 芯享加码礼：交易 ETF 赢  MU3L，解锁三重专享福利6 小时前353",
+          "detail": "Gate ETF 芯享加码礼：交易 ETF 赢  MU3L，解锁三重专享福利6 小时前357",
           "url": "https://www.gate.com/zh/announcements/article/102057"
         },
         {
           "token": "CARDS",
           "type": "现货上线",
-          "detail": "Gate 将上线 Collector Crypt (CARDS) 现货交易与闪兑交易1 天前804",
+          "detail": "Gate 将上线 Collector Crypt (CARDS) 现货交易与闪兑交易1 天前805",
           "url": "https://www.gate.com/zh/announcements/article/102029"
         }
       ]
