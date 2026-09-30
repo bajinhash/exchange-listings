@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-01",
+  "updatedAt": "2026-09-30T16:32:03.340Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "ZMB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ZMB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xf4ddb292fe88e476eddd9869d386705e6bfab7a2"
+        },
+        {
+          "token": "WENB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 WENB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xded1c5fb38c262beb9cff1e1116eff3c5bf278cd"
+        },
+        {
+          "token": "SHAZB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SHAZB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x0f31e21b7881f5583ea94ddbcb0bcaf22b1abeab"
+        },
+        {
+          "token": "PDDB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 PDDB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x95b0409679b55c31772daa2fb4bee7b125b77521"
+        },
+        {
+          "token": "HPEB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 HPEB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xd56eb30d2ea7b5866dc0066d33bbaab36f7e8860"
+        },
+        {
+          "token": "FWDIB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 FWDIB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x83f1a739fae6517c4672c5e10c8ea918925eb584"
+        },
+        {
+          "token": "ADBEB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 ADBEB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x65c0249d49e3231540fd0db0a1ae9259e6eaaf57"
+        },
+        {
+          "token": "CT",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 CT - Concrete 是为机构打造的全栈链上金融操作系统",
+          "url": "https://www.binance.com/en/alpha/bsc/0x0a092e544da31150b439a1aaa1a3a2214a867f46"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "CT",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: CTUSDT Perpetual Contract with Up to 20x Leverage",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-ctusdt-perpetual-contract-with-up-to-20x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CODEC",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 CODEC (Codec Flow)6 小时前242",
+          "url": "https://www.gate.com/zh/announcements/article/102059"
+        },
+        {
+          "token": "MU3L",
+          "type": "上线",
+          "detail": "Gate ETF 芯享加码礼：交易 ETF 赢  MU3L，解锁三重专享福利6 小时前353",
+          "url": "https://www.gate.com/zh/announcements/article/102057"
+        },
+        {
+          "token": "CARDS",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Collector Crypt (CARDS) 现货交易与闪兑交易1 天前804",
+          "url": "https://www.gate.com/zh/announcements/article/102029"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "TWST",
+          "type": "美股合约",
+          "detail": "TWST（同公告含 8 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414"
+        },
+        {
+          "token": "CVNA",
+          "type": "美股合约",
+          "detail": "CVNA（同公告含 8 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414"
+        },
+        {
+          "token": "RUM",
+          "type": "美股合约",
+          "detail": "RUM（同公告含 8 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414"
+        },
+        {
+          "token": "CRML",
+          "type": "美股合约",
+          "detail": "CRML（同公告含 8 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414"
+        },
+        {
+          "token": "BWET",
+          "type": "美股合约",
+          "detail": "BWET（同公告含 8 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414"
+        },
+        {
+          "token": "ACN",
+          "type": "美股合约",
+          "detail": "ACN（同公告含 8 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414"
+        },
+        {
+          "token": "KOD",
+          "type": "美股合约",
+          "detail": "KOD（同公告含 8 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414"
+        },
+        {
+          "token": "AKAM",
+          "type": "美股合约",
+          "detail": "AKAM（同公告含 8 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ABT",
+          "type": "美股合约",
+          "detail": "ABT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937"
+        },
+        {
+          "token": "MDT",
+          "type": "美股合约",
+          "detail": "MDT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937"
+        },
+        {
+          "token": "AZO",
+          "type": "美股合约",
+          "detail": "AZO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937"
+        },
+        {
+          "token": "DTE",
+          "type": "美股合约",
+          "detail": "DTE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937"
+        },
+        {
+          "token": "KR",
+          "type": "美股合约",
+          "detail": "KR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937"
+        }
+      ]
+    }
+  }
+}
