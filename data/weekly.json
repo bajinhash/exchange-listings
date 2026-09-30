@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-25",
   "weekEnd": "2026-10-01",
-  "updatedAt": "2026-09-30T17:09:57.772Z",
+  "updatedAt": "2026-09-30T18:18:21.753Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -180,7 +180,7 @@
         {
           "token": "CODEC",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 CODEC (Codec Flow)6 小时前259",
+          "detail": "Gate 打金狗首发上线 CODEC (Codec Flow)7 小时前286",
           "url": "https://www.gate.com/zh/announcements/article/102059",
           "dates": [
             "2026-10-01"
@@ -189,7 +189,7 @@
         {
           "token": "MU3L",
           "type": "上线",
-          "detail": "Gate ETF 芯享加码礼：交易 ETF 赢  MU3L，解锁三重专享福利7 小时前372",
+          "detail": "Gate ETF 芯享加码礼：交易 ETF 赢  MU3L，解锁三重专享福利8 小时前397",
           "url": "https://www.gate.com/zh/announcements/article/102057",
           "dates": [
             "2026-10-01"
