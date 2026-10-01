@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-01T17:08:46.213Z",
+  "updatedAt": "2026-10-01T17:18:08.708Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -27,7 +27,7 @@
         {
           "token": "CT",
           "type": "现货上线",
-          "detail": "Gate 将上线 Concrete (CT) 现货交易与闪兑交易1 天前1,517",
+          "detail": "Gate 将上线 Concrete (CT) 现货交易与闪兑交易1 天前1,518",
           "url": "https://www.gate.com/zh/announcements/article/102044"
         }
       ]
