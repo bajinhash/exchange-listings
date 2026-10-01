@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-01T17:18:08.708Z",
+  "updatedAt": "2026-10-01T17:45:18.036Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -17,20 +17,7 @@
       "listings": []
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "CODEC",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 CODEC (Codec Flow)1 天前561",
-          "url": "https://www.gate.com/zh/announcements/article/102059"
-        },
-        {
-          "token": "CT",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Concrete (CT) 现货交易与闪兑交易1 天前1,518",
-          "url": "https://www.gate.com/zh/announcements/article/102044"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": []
