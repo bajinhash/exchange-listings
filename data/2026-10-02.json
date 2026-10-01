@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-02",
+  "updatedAt": "2026-10-01T17:08:46.213Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CODEC",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 CODEC (Codec Flow)1 天前561",
+          "url": "https://www.gate.com/zh/announcements/article/102059"
+        },
+        {
+          "token": "CT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Concrete (CT) 现货交易与闪兑交易1 天前1,517",
+          "url": "https://www.gate.com/zh/announcements/article/102044"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ABT",
+          "type": "美股合约",
+          "detail": "ABT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937"
+        },
+        {
+          "token": "MDT",
+          "type": "美股合约",
+          "detail": "MDT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937"
+        },
+        {
+          "token": "AZO",
+          "type": "美股合约",
+          "detail": "AZO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937"
+        },
+        {
+          "token": "DTE",
+          "type": "美股合约",
+          "detail": "DTE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937"
+        },
+        {
+          "token": "KR",
+          "type": "美股合约",
+          "detail": "KR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937"
+        },
+        {
+          "token": "THEO",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Autheo (THEO)，瓜分 60,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538892"
+        },
+        {
+          "token": "RITUAL",
+          "type": "上线",
+          "detail": "MEXC 盤前交易：Ritual (RITUAL) 即將上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791538935"
+        }
+      ]
+    }
+  }
+}
