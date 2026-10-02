@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-02T16:39:11.861Z",
+  "updatedAt": "2026-10-02T16:59:25.071Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -28,25 +28,25 @@
         {
           "token": "POD",
           "type": "跟单合约",
-          "detail": "Gate 已上线 POD 合约交易、交易机器人、跟单功能5 小时前339",
+          "detail": "Gate 已上线 POD 合约交易、交易机器人、跟单功能5 小时前357",
           "url": "https://www.gate.com/zh/announcements/article/102080"
         },
         {
           "token": "TOKEN2049",
           "type": "上线",
-          "detail": "Gate 宣布亮相 TOKEN2049 Singapore 2026，Dr. Han 将出席活动并于主舞台发表演讲1 天前1,004",
+          "detail": "Gate 宣布亮相 TOKEN2049 Singapore 2026，Dr. Han 将出席活动并于主舞台发表演讲1 天前1,011",
           "url": "https://www.gate.com/zh/announcements/article/102075"
         },
         {
           "token": "CT",
           "type": "跟单合约",
-          "detail": "Gate 已上线 CT 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投功...1 天前916",
+          "detail": "Gate 已上线 CT 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投功...1 天前919",
           "url": "https://www.gate.com/zh/announcements/article/102073"
         },
         {
           "token": "SI",
           "type": "现货上线",
-          "detail": "Gate 将上线 Super Inu (SI) 现货交易与闪兑交易1 天前1,568",
+          "detail": "Gate 将上线 Super Inu (SI) 现货交易与闪兑交易1 天前1,570",
           "url": "https://www.gate.com/zh/announcements/article/102070"
         }
       ]
