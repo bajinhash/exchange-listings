@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-09-26",
-  "weekEnd": "2026-10-02",
-  "updatedAt": "2026-10-01T18:44:52.662Z",
+  "weekStart": "2026-09-27",
+  "weekEnd": "2026-10-03",
+  "updatedAt": "2026-10-02T16:22:54.704Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -119,6 +119,15 @@
     "kucoin": {
       "listings": [
         {
+          "token": "PNT",
+          "type": "现货上线",
+          "detail": "World Premiere: Pheasant Network (PNT) Listed on KuCoinTrading: 12:00 on October 5, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-pheasant-network-pnt-listed-on-kucoin",
+          "dates": [
+            "2026-10-03"
+          ]
+        },
+        {
           "token": "CT",
           "type": "永续合约",
           "detail": "KuCoin Futures New Listing: CTUSDT Perpetual Contract with Up to 20x Leverage",
@@ -131,6 +140,15 @@
     },
     "gateio": {
       "listings": [
+        {
+          "token": "TOKEN2049",
+          "type": "上线",
+          "detail": "Gate 宣布亮相 TOKEN2049 Singapore 2026，Dr. Han 将出席活动并于主舞台发表演讲1 天前996",
+          "url": "https://www.gate.com/zh/announcements/article/102075",
+          "dates": [
+            "2026-10-03"
+          ]
+        },
         {
           "token": "CODEC",
           "type": "现货上线",
@@ -231,24 +249,6 @@
           "dates": [
             "2026-09-27"
           ]
-        },
-        {
-          "token": "MAG7XON",
-          "type": "现货上线",
-          "detail": "Gate 股票代币专区将上线 MAG7XON 等 7 个代币现货交易与闪兑交易1 天前1,579",
-          "url": "https://www.gate.com/zh/announcements/article/101963",
-          "dates": [
-            "2026-09-26"
-          ]
-        },
-        {
-          "token": "XAUT",
-          "type": "上线",
-          "detail": "Gate App 新客启航：下载 App 解锁 $17 XAUT 新客礼包1 天前1,615",
-          "url": "https://www.gate.com/zh/announcements/article/101960",
-          "dates": [
-            "2026-09-26"
-          ]
         }
       ]
     },
@@ -330,6 +330,24 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "GUC",
+          "type": "美股合约",
+          "detail": "MEXC 將於 10月2日 上線 GUC 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538974",
+          "dates": [
+            "2026-10-03"
+          ]
+        },
+        {
+          "token": "GM",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年10月2日 23:13 (UTC+8) 上線 GMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538973",
+          "dates": [
+            "2026-10-03"
+          ]
+        },
         {
           "token": "ABT",
           "type": "美股合约",
@@ -453,26 +471,6 @@
           ]
         },
         {
-          "token": "SI",
-          "type": "Meme+ 现货",
-          "detail": "SI 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538850",
-          "dates": [
-            "2026-09-26",
-            "2026-09-29"
-          ]
-        },
-        {
-          "token": "MASKSOL",
-          "type": "Meme+ 现货",
-          "detail": "MASKSOL 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538849",
-          "dates": [
-            "2026-09-26",
-            "2026-09-29"
-          ]
-        },
-        {
           "token": "KOD",
           "type": "美股合约",
           "detail": "MEXC 將於 9月28日 上線 KOD 股票合約，限時享 0 費",
@@ -537,11 +535,28 @@
         },
         {
           "token": "SI",
+          "type": "Meme+ 现货",
+          "detail": "SI 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538850",
+          "dates": [
+            "2026-09-29"
+          ]
+        },
+        {
+          "token": "MASKSOL",
+          "type": "Meme+ 现货",
+          "detail": "MASKSOL 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538849",
+          "dates": [
+            "2026-09-29"
+          ]
+        },
+        {
+          "token": "SI",
           "type": "上线",
           "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 SIUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-siusdt-futures-in-innovation-zone-on-sep-26-2026-13-17827791538853",
           "dates": [
-            "2026-09-26",
             "2026-09-27",
             "2026-09-28"
           ]
@@ -552,7 +567,6 @@
           "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 MASKSOLUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538852",
           "dates": [
-            "2026-09-26",
             "2026-09-27",
             "2026-09-28"
           ]
@@ -563,7 +577,6 @@
           "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 EACCUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538851",
           "dates": [
-            "2026-09-26",
             "2026-09-27",
             "2026-09-28"
           ]
@@ -574,27 +587,8 @@
           "detail": "PAID 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-paid-to-innovation-zone-17827791538848",
           "dates": [
-            "2026-09-26",
             "2026-09-27",
             "2026-09-28"
-          ]
-        },
-        {
-          "token": "EACC",
-          "type": "Meme+ 现货",
-          "detail": "EACC 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538847",
-          "dates": [
-            "2026-09-26"
-          ]
-        },
-        {
-          "token": "AKAM",
-          "type": "美股合约",
-          "detail": "MEXC 將於 9月25日 上線 AKAM 股票合約，限時享 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538844",
-          "dates": [
-            "2026-09-26"
           ]
         }
       ]

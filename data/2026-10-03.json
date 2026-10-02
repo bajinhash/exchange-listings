@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-03",
+  "updatedAt": "2026-10-02T16:22:54.527Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "PNT",
+          "type": "现货上线",
+          "detail": "World Premiere: Pheasant Network (PNT) Listed on KuCoinTrading: 12:00 on October 5, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-pheasant-network-pnt-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "TOKEN2049",
+          "type": "上线",
+          "detail": "Gate 宣布亮相 TOKEN2049 Singapore 2026，Dr. Han 将出席活动并于主舞台发表演讲1 天前996",
+          "url": "https://www.gate.com/zh/announcements/article/102075"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GUC",
+          "type": "美股合约",
+          "detail": "MEXC 將於 10月2日 上線 GUC 股票合約，限時享 0 費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538974"
+        },
+        {
+          "token": "GM",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年10月2日 23:13 (UTC+8) 上線 GMUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538973"
+        }
+      ]
+    }
+  }
+}
