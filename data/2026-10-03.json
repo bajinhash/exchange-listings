@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-02T18:13:27.201Z",
+  "updatedAt": "2026-10-03T14:50:39.016Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -26,22 +26,40 @@
     "gateio": {
       "listings": [
         {
+          "token": "HOOKED",
+          "type": "跟单合约",
+          "detail": "HOOKED（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102084"
+        },
+        {
+          "token": "HOOKR",
+          "type": "跟单合约",
+          "detail": "HOOKR（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102084"
+        },
+        {
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第三批 14% 解锁的安排公告9 小时前466",
+          "url": "https://www.gate.com/zh/announcements/article/102082"
+        },
+        {
+          "token": "SGT",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 Agency (Agency)、SGT (Sight)、SI (Super Intelligence)、Nailoong（奶...13 小时前447",
+          "url": "https://www.gate.com/zh/announcements/article/102081"
+        },
+        {
           "token": "POD",
           "type": "跟单合约",
-          "detail": "Gate 已上线 POD 合约交易、交易机器人、跟单功能6 小时前422",
+          "detail": "Gate 已上线 POD 合约交易、交易机器人、跟单功能1 天前913",
           "url": "https://www.gate.com/zh/announcements/article/102080"
         },
         {
-          "token": "TOKEN2049",
-          "type": "上线",
-          "detail": "Gate 宣布亮相 TOKEN2049 Singapore 2026，Dr. Han 将出席活动并于主舞台发表演讲1 天前1,036",
-          "url": "https://www.gate.com/zh/announcements/article/102075"
-        },
-        {
-          "token": "CT",
-          "type": "跟单合约",
-          "detail": "Gate 已上线 CT 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投功...1 天前935",
-          "url": "https://www.gate.com/zh/announcements/article/102073"
+          "token": "JPM",
+          "type": "永续合约",
+          "detail": "Gate关于 JPM 永续合约分红派息结算的公告1 天前820",
+          "url": "https://www.gate.com/zh/announcements/article/102079"
         }
       ]
     },
@@ -50,6 +68,12 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "HOOKED",
+          "type": "Meme+ 现货",
+          "detail": "HOOKED 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538977"
+        },
         {
           "token": "GUC",
           "type": "美股合约",
@@ -61,6 +85,78 @@
           "type": "现货上线",
           "detail": "MEXC 合約創新區將於 2026年10月2日 23:13 (UTC+8) 上線 GMUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538973"
+        },
+        {
+          "token": "POD",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 POD U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-pod-usdt-m-futures-17827791538970"
+        },
+        {
+          "token": "POD",
+          "type": "上线",
+          "detail": "MEXC 將於創新區上線 Dolphin (POD)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-dolphin-pod-in-innovation-zone-17827791538968"
+        },
+        {
+          "token": "KBLAM",
+          "type": "跟单合约",
+          "detail": "KBLAM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kblam-wuxibio-innovent-genscript-and-akeso-usdt-m-futures-17827791538966"
+        },
+        {
+          "token": "WUXIBIO",
+          "type": "跟单合约",
+          "detail": "WUXIBIO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kblam-wuxibio-innovent-genscript-and-akeso-usdt-m-futures-17827791538966"
+        },
+        {
+          "token": "INNOVENT",
+          "type": "跟单合约",
+          "detail": "INNOVENT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kblam-wuxibio-innovent-genscript-and-akeso-usdt-m-futures-17827791538966"
+        },
+        {
+          "token": "GENSCRIPT",
+          "type": "跟单合约",
+          "detail": "GENSCRIPT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kblam-wuxibio-innovent-genscript-and-akeso-usdt-m-futures-17827791538966"
+        },
+        {
+          "token": "AKESO",
+          "type": "跟单合约",
+          "detail": "AKESO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kblam-wuxibio-innovent-genscript-and-akeso-usdt-m-futures-17827791538966"
+        },
+        {
+          "token": "KBLAM",
+          "type": "美股合约",
+          "detail": "KBLAM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538964"
+        },
+        {
+          "token": "WUXIBIO",
+          "type": "美股合约",
+          "detail": "WUXIBIO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538964"
+        },
+        {
+          "token": "INNOVENT",
+          "type": "美股合约",
+          "detail": "INNOVENT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538964"
+        },
+        {
+          "token": "GENSCRIPT",
+          "type": "美股合约",
+          "detail": "GENSCRIPT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538964"
+        },
+        {
+          "token": "AKESO",
+          "type": "美股合约",
+          "detail": "AKESO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538964"
         }
       ]
     }
