@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T14:50:39.016Z",
+  "updatedAt": "2026-10-03T14:59:57.060Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -24,44 +24,7 @@
       ]
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "HOOKED",
-          "type": "跟单合约",
-          "detail": "HOOKED（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/102084"
-        },
-        {
-          "token": "HOOKR",
-          "type": "跟单合约",
-          "detail": "HOOKR（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/102084"
-        },
-        {
-          "token": "SPCX",
-          "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第三批 14% 解锁的安排公告9 小时前466",
-          "url": "https://www.gate.com/zh/announcements/article/102082"
-        },
-        {
-          "token": "SGT",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 Agency (Agency)、SGT (Sight)、SI (Super Intelligence)、Nailoong（奶...13 小时前447",
-          "url": "https://www.gate.com/zh/announcements/article/102081"
-        },
-        {
-          "token": "POD",
-          "type": "跟单合约",
-          "detail": "Gate 已上线 POD 合约交易、交易机器人、跟单功能1 天前913",
-          "url": "https://www.gate.com/zh/announcements/article/102080"
-        },
-        {
-          "token": "JPM",
-          "type": "永续合约",
-          "detail": "Gate关于 JPM 永续合约分红派息结算的公告1 天前820",
-          "url": "https://www.gate.com/zh/announcements/article/102079"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": []
