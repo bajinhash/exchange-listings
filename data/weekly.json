@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-09-27",
-  "weekEnd": "2026-10-03",
-  "updatedAt": "2026-10-03T15:23:45.920Z",
+  "weekStart": "2026-09-28",
+  "weekEnd": "2026-10-04",
+  "updatedAt": "2026-10-03T16:56:15.751Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -146,7 +146,8 @@
           "detail": "HOOKED（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/102084",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -155,7 +156,28 @@
           "detail": "HOOKR（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/102084",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
+          ]
+        },
+        {
+          "token": "POD",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 POD 合约交易、交易机器人、跟单功能1 天前923",
+          "url": "https://www.gate.com/zh/announcements/article/102080",
+          "dates": [
+            "2026-10-03",
+            "2026-10-04"
+          ]
+        },
+        {
+          "token": "JPM",
+          "type": "永续合约",
+          "detail": "Gate关于 JPM 永续合约分红派息结算的公告1 天前824",
+          "url": "https://www.gate.com/zh/announcements/article/102079",
+          "dates": [
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -172,24 +194,6 @@
           "type": "现货上线",
           "detail": "Gate 打金狗首发上线 Agency (Agency)、SGT (Sight)、SI (Super Intelligence)、Nailoong（奶...14 小时前459",
           "url": "https://www.gate.com/zh/announcements/article/102081",
-          "dates": [
-            "2026-10-03"
-          ]
-        },
-        {
-          "token": "POD",
-          "type": "跟单合约",
-          "detail": "Gate 已上线 POD 合约交易、交易机器人、跟单功能1 天前923",
-          "url": "https://www.gate.com/zh/announcements/article/102080",
-          "dates": [
-            "2026-10-03"
-          ]
-        },
-        {
-          "token": "JPM",
-          "type": "永续合约",
-          "detail": "Gate关于 JPM 永续合约分红派息结算的公告1 天前824",
-          "url": "https://www.gate.com/zh/announcements/article/102079",
           "dates": [
             "2026-10-03"
           ]
@@ -276,24 +280,6 @@
           "dates": [
             "2026-09-30"
           ]
-        },
-        {
-          "token": "EACC",
-          "type": "跟单合约",
-          "detail": "Gate 合约 Meme 专区已上线 EACC 合约交易、交易机器人、跟单功能11 小时前515",
-          "url": "https://www.gate.com/zh/announcements/article/101965",
-          "dates": [
-            "2026-09-27"
-          ]
-        },
-        {
-          "token": "KARDASHEV",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 e/acc (Effective Accelerationism)、KARDASHEV (Kardashev Research)、YAP...12 小时前405",
-          "url": "https://www.gate.com/zh/announcements/article/101964",
-          "dates": [
-            "2026-09-27"
-          ]
         }
       ]
     },
@@ -376,21 +362,13 @@
     "mexc": {
       "listings": [
         {
-          "token": "HOOKED",
-          "type": "Meme+ 现货",
-          "detail": "HOOKED 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538977",
-          "dates": [
-            "2026-10-03"
-          ]
-        },
-        {
           "token": "GUC",
           "type": "美股合约",
           "detail": "MEXC 將於 10月2日 上線 GUC 股票合約，限時享 0 費",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538974",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -399,7 +377,8 @@
           "detail": "MEXC 合約創新區將於 2026年10月2日 23:13 (UTC+8) 上線 GMUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538973",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -408,7 +387,8 @@
           "detail": "MEXC 跟單新增 POD U 本位合約交易對",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-pod-usdt-m-futures-17827791538970",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -417,7 +397,8 @@
           "detail": "MEXC 將於創新區上線 Dolphin (POD)",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-dolphin-pod-in-innovation-zone-17827791538968",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -426,7 +407,8 @@
           "detail": "KBLAM（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kblam-wuxibio-innovent-genscript-and-akeso-usdt-m-futures-17827791538966",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -435,7 +417,8 @@
           "detail": "WUXIBIO（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kblam-wuxibio-innovent-genscript-and-akeso-usdt-m-futures-17827791538966",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -444,7 +427,8 @@
           "detail": "INNOVENT（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kblam-wuxibio-innovent-genscript-and-akeso-usdt-m-futures-17827791538966",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -453,7 +437,8 @@
           "detail": "GENSCRIPT（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kblam-wuxibio-innovent-genscript-and-akeso-usdt-m-futures-17827791538966",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -462,7 +447,8 @@
           "detail": "AKESO（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kblam-wuxibio-innovent-genscript-and-akeso-usdt-m-futures-17827791538966",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -471,7 +457,8 @@
           "detail": "KBLAM（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538964",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -480,7 +467,8 @@
           "detail": "WUXIBIO（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538964",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -489,7 +477,8 @@
           "detail": "INNOVENT（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538964",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -498,7 +487,8 @@
           "detail": "GENSCRIPT（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538964",
           "dates": [
-            "2026-10-03"
+            "2026-10-03",
+            "2026-10-04"
           ]
         },
         {
@@ -506,6 +496,16 @@
           "type": "美股合约",
           "detail": "AKESO（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538964",
+          "dates": [
+            "2026-10-03",
+            "2026-10-04"
+          ]
+        },
+        {
+          "token": "HOOKED",
+          "type": "Meme+ 现货",
+          "detail": "HOOKED 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538977",
           "dates": [
             "2026-10-03"
           ]
@@ -719,7 +719,6 @@
           "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 SIUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-siusdt-futures-in-innovation-zone-on-sep-26-2026-13-17827791538853",
           "dates": [
-            "2026-09-27",
             "2026-09-28"
           ]
         },
@@ -729,7 +728,6 @@
           "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 MASKSOLUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538852",
           "dates": [
-            "2026-09-27",
             "2026-09-28"
           ]
         },
@@ -739,7 +737,6 @@
           "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 EACCUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538851",
           "dates": [
-            "2026-09-27",
             "2026-09-28"
           ]
         },
@@ -749,7 +746,6 @@
           "detail": "PAID 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-paid-to-innovation-zone-17827791538848",
           "dates": [
-            "2026-09-27",
             "2026-09-28"
           ]
         }
