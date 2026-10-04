@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-05",
+  "updatedAt": "2026-10-04T16:08:20.901Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "HOOKED",
+          "type": "跟单合约",
+          "detail": "HOOKED（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102084"
+        },
+        {
+          "token": "HOOKR",
+          "type": "跟单合约",
+          "detail": "HOOKR（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102084"
+        },
+        {
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第三批 14% 解锁的安排公告1 天前933",
+          "url": "https://www.gate.com/zh/announcements/article/102082"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "HOOKED",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年10月4日 15:26 (UTC+8) 上線 HOOKEDUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538982"
+        }
+      ]
+    }
+  }
+}

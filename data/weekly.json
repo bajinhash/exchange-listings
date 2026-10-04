@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-09-28",
-  "weekEnd": "2026-10-04",
-  "updatedAt": "2026-10-04T15:36:05.451Z",
+  "weekStart": "2026-09-29",
+  "weekEnd": "2026-10-05",
+  "updatedAt": "2026-10-04T16:08:21.017Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -147,7 +147,8 @@
           "url": "https://www.gate.com/zh/announcements/article/102084",
           "dates": [
             "2026-10-03",
-            "2026-10-04"
+            "2026-10-04",
+            "2026-10-05"
           ]
         },
         {
@@ -157,7 +158,8 @@
           "url": "https://www.gate.com/zh/announcements/article/102084",
           "dates": [
             "2026-10-03",
-            "2026-10-04"
+            "2026-10-04",
+            "2026-10-05"
           ]
         },
         {
@@ -167,7 +169,8 @@
           "url": "https://www.gate.com/zh/announcements/article/102082",
           "dates": [
             "2026-10-03",
-            "2026-10-04"
+            "2026-10-04",
+            "2026-10-05"
           ]
         },
         {
@@ -366,7 +369,8 @@
           "detail": "MEXC 合約創新區將於 2026年10月4日 15:26 (UTC+8) 上線 HOOKEDUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538982",
           "dates": [
-            "2026-10-04"
+            "2026-10-04",
+            "2026-10-05"
           ]
         },
         {
@@ -741,42 +745,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538849",
           "dates": [
             "2026-09-29"
-          ]
-        },
-        {
-          "token": "SI",
-          "type": "上线",
-          "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 SIUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-siusdt-futures-in-innovation-zone-on-sep-26-2026-13-17827791538853",
-          "dates": [
-            "2026-09-28"
-          ]
-        },
-        {
-          "token": "MASKSOL",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 MASKSOLUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538852",
-          "dates": [
-            "2026-09-28"
-          ]
-        },
-        {
-          "token": "EACC",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年9月26日 21:00 (UTC+8) 上線 EACCUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538851",
-          "dates": [
-            "2026-09-28"
-          ]
-        },
-        {
-          "token": "PAID",
-          "type": "上线",
-          "detail": "PAID 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-paid-to-innovation-zone-17827791538848",
-          "dates": [
-            "2026-09-28"
           ]
         }
       ]
