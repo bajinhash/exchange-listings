@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-09-29",
   "weekEnd": "2026-10-05",
-  "updatedAt": "2026-10-04T16:08:21.017Z",
+  "updatedAt": "2026-10-04T17:14:42.106Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -369,8 +369,7 @@
           "detail": "MEXC 合約創新區將於 2026年10月4日 15:26 (UTC+8) 上線 HOOKEDUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538982",
           "dates": [
-            "2026-10-04",
-            "2026-10-05"
+            "2026-10-04"
           ]
         },
         {
