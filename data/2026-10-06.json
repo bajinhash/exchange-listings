@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-06",
+  "updatedAt": "2026-10-05T19:23:48.501Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "ACNX",
+          "type": "美股合约",
+          "detail": "ACNX（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-05"
+        },
+        {
+          "token": "BWET",
+          "type": "美股合约",
+          "detail": "BWET（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-05"
+        },
+        {
+          "token": "NKE",
+          "type": "美股合约",
+          "detail": "NKE（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-05"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "HOOKED",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年10月4日 15:26 (UTC+8) 上線 HOOKEDUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538982"
+        },
+        {
+          "token": "AGENCY",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年10月4日 15:24 (UTC+8) 上線 AGENCYUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538981"
+        },
+        {
+          "token": "HOOKED",
+          "type": "上线",
+          "detail": "HOOKED 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-hooked-to-innovation-zone-17827791538980"
+        }
+      ]
+    }
+  }
+}

@@ -1,20 +1,10 @@
 {
-  "weekStart": "2026-09-29",
-  "weekEnd": "2026-10-05",
-  "updatedAt": "2026-10-04T17:14:42.106Z",
+  "weekStart": "2026-09-30",
+  "weekEnd": "2026-10-06",
+  "updatedAt": "2026-10-05T19:23:48.681Z",
   "exchanges": {
     "binance": {
-      "listings": [
-        {
-          "token": "LLC",
-          "type": "上线",
-          "detail": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
-          "url": "https://www.binance.com/en/support/announcement/d3a2cc0c1b5f42a2aee9a8bda2bd8e94",
-          "dates": [
-            "2026-09-29"
-          ]
-        }
-      ],
+      "listings": [],
       "alpha": [
         {
           "token": "ZMB",
@@ -87,15 +77,6 @@
           "dates": [
             "2026-10-01"
           ]
-        },
-        {
-          "token": "XDP",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 XDP - Doppler Finance 正在构建面向代币化资本市场的基础设施。",
-          "url": "https://www.binance.com/en/alpha/base/0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-          "dates": [
-            "2026-09-29"
-          ]
         }
       ],
       "wallet": []
@@ -104,20 +85,37 @@
       "listings": []
     },
     "bybit": {
-      "listings": [
-        {
-          "token": "KII",
-          "type": "永续合约",
-          "detail": "KIIUSDT 永續合約全新上線創新板塊， 支援最高 5 倍槓桿",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-kiiusdt-perpetual-contract-in-innovation-zone-with-up-to-5x-leverage--art19f31101a8d2/",
-          "dates": [
-            "2026-09-29"
-          ]
-        }
-      ]
+      "listings": []
     },
     "kucoin": {
       "listings": [
+        {
+          "token": "ACNX",
+          "type": "美股合约",
+          "detail": "ACNX（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-05",
+          "dates": [
+            "2026-10-06"
+          ]
+        },
+        {
+          "token": "BWET",
+          "type": "美股合约",
+          "detail": "BWET（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-05",
+          "dates": [
+            "2026-10-06"
+          ]
+        },
+        {
+          "token": "NKE",
+          "type": "美股合约",
+          "detail": "NKE（同公告含 3 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-05",
+          "dates": [
+            "2026-10-06"
+          ]
+        },
         {
           "token": "PNT",
           "type": "现货上线",
@@ -369,7 +367,8 @@
           "detail": "MEXC 合約創新區將於 2026年10月4日 15:26 (UTC+8) 上線 HOOKEDUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538982",
           "dates": [
-            "2026-10-04"
+            "2026-10-04",
+            "2026-10-06"
           ]
         },
         {
@@ -378,7 +377,8 @@
           "detail": "MEXC 合約創新區將於 2026年10月4日 15:24 (UTC+8) 上線 AGENCYUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538981",
           "dates": [
-            "2026-10-04"
+            "2026-10-04",
+            "2026-10-06"
           ]
         },
         {
@@ -387,7 +387,8 @@
           "detail": "HOOKED 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-hooked-to-innovation-zone-17827791538980",
           "dates": [
-            "2026-10-04"
+            "2026-10-04",
+            "2026-10-06"
           ]
         },
         {
@@ -663,87 +664,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538910",
           "dates": [
             "2026-09-30"
-          ]
-        },
-        {
-          "token": "KOD",
-          "type": "美股合约",
-          "detail": "MEXC 將於 9月28日 上線 KOD 股票合約，限時享 0 費",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538879",
-          "dates": [
-            "2026-09-29"
-          ]
-        },
-        {
-          "token": "XDP",
-          "type": "现货上线",
-          "detail": "MEXC 將於 2026年9月28日 21:55 (UTC+8) 上線 XDPUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538878",
-          "dates": [
-            "2026-09-29"
-          ]
-        },
-        {
-          "token": "DASH",
-          "type": "美股合约",
-          "detail": "DASH（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538876",
-          "dates": [
-            "2026-09-29"
-          ]
-        },
-        {
-          "token": "ROST",
-          "type": "美股合约",
-          "detail": "ROST（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538876",
-          "dates": [
-            "2026-09-29"
-          ]
-        },
-        {
-          "token": "VKTX",
-          "type": "美股合约",
-          "detail": "VKTX（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538876",
-          "dates": [
-            "2026-09-29"
-          ]
-        },
-        {
-          "token": "TJX",
-          "type": "美股合约",
-          "detail": "TJX（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538876",
-          "dates": [
-            "2026-09-29"
-          ]
-        },
-        {
-          "token": "CVS",
-          "type": "美股合约",
-          "detail": "CVS（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538876",
-          "dates": [
-            "2026-09-29"
-          ]
-        },
-        {
-          "token": "SI",
-          "type": "Meme+ 现货",
-          "detail": "SI 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538850",
-          "dates": [
-            "2026-09-29"
-          ]
-        },
-        {
-          "token": "MASKSOL",
-          "type": "Meme+ 现货",
-          "detail": "MASKSOL 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538849",
-          "dates": [
-            "2026-09-29"
           ]
         }
       ]
