@@ -185,6 +185,14 @@ const BANNED_TOKEN = new Set([
   // Brand names
   'MEXC', 'OKX', 'BINANCE', 'BYBIT', 'KUCOIN', 'GATE', 'HTX', 'BITGET',
   'KRAKEN', 'COINBASE',
+  // Regulators / jurisdictions / legal forms that appear in the tokenized-
+  // securities legal boilerplate. Second net behind the preamble strip in
+  // extractTokensFromBody — catches the same class of noise if another
+  // exchange ships a disclaimer without a "Fellow Binancians" marker.
+  // Deliberately NOT listed: NAV (Navcoin), VARA (Vara Network), ETC/ETN/ETP,
+  // FCA, SEC, MAS — each collides with a real crypto or US-equity ticker.
+  'ADGM', 'FSMR', 'FSRA', 'DFSA', 'ESMA', 'CSSF', 'FINMA', 'GDPR',
+  'ISIN', 'UCITS', 'AIFM', 'APAC', 'EMEA', 'GMBH', 'LLC', 'LTD', 'PLC',
   // NOTE: "AI" was previously banned defensively (to avoid "Binance AI Conf"
   // style false matches). It's now a real OKX ticker (Gensyn = AI/USDT spot),
   // and the regex contexts that pick it up (TICKERUSDT / TICKER-USDT /
@@ -205,7 +213,20 @@ function extractTokensFromBody(item) {
   // Scan title + body — bulk listings sometimes put the full ticker list
   // in the title (e.g. Gate '将上线 DRAM (...) 、HIMS (...)、JPM (...)').
   const title = item.title || '';
-  const body = title + '\n' + (item.body || '');
+  // Binance's tokenized-securities (bStocks) announcements open with ~900
+  // chars of legal boilerplate naming the issuer, its regulator and its
+  // registration jurisdiction, e.g. "bStocks are offered through an Approved
+  // Prospectus in the ADGM and are not offered in any other jurisdiction …
+  // issued by BTech Holdings Limited". None of that is a listing, but
+  // Pattern 2 below ("TICKER and ") read ADGM (Abu Dhabi Global Market) as an
+  // 11th bStock on 6 archive days (6/11, 6/12, 6/23, 6/30, 7/7, 7/15) —
+  // flagged 2026-07-21 against the official "Adds 10 bStocks" announcements.
+  // The real announcement starts at "Fellow Binancians," — scan from there.
+  // Title is kept intact either way: bulk lists often live in the title.
+  let bodyText = item.body || '';
+  const fb = bodyText.indexOf('Fellow Binancians');
+  if (fb > 0) bodyText = bodyText.slice(fb);
+  const body = title + '\n' + bodyText;
   const tokens = new Set();
   // Strip plain USD suffix too when the announcement is a USD-margined /
   // X-Perp contract — there the "USD" is the quote currency, not part of
@@ -279,7 +300,21 @@ function extractTokensFromBody(item) {
 
 // Returns an array of tokens for this item. Most items → [single token];
 // bulk listings → multiple tokens parsed from body.
+// Third net for the bStocks case: every Binance tokenized-security ticker is
+// the underlying US symbol plus a 'B' suffix (NVDAB / GOOGLB / SPYB / TSMB).
+// In a bStocks announcement anything without that suffix came from prose, not
+// from the trading-pair list. Only applied when the suffix-matching subset is
+// non-empty, so a future naming change degrades to "keep everything".
 function extractTokens(item) {
+  const out = extractTokensRaw(item);
+  if (/bStocks/i.test(item.title || '') && out.length > 1) {
+    const suffixed = out.filter(t => /^[A-Z0-9]{2,10}B$/.test(t));
+    if (suffixed.length) return suffixed;
+  }
+  return out;
+}
+
+function extractTokensRaw(item) {
   const title = item.title || '';
   // Priority 0 (Gate Alpha): "Gate Alpha 首发上线 <Sym> (<Full Name>)、<Sym2>
   //   (<Full Name2>)". Gate Alpha INVERTS the usual convention — the symbol
