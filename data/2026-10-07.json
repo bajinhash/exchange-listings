@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-07",
+  "updatedAt": "2026-10-06T16:51:30.794Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "GT",
+          "type": "上线",
+          "detail": "2026 年第三季度 GateToken (GT) 链上销毁公告1 天前15,773",
+          "url": "https://www.gate.com/zh/announcements/article/102086"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "AGENCY",
+          "type": "上线",
+          "detail": "AGENCY 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-agency-to-innovation-zone-17827791538994"
+        }
+      ]
+    }
+  }
+}
