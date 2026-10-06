@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-06T17:34:20.728Z",
+  "updatedAt": "2026-10-06T18:48:12.210Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -17,14 +17,7 @@
       "listings": []
     },
     "gateio": {
-      "listings": [
-        {
-          "token": "GT",
-          "type": "上线",
-          "detail": "2026 年第三季度 GateToken (GT) 链上销毁公告1 天前15,883",
-          "url": "https://www.gate.com/zh/announcements/article/102086"
-        }
-      ]
+      "listings": []
     },
     "bitget": {
       "listings": [
