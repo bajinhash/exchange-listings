@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-06T16:51:30.794Z",
+  "updatedAt": "2026-10-06T17:00:52.158Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,13 +21,38 @@
         {
           "token": "GT",
           "type": "上线",
-          "detail": "2026 年第三季度 GateToken (GT) 链上销毁公告1 天前15,773",
+          "detail": "2026 年第三季度 GateToken (GT) 链上销毁公告1 天前15,792",
           "url": "https://www.gate.com/zh/announcements/article/102086"
         }
       ]
     },
     "bitget": {
-      "listings": []
+      "listings": [
+        {
+          "token": "USDESTOCK",
+          "type": "美股合约",
+          "detail": "USDESTOCK（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896776"
+        },
+        {
+          "token": "VKTX",
+          "type": "美股合约",
+          "detail": "VKTX（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896776"
+        },
+        {
+          "token": "PCVX",
+          "type": "美股合约",
+          "detail": "PCVX（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896776"
+        },
+        {
+          "token": "XP",
+          "type": "美股合约",
+          "detail": "XP（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896776"
+        }
+      ]
     },
     "mexc": {
       "listings": [
