@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-10-02",
   "weekEnd": "2026-10-08",
-  "updatedAt": "2026-10-07T18:07:15.383Z",
+  "updatedAt": "2026-10-07T19:14:35.983Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -93,15 +93,6 @@
     },
     "gateio": {
       "listings": [
-        {
-          "token": "META",
-          "type": "上线",
-          "detail": "Gate 关于已完成 Meta (META) 等 245 只股票股息派发公告1 天前881",
-          "url": "https://www.gate.com/zh/announcements/article/102092",
-          "dates": [
-            "2026-10-08"
-          ]
-        },
         {
           "token": "HOOKED",
           "type": "跟单合约",
