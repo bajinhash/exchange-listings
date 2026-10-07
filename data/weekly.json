@@ -1,81 +1,45 @@
 {
-  "weekStart": "2026-10-01",
-  "weekEnd": "2026-10-07",
-  "updatedAt": "2026-10-06T18:48:12.355Z",
+  "weekStart": "2026-10-02",
+  "weekEnd": "2026-10-08",
+  "updatedAt": "2026-10-07T17:36:51.933Z",
   "exchanges": {
     "binance": {
       "listings": [],
       "alpha": [
         {
-          "token": "ZMB",
+          "token": "USDEB",
           "type": "上线",
-          "detail": "Binance Alpha 上线 ZMB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xf4ddb292fe88e476eddd9869d386705e6bfab7a2",
+          "detail": "Binance Alpha 上线 USDEB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xdfd3ba51d4591f243481a6f26059d1a5ee95252f",
           "dates": [
-            "2026-10-01"
+            "2026-10-08"
           ]
         },
         {
-          "token": "WENB",
+          "token": "SECZB",
           "type": "上线",
-          "detail": "Binance Alpha 上线 WENB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xded1c5fb38c262beb9cff1e1116eff3c5bf278cd",
+          "detail": "Binance Alpha 上线 SECZB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x32c980f38907ace4fac643c3765d9b32842af60f",
           "dates": [
-            "2026-10-01"
+            "2026-10-08"
           ]
         },
         {
-          "token": "SHAZB",
+          "token": "LLYB",
           "type": "上线",
-          "detail": "Binance Alpha 上线 SHAZB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x0f31e21b7881f5583ea94ddbcb0bcaf22b1abeab",
+          "detail": "Binance Alpha 上线 LLYB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x5407912f1aa4b9e05cbe6abeb9721547a643ec6b",
           "dates": [
-            "2026-10-01"
+            "2026-10-08"
           ]
         },
         {
-          "token": "PDDB",
+          "token": "JPMB",
           "type": "上线",
-          "detail": "Binance Alpha 上线 PDDB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x95b0409679b55c31772daa2fb4bee7b125b77521",
+          "detail": "Binance Alpha 上线 JPMB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xbd49d695ba2cc46c8c603eb62afcd7fff4698281",
           "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "HPEB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 HPEB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xd56eb30d2ea7b5866dc0066d33bbaab36f7e8860",
-          "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "FWDIB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 FWDIB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x83f1a739fae6517c4672c5e10c8ea918925eb584",
-          "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "ADBEB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 ADBEB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x65c0249d49e3231540fd0db0a1ae9259e6eaaf57",
-          "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "CT",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 CT - Concrete 是为机构打造的全栈链上金融操作系统",
-          "url": "https://www.binance.com/en/alpha/bsc/0x0a092e544da31150b439a1aaa1a3a2214a867f46",
-          "dates": [
-            "2026-10-01"
+            "2026-10-08"
           ]
         }
       ],
@@ -124,20 +88,20 @@
           "dates": [
             "2026-10-03"
           ]
-        },
-        {
-          "token": "CT",
-          "type": "永续合约",
-          "detail": "KuCoin Futures New Listing: CTUSDT Perpetual Contract with Up to 20x Leverage",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-ctusdt-perpetual-contract-with-up-to-20x-leverage",
-          "dates": [
-            "2026-10-01"
-          ]
         }
       ]
     },
     "gateio": {
       "listings": [
+        {
+          "token": "META",
+          "type": "上线",
+          "detail": "Gate 关于已完成 Meta (META) 等 245 只股票股息派发公告1 天前874",
+          "url": "https://www.gate.com/zh/announcements/article/102092",
+          "dates": [
+            "2026-10-08"
+          ]
+        },
         {
           "token": "HOOKED",
           "type": "跟单合约",
@@ -201,10 +165,9 @@
         {
           "token": "CODEC",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 CODEC (Codec Flow)7 小时前286",
+          "detail": "Gate 打金狗首发上线 CODEC (Codec Flow)1 天前569",
           "url": "https://www.gate.com/zh/announcements/article/102059",
           "dates": [
-            "2026-10-01",
             "2026-10-02"
           ]
         },
@@ -215,24 +178,6 @@
           "url": "https://www.gate.com/zh/announcements/article/102044",
           "dates": [
             "2026-10-02"
-          ]
-        },
-        {
-          "token": "MU3L",
-          "type": "上线",
-          "detail": "Gate ETF 芯享加码礼：交易 ETF 赢  MU3L，解锁三重专享福利8 小时前397",
-          "url": "https://www.gate.com/zh/announcements/article/102057",
-          "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "CARDS",
-          "type": "现货上线",
-          "detail": "Gate 将上线 Collector Crypt (CARDS) 现货交易与闪兑交易1 天前815",
-          "url": "https://www.gate.com/zh/announcements/article/102029",
-          "dates": [
-            "2026-10-01"
           ]
         }
       ]
@@ -274,83 +219,65 @@
           "dates": [
             "2026-10-07"
           ]
-        },
-        {
-          "token": "TWST",
-          "type": "美股合约",
-          "detail": "TWST（同公告含 8 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414",
-          "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "CVNA",
-          "type": "美股合约",
-          "detail": "CVNA（同公告含 8 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414",
-          "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "RUM",
-          "type": "美股合约",
-          "detail": "RUM（同公告含 8 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414",
-          "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "CRML",
-          "type": "美股合约",
-          "detail": "CRML（同公告含 8 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414",
-          "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "BWET",
-          "type": "美股合约",
-          "detail": "BWET（同公告含 8 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414",
-          "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "ACN",
-          "type": "美股合约",
-          "detail": "ACN（同公告含 8 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414",
-          "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "KOD",
-          "type": "美股合约",
-          "detail": "KOD（同公告含 8 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414",
-          "dates": [
-            "2026-10-01"
-          ]
-        },
-        {
-          "token": "AKAM",
-          "type": "美股合约",
-          "detail": "AKAM（同公告含 8 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414",
-          "dates": [
-            "2026-10-01"
-          ]
         }
       ]
     },
     "mexc": {
       "listings": [
+        {
+          "token": "IBVM",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 IBVM (IBVM)，瓜分 60,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539028",
+          "dates": [
+            "2026-10-08"
+          ]
+        },
+        {
+          "token": "CTX",
+          "type": "上线",
+          "detail": "MEXC 將延遲 Cortex Network (CTX) 上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-cortex-network-ctx-listing-17827791539017",
+          "dates": [
+            "2026-10-08"
+          ]
+        },
+        {
+          "token": "HOOKED",
+          "type": "跟单合约",
+          "detail": "HOOKED（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012",
+          "dates": [
+            "2026-10-08"
+          ]
+        },
+        {
+          "token": "AGENCY",
+          "type": "跟单合约",
+          "detail": "AGENCY（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012",
+          "dates": [
+            "2026-10-08"
+          ]
+        },
+        {
+          "token": "GM",
+          "type": "跟单合约",
+          "detail": "GM（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012",
+          "dates": [
+            "2026-10-08"
+          ]
+        },
+        {
+          "token": "GUC",
+          "type": "跟单合约",
+          "detail": "GUC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012",
+          "dates": [
+            "2026-10-08"
+          ]
+        },
         {
           "token": "AGENCY",
           "type": "上线",
@@ -549,7 +476,6 @@
           "detail": "ABT（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937",
           "dates": [
-            "2026-10-01",
             "2026-10-02"
           ]
         },
@@ -559,7 +485,6 @@
           "detail": "MDT（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937",
           "dates": [
-            "2026-10-01",
             "2026-10-02"
           ]
         },
@@ -569,7 +494,6 @@
           "detail": "AZO（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937",
           "dates": [
-            "2026-10-01",
             "2026-10-02"
           ]
         },
@@ -579,7 +503,6 @@
           "detail": "DTE（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937",
           "dates": [
-            "2026-10-01",
             "2026-10-02"
           ]
         },
@@ -589,7 +512,6 @@
           "detail": "KR（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937",
           "dates": [
-            "2026-10-01",
             "2026-10-02"
           ]
         },

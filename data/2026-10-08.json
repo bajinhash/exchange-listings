@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-08",
+  "updatedAt": "2026-10-07T17:36:51.794Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "USDEB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 USDEB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xdfd3ba51d4591f243481a6f26059d1a5ee95252f"
+        },
+        {
+          "token": "SECZB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 SECZB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x32c980f38907ace4fac643c3765d9b32842af60f"
+        },
+        {
+          "token": "LLYB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 LLYB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x5407912f1aa4b9e05cbe6abeb9721547a643ec6b"
+        },
+        {
+          "token": "JPMB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 JPMB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xbd49d695ba2cc46c8c603eb62afcd7fff4698281"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "META",
+          "type": "上线",
+          "detail": "Gate 关于已完成 Meta (META) 等 245 只股票股息派发公告1 天前874",
+          "url": "https://www.gate.com/zh/announcements/article/102092"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "IBVM",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 IBVM (IBVM)，瓜分 60,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539028"
+        },
+        {
+          "token": "CTX",
+          "type": "上线",
+          "detail": "MEXC 將延遲 Cortex Network (CTX) 上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-cortex-network-ctx-listing-17827791539017"
+        },
+        {
+          "token": "HOOKED",
+          "type": "跟单合约",
+          "detail": "HOOKED（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012"
+        },
+        {
+          "token": "AGENCY",
+          "type": "跟单合约",
+          "detail": "AGENCY（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012"
+        },
+        {
+          "token": "GM",
+          "type": "跟单合约",
+          "detail": "GM（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012"
+        },
+        {
+          "token": "GUC",
+          "type": "跟单合约",
+          "detail": "GUC（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012"
+        }
+      ]
+    }
+  }
+}
