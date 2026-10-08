@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-10-03",
   "weekEnd": "2026-10-09",
-  "updatedAt": "2026-10-08T17:30:42.700Z",
+  "updatedAt": "2026-10-08T17:39:52.919Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -124,7 +124,7 @@
         {
           "token": "WBD",
           "type": "上线",
-          "detail": "Gate 关于股票 WBD 退市的公告3 小时前158",
+          "detail": "Gate 关于股票 WBD 退市的公告3 小时前165",
           "url": "https://www.gate.com/zh/announcements/article/102121",
           "dates": [
             "2026-10-09"
@@ -133,7 +133,7 @@
         {
           "token": "HOTBOT",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 HOTBOT (Hot Bot)、GOMO (Gomo App)、STONKINU (Stonk Inu)7 小时前275",
+          "detail": "Gate 打金狗首发上线 HOTBOT (Hot Bot)、GOMO (Gomo App)、STONKINU (Stonk Inu)7 小时前281",
           "url": "https://www.gate.com/zh/announcements/article/102119",
           "dates": [
             "2026-10-09"
