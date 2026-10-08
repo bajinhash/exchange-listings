@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-10-03",
   "weekEnd": "2026-10-09",
-  "updatedAt": "2026-10-08T17:39:52.919Z",
+  "updatedAt": "2026-10-08T18:09:27.916Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -124,7 +124,7 @@
         {
           "token": "WBD",
           "type": "上线",
-          "detail": "Gate 关于股票 WBD 退市的公告3 小时前165",
+          "detail": "Gate 关于股票 WBD 退市的公告4 小时前176",
           "url": "https://www.gate.com/zh/announcements/article/102121",
           "dates": [
             "2026-10-09"
@@ -133,8 +133,17 @@
         {
           "token": "HOTBOT",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 HOTBOT (Hot Bot)、GOMO (Gomo App)、STONKINU (Stonk Inu)7 小时前281",
+          "detail": "Gate 打金狗首发上线 HOTBOT (Hot Bot)、GOMO (Gomo App)、STONKINU (Stonk Inu)8 小时前297",
           "url": "https://www.gate.com/zh/announcements/article/102119",
+          "dates": [
+            "2026-10-09"
+          ]
+        },
+        {
+          "token": "CYBRO",
+          "type": "上线",
+          "detail": "Gate 关于支持 Cybro (CYBRO) 合约置换的公告8 小时前321",
+          "url": "https://www.gate.com/zh/announcements/article/102116",
           "dates": [
             "2026-10-09"
           ]
@@ -248,6 +257,60 @@
           "type": "现货上线",
           "detail": "MEXC 合約創新區將於 2026年10月8日 23:30 (UTC+8) 上線 WHUFUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539067",
+          "dates": [
+            "2026-10-09"
+          ]
+        },
+        {
+          "token": "IBVM",
+          "type": "上线",
+          "detail": "MEXC 將延遲 IBVM (IBVM) 上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-ibvm-ibvm-listing-17827791539066",
+          "dates": [
+            "2026-10-09"
+          ]
+        },
+        {
+          "token": "HCA",
+          "type": "美股合约",
+          "detail": "HCA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
+          "dates": [
+            "2026-10-09"
+          ]
+        },
+        {
+          "token": "TLN",
+          "type": "美股合约",
+          "detail": "TLN（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
+          "dates": [
+            "2026-10-09"
+          ]
+        },
+        {
+          "token": "XP",
+          "type": "美股合约",
+          "detail": "XP（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
+          "dates": [
+            "2026-10-09"
+          ]
+        },
+        {
+          "token": "PCVX",
+          "type": "美股合约",
+          "detail": "PCVX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
+          "dates": [
+            "2026-10-09"
+          ]
+        },
+        {
+          "token": "USDE",
+          "type": "美股合约",
+          "detail": "USDE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
           "dates": [
             "2026-10-09"
           ]
