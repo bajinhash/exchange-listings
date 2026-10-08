@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-09",
+  "updatedAt": "2026-10-08T17:30:42.514Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "NKE",
+          "type": "永续合约",
+          "detail": "新幣上線：2026 年 10 月 8 日12:00 UTC 將上線 NKEUSDT 之 Bybit TradFi 永續合約",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-nkeusdt-on-bybit-tradfi-perpetual-on-oct-8-2026-12-00pm-utc--art68dd3f74cc31/"
+        },
+        {
+          "token": "ACN",
+          "type": "永续合约",
+          "detail": "新幣上線：2026 年 10 月 8 日12:00 UTC 將上線 ACNUSDT 之 Bybit TradFi 永續合約",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-acnusdt-on-bybit-tradfi-perpetual-on-oct-8-2026-12-00pm-utc--art6c956057ef10/"
+        },
+        {
+          "token": "LULU",
+          "type": "永续合约",
+          "detail": "新幣上線：2026 年 10 月 8 日12:00 UTC 將上線 LULUUSDT 之 Bybit TradFi 永續合約",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-luluusdt-on-bybit-tradfi-perpetual-on-oct-8-2026-12-00pm-utc--artc14006e88b00/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "WBD",
+          "type": "上线",
+          "detail": "Gate 关于股票 WBD 退市的公告3 小时前158",
+          "url": "https://www.gate.com/zh/announcements/article/102121"
+        },
+        {
+          "token": "HOTBOT",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 HOTBOT (Hot Bot)、GOMO (Gomo App)、STONKINU (Stonk Inu)7 小时前275",
+          "url": "https://www.gate.com/zh/announcements/article/102119"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "WHUF",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年10月8日 23:30 (UTC+8) 上線 WHUFUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539067"
+        }
+      ]
+    }
+  }
+}
