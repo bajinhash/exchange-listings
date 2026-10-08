@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-10-03",
   "weekEnd": "2026-10-09",
-  "updatedAt": "2026-10-08T18:09:27.916Z",
+  "updatedAt": "2026-10-08T19:10:59.310Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -121,33 +121,6 @@
     },
     "gateio": {
       "listings": [
-        {
-          "token": "WBD",
-          "type": "上线",
-          "detail": "Gate 关于股票 WBD 退市的公告4 小时前176",
-          "url": "https://www.gate.com/zh/announcements/article/102121",
-          "dates": [
-            "2026-10-09"
-          ]
-        },
-        {
-          "token": "HOTBOT",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 HOTBOT (Hot Bot)、GOMO (Gomo App)、STONKINU (Stonk Inu)8 小时前297",
-          "url": "https://www.gate.com/zh/announcements/article/102119",
-          "dates": [
-            "2026-10-09"
-          ]
-        },
-        {
-          "token": "CYBRO",
-          "type": "上线",
-          "detail": "Gate 关于支持 Cybro (CYBRO) 合约置换的公告8 小时前321",
-          "url": "https://www.gate.com/zh/announcements/article/102116",
-          "dates": [
-            "2026-10-09"
-          ]
-        },
         {
           "token": "HOOKED",
           "type": "跟单合约",
