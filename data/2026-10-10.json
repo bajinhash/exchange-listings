@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-09T17:06:15.633Z",
+  "updatedAt": "2026-10-09T17:15:28.442Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -21,7 +21,7 @@
         {
           "token": "DRMR",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 DRMR (DerekMercer)、PQC (pqc.market)、CLAUDIA (Claudia)、AF (Arcflow)...7 小时前297",
+          "detail": "Gate 打金狗首发上线 DRMR (DerekMercer)、PQC (pqc.market)、CLAUDIA (Claudia)、AF (Arcflow)...7 小时前303",
           "url": "https://www.gate.com/zh/announcements/article/102141"
         }
       ]
