@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-10-04",
-  "weekEnd": "2026-10-10",
-  "updatedAt": "2026-10-10T15:59:32.792Z",
+  "weekStart": "2026-10-05",
+  "weekEnd": "2026-10-11",
+  "updatedAt": "2026-10-10T16:08:52.626Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -115,10 +115,10 @@
         {
           "token": "DRMR",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 DRMR (DerekMercer)、PQC (pqc.market)、CLAUDIA (Claudia)、AF (Arcflow)...1 天前666",
+          "detail": "Gate 打金狗首发上线 DRMR (DerekMercer)、PQC (pqc.market)、CLAUDIA (Claudia)、AF (Arcflow)...1 天前668",
           "url": "https://www.gate.com/zh/announcements/article/102141",
           "dates": [
-            "2026-10-10"
+            "2026-10-11"
           ]
         },
         {
@@ -127,7 +127,6 @@
           "detail": "HOOKED（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/102084",
           "dates": [
-            "2026-10-04",
             "2026-10-05"
           ]
         },
@@ -137,17 +136,15 @@
           "detail": "HOOKR（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/102084",
           "dates": [
-            "2026-10-04",
             "2026-10-05"
           ]
         },
         {
           "token": "SPCX",
           "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第三批 14% 解锁的安排公告1 天前922",
+          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第三批 14% 解锁的安排公告1 天前944",
           "url": "https://www.gate.com/zh/announcements/article/102082",
           "dates": [
-            "2026-10-04",
             "2026-10-05"
           ]
         }
@@ -196,21 +193,13 @@
     "mexc": {
       "listings": [
         {
-          "token": "QI",
-          "type": "Meme+ 现货",
-          "detail": "QI 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539097",
-          "dates": [
-            "2026-10-10"
-          ]
-        },
-        {
           "token": "MDB",
           "type": "美股合约",
           "detail": "MDB（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mdb-pm-shel-and-pbr-stock-futures-with-trading-on-oct-9-17827791539090",
           "dates": [
-            "2026-10-10"
+            "2026-10-10",
+            "2026-10-11"
           ]
         },
         {
@@ -219,7 +208,8 @@
           "detail": "PM（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mdb-pm-shel-and-pbr-stock-futures-with-trading-on-oct-9-17827791539090",
           "dates": [
-            "2026-10-10"
+            "2026-10-10",
+            "2026-10-11"
           ]
         },
         {
@@ -228,7 +218,8 @@
           "detail": "SHEL（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mdb-pm-shel-and-pbr-stock-futures-with-trading-on-oct-9-17827791539090",
           "dates": [
-            "2026-10-10"
+            "2026-10-10",
+            "2026-10-11"
           ]
         },
         {
@@ -237,7 +228,8 @@
           "detail": "PBR（同公告含 4 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mdb-pm-shel-and-pbr-stock-futures-with-trading-on-oct-9-17827791539090",
           "dates": [
-            "2026-10-10"
+            "2026-10-10",
+            "2026-10-11"
           ]
         },
         {
@@ -246,7 +238,8 @@
           "detail": "MEXC 合約創新區將於 2026年10月9日 20:30 (UTC+8) 上線 JEANPHILUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539089",
           "dates": [
-            "2026-10-10"
+            "2026-10-10",
+            "2026-10-11"
           ]
         },
         {
@@ -255,7 +248,7 @@
           "detail": "MEXC 將於 10月9日 上線 BABAHK 股票合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539075",
           "dates": [
-            "2026-10-10"
+            "2026-10-11"
           ]
         },
         {
@@ -264,7 +257,8 @@
           "detail": "MEXC 合約創新區將於 2026年10月8日 23:30 (UTC+8) 上線 WHUFUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539067",
           "dates": [
-            "2026-10-09"
+            "2026-10-09",
+            "2026-10-10"
           ]
         },
         {
@@ -273,7 +267,8 @@
           "detail": "MEXC 將延遲 IBVM (IBVM) 上線",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-ibvm-ibvm-listing-17827791539066",
           "dates": [
-            "2026-10-09"
+            "2026-10-09",
+            "2026-10-10"
           ]
         },
         {
@@ -282,7 +277,8 @@
           "detail": "HCA（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
           "dates": [
-            "2026-10-09"
+            "2026-10-09",
+            "2026-10-10"
           ]
         },
         {
@@ -291,7 +287,8 @@
           "detail": "TLN（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
           "dates": [
-            "2026-10-09"
+            "2026-10-09",
+            "2026-10-10"
           ]
         },
         {
@@ -300,7 +297,8 @@
           "detail": "XP（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
           "dates": [
-            "2026-10-09"
+            "2026-10-09",
+            "2026-10-10"
           ]
         },
         {
@@ -309,7 +307,8 @@
           "detail": "PCVX（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
           "dates": [
-            "2026-10-09"
+            "2026-10-09",
+            "2026-10-10"
           ]
         },
         {
@@ -318,7 +317,35 @@
           "detail": "USDE（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
           "dates": [
-            "2026-10-09"
+            "2026-10-09",
+            "2026-10-10"
+          ]
+        },
+        {
+          "token": "DARK",
+          "type": "跟单合约",
+          "detail": "DARK（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-claus-旺柴-dark-and-alchip-usdt-m-futures-17827791539060",
+          "dates": [
+            "2026-10-10"
+          ]
+        },
+        {
+          "token": "ALCHIP",
+          "type": "跟单合约",
+          "detail": "ALCHIP（同公告含 2 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-claus-旺柴-dark-and-alchip-usdt-m-futures-17827791539060",
+          "dates": [
+            "2026-10-10"
+          ]
+        },
+        {
+          "token": "CLAUS",
+          "type": "上线",
+          "detail": "CLAUS 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-claus-to-innovation-zone-17827791539056",
+          "dates": [
+            "2026-10-10"
           ]
         },
         {
@@ -390,7 +417,6 @@
           "detail": "MEXC 合約創新區將於 2026年10月4日 15:26 (UTC+8) 上線 HOOKEDUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538982",
           "dates": [
-            "2026-10-04",
             "2026-10-06"
           ]
         },
@@ -400,7 +426,6 @@
           "detail": "MEXC 合約創新區將於 2026年10月4日 15:24 (UTC+8) 上線 AGENCYUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538981",
           "dates": [
-            "2026-10-04",
             "2026-10-06"
           ]
         },
@@ -410,26 +435,7 @@
           "detail": "HOOKED 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-hooked-to-innovation-zone-17827791538980",
           "dates": [
-            "2026-10-04",
             "2026-10-06"
-          ]
-        },
-        {
-          "token": "AGENCY",
-          "type": "Meme+ 现货",
-          "detail": "AGENCY 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538978",
-          "dates": [
-            "2026-10-04"
-          ]
-        },
-        {
-          "token": "GM",
-          "type": "Meme+ 现货",
-          "detail": "GM 現已上線 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538969",
-          "dates": [
-            "2026-10-04"
           ]
         }
       ]
