@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-10-05",
-  "weekEnd": "2026-10-11",
-  "updatedAt": "2026-10-10T17:38:14.316Z",
+  "weekStart": "2026-10-06",
+  "weekEnd": "2026-10-12",
+  "updatedAt": "2026-10-11T16:25:27.160Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -119,33 +119,6 @@
           "url": "https://www.gate.com/zh/announcements/article/102141",
           "dates": [
             "2026-10-11"
-          ]
-        },
-        {
-          "token": "HOOKED",
-          "type": "跟单合约",
-          "detail": "HOOKED（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/102084",
-          "dates": [
-            "2026-10-05"
-          ]
-        },
-        {
-          "token": "HOOKR",
-          "type": "跟单合约",
-          "detail": "HOOKR（同公告含 2 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/102084",
-          "dates": [
-            "2026-10-05"
-          ]
-        },
-        {
-          "token": "SPCX",
-          "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第三批 14% 解锁的安排公告1 天前944",
-          "url": "https://www.gate.com/zh/announcements/article/102082",
-          "dates": [
-            "2026-10-05"
           ]
         }
       ]
