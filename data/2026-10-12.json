@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-11T16:56:50.220Z",
+  "updatedAt": "2026-10-11T17:58:00.609Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -17,7 +17,20 @@
       "listings": []
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "PULP",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 PULP (PaperDAO)1 天前705",
+          "url": "https://www.gate.com/zh/announcements/article/102159"
+        },
+        {
+          "token": "WLFI",
+          "type": "上线",
+          "detail": "Gate ETF 精英加码礼：交易 ETF 赢  WLFI，解锁三重专享福利1 天前944",
+          "url": "https://www.gate.com/zh/announcements/article/102156"
+        }
+      ]
     },
     "bitget": {
       "listings": []
