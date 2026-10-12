@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "updatedAt": "2026-10-12T19:54:55.886Z",
+  "updatedAt": "2026-10-12T20:04:19.643Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -28,7 +28,7 @@
         {
           "token": "BATON",
           "type": "跟单合约",
-          "detail": "Gate 合约 Meme 专区已上线 BATON 合约交易、交易机器人、跟单功能6 小时前371",
+          "detail": "Gate 合约 Meme 专区已上线 BATON 合约交易、交易机器人、跟单功能6 小时前376",
           "url": "https://www.gate.com/zh/announcements/article/102198"
         },
         {
@@ -64,13 +64,19 @@
         {
           "token": "MP",
           "type": "现货上线",
-          "detail": "Gate 合约股票专区将上线 MP（MP 材料公司）等 10 个合约交易、交...9 小时前424",
+          "detail": "Gate 合约股票专区将上线 MP（MP 材料公司）等 10 个合约交易、交...9 小时前433",
           "url": "https://www.gate.com/zh/announcements/article/102194"
+        },
+        {
+          "token": "SAFU",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 SAFU (Funds Are Safu)、SI (smoking Inu)10 小时前302",
+          "url": "https://www.gate.com/zh/announcements/article/102191"
         },
         {
           "token": "CENT",
           "type": "现货上线",
-          "detail": "Gate 将上线 Incentiv (CENT) 现货交易、闪兑交易并开启 HODLer Airdrop1 天前2,288",
+          "detail": "Gate 将上线 Incentiv (CENT) 现货交易、闪兑交易并开启 HODLer Airdrop1 天前2,291",
           "url": "https://www.gate.com/zh/announcements/article/102162"
         }
       ]
