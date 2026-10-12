@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-10-06",
-  "weekEnd": "2026-10-12",
-  "updatedAt": "2026-10-11T17:58:00.781Z",
+  "weekStart": "2026-10-07",
+  "weekEnd": "2026-10-13",
+  "updatedAt": "2026-10-12T19:54:56.077Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -82,36 +82,90 @@
     "kucoin": {
       "listings": [
         {
-          "token": "ACNX",
-          "type": "美股合约",
-          "detail": "ACNX（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-05",
+          "token": "VAYLA",
+          "type": "现货上线",
+          "detail": "World Premiere: VAYLA (VAYLA) Listed on KuCoinTrading: 10:00 on October 13, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-vayla-vayla-listed-on-kucoin",
           "dates": [
-            "2026-10-06"
-          ]
-        },
-        {
-          "token": "BWET",
-          "type": "美股合约",
-          "detail": "BWET（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-05",
-          "dates": [
-            "2026-10-06"
-          ]
-        },
-        {
-          "token": "NKE",
-          "type": "美股合约",
-          "detail": "NKE（同公告含 3 个标的）",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-05",
-          "dates": [
-            "2026-10-06"
+            "2026-10-13"
           ]
         }
       ]
     },
     "gateio": {
       "listings": [
+        {
+          "token": "BATON",
+          "type": "跟单合约",
+          "detail": "Gate 合约 Meme 专区已上线 BATON 合约交易、交易机器人、跟单功能6 小时前371",
+          "url": "https://www.gate.com/zh/announcements/article/102198",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
+        {
+          "token": "NFLXON",
+          "type": "上线",
+          "detail": "NFLXON（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102196",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
+        {
+          "token": "NFLXX",
+          "type": "上线",
+          "detail": "NFLXX（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102196",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
+        {
+          "token": "TQQQX",
+          "type": "上线",
+          "detail": "TQQQX（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102196",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
+        {
+          "token": "CRWDX",
+          "type": "上线",
+          "detail": "CRWDX（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102196",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
+        {
+          "token": "AZNX",
+          "type": "上线",
+          "detail": "AZNX（同公告含 5 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102196",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
+        {
+          "token": "MP",
+          "type": "现货上线",
+          "detail": "Gate 合约股票专区将上线 MP（MP 材料公司）等 10 个合约交易、交...9 小时前424",
+          "url": "https://www.gate.com/zh/announcements/article/102194",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
+        {
+          "token": "CENT",
+          "type": "现货上线",
+          "detail": "Gate 将上线 Incentiv (CENT) 现货交易、闪兑交易并开启 HODLer Airdrop1 天前2,288",
+          "url": "https://www.gate.com/zh/announcements/article/102162",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
         {
           "token": "PULP",
           "type": "现货上线",
@@ -143,6 +197,24 @@
     },
     "bitget": {
       "listings": [
+        {
+          "token": "ZCSH",
+          "type": "美股合约",
+          "detail": "ZCSH（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897163",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
+        {
+          "token": "SNPS",
+          "type": "美股合约",
+          "detail": "SNPS（同公告含 2 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897163",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
         {
           "token": "USDESTOCK",
           "type": "美股合约",
@@ -183,6 +255,24 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "JEANPHIL",
+          "type": "上线",
+          "detail": "JEANPHIL 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-jeanphil-to-innovation-zone-17827791539122",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
+        {
+          "token": "CLAUDIA",
+          "type": "上线",
+          "detail": "CLAUDIA 將遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-claudia-to-innovation-zone-17827791539121",
+          "dates": [
+            "2026-10-13"
+          ]
+        },
         {
           "token": "MDB",
           "type": "美股合约",
@@ -400,33 +490,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-agency-to-innovation-zone-17827791538994",
           "dates": [
             "2026-10-07"
-          ]
-        },
-        {
-          "token": "HOOKED",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年10月4日 15:26 (UTC+8) 上線 HOOKEDUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538982",
-          "dates": [
-            "2026-10-06"
-          ]
-        },
-        {
-          "token": "AGENCY",
-          "type": "现货上线",
-          "detail": "MEXC 合約創新區將於 2026年10月4日 15:24 (UTC+8) 上線 AGENCYUSDT 合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538981",
-          "dates": [
-            "2026-10-06"
-          ]
-        },
-        {
-          "token": "HOOKED",
-          "type": "上线",
-          "detail": "HOOKED 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-hooked-to-innovation-zone-17827791538980",
-          "dates": [
-            "2026-10-06"
           ]
         }
       ]
