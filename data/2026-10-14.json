@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-13T17:41:24.453Z",
+  "updatedAt": "2026-10-13T17:50:34.211Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -24,36 +24,6 @@
     },
     "mexc": {
       "listings": [
-        {
-          "token": "AMT",
-          "type": "美股合约",
-          "detail": "AMT（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
-        },
-        {
-          "token": "WMB",
-          "type": "美股合约",
-          "detail": "WMB（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
-        },
-        {
-          "token": "CCI",
-          "type": "美股合约",
-          "detail": "CCI（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
-        },
-        {
-          "token": "TMUS",
-          "type": "美股合约",
-          "detail": "TMUS（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
-        },
-        {
-          "token": "FICO",
-          "type": "美股合约",
-          "detail": "FICO（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
-        },
         {
           "token": "JEANPHIL",
           "type": "上线",
