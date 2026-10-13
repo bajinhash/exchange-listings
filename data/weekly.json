@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-10-08",
   "weekEnd": "2026-10-14",
-  "updatedAt": "2026-10-13T17:50:34.381Z",
+  "updatedAt": "2026-10-13T18:40:11.292Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -209,6 +209,51 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-claudia-to-innovation-zone-17827791539121",
           "dates": [
             "2026-10-13",
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "AMT",
+          "type": "美股合约",
+          "detail": "AMT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "WMB",
+          "type": "美股合约",
+          "detail": "WMB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "CCI",
+          "type": "美股合约",
+          "detail": "CCI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "TMUS",
+          "type": "美股合约",
+          "detail": "TMUS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "FICO",
+          "type": "美股合约",
+          "detail": "FICO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135",
+          "dates": [
             "2026-10-14"
           ]
         },
