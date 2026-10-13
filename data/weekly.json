@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-10-07",
-  "weekEnd": "2026-10-13",
-  "updatedAt": "2026-10-12T21:34:34.283Z",
+  "weekStart": "2026-10-08",
+  "weekEnd": "2026-10-14",
+  "updatedAt": "2026-10-13T17:41:24.627Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -187,42 +187,6 @@
           "dates": [
             "2026-10-13"
           ]
-        },
-        {
-          "token": "USDESTOCK",
-          "type": "美股合约",
-          "detail": "USDESTOCK（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896776",
-          "dates": [
-            "2026-10-07"
-          ]
-        },
-        {
-          "token": "VKTX",
-          "type": "美股合约",
-          "detail": "VKTX（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896776",
-          "dates": [
-            "2026-10-07"
-          ]
-        },
-        {
-          "token": "PCVX",
-          "type": "美股合约",
-          "detail": "PCVX（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896776",
-          "dates": [
-            "2026-10-07"
-          ]
-        },
-        {
-          "token": "XP",
-          "type": "美股合约",
-          "detail": "XP（同公告含 4 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896776",
-          "dates": [
-            "2026-10-07"
-          ]
         }
       ]
     },
@@ -234,7 +198,8 @@
           "detail": "JEANPHIL 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-jeanphil-to-innovation-zone-17827791539122",
           "dates": [
-            "2026-10-13"
+            "2026-10-13",
+            "2026-10-14"
           ]
         },
         {
@@ -243,7 +208,170 @@
           "detail": "CLAUDIA 將遷移至創新區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-claudia-to-innovation-zone-17827791539121",
           "dates": [
-            "2026-10-13"
+            "2026-10-13",
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "AMT",
+          "type": "美股合约",
+          "detail": "AMT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "WMB",
+          "type": "美股合约",
+          "detail": "WMB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "CCI",
+          "type": "美股合约",
+          "detail": "CCI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "TMUS",
+          "type": "美股合约",
+          "detail": "TMUS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "FICO",
+          "type": "美股合约",
+          "detail": "FICO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "HCA",
+          "type": "跟单合约",
+          "detail": "HCA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hca-tln-xp-pcvx-and-usde-usdt-m-futures-17827791539110",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "TLN",
+          "type": "跟单合约",
+          "detail": "TLN（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hca-tln-xp-pcvx-and-usde-usdt-m-futures-17827791539110",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "XP",
+          "type": "跟单合约",
+          "detail": "XP（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hca-tln-xp-pcvx-and-usde-usdt-m-futures-17827791539110",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "PCVX",
+          "type": "跟单合约",
+          "detail": "PCVX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hca-tln-xp-pcvx-and-usde-usdt-m-futures-17827791539110",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "USDE",
+          "type": "跟单合约",
+          "detail": "USDE（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hca-tln-xp-pcvx-and-usde-usdt-m-futures-17827791539110",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "MDB",
+          "type": "跟单合约",
+          "detail": "MDB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mdb-pm-shel-pbr-and-babahk-usdt-m-futures-17827791539109",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "PM",
+          "type": "跟单合约",
+          "detail": "PM（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mdb-pm-shel-pbr-and-babahk-usdt-m-futures-17827791539109",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "SHEL",
+          "type": "跟单合约",
+          "detail": "SHEL（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mdb-pm-shel-pbr-and-babahk-usdt-m-futures-17827791539109",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "PBR",
+          "type": "跟单合约",
+          "detail": "PBR（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mdb-pm-shel-pbr-and-babahk-usdt-m-futures-17827791539109",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "BABAHK",
+          "type": "跟单合约",
+          "detail": "BABAHK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mdb-pm-shel-pbr-and-babahk-usdt-m-futures-17827791539109",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "CLAUDIA",
+          "type": "跟单合约",
+          "detail": "CLAUDIA（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-claudia-jeanphil-and-whuf-usdt-m-futures-17827791539108",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "JEANPHIL",
+          "type": "跟单合约",
+          "detail": "JEANPHIL（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-claudia-jeanphil-and-whuf-usdt-m-futures-17827791539108",
+          "dates": [
+            "2026-10-14"
+          ]
+        },
+        {
+          "token": "WHUF",
+          "type": "跟单合约",
+          "detail": "WHUF（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-claudia-jeanphil-and-whuf-usdt-m-futures-17827791539108",
+          "dates": [
+            "2026-10-14"
           ]
         },
         {
@@ -454,15 +582,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012",
           "dates": [
             "2026-10-08"
-          ]
-        },
-        {
-          "token": "AGENCY",
-          "type": "上线",
-          "detail": "AGENCY 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-agency-to-innovation-zone-17827791538994",
-          "dates": [
-            "2026-10-07"
           ]
         }
       ]
