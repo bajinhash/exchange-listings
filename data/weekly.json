@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-10-08",
+  "weekStart": "2026-10-09",
   "weekEnd": "2026-10-14",
-  "updatedAt": "2026-10-14T15:20:20.247Z",
+  "updatedAt": "2026-10-14T16:07:02.311Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -86,42 +86,6 @@
           "url": "https://www.binance.com/en/alpha/base/0x9d0e8f5b25384c7310cb8c6ae32c8fbeb645d083",
           "dates": [
             "2026-10-14"
-          ]
-        },
-        {
-          "token": "USDEB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 USDEB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xdfd3ba51d4591f243481a6f26059d1a5ee95252f",
-          "dates": [
-            "2026-10-08"
-          ]
-        },
-        {
-          "token": "SECZB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 SECZB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x32c980f38907ace4fac643c3765d9b32842af60f",
-          "dates": [
-            "2026-10-08"
-          ]
-        },
-        {
-          "token": "LLYB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 LLYB",
-          "url": "https://www.binance.com/en/alpha/bsc/0x5407912f1aa4b9e05cbe6abeb9721547a643ec6b",
-          "dates": [
-            "2026-10-08"
-          ]
-        },
-        {
-          "token": "JPMB",
-          "type": "上线",
-          "detail": "Binance Alpha 上线 JPMB",
-          "url": "https://www.binance.com/en/alpha/bsc/0xbd49d695ba2cc46c8c603eb62afcd7fff4698281",
-          "dates": [
-            "2026-10-08"
           ]
         }
       ],
@@ -843,60 +807,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-claus-to-innovation-zone-17827791539056",
           "dates": [
             "2026-10-10"
-          ]
-        },
-        {
-          "token": "IBVM",
-          "type": "现货上线",
-          "detail": "MEXC 將於創新區上線 IBVM (IBVM)，瓜分 60,000 USDT Airdrop+ 獎池！",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539028",
-          "dates": [
-            "2026-10-08"
-          ]
-        },
-        {
-          "token": "CTX",
-          "type": "上线",
-          "detail": "MEXC 將延遲 Cortex Network (CTX) 上線",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-cortex-network-ctx-listing-17827791539017",
-          "dates": [
-            "2026-10-08"
-          ]
-        },
-        {
-          "token": "HOOKED",
-          "type": "跟单合约",
-          "detail": "HOOKED（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012",
-          "dates": [
-            "2026-10-08"
-          ]
-        },
-        {
-          "token": "AGENCY",
-          "type": "跟单合约",
-          "detail": "AGENCY（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012",
-          "dates": [
-            "2026-10-08"
-          ]
-        },
-        {
-          "token": "GM",
-          "type": "跟单合约",
-          "detail": "GM（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012",
-          "dates": [
-            "2026-10-08"
-          ]
-        },
-        {
-          "token": "GUC",
-          "type": "跟单合约",
-          "detail": "GUC（同公告含 4 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012",
-          "dates": [
-            "2026-10-08"
           ]
         }
       ]
