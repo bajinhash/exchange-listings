@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-15",
+  "updatedAt": "2026-10-14T17:46:48.747Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [
+        {
+          "token": "UVXYB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 UVXYB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x63ba610118fff2d6b6052cb681dcfab78cea1aa9"
+        },
+        {
+          "token": "PENGB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 PENGB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x7f732f9d2f2ea3e7e223c2e737e5257007f90e01"
+        },
+        {
+          "token": "BBB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 BBB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xcbb733b3dccbb983e49baac52abe7bc3a8e85a4f"
+        },
+        {
+          "token": "DRV",
+          "type": "永续合约",
+          "detail": "Binance Alpha 上线 DRV - Derive 是一个支持期权、永续合约和现货交易的去中心化平台。",
+          "url": "https://www.binance.com/en/alpha/base/0x9d0e8f5b25384c7310cb8c6ae32c8fbeb645d083"
+        }
+      ],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "JIO",
+          "type": "永续合约",
+          "detail": "Gate 股票专区已上线 JIOUSDT (Jio Platforms) 永续合约盘前交易（USDT...5 小时前335",
+          "url": "https://www.gate.com/zh/announcements/article/102239"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "PLD",
+          "type": "美股合约",
+          "detail": "PLD（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147"
+        },
+        {
+          "token": "BP",
+          "type": "美股合约",
+          "detail": "BP（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147"
+        },
+        {
+          "token": "MRSH",
+          "type": "美股合约",
+          "detail": "MRSH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147"
+        },
+        {
+          "token": "CHOMP",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Chomp (CHOMP)，瓜分 60,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539137"
+        },
+        {
+          "token": "AMT",
+          "type": "美股合约",
+          "detail": "AMT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
+        },
+        {
+          "token": "WMB",
+          "type": "美股合约",
+          "detail": "WMB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
+        },
+        {
+          "token": "CCI",
+          "type": "美股合约",
+          "detail": "CCI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
+        },
+        {
+          "token": "TMUS",
+          "type": "美股合约",
+          "detail": "TMUS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
+        },
+        {
+          "token": "FICO",
+          "type": "美股合约",
+          "detail": "FICO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
+        },
+        {
+          "token": "MTO",
+          "type": "现货上线",
+          "detail": "MEXC 延遲 MetaOne (MTO) 現貨上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-metaone-mto-spot-listing-17827791539133"
+        },
+        {
+          "token": "CENT",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 CENT U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cent-usdt-m-futures-17827791539129"
+        }
+      ]
+    }
+  }
+}
