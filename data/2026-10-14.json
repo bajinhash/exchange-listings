@@ -1,118 +1,352 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-13T19:43:17.862Z",
+  "updatedAt": "2026-10-14T15:11:04.692Z",
   "exchanges": {
     "binance": {
-      "listings": [],
-      "alpha": [],
+      "listings": [
+        {
+          "token": "ADGM",
+          "type": "上线",
+          "detail": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+          "url": "https://www.binance.com/en/support/announcement/e52ef13311eb4e1a96f07099152e61d5"
+        },
+        {
+          "token": "BBB",
+          "type": "现货上线",
+          "detail": "BBB（同公告含 4 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/927d3a7b5d6c43fb888e38f110005906"
+        },
+        {
+          "token": "MDBB",
+          "type": "现货上线",
+          "detail": "MDBB（同公告含 4 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/927d3a7b5d6c43fb888e38f110005906"
+        },
+        {
+          "token": "PENGB",
+          "type": "现货上线",
+          "detail": "PENGB（同公告含 4 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/927d3a7b5d6c43fb888e38f110005906"
+        },
+        {
+          "token": "UVXYB",
+          "type": "现货上线",
+          "detail": "UVXYB（同公告含 4 个标的）",
+          "url": "https://www.binance.com/en/support/announcement/927d3a7b5d6c43fb888e38f110005906"
+        }
+      ],
+      "alpha": [
+        {
+          "token": "UVXYB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 UVXYB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x63ba610118fff2d6b6052cb681dcfab78cea1aa9"
+        },
+        {
+          "token": "PENGB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 PENGB",
+          "url": "https://www.binance.com/en/alpha/bsc/0x7f732f9d2f2ea3e7e223c2e737e5257007f90e01"
+        },
+        {
+          "token": "BBB",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 BBB",
+          "url": "https://www.binance.com/en/alpha/bsc/0xcbb733b3dccbb983e49baac52abe7bc3a8e85a4f"
+        },
+        {
+          "token": "DRV",
+          "type": "永续合约",
+          "detail": "Binance Alpha 上线 DRV - Derive 是一个支持期权、永续合约和现货交易的去中心化平台。",
+          "url": "https://www.binance.com/en/alpha/base/0x9d0e8f5b25384c7310cb8c6ae32c8fbeb645d083"
+        }
+      ],
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "AAPL",
+          "type": "现货上线",
+          "detail": "AAPL（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "NVDA",
+          "type": "现货上线",
+          "detail": "NVDA（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "SHLD",
+          "type": "现货上线",
+          "detail": "SHLD（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "SPY",
+          "type": "现货上线",
+          "detail": "SPY（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "SQQQ",
+          "type": "现货上线",
+          "detail": "SQQQ（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "TMF",
+          "type": "现货上线",
+          "detail": "TMF（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "TSLA",
+          "type": "现货上线",
+          "detail": "TSLA（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "TSLL",
+          "type": "现货上线",
+          "detail": "TSLL（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "URNM",
+          "type": "现货上线",
+          "detail": "URNM（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "USO",
+          "type": "现货上线",
+          "detail": "USO（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "UVXY",
+          "type": "现货上线",
+          "detail": "UVXY（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "XBI",
+          "type": "现货上线",
+          "detail": "XBI（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "XNVDA",
+          "type": "现货上线",
+          "detail": "XNVDA（同公告含 13 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-unified-tokenized-stocks-xshld-xsqqq-and-more-for-spot-trading"
+        },
+        {
+          "token": "TXN",
+          "type": "永续合约",
+          "detail": "TXN（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-tradfi-perpetual-futures-for-txn-sofi-vicr-and-tlt"
+        },
+        {
+          "token": "SOFI",
+          "type": "永续合约",
+          "detail": "SOFI（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-tradfi-perpetual-futures-for-txn-sofi-vicr-and-tlt"
+        },
+        {
+          "token": "VICR",
+          "type": "永续合约",
+          "detail": "VICR（同公告含 3 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-tradfi-perpetual-futures-for-txn-sofi-vicr-and-tlt"
+        }
+      ]
     },
     "bybit": {
       "listings": []
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "PENG",
+          "type": "美股合约",
+          "detail": "PENG（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-14"
+        },
+        {
+          "token": "SECZ",
+          "type": "美股合约",
+          "detail": "SECZ（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-14"
+        },
+        {
+          "token": "SKDD",
+          "type": "美股合约",
+          "detail": "SKDD（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-14"
+        },
+        {
+          "token": "SMH",
+          "type": "美股合约",
+          "detail": "SMH（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-14"
+        },
+        {
+          "token": "VST",
+          "type": "美股合约",
+          "detail": "VST（同公告含 5 个标的）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-14"
+        }
+      ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "JIO",
+          "type": "永续合约",
+          "detail": "Gate 股票专区已上线 JIOUSDT (Jio Platforms) 永续合约盘前交易（USDT...2 小时前213",
+          "url": "https://www.gate.com/zh/announcements/article/102239"
+        },
+        {
+          "token": "SUI5",
+          "type": "上线",
+          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 800 SUI5 小时前451",
+          "url": "https://www.gate.com/zh/announcements/article/102237"
+        },
+        {
+          "token": "ABTON",
+          "type": "上线",
+          "detail": "ABTON（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102225"
+        },
+        {
+          "token": "ABTX",
+          "type": "上线",
+          "detail": "ABTX（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102225"
+        },
+        {
+          "token": "ABBVX",
+          "type": "上线",
+          "detail": "ABBVX（同公告含 3 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102225"
+        }
+      ]
     },
     "bitget": {
-      "listings": []
+      "listings": [
+        {
+          "token": "JIO",
+          "type": "永续合约",
+          "detail": "Bitget已上线JIO（Jio Platforms）IPO盘前永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897601"
+        }
+      ]
     },
     "mexc": {
       "listings": [
         {
-          "token": "JEANPHIL",
-          "type": "上线",
-          "detail": "JEANPHIL 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-jeanphil-to-innovation-zone-17827791539122"
+          "token": "PLD",
+          "type": "美股合约",
+          "detail": "PLD（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147"
         },
         {
-          "token": "CLAUDIA",
-          "type": "上线",
-          "detail": "CLAUDIA 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-claudia-to-innovation-zone-17827791539121"
+          "token": "BP",
+          "type": "美股合约",
+          "detail": "BP（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147"
         },
         {
-          "token": "HCA",
+          "token": "MRSH",
+          "type": "美股合约",
+          "detail": "MRSH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147"
+        },
+        {
+          "token": "AMT",
           "type": "跟单合约",
-          "detail": "HCA（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hca-tln-xp-pcvx-and-usde-usdt-m-futures-17827791539110"
+          "detail": "AMT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143"
         },
         {
-          "token": "TLN",
+          "token": "WMB",
           "type": "跟单合约",
-          "detail": "TLN（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hca-tln-xp-pcvx-and-usde-usdt-m-futures-17827791539110"
+          "detail": "WMB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143"
         },
         {
-          "token": "XP",
+          "token": "CCI",
           "type": "跟单合约",
-          "detail": "XP（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hca-tln-xp-pcvx-and-usde-usdt-m-futures-17827791539110"
+          "detail": "CCI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143"
         },
         {
-          "token": "PCVX",
+          "token": "TMUS",
           "type": "跟单合约",
-          "detail": "PCVX（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hca-tln-xp-pcvx-and-usde-usdt-m-futures-17827791539110"
+          "detail": "TMUS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143"
         },
         {
-          "token": "USDE",
+          "token": "FICO",
           "type": "跟单合约",
-          "detail": "USDE（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hca-tln-xp-pcvx-and-usde-usdt-m-futures-17827791539110"
+          "detail": "FICO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143"
         },
         {
-          "token": "MDB",
-          "type": "跟单合约",
-          "detail": "MDB（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mdb-pm-shel-pbr-and-babahk-usdt-m-futures-17827791539109"
+          "token": "BORDR",
+          "type": "Meme+ 现货",
+          "detail": "BORDR 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539141"
         },
         {
-          "token": "PM",
-          "type": "跟单合约",
-          "detail": "PM（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mdb-pm-shel-pbr-and-babahk-usdt-m-futures-17827791539109"
+          "token": "CHOMP",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Chomp (CHOMP)，瓜分 60,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539137"
         },
         {
-          "token": "SHEL",
-          "type": "跟单合约",
-          "detail": "SHEL（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mdb-pm-shel-pbr-and-babahk-usdt-m-futures-17827791539109"
+          "token": "AMT",
+          "type": "美股合约",
+          "detail": "AMT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
         },
         {
-          "token": "PBR",
-          "type": "跟单合约",
-          "detail": "PBR（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mdb-pm-shel-pbr-and-babahk-usdt-m-futures-17827791539109"
+          "token": "WMB",
+          "type": "美股合约",
+          "detail": "WMB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
         },
         {
-          "token": "BABAHK",
-          "type": "跟单合约",
-          "detail": "BABAHK（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mdb-pm-shel-pbr-and-babahk-usdt-m-futures-17827791539109"
+          "token": "CCI",
+          "type": "美股合约",
+          "detail": "CCI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
         },
         {
-          "token": "CLAUDIA",
-          "type": "跟单合约",
-          "detail": "CLAUDIA（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-claudia-jeanphil-and-whuf-usdt-m-futures-17827791539108"
+          "token": "TMUS",
+          "type": "美股合约",
+          "detail": "TMUS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
         },
         {
-          "token": "JEANPHIL",
-          "type": "跟单合约",
-          "detail": "JEANPHIL（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-claudia-jeanphil-and-whuf-usdt-m-futures-17827791539108"
+          "token": "FICO",
+          "type": "美股合约",
+          "detail": "FICO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
         },
         {
-          "token": "WHUF",
+          "token": "MTO",
+          "type": "现货上线",
+          "detail": "MEXC 延遲 MetaOne (MTO) 現貨上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-metaone-mto-spot-listing-17827791539133"
+        },
+        {
+          "token": "CENT",
           "type": "跟单合约",
-          "detail": "WHUF（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-claudia-jeanphil-and-whuf-usdt-m-futures-17827791539108"
+          "detail": "MEXC 跟單新增 CENT U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cent-usdt-m-futures-17827791539129"
         }
       ]
     }
