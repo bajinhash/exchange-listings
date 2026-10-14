@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-10-08",
   "weekEnd": "2026-10-14",
-  "updatedAt": "2026-10-14T15:11:04.898Z",
+  "updatedAt": "2026-10-14T15:20:20.247Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -369,7 +369,7 @@
         {
           "token": "JIO",
           "type": "永续合约",
-          "detail": "Gate 股票专区已上线 JIOUSDT (Jio Platforms) 永续合约盘前交易（USDT...2 小时前213",
+          "detail": "Gate 股票专区已上线 JIOUSDT (Jio Platforms) 永续合约盘前交易（USDT...2 小时前228",
           "url": "https://www.gate.com/zh/announcements/article/102239",
           "dates": [
             "2026-10-14"
@@ -378,7 +378,7 @@
         {
           "token": "SUI5",
           "type": "上线",
-          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 800 SUI5 小时前451",
+          "detail": "交易无忧：首单包赔 100 USDT，交易最高赢 800 SUI5 小时前467",
           "url": "https://www.gate.com/zh/announcements/article/102237",
           "dates": [
             "2026-10-14"
