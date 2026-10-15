@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-10-09",
   "weekEnd": "2026-10-15",
-  "updatedAt": "2026-10-15T15:03:20.568Z",
+  "updatedAt": "2026-10-15T15:14:20.193Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -349,37 +349,10 @@
     "gateio": {
       "listings": [
         {
-          "token": "DNA",
-          "type": "杠杆上线",
-          "detail": "Gate 将上线 NeoSoul (DNA) 合约交易、杠杆借贷交易、交易机器人、...4 小时前294",
-          "url": "https://www.gate.com/zh/announcements/article/102259",
-          "dates": [
-            "2026-10-15"
-          ]
-        },
-        {
           "token": "BORRO",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 BORRO (Borro.Markets)、Malfoid (Female Draco Malfoy)、GTA (GTA memes)...5 小时前199",
+          "detail": "Gate 打金狗首发上线 BORRO (Borro.Markets)、Malfoid (Female Draco Malfoy)、GTA (GTA memes)...5 小时前203",
           "url": "https://www.gate.com/zh/announcements/article/102257",
-          "dates": [
-            "2026-10-15"
-          ]
-        },
-        {
-          "token": "WLFI7",
-          "type": "上线",
-          "detail": "闪兑新人福利：1 USDT 开启交易，最高领 970 WLFI7 小时前454",
-          "url": "https://www.gate.com/zh/announcements/article/102251",
-          "dates": [
-            "2026-10-15"
-          ]
-        },
-        {
-          "token": "TSLAG",
-          "type": "上线",
-          "detail": "gStocks 财富号角：每日交易持仓，直通 $60,000 TSLAG 奖池8 小时前545",
-          "url": "https://www.gate.com/zh/announcements/article/102250",
           "dates": [
             "2026-10-15"
           ]
@@ -387,17 +360,26 @@
         {
           "token": "DNA",
           "type": "Launchpool",
-          "detail": "Gate 将上线 NeoSoul (DNA) 现货交易、闪兑交易并开启 Launchpool，质押...9 小时前574",
+          "detail": "Gate 将上线 NeoSoul (DNA) 现货交易、闪兑交易并开启 Launchpool，质押...9 小时前579",
           "url": "https://www.gate.com/zh/announcements/article/102248",
           "dates": [
             "2026-10-15"
           ]
         },
         {
-          "token": "BTC5L",
-          "type": "上线",
-          "detail": "Gate 边学边赚：学习 ETF 知识，赚 USDT & BTC5L 大奖9 小时前689",
-          "url": "https://www.gate.com/zh/announcements/article/102247",
+          "token": "STANDARD",
+          "type": "现货上线",
+          "detail": "STANDARD（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102222",
+          "dates": [
+            "2026-10-15"
+          ]
+        },
+        {
+          "token": "RAXOL",
+          "type": "现货上线",
+          "detail": "RAXOL（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102222",
           "dates": [
             "2026-10-15"
           ]
