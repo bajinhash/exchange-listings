@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-16",
+  "updatedAt": "2026-10-15T17:32:46.856Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "DNA",
+          "type": "杠杆上线",
+          "detail": "Gate 将上线 NeoSoul (DNA) 合约交易、杠杆借贷交易、交易机器人、...6 小时前433",
+          "url": "https://www.gate.com/zh/announcements/article/102259"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "CENT",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年10月15日 21:30 (UTC+8) 起把 CENTUSDT 從創新區轉板至主板區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-centusdt-from-innovation-zone-to-main-board-on-oct-15-2026-13-17827791539171"
+        },
+        {
+          "token": "TAPEFOUR",
+          "type": "Meme+ 现货",
+          "detail": "TAPEFOUR 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539170"
+        },
+        {
+          "token": "UNP",
+          "type": "美股合约",
+          "detail": "UNP（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539168"
+        },
+        {
+          "token": "CAH",
+          "type": "美股合约",
+          "detail": "CAH（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539168"
+        },
+        {
+          "token": "MCK",
+          "type": "美股合约",
+          "detail": "MCK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539168"
+        },
+        {
+          "token": "WFC",
+          "type": "美股合约",
+          "detail": "WFC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539168"
+        },
+        {
+          "token": "VZ",
+          "type": "美股合约",
+          "detail": "VZ（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539168"
+        },
+        {
+          "token": "PLD",
+          "type": "美股合约",
+          "detail": "PLD（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147"
+        },
+        {
+          "token": "BP",
+          "type": "美股合约",
+          "detail": "BP（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147"
+        },
+        {
+          "token": "MRSH",
+          "type": "美股合约",
+          "detail": "MRSH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147"
+        },
+        {
+          "token": "AMT",
+          "type": "跟单合约",
+          "detail": "AMT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143"
+        },
+        {
+          "token": "WMB",
+          "type": "跟单合约",
+          "detail": "WMB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143"
+        },
+        {
+          "token": "CCI",
+          "type": "跟单合约",
+          "detail": "CCI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143"
+        },
+        {
+          "token": "TMUS",
+          "type": "跟单合约",
+          "detail": "TMUS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143"
+        },
+        {
+          "token": "FICO",
+          "type": "跟单合约",
+          "detail": "FICO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143"
+        }
+      ]
+    }
+  }
+}

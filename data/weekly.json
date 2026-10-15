@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-10-09",
-  "weekEnd": "2026-10-15",
-  "updatedAt": "2026-10-15T15:54:20.105Z",
+  "weekStart": "2026-10-10",
+  "weekEnd": "2026-10-16",
+  "updatedAt": "2026-10-15T17:32:47.045Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -249,35 +249,7 @@
       ]
     },
     "bybit": {
-      "listings": [
-        {
-          "token": "NKE",
-          "type": "永续合约",
-          "detail": "新幣上線：2026 年 10 月 8 日12:00 UTC 將上線 NKEUSDT 之 Bybit TradFi 永續合約",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-nkeusdt-on-bybit-tradfi-perpetual-on-oct-8-2026-12-00pm-utc--art68dd3f74cc31/",
-          "dates": [
-            "2026-10-09"
-          ]
-        },
-        {
-          "token": "ACN",
-          "type": "永续合约",
-          "detail": "新幣上線：2026 年 10 月 8 日12:00 UTC 將上線 ACNUSDT 之 Bybit TradFi 永續合約",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-acnusdt-on-bybit-tradfi-perpetual-on-oct-8-2026-12-00pm-utc--art6c956057ef10/",
-          "dates": [
-            "2026-10-09"
-          ]
-        },
-        {
-          "token": "LULU",
-          "type": "永续合约",
-          "detail": "新幣上線：2026 年 10 月 8 日12:00 UTC 將上線 LULUUSDT 之 Bybit TradFi 永續合約",
-          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-luluusdt-on-bybit-tradfi-perpetual-on-oct-8-2026-12-00pm-utc--artc14006e88b00/",
-          "dates": [
-            "2026-10-09"
-          ]
-        }
-      ]
+      "listings": []
     },
     "kucoin": {
       "listings": [
@@ -354,7 +326,8 @@
           "detail": "Gate 将上线 NeoSoul (DNA) 合约交易、杠杆借贷交易、交易机器人、...5 小时前364",
           "url": "https://www.gate.com/zh/announcements/article/102259",
           "dates": [
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -579,7 +552,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147",
           "dates": [
             "2026-10-14",
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -589,7 +563,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147",
           "dates": [
             "2026-10-14",
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -599,7 +574,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147",
           "dates": [
             "2026-10-14",
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -609,7 +585,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
           "dates": [
             "2026-10-14",
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -619,7 +596,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
           "dates": [
             "2026-10-14",
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -629,7 +607,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
           "dates": [
             "2026-10-14",
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -639,7 +618,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
           "dates": [
             "2026-10-14",
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -649,7 +629,8 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
           "dates": [
             "2026-10-14",
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -658,7 +639,8 @@
           "detail": "MEXC 將於 2026年10月15日 21:30 (UTC+8) 起把 CENTUSDT 從創新區轉板至主板區",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-centusdt-from-innovation-zone-to-main-board-on-oct-15-2026-13-17827791539171",
           "dates": [
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -667,7 +649,8 @@
           "detail": "TAPEFOUR 現已上線 MEXC Meme+",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539170",
           "dates": [
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -676,7 +659,8 @@
           "detail": "UNP（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539168",
           "dates": [
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -685,7 +669,8 @@
           "detail": "CAH（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539168",
           "dates": [
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -694,7 +679,8 @@
           "detail": "MCK（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539168",
           "dates": [
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -703,7 +689,8 @@
           "detail": "WFC（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539168",
           "dates": [
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -712,7 +699,8 @@
           "detail": "VZ（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539168",
           "dates": [
-            "2026-10-15"
+            "2026-10-15",
+            "2026-10-16"
           ]
         },
         {
@@ -924,7 +912,6 @@
           "detail": "MEXC 合約創新區將於 2026年10月8日 23:30 (UTC+8) 上線 WHUFUSDT 合約",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539067",
           "dates": [
-            "2026-10-09",
             "2026-10-10"
           ]
         },
@@ -934,7 +921,6 @@
           "detail": "MEXC 將延遲 IBVM (IBVM) 上線",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-postpone-ibvm-ibvm-listing-17827791539066",
           "dates": [
-            "2026-10-09",
             "2026-10-10"
           ]
         },
@@ -944,7 +930,6 @@
           "detail": "HCA（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
           "dates": [
-            "2026-10-09",
             "2026-10-10"
           ]
         },
@@ -954,7 +939,6 @@
           "detail": "TLN（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
           "dates": [
-            "2026-10-09",
             "2026-10-10"
           ]
         },
@@ -964,7 +948,6 @@
           "detail": "XP（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
           "dates": [
-            "2026-10-09",
             "2026-10-10"
           ]
         },
@@ -974,7 +957,6 @@
           "detail": "PCVX（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
           "dates": [
-            "2026-10-09",
             "2026-10-10"
           ]
         },
@@ -984,7 +966,6 @@
           "detail": "USDE（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065",
           "dates": [
-            "2026-10-09",
             "2026-10-10"
           ]
         },
