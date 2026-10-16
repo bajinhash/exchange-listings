@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-10-10",
   "weekEnd": "2026-10-16",
-  "updatedAt": "2026-10-15T17:32:47.045Z",
+  "updatedAt": "2026-10-16T14:55:03.535Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -53,6 +53,15 @@
       ],
       "alpha": [
         {
+          "token": "DNA",
+          "type": "上线",
+          "detail": "Binance Alpha 上线 DNA - NeoSoul 为智能体经济构建操作系统，支持智能体行动、协作、演进并创造价值。",
+          "url": "https://www.binance.com/en/alpha/bsc/0xa991f61940095aea0724ef54077223b048c5cf7b",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
           "token": "UVXYB",
           "type": "上线",
           "detail": "Binance Alpha 上线 UVXYB",
@@ -93,6 +102,24 @@
     },
     "okx": {
       "listings": [
+        {
+          "token": "MCD",
+          "type": "永续合约",
+          "detail": "MCD（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-tradfi-perpetual-futures-for-mcd-jpm-v-and-gs",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "JPM",
+          "type": "永续合约",
+          "detail": "JPM（同公告含 2 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-tradfi-perpetual-futures-for-mcd-jpm-v-and-gs",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
         {
           "token": "DNA",
           "type": "永续合约",
@@ -249,10 +276,38 @@
       ]
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "DNA",
+          "type": "永续合约",
+          "detail": "全新上線：DNAUSDT 永續合約將於 2026 年 10 月 16 日11:45 UTC 上線 Bybit 平台",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-dnausdt-on-bybit-perpetual-on-oct-16-2026-11-45am-utc--art2e000df3b3e1/",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "DRV",
+          "type": "永续合约",
+          "detail": "全新上線：DRVUSDT 永續合約將於 2026 年 10 月 16 日10:30 UTC 上線 Bybit 平台",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-drvusdt-on-bybit-perpetual-on-oct-16-2026-10-30am-utc--arta27d4222539c/",
+          "dates": [
+            "2026-10-16"
+          ]
+        }
+      ]
     },
     "kucoin": {
       "listings": [
+        {
+          "token": "PYBOBO",
+          "type": "永续合约",
+          "detail": "KuCoin Futures New Listing: PYBOBOUSDT Perpetual Contract with Up to 8x Leverage (2026-10-16)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-pybobousdt-perpetual-contract-with-up-to-8x-leverage-2026-10-16",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
         {
           "token": "DNA",
           "type": "现货上线",
@@ -322,12 +377,57 @@
       "listings": [
         {
           "token": "DNA",
+          "type": "Launchpool",
+          "detail": "Gate 将上线 NeoSoul (DNA) 现货交易、闪兑交易并开启 Launchpool，质押...9 小时前600",
+          "url": "https://www.gate.com/zh/announcements/article/102248",
+          "dates": [
+            "2026-10-15",
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "SPCX",
+          "type": "Pre-IPO 上线",
+          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第四批 7% 解锁的安排公告2 小时前229",
+          "url": "https://www.gate.com/zh/announcements/article/102282",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "FTR",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 FTR (Flying Tesla Roadster)、Dacity (Dacity Coin)、1 (Trump $1 Coin)、...5 小时前218",
+          "url": "https://www.gate.com/zh/announcements/article/102278",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "GT7",
+          "type": "上线",
+          "detail": "闪兑打卡双重礼：每日闪兑领 20 USDT，加码赢 10 GT7 小时前565",
+          "url": "https://www.gate.com/zh/announcements/article/102273",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "MEME",
+          "type": "上线",
+          "detail": "金秋十月，交易 MEME 享三重奖励7 小时前494",
+          "url": "https://www.gate.com/zh/announcements/article/102271",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "DNA",
           "type": "杠杆上线",
           "detail": "Gate 将上线 NeoSoul (DNA) 合约交易、杠杆借贷交易、交易机器人、...5 小时前364",
           "url": "https://www.gate.com/zh/announcements/article/102259",
           "dates": [
-            "2026-10-15",
-            "2026-10-16"
+            "2026-10-15"
           ]
         },
         {
@@ -353,15 +453,6 @@
           "type": "上线",
           "detail": "gStocks 财富号角：每日交易持仓，直通 $60,000 TSLAG 奖池9 小时前571",
           "url": "https://www.gate.com/zh/announcements/article/102250",
-          "dates": [
-            "2026-10-15"
-          ]
-        },
-        {
-          "token": "DNA",
-          "type": "Launchpool",
-          "detail": "Gate 将上线 NeoSoul (DNA) 现货交易、闪兑交易并开启 Launchpool，质押...9 小时前600",
-          "url": "https://www.gate.com/zh/announcements/article/102248",
           "dates": [
             "2026-10-15"
           ]
@@ -546,94 +637,6 @@
     "mexc": {
       "listings": [
         {
-          "token": "PLD",
-          "type": "美股合约",
-          "detail": "PLD（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147",
-          "dates": [
-            "2026-10-14",
-            "2026-10-15",
-            "2026-10-16"
-          ]
-        },
-        {
-          "token": "BP",
-          "type": "美股合约",
-          "detail": "BP（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147",
-          "dates": [
-            "2026-10-14",
-            "2026-10-15",
-            "2026-10-16"
-          ]
-        },
-        {
-          "token": "MRSH",
-          "type": "美股合约",
-          "detail": "MRSH（同公告含 3 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147",
-          "dates": [
-            "2026-10-14",
-            "2026-10-15",
-            "2026-10-16"
-          ]
-        },
-        {
-          "token": "AMT",
-          "type": "跟单合约",
-          "detail": "AMT（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
-          "dates": [
-            "2026-10-14",
-            "2026-10-15",
-            "2026-10-16"
-          ]
-        },
-        {
-          "token": "WMB",
-          "type": "跟单合约",
-          "detail": "WMB（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
-          "dates": [
-            "2026-10-14",
-            "2026-10-15",
-            "2026-10-16"
-          ]
-        },
-        {
-          "token": "CCI",
-          "type": "跟单合约",
-          "detail": "CCI（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
-          "dates": [
-            "2026-10-14",
-            "2026-10-15",
-            "2026-10-16"
-          ]
-        },
-        {
-          "token": "TMUS",
-          "type": "跟单合约",
-          "detail": "TMUS（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
-          "dates": [
-            "2026-10-14",
-            "2026-10-15",
-            "2026-10-16"
-          ]
-        },
-        {
-          "token": "FICO",
-          "type": "跟单合约",
-          "detail": "FICO（同公告含 5 个标的）",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
-          "dates": [
-            "2026-10-14",
-            "2026-10-15",
-            "2026-10-16"
-          ]
-        },
-        {
           "token": "CENT",
           "type": "上线",
           "detail": "MEXC 將於 2026年10月15日 21:30 (UTC+8) 起把 CENTUSDT 從創新區轉板至主板區",
@@ -701,6 +704,212 @@
           "dates": [
             "2026-10-15",
             "2026-10-16"
+          ]
+        },
+        {
+          "token": "DOPE",
+          "type": "Meme+ 现货",
+          "detail": "DOPE 現已上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539190",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "DNA",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年10月16日 20:30 (UTC+8) 起把 DNAUSDT 從創新區轉板至主板區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-dnausdt-from-innovation-zone-to-main-board-on-oct-16-2026-12-17827791539189",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "URI",
+          "type": "美股合约",
+          "detail": "URI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539187",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "KMB",
+          "type": "美股合约",
+          "detail": "KMB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539187",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "KEYS",
+          "type": "美股合约",
+          "detail": "KEYS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539187",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "PG",
+          "type": "美股合约",
+          "detail": "PG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539187",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "FIX",
+          "type": "美股合约",
+          "detail": "FIX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539187",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "DOPE",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年10月16日 18:05 (UTC+8) 上線 DOPEUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539186",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "DNA",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年10月16日 16:10 (UTC+8) 上線 DNAUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539179",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "UNP",
+          "type": "跟单合约",
+          "detail": "UNP（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-unp-cah-mck-wfc-and-vz-usdt-m-futures-17827791539177",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "CAH",
+          "type": "跟单合约",
+          "detail": "CAH（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-unp-cah-mck-wfc-and-vz-usdt-m-futures-17827791539177",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "MCK",
+          "type": "跟单合约",
+          "detail": "MCK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-unp-cah-mck-wfc-and-vz-usdt-m-futures-17827791539177",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "WFC",
+          "type": "跟单合约",
+          "detail": "WFC（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-unp-cah-mck-wfc-and-vz-usdt-m-futures-17827791539177",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "VZ",
+          "type": "跟单合约",
+          "detail": "VZ（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-unp-cah-mck-wfc-and-vz-usdt-m-futures-17827791539177",
+          "dates": [
+            "2026-10-16"
+          ]
+        },
+        {
+          "token": "PLD",
+          "type": "美股合约",
+          "detail": "PLD（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147",
+          "dates": [
+            "2026-10-14",
+            "2026-10-15"
+          ]
+        },
+        {
+          "token": "BP",
+          "type": "美股合约",
+          "detail": "BP（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147",
+          "dates": [
+            "2026-10-14",
+            "2026-10-15"
+          ]
+        },
+        {
+          "token": "MRSH",
+          "type": "美股合约",
+          "detail": "MRSH（同公告含 3 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147",
+          "dates": [
+            "2026-10-14",
+            "2026-10-15"
+          ]
+        },
+        {
+          "token": "AMT",
+          "type": "跟单合约",
+          "detail": "AMT（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
+          "dates": [
+            "2026-10-14",
+            "2026-10-15"
+          ]
+        },
+        {
+          "token": "WMB",
+          "type": "跟单合约",
+          "detail": "WMB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
+          "dates": [
+            "2026-10-14",
+            "2026-10-15"
+          ]
+        },
+        {
+          "token": "CCI",
+          "type": "跟单合约",
+          "detail": "CCI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
+          "dates": [
+            "2026-10-14",
+            "2026-10-15"
+          ]
+        },
+        {
+          "token": "TMUS",
+          "type": "跟单合约",
+          "detail": "TMUS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
+          "dates": [
+            "2026-10-14",
+            "2026-10-15"
+          ]
+        },
+        {
+          "token": "FICO",
+          "type": "跟单合约",
+          "detail": "FICO（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143",
+          "dates": [
+            "2026-10-14",
+            "2026-10-15"
           ]
         },
         {
