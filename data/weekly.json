@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-10-10",
   "weekEnd": "2026-10-16",
-  "updatedAt": "2026-10-16T14:55:03.535Z",
+  "updatedAt": "2026-10-16T15:04:49.468Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -388,7 +388,7 @@
         {
           "token": "SPCX",
           "type": "Pre-IPO 上线",
-          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第四批 7% 解锁的安排公告2 小时前229",
+          "detail": "Gate Pre-IPOs 股票解锁：SpaceX (SPCX) 将进行第四批 7% 解锁的安排公告3 小时前242",
           "url": "https://www.gate.com/zh/announcements/article/102282",
           "dates": [
             "2026-10-16"
@@ -397,7 +397,7 @@
         {
           "token": "FTR",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 FTR (Flying Tesla Roadster)、Dacity (Dacity Coin)、1 (Trump $1 Coin)、...5 小时前218",
+          "detail": "Gate 打金狗首发上线 FTR (Flying Tesla Roadster)、Dacity (Dacity Coin)、1 (Trump $1 Coin)、...5 小时前224",
           "url": "https://www.gate.com/zh/announcements/article/102278",
           "dates": [
             "2026-10-16"
@@ -406,7 +406,7 @@
         {
           "token": "GT7",
           "type": "上线",
-          "detail": "闪兑打卡双重礼：每日闪兑领 20 USDT，加码赢 10 GT7 小时前565",
+          "detail": "闪兑打卡双重礼：每日闪兑领 20 USDT，加码赢 10 GT7 小时前575",
           "url": "https://www.gate.com/zh/announcements/article/102273",
           "dates": [
             "2026-10-16"
@@ -415,7 +415,7 @@
         {
           "token": "MEME",
           "type": "上线",
-          "detail": "金秋十月，交易 MEME 享三重奖励7 小时前494",
+          "detail": "金秋十月，交易 MEME 享三重奖励7 小时前506",
           "url": "https://www.gate.com/zh/announcements/article/102271",
           "dates": [
             "2026-10-16"
