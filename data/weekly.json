@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-10-11",
   "weekEnd": "2026-10-17",
-  "updatedAt": "2026-10-17T13:48:19.098Z",
+  "updatedAt": "2026-10-17T13:57:41.253Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -409,7 +409,7 @@
         {
           "token": "GT1",
           "type": "上线",
-          "detail": "闪兑打卡双重礼：每日闪兑领 20 USDT，加码赢 10 GT1 天前1,209",
+          "detail": "闪兑打卡双重礼：每日闪兑领 20 USDT，加码赢 10 GT1 天前1,212",
           "url": "https://www.gate.com/zh/announcements/article/102273",
           "dates": [
             "2026-10-17"
