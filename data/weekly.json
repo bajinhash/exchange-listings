@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-10-12",
-  "weekEnd": "2026-10-18",
-  "updatedAt": "2026-10-18T15:01:06.276Z",
+  "weekStart": "2026-10-13",
+  "weekEnd": "2026-10-19",
+  "updatedAt": "2026-10-18T16:19:09.988Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -382,7 +382,8 @@
           "detail": "Gate 合约 Meme 专区已上线 CLAUDIA 合约交易、交易机器人、跟单功能5 小时前315",
           "url": "https://www.gate.com/zh/announcements/article/102284",
           "dates": [
-            "2026-10-18"
+            "2026-10-18",
+            "2026-10-19"
           ]
         },
         {
@@ -576,24 +577,6 @@
           "url": "https://www.gate.com/zh/announcements/article/102196",
           "dates": [
             "2026-10-13"
-          ]
-        },
-        {
-          "token": "PULP",
-          "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 PULP (PaperDAO)1 天前705",
-          "url": "https://www.gate.com/zh/announcements/article/102159",
-          "dates": [
-            "2026-10-12"
-          ]
-        },
-        {
-          "token": "WLFI",
-          "type": "上线",
-          "detail": "Gate ETF 精英加码礼：交易 ETF 赢  WLFI，解锁三重专享福利1 天前944",
-          "url": "https://www.gate.com/zh/announcements/article/102156",
-          "dates": [
-            "2026-10-12"
           ]
         }
       ]
