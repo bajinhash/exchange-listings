@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-10-13",
-  "weekEnd": "2026-10-19",
-  "updatedAt": "2026-10-18T16:19:09.988Z",
+  "weekStart": "2026-10-14",
+  "weekEnd": "2026-10-20",
+  "updatedAt": "2026-10-19T17:05:20.337Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -362,15 +362,6 @@
           "dates": [
             "2026-10-14"
           ]
-        },
-        {
-          "token": "VAYLA",
-          "type": "现货上线",
-          "detail": "World Premiere: VAYLA (VAYLA) Listed on KuCoinTrading: 10:00 on October 13, 2026 (UTC)",
-          "url": "https://www.kucoin.com/announcement/en-world-premiere-vayla-vayla-listed-on-kucoin",
-          "dates": [
-            "2026-10-13"
-          ]
         }
       ]
     },
@@ -533,56 +524,47 @@
           "dates": [
             "2026-10-14"
           ]
-        },
-        {
-          "token": "NFLXON",
-          "type": "上线",
-          "detail": "NFLXON（同公告含 5 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/102196",
-          "dates": [
-            "2026-10-13"
-          ]
-        },
-        {
-          "token": "NFLXX",
-          "type": "上线",
-          "detail": "NFLXX（同公告含 5 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/102196",
-          "dates": [
-            "2026-10-13"
-          ]
-        },
-        {
-          "token": "TQQQX",
-          "type": "上线",
-          "detail": "TQQQX（同公告含 5 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/102196",
-          "dates": [
-            "2026-10-13"
-          ]
-        },
-        {
-          "token": "CRWDX",
-          "type": "上线",
-          "detail": "CRWDX（同公告含 5 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/102196",
-          "dates": [
-            "2026-10-13"
-          ]
-        },
-        {
-          "token": "AZNX",
-          "type": "上线",
-          "detail": "AZNX（同公告含 5 个标的）",
-          "url": "https://www.gate.com/zh/announcements/article/102196",
-          "dates": [
-            "2026-10-13"
-          ]
         }
       ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "CSTOCK",
+          "type": "美股合约",
+          "detail": "CSTOCK（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898053",
+          "dates": [
+            "2026-10-20"
+          ]
+        },
+        {
+          "token": "MDT",
+          "type": "美股合约",
+          "detail": "MDT（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898053",
+          "dates": [
+            "2026-10-20"
+          ]
+        },
+        {
+          "token": "BP",
+          "type": "美股合约",
+          "detail": "BP（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898053",
+          "dates": [
+            "2026-10-20"
+          ]
+        },
+        {
+          "token": "VLO",
+          "type": "美股合约",
+          "detail": "VLO（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898053",
+          "dates": [
+            "2026-10-20"
+          ]
+        },
         {
           "token": "DNA",
           "type": "现货上线",
@@ -609,29 +591,56 @@
           "dates": [
             "2026-10-14"
           ]
-        },
-        {
-          "token": "ZCSH",
-          "type": "美股合约",
-          "detail": "ZCSH（同公告含 2 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897163",
-          "dates": [
-            "2026-10-13"
-          ]
-        },
-        {
-          "token": "SNPS",
-          "type": "美股合约",
-          "detail": "SNPS（同公告含 2 个标的）",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897163",
-          "dates": [
-            "2026-10-13"
-          ]
         }
       ]
     },
     "mexc": {
       "listings": [
+        {
+          "token": "ALLSTOCK",
+          "type": "美股合约",
+          "detail": "ALLSTOCK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539220",
+          "dates": [
+            "2026-10-20"
+          ]
+        },
+        {
+          "token": "EOG",
+          "type": "美股合约",
+          "detail": "EOG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539220",
+          "dates": [
+            "2026-10-20"
+          ]
+        },
+        {
+          "token": "LHX",
+          "type": "美股合约",
+          "detail": "LHX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539220",
+          "dates": [
+            "2026-10-20"
+          ]
+        },
+        {
+          "token": "NXPI",
+          "type": "美股合约",
+          "detail": "NXPI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539220",
+          "dates": [
+            "2026-10-20"
+          ]
+        },
+        {
+          "token": "DIA",
+          "type": "美股合约",
+          "detail": "DIA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539220",
+          "dates": [
+            "2026-10-20"
+          ]
+        },
         {
           "token": "DNA",
           "type": "上线",
@@ -1045,24 +1054,6 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cent-usdt-m-futures-17827791539129",
           "dates": [
             "2026-10-14"
-          ]
-        },
-        {
-          "token": "JEANPHIL",
-          "type": "上线",
-          "detail": "JEANPHIL 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-jeanphil-to-innovation-zone-17827791539122",
-          "dates": [
-            "2026-10-13"
-          ]
-        },
-        {
-          "token": "CLAUDIA",
-          "type": "上线",
-          "detail": "CLAUDIA 將遷移至創新區",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-claudia-to-innovation-zone-17827791539121",
-          "dates": [
-            "2026-10-13"
           ]
         }
       ]

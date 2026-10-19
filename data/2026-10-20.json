@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-20",
+  "updatedAt": "2026-10-19T17:05:20.166Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CSTOCK",
+          "type": "美股合约",
+          "detail": "CSTOCK（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898053"
+        },
+        {
+          "token": "MDT",
+          "type": "美股合约",
+          "detail": "MDT（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898053"
+        },
+        {
+          "token": "BP",
+          "type": "美股合约",
+          "detail": "BP（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898053"
+        },
+        {
+          "token": "VLO",
+          "type": "美股合约",
+          "detail": "VLO（同公告含 4 个标的）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898053"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ALLSTOCK",
+          "type": "美股合约",
+          "detail": "ALLSTOCK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539220"
+        },
+        {
+          "token": "EOG",
+          "type": "美股合约",
+          "detail": "EOG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539220"
+        },
+        {
+          "token": "LHX",
+          "type": "美股合约",
+          "detail": "LHX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539220"
+        },
+        {
+          "token": "NXPI",
+          "type": "美股合约",
+          "detail": "NXPI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539220"
+        },
+        {
+          "token": "DIA",
+          "type": "美股合约",
+          "detail": "DIA（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539220"
+        }
+      ]
+    }
+  }
+}
