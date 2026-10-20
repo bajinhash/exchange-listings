@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-19T18:59:54.786Z",
+  "updatedAt": "2026-10-20T15:07:36.540Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -8,7 +8,44 @@
       "wallet": []
     },
     "okx": {
-      "listings": []
+      "listings": [
+        {
+          "token": "AXIS",
+          "type": "永续合约",
+          "detail": "OKX 關於 AXIS 永續合約正式上線的公告發佈於 2026年10月20日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-perpetual-futures-for-axis-crypto"
+        },
+        {
+          "token": "NFLX",
+          "type": "上线",
+          "detail": "OKX 關於上線 xNFLX USDC 交易幣對的公告發佈於 2026年10月20日",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-usdc-trading-pairs-for-tokenized-stocks-xnflx"
+        },
+        {
+          "token": "RUM",
+          "type": "永续合约",
+          "detail": "RUM（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-tradfi-perpetual-futures-for-rum-crml-cvna-mp-and-twst"
+        },
+        {
+          "token": "CRML",
+          "type": "永续合约",
+          "detail": "CRML（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-tradfi-perpetual-futures-for-rum-crml-cvna-mp-and-twst"
+        },
+        {
+          "token": "CVNA",
+          "type": "永续合约",
+          "detail": "CVNA（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-tradfi-perpetual-futures-for-rum-crml-cvna-mp-and-twst"
+        },
+        {
+          "token": "MP",
+          "type": "永续合约",
+          "detail": "MP（同公告含 4 个标的）",
+          "url": "https://www.okx.com/zh-hant/help/okx-to-list-tradfi-perpetual-futures-for-rum-crml-cvna-mp-and-twst"
+        }
+      ]
     },
     "bybit": {
       "listings": []
@@ -17,10 +54,47 @@
       "listings": []
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "RAETO",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 RAETO (Raeto)、GIGATENEV (Giga Tenev)、Pokémon (Pokémon)5 小时前225",
+          "url": "https://www.gate.com/zh/announcements/article/102336"
+        },
+        {
+          "token": "MPLX",
+          "type": "跟单合约",
+          "detail": "Gate 已上线 MPLX 合约交易、交易机器人、跟单功能5 小时前346",
+          "url": "https://www.gate.com/zh/announcements/article/102335"
+        },
+        {
+          "token": "GTBTC",
+          "type": "上线",
+          "detail": "GTBTC（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102321"
+        },
+        {
+          "token": "GUSD",
+          "type": "上线",
+          "detail": "GUSD（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102321"
+        },
+        {
+          "token": "XRP",
+          "type": "上线",
+          "detail": "50,000 XRP 空投接力：邀请交易双驱动，XRP 奖励加速领8 小时前361",
+          "url": "https://www.gate.com/zh/announcements/article/102319"
+        }
+      ]
     },
     "bitget": {
       "listings": [
+        {
+          "token": "AXIS",
+          "type": "现货上线",
+          "detail": "Axis Robotics (AXIS) 将上线 Bitget AI 区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898107"
+        },
         {
           "token": "CSTOCK",
           "type": "美股合约",
@@ -50,6 +124,96 @@
     "mexc": {
       "listings": [
         {
+          "token": "MPLX",
+          "type": "上线",
+          "detail": "MEXC 將於創新區上線 Metaplex (MPLX)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-metaplex-mplx-in-innovation-zone-17827791539243"
+        },
+        {
+          "token": "PH",
+          "type": "美股合约",
+          "detail": "PH（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539242"
+        },
+        {
+          "token": "WM",
+          "type": "美股合约",
+          "detail": "WM（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539242"
+        },
+        {
+          "token": "KMI",
+          "type": "美股合约",
+          "detail": "KMI（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539242"
+        },
+        {
+          "token": "MDLZ",
+          "type": "美股合约",
+          "detail": "MDLZ（同公告含 4 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539242"
+        },
+        {
+          "token": "MPLX",
+          "type": "现货上线",
+          "detail": "MEXC 合約創新區將於 2026年10月20日 20:30 (UTC+8) 上線 MPLXUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539241"
+        },
+        {
+          "token": "AXIS",
+          "type": "现货上线",
+          "detail": "MEXC 將於創新區上線 Axis Robotics (AXIS)，瓜分 50,000 USDT Airdrop+ 獎池！",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539229"
+        },
+        {
+          "token": "MTO",
+          "type": "上线",
+          "detail": "MEXC 關於恢復 MetaOne (MTO) 交易及提現業務公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-resume-trading-and-withdrawals-for-metaone-mto-17827791539228"
+        },
+        {
+          "token": "ALLSTOCK",
+          "type": "跟单合约",
+          "detail": "ALLSTOCK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-allstock-eog-lhx-nxpi-and-diastock-usdt-m-futures-17827791539227"
+        },
+        {
+          "token": "EOG",
+          "type": "跟单合约",
+          "detail": "EOG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-allstock-eog-lhx-nxpi-and-diastock-usdt-m-futures-17827791539227"
+        },
+        {
+          "token": "LHX",
+          "type": "跟单合约",
+          "detail": "LHX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-allstock-eog-lhx-nxpi-and-diastock-usdt-m-futures-17827791539227"
+        },
+        {
+          "token": "NXPI",
+          "type": "跟单合约",
+          "detail": "NXPI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-allstock-eog-lhx-nxpi-and-diastock-usdt-m-futures-17827791539227"
+        },
+        {
+          "token": "DIASTOCK",
+          "type": "跟单合约",
+          "detail": "DIASTOCK（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-allstock-eog-lhx-nxpi-and-diastock-usdt-m-futures-17827791539227"
+        },
+        {
+          "token": "GTC",
+          "type": "跟单合约",
+          "detail": "MEXC 跟單新增 GTC U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gtc-usdt-m-futures-17827791539226"
+        },
+        {
+          "token": "GTC",
+          "type": "上线",
+          "detail": "MEXC 將於 2026年10月20日 11:50 (UTC+8) 上線 GTCUSDT 合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gtcusdt-futures-on-oct-20-2026-03-17827791539225"
+        },
+        {
           "token": "ALLSTOCK",
           "type": "美股合约",
           "detail": "ALLSTOCK（同公告含 5 个标的）",
@@ -78,6 +242,36 @@
           "type": "美股合约",
           "detail": "DIA（同公告含 5 个标的）",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539220"
+        },
+        {
+          "token": "URI",
+          "type": "跟单合约",
+          "detail": "URI（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-uri-kmb-keys-pg-and-fix-usdt-m-futures-17827791539217"
+        },
+        {
+          "token": "KMB",
+          "type": "跟单合约",
+          "detail": "KMB（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-uri-kmb-keys-pg-and-fix-usdt-m-futures-17827791539217"
+        },
+        {
+          "token": "KEYS",
+          "type": "跟单合约",
+          "detail": "KEYS（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-uri-kmb-keys-pg-and-fix-usdt-m-futures-17827791539217"
+        },
+        {
+          "token": "PG",
+          "type": "跟单合约",
+          "detail": "PG（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-uri-kmb-keys-pg-and-fix-usdt-m-futures-17827791539217"
+        },
+        {
+          "token": "FIX",
+          "type": "跟单合约",
+          "detail": "FIX（同公告含 5 个标的）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-uri-kmb-keys-pg-and-fix-usdt-m-futures-17827791539217"
         }
       ]
     }
