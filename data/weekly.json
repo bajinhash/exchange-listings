@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-10-14",
   "weekEnd": "2026-10-20",
-  "updatedAt": "2026-10-20T15:17:06.195Z",
+  "updatedAt": "2026-10-20T15:59:34.842Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -422,9 +422,27 @@
     "gateio": {
       "listings": [
         {
+          "token": "STG",
+          "type": "上线",
+          "detail": "STG（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102340",
+          "dates": [
+            "2026-10-20"
+          ]
+        },
+        {
+          "token": "ZRO",
+          "type": "上线",
+          "detail": "ZRO（同公告含 2 个标的）",
+          "url": "https://www.gate.com/zh/announcements/article/102340",
+          "dates": [
+            "2026-10-20"
+          ]
+        },
+        {
           "token": "RAETO",
           "type": "现货上线",
-          "detail": "Gate 打金狗首发上线 RAETO (Raeto)、GIGATENEV (Giga Tenev)、Pokémon (Pokémon)5 小时前234",
+          "detail": "Gate 打金狗首发上线 RAETO (Raeto)、GIGATENEV (Giga Tenev)、Pokémon (Pokémon)6 小时前257",
           "url": "https://www.gate.com/zh/announcements/article/102336",
           "dates": [
             "2026-10-20"
@@ -433,7 +451,7 @@
         {
           "token": "MPLX",
           "type": "跟单合约",
-          "detail": "Gate 已上线 MPLX 合约交易、交易机器人、跟单功能5 小时前355",
+          "detail": "Gate 已上线 MPLX 合约交易、交易机器人、跟单功能6 小时前380",
           "url": "https://www.gate.com/zh/announcements/article/102335",
           "dates": [
             "2026-10-20"
@@ -453,15 +471,6 @@
           "type": "上线",
           "detail": "GUSD（同公告含 2 个标的）",
           "url": "https://www.gate.com/zh/announcements/article/102321",
-          "dates": [
-            "2026-10-20"
-          ]
-        },
-        {
-          "token": "XRP",
-          "type": "上线",
-          "detail": "50,000 XRP 空投接力：邀请交易双驱动，XRP 奖励加速领8 小时前365",
-          "url": "https://www.gate.com/zh/announcements/article/102319",
           "dates": [
             "2026-10-20"
           ]
